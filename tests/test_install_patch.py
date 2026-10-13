@@ -119,3 +119,75 @@ def test_game_path_requires_explicit_existing_swf(tmp_path, monkeypatch):
     target.write_bytes(b"synthetic")
     monkeypatch.setenv("GEMCRAFT_GAME_FILE", str(target))
     assert configured_game_file() == target.resolve()
+
+
+def test_local_cli_requires_all_recipe_inputs_without_mutation(tmp_path, monkeypatch):
+    import install_patch
+    import sys
+
+    target = tmp_path / "gc-cs-steam.swf"
+    target.write_bytes(b"synthetic original")
+    candidate = tmp_path / "candidate.swf"
+    candidate.write_bytes(b"synthetic candidate")
+    monkeypatch.setattr(
+        sys,
+        "argv",
+        [
+            "install_patch.py",
+            "apply",
+            "--game-file",
+            str(target),
+            "--candidate",
+            str(candidate),
+            "--workspace",
+            str(tmp_path / "data.json"),
+        ],
+    )
+    with pytest.raises(ValueError, match="require workspace"):
+        install_patch.main()
+    assert target.read_bytes() == b"synthetic original"
+    assert not (tmp_path / "backups").exists()
+
+
+def test_local_cli_reproduces_recipe_before_install(tmp_path, monkeypatch):
+    import addressed_localization
+    import install_patch
+    import sys
+
+    target = tmp_path / "gc-cs-steam.swf"
+    target.write_bytes(b"synthetic original")
+    candidate = tmp_path / "candidate.swf"
+    candidate.write_bytes(b"synthetic candidate")
+    inputs = [
+        tmp_path / name for name in ("workspace.json", "plan.json", "recipes.json")
+    ]
+    for number, path in enumerate(inputs):
+        path.write_text(json.dumps({"synthetic_input": number}))
+    args = [
+        "install_patch.py",
+        "apply",
+        "--game-file",
+        str(target),
+        "--candidate",
+        str(candidate),
+    ]
+    for flag, path in zip(("--workspace", "--plan", "--font-recipes"), inputs):
+        args += [flag, str(path)]
+    monkeypatch.setattr(sys, "argv", args)
+    calls = []
+
+    def validate(original, patched, *documents):
+        calls.append((original, patched, documents))
+        raise ValueError("Synthetic recipe mismatch")
+
+    monkeypatch.setattr(addressed_localization, "validate_localization", validate)
+    with pytest.raises(ValueError, match="recipe mismatch"):
+        install_patch.main()
+    assert calls == [
+        (
+            b"synthetic original",
+            b"synthetic candidate",
+            ({"synthetic_input": 0}, {"synthetic_input": 1}, {"synthetic_input": 2}),
+        )
+    ]
+    assert target.read_bytes() == b"synthetic original"

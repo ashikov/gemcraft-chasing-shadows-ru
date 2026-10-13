@@ -10,18 +10,30 @@ from build_prototype import build_patch, validate_patch
 from install_patch import GAME_FILE, ORIGINAL_SHA256, PROJECT
 
 
-def verify(game_file=GAME_FILE, backup_dir=PROJECT / "backups", inventory_path=None):
-    backup = (
-        backup_dir / (game_file.name + "." + ORIGINAL_SHA256 + ".original")
-    )
+def verify(
+    game_file=GAME_FILE,
+    backup_dir=PROJECT / "backups",
+    inventory_path=None,
+    local_inputs=None,
+):
+    backup = backup_dir / (game_file.name + "." + ORIGINAL_SHA256 + ".original")
     original = backup.read_bytes()
     if hashlib.sha256(original).hexdigest() != ORIGINAL_SHA256:
         raise ValueError("Original backup SHA-256 mismatch")
     installed = game_file.read_bytes()
-    expected = build_patch(original)
-    if installed != expected:
-        raise ValueError("Installed patch differs from reproducible build")
-    validation = validate_patch(original, installed)
+    if local_inputs is not None:
+        if len(local_inputs) != 3 or any(value is None for value in local_inputs):
+            raise ValueError(
+                "Local verification requires workspace, plan and font recipes"
+            )
+        from addressed_localization import validate_localization
+
+        validation = validate_localization(original, installed, *local_inputs)
+    else:
+        expected = build_patch(original)
+        if installed != expected:
+            raise ValueError("Installed patch differs from reproducible build")
+        validation = validate_patch(original, installed)
     inventory = json.loads(inventory_path.read_text()) if inventory_path else []
     expected_paths = {item["path"] for item in inventory}
     actual_paths = {
@@ -63,12 +75,28 @@ if __name__ == "__main__":
     parser.add_argument("--game-file", type=Path, required=True)
     parser.add_argument("--backup-dir", type=Path, default=PROJECT / "backups")
     parser.add_argument("--inventory", type=Path)
+    parser.add_argument("--workspace", type=Path)
+    parser.add_argument("--plan", type=Path)
+    parser.add_argument("--font-recipes", type=Path)
     args = parser.parse_args()
-    report = verify(args.game_file.resolve(), args.backup_dir.resolve(), args.inventory)
+    paths = (args.workspace, args.plan, args.font_recipes)
+    inputs = None
+    if any(paths):
+        if not all(paths):
+            raise ValueError(
+                "Local verification requires workspace, plan and font recipes"
+            )
+        from translation_catalog import load_catalog
+
+        inputs = [load_catalog(path) for path in paths]
+    report = verify(
+        args.game_file.resolve(), args.backup_dir.resolve(), args.inventory, inputs
+    )
     destination = PROJECT / "artifacts" / "installation-verification.json"
     destination.parent.mkdir(exist_ok=True)
     destination.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n")
     print(
         "Verified installed SWF and original backup; "
-        + str(len(report["files"])) + " inventory files checked. No game launch."
+        + str(len(report["files"]))
+        + " inventory files checked. No game launch."
     )
