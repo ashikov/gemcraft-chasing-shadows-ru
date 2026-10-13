@@ -215,12 +215,26 @@ def patch_selected_tags(
         layout = plan.get("layouts", {}).get(identifier)
         if not isinstance(layout, dict) or layout.get("font_id") not in font_ids:
             raise ValueError("Each ABC translation needs a selected font and layout")
+        alternate_ids = layout.get("alternate_font_ids", [])
+        if (
+            not isinstance(alternate_ids, list)
+            or any(type(face) is not int for face in alternate_ids)
+            or len(set(alternate_ids)) != len(alternate_ids)
+            or any(face not in font_ids for face in alternate_ids)
+            or layout["font_id"] in alternate_ids
+        ):
+            raise ValueError("Alternate runtime faces must be unique selected fonts")
         if entry.get("content_type") == "html_fragment" or entry["category"] == "html":
             raise ValueError("HTML rendering needs an explicit supported layout recipe")
         try:
             metrics[identifier] = check_layout(
                 fonts[layout["font_id"]], entry["translation"], layout
             )
+            if alternate_ids:
+                metrics[identifier]["alternate_faces"] = {
+                    str(face): check_layout(fonts[face], entry["translation"], layout)
+                    for face in alternate_ids
+                }
         except ValueError as error:
             raise ValueError(f"{identifier}: {error}") from error
         groups[path[0]].append(entry)

@@ -193,3 +193,56 @@ def test_layout_wraps_words_and_reserves_dynamic_value_width():
                 "wrap": False,
             },
         )
+
+
+def test_caption_requires_glyphs_and_layout_in_alternate_runtime_font_face():
+    raw, _, _, _, _ = fixture()
+    _, tags = read_swf(raw)
+    alternate = font_fixture()
+    alternate["id"] = 4
+    # A plain-text assignment may select the other embedded style in a family.
+    raw = swf([tags[0], Tag(75, build_font(alternate)), *tags[1:-1]])
+    digest = hashlib.sha256(raw).hexdigest()
+    workspace = initialize_workspace(extract_inventory(raw, digest))
+    entry = next(e for e in workspace["entries"] if e["id"] == "abc.2.0.1")
+    entry.update(
+        translation="\u0410",
+        classification="confirmed",
+        context_confidence="confirmed",
+        status="draft",
+    )
+    plan = {
+        "schema_version": 1,
+        "game_sha256": digest,
+        "entry_ids": [entry["id"]],
+        "fonts": [3, 4],
+        "layouts": {
+            entry["id"]: {
+                "font_id": 3,
+                "alternate_font_ids": [4],
+                "height": 240,
+                "max_width": 50,
+                "wrap": False,
+            }
+        },
+    }
+    recipes = {"3": {"\u0410": {"donor": "A"}}, "4": {}}
+    with pytest.raises(ValueError, match="Missing glyph"):
+        patch_selected_tags(raw, workspace, plan, recipes, expected_sha256=digest)
+    recipes["4"] = {"\u0410": {"donor": "A"}}
+    _, _, report = patch_selected_tags(
+        raw, workspace, plan, recipes, expected_sha256=digest
+    )
+    assert report["layout_checks"][entry["id"]]["alternate_faces"]["4"]["widths_twips"]
+    recipes["4"]["\u0410"]["advance"] = 6000
+    with pytest.raises(ValueError, match="field width"):
+        patch_selected_tags(raw, workspace, plan, recipes, expected_sha256=digest)
+
+
+@pytest.mark.parametrize("alternate_ids", [None, [3], [4], [True], [3, 3]])
+def test_alternate_runtime_font_selection_fails_closed(alternate_ids):
+    values = fixture()
+    plan = values[2]
+    plan["layouts"][plan["entry_ids"][0]]["alternate_font_ids"] = alternate_ids
+    with pytest.raises(ValueError, match="Alternate runtime faces"):
+        run(values)
