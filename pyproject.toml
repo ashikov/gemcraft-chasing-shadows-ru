@@ -1,0 +1,8 @@
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+markers = ["local: requires a private original SWF; never launches the game"]
+
+[tool.ruff]
+include = ["*.py"]
+exclude = ["inspect_swf.py"]

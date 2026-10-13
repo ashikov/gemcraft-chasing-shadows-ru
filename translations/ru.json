@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "game_sha256": "c8eadc03a7e607086998695f7696ec22dd90d7b7859e3d10cdfabf40fc7bbad5",
+  "entries": [
+    {
+      "id": "static.3016",
+      "category": "static",
+      "location": {
+        "character_id": 3016,
+        "tag_code": 11,
+        "font_ids": [
+          1
+        ]
+      },
+      "source": "Options",
+      "source_sha256": "d0db8b5e364b6989e4b8f38a2b3846b87d99a51c1592ebf35d21cc66405a8e39",
+      "context": "Заголовок экрана настроек, McOptions; проверенный минимальный прототип",
+      "translation": "Настройки",
+      "mandatory_placeholders": []
+    }
+  ]
+}
