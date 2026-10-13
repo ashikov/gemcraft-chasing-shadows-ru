@@ -1,7 +1,4 @@
-"""Read-only, selected top-level DefineText/DefineText2 extraction.
-
-AS3 and HTML fields require separate context-aware work; this is not a full exporter.
-"""
+"""Read-only selected static extraction or a full local structural inventory."""
 import argparse
 import hashlib
 import json
@@ -72,19 +69,42 @@ def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("input", type=Path)
     parser.add_argument("--original-sha256", required=True)
-    parser.add_argument("--static-id", type=int, action="append", required=True)
+    parser.add_argument("--static-id", type=int, action="append")
+    parser.add_argument("--inventory", action="store_true",
+                        help="Inventory recursive static/edit text and ABC into local JSON")
+    parser.add_argument("--report", type=Path, help="New local aggregate report (inventory only)")
     parser.add_argument("--output", type=Path, required=True,
                         help="Local ignored JSON file; must not already exist")
     args = parser.parse_args(argv)
+    if args.inventory and args.static_id or not args.inventory and not args.static_id:
+        parser.error("Select either --inventory or at least one --static-id")
+    if args.report and not args.inventory:
+        parser.error("--report requires --inventory")
     try:
-        catalog = extract_static(args.input.read_bytes(), args.static_id, args.original_sha256)
+        if args.inventory:
+            from inventory_strings import extract_inventory, inventory_report
+            from install_patch import ORIGINAL_SHA256
+            if args.original_sha256 != ORIGINAL_SHA256:
+                raise ValueError("Inventory CLI requires the supported original SHA-256")
+            catalog = extract_inventory(args.input.read_bytes(), args.original_sha256)
+        else:
+            catalog = extract_static(args.input.read_bytes(), args.static_id, args.original_sha256)
+        paths = [args.output] + ([args.report] if args.report else [])
+        if len({path.resolve() for path in paths}) != len(paths):
+            raise ValueError("Output and report must be distinct files")
+        if any(path.exists() or path.is_symlink() for path in paths):
+            raise ValueError("Output/report already exists; choose new files")
         # Exclusive creation prevents overwriting the source, a catalog, or a local backup.
         with args.output.open("x", encoding="utf-8") as handle:
             json.dump(catalog, handle, ensure_ascii=False, indent=2)
             handle.write("\n")
+        if args.report:
+            with args.report.open("x", encoding="utf-8") as handle:
+                json.dump(inventory_report(catalog), handle, ensure_ascii=False, indent=2)
+                handle.write("\n")
     except (OSError, ValueError) as error:
         parser.exit(1, f"Extraction error: {error}\n")
-    print(f"Extracted {len(catalog['entries'])} selected static entries to {args.output}")
+    print(f"Extracted {len(catalog['entries'])} entries to {args.output}")
 
 
 if __name__ == "__main__":
