@@ -3,7 +3,7 @@ import struct
 
 import pytest
 
-from abc_font_binding import extend_font_pool, insert_method_code
+from abc_font_binding import _pool_sections, extend_font_pool, insert_method_code
 from abc_inventory import ABCInventory, ABCReader
 
 
@@ -33,6 +33,44 @@ def test_pool_extension_preserves_existing_resources():
     assert extend_font_pool(raw) == (result, family, font)
     with pytest.raises(ValueError, match='already'):
         extend_font_pool(result)
+
+
+def test_font_qname_uses_explicit_empty_public_namespace():
+    raw = abc(b'\x47')
+    result, _, font = extend_font_pool(raw)
+    sections, namespaces = _pool_sections(result)
+    inv = inventory(result)
+    assert font == 2
+    reader = ABCReader(result)
+    reader.pos = sections['multiname'][1]
+    assert reader.u8() == 7
+    reader.u30()
+    reader.u30()
+    assert reader.u8() == 7
+    namespace_kind, string_index = namespaces[reader.u30()]
+    assert namespace_kind == 0x16
+    assert string_index > 0
+    assert inv.strings[string_index] == ''
+
+
+def test_font_qname_reuses_existing_explicit_public_namespace():
+    raw = abc(b'\x47').replace(
+        b'\1\1\1\2\1x\2\x16\0\1\2\x07\1\1',
+        b'\1\1\1\3\0\1x\2\x16\1\1\2\x07\1\2',
+        1,
+    )
+    before_sections, before_namespaces = _pool_sections(raw)
+    result, _, _ = extend_font_pool(raw)
+    sections, namespaces = _pool_sections(result)
+    assert before_namespaces == namespaces == [None, (0x16, 1)]
+    assert sections['namespace'][3] == before_sections['namespace'][3]
+    reader = ABCReader(result)
+    reader.pos = sections['multiname'][1]
+    assert reader.u8() == 7
+    reader.u30()
+    reader.u30()
+    assert reader.u8() == 7
+    assert reader.u30() == 1
 
 
 def test_jump_target_runs_inserted_code_and_unselected_body_unchanged():

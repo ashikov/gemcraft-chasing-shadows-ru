@@ -75,13 +75,22 @@ def extend_font_pool(data, family='GCCS Alegreya'):
     family_index = len(before.strings)
     font_string = family_index + 1
     font_index = len(before.multinames)
-    public = next((i for i, ns in enumerate(namespaces) if ns == (0x16, 0)), None)
+    public = next((
+        i for i, ns in enumerate(namespaces)
+        if ns and ns[0] == 0x16 and ns[1] > 0 and before.strings[ns[1]] == ''
+    ), None)
     changes = []
     additions = {'string': _u30(len(family.encode('utf-8'))) + family.encode('utf-8') + b'\4font'}
     counts = {'string': 2, 'multiname': 1}
     if public is None:
+        empty = next((i for i, value in enumerate(before.strings)
+                      if i > 0 and value == ''), None)
+        if empty is None:
+            empty = font_string + 1
+            additions['string'] += b'\0'
+            counts['string'] += 1
         public = sections['namespace'][3]
-        additions['namespace'] = b'\x16\0'
+        additions['namespace'] = b'\x16' + _u30(empty)
         counts['namespace'] = 1
     additions['multiname'] = b'\7' + _u30(public) + _u30(font_string)
     for kind, added in additions.items():
