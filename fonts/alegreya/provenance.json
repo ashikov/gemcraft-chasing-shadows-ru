@@ -1,0 +1,79 @@
+{
+  "family": "Alegreya",
+  "font_version": "Version 2.009",
+  "retrieved_date_utc": "2026-10-14",
+  "license": "OFL-1.1",
+  "copyright": "Copyright 2011 The Alegreya Project Authors (https://github.com/huertatipografica/Alegreya)",
+  "reserved_font_names": [],
+  "google_fonts_commit": "199711f8c8d2cafc88f26c174152abfa18eb62c3",
+  "google_fonts_commit_date": "2026-05-27T14:10:06Z",
+  "upstream_repository": "https://github.com/huertatipografica/Alegreya",
+  "upstream_commit_from_google_metadata": "1dd6b28b57c50e3168db1cbbb8086e7978abcfbf",
+  "upstream_commit_date": "2020-10-07T10:22:29Z",
+  "upstream_caveat": "The upstream fonts/variable path declared in Google METADATA returns HTTP 404 at that upstream commit; the actual font used is independently pinned to the verified Google Fonts file.",
+  "files": {
+    "Alegreya[wght].ttf": {
+      "url": "https://raw.githubusercontent.com/google/fonts/199711f8c8d2cafc88f26c174152abfa18eb62c3/ofl/alegreya/Alegreya%5Bwght%5D.ttf",
+      "sha256": "ba5564634b93a8f8ba57b48cd4f1ae7417d2b4656fbac779028679b00de3cf12",
+      "size_bytes": 425288
+    },
+    "OFL.txt": {
+      "url": "https://raw.githubusercontent.com/google/fonts/199711f8c8d2cafc88f26c174152abfa18eb62c3/ofl/alegreya/OFL.txt",
+      "sha256": "f6f60d5d4cf4f4b1fc4e41353c897a2f5a16e6396c0cd8fa8bdfd2f4586a9a68",
+      "size_bytes": 4395,
+      "tracked_copy_sha256": "ad9c189d8fe80860a6508268d1427d2cd0fec35982f89e935f292077378c7221",
+      "tracked_copy_note": "One trailing space was removed for repository whitespace checks; the license words are unchanged."
+    },
+    "METADATA.pb": {
+      "url": "https://raw.githubusercontent.com/google/fonts/199711f8c8d2cafc88f26c174152abfa18eb62c3/ofl/alegreya/METADATA.pb",
+      "sha256": "9bff810f5954762cad87d175c60b4bd7a5dbd1c6deb2540c56dfaf1186d5f5fc",
+      "size_bytes": 1375
+    }
+  },
+  "units_per_em": 1000,
+  "axes": {
+    "wght": {
+      "min": 400,
+      "default": 400,
+      "max": 900
+    }
+  },
+  "requested_instances": [
+    {
+      "style": "Regular",
+      "wght": 400
+    },
+    {
+      "style": "Bold",
+      "wght": 700
+    }
+  ],
+  "generated_static_instance_sha256": {
+    "400": "0ec23d5c50ab85707fe2a658856d8044ed992333991f3b571e379daab4c0abfa",
+    "700": "09655083ac4dae2f9d427db6b6fcb8c8d4e99aa473cb78316030f6b3a7c08c7b"
+  },
+  "instantiation_guidance": {
+    "fonttools_version": "4.66.1",
+    "python_requires": ">=3.11",
+    "api": "fontTools.varLib.instancer.instantiateVariableFont",
+    "axis_limits": "Pin wght to 400 or 700; all source axes are pinned.",
+    "updateFontNames": false,
+    "name_override": "The converter explicitly renames derivative family/style records to GCCS Alegreya after instancing.",
+    "result_is_static": true,
+    "recalcTimestamp": false,
+    "status": "Static TTF hashes are pinned above; each SWF candidate hash is recorded in its local build report."
+  },
+  "license_notes": [
+    "The supplied OFL.txt declares no Reserved Font Names.",
+    "Format conversion and subsetting are modifications under OFL 1.1; preserve copyright and license with redistributed font material.",
+    "Alegreya license does not grant rights to GemCraft assets."
+  ],
+  "documentation": {
+    "instancer": "https://fonttools.readthedocs.io/en/latest/varLib/instancer.html",
+    "quadratic_and_composite_pens": "https://fonttools.readthedocs.io/en/latest/pens/basePen.html",
+    "gpos": "https://learn.microsoft.com/en-us/typography/opentype/spec/gpos",
+    "swf_spec_adobe_mirror": "https://open-flash.github.io/mirrors/swf-spec-19.pdf",
+    "embedded_textfield_fonts": "https://airsdk.dev/docs/development/text/embedding-fonts",
+    "ofl_faq": "https://openfontlicense.org/ofl-faq/"
+  }
+}
