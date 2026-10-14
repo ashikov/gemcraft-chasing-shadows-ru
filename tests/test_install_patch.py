@@ -191,3 +191,189 @@ def test_local_cli_reproduces_recipe_before_install(tmp_path, monkeypatch):
         )
     ]
     assert target.read_bytes() == b"synthetic original"
+
+
+def test_alegreya_cli_validates_before_atomic_apply_and_restore(tmp_path, monkeypatch):
+    import install_patch
+    import sys
+    from types import SimpleNamespace
+
+    target = tmp_path / "game" / "gc-cs-steam.swf"
+    target.parent.mkdir()
+    target.write_bytes(b"synthetic original")
+    candidate = tmp_path / "candidate.swf"
+    candidate.write_bytes(b"synthetic candidate")
+    workspace, plan = [tmp_path / name for name in ("workspace.json", "plan.json")]
+    workspace.write_text('{"workspace": true}')
+    plan.write_text('{"plan": true}')
+    font = tmp_path / "font.ttf"
+    font.write_bytes(b"synthetic TTF")
+    backup_dir = tmp_path / "backups"
+    calls = []
+
+    def validate(*inputs):
+        calls.append(inputs)
+        if len(calls) == 1:
+            raise ValueError("Synthetic invalid font")
+        return {"valid": True}
+
+    monkeypatch.setitem(
+        sys.modules, "alegreya_localization",
+        SimpleNamespace(validate_alegreya_localization=validate),
+    )
+    monkeypatch.setattr(install_patch, "ORIGINAL_SHA256", sha(b"synthetic original"))
+    monkeypatch.setattr(sys, "argv", [
+        "install_patch.py", "apply", "--game-file", str(target),
+        "--candidate", str(candidate), "--backup-dir", str(backup_dir),
+        "--workspace", str(workspace), "--plan", str(plan),
+        "--alegreya-font", str(font),
+    ])
+    with pytest.raises(ValueError, match="invalid font"):
+        install_patch.main()
+    assert target.read_bytes() == b"synthetic original"
+    assert not backup_dir.exists()
+    install_patch.main()
+    assert calls == [(b"synthetic original", b"synthetic candidate",
+                      {"workspace": True}, {"plan": True}, b"synthetic TTF")] * 2
+    assert target.read_bytes() == b"synthetic candidate"
+    restore_patch_file(next(backup_dir.glob("manifest-*.json")))
+    assert target.read_bytes() == b"synthetic original"
+
+
+@pytest.mark.parametrize("extra, error", [
+    (["--alegreya-font", "font.ttf"], ValueError),
+    (["--alegreya-font", "font.ttf", "--font-recipes", "recipes.json"], SystemExit),
+    (["--workspace", "workspace.json", "--plan", "plan.json"], ValueError),
+])
+def test_font_mode_cli_rejects_incomplete_or_conflicting_inputs(
+    tmp_path, monkeypatch, extra, error
+):
+    import install_patch
+    import sys
+
+    target = tmp_path / "gc-cs-steam.swf"
+    target.write_bytes(b"synthetic original")
+    candidate = tmp_path / "candidate.swf"
+    candidate.write_bytes(b"synthetic candidate")
+    backup_dir = tmp_path / "backups"
+    monkeypatch.setattr(sys, "argv", [
+        "install_patch.py", "apply", "--game-file", str(target),
+        "--candidate", str(candidate), "--backup-dir", str(backup_dir), *extra,
+    ])
+    with pytest.raises(error):
+        install_patch.main()
+    assert target.read_bytes() == b"synthetic original"
+    assert not backup_dir.exists()
+
+
+def test_verifier_alegreya_mode_is_read_only(tmp_path, monkeypatch):
+    import sys
+    from types import SimpleNamespace
+    import verify_experiment
+
+    target = tmp_path / "gc-cs-steam.swf"
+    target.write_bytes(b"synthetic candidate")
+    backup_dir = tmp_path / "backups"
+    backup_dir.mkdir()
+    original_hash = sha(b"synthetic original")
+    backup = backup_dir / (target.name + "." + original_hash + ".original")
+    backup.write_bytes(b"synthetic original")
+    monkeypatch.setattr(verify_experiment, "ORIGINAL_SHA256", original_hash)
+    calls = []
+
+    def validate(*inputs):
+        calls.append(inputs)
+        return {"valid": True}
+
+    monkeypatch.setitem(sys.modules, "alegreya_localization",
+                        SimpleNamespace(validate_alegreya_localization=validate))
+    inputs = ({"workspace": True}, {"plan": True}, b"synthetic TTF")
+    report = verify_experiment.verify(target, backup_dir, alegreya_inputs=inputs)
+    assert calls == [(b"synthetic original", b"synthetic candidate", *inputs)]
+    assert report["static_validation"] == {"valid": True}
+    assert target.read_bytes() == b"synthetic candidate"
+    assert backup.read_bytes() == b"synthetic original"
+    with pytest.raises(ValueError, match="mutually exclusive"):
+        verify_experiment.verify(target, backup_dir, local_inputs=inputs,
+                                 alegreya_inputs=inputs)
+    with pytest.raises(ValueError, match="workspace, plan and Alegreya"):
+        verify_experiment.verify(target, backup_dir, alegreya_inputs=({}, None, b"font"))
+
+
+@pytest.mark.parametrize("font_flag", ["--alegreya-font", "--font-recipes"])
+def test_verifier_cli_routes_font_mode(tmp_path, monkeypatch, font_flag):
+    import sys
+    import verify_experiment
+
+    workspace, plan = [tmp_path / name for name in ("workspace.json", "plan.json")]
+    workspace.write_text('{"workspace": true}')
+    plan.write_text('{"plan": true}')
+    font = tmp_path / "font-input"
+    font.write_bytes(b"synthetic TTF" if font_flag == "--alegreya-font" else b'{"recipe": true}')
+    target = tmp_path / "game" / "gc-cs-steam.swf"
+    backup_dir = tmp_path / "backups"
+    calls = []
+
+    def verify(*args, **kwargs):
+        calls.append((args, kwargs))
+        return {"files": []}
+
+    monkeypatch.setattr(verify_experiment, "verify", verify)
+    monkeypatch.setattr(verify_experiment, "PROJECT", tmp_path)
+    monkeypatch.setattr(sys, "argv", [
+        "verify_experiment.py", "--game-file", str(target),
+        "--backup-dir", str(backup_dir), "--workspace", str(workspace),
+        "--plan", str(plan), font_flag, str(font),
+    ])
+    verify_experiment.main()
+    documents = [{"workspace": True}, {"plan": True}, {"recipe": True}]
+    if font_flag == "--alegreya-font":
+        assert calls == [((target.resolve(), backup_dir.resolve(), None, None),
+                          {"alegreya_inputs": ({"workspace": True}, {"plan": True},
+                                                b"synthetic TTF")})]
+    else:
+        assert calls == [((target.resolve(), backup_dir.resolve(), None, documents),
+                          {"alegreya_inputs": None})]
+    assert (tmp_path / "artifacts" / "installation-verification.json").is_file()
+    assert not target.exists()
+    assert not backup_dir.exists()
+
+
+def test_verifier_cli_preserves_prior_report(tmp_path, monkeypatch):
+    import sys
+    import verify_experiment
+
+    target = tmp_path / "gc-cs-steam.swf"
+    report_path = tmp_path / "previous-verification.json"
+    report_path.write_text('historical evidence')
+    monkeypatch.setattr(verify_experiment, "verify", lambda *args, **kwargs: {"files": []})
+    monkeypatch.setattr(sys, "argv", [
+        "verify_experiment.py", "--game-file", str(target),
+        "--report", str(report_path),
+    ])
+    with pytest.raises(FileExistsError):
+        verify_experiment.main()
+    assert report_path.read_text() == 'historical evidence'
+
+
+@pytest.mark.parametrize("extra, error", [
+    (["--alegreya-font", "font.ttf"], ValueError),
+    (["--alegreya-font", "font.ttf", "--font-recipes", "recipes.json"], SystemExit),
+    (["--workspace", "workspace.json", "--plan", "plan.json"], ValueError),
+])
+def test_verifier_cli_rejects_incomplete_or_conflicting_inputs(
+    tmp_path, monkeypatch, extra, error
+):
+    import sys
+    import verify_experiment
+
+    target = tmp_path / "gc-cs-steam.swf"
+    target.write_bytes(b"synthetic candidate")
+    monkeypatch.setattr(verify_experiment, "PROJECT", tmp_path)
+    monkeypatch.setattr(sys, "argv", [
+        "verify_experiment.py", "--game-file", str(target), *extra,
+    ])
+    with pytest.raises(error):
+        verify_experiment.main()
+    assert target.read_bytes() == b"synthetic candidate"
+    assert not (tmp_path / "artifacts").exists()

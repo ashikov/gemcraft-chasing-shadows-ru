@@ -2,12 +2,11 @@
 
 Неофициальный проект русской локализации для личного использования.
 Правила для coding agents: [AGENTS.md](AGENTS.md).
-**Четвёртый разрешённый запуск подтвердил русские подписи во всех четырёх
-разделах меню и проверенных динамических подсказках.** В просмотренных состояниях
-исправленные «б» и «Б» различимы, правая засечка «Б» видна; обрезания и пустых
-символов не обнаружено. Этап 3 применяет 141 подтверждённую запись и одно
-уведомление с неподтверждённой достижимостью. Общий статус — **PARTIAL**:
-остальные значения переключателей, все подсказки и боевые состояния не проверены.
+Для локализованного меню выбрана **Alegreya Regular 400 / Bold 700**.
+Офлайн-кандидат использует отдельные встроенные шрифты и 142 подготовленных
+адресных перевода. Его отображение в игре ещё не проверялось; v6
+и не установленная v7 остаются историческими результатами. Четвёртый разрешённый
+запуск проверял именно v6, а не Alegreya.
 
 Поддерживается только проверенный Steam SWF игры 1.0.6 (build 734216,
 AppID 296490), определяемый **по SHA-256**, а не по имени или номеру версии:
@@ -21,8 +20,11 @@ prototype: 41bb1a40cf95f8b48a9829df130ee492f07c8dcb2539070b11c07fc181f592e9
 
 - `build_prototype.py`, `swf_geometry.py`: существующие SWF/font/text инструменты;
   добавление DefineFont3 и замена единственного DefineText 3016.
-- `addressed_localization.py`, `abc_patch.py`, `localization_fonts.py`:
-  адресное применение выбранных локальных переводов и расширение встроенного шрифта.
+- `alegreya_localization.py`, `alegreya_fonts.py`, `abc_font_binding.py`:
+  основная сборка меню с отдельными DefineFont3 и адресной привязкой форматов ABC.
+- `addressed_localization.py`, `abc_patch.py`:
+  проверка адресов и изолированные замены переводов.
+- `localization_fonts.py`: исторический способ воспроизвести v1–v7.
 - `install_patch.py`, `restore_game.py`: hash-guarded apply/restore и backup.
 - `preview_typography.py`: необязательный офлайн просмотр контуров.
 - `verify_experiment.py`: read-only проверка установленного патча.
@@ -35,9 +37,10 @@ prototype: 41bb1a40cf95f8b48a9829df130ee492f07c8dcb2539070b11c07fc181f592e9
   **только локально**, исключены из Git.
 
 Нужны Python 3.11+, собственная установленная Steam-копия игры и доступ к её
-файлам. Патчер использует только стандартную библиотеку. Тесты требуют pytest,
-проверка стиля — Ruff. Для необязательных preview нужен Pillow и локальные
-референсные TTF; сборка и тесты от них не зависят.
+файлам. Сборка Alegreya требует закреплённый `fontTools` из
+`requirements-build.txt`; тесты требуют pytest, проверка стиля — Ruff.
+Для необязательного preview нужен Pillow. Историческая сборка и файловые
+операции apply/restore используют стандартную библиотеку.
 
 ```sh
 python3 -m venv .venv
@@ -88,7 +91,7 @@ python restore_game.py --game-file /path/to/game/gc-cs-steam.swf \
   --manifest /path/to/backups/manifest-HASH.json
 # Эквивалент: python install_patch.py restore с теми же аргументами.
 python verify_experiment.py --game-file /path/to/game/gc-cs-steam.swf \
-  --backup-dir /path/to/backups
+  --backup-dir /path/to/backups --report /path/to/new-verification.json
 ```
 
 Restore проверяет оригинальный backup по размеру и SHA, разрешает замену только
@@ -97,6 +100,7 @@ Steam неизвестный файл не перезаписывается. Н�
 Read-only verifier опционально принимает `--inventory file-inventory.json`:
 тогда проверяет также неизменность остальных файлов по локальной инвентаризации.
 Без inventory проверяет только SWF и backup. Это не runtime-проверка.
+Отчёт создаётся только по новому пути: прежние свидетельства не перезаписываются.
 
 ## Проверки
 
@@ -112,47 +116,52 @@ GEMCRAFT_ORIGINAL=/path/to/original/gc-cs-steam.swf python -m pytest -q -m local
 отсутствии проверки, требующие оригинала, пропускаются. GitHub Actions выполняет
 только синтетические тесты, lint, компиляцию и проверку каталога, без игры.
 
-## Ограничения и дальнейшая работа
+## Меню с Alegreya
 
-Проверенный рецепт заголовка сохранён без изменения. Локальный кандидат меню
-дополняет обычное начертание 51 кириллическим глифом и полужирное — 54;
-исходные латинские
-контуры, метрики и alignment zones сохранены по кодам. Новый шрифт использует
-местные рецепты из исключённого из Git файла. Контуры и шрифтовые ресурсы
-не публикуются. Выборочные подписи и подсказки проверены в игре; остальные
-состояния, переносы всех подсказок и качество сглаживания требуют проверки.
-
-Сборка читает проверенные адреса из существующего workspace. Пример для уже
-подготовленных **локальных** файлов; это не загрузка готовых переводов из Git:
+Сборка читает проверенные адреса из существующего **локального** workspace и
+официальный TTF, сверяемый с
+[`fonts/alegreya/provenance.json`](fonts/alegreya/provenance.json). При установке
+повторно проверяется весь кандидат. Пример предполагает уже проверенный оригинал
+и новый каталог вывода:
 
 ```sh
-python addressed_localization.py --source /path/to/original/gc-cs-steam.swf \
+python alegreya_localization.py --source /path/to/original/gc-cs-steam.swf \
   --workspace local/extraction/translation-workspace.json \
   --plan local/extraction/options-plan.json \
-  --font-recipes local/extraction/options-font-recipes.json \
-  --output-dir output/options-candidate
+  --alegreya-font 'reference-fonts/alegreya/Alegreya[wght].ttf' \
+  --output-dir output/options-alegreya-candidate
 # После проверки оригинальной установки; для обновления сначала restore:
 python install_patch.py apply --game-file /path/to/game/gc-cs-steam.swf \
-  --candidate output/options-candidate/gc-cs-steam.ru.swf \
+  --candidate output/options-alegreya-candidate/gc-cs-steam.ru.swf \
   --workspace local/extraction/translation-workspace.json \
   --plan local/extraction/options-plan.json \
-  --font-recipes local/extraction/options-font-recipes.json
+  --alegreya-font 'reference-fonts/alegreya/Alegreya[wght].ttf'
 python verify_experiment.py --game-file /path/to/game/gc-cs-steam.swf \
+  --report /path/to/new-alegreya-verification.json \
   --workspace local/extraction/translation-workspace.json \
   --plan local/extraction/options-plan.json \
-  --font-recipes local/extraction/options-font-recipes.json
+  --alegreya-font 'reference-fonts/alegreya/Alegreya[wght].ttf'
 ```
 
 `--output-dir` должен быть новым: сборка не перезаписывает кандидаты и отчёты.
-Installer и verifier повторяют сборку по локальным данным и сравнивают весь
-кандидат. Без трёх дополнительных аргументов действует прежний рецепт заголовка.
-Формат выбора адресов и ограничения — [в документации переводов](docs/translations.md).
+Старый `--font-recipes` остаётся только для воспроизведения v1–v7 и отката;
+с `--alegreya-font` он несовместим. Без локальных аргументов действует прежний
+минимальный рецепт заголовка. Формат адресов —
+[в документации переводов](docs/translations.md).
+
+Исходные font ID 1/255 и alignment zones сохраняются побайтово. Новые ID
+6001/6002 и адресные ABC-вставки предназначены только для подтверждённых
+элементов настроек. Статическая проверка не доказывает выбор встроенного
+начертания AIR, реальный перенос или читаемость; до отдельного разрешённого
+запуска это остаётся открытым. Уведомление сброса обучения имеет
+неподтверждённую достижимость и использует общий ресурс сообщений.
 
 Инструменты этапа 2 сохраняют полный структурный локальный снимок DefineText/2,
 DefineEditText и строк/использований ABC. Поиск видимых состояний требует проверки
 связей и runtime; [статистика и пробелы](docs/string-inventory.md).
-HTML-переписывание, расширение на другие экраны, новые версии игры и универсальная
-релокация ABC не реализованы. Новые переводы, оригиналы, рецепты и скриншоты
+HTML-переписывание, расширение на другие экраны и новые версии игры не реализованы.
+ABC-релокация ограничена проверенными вставками в выбранные методы. Новые переводы,
+оригиналы, старые рецепты и скриншоты
 остаются локально; публикационный allowlist не расширен.
 
 Подробнее: [формат и извлечение](docs/translations.md),

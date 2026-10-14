@@ -123,7 +123,13 @@ def check_layout(font, translation, layout):
 
 
 def patch_selected_tags(
-    original, workspace, plan, recipes, *, expected_sha256=ORIGINAL_SHA256
+    original,
+    workspace,
+    plan,
+    recipes,
+    *,
+    expected_sha256=ORIGINAL_SHA256,
+    replacement_fonts=None,
 ):
     if sha(original) != expected_sha256 or plan.get("game_sha256") != expected_sha256:
         raise ValueError("Original or plan SHA-256 mismatch")
@@ -151,18 +157,27 @@ def patch_selected_tags(
     font_ids = plan.get("fonts", [])
     if not isinstance(font_ids, list) or len(set(font_ids)) != len(font_ids):
         raise ValueError("Invalid or duplicate font selection")
-    if set(recipes) != {str(identifier) for identifier in font_ids}:
-        raise ValueError("Recipe fonts differ from selected fonts")
+    if replacement_fonts is None:
+        if set(recipes) != {str(identifier) for identifier in font_ids}:
+            raise ValueError("Recipe fonts differ from selected fonts")
+    elif set(replacement_fonts) != set(font_ids):
+        raise ValueError("Independent font selection differs from selected fonts")
     fonts = dict(source_fonts)
     for identifier in font_ids:
         if identifier not in source_fonts:
             raise ValueError("Selected font not found")
-        fonts[identifier] = extend_font(
-            source_fonts[identifier], recipes[str(identifier)]
-        )
+        if replacement_fonts is None:
+            fonts[identifier] = extend_font(
+                source_fonts[identifier], recipes[str(identifier)]
+            )
+        else:
+            font = replacement_fonts[identifier]
+            if font["id"] in source_fonts or font["id"] == 6000:
+                raise ValueError("Independent font ID collides with original resources")
+            fonts[identifier] = parse_font(build_font(font))
     # Sorted insertion must not alter any static reference, even in nested sprites.
     for tag, _, _ in walk_tags(tags):
-        if tag.code in (11, 33):
+        if replacement_fonts is None and tag.code in (11, 33):
             text = parse_text(tag.payload, tag.code)
             active_font = None
             for record in text["records"]:
@@ -248,11 +263,11 @@ def patch_selected_tags(
             )
         elif tag.code == 75:
             identifier = int.from_bytes(payload[:2], "little")
-            if identifier in font_ids:
+            if replacement_fonts is None and identifier in font_ids:
                 payload = build_font(fonts[identifier])
         elif tag.code == 73:
             identifier = int.from_bytes(payload[:2], "little")
-            if identifier in font_ids:
+            if replacement_fonts is None and identifier in font_ids:
                 payload = extend_alignment_zones(
                     payload,
                     source_fonts[identifier]["codes"],
@@ -269,10 +284,11 @@ def patch_selected_tags(
             "changed_original_tags": changed,
             "layout_checks": metrics,
             "runtime_verified": False,
-            "added_glyphs": {
-                str(i): len(fonts[i]["codes"]) - len(source_fonts[i]["codes"])
-                for i in font_ids
-            },
+            "added_glyphs": (
+                {str(i): len(fonts[i]["codes"]) - len(source_fonts[i]["codes"])
+                 for i in font_ids}
+                if replacement_fonts is None else {}
+            ),
         },
     )
 

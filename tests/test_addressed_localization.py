@@ -239,6 +239,38 @@ def test_caption_requires_glyphs_and_layout_in_alternate_runtime_font_face():
         patch_selected_tags(raw, workspace, plan, recipes, expected_sha256=digest)
 
 
+def test_independent_face_validates_translation_without_changing_shared_font():
+    from swf_geometry import parse_font
+
+    raw, workspace, plan, _, digest = fixture()
+    original_tag = read_swf(raw)[1][0]
+    face = parse_font(original_tag.payload)
+    face["id"] = 6001
+    from localization_fonts import extend_font
+
+    face = extend_font(face, {"\u0410": {"donor": "A"}})
+    _, tags, report = patch_selected_tags(
+        raw,
+        workspace,
+        plan,
+        None,
+        expected_sha256=digest,
+        replacement_fonts={3: face},
+    )
+    assert tags[0].payload == original_tag.payload
+    assert report["layout_checks"]
+    assert report["changed_original_tags"] == [{"tag_index": 1, "tag_code": 82}]
+    with pytest.raises(ValueError, match="Independent font"):
+        patch_selected_tags(
+            raw,
+            workspace,
+            plan,
+            None,
+            expected_sha256=digest,
+            replacement_fonts={3: parse_font(original_tag.payload)},
+        )
+
+
 @pytest.mark.parametrize("alternate_ids", [None, [3], [4], [True], [3, 3]])
 def test_alternate_runtime_font_selection_fails_closed(alternate_ids):
     values = fixture()

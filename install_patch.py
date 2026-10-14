@@ -143,7 +143,9 @@ def main():
     )
     apply.add_argument("--workspace", type=Path)
     apply.add_argument("--plan", type=Path)
-    apply.add_argument("--font-recipes", type=Path)
+    fonts = apply.add_mutually_exclusive_group()
+    fonts.add_argument("--font-recipes", type=Path)
+    fonts.add_argument("--alegreya-font", type=Path)
     restore = sub.add_parser("restore")
     restore.add_argument("--game-file", type=Path)
     restore.add_argument("--manifest", type=Path, required=True)
@@ -164,7 +166,18 @@ def main():
 
         candidate = args.candidate.read_bytes()
         local_inputs = (args.workspace, args.plan, args.font_recipes)
-        if any(local_inputs):
+        if args.alegreya_font is not None:
+            if args.workspace is None or args.plan is None:
+                raise ValueError("Alegreya candidates require workspace, plan and Alegreya font")
+            from alegreya_localization import validate_alegreya_localization
+            from translation_catalog import load_catalog
+
+            validate_alegreya_localization(
+                game_file.read_bytes(), candidate,
+                load_catalog(args.workspace), load_catalog(args.plan),
+                args.alegreya_font.read_bytes(),
+            )
+        elif any(local_inputs):
             if not all(local_inputs):
                 raise ValueError("Local candidates require workspace, plan and font recipes")
             from addressed_localization import validate_localization
