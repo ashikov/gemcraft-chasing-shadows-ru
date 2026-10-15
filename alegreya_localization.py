@@ -1,7 +1,7 @@
-"""Isolated Alegreya settings candidate for the single verified original SWF.
+"""Cumulative addressed Alegreya screens for the single verified original SWF.
 
 Original fonts, alignment zones and shared tooltip formats remain byte-identical.
-The bounded AVM2 edits bind settings fields to a new embedded family, preserving
+The bounded AVM2 edits bind selected fields to an embedded family, preserving
 existing format attributes and applying a font-only format to existing text.
 """
 import argparse
@@ -57,18 +57,41 @@ def latest_tooltip_field():
     )
 
 
+ADAPTIVE_TOOLTIP_SOURCE = 'Automatically falls back to lowest visual settings'
+
+
+def tooltip_layout_repair():
+    """Replay McInfoPanel's accumulation with the bound field's real height.
+
+    McInfoPanel.addTextfield derives nextTfPos/h from tf.height measured with the
+    embedded Celtic font, which has no Cyrillic glyphs: Russian tooltip text wraps
+    to fewer lines at creation than it renders after the Alegreya binding, so the
+    panel frame ends up shorter than its content. The binding runs after
+    addTextfield, so this repair repeats addTextfield's own trailing step
+    (spacing 9 above arg3=false, bottom inset 8; pinned by _bindings guards) using
+    the post-binding height. Stack-neutral, peak depth 4.
+    """
+    return (
+        latest_tooltip_field() + b'\x2a' + _op(0x66, 1303) + b'\x2b'
+        + _op(0x66, 5360) + b'\xa0\x24\x09\xa0'
+        + b'\xd2' + b'\x2b' + _op(0x61, 3708)
+        + b'\xd2\xd2' + _op(0x66, 3708) + b'\x24\x08\xa0' + _op(0x61, 3710)
+    )
+
+
 def _inventory(data):
     result = ABCInventory(data, {'tag_path': [ABC_TAG], 'tag_code': 82})
     result.parse()
     return result
 
 
-def _bindings(original, translated):
+def _bindings(original, translated, sites=None):
     before, after = _inventory(original), _inventory(translated)
     names = {
         840: 'tf', 6882: 'tf', 5573: 'defaultTextFormat', 5569: 'embedFonts',
         6921: 'setTextFormat', 839: 'TextFormat', 3355: 'textfields',
         5241: 'length', 3729: 'addTextfield', 5329: 'text', 6883: 'text',
+        1303: 'y', 5360: 'height', 3708: 'nextTfPos', 3710: 'h',
     }
     if any(before.multiname(index) != name for index, name in names.items()):
         raise ValueError('Unexpected settings ABC property bindings')
@@ -103,6 +126,34 @@ def _bindings(original, translated):
     ]
     if len(planned[79]) != 66:
         raise ValueError('Unexpected settings tooltip field count')
+    # The height repair replays addTextfield's trailing accumulation; pin the
+    # layout constants it depends on and the single site it is scoped to.
+    layout_owner = next(
+        method for method, labels in before.method_labels.items()
+        if any(label.get('owner') == 'McInfoPanel' and label.get('method') == 'addTextfield'
+               for label in labels))
+    layout_operations = [
+        (opcode, args) for _, opcode, args
+        in before.instructions(old_codes[layout_owner], layout_owner)
+    ]
+    for pin in ((0x66, [5360]), (0x24, [9]), (0x24, [253]), (0x24, [8]),
+                (0x61, [3708]), (0x61, [3710])):
+        if pin not in layout_operations:
+            raise ValueError('Unexpected tooltip panel layout constants')
+    repairs = set()
+    for i, (_, opcode, args) in enumerate(operations):
+        if opcode != 0x4f or args != [3729, 6]:
+            continue
+        text_operation = operations[i - 5]
+        if (text_operation[1] == 0x2c
+                and before.strings[text_operation[2][0]].startswith(ADAPTIVE_TOOLTIP_SOURCE)):
+            if operations[i - 4][1] != 0x27:
+                raise ValueError('Unexpected adaptive tooltip spacing argument')
+            repairs.add(i + 1)
+    if len(repairs) != 1:
+        raise ValueError('Expected exactly one adaptive tooltip site')
+    from localization_plan import resolve_plan_font_bindings
+    extra, increments, counts = resolve_plan_font_bindings(original, translated, sites or [])
 
     def snippets(family_index, font_index):
         result = {}
@@ -114,14 +165,20 @@ def _bindings(original, translated):
             ):
                 raise ValueError('Translation changed settings instruction structure')
             result[method] = [
-                (new_ops[position][0], field_binding(receiver, family_index, font_index))
+                (new_ops[position][0], field_binding(receiver, family_index, font_index)
+                 + (tooltip_layout_repair() if method == 79 and position in repairs else b''))
                 for position, receiver in sites
             ]
+        for method, insertions in extra(family_index, font_index).items():
+            result.setdefault(method, []).extend(insertions)
         return result
+    for method in planned:
+        increments[method] = max(increments.get(method, 0), 5)
+        counts[str(method)] = counts.get(str(method), 0) + len(planned[method])
     return patch_abc_font_bindings(
         translated, snippets, family=FAMILY,
-        extra_stack={method: 5 for method in planned},
-    ), {str(method): len(sites) for method, sites in planned.items()}
+        extra_stack=increments,
+    ), counts
 
 
 def _title(tags, font):
@@ -165,6 +222,11 @@ def _title(tags, font):
 def build_alegreya_localization(original, workspace, plan, ttf_bytes):
     if sha(original) != ORIGINAL_SHA256:
         raise ValueError('Original SHA-256 mismatch')
+    if isinstance(plan, (list, tuple)):
+        from localization_plan import merge_localization_plans
+        plan = merge_localization_plans(plan, workspace)
+    if any(site.get('tag_path') != [ABC_TAG] for site in plan.get('abc_font_bindings', [])):
+        raise ValueError('Unsupported ABC font binding tag address')
     if f'static.{TITLE_ID}' not in plan.get('entry_ids', []):
         raise ValueError('Settings plan must include the title')
     prefix, original_tags = read_swf(original)
@@ -191,6 +253,7 @@ def build_alegreya_localization(original, workspace, plan, ttf_bytes):
     old_start = original_tags[ABC_TAG].payload.index(b'\0', 4) + 1
     abc, bindings = _bindings(
         original_tags[ABC_TAG].payload[old_start:], tags[ABC_TAG].payload[start:],
+        plan.get('abc_font_bindings', []),
     )
     tags[ABC_TAG] = Tag(82, tags[ABC_TAG].payload[:start] + abc)
     additions = []
@@ -206,7 +269,7 @@ def build_alegreya_localization(original, workspace, plan, ttf_bytes):
     if (after_prefix[8:] != prefix[8:] or len(after) != len(tags)
             or any(a.code != b.code or a.payload != b.payload for a, b in zip(after, tags))):
         raise ValueError('Alegreya candidate roundtrip differs')
-    allowed = {position, ABC_TAG}
+    allowed = {position, ABC_TAG} | {item['tag_index'] for item in report['changed_original_tags']}
     retained = after[:position] + after[position + len(additions):]
     if any(a != b for i, (a, b) in enumerate(zip(original_tags, retained)) if i not in allowed):
         raise ValueError('Unrelated original SWF resource changed')
@@ -220,7 +283,9 @@ def build_alegreya_localization(original, workspace, plan, ttf_bytes):
         original_fonts_preserved=True, original_alignment_zones_preserved=True,
         title_bounds_twips=title_bounds, abc_font_binding_sites=bindings,
         unconfirmed_reachability=plan.get('unconfirmed', []),
-        status='READY FOR RUNTIME VERIFICATION',
+        status='PARTIAL' if plan.get('coverage_blockers') else 'READY FOR RUNTIME VERIFICATION',
+        coverage_blockers=plan.get('coverage_blockers', []),
+        applied_entry_ids=list(plan['entry_ids']),
     )
     report['changed_original_tags'].append(
         {'tag_index': position, 'tag_code': 11, 'character_id': TITLE_ID})
@@ -238,13 +303,13 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--source', type=Path, required=True)
     parser.add_argument('--workspace', type=Path, required=True)
-    parser.add_argument('--plan', type=Path, required=True)
+    parser.add_argument('--plan', type=Path, required=True, action='append')
     parser.add_argument('--alegreya-font', type=Path, required=True)
     parser.add_argument('--output-dir', type=Path, required=True)
     args = parser.parse_args()
     candidate, report = build_alegreya_localization(
         args.source.read_bytes(), load_catalog(args.workspace),
-        load_catalog(args.plan), args.alegreya_font.read_bytes(),
+        [load_catalog(path) for path in args.plan], args.alegreya_font.read_bytes(),
     )
     if args.output_dir.exists() or args.output_dir.is_symlink():
         raise ValueError('Use a fresh output directory')

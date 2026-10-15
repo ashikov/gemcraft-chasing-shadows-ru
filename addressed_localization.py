@@ -6,15 +6,18 @@ The existing title experiment remains the base recipe, including its exact font.
 """
 
 import argparse
+import copy
 from collections import Counter, defaultdict
 import json
 import math
+import re
+from html import unescape
 from pathlib import Path
 
 from abc_patch import patch_pushstrings
 from build_prototype import TRANSLATION, TITLE_ID, patch_parts, sha
 from install_patch import ORIGINAL_SHA256
-from inventory_strings import extract_inventory, walk_tags
+from inventory_strings import extract_inventory, parse_edit_text, walk_tags
 from localization_fonts import extend_font, measure_text
 from localization_workspace import validate_workspace, write_json
 from swf_geometry import (
@@ -25,6 +28,8 @@ from swf_geometry import (
     parse_text,
     read_swf,
     write_swf,
+    decode_rect,
+    signed_bits,
 )
 from translation_catalog import load_catalog
 
@@ -122,6 +127,70 @@ def check_layout(font, translation, layout):
     }
 
 
+def _display_text(tag, entry, font, layout, source_fonts):
+    """Patch one guarded display resource, retaining its existing style/position."""
+    if tag.code in (11, 33):
+        text = parse_text(tag.payload, tag.code)
+        if len(text['records']) != 1:
+            raise ValueError('Static multi-record text needs a separate explicit recipe')
+        row = text['records'][0]
+        source = source_fonts.get(row.get('font_id'))
+        if source is None or ''.join(chr(source['codes'][i]) for i, _ in row['entries']) != entry['source']:
+            raise ValueError('Static source differs at selected address')
+        metrics = check_layout(font, entry['translation'], layout)
+        if layout.get('wrap') or layout['height'] != row['height'] or '\n' in entry['translation']:
+            raise ValueError('Static text recipe must retain its single line height')
+        text = copy.deepcopy(text)
+        row = text['records'][0]
+        kerning = {(a, b): value for a, b, value in font['kerning']}
+        translation = entry['translation']
+        row['entries'] = [(font['codes'].index(ord(char)), round(
+            (font['advances'][font['codes'].index(ord(char))]
+             + kerning.get((ord(char), ord(translation[i + 1]) if i + 1 < len(translation) else 0), 0))
+            * row['height'] / 20480)) for i, char in enumerate(translation)]
+        row['font_id'] = font['id']
+        from build_prototype import ink_bounds
+        text['bounds'] = ink_bounds(font, row['entries'], row['height'], row.get('x', 0), row.get('y', 0))
+        text['gb'] = (len(font['codes']) - 1).bit_length()
+        text['ab'] = signed_bits([advance for _, advance in row['entries']])
+        return Tag(tag.code, build_text(text, tag.code)), metrics
+    identifier, source, formatting = parse_edit_text(tag.payload)
+    if (identifier != entry['location']['character_id'] or source != entry['source']
+            or not formatting['has_font'] or formatting['has_font_class']
+            or not formatting['has_text'] or not formatting['use_outlines']):
+        raise ValueError('Unsupported editable text binding')
+    translation = entry['translation']
+    if bool(layout.get('wrap')) != formatting['word_wrap']:
+        raise ValueError('Editable word wrap differs from layout')
+    if formatting['html']:
+        # Only the existing one-paragraph Flash HTML recipe is supported. Tags,
+        # attributes and sizes are exact guards; only text and local face change.
+        pattern = r'<p(?: align="(?:left|center|right)")?><font face="[^"]+" size="\d+"(?: color="#[0-9a-fA-F]{6}")?(?: letterSpacing="[0-9.]+")?(?: kerning="1")?>(?:<b>)?[^<>]*(?:</b>)?</font></p>'
+        if not re.fullmatch(pattern, source) or not re.fullmatch(pattern, translation):
+            raise ValueError('Unsupported HTML recipe')
+        if re.findall(r'<[^>]+>', source) != re.findall(r'<[^>]+>', translation):
+            raise ValueError('HTML structure or style differs')
+        visible = unescape(re.sub(r'<[^>]+>', '', translation))
+        size = int(re.search(r' size="(\d+)"', source)[1]) * 20
+        if size != layout['height']:
+            raise ValueError('HTML font size differs from layout')
+        translation = re.sub(r' face="[^"]+"', lambda _: ' face="' + font['name'].decode('utf-8') + '"', translation, count=1)
+    else:
+        visible = translation
+    if layout['height'] != formatting['font_height']:
+        raise ValueError('Editable font height differs from layout')
+    metrics = check_layout(font, visible, layout)
+    _, rect_bytes = decode_rect(tag.payload[2:])
+    font_offset = 2 + rect_bytes + 2
+    text_bytes = source.encode('utf-8') + b'\0'
+    if not tag.payload.endswith(text_bytes):
+        raise ValueError('Editable source byte guard failed')
+    payload = bytearray(tag.payload[:-len(text_bytes)])
+    payload[font_offset:font_offset + 2] = font['id'].to_bytes(2, 'little')
+    payload.extend(translation.encode('utf-8') + b'\0')
+    return Tag(37, bytes(payload)), metrics
+
+
 def patch_selected_tags(
     original,
     workspace,
@@ -192,7 +261,7 @@ def patch_selected_tags(
                         raise ValueError(
                             "Font extension would change an unrelated static glyph reference"
                         )
-    groups, metrics = defaultdict(list), {}
+    groups, metrics, display_changes = defaultdict(list), {}, {}
     for identifier in selected:
         entry = entries.get(identifier)
         if (
@@ -215,6 +284,21 @@ def patch_selected_tags(
         ) != Counter(c for c in entry["source"] if ord(c) < 32 or ord(c) == 127):
             raise ValueError(f"Control sequence count differs: {identifier}")
         location = entry["location"]
+        if location['tag_code'] in (11, 33, 37):
+            path = location['tag_path']
+            if replacement_fonts is None or len(path) != 1 or tags[path[0]].code != location['tag_code']:
+                raise ValueError('Unsupported display text address or font recipe')
+            layout = plan.get('layouts', {}).get(identifier)
+            if not isinstance(layout, dict) or layout.get('font_id') not in font_ids:
+                raise ValueError('Display text needs a selected font and layout')
+            if path[0] in display_changes:
+                raise ValueError('Duplicate display text address')
+            try:
+                display_changes[path[0]], metrics[identifier] = _display_text(
+                    tags[path[0]], entry, fonts[layout['font_id']], layout, source_fonts)
+            except ValueError as error:
+                raise ValueError(f'{identifier}: {error}') from error
+            continue
         if (
             entry["category"] not in ("actionscript", "html")
             or "method_index" not in location
@@ -256,7 +340,9 @@ def patch_selected_tags(
     changed = []
     for index, tag in enumerate(tags):
         payload = tag.payload
-        if index in groups:
+        if index in display_changes:
+            payload = display_changes[index].payload
+        elif index in groups:
             start = payload.index(b"\0", 4) + 1 if tag.code == 82 else 0
             payload = payload[:start] + patch_pushstrings(
                 payload[start:], groups[index]
