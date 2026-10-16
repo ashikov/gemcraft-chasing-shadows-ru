@@ -28,6 +28,7 @@ from swf_geometry import (
     parse_text,
     read_swf,
     write_swf,
+    decode_matrix,
     decode_rect,
     signed_bits,
 )
@@ -127,12 +128,119 @@ def check_layout(font, translation, layout):
     }
 
 
+def _glyph_run(font, kerning, line, height):
+    """Encode one line with the target font, keeping pair kerning inside the line."""
+    return [(font['codes'].index(ord(char)), round(
+        (font['advances'][font['codes'].index(ord(char))]
+         + kerning.get((ord(char), ord(line[i + 1]) if i + 1 < len(line) else 0), 0))
+        * height / 20480)) for i, char in enumerate(line)]
+
+
+def _record_lines(entry, records, layout):
+    """Resolve and guard the explicit per-record lines of a multi-record static.
+
+    Lines joined in order must reproduce the workspace translation exactly,
+    optionally consuming one space at each boundary. This keeps the workspace
+    the single source of truth while the plan owns only the line split.
+    """
+    if len(records) == 1:
+        if layout.get('lines') not in (None, [entry['translation']]):
+            raise ValueError('Single-record static lines must equal the translation')
+        return [entry['translation']]
+    lines = layout.get('lines')
+    if (not isinstance(lines, list) or len(lines) != len(records)
+            or any(type(line) is not str or not line or line != line.strip()
+                   or '\n' in line for line in lines)):
+        raise ValueError('Static multi-record text needs one explicit trimmed line per record')
+    position = 0
+    translation = entry['translation']
+    for index, line in enumerate(lines):
+        if not translation.startswith(line, position):
+            raise ValueError('Static record lines do not reproduce the selected translation')
+        position += len(line)
+        if index + 1 < len(lines) and translation[position:position + 1] == ' ':
+            position += 1
+    if position != len(translation):
+        raise ValueError('Static record lines do not reproduce the selected translation')
+    return lines
+
+
+def _multiline_static(tag, entry, font, layout, source_fonts):
+    """Reflow a guarded multi-record static, one explicit line per record.
+
+    Record count, order, colours and heights are retained; a line may
+    not pass the original right ink edge. The tag matrix must be a pure
+    translation so that bounds stay exact. `center` keeps each record's
+    own ink centre by recomputing its x offset; otherwise x is retained.
+    """
+    from build_prototype import ink_bounds
+    text = parse_text(tag.payload, tag.code)
+    records = text['records']
+    matrix, _ = decode_matrix(text['matrix_raw'])
+    if matrix['scale'] != [65536, 65536] or matrix['rotate'] != [0, 0]:
+        raise ValueError('Static text recipe supports a translation-only matrix')
+    tx, ty = matrix['translate']
+    lines = _record_lines(entry, records, layout)
+    center = bool(layout.get('center'))
+    if layout.get('wrap') or any('\n' in line for line in lines):
+        raise ValueError('Static text recipe must retain its single line height')
+    if len(entry.get('text_records', [])) != len(records):
+        raise ValueError('Static inventory records differ at selected address')
+    original_bounds = text['bounds']
+    right_edge = original_bounds[1] - tx
+    text = copy.deepcopy(text)
+    kerning = {(a, b): value for a, b, value in font['kerning']}
+    active_font = active_height = None
+    metrics = {'widths_twips': [], 'ink_bounds_twips': [], 'lines': len(lines),
+               'available_width_twips': []}
+    bounds = []
+    for row, record, line in zip(text['records'], entry['text_records'], lines):
+        previous_font = active_font
+        active_font = row.get('font_id', active_font)
+        active_height = row.get('height', active_height)
+        if previous_font is not None and active_font != previous_font:
+            raise ValueError('Static recipe supports a single original font per text')
+        source = source_fonts.get(active_font)
+        if not row['entries'] or source is None or ''.join(
+                chr(source['codes'][i]) for i, _ in row['entries']) != record['source']:
+            raise ValueError('Static source differs at selected address')
+        if active_height != layout['height']:
+            raise ValueError('Static text recipe must retain its single line height')
+        budget = layout['max_width'] if center else min(
+            layout['max_width'], right_edge - row.get('x', 0))
+        check = check_layout(font, line, {'height': active_height, 'max_width': budget})
+        metrics['widths_twips'].extend(check['widths_twips'])
+        metrics['available_width_twips'].append(budget)
+        old_center = None
+        if center:
+            if 'x' not in row:
+                raise ValueError('Centered static record needs an explicit x offset')
+            old_ink = ink_bounds(source, row['entries'], active_height, row.get('x', 0), 0)
+            old_center = (old_ink[0] + old_ink[1]) / 2
+        row['entries'] = _glyph_run(font, kerning, line, active_height)
+        if 'font_id' in row:
+            row['font_id'] = font['id']
+        if center:
+            ink = ink_bounds(font, row['entries'], active_height)
+            row['x'] = round(old_center - (ink[0] + ink[1]) / 2)
+            if not -32768 <= row['x'] <= 32767:
+                raise ValueError('Centered static x offset exceeds its field')
+        bounds.append(ink_bounds(font, row['entries'], active_height,
+                                 row.get('x', 0), row.get('y', 0)))
+        metrics['ink_bounds_twips'].append(bounds[-1])
+    text['bounds'] = [min(b[0] for b in bounds) + tx, max(b[1] for b in bounds) + tx,
+                      min(b[2] for b in bounds) + ty, max(b[3] for b in bounds) + ty]
+    text['gb'] = (len(font['codes']) - 1).bit_length()
+    text['ab'] = signed_bits([advance for row in text['records'] for _, advance in row['entries']])
+    return Tag(tag.code, build_text(text, tag.code)), metrics
+
+
 def _display_text(tag, entry, font, layout, source_fonts):
     """Patch one guarded display resource, retaining its existing style/position."""
     if tag.code in (11, 33):
         text = parse_text(tag.payload, tag.code)
-        if len(text['records']) != 1:
-            raise ValueError('Static multi-record text needs a separate explicit recipe')
+        if len(text['records']) != 1 or layout.get('center'):
+            return _multiline_static(tag, entry, font, layout, source_fonts)
         row = text['records'][0]
         source = source_fonts.get(row.get('font_id'))
         if source is None or ''.join(chr(source['codes'][i]) for i, _ in row['entries']) != entry['source']:
@@ -144,10 +252,7 @@ def _display_text(tag, entry, font, layout, source_fonts):
         row = text['records'][0]
         kerning = {(a, b): value for a, b, value in font['kerning']}
         translation = entry['translation']
-        row['entries'] = [(font['codes'].index(ord(char)), round(
-            (font['advances'][font['codes'].index(ord(char))]
-             + kerning.get((ord(char), ord(translation[i + 1]) if i + 1 < len(translation) else 0), 0))
-            * row['height'] / 20480)) for i, char in enumerate(translation)]
+        row['entries'] = _glyph_run(font, kerning, translation, row['height'])
         row['font_id'] = font['id']
         from build_prototype import ink_bounds
         text['bounds'] = ink_bounds(font, row['entries'], row['height'], row.get('x', 0), row.get('y', 0))
@@ -155,6 +260,8 @@ def _display_text(tag, entry, font, layout, source_fonts):
         text['ab'] = signed_bits([advance for _, advance in row['entries']])
         return Tag(tag.code, build_text(text, tag.code)), metrics
     identifier, source, formatting = parse_edit_text(tag.payload)
+    if layout.get('lines') is not None or layout.get('center'):
+        raise ValueError('Editable text does not support static-only layout keys')
     if (identifier != entry['location']['character_id'] or source != entry['source']
             or not formatting['has_font'] or formatting['has_font_class']
             or not formatting['has_text'] or not formatting['use_outlines']):
