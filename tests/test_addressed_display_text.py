@@ -172,9 +172,32 @@ def test_static_center_keeps_post_matrix_ink_center():
     _, tags, _ = run(values)
     new_text = parse_text(tags[1].payload)
     new_row = new_text['records'][0]
-    new_ink = ink_bounds(values[3], new_row['entries'], 240, new_row.get('x', 0), 0)
+    new_ink = ink_bounds(values[3], new_row['entries'], 240,
+                         new_row.get('x', 0), new_row.get('y', 0))
     assert abs(sum(new_ink[:2]) - sum(old_ink[:2])) <= 2
+    # TextBounds stay in the character definition space: local ink plus the
+    # unchanged matrix translation, exactly as the original tags encode it.
+    assert new_text['bounds'] == [new_ink[0] + 500, new_ink[1] + 500,
+                                  new_ink[2] + 100, new_ink[3] + 100]
     assert new_text['matrix_raw'] == old_text['matrix_raw']
+
+
+@pytest.mark.parametrize('xmax,ok', [(342, False), (343, True)])
+def test_static_right_edge_compared_in_original_bounds_space(xmax, ok):
+    from build_prototype import ink_bounds
+    values = multiline_inputs(lines=('АБ', 'Б'), bounds=[20, xmax, 100, 600],
+                              matrix={'translate': [300, 0]})
+    if ok:
+        _, tags, _ = run(values)
+        text = parse_text(tags[1].payload)
+        union = [ink_bounds(values[3], row['entries'], 240, row.get('x', 0), row.get('y', 0))
+                 for row in text['records']]
+        assert text['bounds'] == [min(b[0] for b in union) + 300, max(b[1] for b in union) + 300,
+                                  min(b[2] for b in union), max(b[3] for b in union)]
+        assert text['bounds'][1] <= xmax
+    else:
+        with pytest.raises(ValueError, match='width'):
+            run(values)
 
 
 def test_static_center_keeps_each_record_ink_center():
