@@ -304,3 +304,27 @@ def test_merge_keeps_explicit_coverage_blockers_without_duplicate_claims():
     second['coverage_blockers'] = 'invalid'
     with pytest.raises(ValueError, match='coverage'):
         merge_localization_plans([first, second], workspace())
+
+
+def test_merge_preserves_empty_abc_strings_and_rejects_duplicates():
+    first, second = plan(['first']), plan(['second'])
+    first['empty_abc_strings'] = ['suffix']
+    merged = merge_localization_plans([first, second], workspace())
+    assert merged['empty_abc_strings'] == ['suffix']
+    second['empty_abc_strings'] = ['suffix']
+    with pytest.raises(ValueError, match='empty ABC'):
+        merge_localization_plans([first, second], workspace())
+
+
+def test_merge_rejects_empty_abc_string_that_is_also_translated():
+    selected = plan(['first'])
+    selected['empty_abc_strings'] = ['first']
+    with pytest.raises(ValueError, match='empty ABC'):
+        merge_localization_plans([selected], workspace())
+
+
+def test_merge_rejects_empty_abc_string_translated_by_a_later_plan():
+    first, second = plan(['first']), plan(['second'])
+    first['empty_abc_strings'] = ['second']
+    with pytest.raises(ValueError, match='empty ABC'):
+        merge_localization_plans([first, second], workspace())

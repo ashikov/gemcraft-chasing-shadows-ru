@@ -278,3 +278,75 @@ def test_alternate_runtime_font_selection_fails_closed(alternate_ids):
     plan["layouts"][plan["entry_ids"][0]]["alternate_font_ids"] = alternate_ids
     with pytest.raises(ValueError, match="Alternate runtime faces"):
         run(values)
+
+
+def suppression_fixture():
+    raw_abc = abc(["A", "s", "B"], [
+        b"\xd0\x2c\1\x61\1\x47", b"\x2c\2\x47", b"\xd0\x2c\3\x61\1\x47",
+    ])
+    assert raw_abc.count(b"\0\0\5\0") == 3
+    raw_abc = raw_abc.replace(b"\0\0\5\0", b"\0\0\2\0")
+    raw = swf([
+        Tag(75, build_font(font_fixture())),
+        Tag(82, b"\0\0\0\0\0" + raw_abc),
+        Tag(77, b"Unrelated synthetic metadata"),
+    ])
+    digest = hashlib.sha256(raw).hexdigest()
+    inventory = extract_inventory(raw, digest)
+    suffix = "abc.1.1.0"
+    original = {entry["id"]: entry for entry in inventory["entries"]}
+    assert original[suffix]["classification"] == "technical"
+    workspace = initialize_workspace(inventory)
+    entry = next(item for item in workspace["entries"] if item["id"] == "abc.1.0.1")
+    entry.update(translation="А", classification="confirmed",
+                 context_confidence="confirmed", status="draft")
+    plan = {
+        "schema_version": 1,
+        "game_sha256": digest,
+        "entry_ids": [entry["id"]],
+        "fonts": [3],
+        "layouts": {
+            entry["id"]: {"font_id": 3, "height": 240, "max_width": 50, "wrap": False}
+        },
+        "empty_abc_strings": [suffix],
+    }
+    return raw, workspace, plan, {"3": {"А": {"donor": "A"}}}, digest, suffix
+
+
+def test_empty_abc_string_is_patched_only_at_guarded_technical_address():
+    from abc_inventory import ABCInventory
+
+    raw, workspace, plan, recipes, digest, suffix = suppression_fixture()
+    _, tags, report = patch_selected_tags(
+        raw, workspace, plan, recipes, expected_sha256=digest)
+    assert report["applied_translations"] == 1
+    assert report["empty_abc_strings"] == [suffix]
+    original_payload = read_swf(raw)[1][1].payload
+    original_data = original_payload[original_payload.index(b"\0", 4) + 1:]
+    original_inventory = ABCInventory(original_data, {"tag_path": [1], "tag_code": 82})
+    original_inventory.parse()
+    payload = tags[1].payload
+    data = payload[payload.index(b"\0", 4) + 1:]
+    inventory = ABCInventory(data, {"tag_path": [1], "tag_code": 82})
+    inventory.parse()
+    assert inventory.strings[:len(original_inventory.strings)] == original_inventory.strings
+    assert inventory.strings[-2:] == ["А", ""]
+    operations = inventory.instructions(inventory.bodies[1][2], 1)
+    assert any(opcode == 0x2c and inventory.strings[args[0]] == ""
+               for _, opcode, args in operations)
+    assert inventory.strings[2] == "s"
+
+
+@pytest.mark.parametrize("bad", ["abc.1.9.0", "abc.1.0.1", "abc.1.2.1"])
+def test_empty_abc_string_requires_existing_technical_address(bad):
+    raw, workspace, plan, recipes, digest, _ = suppression_fixture()
+    plan["empty_abc_strings"] = [bad]
+    with pytest.raises(ValueError, match="empty ABC"):
+        patch_selected_tags(raw, workspace, plan, recipes, expected_sha256=digest)
+
+
+def test_empty_abc_string_rejects_duplicate_addresses():
+    raw, workspace, plan, recipes, digest, suffix = suppression_fixture()
+    plan["empty_abc_strings"] = [suffix, suffix]
+    with pytest.raises(ValueError, match="empty ABC"):
+        patch_selected_tags(raw, workspace, plan, recipes, expected_sha256=digest)

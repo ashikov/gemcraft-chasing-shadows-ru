@@ -34,11 +34,11 @@ def merge_localization_plans(plans, workspace):
         entries[identifier] = entry
     result = {'schema_version': 1, 'game_sha256': plans[0].get('game_sha256'),
               'entry_ids': [], 'fonts': [], 'layouts': {}, 'unconfirmed': [],
-              'abc_font_bindings': [], 'coverage_blockers': []}
+              'abc_font_bindings': [], 'coverage_blockers': [], 'empty_abc_strings': []}
     digest = result['game_sha256']
     if not isinstance(digest, str) or len(digest) != 64 or any(x not in '0123456789abcdef' for x in digest):
         raise ValueError('Invalid plan game SHA-256')
-    seen_ids, addresses, fonts, bindings = set(), set(), set(), set()
+    seen_ids, addresses, fonts, bindings, empty_strings = set(), set(), set(), set(), set()
     for plan in plans:
         if plan.get('schema_version') != 1 or plan.get('game_sha256') != digest:
             raise ValueError('Plan schema or game SHA-256 mismatch')
@@ -91,8 +91,19 @@ def merge_localization_plans(plans, workspace):
                 raise ValueError('Duplicate ABC font binding address')
             bindings.add(key)
             result['abc_font_bindings'].append(copy.deepcopy(site))
+        empty = plan.get('empty_abc_strings', [])
+        if not isinstance(empty, list) or any(not isinstance(identifier, str) for identifier in empty):
+            raise ValueError('Invalid empty ABC string selection')
+        for identifier in empty:
+            if identifier in empty_strings or identifier in seen_ids:
+                raise ValueError('Duplicate or translated empty ABC string')
+            empty_strings.add(identifier)
+            result['empty_abc_strings'].append(identifier)
+    if empty_strings & seen_ids:
+        raise ValueError('Translated entry cannot be an empty ABC string')
     result['fonts'] = sorted(fonts)
     result['abc_font_bindings'].sort(key=_binding_key)
+    result['empty_abc_strings'].sort()
     return result
 
 
