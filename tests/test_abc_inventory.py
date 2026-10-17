@@ -164,3 +164,27 @@ def test_unverified_branch_targets_are_reported_without_invented_control_flow(co
 def test_empty_constant_is_not_reported_as_a_translatable_record():
     result = extract(abc([""], [b"\x2c\1\x29\x47"]))
     assert all(entry["source"] for entry in result["entries"])
+
+
+@pytest.mark.parametrize('tail', [b'\x4f\1\4', b'\x20\x2d\0\x4f\1\6'])
+def test_panel_caption_can_share_symbol_pool_without_becoming_a_technical_key(tail):
+    # A class/property name may also be passed as a caption to a UI helper.
+    code = b'\xd0\x24\0\x2c\3\x27\x24\12' + tail + b'\x47'
+    raw = abc(['SyntheticMethod'], [code], property_name='addTextfield')
+    result = extract(raw)
+    caption = next(e for e in result['entries'] if e['id'] == 'abc.3.2.0.3')
+    assert caption['classification'] == 'probable'
+    assert caption['context_confidence'] != 'confirmed'
+    # A non-display use of the very same pool index remains technical.
+    other = extract(abc(['SyntheticMethod'], [b'\x2c\3\x29\x47']))
+    assert next(e for e in other['entries'] if e['id'] == 'abc.3.2.0.0')['classification'] == 'technical'
+
+
+@pytest.mark.parametrize('tail', [
+    b'\x27\x24\12\x4f\1\3',  # wrong argument count
+    b'\x27\x24\12\x10\0\0\0\x4f\1\4',  # branch in the expression
+])
+def test_symbol_needs_the_complete_straight_line_caption_signature(tail):
+    raw = abc(['SyntheticMethod'], [b'\xd0\x24\0\x2c\3' + tail + b'\x47'],
+              property_name='addTextfield')
+    assert next(e for e in extract(raw)['entries'] if e['id'] == 'abc.3.2.0.3')['classification'] == 'technical'

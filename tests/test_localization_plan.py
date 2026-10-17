@@ -1,5 +1,6 @@
 """Synthetic cumulative plans and guarded font bindings; no game resources."""
 import copy
+import math
 
 import pytest
 
@@ -62,19 +63,23 @@ def site():
             'kind': 'field', 'extra_stack': 5}
 
 
-def abc():
+def abc(*, floater_fields=False):
     # Large authored pools exercise multi-byte QName operands used by the helper.
     names = {839: 'TextFormat', 5569: 'embedFonts', 5573: 'defaultTextFormat', 6921: 'setTextFormat',
              3366: 'plateWidth', 3367: 'plateHeight', 5237: 'Math', 5327: 'ceil',
-             5359: 'width', 5360: 'height'}
+             5359: 'width', 5360: 'height', 91: 'McFloaterPanel', 3355: 'textfields',
+             3356: 'nextTfPos', 5240: 'max', 1303: 'y'}
     strings = ['Synthetic'] + [names.get(index, f'name{index}') for index in range(1, 6922)]
     pool = b'\1\1\1' + _u30(len(strings) + 1)
     for text in strings:
         raw = text.encode()
         pool += _u30(len(raw)) + raw
-    pool += b'\2\x16\0\1' + _u30(6922)
+    pool += (b'\2\x16\0\2\1\1' if floater_fields else b'\2\x16\0\1')
+    pool += _u30(6923 if floater_fields else 6922)
     for index in range(1, 6922):
         pool += b'\7\1' + _u30(index + 1)
+    if floater_fields:
+        pool += b'\x1b\1'
     methods = b'\2' + b'\0\0\1\0' * 2
     bodies = b'\2'
     for method, code in enumerate((b'\x2c\1\x29\x47', b'\x47')):
@@ -328,3 +333,94 @@ def test_merge_rejects_empty_abc_string_translated_by_a_later_plan():
     first['empty_abc_strings'] = ['second']
     with pytest.raises(ValueError, match='empty ABC'):
         merge_localization_plans([first, second], workspace())
+
+
+def floater_fields_fixture():
+    raw = abc(floater_fields=True)
+    # Synthetic direct constructor, eleven arguments, and a saved panel.
+    code = b'\xd0' * 12 + b'\x4a' + _u30(91) + b'\x0b\x80' + _u30(91) + b'\x63\x06\x47'
+    raw = raw.replace(b'\0\2\1\0\1\4\x2c\1\x29\x47',
+                      b'\0\x0c\x07\0\1' + _u30(len(code)) + code)
+    binding = {**site(), 'kind': 'floater_fields', 'instruction_index': 15,
+               'expected_opcode': 0x47, 'expected_operands': [], 'receiver_guards': [],
+               'panel_receiver_hex': '6206', 'extra_stack': 8}
+    del binding['receiver_hex']
+    binding['receivers_hex'] = [(b'\x62\x06\x66' + _u30(3355) + b'\x24' + bytes([row])
+                                 + b'\x66' + _u30(6922)).hex() for row in range(3)]
+    return raw, binding
+
+
+def test_floater_fields_reflows_all_rows_after_font_selection():
+    raw, binding = floater_fields_fixture()
+    result, counts = apply_plan_font_bindings(raw, raw, [binding])
+    assert apply_plan_font_bindings(raw, raw, [binding]) == (result, counts)
+    assert counts == {'0': 1}
+    before, after = _bodies(raw), _bodies(result)
+    assert raw[before[1][0]:before[1][1]] == result[after[1][0]:after[1][1]]
+    assert after[0][2][1:] == before[0][2][1:]
+    ops = [op[1:] for op in inventory(result).instructions(after[0][3], 0)]
+    fonts = [index for index, op in enumerate(ops) if op == (0x4f, [6921, 1])]
+    assert len(fonts) == 3
+    geometry = ops[fonts[-1] + 1:-1]
+    assert not any(op in (0x63, 0xd4, 0xd5, 0xd6, 0xd7) for op, _ in geometry)
+    assert not any(args == [3356] for _, args in geometry)
+    rows = [{5359: width, 5360: height} for width, height in [(31.2, 15), (42, 19), (20, 12)]]
+    panel = {3355: rows, 3356: 999, 3366: 999, 3367: 999}
+    stack, peak = [], 0
+    for opcode, operands in geometry:
+        if opcode == 0x62:
+            assert operands == [6]
+            stack.append(panel)
+        elif opcode == 0x24:
+            stack.append(operands[0])
+        elif opcode == 0x60:
+            assert operands == [5237]
+            stack.append(math)
+        elif opcode == 0x66:
+            key = stack.pop() if operands == [6922] else operands[0]
+            stack.append(stack.pop()[key])
+        elif opcode == 0x61:
+            value, receiver = stack.pop(), stack.pop()
+            receiver[operands[0]] = value
+        elif opcode == 0x46:
+            argc = operands[1]
+            args = stack[-argc:]
+            del stack[-argc:]
+            assert stack.pop() is math
+            assert operands[0] in (5327, 5240)
+            stack.append(math.ceil(*args) if operands[0] == 5327 else max(*args))
+        elif opcode in (0xa0, 0xa1):
+            right, left = stack.pop(), stack.pop()
+            stack.append(left + right if opcode == 0xa0 else left - right)
+        else:
+            pytest.fail(f'Unexpected geometry opcode {opcode:x}')
+        peak = max(peak, len(stack))
+    assert stack == []
+    assert peak <= binding['extra_stack']
+    assert [row[1303] for row in rows] == [2, 14, 30]
+    assert (panel[3366], panel[3356], panel[3367]) == (62, 999, 45)
+
+
+@pytest.mark.parametrize('change', [
+    {'panel_receiver_hex': 'd0'}, {'panel_receiver_hex': '6205'},
+    {'receivers_hex': ['d0'] * 3}, {'receivers_hex': ['d0'] * 2}, {'extra_stack': 7},
+])
+def test_floater_fields_rejects_unsafe_binding_contract(change):
+    raw, binding = floater_fields_fixture()
+    with pytest.raises(ValueError):
+        apply_plan_font_bindings(raw, raw, [{**binding, **change}])
+
+
+@pytest.mark.parametrize(('old', 'new'), [
+    (b'\x4a' + _u30(91) + b'\x0b', b'\x4a' + _u30(91) + b'\x0a'),
+    (b'\x80' + _u30(91), b'\x80' + _u30(92)),
+    (b'\x63\x06', b'\x63\x05'),
+    (b'plateHeight', b'plateHeighX'), (b'plateWidth', b'plateWidtX'),
+    (b'textfields', b'textfieldX'), (b'McFloaterPanel', b'McFloaterPaneX'),
+    (b'\x1b\1', b'\x1c\1'),
+])
+def test_floater_fields_checks_source_without_optional_guards(old, new):
+    raw, binding = floater_fields_fixture()
+    wrong = raw.replace(old, new)
+    with pytest.raises(ValueError):
+        apply_plan_font_bindings(wrong, wrong, [binding])

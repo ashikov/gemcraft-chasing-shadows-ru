@@ -191,7 +191,8 @@ def resolve_plan_font_bindings(original, translated, sites):
             if index >= len(old_ops) or old_ops[index][1:] != (guard['opcode'], guard['operands']):
                 raise ValueError('Unexpected original ABC receiver instruction')
         kind = site.get('kind')
-        if kind not in ('field', 'tooltip', 'panel_format_before', 'panel_format_after', 'floater'):
+        if kind not in ('field', 'tooltip', 'panel_format_before', 'panel_format_after',
+                        'floater', 'floater_fields'):
             raise ValueError('Unsupported font binding kind')
         original_family_index = None
         if kind.startswith('panel_format_'):
@@ -241,10 +242,34 @@ def resolve_plan_font_bindings(original, translated, sites):
             if len(checker.unsupported) != unsupported:
                 raise ValueError('Unsupported floater panel receiver')
             panel_peak = _receiver_peak(panel_ops, checker)
+        if kind == 'floater_fields':
+            source = [op[1:] for op in old_ops[position - 3:position]]
+            if (position < 3 or len(source) != 3
+                    or source[:2] != [(0x4a, [91, 11]), (0x80, [91])]
+                    or source[2][0] != 0x63
+                    or [op[1:] for op in new_ops[position - 3:position]] != source):
+                raise ValueError('Unexpected original floater fields creation')
+            panel_receiver = b'\x62' + _u30(source[2][1][0])
+            if site.get('panel_receiver_hex') != panel_receiver.hex():
+                raise ValueError('Unexpected floater fields saved panel receiver')
+            expected = [panel_receiver + b'\x66' + _u30(3355) + b'\x24' + bytes([row])
+                        + b'\x66' + _u30(6922) for row in range(3)]
+            if receivers != expected:
+                raise ValueError('Floater fields need exactly three ordered text receivers')
+            fields_names = {91: 'McFloaterPanel', 3355: 'textfields',
+                            3366: 'plateWidth', 3367: 'plateHeight', 5237: 'Math',
+                            5327: 'ceil', 5240: 'max', 5359: 'width', 5360: 'height', 1303: 'y'}
+            if (any(before.multiname(index) != name or after.multiname(index) != name
+                    for index, name in fields_names.items())
+                    or before.multinames[6922]['kind'] != 27
+                    or after.multinames[6922]['kind'] != 27):
+                raise ValueError('Unexpected floater fields property bindings')
         increment = _index(site['extra_stack'])
         minimum = max(receiver_peak, 2 if kind.startswith('panel_format_') else 4)
         if kind == 'floater':
             minimum = max(minimum, panel_peak, receiver_peak + 2)
+        if kind == 'floater_fields':
+            minimum = max(minimum, receiver_peak + 3, 8)
         if increment < minimum:
             raise ValueError('Font binding stack budget is insufficient')
         increments[method] = max(increments.get(method, 0), increment)
@@ -266,6 +291,27 @@ def resolve_plan_font_bindings(original, translated, sites):
                            + b'\x46' + _u30(5327) + _u30(1) + b'\x61' + _u30(3366)
                            + panel_receiver + receiver + b'\x66' + _u30(5360)
                            + b'\x24\x05\xa0\x61' + _u30(3367))
+            if kind == 'floater_fields':
+                # Reflow public fields after font selection, leaving the shared
+                # constructor's private nextTfPos slot untouched.
+                result += panel_receiver + b'\x24\x02\x61' + _u30(3366)
+                previous = None
+                for receiver in receivers:
+                    y = (b'\x24\x02' if previous is None else
+                         previous + b'\x66' + _u30(1303)
+                         + previous + b'\x66' + _u30(5360) + b'\x24\x03\xa1\xa0')
+                    result += (receiver + y
+                               + b'\x61' + _u30(1303)
+                               + panel_receiver + b'\x60' + _u30(5237)
+                               + panel_receiver + b'\x66' + _u30(3366)
+                               + b'\x60' + _u30(5237)
+                               + receiver + b'\x66' + _u30(5359) + b'\x24\x14\xa0'
+                               + b'\x46' + _u30(5327) + _u30(1)
+                               + b'\x46' + _u30(5240) + _u30(2) + b'\x61' + _u30(3366))
+                    previous = receiver
+                result += (panel_receiver + previous + b'\x66' + _u30(1303)
+                           + previous + b'\x66' + _u30(5360)
+                           + b'\xa0\x24\x03\xa0\x61' + _u30(3367))
             return result
         return {method: [(offset, binding(receivers, kind, original_family_index, panel_receiver))
                          for offset, receivers, kind, original_family_index, panel_receiver in locations]
