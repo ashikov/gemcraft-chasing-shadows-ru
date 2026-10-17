@@ -370,6 +370,20 @@ class ABCInventory:
                     classification = "probable"
                 elif index in self.symbols:
                     classification = "technical"
+            # A pool symbol can also be a caption at a different addressed use.
+            # Recognize only the helper's literal tail, without crossing branches.
+            tail = instructions[position + 1:position + 6]
+            if (len(tail) >= 3 and tail[0][1] in (0x26, 0x27)
+                    and tail[1][1] == 0x24):
+                call = tail[2]
+                count = 4
+                if (len(tail) == 5 and tail[2][1] == 0x20
+                        and tail[3][1] == 0x2D):
+                    call, count = tail[4], 6
+                if (call[1] == 0x4F and call[2][1] == count
+                        and self.multiname(call[2][0]) == "addTextfield"):
+                    classification = "probable"
+                    context = "Literal passed to addTextfield; receiver and screen are unresolved"
             self.entry(index, f"{method}.{offset}", extra, classification, context)
             if source and (extra.get("text_property") == "htmlText" or re.search(r"<[A-Za-z][^>]*>", source)):
                 self.entries[-1]["content_type"] = "html_fragment"
