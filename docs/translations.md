@@ -344,3 +344,20 @@ Drop-icon tooltips остаются отдельным `coverage_blockers`; ви
 effective values и cap 45, а для внутреннего no-cap sentinel 9999999 не выдумывают
 отдельный игровой предел. Приватный `test_skills_local.py` требует
 `GEMCRAFT_PR7_SKILLS_PLAN`; визуальные состояния — **NOT VERIFIED — ACCEPTED RISK**.
+
+Этап талисмана добавляет 64 ABC-перевода и 58 binding sites без расширения
+сборщика. Sprite 3011 не содержит собственных DefineText: общий `edit.565`
+изменяется только адресно в m1104, числовой `edit.3088` сохраняется. Для 28
+вызовов `McInfoPanel/addTextfield` Alegreya ставится до расчёта переноса;
+фактическая ширина равна `(reset_width - 20 px) * 20` twips. Третий вызов в
+m1147/m1148 использует подтверждённый default size 12. Делегированный вызов
+m556 → m1131 покрывает Talisman drop-icon без новых изменений m556.
+
+Свойства 0–34 проверяются как реальные ABC-конкатенации: ID 0–6 используют
+raw decimal, остальные — `NumberFormatter`; ID 29 не имеет префикса `+`, а ID 34
+состоит из двух переведённых частей. Тестовые большие значения не объявляются
+игровыми пределами. No-op `+` и `/`, числовые пластины m1128 и diagnostic `Error`
+не переписываются. `abc.4175.1144.70/.89` остаются отдельным blocker: общий
+`VfxFloatingText` m1732 рисует bitmap с исходной гарнитурой в конструкторе,
+и поздняя привязка не помогает. Приватный `test_talisman_local.py` требует
+`GEMCRAFT_PR8_TALISMAN_PLAN`; визуальные состояния — **NOT VERIFIED — ACCEPTED RISK**.
