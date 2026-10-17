@@ -322,7 +322,16 @@ def patch_selected_tags(
         or len(set(selected)) != len(selected)
     ):
         raise ValueError("Selection must contain unique entry IDs")
+    empty_abc_strings = plan.get("empty_abc_strings", [])
+    if (
+        not isinstance(empty_abc_strings, list)
+        or any(not isinstance(identifier, str) for identifier in empty_abc_strings)
+        or len(set(empty_abc_strings)) != len(empty_abc_strings)
+        or set(empty_abc_strings) & set(selected)
+    ):
+        raise ValueError("Invalid, duplicate or translated empty ABC string selection")
     entries = {entry["id"]: entry for entry in workspace["entries"]}
+    original_entries = {entry["id"]: entry for entry in inventory["entries"]}
     conflicts = {conflict["old"]["id"] for conflict in workspace["conflicts"]}
     prefix, tags = read_swf(original)
     source_fonts = {}
@@ -444,6 +453,25 @@ def patch_selected_tags(
         except ValueError as error:
             raise ValueError(f"{identifier}: {error}") from error
         groups[path[0]].append(entry)
+    for identifier in empty_abc_strings:
+        entry = original_entries.get(identifier)
+        if entry is None or entry["classification"] != "technical":
+            raise ValueError(f"Unknown or non-technical empty ABC string: {identifier}")
+        if any(ord(char) < 32 or ord(char) == 127 for char in entry["source"]):
+            raise ValueError(f"Empty ABC string would remove a control sequence: {identifier}")
+        location = entry["location"]
+        if entry["category"] != "actionscript" or "method_index" not in location:
+            raise ValueError(f"Empty ABC string requires a pushstring address: {identifier}")
+        path = location["tag_path"]
+        if (
+            len(path) != 1
+            or tags[path[0]].code != location["tag_code"]
+            or location["tag_code"] not in (72, 82)
+        ):
+            raise ValueError(f"Unsupported empty ABC tag address: {identifier}")
+        suppressed = copy.deepcopy(entry)
+        suppressed["translation"] = ""
+        groups[path[0]].append(suppressed)
     changed = []
     for index, tag in enumerate(tags):
         payload = tag.payload
@@ -474,6 +502,7 @@ def patch_selected_tags(
         tags,
         {
             "applied_translations": len(selected),
+            "empty_abc_strings": sorted(empty_abc_strings),
             "changed_original_tags": changed,
             "layout_checks": metrics,
             "runtime_verified": False,
