@@ -443,3 +443,57 @@ def test_short_ui_headings_are_references_too():
     catalog = export_catalog(workspace, data)
     assert source not in json.dumps(catalog, ensure_ascii=False)
     assert restore_workspace(catalog, data) == workspace
+
+
+def test_reexport_cannot_drop_notes_while_retaining_translation():
+    data = inventory()
+    workspace = manual_workspace(data)
+    previous = export_catalog(workspace, data)
+    row = workspace['entries'][0]
+    translation = row['translation']
+    row['notes'] = ''
+    with pytest.raises(ValueError, match=row['id']):
+        export_catalog(workspace, data, previous=previous,
+                       expected_previous_sha256=catalog_digest(previous))
+    assert row['translation'] == translation
+
+
+@pytest.mark.parametrize('field', [
+    'notes', 'context', 'status', 'classification', 'context_confidence',
+    'mandatory_placeholders', 'translation',
+])
+def test_resetting_any_manual_override_requires_explicit_removal(field):
+    data = inventory()
+    workspace = manual_workspace(data)
+    workspace['entries'][0]['mandatory_placeholders'] = []
+    previous = export_catalog(workspace, data)
+    baseline = initialize_workspace(data)['entries'][0]
+    row = workspace['entries'][0]
+    row[field] = copy.deepcopy(baseline[field])
+    with pytest.raises(ValueError, match=row['id']):
+        export_catalog(workspace, data, previous=previous,
+                       expected_previous_sha256=catalog_digest(previous))
+    allowed = export_catalog(workspace, data, previous=previous,
+                             allow_removals=[row['id']],
+                             expected_previous_sha256=catalog_digest(previous))
+    assert restore_workspace(allowed, data) == workspace
+    with pytest.raises(ValueError, match='baseline changed'):
+        export_catalog(workspace, data, previous=previous,
+                       allow_removals=[row['id']], expected_previous_sha256='0' * 64)
+
+
+@pytest.mark.parametrize('field,value', [
+    ('notes', 'Обновлённая заметка'), ('context', 'Уточнённый контекст'),
+    ('status', 'verified'), ('classification', 'unknown'),
+    ('context_confidence', 'inferred'), ('mandatory_placeholders', ['</b>']),
+    ('translation', '<b>Обновлённый ёж {n}</b>'),
+])
+def test_ordinary_manual_edits_remain_allowed(field, value):
+    data = inventory()
+    workspace = manual_workspace(data)
+    workspace['entries'][0]['mandatory_placeholders'] = ['<b>']
+    previous = export_catalog(workspace, data)
+    workspace['entries'][0][field] = value
+    exported = export_catalog(workspace, data, previous=previous,
+                              expected_previous_sha256=catalog_digest(previous))
+    assert restore_workspace(exported, data) == workspace

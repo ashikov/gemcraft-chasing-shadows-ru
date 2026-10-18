@@ -292,10 +292,11 @@ def export_catalog(workspace, inventory, previous=None, allow_removals=(),
     if previous is not None:
         old_workspace = restore_workspace(previous, inventory)
         new_by_id = {entry["id"]: entry for entry in workspace["entries"]}
-        saved_ids = {entry["id"] for entry in result["entries"]}
+        new_manual = {entry["id"]: entry["manual"] for entry in result["entries"]}
         old_by_id = {entry["id"]: entry for entry in old_workspace["entries"]}
         allowed = set(allow_removals)
-        previous_ids = {entry["id"] for entry in previous["entries"]}
+        previous_manual = {entry["id"]: entry["manual"] for entry in previous["entries"]}
+        previous_ids = set(previous_manual)
         if allowed - previous_ids:
             raise ValueError("allow_removals contains unknown previous IDs: "
                              + ", ".join(sorted(allowed - previous_ids)))
@@ -303,7 +304,7 @@ def export_catalog(workspace, inventory, previous=None, allow_removals=(),
         for identifier in sorted(previous_ids - allowed):
             old_translation = old_by_id[identifier]["translation"]
             new_translation = new_by_id[identifier]["translation"]
-            if (identifier not in saved_ids
+            if (previous_manual[identifier].keys() - new_manual.get(identifier, {}).keys()
                     or (old_translation is not None and new_translation is None)
                     or (old_translation not in (None, "") and new_translation == "")):
                 losses.append(identifier)

@@ -73,7 +73,7 @@ PR #3–#13 и их порядок закреплены в `translations/build-m
 ```sh
 git clone git@github.com:ashikov/gemcraft-chasing-shadows-ru.git gemcraft-ru
 cd gemcraft-ru
-# До merge PR #14 переключитесь на его ветку.
+# До merge PR #15 переключитесь на его ветку.
 git switch feat/pr14-versioned-translations
 python3 -m venv .venv
 . .venv/bin/activate
