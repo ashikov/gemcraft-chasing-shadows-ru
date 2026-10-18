@@ -1,0 +1,57 @@
+{
+  "applied_translations": 1809,
+  "expected_candidate_sha256": "8222c9127774620e6caed18120772f7aad8c68a46d766192a0213c05e1786fe7",
+  "font_sha256": "ba5564634b93a8f8ba57b48cd4f1ae7417d2b4656fbac779028679b00de3cf12",
+  "game_sha256": "c8eadc03a7e607086998695f7696ec22dd90d7b7859e3d10cdfabf40fc7bbad5",
+  "plans": [
+    {
+      "path": "plans/pr03-options.json",
+      "sha256": "7112821d506610846a19b032ff5e7cddde3ae80c1433af616e226319b1330e76"
+    },
+    {
+      "path": "plans/pr04-main-menu.json",
+      "sha256": "56be0d96ff3a54a37452cf0ae18cef02d00f6b9444177b748f419d9c4fac30c3"
+    },
+    {
+      "path": "plans/pr04-map.json",
+      "sha256": "ca36de0065c0433d7ecca533f579269d2751c4e61f5b2fd934f3c9a07513bba0"
+    },
+    {
+      "path": "plans/pr05-tutor.json",
+      "sha256": "79687770e4a4c204f4be6d585e91ed3ede000458e4425c418ad67ba41c757813"
+    },
+    {
+      "path": "plans/pr06-outcome.json",
+      "sha256": "1323d0b151178780d3ce39c326f3c0da3f7aef8ada005153ca28e2f00faf10cb"
+    },
+    {
+      "path": "plans/pr07-skills.json",
+      "sha256": "f4b6566cad00de9022d1a7d929f6e6ee7009fe2bbee71dbf9c1bf4d34e80cd2a"
+    },
+    {
+      "path": "plans/pr08-talisman.json",
+      "sha256": "15cf640dec17962cbd6ecabe15caaa8c491630e695e0ba3f1ae73b18939efa42"
+    },
+    {
+      "path": "plans/pr09-achievements.json",
+      "sha256": "db108a0efc08cd9b4f4914609a12f406b75a695c65e4dcfb5975b0e121e34665"
+    },
+    {
+      "path": "plans/pr10-battle-traits.json",
+      "sha256": "2da340c9fada01fc7accdc14945d8cadc49255d585e20f1f53fd7c398f42cf98"
+    },
+    {
+      "path": "plans/pr11-drop-icon.json",
+      "sha256": "42fe1c420ab96a27948bbb56b1d78c858126b8ed1541f36b1d477e223a4b3f48"
+    },
+    {
+      "path": "plans/pr12-journey.json",
+      "sha256": "a7533331b90dc75fff498658ec83c933fca1fad9a65cbfd27dff109c48c26857"
+    },
+    {
+      "path": "plans/pr13-stats.json",
+      "sha256": "3a7c0cfaec524b934d29de186826c264cf9fa7a7c498afb0a6b3908dd8699468"
+    }
+  ],
+  "schema_version": 1
+}

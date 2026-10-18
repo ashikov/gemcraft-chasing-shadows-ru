@@ -1,4 +1,8 @@
 # Local-only research evidence and all game/font resources.
+# Authored Russian translations and required plans are private-project data.
+!translations/catalog.json
+!translations/build-manifest.json
+!translations/plans/*.json
 /backups/
 /output/
 /artifacts/
