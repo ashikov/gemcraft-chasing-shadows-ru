@@ -431,3 +431,15 @@ def test_static_binding_address_cannot_be_disguised_by_another_character_id():
         'tag_path': [7], 'tag_code': 11, 'character_id': 70}
     catalog['entries'].append(row)
     assert any('duplicate binding address' in error for error in validate_catalog_data(catalog))
+
+
+def test_short_ui_headings_are_references_too():
+    data = inventory()
+    source = 'Building towers'
+    data['entries'][1].update(source=source, source_sha256=source_hash(source),
+                              mandatory_placeholders=[])
+    workspace = initialize_workspace(data)
+    workspace['entries'][0]['context'] = 'Панель «Building towers»'
+    catalog = export_catalog(workspace, data)
+    assert source not in json.dumps(catalog, ensure_ascii=False)
+    assert restore_workspace(catalog, data) == workspace

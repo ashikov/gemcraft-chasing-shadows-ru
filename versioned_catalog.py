@@ -40,7 +40,10 @@ def _valid_source_reference(value):
 def _source_encoder(inventory):
     references = {}
     for entry in sorted(inventory["entries"], key=lambda item: item["id"]):
-        if len(entry["source"]) >= SOURCE_REFERENCE_MIN_LENGTH:
+        source = entry["source"]
+        textual_label = (len(source) >= 3 and entry["classification"] != "technical"
+                         and any(char.isascii() and char.isalpha() for char in source))
+        if len(source) >= SOURCE_REFERENCE_MIN_LENGTH or textual_label:
             references.setdefault(entry["source"], {
                 "id": entry["id"], "source_sha256": entry["source_sha256"],
             })
