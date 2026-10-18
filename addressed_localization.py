@@ -270,18 +270,22 @@ def _display_text(tag, entry, font, layout, source_fonts):
     if bool(layout.get('wrap')) != formatting['word_wrap']:
         raise ValueError('Editable word wrap differs from layout')
     if formatting['html']:
-        # Only the existing one-paragraph Flash HTML recipe is supported. Tags,
-        # attributes and sizes are exact guards; only text and local face change.
-        pattern = r'<p(?: align="(?:left|center|right)")?><font face="[^"]+" size="\d+"(?: color="#[0-9a-fA-F]{6}")?(?: letterSpacing="[0-9.]+")?(?: kerning="1")?>(?:<b>)?[^<>]*(?:</b>)?</font></p>'
-        if not re.fullmatch(pattern, source) or not re.fullmatch(pattern, translation):
+        # Tags, attributes and sizes are exact guards; only text and local face
+        # change. Besides the one-paragraph recipe, justified multi-paragraph
+        # bodies (including empty spacer paragraphs) are supported.
+        paragraph = (r'<p(?: align="(?:left|center|right|justify)")?>'
+                     r'(?:<font face="[^"]+" size="\d+"'
+                     r'(?: color="#[0-9a-fA-F]{6}")?(?: letterSpacing="[0-9.]+")?'
+                     r'(?: kerning="1")?>(?:<b>)?[^<>]*(?:</b>)?</font>)?</p>')
+        if not re.fullmatch(f'(?:{paragraph})+', source) or not re.fullmatch(f'(?:{paragraph})+', translation):
             raise ValueError('Unsupported HTML recipe')
         if re.findall(r'<[^>]+>', source) != re.findall(r'<[^>]+>', translation):
             raise ValueError('HTML structure or style differs')
-        visible = unescape(re.sub(r'<[^>]+>', '', translation))
-        size = int(re.search(r' size="(\d+)"', source)[1]) * 20
-        if size != layout['height']:
+        visible = unescape(re.sub(r'<[^>]+>', '', translation.replace('</p>', '\n'))).removesuffix('\n')
+        sizes = [int(size) * 20 for size in re.findall(r' size="(\d+)"', source)]
+        if not sizes or any(size != layout['height'] for size in sizes):
             raise ValueError('HTML font size differs from layout')
-        translation = re.sub(r' face="[^"]+"', lambda _: ' face="' + font['name'].decode('utf-8') + '"', translation, count=1)
+        translation = re.sub(r' face="[^"]+"', lambda _: ' face="' + font['name'].decode('utf-8') + '"', translation)
     else:
         visible = translation
     if layout['height'] != formatting['font_height']:

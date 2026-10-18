@@ -76,6 +76,71 @@ def test_html_style_or_structure_changes_fail_closed():
         run(values)
 
 
+def multi_paragraph_inputs(second_size=12, empty_only=False, trailing_spacer=False):
+    font = font_fixture()
+    para = ('<p align="justify"><font face="Synthetic" size="12" color="#000000"'
+            ' letterSpacing="0.00" kerning="1">%s</font></p>')
+    spacer = '<p align="justify"></p>'
+    source = para % 'A' + spacer + (para % 'B').replace('size="12"', f'size="{second_size}"')
+    translation = para % 'А' + spacer + (para % 'В').replace('size="12"', f'size="{second_size}"')
+    if trailing_spacer:
+        source += spacer
+        translation += spacer
+    if empty_only:
+        source = translation = spacer
+    payload = struct.pack('<H', 7) + encode_rect([0, 2000, -100, 600])
+    payload += struct.pack('>H', 0xed33) + struct.pack('<HH', 3, 240)
+    payload += bytes([0, 0, 0, 255])
+    payload += struct.pack('<BHHhh', 3, 0, 0, 0, 40)
+    payload += b'variable\0' + source.encode() + b'\0'
+    raw = swf([Tag(75, build_font(font)), Tag(37, payload), Tag(77, b'Untouched')])
+    digest = hashlib.sha256(raw).hexdigest()
+    workspace = initialize_workspace(extract_inventory(raw, digest))
+    entry = workspace['entries'][0]
+    entry.update(translation=translation,
+                 classification='confirmed', context_confidence='confirmed', status='draft')
+    replacement = extend_font(copy.deepcopy(font), {'А': {'donor': 'A'}, 'В': {'donor': 'B'}})
+    replacement.update(id=6001, name=b'New Family')
+    plan = {'schema_version': 1, 'game_sha256': digest, 'entry_ids': [entry['id']],
+            'fonts': [3], 'layouts': {entry['id']: {'font_id': 3, 'height': 240,
+            'max_width': 1800, 'wrap': True, 'max_lines': 3}}}
+    return raw, workspace, plan, replacement, digest
+
+
+def test_edit_html_multi_paragraph_justify_keeps_structure_and_spacers():
+    values = multi_paragraph_inputs()
+    _, tags, _ = run(values)
+    _, source, formatting = parse_edit_text(tags[1].payload)
+    assert source == values[1]['entries'][0]['translation'].replace(
+        'face="Synthetic"', 'face="New Family"')
+    assert formatting['word_wrap'] and formatting['multiline']
+    assert tags[0] == read_swf(values[0])[1][0]
+    assert run(values)[1] == tags
+
+
+def test_edit_html_multi_paragraph_rejects_structure_drift():
+    values = multi_paragraph_inputs()
+    values[1]['entries'][0]['translation'] = values[1]['entries'][0]['translation'].replace(
+        '<p align="justify"></p>', '', 1)
+    with pytest.raises(ValueError, match='HTML'):
+        run(values)
+
+
+def test_edit_html_multi_paragraph_rejects_mixed_font_sizes():
+    with pytest.raises(ValueError, match='HTML font size'):
+        run(multi_paragraph_inputs(second_size=24))
+
+
+def test_edit_html_empty_paragraphs_fail_closed():
+    with pytest.raises(ValueError, match='HTML font size'):
+        run(multi_paragraph_inputs(empty_only=True))
+
+
+def test_edit_html_trailing_spacer_counts_towards_line_limit():
+    with pytest.raises(ValueError, match='line count'):
+        run(multi_paragraph_inputs(trailing_spacer=True))
+
+
 def test_static_multiple_records_need_explicit_run_recipe():
     values = inputs()
     raw, workspace, plan, font, digest = values
