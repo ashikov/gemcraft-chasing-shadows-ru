@@ -398,8 +398,34 @@ constructprop/cast/setlocal, точные класс, argc, сохранённы
 переход PR8 → original → PR9 → original → PR8. `GEMCRAFT_PR9_OUTPUT` позволяет
 сохранить свидетельства в новом локальном каталоге.
 
-Категорийные фильтры остаются английскими общими ключами. Боевые черты,
-остальные drop-icon подсказки и refund floating text талисмана также остаются
-blockers; честный статус накопительной сборки — **PARTIAL**. Визуальные
-состояния — **NOT VERIFIED — ACCEPTED RISK**; офлайн-проверки не являются
-новым запуском игры.
+Этап боевых черт добавляет 42 адресных ABC-перевода и сохраняет все 1648
+прежних: 30 строк m1070, шесть литералов панели m1066 и шесть строк двух
+scroll-tooltip веток m556. Это девять названий черт, три названия сложности,
+девять полных и девять кратких описаний, подписи current/next/max и тексты
+Battle Trait/Battle Difficulty Scroll. Накопительный кандидат содержит 1690
+записей; статических display replacements нет.
+
+Полный список внешних чтений общих `traitTitles`, `difficultyTitles`,
+`traitDescriptions` и `traitShortDescriptions` — m1066, m1068 и две выбранные
+ветки m556. Девять вызовов `addTextfield` в m1066 и восемь в m556 получают
+парные `panel_format_before`/`panel_format_after`; всего 34 новых binding
+records. Прежний skill-title binding m556@328 сохраняется, остальные drop-ветки
+не выбираются. Методы m1065/m1068/m1069, числовые массивы и игровые условия
+остаются неизменными. Русские шаблоны используют нейтральные подписи вместо
+английских `_sL/_s0/_s2`; реальные уровни 1/7 и специальная ветка Hatred до
+уровня 10 проверяются отдельно от стресс-геометрии с синтетическими числами.
+
+Приватный `test_battle_traits_local.py` требует `GEMCRAFT_ORIGINAL`,
+`GEMCRAFT_PR4_WORKSPACE`, `GEMCRAFT_PR10_BASE_PLANS` (JSON-массив путей PR3–PR9),
+`GEMCRAFT_PR10_BATTLE_TRAITS_PLAN` и `GEMCRAFT_ALEGREYA_FONT`. Рядом находятся
+inventory и cumulative plan. Тест воспроизводит PR9 по SHA, проверяет все 1648
+прежних записи, свежие адреса, незатронутые методы/теги, contours, bindings,
+динамические фразы и временный переход PR9 → original → PR10 → original → PR9.
+`GEMCRAFT_PR10_OUTPUT` сохраняет свидетельства в новом локальном каталоге.
+
+Категорийные фильтры, невыбранные drop-icon подсказки и refund floating text
+талисмана остаются blockers. Battle Trait Scroll pickup `abc.4175.623.1291`
+также остаётся английским: он использует общий bitmap floating-text путь и
+требует отдельного pre-rasterization рецепта. Честный статус сборки — **PARTIAL**.
+Визуальные состояния — **NOT VERIFIED — ACCEPTED RISK**; офлайн-проверки не
+являются новым запуском игры.
