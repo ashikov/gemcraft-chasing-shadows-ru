@@ -429,3 +429,35 @@ inventory и cumulative plan. Тест воспроизводит PR9 по SHA, 
 требует отдельного pre-rasterization рецепта. Честный статус сборки — **PARTIAL**.
 Визуальные состояния — **NOT VERIFIED — ACCEPTED RISK**; офлайн-проверки не
 являются новым запуском игры.
+
+Этап drop-icon подсказок добавляет 16 адресных ABC-переводов и сохраняет все
+1690 прежних: четыре строки Iron Orblet, два суффикса счётчика shadow core,
+префиксы field token и map hextile, шесть строк двух веток Gem of Eternity
+и две строки Skill Tome. Все адреса — pushstring в методе 556
+(`IngameInfoPanelRenderer2/renderDropIconInfoPanel`); статических display
+replacements нет. Накопительный кандидат содержит 1706 записей.
+
+15 новых вызовов `addTextfield` получают парные
+`panel_format_before`/`panel_format_after` — всего 30 новых binding records,
+объединённый m556 содержит 48 с учётом PR7/PR10. Общий pool 9681
+` shadow cores` не переписывается: адресная замена меняет только pushstring
+@426, остальные потребители (m341, m955, m1144) сохраняют прежние строки.
+Суффикс счётчика переведён нейтральной формой ` теневых ядер` / ` теневое ядро`
+— той же, что PR7 использовал для того же pool-ресурса в панели навыков
+(ветка единственного числа точна для 1; несовпадение формы для значений на
+2–4 задокументировано и принято, кодовая сборка не меняется). Diagnostic-ветка
+Error и строки сравнения `19`/`25` остаются техническими.
+
+Приватный `test_drop_icons_local.py` требует `GEMCRAFT_ORIGINAL`,
+`GEMCRAFT_PR4_WORKSPACE`, `GEMCRAFT_PR11_BASE_PLANS` (JSON-массив путей PR3–PR10),
+`GEMCRAFT_PR11_DROP_ICON_PLAN` и `GEMCRAFT_ALEGREYA_FONT`. Рядом находятся
+inventory и cumulative plan. Тест воспроизводит PR10 по SHA, проверяет все 1690
+прежних записей, свежие адреса, незатронутые методы/теги, contours, bindings,
+динамические склейки (числа shadow cores, strId полей и гексагонов) и временный
+переход PR10 → original → PR11 → original → PR10. `GEMCRAFT_PR11_OUTPUT`
+сохраняет свидетельства в новом локальном каталоге.
+
+Bitmap floating texts (refund талисмана, pickup свитков) и категорийные
+фильтры достижений остаются blockers. Честный статус сборки — **PARTIAL**.
+Визуальные состояния — **NOT VERIFIED — ACCEPTED RISK**; офлайн-проверки не
+являются новым запуском игры.
