@@ -1,4 +1,4085 @@
 {
+  "abc_font_bindings": [
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 39,
+      "kind": "panel_format_before",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 35,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 39,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 16,
+      "expected_operands": [
+        2965
+      ],
+      "extra_stack": 5,
+      "instruction_index": 41,
+      "kind": "panel_format_after",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 35,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 39,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 60,
+      "kind": "panel_format_before",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 56,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 60,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 16,
+      "expected_operands": [
+        2915
+      ],
+      "extra_stack": 5,
+      "instruction_index": 62,
+      "kind": "panel_format_after",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 56,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 60,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 77,
+      "kind": "panel_format_before",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 73,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 77,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 16,
+      "expected_operands": [
+        2873
+      ],
+      "extra_stack": 5,
+      "instruction_index": 79,
+      "kind": "panel_format_after",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 73,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 77,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 89,
+      "kind": "panel_format_before",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 85,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 89,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 210,
+      "expected_operands": [],
+      "extra_stack": 5,
+      "instruction_index": 91,
+      "kind": "panel_format_after",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 85,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 89,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 98,
+      "kind": "panel_format_before",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 94,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 98,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 16,
+      "expected_operands": [
+        2823
+      ],
+      "extra_stack": 5,
+      "instruction_index": 100,
+      "kind": "panel_format_after",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 94,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 98,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 110,
+      "kind": "panel_format_before",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 106,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 110,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 210,
+      "expected_operands": [],
+      "extra_stack": 5,
+      "instruction_index": 112,
+      "kind": "panel_format_after",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 106,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 110,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 119,
+      "kind": "panel_format_before",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 115,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 119,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 16,
+      "expected_operands": [
+        2773
+      ],
+      "extra_stack": 5,
+      "instruction_index": 121,
+      "kind": "panel_format_after",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 115,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 119,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 131,
+      "kind": "panel_format_before",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 127,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 131,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 16,
+      "expected_operands": [
+        2744
+      ],
+      "extra_stack": 5,
+      "instruction_index": 133,
+      "kind": "panel_format_after",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 127,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 131,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 143,
+      "kind": "panel_format_before",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 139,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 143,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 210,
+      "expected_operands": [],
+      "extra_stack": 5,
+      "instruction_index": 145,
+      "kind": "panel_format_after",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 139,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 143,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 152,
+      "kind": "panel_format_before",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 148,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 152,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 16,
+      "expected_operands": [
+        2694
+      ],
+      "extra_stack": 5,
+      "instruction_index": 154,
+      "kind": "panel_format_after",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 148,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 152,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 164,
+      "kind": "panel_format_before",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 160,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 164,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 210,
+      "expected_operands": [],
+      "extra_stack": 5,
+      "instruction_index": 166,
+      "kind": "panel_format_after",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 160,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 164,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 173,
+      "kind": "panel_format_before",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 169,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 173,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 16,
+      "expected_operands": [
+        2644
+      ],
+      "extra_stack": 5,
+      "instruction_index": 175,
+      "kind": "panel_format_after",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 169,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 173,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 185,
+      "kind": "panel_format_before",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 181,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 185,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 210,
+      "expected_operands": [],
+      "extra_stack": 5,
+      "instruction_index": 187,
+      "kind": "panel_format_after",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 181,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 185,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 194,
+      "kind": "panel_format_before",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 190,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 194,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 16,
+      "expected_operands": [
+        2594
+      ],
+      "extra_stack": 5,
+      "instruction_index": 196,
+      "kind": "panel_format_after",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 190,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 194,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 206,
+      "kind": "panel_format_before",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 202,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 206,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 210,
+      "expected_operands": [],
+      "extra_stack": 5,
+      "instruction_index": 208,
+      "kind": "panel_format_after",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 202,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 206,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 215,
+      "kind": "panel_format_before",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 211,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 215,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 16,
+      "expected_operands": [
+        2544
+      ],
+      "extra_stack": 5,
+      "instruction_index": 217,
+      "kind": "panel_format_after",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 211,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 215,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 227,
+      "kind": "panel_format_before",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 223,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 227,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 210,
+      "expected_operands": [],
+      "extra_stack": 5,
+      "instruction_index": 229,
+      "kind": "panel_format_after",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 223,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 227,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 236,
+      "kind": "panel_format_before",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 232,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 236,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 16,
+      "expected_operands": [
+        2494
+      ],
+      "extra_stack": 5,
+      "instruction_index": 238,
+      "kind": "panel_format_after",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 232,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 236,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 248,
+      "kind": "panel_format_before",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 244,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 248,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 210,
+      "expected_operands": [],
+      "extra_stack": 5,
+      "instruction_index": 250,
+      "kind": "panel_format_after",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 244,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 248,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 257,
+      "kind": "panel_format_before",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 253,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 257,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 16,
+      "expected_operands": [
+        2444
+      ],
+      "extra_stack": 5,
+      "instruction_index": 259,
+      "kind": "panel_format_after",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 253,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 257,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 269,
+      "kind": "panel_format_before",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 265,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 269,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 210,
+      "expected_operands": [],
+      "extra_stack": 5,
+      "instruction_index": 271,
+      "kind": "panel_format_after",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 265,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 269,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 278,
+      "kind": "panel_format_before",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 274,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 278,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 16,
+      "expected_operands": [
+        2394
+      ],
+      "extra_stack": 5,
+      "instruction_index": 280,
+      "kind": "panel_format_after",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 274,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 278,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 290,
+      "kind": "panel_format_before",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 286,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 290,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 210,
+      "expected_operands": [],
+      "extra_stack": 5,
+      "instruction_index": 292,
+      "kind": "panel_format_after",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 286,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 290,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 299,
+      "kind": "panel_format_before",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 295,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 299,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 16,
+      "expected_operands": [
+        2344
+      ],
+      "extra_stack": 5,
+      "instruction_index": 301,
+      "kind": "panel_format_after",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 295,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 299,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 311,
+      "kind": "panel_format_before",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 307,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 311,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 210,
+      "expected_operands": [],
+      "extra_stack": 5,
+      "instruction_index": 313,
+      "kind": "panel_format_after",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 307,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 311,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 320,
+      "kind": "panel_format_before",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 316,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 320,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 16,
+      "expected_operands": [
+        2294
+      ],
+      "extra_stack": 5,
+      "instruction_index": 322,
+      "kind": "panel_format_after",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 316,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 320,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 332,
+      "kind": "panel_format_before",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 328,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 332,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 210,
+      "expected_operands": [],
+      "extra_stack": 5,
+      "instruction_index": 334,
+      "kind": "panel_format_after",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 328,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 332,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 341,
+      "kind": "panel_format_before",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 337,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 341,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 16,
+      "expected_operands": [
+        2244
+      ],
+      "extra_stack": 5,
+      "instruction_index": 343,
+      "kind": "panel_format_after",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 337,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 341,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 353,
+      "kind": "panel_format_before",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 349,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 353,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 210,
+      "expected_operands": [],
+      "extra_stack": 5,
+      "instruction_index": 355,
+      "kind": "panel_format_after",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 349,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 353,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 362,
+      "kind": "panel_format_before",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 358,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 362,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 16,
+      "expected_operands": [
+        2194
+      ],
+      "extra_stack": 5,
+      "instruction_index": 364,
+      "kind": "panel_format_after",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 358,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 362,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 391,
+      "kind": "panel_format_before",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 387,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 391,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 16,
+      "expected_operands": [
+        2122
+      ],
+      "extra_stack": 5,
+      "instruction_index": 393,
+      "kind": "panel_format_after",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 387,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 391,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 403,
+      "kind": "panel_format_before",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 399,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 403,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 16,
+      "expected_operands": [
+        2093
+      ],
+      "extra_stack": 5,
+      "instruction_index": 405,
+      "kind": "panel_format_after",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 399,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 403,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 415,
+      "kind": "panel_format_before",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 411,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 415,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 210,
+      "expected_operands": [],
+      "extra_stack": 5,
+      "instruction_index": 417,
+      "kind": "panel_format_after",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 411,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 415,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 424,
+      "kind": "panel_format_before",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 420,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 424,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 16,
+      "expected_operands": [
+        2043
+      ],
+      "extra_stack": 5,
+      "instruction_index": 426,
+      "kind": "panel_format_after",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 420,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 424,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 441,
+      "kind": "panel_format_before",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 437,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 441,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 16,
+      "expected_operands": [
+        2000
+      ],
+      "extra_stack": 5,
+      "instruction_index": 443,
+      "kind": "panel_format_after",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 437,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 441,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 458,
+      "kind": "panel_format_before",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 454,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 458,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 16,
+      "expected_operands": [
+        1957
+      ],
+      "extra_stack": 5,
+      "instruction_index": 460,
+      "kind": "panel_format_after",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 454,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 458,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 475,
+      "kind": "panel_format_before",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 471,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 475,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 16,
+      "expected_operands": [
+        1914
+      ],
+      "extra_stack": 5,
+      "instruction_index": 477,
+      "kind": "panel_format_after",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 471,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 475,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 492,
+      "kind": "panel_format_before",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 488,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 492,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 16,
+      "expected_operands": [
+        1871
+      ],
+      "extra_stack": 5,
+      "instruction_index": 494,
+      "kind": "panel_format_after",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 488,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 492,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 509,
+      "kind": "panel_format_before",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 505,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 509,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 16,
+      "expected_operands": [
+        1828
+      ],
+      "extra_stack": 5,
+      "instruction_index": 511,
+      "kind": "panel_format_after",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 505,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 509,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 530,
+      "kind": "panel_format_before",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 526,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 530,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 210,
+      "expected_operands": [],
+      "extra_stack": 5,
+      "instruction_index": 532,
+      "kind": "panel_format_after",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 526,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 530,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 539,
+      "kind": "panel_format_before",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 535,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 539,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 16,
+      "expected_operands": [
+        1757
+      ],
+      "extra_stack": 5,
+      "instruction_index": 541,
+      "kind": "panel_format_after",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 535,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 539,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 556,
+      "kind": "panel_format_before",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 552,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 556,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 16,
+      "expected_operands": [
+        1715
+      ],
+      "extra_stack": 5,
+      "instruction_index": 558,
+      "kind": "panel_format_after",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 552,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 556,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 573,
+      "kind": "panel_format_before",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 569,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 573,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 16,
+      "expected_operands": [
+        1673
+      ],
+      "extra_stack": 5,
+      "instruction_index": 575,
+      "kind": "panel_format_after",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 569,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 573,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 585,
+      "kind": "panel_format_before",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 581,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 585,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 16,
+      "expected_operands": [
+        1644
+      ],
+      "extra_stack": 5,
+      "instruction_index": 587,
+      "kind": "panel_format_after",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 581,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 585,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 597,
+      "kind": "panel_format_before",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 593,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 597,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 16,
+      "expected_operands": [
+        1615
+      ],
+      "extra_stack": 5,
+      "instruction_index": 599,
+      "kind": "panel_format_after",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 593,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 597,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 609,
+      "kind": "panel_format_before",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 605,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 609,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 16,
+      "expected_operands": [
+        1586
+      ],
+      "extra_stack": 5,
+      "instruction_index": 611,
+      "kind": "panel_format_after",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 605,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 609,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 621,
+      "kind": "panel_format_before",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 617,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 621,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 16,
+      "expected_operands": [
+        1557
+      ],
+      "extra_stack": 5,
+      "instruction_index": 623,
+      "kind": "panel_format_after",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 617,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 621,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 638,
+      "kind": "panel_format_before",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 634,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 638,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 657,
+      "kind": "panel_format_before",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 653,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 657,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 210,
+      "expected_operands": [],
+      "extra_stack": 5,
+      "instruction_index": 659,
+      "kind": "panel_format_after",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 653,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 657,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 666,
+      "kind": "panel_format_before",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 662,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 666,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 210,
+      "expected_operands": [],
+      "extra_stack": 5,
+      "instruction_index": 668,
+      "kind": "panel_format_after",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 662,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 666,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 675,
+      "kind": "panel_format_before",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 671,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 675,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 16,
+      "expected_operands": [
+        1425
+      ],
+      "extra_stack": 5,
+      "instruction_index": 677,
+      "kind": "panel_format_after",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 671,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 675,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 687,
+      "kind": "panel_format_before",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 683,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 687,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 210,
+      "expected_operands": [],
+      "extra_stack": 5,
+      "instruction_index": 689,
+      "kind": "panel_format_after",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 683,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 687,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 696,
+      "kind": "panel_format_before",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 692,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 696,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 16,
+      "expected_operands": [
+        1375
+      ],
+      "extra_stack": 5,
+      "instruction_index": 698,
+      "kind": "panel_format_after",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 692,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 696,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 708,
+      "kind": "panel_format_before",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 704,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 708,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 210,
+      "expected_operands": [],
+      "extra_stack": 5,
+      "instruction_index": 710,
+      "kind": "panel_format_after",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 704,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 708,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 717,
+      "kind": "panel_format_before",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 713,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 717,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 16,
+      "expected_operands": [
+        1325
+      ],
+      "extra_stack": 5,
+      "instruction_index": 719,
+      "kind": "panel_format_after",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 713,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 717,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 729,
+      "kind": "panel_format_before",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 725,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 729,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 16,
+      "expected_operands": [
+        1296
+      ],
+      "extra_stack": 5,
+      "instruction_index": 731,
+      "kind": "panel_format_after",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 725,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 729,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 741,
+      "kind": "panel_format_before",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 737,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 741,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 210,
+      "expected_operands": [],
+      "extra_stack": 5,
+      "instruction_index": 743,
+      "kind": "panel_format_after",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 737,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 741,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 750,
+      "kind": "panel_format_before",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 746,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 750,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 16,
+      "expected_operands": [
+        1246
+      ],
+      "extra_stack": 5,
+      "instruction_index": 752,
+      "kind": "panel_format_after",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 746,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 750,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 762,
+      "kind": "panel_format_before",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 758,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 762,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 210,
+      "expected_operands": [],
+      "extra_stack": 5,
+      "instruction_index": 764,
+      "kind": "panel_format_after",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 758,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 762,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 771,
+      "kind": "panel_format_before",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 767,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 771,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 16,
+      "expected_operands": [
+        1196
+      ],
+      "extra_stack": 5,
+      "instruction_index": 773,
+      "kind": "panel_format_after",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 767,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 771,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 783,
+      "kind": "panel_format_before",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 779,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 783,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 210,
+      "expected_operands": [],
+      "extra_stack": 5,
+      "instruction_index": 785,
+      "kind": "panel_format_after",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 779,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 783,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 792,
+      "kind": "panel_format_before",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 788,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 792,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 16,
+      "expected_operands": [
+        1146
+      ],
+      "extra_stack": 5,
+      "instruction_index": 794,
+      "kind": "panel_format_after",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 788,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 792,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 804,
+      "kind": "panel_format_before",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 800,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 804,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 210,
+      "expected_operands": [],
+      "extra_stack": 5,
+      "instruction_index": 806,
+      "kind": "panel_format_after",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 800,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 804,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 813,
+      "kind": "panel_format_before",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 809,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 813,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 16,
+      "expected_operands": [
+        1096
+      ],
+      "extra_stack": 5,
+      "instruction_index": 815,
+      "kind": "panel_format_after",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 809,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 813,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 825,
+      "kind": "panel_format_before",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 821,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 825,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 210,
+      "expected_operands": [],
+      "extra_stack": 5,
+      "instruction_index": 827,
+      "kind": "panel_format_after",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 821,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 825,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 834,
+      "kind": "panel_format_before",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 830,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 834,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 16,
+      "expected_operands": [
+        1046
+      ],
+      "extra_stack": 5,
+      "instruction_index": 836,
+      "kind": "panel_format_after",
+      "method_index": 79,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 830,
+          "opcode": 39,
+          "operands": []
+        },
+        {
+          "instruction_index": 834,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "d266c606",
+      "tag_path": [
+        4175
+      ]
+    }
+  ],
   "entry_ids": [
     "static.3016",
     "abc.4175.3469.36",
