@@ -1,0 +1,6644 @@
+{
+  "abc_font_bindings": [
+    {
+      "expected_opcode": 44,
+      "expected_operands": [
+        12007
+      ],
+      "extra_stack": 5,
+      "instruction_index": 181,
+      "kind": "field",
+      "method_index": 3493,
+      "receiver_guards": [
+        {
+          "instruction_index": 181,
+          "opcode": 44,
+          "operands": [
+            12007
+          ]
+        }
+      ],
+      "receiver_hex": "d066dd1c66fa3566f835",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 44,
+      "expected_operands": [
+        7429
+      ],
+      "extra_stack": 5,
+      "instruction_index": 188,
+      "kind": "field",
+      "method_index": 3493,
+      "receiver_guards": [
+        {
+          "instruction_index": 188,
+          "opcode": 44,
+          "operands": [
+            7429
+          ]
+        }
+      ],
+      "receiver_hex": "d066dd1c66fc3566f835",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 44,
+      "expected_operands": [
+        7433
+      ],
+      "extra_stack": 5,
+      "instruction_index": 195,
+      "kind": "field",
+      "method_index": 3493,
+      "receiver_guards": [
+        {
+          "instruction_index": 195,
+          "opcode": 44,
+          "operands": [
+            7433
+          ]
+        }
+      ],
+      "receiver_hex": "d066dd1c66fd3566f835",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 44,
+      "expected_operands": [
+        13702
+      ],
+      "extra_stack": 5,
+      "instruction_index": 202,
+      "kind": "field",
+      "method_index": 3493,
+      "receiver_guards": [
+        {
+          "instruction_index": 202,
+          "opcode": 44,
+          "operands": [
+            13702
+          ]
+        }
+      ],
+      "receiver_hex": "d066dd1c66fe3566f835",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 44,
+      "expected_operands": [
+        13800
+      ],
+      "extra_stack": 5,
+      "instruction_index": 209,
+      "kind": "field",
+      "method_index": 3493,
+      "receiver_guards": [
+        {
+          "instruction_index": 209,
+          "opcode": 44,
+          "operands": [
+            13800
+          ]
+        }
+      ],
+      "receiver_hex": "d066dd1c66ff3566f835",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 44,
+      "expected_operands": [
+        13801
+      ],
+      "extra_stack": 5,
+      "instruction_index": 216,
+      "kind": "field",
+      "method_index": 3493,
+      "receiver_guards": [
+        {
+          "instruction_index": 216,
+          "opcode": 44,
+          "operands": [
+            13801
+          ]
+        }
+      ],
+      "receiver_hex": "d066dd1c66803666f835",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        4
+      ],
+      "extra_stack": 5,
+      "instruction_index": 21,
+      "kind": "panel_format_before",
+      "method_index": 1001,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 21,
+          "opcode": 79,
+          "operands": [
+            3729,
+            4
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 240,
+      "expected_operands": [
+        190
+      ],
+      "extra_stack": 5,
+      "instruction_index": 22,
+      "kind": "panel_format_after",
+      "method_index": 1001,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 22,
+          "opcode": 240,
+          "operands": [
+            190
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        4
+      ],
+      "extra_stack": 5,
+      "instruction_index": 28,
+      "kind": "panel_format_before",
+      "method_index": 1001,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 28,
+          "opcode": 79,
+          "operands": [
+            3729,
+            4
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 240,
+      "expected_operands": [
+        191
+      ],
+      "extra_stack": 5,
+      "instruction_index": 29,
+      "kind": "panel_format_after",
+      "method_index": 1001,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 29,
+          "opcode": 240,
+          "operands": [
+            191
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        4
+      ],
+      "extra_stack": 5,
+      "instruction_index": 35,
+      "kind": "panel_format_before",
+      "method_index": 1001,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 35,
+          "opcode": 79,
+          "operands": [
+            3729,
+            4
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 240,
+      "expected_operands": [
+        192
+      ],
+      "extra_stack": 5,
+      "instruction_index": 36,
+      "kind": "panel_format_after",
+      "method_index": 1001,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 36,
+          "opcode": 240,
+          "operands": [
+            192
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        4
+      ],
+      "extra_stack": 5,
+      "instruction_index": 42,
+      "kind": "panel_format_before",
+      "method_index": 1001,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 42,
+          "opcode": 79,
+          "operands": [
+            3729,
+            4
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 240,
+      "expected_operands": [
+        193
+      ],
+      "extra_stack": 5,
+      "instruction_index": 43,
+      "kind": "panel_format_after",
+      "method_index": 1001,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 43,
+          "opcode": 240,
+          "operands": [
+            193
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        5
+      ],
+      "extra_stack": 5,
+      "instruction_index": 33,
+      "kind": "panel_format_before",
+      "method_index": 1006,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 33,
+          "opcode": 79,
+          "operands": [
+            3729,
+            5
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 240,
+      "expected_operands": [
+        231
+      ],
+      "extra_stack": 5,
+      "instruction_index": 34,
+      "kind": "panel_format_after",
+      "method_index": 1006,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 34,
+          "opcode": 240,
+          "operands": [
+            231
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 78,
+      "kind": "panel_format_before",
+      "method_index": 1006,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 78,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 240,
+      "expected_operands": [
+        235
+      ],
+      "extra_stack": 5,
+      "instruction_index": 79,
+      "kind": "panel_format_after",
+      "method_index": 1006,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 79,
+          "opcode": 240,
+          "operands": [
+            235
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 88,
+      "kind": "panel_format_before",
+      "method_index": 1006,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 88,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 240,
+      "expected_operands": [
+        236
+      ],
+      "extra_stack": 5,
+      "instruction_index": 89,
+      "kind": "panel_format_after",
+      "method_index": 1006,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 89,
+          "opcode": 240,
+          "operands": [
+            236
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 98,
+      "kind": "panel_format_before",
+      "method_index": 1006,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 98,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 16,
+      "expected_operands": [
+        26
+      ],
+      "extra_stack": 5,
+      "instruction_index": 99,
+      "kind": "panel_format_after",
+      "method_index": 1006,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 99,
+          "opcode": 16,
+          "operands": [
+            26
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 109,
+      "kind": "panel_format_before",
+      "method_index": 1006,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 109,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 240,
+      "expected_operands": [
+        240
+      ],
+      "extra_stack": 5,
+      "instruction_index": 110,
+      "kind": "panel_format_after",
+      "method_index": 1006,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 110,
+          "opcode": 240,
+          "operands": [
+            240
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 129,
+      "kind": "panel_format_before",
+      "method_index": 1006,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 129,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 240,
+      "expected_operands": [
+        244
+      ],
+      "extra_stack": 5,
+      "instruction_index": 130,
+      "kind": "panel_format_after",
+      "method_index": 1006,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 130,
+          "opcode": 240,
+          "operands": [
+            244
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        5
+      ],
+      "extra_stack": 5,
+      "instruction_index": 26,
+      "kind": "panel_format_before",
+      "method_index": 1007,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 26,
+          "opcode": 79,
+          "operands": [
+            3729,
+            5
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 240,
+      "expected_operands": [
+        252
+      ],
+      "extra_stack": 5,
+      "instruction_index": 27,
+      "kind": "panel_format_after",
+      "method_index": 1007,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 27,
+          "opcode": 240,
+          "operands": [
+            252
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 46,
+      "kind": "panel_format_before",
+      "method_index": 1007,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 46,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 240,
+      "expected_operands": [
+        255
+      ],
+      "extra_stack": 5,
+      "instruction_index": 47,
+      "kind": "panel_format_after",
+      "method_index": 1007,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 47,
+          "opcode": 240,
+          "operands": [
+            255
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 66,
+      "kind": "panel_format_before",
+      "method_index": 1007,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 66,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 240,
+      "expected_operands": [
+        258
+      ],
+      "extra_stack": 5,
+      "instruction_index": 67,
+      "kind": "panel_format_after",
+      "method_index": 1007,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 67,
+          "opcode": 240,
+          "operands": [
+            258
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 76,
+      "kind": "panel_format_before",
+      "method_index": 1007,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 76,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 240,
+      "expected_operands": [
+        260
+      ],
+      "extra_stack": 5,
+      "instruction_index": 77,
+      "kind": "panel_format_after",
+      "method_index": 1007,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 77,
+          "opcode": 240,
+          "operands": [
+            260
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        5
+      ],
+      "extra_stack": 5,
+      "instruction_index": 26,
+      "kind": "panel_format_before",
+      "method_index": 1008,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 26,
+          "opcode": 79,
+          "operands": [
+            3729,
+            5
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 240,
+      "expected_operands": [
+        268
+      ],
+      "extra_stack": 5,
+      "instruction_index": 27,
+      "kind": "panel_format_after",
+      "method_index": 1008,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 27,
+          "opcode": 240,
+          "operands": [
+            268
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 46,
+      "kind": "panel_format_before",
+      "method_index": 1008,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 46,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 240,
+      "expected_operands": [
+        271
+      ],
+      "extra_stack": 5,
+      "instruction_index": 47,
+      "kind": "panel_format_after",
+      "method_index": 1008,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 47,
+          "opcode": 240,
+          "operands": [
+            271
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 56,
+      "kind": "panel_format_before",
+      "method_index": 1008,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 56,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 240,
+      "expected_operands": [
+        272
+      ],
+      "extra_stack": 5,
+      "instruction_index": 57,
+      "kind": "panel_format_after",
+      "method_index": 1008,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 57,
+          "opcode": 240,
+          "operands": [
+            272
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 66,
+      "kind": "panel_format_before",
+      "method_index": 1008,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 66,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 240,
+      "expected_operands": [
+        273
+      ],
+      "extra_stack": 5,
+      "instruction_index": 67,
+      "kind": "panel_format_after",
+      "method_index": 1008,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 67,
+          "opcode": 240,
+          "operands": [
+            273
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 76,
+      "kind": "panel_format_before",
+      "method_index": 1008,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 76,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 240,
+      "expected_operands": [
+        274
+      ],
+      "extra_stack": 5,
+      "instruction_index": 77,
+      "kind": "panel_format_after",
+      "method_index": 1008,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 77,
+          "opcode": 240,
+          "operands": [
+            274
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 86,
+      "kind": "panel_format_before",
+      "method_index": 1008,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 86,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 240,
+      "expected_operands": [
+        275
+      ],
+      "extra_stack": 5,
+      "instruction_index": 87,
+      "kind": "panel_format_after",
+      "method_index": 1008,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 87,
+          "opcode": 240,
+          "operands": [
+            275
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 96,
+      "kind": "panel_format_before",
+      "method_index": 1008,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 96,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 240,
+      "expected_operands": [
+        276
+      ],
+      "extra_stack": 5,
+      "instruction_index": 97,
+      "kind": "panel_format_after",
+      "method_index": 1008,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 97,
+          "opcode": 240,
+          "operands": [
+            276
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 106,
+      "kind": "panel_format_before",
+      "method_index": 1008,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 106,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 240,
+      "expected_operands": [
+        277
+      ],
+      "extra_stack": 5,
+      "instruction_index": 107,
+      "kind": "panel_format_after",
+      "method_index": 1008,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 107,
+          "opcode": 240,
+          "operands": [
+            277
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 116,
+      "kind": "panel_format_before",
+      "method_index": 1008,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 116,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 240,
+      "expected_operands": [
+        278
+      ],
+      "extra_stack": 5,
+      "instruction_index": 117,
+      "kind": "panel_format_after",
+      "method_index": 1008,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 117,
+          "opcode": 240,
+          "operands": [
+            278
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 126,
+      "kind": "panel_format_before",
+      "method_index": 1008,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 126,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 240,
+      "expected_operands": [
+        279
+      ],
+      "extra_stack": 5,
+      "instruction_index": 127,
+      "kind": "panel_format_after",
+      "method_index": 1008,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 127,
+          "opcode": 240,
+          "operands": [
+            279
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 136,
+      "kind": "panel_format_before",
+      "method_index": 1008,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 136,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 240,
+      "expected_operands": [
+        280
+      ],
+      "extra_stack": 5,
+      "instruction_index": 137,
+      "kind": "panel_format_after",
+      "method_index": 1008,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 137,
+          "opcode": 240,
+          "operands": [
+            280
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 156,
+      "kind": "panel_format_before",
+      "method_index": 1008,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 156,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 240,
+      "expected_operands": [
+        283
+      ],
+      "extra_stack": 5,
+      "instruction_index": 157,
+      "kind": "panel_format_after",
+      "method_index": 1008,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 157,
+          "opcode": 240,
+          "operands": [
+            283
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 166,
+      "kind": "panel_format_before",
+      "method_index": 1008,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 166,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 240,
+      "expected_operands": [
+        284
+      ],
+      "extra_stack": 5,
+      "instruction_index": 167,
+      "kind": "panel_format_after",
+      "method_index": 1008,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 167,
+          "opcode": 240,
+          "operands": [
+            284
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 176,
+      "kind": "panel_format_before",
+      "method_index": 1008,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 176,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 240,
+      "expected_operands": [
+        285
+      ],
+      "extra_stack": 5,
+      "instruction_index": 177,
+      "kind": "panel_format_after",
+      "method_index": 1008,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 177,
+          "opcode": 240,
+          "operands": [
+            285
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 186,
+      "kind": "panel_format_before",
+      "method_index": 1008,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 186,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 240,
+      "expected_operands": [
+        287
+      ],
+      "extra_stack": 5,
+      "instruction_index": 187,
+      "kind": "panel_format_after",
+      "method_index": 1008,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 187,
+          "opcode": 240,
+          "operands": [
+            287
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 208,
+      "kind": "panel_format_before",
+      "method_index": 1008,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 208,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 240,
+      "expected_operands": [
+        291
+      ],
+      "extra_stack": 5,
+      "instruction_index": 209,
+      "kind": "panel_format_after",
+      "method_index": 1008,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 209,
+          "opcode": 240,
+          "operands": [
+            291
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        5
+      ],
+      "extra_stack": 5,
+      "instruction_index": 26,
+      "kind": "panel_format_before",
+      "method_index": 1009,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 26,
+          "opcode": 79,
+          "operands": [
+            3729,
+            5
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 240,
+      "expected_operands": [
+        299
+      ],
+      "extra_stack": 5,
+      "instruction_index": 27,
+      "kind": "panel_format_after",
+      "method_index": 1009,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 27,
+          "opcode": 240,
+          "operands": [
+            299
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 46,
+      "kind": "panel_format_before",
+      "method_index": 1009,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 46,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 240,
+      "expected_operands": [
+        302
+      ],
+      "extra_stack": 5,
+      "instruction_index": 47,
+      "kind": "panel_format_after",
+      "method_index": 1009,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 47,
+          "opcode": 240,
+          "operands": [
+            302
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 56,
+      "kind": "panel_format_before",
+      "method_index": 1009,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 56,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 240,
+      "expected_operands": [
+        303
+      ],
+      "extra_stack": 5,
+      "instruction_index": 57,
+      "kind": "panel_format_after",
+      "method_index": 1009,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 57,
+          "opcode": 240,
+          "operands": [
+            303
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 66,
+      "kind": "panel_format_before",
+      "method_index": 1009,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 66,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 240,
+      "expected_operands": [
+        304
+      ],
+      "extra_stack": 5,
+      "instruction_index": 67,
+      "kind": "panel_format_after",
+      "method_index": 1009,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 67,
+          "opcode": 240,
+          "operands": [
+            304
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 76,
+      "kind": "panel_format_before",
+      "method_index": 1009,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 76,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 240,
+      "expected_operands": [
+        305
+      ],
+      "extra_stack": 5,
+      "instruction_index": 77,
+      "kind": "panel_format_after",
+      "method_index": 1009,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 77,
+          "opcode": 240,
+          "operands": [
+            305
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 86,
+      "kind": "panel_format_before",
+      "method_index": 1009,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 86,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 240,
+      "expected_operands": [
+        306
+      ],
+      "extra_stack": 5,
+      "instruction_index": 87,
+      "kind": "panel_format_after",
+      "method_index": 1009,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 87,
+          "opcode": 240,
+          "operands": [
+            306
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 96,
+      "kind": "panel_format_before",
+      "method_index": 1009,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 96,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 240,
+      "expected_operands": [
+        307
+      ],
+      "extra_stack": 5,
+      "instruction_index": 97,
+      "kind": "panel_format_after",
+      "method_index": 1009,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 97,
+          "opcode": 240,
+          "operands": [
+            307
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 106,
+      "kind": "panel_format_before",
+      "method_index": 1009,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 106,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 240,
+      "expected_operands": [
+        308
+      ],
+      "extra_stack": 5,
+      "instruction_index": 107,
+      "kind": "panel_format_after",
+      "method_index": 1009,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 107,
+          "opcode": 240,
+          "operands": [
+            308
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 116,
+      "kind": "panel_format_before",
+      "method_index": 1009,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 116,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 240,
+      "expected_operands": [
+        309
+      ],
+      "extra_stack": 5,
+      "instruction_index": 117,
+      "kind": "panel_format_after",
+      "method_index": 1009,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 117,
+          "opcode": 240,
+          "operands": [
+            309
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 126,
+      "kind": "panel_format_before",
+      "method_index": 1009,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 126,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 240,
+      "expected_operands": [
+        310
+      ],
+      "extra_stack": 5,
+      "instruction_index": 127,
+      "kind": "panel_format_after",
+      "method_index": 1009,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 127,
+          "opcode": 240,
+          "operands": [
+            310
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 136,
+      "kind": "panel_format_before",
+      "method_index": 1009,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 136,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 240,
+      "expected_operands": [
+        312
+      ],
+      "extra_stack": 5,
+      "instruction_index": 137,
+      "kind": "panel_format_after",
+      "method_index": 1009,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 137,
+          "opcode": 240,
+          "operands": [
+            312
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 156,
+      "kind": "panel_format_before",
+      "method_index": 1009,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 156,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 240,
+      "expected_operands": [
+        315
+      ],
+      "extra_stack": 5,
+      "instruction_index": 157,
+      "kind": "panel_format_after",
+      "method_index": 1009,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 157,
+          "opcode": 240,
+          "operands": [
+            315
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 166,
+      "kind": "panel_format_before",
+      "method_index": 1009,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 166,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 240,
+      "expected_operands": [
+        316
+      ],
+      "extra_stack": 5,
+      "instruction_index": 167,
+      "kind": "panel_format_after",
+      "method_index": 1009,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 167,
+          "opcode": 240,
+          "operands": [
+            316
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 176,
+      "kind": "panel_format_before",
+      "method_index": 1009,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 176,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 240,
+      "expected_operands": [
+        317
+      ],
+      "extra_stack": 5,
+      "instruction_index": 177,
+      "kind": "panel_format_after",
+      "method_index": 1009,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 177,
+          "opcode": 240,
+          "operands": [
+            317
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 186,
+      "kind": "panel_format_before",
+      "method_index": 1009,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 186,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 240,
+      "expected_operands": [
+        319
+      ],
+      "extra_stack": 5,
+      "instruction_index": 187,
+      "kind": "panel_format_after",
+      "method_index": 1009,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 187,
+          "opcode": 240,
+          "operands": [
+            319
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 208,
+      "kind": "panel_format_before",
+      "method_index": 1009,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 208,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 16,
+      "expected_operands": [
+        62
+      ],
+      "extra_stack": 5,
+      "instruction_index": 209,
+      "kind": "panel_format_after",
+      "method_index": 1009,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 209,
+          "opcode": 16,
+          "operands": [
+            62
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 231,
+      "kind": "panel_format_before",
+      "method_index": 1009,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 231,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 240,
+      "expected_operands": [
+        325
+      ],
+      "extra_stack": 5,
+      "instruction_index": 232,
+      "kind": "panel_format_after",
+      "method_index": 1009,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 232,
+          "opcode": 240,
+          "operands": [
+            325
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        4
+      ],
+      "extra_stack": 5,
+      "instruction_index": 40,
+      "kind": "panel_format_before",
+      "method_index": 1016,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 40,
+          "opcode": 79,
+          "operands": [
+            3729,
+            4
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 240,
+      "expected_operands": [
+        419
+      ],
+      "extra_stack": 5,
+      "instruction_index": 41,
+      "kind": "panel_format_after",
+      "method_index": 1016,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 41,
+          "opcode": 240,
+          "operands": [
+            419
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 68,
+      "kind": "panel_format_before",
+      "method_index": 1016,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 68,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 240,
+      "expected_operands": [
+        421
+      ],
+      "extra_stack": 5,
+      "instruction_index": 69,
+      "kind": "panel_format_after",
+      "method_index": 1016,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 69,
+          "opcode": 240,
+          "operands": [
+            421
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 97,
+      "kind": "panel_format_before",
+      "method_index": 1016,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 97,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 16,
+      "expected_operands": [
+        193
+      ],
+      "extra_stack": 5,
+      "instruction_index": 98,
+      "kind": "panel_format_after",
+      "method_index": 1016,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 98,
+          "opcode": 16,
+          "operands": [
+            193
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        4
+      ],
+      "extra_stack": 5,
+      "instruction_index": 154,
+      "kind": "panel_format_before",
+      "method_index": 1016,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 154,
+          "opcode": 79,
+          "operands": [
+            3729,
+            4
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 240,
+      "expected_operands": [
+        432
+      ],
+      "extra_stack": 5,
+      "instruction_index": 155,
+      "kind": "panel_format_after",
+      "method_index": 1016,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 155,
+          "opcode": 240,
+          "operands": [
+            432
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 170,
+      "kind": "panel_format_before",
+      "method_index": 1016,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 170,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 240,
+      "expected_operands": [
+        435
+      ],
+      "extra_stack": 5,
+      "instruction_index": 171,
+      "kind": "panel_format_after",
+      "method_index": 1016,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 171,
+          "opcode": 240,
+          "operands": [
+            435
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        4
+      ],
+      "extra_stack": 5,
+      "instruction_index": 194,
+      "kind": "panel_format_before",
+      "method_index": 1016,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 194,
+          "opcode": 79,
+          "operands": [
+            3729,
+            4
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 240,
+      "expected_operands": [
+        440
+      ],
+      "extra_stack": 5,
+      "instruction_index": 195,
+      "kind": "panel_format_after",
+      "method_index": 1016,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 195,
+          "opcode": 240,
+          "operands": [
+            440
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        4
+      ],
+      "extra_stack": 5,
+      "instruction_index": 78,
+      "kind": "panel_format_before",
+      "method_index": 1064,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 78,
+          "opcode": 79,
+          "operands": [
+            3729,
+            4
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 240,
+      "expected_operands": [
+        622
+      ],
+      "extra_stack": 5,
+      "instruction_index": 79,
+      "kind": "panel_format_after",
+      "method_index": 1064,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 79,
+          "opcode": 240,
+          "operands": [
+            622
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        4
+      ],
+      "extra_stack": 5,
+      "instruction_index": 163,
+      "kind": "panel_format_before",
+      "method_index": 1064,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 163,
+          "opcode": 79,
+          "operands": [
+            3729,
+            4
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 16,
+      "expected_operands": [
+        70
+      ],
+      "extra_stack": 5,
+      "instruction_index": 164,
+      "kind": "panel_format_after",
+      "method_index": 1064,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 164,
+          "opcode": 16,
+          "operands": [
+            70
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        4
+      ],
+      "extra_stack": 5,
+      "instruction_index": 192,
+      "kind": "panel_format_before",
+      "method_index": 1064,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 192,
+          "opcode": 79,
+          "operands": [
+            3729,
+            4
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 240,
+      "expected_operands": [
+        634
+      ],
+      "extra_stack": 5,
+      "instruction_index": 193,
+      "kind": "panel_format_after",
+      "method_index": 1064,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 193,
+          "opcode": 240,
+          "operands": [
+            634
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 225,
+      "kind": "panel_format_before",
+      "method_index": 1064,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 225,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 240,
+      "expected_operands": [
+        638
+      ],
+      "extra_stack": 5,
+      "instruction_index": 226,
+      "kind": "panel_format_after",
+      "method_index": 1064,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 226,
+          "opcode": 240,
+          "operands": [
+            638
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        4
+      ],
+      "extra_stack": 5,
+      "instruction_index": 256,
+      "kind": "panel_format_before",
+      "method_index": 1064,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 256,
+          "opcode": 79,
+          "operands": [
+            3729,
+            4
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 240,
+      "expected_operands": [
+        647
+      ],
+      "extra_stack": 5,
+      "instruction_index": 257,
+      "kind": "panel_format_after",
+      "method_index": 1064,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 257,
+          "opcode": 240,
+          "operands": [
+            647
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        4
+      ],
+      "extra_stack": 5,
+      "instruction_index": 263,
+      "kind": "panel_format_before",
+      "method_index": 1064,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 263,
+          "opcode": 79,
+          "operands": [
+            3729,
+            4
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 16,
+      "expected_operands": [
+        95
+      ],
+      "extra_stack": 5,
+      "instruction_index": 264,
+      "kind": "panel_format_after",
+      "method_index": 1064,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 264,
+          "opcode": 16,
+          "operands": [
+            95
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        4
+      ],
+      "extra_stack": 5,
+      "instruction_index": 288,
+      "kind": "panel_format_before",
+      "method_index": 1064,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 288,
+          "opcode": 79,
+          "operands": [
+            3729,
+            4
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 240,
+      "expected_operands": [
+        650
+      ],
+      "extra_stack": 5,
+      "instruction_index": 289,
+      "kind": "panel_format_after",
+      "method_index": 1064,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 289,
+          "opcode": 240,
+          "operands": [
+            650
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        4
+      ],
+      "extra_stack": 5,
+      "instruction_index": 295,
+      "kind": "panel_format_before",
+      "method_index": 1064,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 295,
+          "opcode": 79,
+          "operands": [
+            3729,
+            4
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 16,
+      "expected_operands": [
+        18
+      ],
+      "extra_stack": 5,
+      "instruction_index": 296,
+      "kind": "panel_format_after",
+      "method_index": 1064,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 296,
+          "opcode": 16,
+          "operands": [
+            18
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        4
+      ],
+      "extra_stack": 5,
+      "instruction_index": 303,
+      "kind": "panel_format_before",
+      "method_index": 1064,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 303,
+          "opcode": 79,
+          "operands": [
+            3729,
+            4
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 240,
+      "expected_operands": [
+        655
+      ],
+      "extra_stack": 5,
+      "instruction_index": 304,
+      "kind": "panel_format_after",
+      "method_index": 1064,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 304,
+          "opcode": 240,
+          "operands": [
+            655
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 346,
+      "kind": "panel_format_before",
+      "method_index": 1064,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 346,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 240,
+      "expected_operands": [
+        658
+      ],
+      "extra_stack": 5,
+      "instruction_index": 347,
+      "kind": "panel_format_after",
+      "method_index": 1064,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 347,
+          "opcode": 240,
+          "operands": [
+            658
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 388,
+      "kind": "panel_format_before",
+      "method_index": 1064,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 388,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 16,
+      "expected_operands": [
+        1367
+      ],
+      "extra_stack": 5,
+      "instruction_index": 389,
+      "kind": "panel_format_after",
+      "method_index": 1064,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 389,
+          "opcode": 16,
+          "operands": [
+            1367
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        4
+      ],
+      "extra_stack": 5,
+      "instruction_index": 694,
+      "kind": "panel_format_before",
+      "method_index": 1064,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 694,
+          "opcode": 79,
+          "operands": [
+            3729,
+            4
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 240,
+      "expected_operands": [
+        725
+      ],
+      "extra_stack": 5,
+      "instruction_index": 695,
+      "kind": "panel_format_after",
+      "method_index": 1064,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 695,
+          "opcode": 240,
+          "operands": [
+            725
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        4
+      ],
+      "extra_stack": 5,
+      "instruction_index": 701,
+      "kind": "panel_format_before",
+      "method_index": 1064,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 701,
+          "opcode": 79,
+          "operands": [
+            3729,
+            4
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 16,
+      "expected_operands": [
+        388
+      ],
+      "extra_stack": 5,
+      "instruction_index": 702,
+      "kind": "panel_format_after",
+      "method_index": 1064,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 702,
+          "opcode": 16,
+          "operands": [
+            388
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        4
+      ],
+      "extra_stack": 5,
+      "instruction_index": 709,
+      "kind": "panel_format_before",
+      "method_index": 1064,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 709,
+          "opcode": 79,
+          "operands": [
+            3729,
+            4
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 240,
+      "expected_operands": [
+        729
+      ],
+      "extra_stack": 5,
+      "instruction_index": 710,
+      "kind": "panel_format_after",
+      "method_index": 1064,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 710,
+          "opcode": 240,
+          "operands": [
+            729
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 734,
+      "kind": "panel_format_before",
+      "method_index": 1064,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 734,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 240,
+      "expected_operands": [
+        731
+      ],
+      "extra_stack": 5,
+      "instruction_index": 735,
+      "kind": "panel_format_after",
+      "method_index": 1064,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 735,
+          "opcode": 240,
+          "operands": [
+            731
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 764,
+      "kind": "panel_format_before",
+      "method_index": 1064,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 764,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 240,
+      "expected_operands": [
+        735
+      ],
+      "extra_stack": 5,
+      "instruction_index": 765,
+      "kind": "panel_format_after",
+      "method_index": 1064,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 765,
+          "opcode": 240,
+          "operands": [
+            735
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 794,
+      "kind": "panel_format_before",
+      "method_index": 1064,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 794,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 240,
+      "expected_operands": [
+        739
+      ],
+      "extra_stack": 5,
+      "instruction_index": 795,
+      "kind": "panel_format_after",
+      "method_index": 1064,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 795,
+          "opcode": 240,
+          "operands": [
+            739
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 824,
+      "kind": "panel_format_before",
+      "method_index": 1064,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 824,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 240,
+      "expected_operands": [
+        743
+      ],
+      "extra_stack": 5,
+      "instruction_index": 825,
+      "kind": "panel_format_after",
+      "method_index": 1064,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 825,
+          "opcode": 240,
+          "operands": [
+            743
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 854,
+      "kind": "panel_format_before",
+      "method_index": 1064,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 854,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 240,
+      "expected_operands": [
+        747
+      ],
+      "extra_stack": 5,
+      "instruction_index": 855,
+      "kind": "panel_format_after",
+      "method_index": 1064,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 855,
+          "opcode": 240,
+          "operands": [
+            747
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        4
+      ],
+      "extra_stack": 5,
+      "instruction_index": 879,
+      "kind": "panel_format_before",
+      "method_index": 1064,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 879,
+          "opcode": 79,
+          "operands": [
+            3729,
+            4
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 240,
+      "expected_operands": [
+        753
+      ],
+      "extra_stack": 5,
+      "instruction_index": 880,
+      "kind": "panel_format_after",
+      "method_index": 1064,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 880,
+          "opcode": 240,
+          "operands": [
+            753
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        4
+      ],
+      "extra_stack": 5,
+      "instruction_index": 886,
+      "kind": "panel_format_before",
+      "method_index": 1064,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 886,
+          "opcode": 79,
+          "operands": [
+            3729,
+            4
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 240,
+      "expected_operands": [
+        754
+      ],
+      "extra_stack": 5,
+      "instruction_index": 887,
+      "kind": "panel_format_after",
+      "method_index": 1064,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 887,
+          "opcode": 240,
+          "operands": [
+            754
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        4
+      ],
+      "extra_stack": 5,
+      "instruction_index": 893,
+      "kind": "panel_format_before",
+      "method_index": 1064,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 893,
+          "opcode": 79,
+          "operands": [
+            3729,
+            4
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 240,
+      "expected_operands": [
+        755
+      ],
+      "extra_stack": 5,
+      "instruction_index": 894,
+      "kind": "panel_format_after",
+      "method_index": 1064,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 894,
+          "opcode": 240,
+          "operands": [
+            755
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        4
+      ],
+      "extra_stack": 5,
+      "instruction_index": 900,
+      "kind": "panel_format_before",
+      "method_index": 1064,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 900,
+          "opcode": 79,
+          "operands": [
+            3729,
+            4
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 240,
+      "expected_operands": [
+        757
+      ],
+      "extra_stack": 5,
+      "instruction_index": 901,
+      "kind": "panel_format_after",
+      "method_index": 1064,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 901,
+          "opcode": 240,
+          "operands": [
+            757
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        4
+      ],
+      "extra_stack": 5,
+      "instruction_index": 918,
+      "kind": "panel_format_before",
+      "method_index": 1064,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 918,
+          "opcode": 79,
+          "operands": [
+            3729,
+            4
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 240,
+      "expected_operands": [
+        761
+      ],
+      "extra_stack": 5,
+      "instruction_index": 919,
+      "kind": "panel_format_after",
+      "method_index": 1064,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 919,
+          "opcode": 240,
+          "operands": [
+            761
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        5
+      ],
+      "extra_stack": 5,
+      "instruction_index": 976,
+      "kind": "panel_format_before",
+      "method_index": 1064,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 976,
+          "opcode": 79,
+          "operands": [
+            3729,
+            5
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 44,
+      "expected_operands": [
+        12002
+      ],
+      "extra_stack": 5,
+      "instruction_index": 977,
+      "kind": "panel_format_after",
+      "method_index": 1064,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 977,
+          "opcode": 44,
+          "operands": [
+            12002
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        5
+      ],
+      "extra_stack": 5,
+      "instruction_index": 1337,
+      "kind": "panel_format_before",
+      "method_index": 1064,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 1337,
+          "opcode": 79,
+          "operands": [
+            3729,
+            5
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 240,
+      "expected_operands": [
+        812
+      ],
+      "extra_stack": 5,
+      "instruction_index": 1338,
+      "kind": "panel_format_after",
+      "method_index": 1064,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 1338,
+          "opcode": 240,
+          "operands": [
+            812
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        4
+      ],
+      "extra_stack": 5,
+      "instruction_index": 1360,
+      "kind": "panel_format_before",
+      "method_index": 1064,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 1360,
+          "opcode": 79,
+          "operands": [
+            3729,
+            4
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 240,
+      "expected_operands": [
+        815
+      ],
+      "extra_stack": 5,
+      "instruction_index": 1361,
+      "kind": "panel_format_after",
+      "method_index": 1064,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 1361,
+          "opcode": 240,
+          "operands": [
+            815
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        4
+      ],
+      "extra_stack": 5,
+      "instruction_index": 1374,
+      "kind": "panel_format_before",
+      "method_index": 1064,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 1374,
+          "opcode": 79,
+          "operands": [
+            3729,
+            4
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 240,
+      "expected_operands": [
+        817
+      ],
+      "extra_stack": 5,
+      "instruction_index": 1375,
+      "kind": "panel_format_after",
+      "method_index": 1064,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 1375,
+          "opcode": 240,
+          "operands": [
+            817
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        4
+      ],
+      "extra_stack": 5,
+      "instruction_index": 1393,
+      "kind": "panel_format_before",
+      "method_index": 1064,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 1393,
+          "opcode": 79,
+          "operands": [
+            3729,
+            4
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 240,
+      "expected_operands": [
+        819
+      ],
+      "extra_stack": 5,
+      "instruction_index": 1394,
+      "kind": "panel_format_after",
+      "method_index": 1064,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 1394,
+          "opcode": 240,
+          "operands": [
+            819
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        4
+      ],
+      "extra_stack": 5,
+      "instruction_index": 1436,
+      "kind": "panel_format_before",
+      "method_index": 1064,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 1436,
+          "opcode": 79,
+          "operands": [
+            3729,
+            4
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 240,
+      "expected_operands": [
+        820
+      ],
+      "extra_stack": 5,
+      "instruction_index": 1437,
+      "kind": "panel_format_after",
+      "method_index": 1064,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 1437,
+          "opcode": 240,
+          "operands": [
+            820
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 1463,
+      "kind": "panel_format_before",
+      "method_index": 1064,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 1463,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 240,
+      "expected_operands": [
+        824
+      ],
+      "extra_stack": 5,
+      "instruction_index": 1464,
+      "kind": "panel_format_after",
+      "method_index": 1064,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 1464,
+          "opcode": 240,
+          "operands": [
+            824
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 1493,
+      "kind": "panel_format_before",
+      "method_index": 1064,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 1493,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 16,
+      "expected_operands": [
+        40
+      ],
+      "extra_stack": 5,
+      "instruction_index": 1494,
+      "kind": "panel_format_after",
+      "method_index": 1064,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 1494,
+          "opcode": 16,
+          "operands": [
+            40
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        4
+      ],
+      "extra_stack": 5,
+      "instruction_index": 1501,
+      "kind": "panel_format_before",
+      "method_index": 1064,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 1501,
+          "opcode": 79,
+          "operands": [
+            3729,
+            4
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 240,
+      "expected_operands": [
+        829
+      ],
+      "extra_stack": 5,
+      "instruction_index": 1502,
+      "kind": "panel_format_after",
+      "method_index": 1064,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 1502,
+          "opcode": 240,
+          "operands": [
+            829
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 1510,
+      "kind": "panel_format_before",
+      "method_index": 1064,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 1510,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 16,
+      "expected_operands": [
+        92
+      ],
+      "extra_stack": 5,
+      "instruction_index": 1511,
+      "kind": "panel_format_after",
+      "method_index": 1064,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 1511,
+          "opcode": 16,
+          "operands": [
+            92
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 1529,
+      "kind": "panel_format_before",
+      "method_index": 1064,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 1529,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 16,
+      "expected_operands": [
+        40
+      ],
+      "extra_stack": 5,
+      "instruction_index": 1530,
+      "kind": "panel_format_after",
+      "method_index": 1064,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 1530,
+          "opcode": 16,
+          "operands": [
+            40
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        4
+      ],
+      "extra_stack": 5,
+      "instruction_index": 1537,
+      "kind": "panel_format_before",
+      "method_index": 1064,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 1537,
+          "opcode": 79,
+          "operands": [
+            3729,
+            4
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 240,
+      "expected_operands": [
+        837
+      ],
+      "extra_stack": 5,
+      "instruction_index": 1538,
+      "kind": "panel_format_after",
+      "method_index": 1064,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 1538,
+          "opcode": 240,
+          "operands": [
+            837
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        6
+      ],
+      "extra_stack": 5,
+      "instruction_index": 1546,
+      "kind": "panel_format_before",
+      "method_index": 1064,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 1546,
+          "opcode": 79,
+          "operands": [
+            3729,
+            6
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 240,
+      "expected_operands": [
+        841
+      ],
+      "extra_stack": 5,
+      "instruction_index": 1547,
+      "kind": "panel_format_after",
+      "method_index": 1064,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 1547,
+          "opcode": 240,
+          "operands": [
+            841
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        4
+      ],
+      "extra_stack": 5,
+      "instruction_index": 1630,
+      "kind": "panel_format_before",
+      "method_index": 1064,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 1630,
+          "opcode": 79,
+          "operands": [
+            3729,
+            4
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 16,
+      "expected_operands": [
+        22
+      ],
+      "extra_stack": 5,
+      "instruction_index": 1631,
+      "kind": "panel_format_after",
+      "method_index": 1064,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 1631,
+          "opcode": 16,
+          "operands": [
+            22
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        4
+      ],
+      "extra_stack": 5,
+      "instruction_index": 1639,
+      "kind": "panel_format_before",
+      "method_index": 1064,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 1639,
+          "opcode": 79,
+          "operands": [
+            3729,
+            4
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 240,
+      "expected_operands": [
+        856
+      ],
+      "extra_stack": 5,
+      "instruction_index": 1640,
+      "kind": "panel_format_after",
+      "method_index": 1064,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 1640,
+          "opcode": 240,
+          "operands": [
+            856
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 79,
+      "expected_operands": [
+        3729,
+        4
+      ],
+      "extra_stack": 5,
+      "instruction_index": 1654,
+      "kind": "panel_format_before",
+      "method_index": 1064,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 1654,
+          "opcode": 79,
+          "operands": [
+            3729,
+            4
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 240,
+      "expected_operands": [
+        856
+      ],
+      "extra_stack": 5,
+      "instruction_index": 1655,
+      "kind": "panel_format_after",
+      "method_index": 1064,
+      "original_font_family": "Celtic Garamond for GemCraft",
+      "original_font_string_index": 10038,
+      "receiver_guards": [
+        {
+          "instruction_index": 1655,
+          "opcode": 240,
+          "operands": [
+            856
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166e82066c606",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 240,
+      "expected_operands": [
+        865
+      ],
+      "extra_stack": 5,
+      "instruction_index": 185,
+      "kind": "floater",
+      "method_index": 341,
+      "panel_receiver_hex": "60e60166ac0566ee042a66f9282401a166a936",
+      "receiver_guards": [
+        {
+          "instruction_index": 184,
+          "opcode": 79,
+          "operands": [
+            3841,
+            8
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166ac0566ee042a66f9282401a166a936669b1a240066ca35",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 240,
+      "expected_operands": [
+        942
+      ],
+      "extra_stack": 5,
+      "instruction_index": 1269,
+      "kind": "floater",
+      "method_index": 341,
+      "panel_receiver_hex": "60e60166ac0566ee042a66f9282401a166a936",
+      "receiver_guards": [
+        {
+          "instruction_index": 1268,
+          "opcode": 79,
+          "operands": [
+            3841,
+            8
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166ac0566ee042a66f9282401a166a936669b1a240066ca35",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 16,
+      "expected_operands": [
+        303
+      ],
+      "extra_stack": 5,
+      "instruction_index": 1606,
+      "kind": "floater",
+      "method_index": 341,
+      "panel_receiver_hex": "60e60166ac0566ee042a66f9282401a166a936",
+      "receiver_guards": [
+        {
+          "instruction_index": 1605,
+          "opcode": 79,
+          "operands": [
+            3841,
+            8
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166ac0566ee042a66f9282401a166a936669b1a240066ca35",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 240,
+      "expected_operands": [
+        979
+      ],
+      "extra_stack": 5,
+      "instruction_index": 1727,
+      "kind": "floater",
+      "method_index": 341,
+      "panel_receiver_hex": "60e60166ac0566ee042a66f9282401a166a936",
+      "receiver_guards": [
+        {
+          "instruction_index": 1726,
+          "opcode": 79,
+          "operands": [
+            3841,
+            8
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166ac0566ee042a66f9282401a166a936669b1a240066ca35",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 16,
+      "expected_operands": [
+        225
+      ],
+      "extra_stack": 5,
+      "instruction_index": 52,
+      "kind": "floater",
+      "method_index": 1036,
+      "panel_receiver_hex": "60e60166ac0566ee042a66f9282401a166a936",
+      "receiver_guards": [
+        {
+          "instruction_index": 51,
+          "opcode": 79,
+          "operands": [
+            3841,
+            8
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166ac0566ee042a66f9282401a166a936669b1a240066ca35",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 240,
+      "expected_operands": [
+        632
+      ],
+      "extra_stack": 5,
+      "instruction_index": 93,
+      "kind": "floater",
+      "method_index": 1036,
+      "panel_receiver_hex": "60e60166ac0566ee042a66f9282401a166a936",
+      "receiver_guards": [
+        {
+          "instruction_index": 92,
+          "opcode": 79,
+          "operands": [
+            3841,
+            8
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166ac0566ee042a66f9282401a166a936669b1a240066ca35",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 240,
+      "expected_operands": [
+        635
+      ],
+      "extra_stack": 5,
+      "instruction_index": 121,
+      "kind": "floater",
+      "method_index": 1036,
+      "panel_receiver_hex": "60e60166ac0566ee042a66f9282401a166a936",
+      "receiver_guards": [
+        {
+          "instruction_index": 120,
+          "opcode": 79,
+          "operands": [
+            3841,
+            8
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166ac0566ee042a66f9282401a166a936669b1a240066ca35",
+      "tag_path": [
+        4175
+      ]
+    }
+  ],
+  "coverage_blockers": [
+    "Achievement descriptions dynamically read from shared achiCollection remain English; content outside addressed navigation literals",
+    "Battle-trait names/descriptions not integrated: shared titles also used in combat; mechanics panel excluded"
+  ],
+  "entry_ids": [
+    "abc.4175.1001.52",
+    "abc.4175.1001.69",
+    "abc.4175.1001.86",
+    "abc.4175.1001.103",
+    "abc.4175.1006.61",
+    "abc.4175.1006.176",
+    "abc.4175.1006.183",
+    "abc.4175.1006.207",
+    "abc.4175.1006.234",
+    "abc.4175.1006.260",
+    "abc.4175.1006.290",
+    "abc.4175.1006.346",
+    "abc.4175.1007.43",
+    "abc.4175.1007.116",
+    "abc.4175.1007.172",
+    "abc.4175.1007.198",
+    "abc.4175.1008.43",
+    "abc.4175.1008.117",
+    "abc.4175.1008.143",
+    "abc.4175.1008.169",
+    "abc.4175.1008.195",
+    "abc.4175.1008.221",
+    "abc.4175.1008.247",
+    "abc.4175.1008.273",
+    "abc.4175.1008.299",
+    "abc.4175.1008.325",
+    "abc.4175.1008.351",
+    "abc.4175.1008.407",
+    "abc.4175.1008.433",
+    "abc.4175.1008.459",
+    "abc.4175.1008.485",
+    "abc.4175.1008.547",
+    "abc.4175.1009.43",
+    "abc.4175.1009.117",
+    "abc.4175.1009.143",
+    "abc.4175.1009.169",
+    "abc.4175.1009.195",
+    "abc.4175.1009.221",
+    "abc.4175.1009.247",
+    "abc.4175.1009.273",
+    "abc.4175.1009.299",
+    "abc.4175.1009.325",
+    "abc.4175.1009.351",
+    "abc.4175.1009.407",
+    "abc.4175.1009.433",
+    "abc.4175.1009.459",
+    "abc.4175.1009.485",
+    "abc.4175.1009.547",
+    "abc.4175.1009.613",
+    "abc.4175.1016.75",
+    "abc.4175.1016.118",
+    "abc.4175.1016.159",
+    "abc.4175.1016.244",
+    "abc.4175.1016.405",
+    "abc.4175.1016.440",
+    "abc.4175.1016.497",
+    "abc.4175.1064.220",
+    "abc.4175.1064.433",
+    "abc.4175.1064.480",
+    "abc.4175.1064.559",
+    "abc.4175.1064.587",
+    "abc.4175.1064.670",
+    "abc.4175.1064.688",
+    "abc.4175.1064.747",
+    "abc.4175.1064.765",
+    "abc.4175.1064.787",
+    "abc.4175.1064.896",
+    "abc.4175.1064.1006",
+    "abc.4175.1064.1862",
+    "abc.4175.1064.1880",
+    "abc.4175.1064.1902",
+    "abc.4175.1064.1961",
+    "abc.4175.1064.2035",
+    "abc.4175.1064.2109",
+    "abc.4175.1064.2183",
+    "abc.4175.1064.2257",
+    "abc.4175.1064.2327",
+    "abc.4175.1064.2345",
+    "abc.4175.1064.2363",
+    "abc.4175.1064.2381",
+    "abc.4175.1064.2429",
+    "abc.4175.1064.2553",
+    "abc.4175.1064.2579",
+    "abc.4175.1064.2582",
+    "abc.4175.1064.2588",
+    "abc.4175.1064.2603",
+    "abc.4175.1064.3554",
+    "abc.4175.1064.3644",
+    "abc.4175.1064.3799",
+    "abc.4175.1064.3802",
+    "abc.4175.1064.3901",
+    "abc.4175.1064.3927",
+    "abc.4175.1064.3945",
+    "abc.4175.1064.3997",
+    "abc.4175.1064.4023",
+    "abc.4175.1064.4041",
+    "abc.4175.1064.4265",
+    "abc.4175.1064.4291",
+    "abc.4175.3493.396",
+    "abc.4175.3493.414",
+    "abc.4175.3493.432",
+    "abc.4175.3493.450",
+    "abc.4175.3493.468",
+    "abc.4175.3493.486",
+    "edit.3075",
+    "edit.3077",
+    "edit.3079",
+    "edit.3081",
+    "edit.3090",
+    "edit.3092",
+    "edit.3099",
+    "edit.3134",
+    "edit.3137",
+    "static.3101",
+    "static.3103",
+    "abc.4175.341.437",
+    "abc.4175.341.3170",
+    "abc.4175.341.4024",
+    "abc.4175.341.4062",
+    "abc.4175.341.4309",
+    "abc.4175.341.4369",
+    "abc.4175.1036.120",
+    "abc.4175.1036.225",
+    "abc.4175.1036.303",
+    "abc.4175.1064.2585",
+    "abc.4175.1064.2591",
+    "abc.4175.1064.2594",
+    "abc.4175.1064.2597",
+    "abc.4175.1064.2600",
+    "abc.4175.1064.3686",
+    "abc.4175.1064.3689",
+    "abc.4175.1064.3692"
+  ],
+  "fonts": [
+    1,
+    255
+  ],
+  "game_sha256": "c8eadc03a7e607086998695f7696ec22dd90d7b7859e3d10cdfabf40fc7bbad5",
+  "layouts": {
+    "abc.4175.1001.103": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 16,
+      "max_width": 6000,
+      "wrap": true
+    },
+    "abc.4175.1001.52": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 16,
+      "max_width": 6000,
+      "wrap": true
+    },
+    "abc.4175.1001.69": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 16,
+      "max_width": 6000,
+      "wrap": true
+    },
+    "abc.4175.1001.86": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 16,
+      "max_width": 6000,
+      "wrap": true
+    },
+    "abc.4175.1006.176": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 16,
+      "max_width": 7800,
+      "wrap": true
+    },
+    "abc.4175.1006.183": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 16,
+      "max_width": 7800,
+      "wrap": true
+    },
+    "abc.4175.1006.207": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 16,
+      "max_width": 7800,
+      "wrap": true
+    },
+    "abc.4175.1006.234": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 16,
+      "max_width": 7800,
+      "wrap": true
+    },
+    "abc.4175.1006.260": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 16,
+      "max_width": 7800,
+      "wrap": true
+    },
+    "abc.4175.1006.290": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 16,
+      "max_width": 7800,
+      "wrap": true
+    },
+    "abc.4175.1006.346": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 16,
+      "max_width": 7800,
+      "wrap": true
+    },
+    "abc.4175.1006.61": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 260,
+      "max_lines": 16,
+      "max_width": 7800,
+      "wrap": true
+    },
+    "abc.4175.1007.116": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 16,
+      "max_width": 7800,
+      "wrap": true
+    },
+    "abc.4175.1007.172": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 16,
+      "max_width": 7800,
+      "wrap": true
+    },
+    "abc.4175.1007.198": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 200,
+      "max_lines": 16,
+      "max_width": 7800,
+      "wrap": true
+    },
+    "abc.4175.1007.43": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 260,
+      "max_lines": 16,
+      "max_width": 7800,
+      "wrap": true
+    },
+    "abc.4175.1008.117": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 16,
+      "max_width": 7800,
+      "wrap": true
+    },
+    "abc.4175.1008.143": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 16,
+      "max_width": 7800,
+      "wrap": true
+    },
+    "abc.4175.1008.169": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 16,
+      "max_width": 7800,
+      "wrap": true
+    },
+    "abc.4175.1008.195": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 16,
+      "max_width": 7800,
+      "wrap": true
+    },
+    "abc.4175.1008.221": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 16,
+      "max_width": 7800,
+      "wrap": true
+    },
+    "abc.4175.1008.247": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 16,
+      "max_width": 7800,
+      "wrap": true
+    },
+    "abc.4175.1008.273": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 16,
+      "max_width": 7800,
+      "wrap": true
+    },
+    "abc.4175.1008.299": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 16,
+      "max_width": 7800,
+      "wrap": true
+    },
+    "abc.4175.1008.325": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 16,
+      "max_width": 7800,
+      "wrap": true
+    },
+    "abc.4175.1008.351": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 16,
+      "max_width": 7800,
+      "wrap": true
+    },
+    "abc.4175.1008.407": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 16,
+      "max_width": 7800,
+      "wrap": true
+    },
+    "abc.4175.1008.43": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 260,
+      "max_lines": 16,
+      "max_width": 7800,
+      "wrap": true
+    },
+    "abc.4175.1008.433": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 16,
+      "max_width": 7800,
+      "wrap": true
+    },
+    "abc.4175.1008.459": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 200,
+      "max_lines": 16,
+      "max_width": 7800,
+      "wrap": true
+    },
+    "abc.4175.1008.485": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 220,
+      "max_lines": 16,
+      "max_width": 7800,
+      "wrap": true
+    },
+    "abc.4175.1008.547": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 220,
+      "max_lines": 16,
+      "max_width": 7800,
+      "wrap": true
+    },
+    "abc.4175.1009.117": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 16,
+      "max_width": 7800,
+      "wrap": true
+    },
+    "abc.4175.1009.143": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 16,
+      "max_width": 7800,
+      "wrap": true
+    },
+    "abc.4175.1009.169": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 16,
+      "max_width": 7800,
+      "wrap": true
+    },
+    "abc.4175.1009.195": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 16,
+      "max_width": 7800,
+      "wrap": true
+    },
+    "abc.4175.1009.221": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 16,
+      "max_width": 7800,
+      "wrap": true
+    },
+    "abc.4175.1009.247": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 16,
+      "max_width": 7800,
+      "wrap": true
+    },
+    "abc.4175.1009.273": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 16,
+      "max_width": 7800,
+      "wrap": true
+    },
+    "abc.4175.1009.299": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 16,
+      "max_width": 7800,
+      "wrap": true
+    },
+    "abc.4175.1009.325": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 16,
+      "max_width": 7800,
+      "wrap": true
+    },
+    "abc.4175.1009.351": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 16,
+      "max_width": 7800,
+      "wrap": true
+    },
+    "abc.4175.1009.407": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 16,
+      "max_width": 7800,
+      "wrap": true
+    },
+    "abc.4175.1009.43": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 260,
+      "max_lines": 16,
+      "max_width": 7800,
+      "wrap": true
+    },
+    "abc.4175.1009.433": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 220,
+      "max_lines": 16,
+      "max_width": 7800,
+      "wrap": true
+    },
+    "abc.4175.1009.459": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 200,
+      "max_lines": 16,
+      "max_width": 7800,
+      "wrap": true
+    },
+    "abc.4175.1009.485": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 220,
+      "max_lines": 16,
+      "max_width": 7800,
+      "wrap": true
+    },
+    "abc.4175.1009.547": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 220,
+      "max_lines": 16,
+      "max_width": 7800,
+      "wrap": true
+    },
+    "abc.4175.1009.613": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 220,
+      "max_lines": 16,
+      "max_width": 7800,
+      "wrap": true
+    },
+    "abc.4175.1016.118": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 220,
+      "max_lines": 16,
+      "max_width": 6800,
+      "wrap": true
+    },
+    "abc.4175.1016.159": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 220,
+      "max_lines": 16,
+      "max_width": 6800,
+      "wrap": true
+    },
+    "abc.4175.1016.244": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 16,
+      "max_width": 6800,
+      "wrap": true
+    },
+    "abc.4175.1016.405": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 260,
+      "max_lines": 16,
+      "max_width": 6800,
+      "wrap": true
+    },
+    "abc.4175.1016.440": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 16,
+      "max_width": 6800,
+      "wrap": true
+    },
+    "abc.4175.1016.497": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 200,
+      "max_lines": 16,
+      "max_width": 6800,
+      "wrap": true
+    },
+    "abc.4175.1016.75": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 260,
+      "max_lines": 16,
+      "max_width": 6800,
+      "wrap": true
+    },
+    "abc.4175.1036.120": {
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 240,
+      "max_width": 17600,
+      "wrap": false
+    },
+    "abc.4175.1036.225": {
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 240,
+      "max_width": 17600,
+      "wrap": false
+    },
+    "abc.4175.1036.303": {
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 240,
+      "max_width": 17600,
+      "wrap": false
+    },
+    "abc.4175.1064.1006": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 260,
+      "max_lines": 16,
+      "max_width": 6000,
+      "wrap": true
+    },
+    "abc.4175.1064.1862": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 220,
+      "max_lines": 16,
+      "max_width": 6000,
+      "wrap": true
+    },
+    "abc.4175.1064.1880": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 200,
+      "max_lines": 16,
+      "max_width": 6000,
+      "wrap": true
+    },
+    "abc.4175.1064.1902": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 220,
+      "max_lines": 16,
+      "max_width": 6000,
+      "wrap": true
+    },
+    "abc.4175.1064.1961": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 260,
+      "max_lines": 16,
+      "max_width": 6000,
+      "wrap": true
+    },
+    "abc.4175.1064.2035": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 260,
+      "max_lines": 16,
+      "max_width": 6000,
+      "wrap": true
+    },
+    "abc.4175.1064.2109": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 260,
+      "max_lines": 16,
+      "max_width": 6000,
+      "wrap": true
+    },
+    "abc.4175.1064.2183": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 260,
+      "max_lines": 16,
+      "max_width": 6000,
+      "wrap": true
+    },
+    "abc.4175.1064.220": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 300,
+      "max_lines": 16,
+      "max_width": 6000,
+      "wrap": true
+    },
+    "abc.4175.1064.2257": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 260,
+      "max_lines": 16,
+      "max_width": 6000,
+      "wrap": true
+    },
+    "abc.4175.1064.2327": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 220,
+      "max_lines": 16,
+      "max_width": 6000,
+      "wrap": true
+    },
+    "abc.4175.1064.2345": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 220,
+      "max_lines": 16,
+      "max_width": 6000,
+      "wrap": true
+    },
+    "abc.4175.1064.2363": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 220,
+      "max_lines": 16,
+      "max_width": 6000,
+      "wrap": true
+    },
+    "abc.4175.1064.2381": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 220,
+      "max_lines": 16,
+      "max_width": 6000,
+      "wrap": true
+    },
+    "abc.4175.1064.2429": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 220,
+      "max_lines": 16,
+      "max_width": 6000,
+      "wrap": true
+    },
+    "abc.4175.1064.2553": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 220,
+      "max_lines": 16,
+      "max_width": 6000,
+      "wrap": true
+    },
+    "abc.4175.1064.2579": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 200,
+      "max_lines": 16,
+      "max_width": 6000,
+      "wrap": true
+    },
+    "abc.4175.1064.2582": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 200,
+      "max_lines": 16,
+      "max_width": 6000,
+      "wrap": true
+    },
+    "abc.4175.1064.2585": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 200,
+      "max_lines": 16,
+      "max_width": 6000,
+      "wrap": true
+    },
+    "abc.4175.1064.2588": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 200,
+      "max_lines": 16,
+      "max_width": 6000,
+      "wrap": true
+    },
+    "abc.4175.1064.2591": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 200,
+      "max_lines": 16,
+      "max_width": 6000,
+      "wrap": true
+    },
+    "abc.4175.1064.2594": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 200,
+      "max_lines": 16,
+      "max_width": 6000,
+      "wrap": true
+    },
+    "abc.4175.1064.2597": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 200,
+      "max_lines": 16,
+      "max_width": 6000,
+      "wrap": true
+    },
+    "abc.4175.1064.2600": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 200,
+      "max_lines": 16,
+      "max_width": 6000,
+      "wrap": true
+    },
+    "abc.4175.1064.2603": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 200,
+      "max_lines": 16,
+      "max_width": 6000,
+      "wrap": true
+    },
+    "abc.4175.1064.3554": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 220,
+      "max_lines": 16,
+      "max_width": 6000,
+      "wrap": true
+    },
+    "abc.4175.1064.3644": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 220,
+      "max_lines": 16,
+      "max_width": 6000,
+      "wrap": true
+    },
+    "abc.4175.1064.3686": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 220,
+      "max_lines": 16,
+      "max_width": 6000,
+      "wrap": true
+    },
+    "abc.4175.1064.3689": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 220,
+      "max_lines": 16,
+      "max_width": 6000,
+      "wrap": true
+    },
+    "abc.4175.1064.3692": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 220,
+      "max_lines": 16,
+      "max_width": 6000,
+      "wrap": true
+    },
+    "abc.4175.1064.3799": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 200,
+      "max_lines": 16,
+      "max_width": 6000,
+      "wrap": true
+    },
+    "abc.4175.1064.3802": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 200,
+      "max_lines": 16,
+      "max_width": 6000,
+      "wrap": true
+    },
+    "abc.4175.1064.3901": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 220,
+      "max_lines": 16,
+      "max_width": 6000,
+      "wrap": true
+    },
+    "abc.4175.1064.3927": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 16,
+      "max_width": 6000,
+      "wrap": true
+    },
+    "abc.4175.1064.3945": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 200,
+      "max_lines": 16,
+      "max_width": 6000,
+      "wrap": true
+    },
+    "abc.4175.1064.3997": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 220,
+      "max_lines": 16,
+      "max_width": 6000,
+      "wrap": true
+    },
+    "abc.4175.1064.4023": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 16,
+      "max_width": 6000,
+      "wrap": true
+    },
+    "abc.4175.1064.4041": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 200,
+      "max_lines": 16,
+      "max_width": 6000,
+      "wrap": true
+    },
+    "abc.4175.1064.4265": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 220,
+      "max_lines": 16,
+      "max_width": 6000,
+      "wrap": true
+    },
+    "abc.4175.1064.4291": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 220,
+      "max_lines": 16,
+      "max_width": 6000,
+      "wrap": true
+    },
+    "abc.4175.1064.433": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 16,
+      "max_width": 6000,
+      "wrap": true
+    },
+    "abc.4175.1064.480": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 16,
+      "max_width": 6000,
+      "wrap": true
+    },
+    "abc.4175.1064.559": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 200,
+      "max_lines": 16,
+      "max_width": 6000,
+      "wrap": true
+    },
+    "abc.4175.1064.587": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 200,
+      "max_lines": 16,
+      "max_width": 6000,
+      "wrap": true
+    },
+    "abc.4175.1064.670": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 220,
+      "max_lines": 16,
+      "max_width": 6000,
+      "wrap": true
+    },
+    "abc.4175.1064.688": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 200,
+      "max_lines": 16,
+      "max_width": 6000,
+      "wrap": true
+    },
+    "abc.4175.1064.747": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 220,
+      "max_lines": 16,
+      "max_width": 6000,
+      "wrap": true
+    },
+    "abc.4175.1064.765": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 220,
+      "max_lines": 16,
+      "max_width": 6000,
+      "wrap": true
+    },
+    "abc.4175.1064.787": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 220,
+      "max_lines": 16,
+      "max_width": 6000,
+      "wrap": true
+    },
+    "abc.4175.1064.896": {
+      "alternate_font_ids": [
+        1
+      ],
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 260,
+      "max_lines": 16,
+      "max_width": 6000,
+      "wrap": true
+    },
+    "abc.4175.341.3170": {
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 240,
+      "max_width": 17600,
+      "wrap": false
+    },
+    "abc.4175.341.4024": {
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 240,
+      "max_width": 17600,
+      "wrap": false
+    },
+    "abc.4175.341.4062": {
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 240,
+      "max_width": 17600,
+      "wrap": false
+    },
+    "abc.4175.341.4309": {
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 240,
+      "max_width": 17600,
+      "wrap": false
+    },
+    "abc.4175.341.4369": {
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 240,
+      "max_width": 17600,
+      "wrap": false
+    },
+    "abc.4175.341.437": {
+      "dynamic_suffix_budget": 1000,
+      "font_id": 255,
+      "height": 240,
+      "max_width": 17600,
+      "wrap": false
+    },
+    "abc.4175.3493.396": {
+      "font_id": 255,
+      "height": 240,
+      "max_width": 3044,
+      "wrap": false
+    },
+    "abc.4175.3493.414": {
+      "font_id": 255,
+      "height": 240,
+      "max_width": 3044,
+      "wrap": false
+    },
+    "abc.4175.3493.432": {
+      "font_id": 255,
+      "height": 240,
+      "max_width": 3044,
+      "wrap": false
+    },
+    "abc.4175.3493.450": {
+      "font_id": 255,
+      "height": 240,
+      "max_width": 3044,
+      "wrap": false
+    },
+    "abc.4175.3493.468": {
+      "font_id": 255,
+      "height": 240,
+      "max_width": 3044,
+      "wrap": false
+    },
+    "abc.4175.3493.486": {
+      "font_id": 255,
+      "height": 240,
+      "max_width": 3044,
+      "wrap": false
+    },
+    "edit.3075": {
+      "font_id": 255,
+      "height": 260,
+      "max_lines": 1,
+      "max_width": 3018,
+      "wrap": true
+    },
+    "edit.3077": {
+      "font_id": 255,
+      "height": 260,
+      "max_lines": 1,
+      "max_width": 3023,
+      "wrap": true
+    },
+    "edit.3079": {
+      "font_id": 255,
+      "height": 260,
+      "max_lines": 1,
+      "max_width": 3018,
+      "wrap": true
+    },
+    "edit.3081": {
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 1,
+      "max_width": 3023,
+      "wrap": true
+    },
+    "edit.3090": {
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 1,
+      "max_width": 3023,
+      "wrap": true
+    },
+    "edit.3092": {
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 1,
+      "max_width": 3023,
+      "wrap": true
+    },
+    "edit.3099": {
+      "font_id": 255,
+      "height": 280,
+      "max_lines": 1,
+      "max_width": 826,
+      "wrap": true
+    },
+    "edit.3134": {
+      "font_id": 1,
+      "height": 280,
+      "max_lines": 1,
+      "max_width": 8460,
+      "wrap": true
+    },
+    "edit.3137": {
+      "font_id": 255,
+      "height": 280,
+      "max_lines": 1,
+      "max_width": 10760,
+      "wrap": true
+    },
+    "static.3101": {
+      "font_id": 255,
+      "height": 240,
+      "max_width": 2162,
+      "wrap": false
+    },
+    "static.3103": {
+      "font_id": 255,
+      "height": 240,
+      "max_width": 2836,
+      "wrap": false
+    }
+  },
+  "schema_version": 1,
+  "unconfirmed": [
+    "Achievement descriptions dynamically read from shared achiCollection remain English; content outside addressed navigation literals",
+    "Battle-trait names/descriptions not integrated: shared titles also used in combat; mechanics panel excluded",
+    "Runtime acceptance pending: wrapping, clipping, all locked/unlocked UI states"
+  ]
+}

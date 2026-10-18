@@ -1,0 +1,783 @@
+{
+  "abc_font_bindings": [
+    {
+      "expected_opcode": 240,
+      "expected_operands": [
+        219
+      ],
+      "extra_stack": 8,
+      "instruction_index": 106,
+      "kind": "field",
+      "method_index": 920,
+      "receiver_guards": [
+        {
+          "instruction_index": 96,
+          "opcode": 211,
+          "operands": []
+        },
+        {
+          "instruction_index": 97,
+          "opcode": 102,
+          "operands": [
+            3168
+          ]
+        },
+        {
+          "instruction_index": 98,
+          "opcode": 208,
+          "operands": []
+        },
+        {
+          "instruction_index": 99,
+          "opcode": 102,
+          "operands": [
+            1636
+          ]
+        },
+        {
+          "instruction_index": 100,
+          "opcode": 208,
+          "operands": []
+        },
+        {
+          "instruction_index": 101,
+          "opcode": 102,
+          "operands": [
+            1641
+          ]
+        },
+        {
+          "instruction_index": 102,
+          "opcode": 209,
+          "operands": []
+        },
+        {
+          "instruction_index": 103,
+          "opcode": 102,
+          "operands": [
+            5996
+          ]
+        },
+        {
+          "instruction_index": 104,
+          "opcode": 102,
+          "operands": [
+            5996
+          ]
+        },
+        {
+          "instruction_index": 105,
+          "opcode": 97,
+          "operands": [
+            5329
+          ]
+        },
+        {
+          "instruction_index": 106,
+          "opcode": 240,
+          "operands": [
+            219
+          ]
+        },
+        {
+          "instruction_index": 145,
+          "opcode": 102,
+          "operands": [
+            5360
+          ]
+        }
+      ],
+      "receiver_hex": "d366e018",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 240,
+      "expected_operands": [
+        20
+      ],
+      "extra_stack": 8,
+      "instruction_index": 18,
+      "kind": "field",
+      "method_index": 3484,
+      "receiver_guards": [
+        {
+          "instruction_index": 14,
+          "opcode": 102,
+          "operands": [
+            3602
+          ]
+        },
+        {
+          "instruction_index": 15,
+          "opcode": 102,
+          "operands": [
+            6898
+          ]
+        },
+        {
+          "instruction_index": 16,
+          "opcode": 44,
+          "operands": [
+            12094
+          ]
+        },
+        {
+          "instruction_index": 17,
+          "opcode": 97,
+          "operands": [
+            6899
+          ]
+        },
+        {
+          "instruction_index": 18,
+          "opcode": 240,
+          "operands": [
+            20
+          ]
+        }
+      ],
+      "receiver_hex": "d066921c66f235",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 240,
+      "expected_operands": [
+        21
+      ],
+      "extra_stack": 8,
+      "instruction_index": 24,
+      "kind": "field",
+      "method_index": 3484,
+      "receiver_guards": [
+        {
+          "instruction_index": 20,
+          "opcode": 102,
+          "operands": [
+            3652
+          ]
+        },
+        {
+          "instruction_index": 21,
+          "opcode": 102,
+          "operands": [
+            6898
+          ]
+        },
+        {
+          "instruction_index": 22,
+          "opcode": 44,
+          "operands": [
+            13793
+          ]
+        },
+        {
+          "instruction_index": 23,
+          "opcode": 97,
+          "operands": [
+            6899
+          ]
+        },
+        {
+          "instruction_index": 24,
+          "opcode": 240,
+          "operands": [
+            21
+          ]
+        }
+      ],
+      "receiver_hex": "d066c41c66f235",
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "expected_opcode": 240,
+      "expected_operands": [
+        22
+      ],
+      "extra_stack": 8,
+      "instruction_index": 30,
+      "kind": "field",
+      "method_index": 3484,
+      "receiver_guards": [
+        {
+          "instruction_index": 26,
+          "opcode": 102,
+          "operands": [
+            3653
+          ]
+        },
+        {
+          "instruction_index": 27,
+          "opcode": 102,
+          "operands": [
+            6898
+          ]
+        },
+        {
+          "instruction_index": 28,
+          "opcode": 44,
+          "operands": [
+            13794
+          ]
+        },
+        {
+          "instruction_index": 29,
+          "opcode": 97,
+          "operands": [
+            6899
+          ]
+        },
+        {
+          "instruction_index": 30,
+          "opcode": 240,
+          "operands": [
+            22
+          ]
+        }
+      ],
+      "receiver_hex": "d066c51c66f235",
+      "tag_path": [
+        4175
+      ]
+    }
+  ],
+  "coverage_blockers": [],
+  "entry_ids": [
+    "static.573",
+    "static.574",
+    "abc.4175.907.10",
+    "abc.4175.907.13",
+    "abc.4175.907.16",
+    "abc.4175.907.19",
+    "abc.4175.907.22",
+    "abc.4175.907.25",
+    "abc.4175.907.28",
+    "abc.4175.907.31",
+    "abc.4175.907.34",
+    "abc.4175.907.37",
+    "abc.4175.907.40",
+    "abc.4175.907.43",
+    "abc.4175.907.46",
+    "abc.4175.907.49",
+    "abc.4175.907.52",
+    "abc.4175.907.55",
+    "abc.4175.907.58",
+    "abc.4175.907.61",
+    "abc.4175.907.64",
+    "abc.4175.907.67",
+    "abc.4175.907.70",
+    "abc.4175.907.73",
+    "abc.4175.907.76",
+    "abc.4175.907.79",
+    "abc.4175.907.82",
+    "abc.4175.907.85",
+    "abc.4175.907.88",
+    "abc.4175.907.91",
+    "abc.4175.907.94",
+    "abc.4175.907.97",
+    "abc.4175.907.100",
+    "abc.4175.907.103",
+    "abc.4175.907.106",
+    "abc.4175.907.109",
+    "abc.4175.907.112",
+    "abc.4175.907.115",
+    "abc.4175.907.118",
+    "abc.4175.907.121",
+    "abc.4175.907.124",
+    "abc.4175.907.127",
+    "abc.4175.907.130",
+    "abc.4175.907.133",
+    "abc.4175.907.136",
+    "abc.4175.907.139",
+    "abc.4175.907.142",
+    "abc.4175.907.145",
+    "abc.4175.907.148",
+    "abc.4175.907.151",
+    "abc.4175.907.154",
+    "abc.4175.907.157",
+    "abc.4175.907.160",
+    "abc.4175.907.163",
+    "abc.4175.907.166",
+    "abc.4175.907.169",
+    "abc.4175.907.172",
+    "abc.4175.907.175",
+    "abc.4175.907.178",
+    "abc.4175.907.181",
+    "abc.4175.907.184",
+    "abc.4175.907.187",
+    "abc.4175.3484.32",
+    "abc.4175.3484.47",
+    "abc.4175.3484.62"
+  ],
+  "fonts": [
+    1,
+    255
+  ],
+  "game_sha256": "c8eadc03a7e607086998695f7696ec22dd90d7b7859e3d10cdfabf40fc7bbad5",
+  "layouts": {
+    "abc.4175.3484.32": {
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 1,
+      "max_width": 3124,
+      "wrap": true
+    },
+    "abc.4175.3484.47": {
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 1,
+      "max_width": 3124,
+      "wrap": true
+    },
+    "abc.4175.3484.62": {
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 1,
+      "max_width": 3124,
+      "wrap": true
+    },
+    "abc.4175.907.10": {
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 1,
+      "max_width": 8720,
+      "wrap": true
+    },
+    "abc.4175.907.100": {
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 1,
+      "max_width": 8720,
+      "wrap": true
+    },
+    "abc.4175.907.103": {
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 1,
+      "max_width": 8720,
+      "wrap": true
+    },
+    "abc.4175.907.106": {
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 1,
+      "max_width": 8720,
+      "wrap": true
+    },
+    "abc.4175.907.109": {
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 1,
+      "max_width": 8720,
+      "wrap": true
+    },
+    "abc.4175.907.112": {
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 1,
+      "max_width": 8720,
+      "wrap": true
+    },
+    "abc.4175.907.115": {
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 1,
+      "max_width": 8720,
+      "wrap": true
+    },
+    "abc.4175.907.118": {
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 1,
+      "max_width": 8720,
+      "wrap": true
+    },
+    "abc.4175.907.121": {
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 1,
+      "max_width": 8720,
+      "wrap": true
+    },
+    "abc.4175.907.124": {
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 1,
+      "max_width": 8720,
+      "wrap": true
+    },
+    "abc.4175.907.127": {
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 1,
+      "max_width": 8720,
+      "wrap": true
+    },
+    "abc.4175.907.13": {
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 1,
+      "max_width": 8720,
+      "wrap": true
+    },
+    "abc.4175.907.130": {
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 1,
+      "max_width": 8720,
+      "wrap": true
+    },
+    "abc.4175.907.133": {
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 1,
+      "max_width": 8720,
+      "wrap": true
+    },
+    "abc.4175.907.136": {
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 1,
+      "max_width": 8720,
+      "wrap": true
+    },
+    "abc.4175.907.139": {
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 1,
+      "max_width": 8720,
+      "wrap": true
+    },
+    "abc.4175.907.142": {
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 1,
+      "max_width": 8720,
+      "wrap": true
+    },
+    "abc.4175.907.145": {
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 1,
+      "max_width": 8720,
+      "wrap": true
+    },
+    "abc.4175.907.148": {
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 1,
+      "max_width": 8720,
+      "wrap": true
+    },
+    "abc.4175.907.151": {
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 1,
+      "max_width": 8720,
+      "wrap": true
+    },
+    "abc.4175.907.154": {
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 1,
+      "max_width": 8720,
+      "wrap": true
+    },
+    "abc.4175.907.157": {
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 1,
+      "max_width": 8720,
+      "wrap": true
+    },
+    "abc.4175.907.16": {
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 1,
+      "max_width": 8720,
+      "wrap": true
+    },
+    "abc.4175.907.160": {
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 1,
+      "max_width": 8720,
+      "wrap": true
+    },
+    "abc.4175.907.163": {
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 1,
+      "max_width": 8720,
+      "wrap": true
+    },
+    "abc.4175.907.166": {
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 1,
+      "max_width": 8720,
+      "wrap": true
+    },
+    "abc.4175.907.169": {
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 1,
+      "max_width": 8720,
+      "wrap": true
+    },
+    "abc.4175.907.172": {
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 1,
+      "max_width": 8720,
+      "wrap": true
+    },
+    "abc.4175.907.175": {
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 1,
+      "max_width": 8720,
+      "wrap": true
+    },
+    "abc.4175.907.178": {
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 1,
+      "max_width": 8720,
+      "wrap": true
+    },
+    "abc.4175.907.181": {
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 1,
+      "max_width": 8720,
+      "wrap": true
+    },
+    "abc.4175.907.184": {
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 1,
+      "max_width": 8720,
+      "wrap": true
+    },
+    "abc.4175.907.187": {
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 1,
+      "max_width": 8720,
+      "wrap": true
+    },
+    "abc.4175.907.19": {
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 1,
+      "max_width": 8720,
+      "wrap": true
+    },
+    "abc.4175.907.22": {
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 1,
+      "max_width": 8720,
+      "wrap": true
+    },
+    "abc.4175.907.25": {
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 1,
+      "max_width": 8720,
+      "wrap": true
+    },
+    "abc.4175.907.28": {
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 1,
+      "max_width": 8720,
+      "wrap": true
+    },
+    "abc.4175.907.31": {
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 1,
+      "max_width": 8720,
+      "wrap": true
+    },
+    "abc.4175.907.34": {
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 1,
+      "max_width": 8720,
+      "wrap": true
+    },
+    "abc.4175.907.37": {
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 1,
+      "max_width": 8720,
+      "wrap": true
+    },
+    "abc.4175.907.40": {
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 1,
+      "max_width": 8720,
+      "wrap": true
+    },
+    "abc.4175.907.43": {
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 1,
+      "max_width": 8720,
+      "wrap": true
+    },
+    "abc.4175.907.46": {
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 1,
+      "max_width": 8720,
+      "wrap": true
+    },
+    "abc.4175.907.49": {
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 1,
+      "max_width": 8720,
+      "wrap": true
+    },
+    "abc.4175.907.52": {
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 1,
+      "max_width": 8720,
+      "wrap": true
+    },
+    "abc.4175.907.55": {
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 1,
+      "max_width": 8720,
+      "wrap": true
+    },
+    "abc.4175.907.58": {
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 1,
+      "max_width": 8720,
+      "wrap": true
+    },
+    "abc.4175.907.61": {
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 1,
+      "max_width": 8720,
+      "wrap": true
+    },
+    "abc.4175.907.64": {
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 1,
+      "max_width": 8720,
+      "wrap": true
+    },
+    "abc.4175.907.67": {
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 1,
+      "max_width": 8720,
+      "wrap": true
+    },
+    "abc.4175.907.70": {
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 1,
+      "max_width": 8720,
+      "wrap": true
+    },
+    "abc.4175.907.73": {
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 1,
+      "max_width": 8720,
+      "wrap": true
+    },
+    "abc.4175.907.76": {
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 1,
+      "max_width": 8720,
+      "wrap": true
+    },
+    "abc.4175.907.79": {
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 1,
+      "max_width": 8720,
+      "wrap": true
+    },
+    "abc.4175.907.82": {
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 1,
+      "max_width": 8720,
+      "wrap": true
+    },
+    "abc.4175.907.85": {
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 1,
+      "max_width": 8720,
+      "wrap": true
+    },
+    "abc.4175.907.88": {
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 1,
+      "max_width": 8720,
+      "wrap": true
+    },
+    "abc.4175.907.91": {
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 1,
+      "max_width": 8720,
+      "wrap": true
+    },
+    "abc.4175.907.94": {
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 1,
+      "max_width": 8720,
+      "wrap": true
+    },
+    "abc.4175.907.97": {
+      "font_id": 255,
+      "height": 240,
+      "max_lines": 1,
+      "max_width": 8720,
+      "wrap": true
+    },
+    "static.573": {
+      "center": true,
+      "font_id": 1,
+      "height": 400,
+      "max_lines": 1,
+      "max_width": 8000,
+      "wrap": false
+    },
+    "static.574": {
+      "center": true,
+      "font_id": 1,
+      "height": 360,
+      "max_lines": 1,
+      "max_width": 8000,
+      "wrap": false
+    }
+  },
+  "schema_version": 1,
+  "unconfirmed": []
+}

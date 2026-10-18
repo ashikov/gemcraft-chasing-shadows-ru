@@ -33,7 +33,11 @@ prototype: 41bb1a40cf95f8b48a9829df130ee492f07c8dcb2539070b11c07fc181f592e9
 - `extract_strings.py`, `inventory_strings.py`, `abc_inventory.py`: read-only
   инвентаризация статических/редактируемых SWF-текстов и ABC.
 - `translation_catalog.py`, `localization_workspace.py`, `translations/`:
-  проверенный пример, локальная двуязычная работа, конфликты и минимальная проекция.
+  исторический пример, локальная двуязычная работа, конфликты и минимальная проекция.
+- `versioned_catalog.py`, `localization_project.py`: приватный канонический каталог
+  ручных данных, восстановление workspace и воспроизводимая накопительная сборка.
+- `translations/catalog.json`, `translations/build-manifest.json`, `translations/plans/`:
+  русский перевод, порядок и SHA планов; `translations/editorial/` — глоссарий и стиль.
 - `tests/`, `.github/workflows/`, `docs/`: проверки и документация.
 - `local/extraction/`, `backups/`, `output/`, `artifacts/`, `reference-fonts/`, старые отчёты и дампы:
   **только локально**, исключены из Git.
@@ -49,6 +53,61 @@ python3 -m venv .venv
 . .venv/bin/activate
 python -m pip install -r requirements-dev.txt
 ```
+
+## Восстановление накопительной сборки из Git
+
+В приватном `ashikov/gemcraft-chasing-shadows-ru` разрешены авторский русский
+перевод, редакторские данные, минимальные адресные метаданные и необходимые планы.
+Владелец принимает юридический риск; разрешение правообладателя и право публичного
+распространения не заявляются. SWF, оригинальные ресурсы, дампы и полный двуязычный
+workspace в Git не входят. Подробнее — [правовой статус](docs/legal.md).
+
+Канонический `translations/catalog.json` сохраняет 1934 авторских перевода:
+1809 выбранных накопительными планами и 125 дополнительных. Двенадцать планов
+PR #3–#13 и их порядок закреплены в `translations/build-manifest.json`.
+`translations/ru.json` остаётся историческим примером. Локальный workspace
+восстанавливается из оригинала и Git-каталога, английские `source` извлекаются
+из собственной копии SWF. Для чистого клона нужны только этот оригинал,
+закреплённый TTF и Python-зависимости.
+
+```sh
+git clone git@github.com:ashikov/gemcraft-chasing-shadows-ru.git gemcraft-ru
+cd gemcraft-ru
+# До merge PR #14 переключитесь на его ветку.
+git switch feat/pr14-versioned-translations
+python3 -m venv .venv
+. .venv/bin/activate
+python -m pip install -r requirements-dev.txt
+# Загрузите именно официальный закреплённый шрифт.
+mkdir -p local/inputs
+curl --fail --location \
+  'https://raw.githubusercontent.com/google/fonts/199711f8c8d2cafc88f26c174152abfa18eb62c3/ofl/alegreya/Alegreya%5Bwght%5D.ttf' \
+  --output 'local/inputs/Alegreya[wght].ttf'
+python localization_project.py validate
+python localization_project.py restore --source /path/to/original.swf \
+  --output-dir local/restored
+python localization_project.py check --workspace local/restored/workspace.json \
+  --inventory local/restored/inventory.json
+python localization_project.py build --source /path/to/original.swf \
+  --alegreya-font 'local/inputs/Alegreya[wght].ttf' --output-dir local/candidate
+```
+
+Шрифт сверяется с `fonts/alegreya/provenance.json`: SHA-256
+`ba5564634b93a8f8ba57b48cd4f1ae7417d2b4656fbac779028679b00de3cf12`.
+Ожидаемый накопительный SWF PR #13:
+`8222c9127774620e6caed18120772f7aad8c68a46d766192a0213c05e1786fe7`.
+Сборка восстанавливает собственный workspace, применяет планы в закреплённом
+порядке и проверяет записанный кандидат штатным валидатором. Новый каталог вывода
+защищает существующие данные. Проверки не запускают игру и не меняют установку;
+визуальная приёмка новых экранов остаётся отдельной задачей.
+
+После правки перевода валидируйте workspace, экспортируйте в новый файл с
+`versioned_catalog.py export --previous translations/catalog.json
+--base-receipt local/restored/catalog-origin.json`, просмотрите изменения,
+обновите канонический каталог и проверьте синхронизацию. Receipt создаётся при
+восстановлении; экспорт отклоняет устаревший workspace, если каталог изменился. Коммитьте его
+вместе с необходимым планом, manifest и тестами. Полные команды и защита от потери
+ручных данных — [в workflow переводов](docs/translations.md#приватный-workflow).
 
 ## Подготовка и применение
 
@@ -110,13 +169,16 @@ Read-only verifier опционально принимает `--inventory file-i
 python -m pytest -q -m 'not local'
 python -m ruff check .
 python translation_catalog.py translations/ru.json
+python localization_project.py validate
+python -m compileall -q *.py tests
 # Локальная интеграция: читает оригинал, пишет только во временные каталоги.
 GEMCRAFT_ORIGINAL=/path/to/original/gc-cs-steam.swf python -m pytest -q -m local
 ```
 
 Локальные тесты также находят существующий backup в `backups/`. При его
 отсутствии проверки, требующие оригинала, пропускаются. GitHub Actions выполняет
-только синтетические тесты, lint, компиляцию и проверку каталога, без игры.
+только синтетические тесты, lint, компиляцию и проверки Git-каталога/manifest,
+без игры и оригинального SWF; это не полноценная локальная интеграция.
 
 ## Меню с Alegreya
 
@@ -166,9 +228,10 @@ DefineEditText и строк/использований ABC. Поиск види
 связей и runtime; [статистика и пробелы](docs/string-inventory.md).
 Произвольное HTML-переписывание и новые версии игры не поддерживаются.
 Ограниченное расширение на главное меню и карту описано ниже.
-ABC-релокация ограничена проверенными вставками в выбранные методы. Новые переводы,
-оригиналы, старые рецепты и скриншоты
-остаются локально; публикационный allowlist не расширен.
+ABC-релокация ограничена проверенными вставками в выбранные методы. Новые русские
+переводы и необходимые планы сохраняются в приватном production-каталоге Git.
+Оригиналы, диагностические материалы и скриншоты остаются локально; ограниченный
+публичный allowlist не расширен.
 
 Подробнее: [формат и извлечение](docs/translations.md),
 [адаптация шрифтов](docs/fonts.md), [аудит](docs/audit.md),
@@ -177,7 +240,9 @@ ABC-релокация ограничена проверенными встав�
 ## Накопительные планы экранов
 
 Один кандидат собирается **из оригинала**, объединяя план настроек и новые
-локальные планы. Повторяйте `--plan` для каждого этапа:
+планы из `translations/plans/`. Штатный порядок зафиксирован manifest и применяется
+через `localization_project.py build`; низкоуровневый CLI сохранён. Для отдельных
+экспериментов повторяйте `--plan` для каждого этапа:
 
 ```sh
 python alegreya_localization.py --source /path/to/original/gc-cs-steam.swf \
