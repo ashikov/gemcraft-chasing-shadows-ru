@@ -1,6 +1,6 @@
 {
-  "applied_translations": 2042,
-  "expected_candidate_sha256": "c7a8939d4955b4cb0471eec8d7b657a31446c806af97bb4188d6e6fe92414ec7",
+  "applied_translations": 2122,
+  "expected_candidate_sha256": "4266a4cfa3eb536add802e229f7d31939d3a85ee77cad279fcb53b1ae39d3d7e",
   "font_sha256": "ba5564634b93a8f8ba57b48cd4f1ae7417d2b4656fbac779028679b00de3cf12",
   "game_sha256": "c8eadc03a7e607086998695f7696ec22dd90d7b7859e3d10cdfabf40fc7bbad5",
   "plans": [
@@ -63,6 +63,10 @@
     {
       "path": "plans/pr20-battle-buildings.json",
       "sha256": "098ca35561f9affe2551592718dfc7c55cca2eb73a3fe115753390cafebc52ae"
+    },
+    {
+      "path": "plans/pr21-battle-waves-mana.json",
+      "sha256": "06c113c552ec669369360ea771e3b22ef7f5f3d4e8786e023c5959a7fb62e7d4"
     }
   ],
   "schema_version": 1
