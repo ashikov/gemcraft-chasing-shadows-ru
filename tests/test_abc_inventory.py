@@ -188,3 +188,54 @@ def test_symbol_needs_the_complete_straight_line_caption_signature(tail):
     raw = abc(['SyntheticMethod'], [b'\xd0\x24\0\x2c\3' + tail + b'\x47'],
               property_name='addTextfield')
     assert next(e for e in extract(raw)['entries'] if e['id'] == 'abc.3.2.0.3')['classification'] == 'technical'
+
+
+def gem_color_abc(*, colors=None, owner='IngameInfoPanelRenderer2',
+                  method='renderInfoPanelGem', array_size=9, interrupt=b'', debug_line=b'\xf0\1'):
+    colors = colors if colors is not None else [
+        'orange', 'yellow', 'white', 'red', 'green', 'cyan', 'black', 'blue', 'purple',
+    ]
+    strings = [*colors, owner, method]
+    pool = b'\1\1\1' + u30(len(strings) + 1)
+    for value in strings:
+        encoded = value.encode('utf-8')
+        pool += u30(len(encoded)) + encoded
+    pool += b'\2\x16\0\1' + u30(len(strings) + 1)
+    for index in range(1, len(strings) + 1):
+        pool += b'\x07\1' + u30(index)
+    methods = b'\2\0\0\0\0\0\0\0\0'
+    # The first method is an instance trait; every color also names a symbol.
+    classes = (b'\1' + u30(len(colors) + 1) + b'\0\0\0\1\1'
+               + u30(len(colors) + 2) + b'\1\0\0\1\0')
+    pushes = b''.join(b'\x2c' + u30(index) for index in range(1, len(colors) + 1))
+    # A separate use of red must retain its technical classification.
+    code = b'\x2c\4\x29' + pushes + interrupt + debug_line + b'\x56' + u30(array_size) + b'\x29\x47'
+    body = b'\1\0\x0a\1\0\1' + u30(len(code)) + code + b'\0\0'
+    return struct.pack('<HH', 16, 46) + pool + methods + b'\0' + classes + b'\0' + body
+
+
+def test_gem_hud_color_table_promotes_only_the_reviewed_display_uses():
+    entries = extract(gem_color_abc())['entries']
+    uses = [entry for entry in entries if 'method_index' in entry['location']]
+    assert uses[0]['source'] == 'red'
+    assert uses[0]['classification'] == 'technical'
+    assert len(uses[1:]) == 9
+    assert all(entry['classification'] == 'probable' for entry in uses[1:])
+    assert all(entry['context_confidence'] != 'confirmed' for entry in uses[1:])
+    assert all('gem color' in entry['context'] for entry in uses[1:])
+
+
+@pytest.mark.parametrize('change', [
+    {'owner': 'OtherRenderer'},
+    {'method': 'otherMethod'},
+    {'array_size': 8},
+    {'colors': ['orange', 'yellow', 'white', 'red', 'green', 'cyan', 'black', 'blue']},
+    {'colors': ['orange', 'yellow', 'white', 'red', 'green', 'cyan', 'black', 'blue', 'violet']},
+    {'interrupt': b'\x10\0\0\0'},
+    {'debug_line': b''},
+    {'debug_line': b'\x02'},
+])
+def test_gem_color_symbols_need_the_complete_reviewed_table(change):
+    entries = extract(gem_color_abc(**change))['entries']
+    uses = [entry for entry in entries if 'method_index' in entry['location']]
+    assert all(entry['classification'] == 'technical' for entry in uses)
