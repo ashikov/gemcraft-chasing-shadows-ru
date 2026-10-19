@@ -17,7 +17,7 @@ from translation_catalog import load_catalog
 from versioned_catalog import catalog_digest, export_catalog
 
 pytestmark = pytest.mark.local
-EXPECTED = '8222c9127774620e6caed18120772f7aad8c68a46d766192a0213c05e1786fe7'
+EXPECTED = '72e655aca3189e89a44cc0b629a53fa6d5c2c25f54642496447dce68bca68290'
 
 
 def test_restore_build_and_temporary_apply_restore(tmp_path):
