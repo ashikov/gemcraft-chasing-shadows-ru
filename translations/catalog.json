@@ -36016,7 +36016,11 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Боевой HUD: кнопка строительства стены; IngameInfoPanelRenderer.renderInfoPanel m630, локальная панель GV.mcInfoPanel",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "Построить стену"
       },
       "source_sha256": "cf6e64205aec48a832a9eab655dc456dd1ead721a8ef8f06ee1f7c55f25bcfce"
     },
@@ -36041,6 +36045,146 @@
     },
     {
       "category": "actionscript",
+      "id": "abc.4175.630.21286",
+      "location": {
+        "abc_byte_offset": 1208824,
+        "code_offset": 21286,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10930,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: кнопка строительства стены; IngameInfoPanelRenderer.renderInfoPanel m630, локальная панель GV.mcInfoPanel",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "Клавиша: W"
+      },
+      "source_sha256": "01faf69ea611e2430c1b5a6dc194ec99dd33255a814511078f708484e6d3ea24"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.21300",
+      "location": {
+        "abc_byte_offset": 1208838,
+        "code_offset": 21300,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10931,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: кнопка строительства стены; IngameInfoPanelRenderer.renderInfoPanel m630, локальная панель GV.mcInfoPanel",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "Стены — дешёвый способ создать длинный лабиринт для монстров. На стенах можно строить башни, усилители и святилища. Каждая новая стена повышает стоимость строительства в мане. Для сноса бросьте на стену самоцвет-бомбу."
+      },
+      "source_sha256": "35e7f5500bc48f4818b157838559d8d0fee6781963f7d2a3bf4df6415942dc5f"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.21314",
+      "location": {
+        "abc_byte_offset": 1208852,
+        "code_offset": 21314,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10932,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: кнопка строительства стены; IngameInfoPanelRenderer.renderInfoPanel m630, локальная панель GV.mcInfoPanel",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "Удерживайте Shift, чтобы построить несколько стен."
+      },
+      "source_sha256": "fad496cd03a5cfd61ee0f20db952beaf4938216a32242438e069b5f7bc45da39"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.21354",
+      "location": {
+        "abc_byte_offset": 1208892,
+        "code_offset": 21354,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10933,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: кнопка строительства стены; IngameInfoPanelRenderer.renderInfoPanel m630, локальная панель GV.mcInfoPanel",
+        "context_confidence": "confirmed",
+        "notes": "Число NumberFormatter.format(Math.round(cost)); при достаточной мане исходный Math.max(0, round(cost)). Пробел перед числом сохранён.",
+        "status": "draft",
+        "translation": "Текущая стоимость в мане: "
+      },
+      "source_sha256": "29b0789532364822f919ed545f625d80ef26912dfd9b8575c643bcbc9341f451"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.21383",
+      "location": {
+        "abc_byte_offset": 1208921,
+        "code_offset": 21383,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10934,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: кнопка строительства стены; IngameInfoPanelRenderer.renderInfoPanel m630, локальная панель GV.mcInfoPanel",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "\n\nНедостаточно маны"
+      },
+      "source_sha256": "9076d698f4697b2e29e8dc62c5a13b13820f1109eb27a92b70b8025e73cb2f6f"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.21402",
+      "location": {
+        "abc_byte_offset": 1208940,
+        "code_offset": 21402,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10933,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: кнопка строительства стены; IngameInfoPanelRenderer.renderInfoPanel m630, локальная панель GV.mcInfoPanel",
+        "context_confidence": "confirmed",
+        "notes": "Число NumberFormatter.format(Math.round(cost)); при достаточной мане исходный Math.max(0, round(cost)). Пробел перед числом сохранён.",
+        "status": "draft",
+        "translation": "Текущая стоимость в мане: "
+      },
+      "source_sha256": "29b0789532364822f919ed545f625d80ef26912dfd9b8575c643bcbc9341f451"
+    },
+    {
+      "category": "actionscript",
       "id": "abc.4175.630.21495",
       "location": {
         "abc_byte_offset": 1209033,
@@ -36054,9 +36198,153 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Боевой HUD: кнопка строительства башни; IngameInfoPanelRenderer.renderInfoPanel m630, локальная панель GV.mcInfoPanel",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "Построить башню"
       },
       "source_sha256": "edf2a081f2223432a8b13eb7298860b0a420dc274ece9cc108547ce07fbe0b1a"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.21545",
+      "location": {
+        "abc_byte_offset": 1209083,
+        "code_offset": 21545,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10936,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: кнопка строительства башни; IngameInfoPanelRenderer.renderInfoPanel m630, локальная панель GV.mcInfoPanel",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "Клавиша: T"
+      },
+      "source_sha256": "328cd6836a49dec4f6d65748a502b44c35e65a6add7c173cf2eed67363f19ddb"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.21559",
+      "location": {
+        "abc_byte_offset": 1209097,
+        "code_offset": 21559,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10937,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: кнопка строительства башни; IngameInfoPanelRenderer.renderInfoPanel m630, локальная панель GV.mcInfoPanel",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "Постройте башню на свободной клетке поля. Вставьте самоцвет, чтобы стрелять по монстрам. Каждая новая башня повышает стоимость строительства в мане. Для сноса бросьте самоцвет-бомбу на пустую башню."
+      },
+      "source_sha256": "df7c31d7600b657d1c95fb031beea8a1c9b88e5d917a015c0a3222a583569292"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.21573",
+      "location": {
+        "abc_byte_offset": 1209111,
+        "code_offset": 21573,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10938,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: кнопка строительства башни; IngameInfoPanelRenderer.renderInfoPanel m630, локальная панель GV.mcInfoPanel",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "Удерживайте Shift, чтобы построить несколько башен."
+      },
+      "source_sha256": "e3d83b2da5f35ac102de840f2a79da608e8b1cee3973631d36b4bdcd8711ee52"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.21613",
+      "location": {
+        "abc_byte_offset": 1209151,
+        "code_offset": 21613,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10933,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: кнопка строительства башни; IngameInfoPanelRenderer.renderInfoPanel m630, локальная панель GV.mcInfoPanel",
+        "context_confidence": "confirmed",
+        "notes": "Число NumberFormatter.format(Math.round(cost)); при достаточной мане исходный Math.max(0, round(cost)). Пробел перед числом сохранён.",
+        "status": "draft",
+        "translation": "Текущая стоимость в мане: "
+      },
+      "source_sha256": "29b0789532364822f919ed545f625d80ef26912dfd9b8575c643bcbc9341f451"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.21642",
+      "location": {
+        "abc_byte_offset": 1209180,
+        "code_offset": 21642,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10934,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: кнопка строительства башни; IngameInfoPanelRenderer.renderInfoPanel m630, локальная панель GV.mcInfoPanel",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "\n\nНедостаточно маны"
+      },
+      "source_sha256": "9076d698f4697b2e29e8dc62c5a13b13820f1109eb27a92b70b8025e73cb2f6f"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.21661",
+      "location": {
+        "abc_byte_offset": 1209199,
+        "code_offset": 21661,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10933,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: кнопка строительства башни; IngameInfoPanelRenderer.renderInfoPanel m630, локальная панель GV.mcInfoPanel",
+        "context_confidence": "confirmed",
+        "notes": "Число NumberFormatter.format(Math.round(cost)); при достаточной мане исходный Math.max(0, round(cost)). Пробел перед числом сохранён.",
+        "status": "draft",
+        "translation": "Текущая стоимость в мане: "
+      },
+      "source_sha256": "29b0789532364822f919ed545f625d80ef26912dfd9b8575c643bcbc9341f451"
     },
     {
       "category": "actionscript",
@@ -36092,9 +36380,153 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Боевой HUD: кнопка строительства усилителя; IngameInfoPanelRenderer.renderInfoPanel m630, локальная панель GV.mcInfoPanel",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "Построить усилитель"
       },
       "source_sha256": "f061e9d89c21ce659559f1e57eb92e146433c85242c17820eb70b474013f770b"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.21804",
+      "location": {
+        "abc_byte_offset": 1209342,
+        "code_offset": 21804,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10940,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: кнопка строительства усилителя; IngameInfoPanelRenderer.renderInfoPanel m630, локальная панель GV.mcInfoPanel",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "Клавиша: A"
+      },
+      "source_sha256": "cfc1d037dd73ac23f0b50555315ed095c6c917485065abfa2340b1b87e9b2665"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.21818",
+      "location": {
+        "abc_byte_offset": 1209356,
+        "code_offset": 21818,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10941,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: кнопка строительства усилителя; IngameInfoPanelRenderer.renderInfoPanel m630, локальная панель GV.mcInfoPanel",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "Самоцветы в усилителях не стреляют, но повышают урон и силу эффектов самоцветов в соседних башнях и ловушках. Для сноса бросьте самоцвет-бомбу на пустой усилитель."
+      },
+      "source_sha256": "1ea3f89418150f33cf4426d12bdacd3c089454c846ed75d11dd43048ce086743"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.21832",
+      "location": {
+        "abc_byte_offset": 1209370,
+        "code_offset": 21832,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10942,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: кнопка строительства усилителя; IngameInfoPanelRenderer.renderInfoPanel m630, локальная панель GV.mcInfoPanel",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "Удерживайте Shift, чтобы построить несколько усилителей."
+      },
+      "source_sha256": "e3d9722303b2a225c45f367b4b5a6f12f798d422031e56075a3472992a75c655"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.21872",
+      "location": {
+        "abc_byte_offset": 1209410,
+        "code_offset": 21872,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10933,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: кнопка строительства усилителя; IngameInfoPanelRenderer.renderInfoPanel m630, локальная панель GV.mcInfoPanel",
+        "context_confidence": "confirmed",
+        "notes": "Число NumberFormatter.format(Math.round(cost)); при достаточной мане исходный Math.max(0, round(cost)). Пробел перед числом сохранён.",
+        "status": "draft",
+        "translation": "Текущая стоимость в мане: "
+      },
+      "source_sha256": "29b0789532364822f919ed545f625d80ef26912dfd9b8575c643bcbc9341f451"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.21901",
+      "location": {
+        "abc_byte_offset": 1209439,
+        "code_offset": 21901,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10934,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: кнопка строительства усилителя; IngameInfoPanelRenderer.renderInfoPanel m630, локальная панель GV.mcInfoPanel",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "\n\nНедостаточно маны"
+      },
+      "source_sha256": "9076d698f4697b2e29e8dc62c5a13b13820f1109eb27a92b70b8025e73cb2f6f"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.21920",
+      "location": {
+        "abc_byte_offset": 1209458,
+        "code_offset": 21920,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10933,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: кнопка строительства усилителя; IngameInfoPanelRenderer.renderInfoPanel m630, локальная панель GV.mcInfoPanel",
+        "context_confidence": "confirmed",
+        "notes": "Число NumberFormatter.format(Math.round(cost)); при достаточной мане исходный Math.max(0, round(cost)). Пробел перед числом сохранён.",
+        "status": "draft",
+        "translation": "Текущая стоимость в мане: "
+      },
+      "source_sha256": "29b0789532364822f919ed545f625d80ef26912dfd9b8575c643bcbc9341f451"
     },
     {
       "category": "actionscript",
@@ -36130,9 +36562,153 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Боевой HUD: кнопка строительства ловушки; IngameInfoPanelRenderer.renderInfoPanel m630, локальная панель GV.mcInfoPanel",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "Создать ловушку"
       },
       "source_sha256": "343d3955994143640582d5ac21d9502e4fe12dc1f9e79bc78493a47de1584b47"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.22246",
+      "location": {
+        "abc_byte_offset": 1209784,
+        "code_offset": 22246,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10951,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: кнопка строительства ловушки; IngameInfoPanelRenderer.renderInfoPanel m630, локальная панель GV.mcInfoPanel",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "Клавиша: R"
+      },
+      "source_sha256": "1264248e0b65466a930f5608e9dbf79f8f8af4e6744fbacb4295bf901fa945e2"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.22260",
+      "location": {
+        "abc_byte_offset": 1209798,
+        "code_offset": 22260,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10952,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: кнопка строительства ловушки; IngameInfoPanelRenderer.renderInfoPanel m630, локальная панель GV.mcInfoPanel",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "Поставьте ловушку на пути монстров. Каждая новая ловушка повышает стоимость в мане. Вставьте самоцвет для активации. В ловушках у самоцветов ограничена дальность и снижен урон, но усилены эффекты (кроме кровной связи и связи с бассейном: они усиливают остальные эффекты дополнительно к модификаторам ловушки). Для сноса бросьте самоцвет-бомбу на пустую ловушку."
+      },
+      "source_sha256": "29beb1a25a3e3b8781c7b5508912aba7b0b8069b65186dea7b52b46ba54fa909"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.22274",
+      "location": {
+        "abc_byte_offset": 1209812,
+        "code_offset": 22274,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10953,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: кнопка строительства ловушки; IngameInfoPanelRenderer.renderInfoPanel m630, локальная панель GV.mcInfoPanel",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "Удерживайте Shift, чтобы поставить несколько ловушек."
+      },
+      "source_sha256": "b926c61d415d5e640dcabe4750ad0a73341fbe40096276b9dadf94f5f8dcda1d"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.22314",
+      "location": {
+        "abc_byte_offset": 1209852,
+        "code_offset": 22314,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10933,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: кнопка строительства ловушки; IngameInfoPanelRenderer.renderInfoPanel m630, локальная панель GV.mcInfoPanel",
+        "context_confidence": "confirmed",
+        "notes": "Число NumberFormatter.format(Math.round(cost)); при достаточной мане исходный Math.max(0, round(cost)). Пробел перед числом сохранён.",
+        "status": "draft",
+        "translation": "Текущая стоимость в мане: "
+      },
+      "source_sha256": "29b0789532364822f919ed545f625d80ef26912dfd9b8575c643bcbc9341f451"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.22343",
+      "location": {
+        "abc_byte_offset": 1209881,
+        "code_offset": 22343,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10934,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: кнопка строительства ловушки; IngameInfoPanelRenderer.renderInfoPanel m630, локальная панель GV.mcInfoPanel",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "\n\nНедостаточно маны"
+      },
+      "source_sha256": "9076d698f4697b2e29e8dc62c5a13b13820f1109eb27a92b70b8025e73cb2f6f"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.22362",
+      "location": {
+        "abc_byte_offset": 1209900,
+        "code_offset": 22362,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10933,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: кнопка строительства ловушки; IngameInfoPanelRenderer.renderInfoPanel m630, локальная панель GV.mcInfoPanel",
+        "context_confidence": "confirmed",
+        "notes": "Число NumberFormatter.format(Math.round(cost)); при достаточной мане исходный Math.max(0, round(cost)). Пробел перед числом сохранён.",
+        "status": "draft",
+        "translation": "Текущая стоимость в мане: "
+      },
+      "source_sha256": "29b0789532364822f919ed545f625d80ef26912dfd9b8575c643bcbc9341f451"
     },
     {
       "category": "actionscript",
@@ -37292,6 +37868,730 @@
         "context": "pushstring; display destination is not statically established"
       },
       "source_sha256": "4019db9667135144b95635e66d87fce58478f165236d27a9f8e4699016b8f11a"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.4116",
+      "location": {
+        "abc_byte_offset": 1191654,
+        "code_offset": 4116,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10732,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: стена; IngameInfoPanelRenderer.renderInfoPanel m630, локальная панель GV.mcInfoPanel",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "Снос невозможен\nСносов не осталось"
+      },
+      "source_sha256": "a0b865747d755dac767f8f64f184113319ed0124ffe91fda636084e37cdf5b8f"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.4134",
+      "location": {
+        "abc_byte_offset": 1191672,
+        "code_offset": 4134,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10733,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: стена; IngameInfoPanelRenderer.renderInfoPanel m630, локальная панель GV.mcInfoPanel",
+        "context_confidence": "confirmed",
+        "notes": "Нейтральная подпись перед целым demolitionsLeft.g(); ветка показа требует остаток >= 1, без изменения числовой логики.",
+        "status": "draft",
+        "translation": "Осталось сносов: "
+      },
+      "source_sha256": "45374938b30cb9d7b46f1f25673d4d857da9e93550eefe91093b151c9e5c9a35"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.4239",
+      "location": {
+        "abc_byte_offset": 1191777,
+        "code_offset": 4239,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 4715,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: стена; IngameInfoPanelRenderer.renderInfoPanel m630, локальная панель GV.mcInfoPanel",
+        "context_confidence": "confirmed",
+        "notes": "Адресный заголовок разделяет pool-строку с техническими символами; остальные потребители не меняются.",
+        "status": "draft",
+        "translation": "Стена"
+      },
+      "source_sha256": "f76ea921edc2e55df3e0a8eef0ddc499bdb4c39fc74356fb49b0c9ed2fab6642"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.4273",
+      "location": {
+        "abc_byte_offset": 1191811,
+        "code_offset": 4273,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10734,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: стена; IngameInfoPanelRenderer.renderInfoPanel m630, локальная панель GV.mcInfoPanel",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "Башни и усилители можно строить на стенах и на земле"
+      },
+      "source_sha256": "988e60dae692e46c351f6c0261ba776f6bd8876616718395a72b7746df79131a"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.4320",
+      "location": {
+        "abc_byte_offset": 1191858,
+        "code_offset": 4320,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10735,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: стена; IngameInfoPanelRenderer.renderInfoPanel m630, локальная панель GV.mcInfoPanel",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "Построено на пути"
+      },
+      "source_sha256": "4177c49bbce73ad9e096526552e9b0e92e39925d9ae66a7b458185a42f9aa8b1"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.4406",
+      "location": {
+        "abc_byte_offset": 1191944,
+        "code_offset": 4406,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10732,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: стена; IngameInfoPanelRenderer.renderInfoPanel m630, локальная панель GV.mcInfoPanel",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "Снос невозможен\nСносов не осталось"
+      },
+      "source_sha256": "a0b865747d755dac767f8f64f184113319ed0124ffe91fda636084e37cdf5b8f"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.4476",
+      "location": {
+        "abc_byte_offset": 1192014,
+        "code_offset": 4476,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10733,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: стена; IngameInfoPanelRenderer.renderInfoPanel m630, локальная панель GV.mcInfoPanel",
+        "context_confidence": "confirmed",
+        "notes": "Нейтральная подпись перед целым demolitionsLeft.g(); ветка показа требует остаток >= 1, без изменения числовой логики.",
+        "status": "draft",
+        "translation": "Осталось сносов: "
+      },
+      "source_sha256": "45374938b30cb9d7b46f1f25673d4d857da9e93550eefe91093b151c9e5c9a35"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.5044",
+      "location": {
+        "abc_byte_offset": 1192582,
+        "code_offset": 5044,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 481,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: башня; IngameInfoPanelRenderer.renderInfoPanel m630, локальная панель GV.mcInfoPanel",
+        "context_confidence": "confirmed",
+        "notes": "Адресный заголовок разделяет pool-строку с техническими символами; остальные потребители не меняются.",
+        "status": "draft",
+        "translation": "Башня"
+      },
+      "source_sha256": "aeb11001d7769761dc0c4483693596a6e0f3390d723d95b3ea7e3ccfee341947"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.5078",
+      "location": {
+        "abc_byte_offset": 1192616,
+        "code_offset": 5078,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10736,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: башня; IngameInfoPanelRenderer.renderInfoPanel m630, локальная панель GV.mcInfoPanel",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "Управляется из Кузницы Духа"
+      },
+      "source_sha256": "c050cd822f6d48eb7f13820800608903e6f4fd55e5ad46df05634e34747c3fed"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.5173",
+      "location": {
+        "abc_byte_offset": 1192711,
+        "code_offset": 5173,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 481,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: башня; IngameInfoPanelRenderer.renderInfoPanel m630, локальная панель GV.mcInfoPanel",
+        "context_confidence": "confirmed",
+        "notes": "Адресный заголовок разделяет pool-строку с техническими символами; остальные потребители не меняются.",
+        "status": "draft",
+        "translation": "Башня"
+      },
+      "source_sha256": "aeb11001d7769761dc0c4483693596a6e0f3390d723d95b3ea7e3ccfee341947"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.5207",
+      "location": {
+        "abc_byte_offset": 1192745,
+        "code_offset": 5207,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10736,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: башня; IngameInfoPanelRenderer.renderInfoPanel m630, локальная панель GV.mcInfoPanel",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "Управляется из Кузницы Духа"
+      },
+      "source_sha256": "c050cd822f6d48eb7f13820800608903e6f4fd55e5ad46df05634e34747c3fed"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.5261",
+      "location": {
+        "abc_byte_offset": 1192799,
+        "code_offset": 5261,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 481,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: башня; IngameInfoPanelRenderer.renderInfoPanel m630, локальная панель GV.mcInfoPanel",
+        "context_confidence": "confirmed",
+        "notes": "Адресный заголовок разделяет pool-строку с техническими символами; остальные потребители не меняются.",
+        "status": "draft",
+        "translation": "Башня"
+      },
+      "source_sha256": "aeb11001d7769761dc0c4483693596a6e0f3390d723d95b3ea7e3ccfee341947"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.5295",
+      "location": {
+        "abc_byte_offset": 1192833,
+        "code_offset": 5295,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10737,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: башня; IngameInfoPanelRenderer.renderInfoPanel m630, локальная панель GV.mcInfoPanel",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "Вставьте самоцвет для активации"
+      },
+      "source_sha256": "b51059501ef75200bd54dd94324125b37023aeeb82d4e2b494598f04d10724c5"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.5353",
+      "location": {
+        "abc_byte_offset": 1192891,
+        "code_offset": 5353,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10738,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: башня; IngameInfoPanelRenderer.renderInfoPanel m630, локальная панель GV.mcInfoPanel",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "Клик — вставить верхний самоцвет из инвентаря"
+      },
+      "source_sha256": "25f544ae8ffec732a318868ac26ef2dbe8a69b60c49ecdd6a21e5be78b54a422"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.5613",
+      "location": {
+        "abc_byte_offset": 1193151,
+        "code_offset": 5613,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10735,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: башня; IngameInfoPanelRenderer.renderInfoPanel m630, локальная панель GV.mcInfoPanel",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "Построено на пути"
+      },
+      "source_sha256": "4177c49bbce73ad9e096526552e9b0e92e39925d9ae66a7b458185a42f9aa8b1"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.5699",
+      "location": {
+        "abc_byte_offset": 1193237,
+        "code_offset": 5699,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10732,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: башня; IngameInfoPanelRenderer.renderInfoPanel m630, локальная панель GV.mcInfoPanel",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "Снос невозможен\nСносов не осталось"
+      },
+      "source_sha256": "a0b865747d755dac767f8f64f184113319ed0124ffe91fda636084e37cdf5b8f"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.5717",
+      "location": {
+        "abc_byte_offset": 1193255,
+        "code_offset": 5717,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10739,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: башня; IngameInfoPanelRenderer.renderInfoPanel m630, локальная панель GV.mcInfoPanel",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "Бросьте самоцвет-бомбу для сноса"
+      },
+      "source_sha256": "f9da657d62e6074ef15ada2027f96226325cb58ff256c991feb836b15485c035"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.5783",
+      "location": {
+        "abc_byte_offset": 1193321,
+        "code_offset": 5783,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10733,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: башня; IngameInfoPanelRenderer.renderInfoPanel m630, локальная панель GV.mcInfoPanel",
+        "context_confidence": "confirmed",
+        "notes": "Нейтральная подпись перед целым demolitionsLeft.g(); ветка показа требует остаток >= 1, без изменения числовой логики.",
+        "status": "draft",
+        "translation": "Осталось сносов: "
+      },
+      "source_sha256": "45374938b30cb9d7b46f1f25673d4d857da9e93550eefe91093b151c9e5c9a35"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.6477",
+      "location": {
+        "abc_byte_offset": 1194015,
+        "code_offset": 6477,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 763,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: усилитель; IngameInfoPanelRenderer.renderInfoPanel m630, локальная панель GV.mcInfoPanel",
+        "context_confidence": "confirmed",
+        "notes": "Адресный заголовок разделяет pool-строку с техническими символами; остальные потребители не меняются.",
+        "status": "draft",
+        "translation": "Усилитель"
+      },
+      "source_sha256": "c0a9d8b3fc41938e108efa8d11841e5ec01d17b626d538bc32761ddaf0c46f3d"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.6511",
+      "location": {
+        "abc_byte_offset": 1194049,
+        "code_offset": 6511,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10744,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: усилитель; IngameInfoPanelRenderer.renderInfoPanel m630, локальная панель GV.mcInfoPanel",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "Вставьте самоцвет для усиления самоцветов во всех соседних башнях и ловушках"
+      },
+      "source_sha256": "2c6166d2c457c6966d71b3bcf8f6f19e5a6aa1cfa07c2e6559c771f513058cae"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.6555",
+      "location": {
+        "abc_byte_offset": 1194093,
+        "code_offset": 6555,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10738,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: усилитель; IngameInfoPanelRenderer.renderInfoPanel m630, локальная панель GV.mcInfoPanel",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "Клик — вставить верхний самоцвет из инвентаря"
+      },
+      "source_sha256": "25f544ae8ffec732a318868ac26ef2dbe8a69b60c49ecdd6a21e5be78b54a422"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.6703",
+      "location": {
+        "abc_byte_offset": 1194241,
+        "code_offset": 6703,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10735,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: усилитель; IngameInfoPanelRenderer.renderInfoPanel m630, локальная панель GV.mcInfoPanel",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "Построено на пути"
+      },
+      "source_sha256": "4177c49bbce73ad9e096526552e9b0e92e39925d9ae66a7b458185a42f9aa8b1"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.6789",
+      "location": {
+        "abc_byte_offset": 1194327,
+        "code_offset": 6789,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10732,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: усилитель; IngameInfoPanelRenderer.renderInfoPanel m630, локальная панель GV.mcInfoPanel",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "Снос невозможен\nСносов не осталось"
+      },
+      "source_sha256": "a0b865747d755dac767f8f64f184113319ed0124ffe91fda636084e37cdf5b8f"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.6807",
+      "location": {
+        "abc_byte_offset": 1194345,
+        "code_offset": 6807,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10739,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: усилитель; IngameInfoPanelRenderer.renderInfoPanel m630, локальная панель GV.mcInfoPanel",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "Бросьте самоцвет-бомбу для сноса"
+      },
+      "source_sha256": "f9da657d62e6074ef15ada2027f96226325cb58ff256c991feb836b15485c035"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.6873",
+      "location": {
+        "abc_byte_offset": 1194411,
+        "code_offset": 6873,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10733,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: усилитель; IngameInfoPanelRenderer.renderInfoPanel m630, локальная панель GV.mcInfoPanel",
+        "context_confidence": "confirmed",
+        "notes": "Нейтральная подпись перед целым demolitionsLeft.g(); ветка показа требует остаток >= 1, без изменения числовой логики.",
+        "status": "draft",
+        "translation": "Осталось сносов: "
+      },
+      "source_sha256": "45374938b30cb9d7b46f1f25673d4d857da9e93550eefe91093b151c9e5c9a35"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.7033",
+      "location": {
+        "abc_byte_offset": 1194571,
+        "code_offset": 7033,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 765,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: ловушка; IngameInfoPanelRenderer.renderInfoPanel m630, локальная панель GV.mcInfoPanel",
+        "context_confidence": "confirmed",
+        "notes": "Адресный заголовок разделяет pool-строку с техническими символами; остальные потребители не меняются.",
+        "status": "draft",
+        "translation": "Ловушка"
+      },
+      "source_sha256": "e52817818a06d588d6ba37f52bd9309c61d68dcf08d81b9295a0926c8725c392"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.7067",
+      "location": {
+        "abc_byte_offset": 1194605,
+        "code_offset": 7067,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10737,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: ловушка; IngameInfoPanelRenderer.renderInfoPanel m630, локальная панель GV.mcInfoPanel",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "Вставьте самоцвет для активации"
+      },
+      "source_sha256": "b51059501ef75200bd54dd94324125b37023aeeb82d4e2b494598f04d10724c5"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.7111",
+      "location": {
+        "abc_byte_offset": 1194649,
+        "code_offset": 7111,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10738,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: ловушка; IngameInfoPanelRenderer.renderInfoPanel m630, локальная панель GV.mcInfoPanel",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "Клик — вставить верхний самоцвет из инвентаря"
+      },
+      "source_sha256": "25f544ae8ffec732a318868ac26ef2dbe8a69b60c49ecdd6a21e5be78b54a422"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.7298",
+      "location": {
+        "abc_byte_offset": 1194836,
+        "code_offset": 7298,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10732,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: ловушка; IngameInfoPanelRenderer.renderInfoPanel m630, локальная панель GV.mcInfoPanel",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "Снос невозможен\nСносов не осталось"
+      },
+      "source_sha256": "a0b865747d755dac767f8f64f184113319ed0124ffe91fda636084e37cdf5b8f"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.7316",
+      "location": {
+        "abc_byte_offset": 1194854,
+        "code_offset": 7316,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10739,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: ловушка; IngameInfoPanelRenderer.renderInfoPanel m630, локальная панель GV.mcInfoPanel",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "Бросьте самоцвет-бомбу для сноса"
+      },
+      "source_sha256": "f9da657d62e6074ef15ada2027f96226325cb58ff256c991feb836b15485c035"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.7382",
+      "location": {
+        "abc_byte_offset": 1194920,
+        "code_offset": 7382,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10733,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: ловушка; IngameInfoPanelRenderer.renderInfoPanel m630, локальная панель GV.mcInfoPanel",
+        "context_confidence": "confirmed",
+        "notes": "Нейтральная подпись перед целым demolitionsLeft.g(); ветка показа требует остаток >= 1, без изменения числовой логики.",
+        "status": "draft",
+        "translation": "Осталось сносов: "
+      },
+      "source_sha256": "45374938b30cb9d7b46f1f25673d4d857da9e93550eefe91093b151c9e5c9a35"
     },
     {
       "category": "actionscript",
