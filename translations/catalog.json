@@ -37543,7 +37543,21 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Начальное обучение бою, шаг 1 из 4. Последовательные поля составляют одну инструкцию.",
+        "context_confidence": "confirmed",
+        "notes": {
+          "source_parts": [
+            "Полная адресная область m557; исходные условия, цвета, размеры и положение сохранены. Alegreya назначается до ",
+            {
+              "id": "abc.4175.1369.408",
+              "source_sha256": "7e9e5ac30f2216fd0fd6f5faed316f2d5983361a4203c3330cfa46ef65bb4767"
+            },
+            "Textfield и восстанавливается сразу после него."
+          ]
+        },
+        "status": "draft",
+        "translation": "на кнопку"
       },
       "source_sha256": "f131cf986c7772bcf9b16e07116b61781633a6f68a92404caa33faed24a73c5a"
     },
@@ -37562,7 +37576,21 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Начальное обучение бою, шаг 1 из 4. Последовательные поля составляют одну инструкцию.",
+        "context_confidence": "confirmed",
+        "notes": {
+          "source_parts": [
+            "Полная адресная область m557; исходные условия, цвета, размеры и положение сохранены. Alegreya назначается до ",
+            {
+              "id": "abc.4175.1369.408",
+              "source_sha256": "7e9e5ac30f2216fd0fd6f5faed316f2d5983361a4203c3330cfa46ef65bb4767"
+            },
+            "Textfield и восстанавливается сразу после него."
+          ]
+        },
+        "status": "draft",
+        "translation": "выбора типа"
       },
       "source_sha256": "6de10be08b65da81ca73adc7e994249cfb7689325e9da7ec9ce291488d9d02f3"
     },
@@ -37581,7 +37609,21 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Начальное обучение бою, шаг 1 из 4. Последовательные поля составляют одну инструкцию.",
+        "context_confidence": "confirmed",
+        "notes": {
+          "source_parts": [
+            "Полная адресная область m557; исходные условия, цвета, размеры и положение сохранены. Alegreya назначается до ",
+            {
+              "id": "abc.4175.1369.408",
+              "source_sha256": "7e9e5ac30f2216fd0fd6f5faed316f2d5983361a4203c3330cfa46ef65bb4767"
+            },
+            "Textfield и восстанавливается сразу после него."
+          ]
+        },
+        "status": "draft",
+        "translation": "первого самоцвета"
       },
       "source_sha256": "93103c6a497bdcde680b7cd04f075348bc8c4f9d7958b381217c6485f15d11b2"
     },
@@ -37600,8 +37642,21 @@
         ]
       },
       "manual": {
-        "classification": "unknown",
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Начальное обучение бою, шаг 2 из 4. Последовательные поля составляют одну инструкцию.",
+        "context_confidence": "confirmed",
+        "notes": {
+          "source_parts": [
+            "Полная адресная область m557; исходные условия, цвета, размеры и положение сохранены. Alegreya назначается до ",
+            {
+              "id": "abc.4175.1369.408",
+              "source_sha256": "7e9e5ac30f2216fd0fd6f5faed316f2d5983361a4203c3330cfa46ef65bb4767"
+            },
+            "Textfield и восстанавливается сразу после него."
+          ]
+        },
+        "status": "draft",
+        "translation": "Нажмите"
       },
       "source_sha256": "95ba4ed9329f4a2591e3bd89366e38cca9b26aeab3e72106ae60ad6757e05495"
     },
@@ -37620,7 +37675,21 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Начальное обучение бою, шаг 2 из 4. Последовательные поля составляют одну инструкцию.",
+        "context_confidence": "confirmed",
+        "notes": {
+          "source_parts": [
+            "Полная адресная область m557; исходные условия, цвета, размеры и положение сохранены. Alegreya назначается до ",
+            {
+              "id": "abc.4175.1369.408",
+              "source_sha256": "7e9e5ac30f2216fd0fd6f5faed316f2d5983361a4203c3330cfa46ef65bb4767"
+            },
+            "Textfield и восстанавливается сразу после него."
+          ]
+        },
+        "status": "draft",
+        "translation": "на ряд инвентаря,"
       },
       "source_sha256": "7997b113db21852712179ed4a9a75483706cbc9217d2b53f57719d743a119e30"
     },
@@ -37639,7 +37708,21 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Начальное обучение бою, шаг 2 из 4. Последовательные поля составляют одну инструкцию.",
+        "context_confidence": "confirmed",
+        "notes": {
+          "source_parts": [
+            "Полная адресная область m557; исходные условия, цвета, размеры и положение сохранены. Alegreya назначается до ",
+            {
+              "id": "abc.4175.1369.408",
+              "source_sha256": "7e9e5ac30f2216fd0fd6f5faed316f2d5983361a4203c3330cfa46ef65bb4767"
+            },
+            "Textfield и восстанавливается сразу после него."
+          ]
+        },
+        "status": "draft",
+        "translation": "чтобы создать самоцвет"
       },
       "source_sha256": "3609d0859975c9f4202903673ba7ab0629e2cfebf3fc5b55f0a5987f0ef9b396"
     },
@@ -37658,7 +37741,21 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Начальное обучение бою, шаг 3 из 4. Последовательные поля составляют одну инструкцию.",
+        "context_confidence": "confirmed",
+        "notes": {
+          "source_parts": [
+            "Полная адресная область m557; исходные условия, цвета, размеры и положение сохранены. Alegreya назначается до ",
+            {
+              "id": "abc.4175.1369.408",
+              "source_sha256": "7e9e5ac30f2216fd0fd6f5faed316f2d5983361a4203c3330cfa46ef65bb4767"
+            },
+            "Textfield и восстанавливается сразу после него."
+          ]
+        },
+        "status": "draft",
+        "translation": "Перетащите самоцвет"
       },
       "source_sha256": "237af4b440c95a6f795e16e97b5f4b56fc61c53eb078341c363beccefb81aa35"
     },
@@ -37677,7 +37774,21 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Начальное обучение бою, шаг 3 из 4. Последовательные поля составляют одну инструкцию.",
+        "context_confidence": "confirmed",
+        "notes": {
+          "source_parts": [
+            "Полная адресная область m557; исходные условия, цвета, размеры и положение сохранены. Alegreya назначается до ",
+            {
+              "id": "abc.4175.1369.408",
+              "source_sha256": "7e9e5ac30f2216fd0fd6f5faed316f2d5983361a4203c3330cfa46ef65bb4767"
+            },
+            "Textfield и восстанавливается сразу после него."
+          ]
+        },
+        "status": "draft",
+        "translation": "в башню,"
       },
       "source_sha256": "27ac4b7a9c1cf35b9d9a2599da708e6ce32339bd5229e98b993bea56e8ee7e3a"
     },
@@ -37696,7 +37807,21 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Начальное обучение бою, шаг 3 из 4. Последовательные поля составляют одну инструкцию.",
+        "context_confidence": "confirmed",
+        "notes": {
+          "source_parts": [
+            "Полная адресная область m557; исходные условия, цвета, размеры и положение сохранены. Alegreya назначается до ",
+            {
+              "id": "abc.4175.1369.408",
+              "source_sha256": "7e9e5ac30f2216fd0fd6f5faed316f2d5983361a4203c3330cfa46ef65bb4767"
+            },
+            "Textfield и восстанавливается сразу после него."
+          ]
+        },
+        "status": "draft",
+        "translation": "чтобы установить его"
       },
       "source_sha256": "392c350f9065ee03c4426d82ba11941bed3ad9db2f88bf686d9b8f22cce79dfd"
     },
@@ -37715,8 +37840,21 @@
         ]
       },
       "manual": {
-        "classification": "unknown",
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Начальное обучение бою, шаг 4 из 4. Последовательные поля составляют одну инструкцию.",
+        "context_confidence": "confirmed",
+        "notes": {
+          "source_parts": [
+            "Полная адресная область m557; исходные условия, цвета, размеры и положение сохранены. Alegreya назначается до ",
+            {
+              "id": "abc.4175.1369.408",
+              "source_sha256": "7e9e5ac30f2216fd0fd6f5faed316f2d5983361a4203c3330cfa46ef65bb4767"
+            },
+            "Textfield и восстанавливается сразу после него."
+          ]
+        },
+        "status": "draft",
+        "translation": "Нажмите"
       },
       "source_sha256": "95ba4ed9329f4a2591e3bd89366e38cca9b26aeab3e72106ae60ad6757e05495"
     },
@@ -37735,7 +37873,21 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Начальное обучение бою, шаг 4 из 4. Последовательные поля составляют одну инструкцию.",
+        "context_confidence": "confirmed",
+        "notes": {
+          "source_parts": [
+            "Полная адресная область m557; исходные условия, цвета, размеры и положение сохранены. Alegreya назначается до ",
+            {
+              "id": "abc.4175.1369.408",
+              "source_sha256": "7e9e5ac30f2216fd0fd6f5faed316f2d5983361a4203c3330cfa46ef65bb4767"
+            },
+            "Textfield и восстанавливается сразу после него."
+          ]
+        },
+        "status": "draft",
+        "translation": "на стрелку,"
       },
       "source_sha256": "ac0605f512a040b463f54d08ebf07371a6b13b9c9f77beac9d179a4eab928c73"
     },
@@ -37754,7 +37906,21 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Начальное обучение бою, шаг 4 из 4. Последовательные поля составляют одну инструкцию.",
+        "context_confidence": "confirmed",
+        "notes": {
+          "source_parts": [
+            "Полная адресная область m557; исходные условия, цвета, размеры и положение сохранены. Alegreya назначается до ",
+            {
+              "id": "abc.4175.1369.408",
+              "source_sha256": "7e9e5ac30f2216fd0fd6f5faed316f2d5983361a4203c3330cfa46ef65bb4767"
+            },
+            "Textfield и восстанавливается сразу после него."
+          ]
+        },
+        "status": "draft",
+        "translation": "чтобы начать бой!"
       },
       "source_sha256": "69bca47923854a94c78a024410696dd2b17a06a7dd13ba6382304c47ea75db30"
     },
@@ -37773,8 +37939,21 @@
         ]
       },
       "manual": {
-        "classification": "unknown",
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Начальное обучение бою, шаг 1 из 4. Последовательные поля составляют одну инструкцию.",
+        "context_confidence": "confirmed",
+        "notes": {
+          "source_parts": [
+            "Полная адресная область m557; исходные условия, цвета, размеры и положение сохранены. Alegreya назначается до ",
+            {
+              "id": "abc.4175.1369.408",
+              "source_sha256": "7e9e5ac30f2216fd0fd6f5faed316f2d5983361a4203c3330cfa46ef65bb4767"
+            },
+            "Textfield и восстанавливается сразу после него."
+          ]
+        },
+        "status": "draft",
+        "translation": "Нажмите"
       },
       "source_sha256": "95ba4ed9329f4a2591e3bd89366e38cca9b26aeab3e72106ae60ad6757e05495"
     },
@@ -40341,6 +40520,82 @@
     },
     {
       "category": "actionscript",
+      "id": "abc.4175.630.25142",
+      "location": {
+        "abc_byte_offset": 1212680,
+        "code_offset": 25142,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10988,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: кнопки управления временем. Первая кнопка — пауза или один кадр; следующие — скорости 1x, 3x, 9x с состояниями паузы.",
+        "context_confidence": "confirmed",
+        "notes": {
+          "source_parts": [
+            "Адресный потребитель ",
+            {
+              "id": "abc.4175.1369.408",
+              "source_sha256": "7e9e5ac30f2216fd0fd6f5faed316f2d5983361a4203c3330cfa46ef65bb4767"
+            },
+            "Textfield в m630. Размеры, состояния",
+            {
+              "id": "abc.4175.1553.78",
+              "source_sha256": "cc6964a93f395520e98823e5b971de142a38d217c878dc99d713d70f2ae98b14"
+            },
+            "Multiplier, клавиши Space/Q и механика сохранены. Alegreya до измерения, исходный шрифт после поля."
+          ]
+        },
+        "status": "draft",
+        "translation": "Клик — продвинуть время на один кадр"
+      },
+      "source_sha256": "261fb8e2a34151d379af05d149b4e0d6c546d400f9fc429b51634912c2a54292"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.25160",
+      "location": {
+        "abc_byte_offset": 1212698,
+        "code_offset": 25160,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10989,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: кнопки управления временем. Первая кнопка — пауза или один кадр; следующие — скорости 1x, 3x, 9x с состояниями паузы.",
+        "context_confidence": "confirmed",
+        "notes": {
+          "source_parts": [
+            "Адресный потребитель ",
+            {
+              "id": "abc.4175.1369.408",
+              "source_sha256": "7e9e5ac30f2216fd0fd6f5faed316f2d5983361a4203c3330cfa46ef65bb4767"
+            },
+            "Textfield в m630. Размеры, состояния",
+            {
+              "id": "abc.4175.1553.78",
+              "source_sha256": "cc6964a93f395520e98823e5b971de142a38d217c878dc99d713d70f2ae98b14"
+            },
+            "Multiplier, клавиши Space/Q и механика сохранены. Alegreya до измерения, исходный шрифт после поля."
+          ]
+        },
+        "status": "draft",
+        "translation": "Клик — приостановить время"
+      },
+      "source_sha256": "b7bbcd59b0cdc279669b6898008fd8dea5e3495a6795d2ede3ea0c18416f3d94"
+    },
+    {
+      "category": "actionscript",
       "id": "abc.4175.630.25174",
       "location": {
         "abc_byte_offset": 1212712,
@@ -40354,9 +40609,66 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: кнопки управления временем. Первая кнопка — пауза или один кадр; следующие — скорости 1x, 3x, 9x с состояниями паузы.",
+        "context_confidence": "confirmed",
+        "notes": {
+          "source_parts": [
+            "Адресный потребитель ",
+            {
+              "id": "abc.4175.1369.408",
+              "source_sha256": "7e9e5ac30f2216fd0fd6f5faed316f2d5983361a4203c3330cfa46ef65bb4767"
+            },
+            "Textfield в m630. Размеры, состояния",
+            {
+              "id": "abc.4175.1553.78",
+              "source_sha256": "cc6964a93f395520e98823e5b971de142a38d217c878dc99d713d70f2ae98b14"
+            },
+            "Multiplier, клавиши Space/Q и механика сохранены. Alegreya до измерения, исходный шрифт после поля."
+          ]
+        },
+        "status": "draft",
+        "translation": "Клавиша: Пробел"
       },
       "source_sha256": "ecbc39a967dd540827c6adbded3bfdb7359cc4b62212890220dfecc2d9175199"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.25299",
+      "location": {
+        "abc_byte_offset": 1212837,
+        "code_offset": 25299,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10991,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: кнопки управления временем. Первая кнопка — пауза или один кадр; следующие — скорости 1x, 3x, 9x с состояниями паузы.",
+        "context_confidence": "confirmed",
+        "notes": {
+          "source_parts": [
+            "Адресный потребитель ",
+            {
+              "id": "abc.4175.1369.408",
+              "source_sha256": "7e9e5ac30f2216fd0fd6f5faed316f2d5983361a4203c3330cfa46ef65bb4767"
+            },
+            "Textfield в m630. Размеры, состояния",
+            {
+              "id": "abc.4175.1553.78",
+              "source_sha256": "cc6964a93f395520e98823e5b971de142a38d217c878dc99d713d70f2ae98b14"
+            },
+            "Multiplier, клавиши Space/Q и механика сохранены. Alegreya до измерения, исходный шрифт после поля."
+          ]
+        },
+        "status": "draft",
+        "translation": "Клик — скорость 3x"
+      },
+      "source_sha256": "6e7f4dd17d18dc2734edd376fbe46e08f309b85caf45bf07a5829e753dfa290d"
     },
     {
       "category": "actionscript",
@@ -40373,9 +40685,66 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: кнопки управления временем. Первая кнопка — пауза или один кадр; следующие — скорости 1x, 3x, 9x с состояниями паузы.",
+        "context_confidence": "confirmed",
+        "notes": {
+          "source_parts": [
+            "Адресный потребитель ",
+            {
+              "id": "abc.4175.1369.408",
+              "source_sha256": "7e9e5ac30f2216fd0fd6f5faed316f2d5983361a4203c3330cfa46ef65bb4767"
+            },
+            "Textfield в m630. Размеры, состояния",
+            {
+              "id": "abc.4175.1553.78",
+              "source_sha256": "cc6964a93f395520e98823e5b971de142a38d217c878dc99d713d70f2ae98b14"
+            },
+            "Multiplier, клавиши Space/Q и механика сохранены. Alegreya до измерения, исходный шрифт после поля."
+          ]
+        },
+        "status": "draft",
+        "translation": "Клавиша: Q"
       },
       "source_sha256": "d3559742387dd54d38b48c2b81c4cbf3d3aecf37853e94abd054433e5bbfc974"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.25350",
+      "location": {
+        "abc_byte_offset": 1212888,
+        "code_offset": 25350,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10993,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: кнопки управления временем. Первая кнопка — пауза или один кадр; следующие — скорости 1x, 3x, 9x с состояниями паузы.",
+        "context_confidence": "confirmed",
+        "notes": {
+          "source_parts": [
+            "Адресный потребитель ",
+            {
+              "id": "abc.4175.1369.408",
+              "source_sha256": "7e9e5ac30f2216fd0fd6f5faed316f2d5983361a4203c3330cfa46ef65bb4767"
+            },
+            "Textfield в m630. Размеры, состояния",
+            {
+              "id": "abc.4175.1553.78",
+              "source_sha256": "cc6964a93f395520e98823e5b971de142a38d217c878dc99d713d70f2ae98b14"
+            },
+            "Multiplier, клавиши Space/Q и механика сохранены. Alegreya до измерения, исходный шрифт после поля."
+          ]
+        },
+        "status": "draft",
+        "translation": "Клик — возобновить время"
+      },
+      "source_sha256": "db14f92330405314fe146096c3f7bd5ca6c1f27e8125b1438656be8e21910334"
     },
     {
       "category": "actionscript",
@@ -40392,9 +40761,66 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: кнопки управления временем. Первая кнопка — пауза или один кадр; следующие — скорости 1x, 3x, 9x с состояниями паузы.",
+        "context_confidence": "confirmed",
+        "notes": {
+          "source_parts": [
+            "Адресный потребитель ",
+            {
+              "id": "abc.4175.1369.408",
+              "source_sha256": "7e9e5ac30f2216fd0fd6f5faed316f2d5983361a4203c3330cfa46ef65bb4767"
+            },
+            "Textfield в m630. Размеры, состояния",
+            {
+              "id": "abc.4175.1553.78",
+              "source_sha256": "cc6964a93f395520e98823e5b971de142a38d217c878dc99d713d70f2ae98b14"
+            },
+            "Multiplier, клавиши Space/Q и механика сохранены. Alegreya до измерения, исходный шрифт после поля."
+          ]
+        },
+        "status": "draft",
+        "translation": "Клавиша: Пробел"
       },
       "source_sha256": "ecbc39a967dd540827c6adbded3bfdb7359cc4b62212890220dfecc2d9175199"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.25385",
+      "location": {
+        "abc_byte_offset": 1212923,
+        "code_offset": 25385,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10994,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: кнопки управления временем. Первая кнопка — пауза или один кадр; следующие — скорости 1x, 3x, 9x с состояниями паузы.",
+        "context_confidence": "confirmed",
+        "notes": {
+          "source_parts": [
+            "Адресный потребитель ",
+            {
+              "id": "abc.4175.1369.408",
+              "source_sha256": "7e9e5ac30f2216fd0fd6f5faed316f2d5983361a4203c3330cfa46ef65bb4767"
+            },
+            "Textfield в m630. Размеры, состояния",
+            {
+              "id": "abc.4175.1553.78",
+              "source_sha256": "cc6964a93f395520e98823e5b971de142a38d217c878dc99d713d70f2ae98b14"
+            },
+            "Multiplier, клавиши Space/Q и механика сохранены. Alegreya до измерения, исходный шрифт после поля."
+          ]
+        },
+        "status": "draft",
+        "translation": "Клик — вернуть скорость 1x"
+      },
+      "source_sha256": "3bdd166537ae8366d02ffc5c970fb05da2f06fd09a3e476efac56181f5d6278c"
     },
     {
       "category": "actionscript",
@@ -40411,9 +40837,66 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: кнопки управления временем. Первая кнопка — пауза или один кадр; следующие — скорости 1x, 3x, 9x с состояниями паузы.",
+        "context_confidence": "confirmed",
+        "notes": {
+          "source_parts": [
+            "Адресный потребитель ",
+            {
+              "id": "abc.4175.1369.408",
+              "source_sha256": "7e9e5ac30f2216fd0fd6f5faed316f2d5983361a4203c3330cfa46ef65bb4767"
+            },
+            "Textfield в m630. Размеры, состояния",
+            {
+              "id": "abc.4175.1553.78",
+              "source_sha256": "cc6964a93f395520e98823e5b971de142a38d217c878dc99d713d70f2ae98b14"
+            },
+            "Multiplier, клавиши Space/Q и механика сохранены. Alegreya до измерения, исходный шрифт после поля."
+          ]
+        },
+        "status": "draft",
+        "translation": "Клавиша: Q"
       },
       "source_sha256": "d3559742387dd54d38b48c2b81c4cbf3d3aecf37853e94abd054433e5bbfc974"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.25524",
+      "location": {
+        "abc_byte_offset": 1213062,
+        "code_offset": 25524,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10994,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: кнопки управления временем. Первая кнопка — пауза или один кадр; следующие — скорости 1x, 3x, 9x с состояниями паузы.",
+        "context_confidence": "confirmed",
+        "notes": {
+          "source_parts": [
+            "Адресный потребитель ",
+            {
+              "id": "abc.4175.1369.408",
+              "source_sha256": "7e9e5ac30f2216fd0fd6f5faed316f2d5983361a4203c3330cfa46ef65bb4767"
+            },
+            "Textfield в m630. Размеры, состояния",
+            {
+              "id": "abc.4175.1553.78",
+              "source_sha256": "cc6964a93f395520e98823e5b971de142a38d217c878dc99d713d70f2ae98b14"
+            },
+            "Multiplier, клавиши Space/Q и механика сохранены. Alegreya до измерения, исходный шрифт после поля."
+          ]
+        },
+        "status": "draft",
+        "translation": "Клик — вернуть скорость 1x"
+      },
+      "source_sha256": "3bdd166537ae8366d02ffc5c970fb05da2f06fd09a3e476efac56181f5d6278c"
     },
     {
       "category": "actionscript",
@@ -40430,9 +40913,66 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: кнопки управления временем. Первая кнопка — пауза или один кадр; следующие — скорости 1x, 3x, 9x с состояниями паузы.",
+        "context_confidence": "confirmed",
+        "notes": {
+          "source_parts": [
+            "Адресный потребитель ",
+            {
+              "id": "abc.4175.1369.408",
+              "source_sha256": "7e9e5ac30f2216fd0fd6f5faed316f2d5983361a4203c3330cfa46ef65bb4767"
+            },
+            "Textfield в m630. Размеры, состояния",
+            {
+              "id": "abc.4175.1553.78",
+              "source_sha256": "cc6964a93f395520e98823e5b971de142a38d217c878dc99d713d70f2ae98b14"
+            },
+            "Multiplier, клавиши Space/Q и механика сохранены. Alegreya до измерения, исходный шрифт после поля."
+          ]
+        },
+        "status": "draft",
+        "translation": "Клавиша: Q"
       },
       "source_sha256": "d3559742387dd54d38b48c2b81c4cbf3d3aecf37853e94abd054433e5bbfc974"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.25575",
+      "location": {
+        "abc_byte_offset": 1213113,
+        "code_offset": 25575,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10995,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: кнопки управления временем. Первая кнопка — пауза или один кадр; следующие — скорости 1x, 3x, 9x с состояниями паузы.",
+        "context_confidence": "confirmed",
+        "notes": {
+          "source_parts": [
+            "Адресный потребитель ",
+            {
+              "id": "abc.4175.1369.408",
+              "source_sha256": "7e9e5ac30f2216fd0fd6f5faed316f2d5983361a4203c3330cfa46ef65bb4767"
+            },
+            "Textfield в m630. Размеры, состояния",
+            {
+              "id": "abc.4175.1553.78",
+              "source_sha256": "cc6964a93f395520e98823e5b971de142a38d217c878dc99d713d70f2ae98b14"
+            },
+            "Multiplier, клавиши Space/Q и механика сохранены. Alegreya до измерения, исходный шрифт после поля."
+          ]
+        },
+        "status": "draft",
+        "translation": "Клик — возобновить время на скорости 3x"
+      },
+      "source_sha256": "75df9eb59b80f2502ac5098dfb3ecb8f40310a130be8eb12f97acb627d0830fc"
     },
     {
       "category": "actionscript",
@@ -40449,9 +40989,66 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: кнопки управления временем. Первая кнопка — пауза или один кадр; следующие — скорости 1x, 3x, 9x с состояниями паузы.",
+        "context_confidence": "confirmed",
+        "notes": {
+          "source_parts": [
+            "Адресный потребитель ",
+            {
+              "id": "abc.4175.1369.408",
+              "source_sha256": "7e9e5ac30f2216fd0fd6f5faed316f2d5983361a4203c3330cfa46ef65bb4767"
+            },
+            "Textfield в m630. Размеры, состояния",
+            {
+              "id": "abc.4175.1553.78",
+              "source_sha256": "cc6964a93f395520e98823e5b971de142a38d217c878dc99d713d70f2ae98b14"
+            },
+            "Multiplier, клавиши Space/Q и механика сохранены. Alegreya до измерения, исходный шрифт после поля."
+          ]
+        },
+        "status": "draft",
+        "translation": "Клавиша: Пробел"
       },
       "source_sha256": "ecbc39a967dd540827c6adbded3bfdb7359cc4b62212890220dfecc2d9175199"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.25610",
+      "location": {
+        "abc_byte_offset": 1213148,
+        "code_offset": 25610,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10991,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: кнопки управления временем. Первая кнопка — пауза или один кадр; следующие — скорости 1x, 3x, 9x с состояниями паузы.",
+        "context_confidence": "confirmed",
+        "notes": {
+          "source_parts": [
+            "Адресный потребитель ",
+            {
+              "id": "abc.4175.1369.408",
+              "source_sha256": "7e9e5ac30f2216fd0fd6f5faed316f2d5983361a4203c3330cfa46ef65bb4767"
+            },
+            "Textfield в m630. Размеры, состояния",
+            {
+              "id": "abc.4175.1553.78",
+              "source_sha256": "cc6964a93f395520e98823e5b971de142a38d217c878dc99d713d70f2ae98b14"
+            },
+            "Multiplier, клавиши Space/Q и механика сохранены. Alegreya до измерения, исходный шрифт после поля."
+          ]
+        },
+        "status": "draft",
+        "translation": "Клик — скорость 3x"
+      },
+      "source_sha256": "6e7f4dd17d18dc2734edd376fbe46e08f309b85caf45bf07a5829e753dfa290d"
     },
     {
       "category": "actionscript",
@@ -40468,9 +41065,66 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: кнопки управления временем. Первая кнопка — пауза или один кадр; следующие — скорости 1x, 3x, 9x с состояниями паузы.",
+        "context_confidence": "confirmed",
+        "notes": {
+          "source_parts": [
+            "Адресный потребитель ",
+            {
+              "id": "abc.4175.1369.408",
+              "source_sha256": "7e9e5ac30f2216fd0fd6f5faed316f2d5983361a4203c3330cfa46ef65bb4767"
+            },
+            "Textfield в m630. Размеры, состояния",
+            {
+              "id": "abc.4175.1553.78",
+              "source_sha256": "cc6964a93f395520e98823e5b971de142a38d217c878dc99d713d70f2ae98b14"
+            },
+            "Multiplier, клавиши Space/Q и механика сохранены. Alegreya до измерения, исходный шрифт после поля."
+          ]
+        },
+        "status": "draft",
+        "translation": "Клавиша: Q"
       },
       "source_sha256": "d3559742387dd54d38b48c2b81c4cbf3d3aecf37853e94abd054433e5bbfc974"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.25727",
+      "location": {
+        "abc_byte_offset": 1213265,
+        "code_offset": 25727,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10996,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: кнопки управления временем. Первая кнопка — пауза или один кадр; следующие — скорости 1x, 3x, 9x с состояниями паузы.",
+        "context_confidence": "confirmed",
+        "notes": {
+          "source_parts": [
+            "Адресный потребитель ",
+            {
+              "id": "abc.4175.1369.408",
+              "source_sha256": "7e9e5ac30f2216fd0fd6f5faed316f2d5983361a4203c3330cfa46ef65bb4767"
+            },
+            "Textfield в m630. Размеры, состояния",
+            {
+              "id": "abc.4175.1553.78",
+              "source_sha256": "cc6964a93f395520e98823e5b971de142a38d217c878dc99d713d70f2ae98b14"
+            },
+            "Multiplier, клавиши Space/Q и механика сохранены. Alegreya до измерения, исходный шрифт после поля."
+          ]
+        },
+        "status": "draft",
+        "translation": "Клик — вернуть скорость 3x"
+      },
+      "source_sha256": "55690765cdbc1c031a8fb4dbf0de73f340534b89ff47b4c0ceff1f0cdb521bbf"
     },
     {
       "category": "actionscript",
@@ -40487,9 +41141,66 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: кнопки управления временем. Первая кнопка — пауза или один кадр; следующие — скорости 1x, 3x, 9x с состояниями паузы.",
+        "context_confidence": "confirmed",
+        "notes": {
+          "source_parts": [
+            "Адресный потребитель ",
+            {
+              "id": "abc.4175.1369.408",
+              "source_sha256": "7e9e5ac30f2216fd0fd6f5faed316f2d5983361a4203c3330cfa46ef65bb4767"
+            },
+            "Textfield в m630. Размеры, состояния",
+            {
+              "id": "abc.4175.1553.78",
+              "source_sha256": "cc6964a93f395520e98823e5b971de142a38d217c878dc99d713d70f2ae98b14"
+            },
+            "Multiplier, клавиши Space/Q и механика сохранены. Alegreya до измерения, исходный шрифт после поля."
+          ]
+        },
+        "status": "draft",
+        "translation": "Клавиша: Q"
       },
       "source_sha256": "d3559742387dd54d38b48c2b81c4cbf3d3aecf37853e94abd054433e5bbfc974"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.25778",
+      "location": {
+        "abc_byte_offset": 1213316,
+        "code_offset": 25778,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10997,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: кнопки управления временем. Первая кнопка — пауза или один кадр; следующие — скорости 1x, 3x, 9x с состояниями паузы.",
+        "context_confidence": "confirmed",
+        "notes": {
+          "source_parts": [
+            "Адресный потребитель ",
+            {
+              "id": "abc.4175.1369.408",
+              "source_sha256": "7e9e5ac30f2216fd0fd6f5faed316f2d5983361a4203c3330cfa46ef65bb4767"
+            },
+            "Textfield в m630. Размеры, состояния",
+            {
+              "id": "abc.4175.1553.78",
+              "source_sha256": "cc6964a93f395520e98823e5b971de142a38d217c878dc99d713d70f2ae98b14"
+            },
+            "Multiplier, клавиши Space/Q и механика сохранены. Alegreya до измерения, исходный шрифт после поля."
+          ]
+        },
+        "status": "draft",
+        "translation": "Клик — возобновить время на скорости 9x"
+      },
+      "source_sha256": "9c1a73788d7037e27e43f7c1d08568eaa401f0ba68592fcd192292ee19ca0886"
     },
     {
       "category": "actionscript",
@@ -40506,9 +41217,66 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: кнопки управления временем. Первая кнопка — пауза или один кадр; следующие — скорости 1x, 3x, 9x с состояниями паузы.",
+        "context_confidence": "confirmed",
+        "notes": {
+          "source_parts": [
+            "Адресный потребитель ",
+            {
+              "id": "abc.4175.1369.408",
+              "source_sha256": "7e9e5ac30f2216fd0fd6f5faed316f2d5983361a4203c3330cfa46ef65bb4767"
+            },
+            "Textfield в m630. Размеры, состояния",
+            {
+              "id": "abc.4175.1553.78",
+              "source_sha256": "cc6964a93f395520e98823e5b971de142a38d217c878dc99d713d70f2ae98b14"
+            },
+            "Multiplier, клавиши Space/Q и механика сохранены. Alegreya до измерения, исходный шрифт после поля."
+          ]
+        },
+        "status": "draft",
+        "translation": "Клавиша: Пробел"
       },
       "source_sha256": "ecbc39a967dd540827c6adbded3bfdb7359cc4b62212890220dfecc2d9175199"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.25813",
+      "location": {
+        "abc_byte_offset": 1213351,
+        "code_offset": 25813,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10998,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: кнопки управления временем. Первая кнопка — пауза или один кадр; следующие — скорости 1x, 3x, 9x с состояниями паузы.",
+        "context_confidence": "confirmed",
+        "notes": {
+          "source_parts": [
+            "Адресный потребитель ",
+            {
+              "id": "abc.4175.1369.408",
+              "source_sha256": "7e9e5ac30f2216fd0fd6f5faed316f2d5983361a4203c3330cfa46ef65bb4767"
+            },
+            "Textfield в m630. Размеры, состояния",
+            {
+              "id": "abc.4175.1553.78",
+              "source_sha256": "cc6964a93f395520e98823e5b971de142a38d217c878dc99d713d70f2ae98b14"
+            },
+            "Multiplier, клавиши Space/Q и механика сохранены. Alegreya до измерения, исходный шрифт после поля."
+          ]
+        },
+        "status": "draft",
+        "translation": "Клик — скорость 9x"
+      },
+      "source_sha256": "7e2894d0ac80d83cf5248fabdad4ed6a34326cda05a6086ab5799597bffc85b2"
     },
     {
       "category": "actionscript",
@@ -40525,7 +41293,26 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: кнопки управления временем. Первая кнопка — пауза или один кадр; следующие — скорости 1x, 3x, 9x с состояниями паузы.",
+        "context_confidence": "confirmed",
+        "notes": {
+          "source_parts": [
+            "Адресный потребитель ",
+            {
+              "id": "abc.4175.1369.408",
+              "source_sha256": "7e9e5ac30f2216fd0fd6f5faed316f2d5983361a4203c3330cfa46ef65bb4767"
+            },
+            "Textfield в m630. Размеры, состояния",
+            {
+              "id": "abc.4175.1553.78",
+              "source_sha256": "cc6964a93f395520e98823e5b971de142a38d217c878dc99d713d70f2ae98b14"
+            },
+            "Multiplier, клавиши Space/Q и механика сохранены. Alegreya до измерения, исходный шрифт после поля."
+          ]
+        },
+        "status": "draft",
+        "translation": "Клавиша: Q"
       },
       "source_sha256": "d3559742387dd54d38b48c2b81c4cbf3d3aecf37853e94abd054433e5bbfc974"
     },
