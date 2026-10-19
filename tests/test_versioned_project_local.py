@@ -17,7 +17,7 @@ from translation_catalog import load_catalog
 from versioned_catalog import catalog_digest, export_catalog
 
 pytestmark = pytest.mark.local
-EXPECTED = '72e655aca3189e89a44cc0b629a53fa6d5c2c25f54642496447dce68bca68290'
+EXPECTED = 'ef901fc15fee8f27c8d74519a61fc1550a9dce11e2f8b630636c17a24f672d76'
 
 
 def test_restore_build_and_temporary_apply_restore(tmp_path):
@@ -34,7 +34,7 @@ def test_restore_build_and_temporary_apply_restore(tmp_path):
     output = tmp_path / 'restored-build'
     report = build_project(source, font, output, catalog, manifest)
     assert report['patched_sha256'] == EXPECTED
-    assert report['applied_translations'] == 1809
+    assert report['applied_translations'] == 1860
     assert report['status'] == 'PARTIAL'
     workspace = load_catalog(output / 'workspace.json')
     inventory = load_catalog(output / 'inventory.json')
@@ -46,7 +46,7 @@ def test_restore_build_and_temporary_apply_restore(tmp_path):
     assert check_workspace(output / 'workspace.json', output / 'inventory.json',
                            catalog, manifest)['synchronized']
     plan = load_bundle(manifest, workspace)
-    assert len(plan['entry_ids']) == 1809
+    assert len(plan['entry_ids']) == 1860
     assert not set(plan['empty_abc_strings']) & set(plan['entry_ids'])
     assert load_catalog(output / 'on-disk-validation.json') == report
     candidate = output / 'gc-cs-steam.ru.swf'
@@ -63,7 +63,7 @@ def test_restore_build_and_temporary_apply_restore(tmp_path):
     assert source.read_bytes() == original
     evidence = {
         'original_sha256': sha(original), 'font_sha256': sha(font.read_bytes()),
-        'candidate_sha256': EXPECTED, 'applied_translations': 1809,
+        'candidate_sha256': EXPECTED, 'applied_translations': 1860,
         'prepared_translations': 1934, 'on_disk_validation': True,
         'temporary_apply_restore': True,
         'checkout': str(root), 'output': str(output),

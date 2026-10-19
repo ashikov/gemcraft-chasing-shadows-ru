@@ -235,9 +235,158 @@ def _multiline_static(tag, entry, font, layout, source_fonts):
     return Tag(tag.code, build_text(text, tag.code)), metrics
 
 
+def _space_anchors(layout, records, runs):
+    """Validate explicit blank spans reserved for separately placed artwork."""
+    anchors = layout.get('space_anchors', [])
+    if not isinstance(anchors, list):
+        raise ValueError('Invalid static space anchors')
+    grouped = defaultdict(list)
+    keys = {'record_index', 'source_offset', 'translation_offset', 'count'}
+    for anchor in anchors:
+        if (not isinstance(anchor, dict) or set(anchor) != keys
+                or any(type(value) is not int for value in anchor.values())):
+            raise ValueError('Invalid static space anchor indices')
+        index, start, target, count = (anchor[k] for k in
+            ('record_index', 'source_offset', 'translation_offset', 'count'))
+        if (not 0 <= index < len(records) or min(start, target) < 0 or count <= 0
+                or records[index]['source'][start:start + count] != ' ' * count
+                or runs[index][target:target + count] != ' ' * count):
+            raise ValueError('Static space anchor must select literal spaces')
+        for previous in grouped[index]:
+            for key in ('source_offset', 'translation_offset'):
+                if max(previous[key], anchor[key]) < min(
+                        previous[key] + previous['count'], anchor[key] + count):
+                    raise ValueError('Overlapping static space anchors')
+        grouped[index].append(anchor)
+    return grouped
+
+
+def _anchor_spaces(entries, anchors, original, source, font, source_x, x):
+    """Keep following text in place and return the reserved original spans."""
+    from swf_geometry import parse_shape
+
+    gaps = []
+    for anchor in sorted(anchors, key=lambda item: item['translation_offset']):
+        start, target, count = (anchor[k] for k in
+                               ('source_offset', 'translation_offset', 'count'))
+        if any(parse_shape(face['glyphs'][index]) for face, span in (
+                (source, original[start:start + count]),
+                (font, entries[target:target + count])) for index, _ in span):
+            raise ValueError('Static icon gap needs outline-free spaces')
+        gap_start = source_x + sum(a for _, a in original[:start])
+        gap_end = gap_start + sum(a for _, a in original[start:start + count])
+        pen = x + sum(a for _, a in entries[:target])
+        advance = gap_end - pen - sum(a for _, a in entries[target + 1:target + count])
+        if pen > gap_start or advance < 0:
+            raise ValueError('Static prefix/space advance exceeds the icon gap')
+        entries[target] = (entries[target][0], advance)
+        gaps.append((gap_start, gap_end))
+    return entries, gaps
+
+
+def _static_runs(tag, entry, font, layout, source_fonts):
+    """Replace explicit coloured fragments while following Flash's inherited pen.
+
+    Unlike `lines`, these fragments may contain boundary spaces or consist only
+    of a space. Existing x/y flags reset the pen; omitted coordinates continue
+    after the preceding encoded glyph advances. No automatic wrapping occurs.
+    """
+    from build_prototype import ink_bounds
+    from swf_geometry import parse_shape
+
+    text = copy.deepcopy(parse_text(tag.payload, tag.code))
+    runs = layout.get('runs')
+    if (not isinstance(runs, list) or len(runs) != len(text['records'])
+            or any(type(run) is not str or not run or '\n' in run or '\r' in run
+                   for run in runs)
+            or ''.join(runs) != entry['translation']):
+        raise ValueError('Static runs must reproduce the canonical translation per record')
+    if 'lines' in layout or layout.get('wrap') or layout.get('center'):
+        raise ValueError('Static runs cannot mix layout modes')
+    matrix, _ = decode_matrix(text['matrix_raw'])
+    if matrix['scale'] != [65536, 65536] or matrix['rotate'] != [0, 0]:
+        raise ValueError('Static runs require a translation-only matrix')
+    if len(entry.get('text_records', [])) != len(runs):
+        raise ValueError('Static inventory records differ at selected address')
+    anchors = _space_anchors(layout, entry['text_records'], runs)
+    tx, ty = matrix['translate']
+    right_edge = layout.get('right_edge', text['bounds'][1])
+    if (type(right_edge) is not int or right_edge <= 0
+            or right_edge < text['bounds'][1]):
+        raise ValueError('Invalid static right edge allowance')
+    right_edge -= tx
+    kerning = {(a, b): value for a, b, value in font['kerning']}
+    x = y = line_start = source_x = 0
+    active_font = active_height = None
+    bounds, record_bounds, widths, positions = [], [], [], []
+    glyph_bounds, reserved_gaps = [], []
+    baselines = set()
+    for record_index, (row, source_record, run) in enumerate(zip(
+            text['records'], entry['text_records'], runs)):
+        active_font = row.get('font_id', active_font)
+        active_height = row.get('height', active_height)
+        source = source_fonts.get(active_font)
+        if (active_font != layout['font_id'] or source is None or not row['entries']
+                or ''.join(chr(source['codes'][i]) for i, _ in row['entries'])
+                != source_record['source']):
+            raise ValueError('Static source/font differs at selected address')
+        if active_height != layout['height']:
+            raise ValueError('Static runs must retain the original height')
+        if 'x' in row or ('y' in row and row['y'] != y):
+            line_start = row.get('x', x)
+        x, y = row.get('x', x), row.get('y', y)
+        source_x = row.get('x', source_x)
+        positions.append([x, y])
+        baselines.add(y)
+        check_layout(font, run, {'height': active_height, 'max_width': layout['max_width']})
+        original = row['entries']
+        row['entries'], gaps = _anchor_spaces(
+            _glyph_run(font, kerning, run, active_height), anchors[record_index],
+            original, source, font, source_x, x)
+        reserved_gaps.extend((y, start, end) for start, end in gaps)
+        source_x += sum(a for _, a in original)
+        if 'font_id' in row:
+            row['font_id'] = font['id']
+        ink = []
+        for index, advance in row['entries']:
+            # Blank outlines move the pen but must not expand bounds to (0, 0).
+            if parse_shape(font['glyphs'][index]):
+                ink.append(ink_bounds(font, [(index, advance)], active_height, x, y))
+                glyph_bounds.append((y, ink[-1]))
+            x += advance
+        merged = None
+        if ink:
+            merged = [min(b[0] for b in ink), max(b[1] for b in ink),
+                      min(b[2] for b in ink), max(b[3] for b in ink)]
+            bounds.append(merged)
+        if x - line_start > layout['max_width'] or x > right_edge or (
+                merged is not None and merged[1] > right_edge):
+            raise ValueError('Static runs exceed the cumulative line width/right edge')
+        record_bounds.append(merged)
+        widths.append(x - line_start)
+    if not bounds:
+        raise ValueError('Static runs need visible glyphs')
+    # Inline records can precede or follow the anchor without x/y flags. Check
+    # the entire physical line so their bearings cannot enter the icon's span.
+    for baseline, start, end in reserved_gaps:
+        if any(y == baseline and box[0] < end and box[1] > start
+               for y, box in glyph_bounds):
+            raise ValueError('Static glyph ink intrudes into the icon gap')
+    text['bounds'] = [min(b[0] for b in bounds) + tx, max(b[1] for b in bounds) + tx,
+                      min(b[2] for b in bounds) + ty, max(b[3] for b in bounds) + ty]
+    text['gb'] = (len(font['codes']) - 1).bit_length()
+    text['ab'] = signed_bits([a for row in text['records'] for _, a in row['entries']])
+    metrics = {'widths_twips': widths, 'ink_bounds_twips': record_bounds,
+               'positions_twips': positions, 'lines': len(baselines),
+               'available_width_twips': layout['max_width']}
+    return Tag(tag.code, build_text(text, tag.code)), metrics
+
+
 def _display_text(tag, entry, font, layout, source_fonts):
     """Patch one guarded display resource, retaining its existing style/position."""
     if tag.code in (11, 33):
+        if 'runs' in layout:
+            return _static_runs(tag, entry, font, layout, source_fonts)
         text = parse_text(tag.payload, tag.code)
         if len(text['records']) != 1 or layout.get('center'):
             return _multiline_static(tag, entry, font, layout, source_fonts)
@@ -260,7 +409,7 @@ def _display_text(tag, entry, font, layout, source_fonts):
         text['ab'] = signed_bits([advance for _, advance in row['entries']])
         return Tag(tag.code, build_text(text, tag.code)), metrics
     identifier, source, formatting = parse_edit_text(tag.payload)
-    if layout.get('lines') is not None or layout.get('center'):
+    if layout.get('lines') is not None or 'runs' in layout or layout.get('center'):
         raise ValueError('Editable text does not support static-only layout keys')
     if (identifier != entry['location']['character_id'] or source != entry['source']
             or not formatting['has_font'] or formatting['has_font_class']
