@@ -536,6 +536,36 @@
       "en": "nonbound specials",
       "ru": "несвязанные эффекты",
       "note": "PR19: подписи ловушки и усилителя в m548; эффекты, не относящиеся к Кровной связи и Связи с бассейном."
+    },
+    {
+      "en": "Lockdown",
+      "ru": "Блокада",
+      "note": "Название искры: подтверждено по renderWarkStoneInfoPanel (m547), PR #22."
+    },
+    {
+      "en": "Prism Cascade",
+      "ru": "Призматический каскад",
+      "note": "Название искры: подтверждено по renderWarkStoneInfoPanel (m547), PR #22."
+    },
+    {
+      "en": "Stone Supply",
+      "ru": "Запас камня",
+      "note": "Название искры: подтверждено по renderWarkStoneInfoPanel (m547), PR #22."
+    },
+    {
+      "en": "Unearthed Shard",
+      "ru": "Откопанный осколок",
+      "note": "Название искры: подтверждено по renderWarkStoneInfoPanel (m547), PR #22."
+    },
+    {
+      "en": "Shrine Scroll",
+      "ru": "Свиток святилища",
+      "note": "Название искры: подтверждено по renderWarkStoneInfoPanel (m547), PR #22."
+    },
+    {
+      "en": "prototype bombing mode",
+      "ru": "режим прототипа",
+      "note": "Режим самоцвета-бомбы: копирует первый самоцвет инвентаря за ману. Shift после кнопки; отличается от расходования самоцветов при Shift до кнопки. PR #22."
     }
   ],
   "engine_limits": [

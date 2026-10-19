@@ -32158,6 +32158,774 @@
     },
     {
       "category": "actionscript",
+      "id": "abc.4175.547.3946",
+      "location": {
+        "abc_byte_offset": 1086499,
+        "code_offset": 3946,
+        "method_index": 547,
+        "sprite_path": [],
+        "string_pool_index": 10297,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: панель искры, её эффект, разогрев и досрочный вызов",
+        "context_confidence": "confirmed",
+        "notes": "Полная склейка проверена для шести типов искр, исходного эффекта, разогрева и прогноза. Числа и ветвление сохранены.",
+        "status": "draft",
+        "translation": "Блокада"
+      },
+      "source_sha256": "14320c2cd7edbd6b62b715820f4e54938c62c66b649bd098a8e282017b4ca6b5"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.547.3955",
+      "location": {
+        "abc_byte_offset": 1086508,
+        "code_offset": 3955,
+        "method_index": 547,
+        "sprite_path": [],
+        "string_pool_index": 10298,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: панель искры, её эффект, разогрев и досрочный вызов",
+        "context_confidence": "confirmed",
+        "notes": "Полная склейка проверена для шести типов искр, исходного эффекта, разогрева и прогноза. Числа и ветвление сохранены.",
+        "status": "draft",
+        "translation": "Отключает и ослабляет все активные маяки"
+      },
+      "source_sha256": "dc23397fc59f20c644f6f6c58d9417ab7fd71b946fb29c8e2555dc3594ff562b"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.547.3964",
+      "location": {
+        "abc_byte_offset": 1086517,
+        "code_offset": 3964,
+        "method_index": 547,
+        "sprite_path": [],
+        "string_pool_index": 10299,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: панель искры, её эффект, разогрев и досрочный вызов",
+        "context_confidence": "confirmed",
+        "notes": "Полная склейка проверена для шести типов искр, исходного эффекта, разогрева и прогноза. Числа и ветвление сохранены.",
+        "status": "draft",
+        "translation": "Длительность блокировки маяков: "
+      },
+      "source_sha256": "6fe58bb40b65a89dda8c70b5a349b9c468b3ad3f45c3758e32f7c3e28e96dacb"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.547.3994",
+      "location": {
+        "abc_byte_offset": 1086547,
+        "code_offset": 3994,
+        "method_index": 547,
+        "sprite_path": [],
+        "string_pool_index": 10300,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: панель искры, её эффект, разогрев и досрочный вызов",
+        "context_confidence": "confirmed",
+        "notes": "Полная склейка проверена для шести типов искр, исходного эффекта, разогрева и прогноза. Числа и ветвление сохранены.",
+        "status": "draft",
+        "translation": " сек.\nЗаблокированные маяки получают +"
+      },
+      "source_sha256": "abc3c4e4b7b06cdaa3feb10ed59944841984649188bdeec647a83a58171e766c"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.547.4022",
+      "location": {
+        "abc_byte_offset": 1086575,
+        "code_offset": 4022,
+        "method_index": 547,
+        "sprite_path": [],
+        "string_pool_index": 10301,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: панель искры, её эффект, разогрев и досрочный вызов",
+        "context_confidence": "confirmed",
+        "notes": "Полная склейка проверена для шести типов искр, исходного эффекта, разогрева и прогноза. Числа и ветвление сохранены.",
+        "status": "draft",
+        "translation": "% к получаемому урону"
+      },
+      "source_sha256": "b784fe762348ce48c2fbeac31ed15cd4ee9402dbe0eb2896728dc2371ab76767"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.547.4049",
+      "location": {
+        "abc_byte_offset": 1086602,
+        "code_offset": 4049,
+        "method_index": 547,
+        "sprite_path": [],
+        "string_pool_index": 10302,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: панель искры, её эффект, разогрев и досрочный вызов",
+        "context_confidence": "confirmed",
+        "notes": "Полная склейка проверена для шести типов искр, исходного эффекта, разогрева и прогноза. Числа и ветвление сохранены.",
+        "status": "draft",
+        "translation": "Призматический каскад"
+      },
+      "source_sha256": "81e1921f67477154ab151a083dc4c1a9451b597d723d81649772d2f309d0bac3"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.547.4058",
+      "location": {
+        "abc_byte_offset": 1086611,
+        "code_offset": 4058,
+        "method_index": 547,
+        "sprite_path": [],
+        "string_pool_index": 10303,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: панель искры, её эффект, разогрев и досрочный вызов",
+        "context_confidence": "confirmed",
+        "notes": "Полная склейка проверена для шести типов искр, исходного эффекта, разогрева и прогноза. Числа и ветвление сохранены.",
+        "status": "draft",
+        "translation": "Повышает заряд всех заклинаний и святилищ"
+      },
+      "source_sha256": "9069f4f456000a2e65d51a105a6313a669b8500019ca6b1d8ccb28d52277a60c"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.547.4097",
+      "location": {
+        "abc_byte_offset": 1086650,
+        "code_offset": 4097,
+        "method_index": 547,
+        "sprite_path": [],
+        "string_pool_index": 10304,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: панель искры, её эффект, разогрев и досрочный вызов",
+        "context_confidence": "confirmed",
+        "notes": "Полная склейка проверена для шести типов искр, исходного эффекта, разогрева и прогноза. Числа и ветвление сохранены.",
+        "status": "draft",
+        "translation": "% к заряду заклинаний и святилищ сразу"
+      },
+      "source_sha256": "c66dd5b2d2baf7b8972d1de89937540a847f06f9e0428e563b078ef0356ca251"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.547.4124",
+      "location": {
+        "abc_byte_offset": 1086677,
+        "code_offset": 4124,
+        "method_index": 547,
+        "sprite_path": [],
+        "string_pool_index": 10305,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: панель искры, её эффект, разогрев и досрочный вызов",
+        "context_confidence": "confirmed",
+        "notes": "Полная склейка проверена для шести типов искр, исходного эффекта, разогрева и прогноза. Числа и ветвление сохранены.",
+        "status": "draft",
+        "translation": "Запас камня"
+      },
+      "source_sha256": "34650c92f17ff670aab40730fb42c3c5b64f9d95452abb02b103308d9f367570"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.547.4133",
+      "location": {
+        "abc_byte_offset": 1086686,
+        "code_offset": 4133,
+        "method_index": 547,
+        "sprite_path": [],
+        "string_pool_index": 10306,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: панель искры, её эффект, разогрев и досрочный вызов",
+        "context_confidence": "confirmed",
+        "notes": "Полная склейка проверена для шести типов искр, исходного эффекта, разогрева и прогноза. Числа и ветвление сохранены.",
+        "status": "draft",
+        "translation": "Снижает затраты маны на все типы построек"
+      },
+      "source_sha256": "e62f1845c89f8a89278644332fccf80c56f95eb880b3cc1f719328f29305bfa7"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.547.4172",
+      "location": {
+        "abc_byte_offset": 1086725,
+        "code_offset": 4172,
+        "method_index": 547,
+        "sprite_path": [],
+        "string_pool_index": 10307,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: панель искры, её эффект, разогрев и досрочный вызов",
+        "context_confidence": "confirmed",
+        "notes": "Полная склейка проверена для шести типов искр, исходного эффекта, разогрева и прогноза. Числа и ветвление сохранены.",
+        "status": "draft",
+        "translation": "% к затратам маны на постройки"
+      },
+      "source_sha256": "ff74a8e706f20b66f96049582950e216751ac171f8d91c9ed0450e30800b84c7"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.547.4199",
+      "location": {
+        "abc_byte_offset": 1086752,
+        "code_offset": 4199,
+        "method_index": 547,
+        "sprite_path": [],
+        "string_pool_index": 10308,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: панель искры, её эффект, разогрев и досрочный вызов",
+        "context_confidence": "confirmed",
+        "notes": "Полная склейка проверена для шести типов искр, исходного эффекта, разогрева и прогноза. Числа и ветвление сохранены.",
+        "status": "draft",
+        "translation": "Откопанный осколок"
+      },
+      "source_sha256": "9dcbe0a6954d87366c6c98cdacee1a2102ae92986cb039f1debab606aee21ac9"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.547.4208",
+      "location": {
+        "abc_byte_offset": 1086761,
+        "code_offset": 4208,
+        "method_index": 547,
+        "sprite_path": [],
+        "string_pool_index": 10309,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: панель искры, её эффект, разогрев и досрочный вызов",
+        "context_confidence": "confirmed",
+        "notes": "Полная склейка проверена для шести типов искр, исходного эффекта, разогрева и прогноза. Числа и ветвление сохранены.",
+        "status": "draft",
+        "translation": "На поле боя появляется осколок маны"
+      },
+      "source_sha256": "bd3a3d7ee7afec916b82bf81897edb94d5df9afbbc0258d712a301707eb04c99"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.547.4236",
+      "location": {
+        "abc_byte_offset": 1086789,
+        "code_offset": 4236,
+        "method_index": 547,
+        "sprite_path": [],
+        "string_pool_index": 10310,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: панель искры, её эффект, разогрев и досрочный вызов",
+        "context_confidence": "confirmed",
+        "notes": "Полная склейка проверена для шести типов искр, исходного эффекта, разогрева и прогноза. Числа и ветвление сохранены.",
+        "status": "draft",
+        "translation": " маны в осколке\nБрошенные самоцветы добавляют в осколок 105% своей стоимости в мане"
+      },
+      "source_sha256": "097f32604257b91c09a0d5056d2a7e9e31f196da852d5a53228c968558756a7f"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.547.4263",
+      "location": {
+        "abc_byte_offset": 1086816,
+        "code_offset": 4263,
+        "method_index": 547,
+        "sprite_path": [],
+        "string_pool_index": 10311,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: панель искры, её эффект, разогрев и досрочный вызов",
+        "context_confidence": "confirmed",
+        "notes": "Полная склейка проверена для шести типов искр, исходного эффекта, разогрева и прогноза. Числа и ветвление сохранены.",
+        "status": "draft",
+        "translation": "Прикосновение мудрости"
+      },
+      "source_sha256": "b2af5f2d081c828fcc4931135a43f8edebe56ce506f4319d285e489b5812728c"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.547.4272",
+      "location": {
+        "abc_byte_offset": 1086825,
+        "code_offset": 4272,
+        "method_index": 547,
+        "sprite_path": [],
+        "string_pool_index": 10312,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: панель искры, её эффект, разогрев и досрочный вызов",
+        "context_confidence": "confirmed",
+        "notes": "Полная склейка проверена для шести типов искр, исходного эффекта, разогрева и прогноза. Числа и ветвление сохранены.",
+        "status": "draft",
+        "translation": "Повышает получаемый опыт до конца боя"
+      },
+      "source_sha256": "b8248fc8ca2daa2f9a8d6398ed2249434565c7a0a3b0173f7d285ad6ed7f30a1"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.547.4311",
+      "location": {
+        "abc_byte_offset": 1086864,
+        "code_offset": 4311,
+        "method_index": 547,
+        "sprite_path": [],
+        "string_pool_index": 10313,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: панель искры, её эффект, разогрев и досрочный вызов",
+        "context_confidence": "confirmed",
+        "notes": "Полная склейка проверена для шести типов искр, исходного эффекта, разогрева и прогноза. Числа и ветвление сохранены.",
+        "status": "draft",
+        "translation": "% к множителю опыта бассейна маны"
+      },
+      "source_sha256": "98b12e0402a940b10666d6de9917b46d86be476a1e1679a5fbf4b62144f24731"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.547.4338",
+      "location": {
+        "abc_byte_offset": 1086891,
+        "code_offset": 4338,
+        "method_index": 547,
+        "sprite_path": [],
+        "string_pool_index": 10314,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: панель искры, её эффект, разогрев и досрочный вызов",
+        "context_confidence": "confirmed",
+        "notes": "Полная склейка проверена для шести типов искр, исходного эффекта, разогрева и прогноза. Числа и ветвление сохранены.",
+        "status": "draft",
+        "translation": "Свиток святилища"
+      },
+      "source_sha256": "02d7da21c160cbba7779ac5b30aaf1e42f648424de835e148a6a81d5644e256b"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.547.4347",
+      "location": {
+        "abc_byte_offset": 1086900,
+        "code_offset": 4347,
+        "method_index": 547,
+        "sprite_path": [],
+        "string_pool_index": 10315,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: панель искры, её эффект, разогрев и досрочный вызов",
+        "context_confidence": "confirmed",
+        "notes": "Полная склейка проверена для шести типов искр, исходного эффекта, разогрева и прогноза. Числа и ветвление сохранены.",
+        "status": "draft",
+        "translation": "На поле боя появляется святилище"
+      },
+      "source_sha256": "fc86501f8ef119f2412959d12fdbaa51466fdb0799f7476d8dc5550c35c4807e"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.547.4382",
+      "location": {
+        "abc_byte_offset": 1086935,
+        "code_offset": 4382,
+        "method_index": 547,
+        "sprite_path": [],
+        "string_pool_index": 10316,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: панель искры, её эффект, разогрев и досрочный вызов",
+        "context_confidence": "confirmed",
+        "notes": "Полная склейка проверена для шести типов искр, исходного эффекта, разогрева и прогноза. Числа и ветвление сохранены.",
+        "status": "draft",
+        "translation": "% начального заряда\n+"
+      },
+      "source_sha256": "b9b4d9d303a60e2c40564eff6f674d358af2acb8cafa3c59afc38a0be8d8b04c"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.547.4410",
+      "location": {
+        "abc_byte_offset": 1086963,
+        "code_offset": 4410,
+        "method_index": 547,
+        "sprite_path": [],
+        "string_pool_index": 10317,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: панель искры, её эффект, разогрев и досрочный вызов",
+        "context_confidence": "confirmed",
+        "notes": "Полная склейка проверена для шести типов искр, исходного эффекта, разогрева и прогноза. Числа и ветвление сохранены.",
+        "status": "draft",
+        "translation": "% начального множителя урона\n-"
+      },
+      "source_sha256": "2d40490f1115d1c693f9a547ad5541c472896ac04e683c8fb9e2de0d62881ad1"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.547.4438",
+      "location": {
+        "abc_byte_offset": 1086991,
+        "code_offset": 4438,
+        "method_index": 547,
+        "sprite_path": [],
+        "string_pool_index": 10318,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: панель искры, её эффект, разогрев и досрочный вызов",
+        "context_confidence": "confirmed",
+        "notes": "Полная склейка проверена для шести типов искр, исходного эффекта, разогрева и прогноза. Числа и ветвление сохранены.",
+        "status": "draft",
+        "translation": "% к начальному времени зарядки"
+      },
+      "source_sha256": "0cc4566fa7d3c88df0a4599cadf589912eb5c098d5ed07f719564637856f2461"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.547.4467",
+      "location": {
+        "abc_byte_offset": 1087020,
+        "code_offset": 4467,
+        "method_index": 547,
+        "sprite_path": [],
+        "string_pool_index": 500,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: панель искры, её эффект, разогрев и досрочный вызов",
+        "context_confidence": "confirmed",
+        "notes": "Полная склейка проверена для шести типов искр, исходного эффекта, разогрева и прогноза. Числа и ветвление сохранены.",
+        "status": "draft",
+        "translation": "Искра"
+      },
+      "source_sha256": "529bc3b07127ecb7e53a4dcf1991d9152c24537d919178022b2c42657f79a26b"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.547.4625",
+      "location": {
+        "abc_byte_offset": 1087178,
+        "code_offset": 4625,
+        "method_index": 547,
+        "sprite_path": [],
+        "string_pool_index": 10320,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: панель искры, её эффект, разогрев и досрочный вызов",
+        "context_confidence": "confirmed",
+        "notes": "Полная склейка проверена для шести типов искр, исходного эффекта, разогрева и прогноза. Числа и ветвление сохранены.",
+        "status": "draft",
+        "translation": " сек. к блокировке маяков\n+"
+      },
+      "source_sha256": "4029d272c784c469246ce3ded37809d678dbf0d539b82436a5c24c1620f10fdd"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.547.4653",
+      "location": {
+        "abc_byte_offset": 1087206,
+        "code_offset": 4653,
+        "method_index": 547,
+        "sprite_path": [],
+        "string_pool_index": 10301,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: панель искры, её эффект, разогрев и досрочный вызов",
+        "context_confidence": "confirmed",
+        "notes": "Полная склейка проверена для шести типов искр, исходного эффекта, разогрева и прогноза. Числа и ветвление сохранены.",
+        "status": "draft",
+        "translation": "% к получаемому урону"
+      },
+      "source_sha256": "b784fe762348ce48c2fbeac31ed15cd4ee9402dbe0eb2896728dc2371ab76767"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.547.4710",
+      "location": {
+        "abc_byte_offset": 1087263,
+        "code_offset": 4710,
+        "method_index": 547,
+        "sprite_path": [],
+        "string_pool_index": 10321,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: панель искры, её эффект, разогрев и досрочный вызов",
+        "context_confidence": "confirmed",
+        "notes": "Полная склейка проверена для шести типов искр, исходного эффекта, разогрева и прогноза. Числа и ветвление сохранены.",
+        "status": "draft",
+        "translation": "% к заряду"
+      },
+      "source_sha256": "5ffa75ad5703da9feb02c052e2beed8431f97e2bc931b29c718bf723309ed06f"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.547.4767",
+      "location": {
+        "abc_byte_offset": 1087320,
+        "code_offset": 4767,
+        "method_index": 547,
+        "sprite_path": [],
+        "string_pool_index": 10322,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: панель искры, её эффект, разогрев и досрочный вызов",
+        "context_confidence": "confirmed",
+        "notes": "Полная склейка проверена для шести типов искр, исходного эффекта, разогрева и прогноза. Числа и ветвление сохранены.",
+        "status": "draft",
+        "translation": "% к затратам маны на постройки"
+      },
+      "source_sha256": "9d9684b7711f1ec683e8b186bf088b7c80761c57b2ec1b0044315fdad744f7bd"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.547.4817",
+      "location": {
+        "abc_byte_offset": 1087370,
+        "code_offset": 4817,
+        "method_index": 547,
+        "sprite_path": [],
+        "string_pool_index": 10323,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: панель искры, её эффект, разогрев и досрочный вызов",
+        "context_confidence": "confirmed",
+        "notes": "Полная склейка проверена для шести типов искр, исходного эффекта, разогрева и прогноза. Числа и ветвление сохранены.",
+        "status": "draft",
+        "translation": " маны в осколке"
+      },
+      "source_sha256": "7d4d5be991d2423c3ec72026fb8a32db9cbc33c112b0967c9cf39fa21d6e9549"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.547.4874",
+      "location": {
+        "abc_byte_offset": 1087427,
+        "code_offset": 4874,
+        "method_index": 547,
+        "sprite_path": [],
+        "string_pool_index": 10313,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: панель искры, её эффект, разогрев и досрочный вызов",
+        "context_confidence": "confirmed",
+        "notes": "Полная склейка проверена для шести типов искр, исходного эффекта, разогрева и прогноза. Числа и ветвление сохранены.",
+        "status": "draft",
+        "translation": "% к множителю опыта бассейна маны"
+      },
+      "source_sha256": "98b12e0402a940b10666d6de9917b46d86be476a1e1679a5fbf4b62144f24731"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.547.4931",
+      "location": {
+        "abc_byte_offset": 1087484,
+        "code_offset": 4931,
+        "method_index": 547,
+        "sprite_path": [],
+        "string_pool_index": 10316,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: панель искры, её эффект, разогрев и досрочный вызов",
+        "context_confidence": "confirmed",
+        "notes": "Полная склейка проверена для шести типов искр, исходного эффекта, разогрева и прогноза. Числа и ветвление сохранены.",
+        "status": "draft",
+        "translation": "% начального заряда\n+"
+      },
+      "source_sha256": "b9b4d9d303a60e2c40564eff6f674d358af2acb8cafa3c59afc38a0be8d8b04c"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.547.4959",
+      "location": {
+        "abc_byte_offset": 1087512,
+        "code_offset": 4959,
+        "method_index": 547,
+        "sprite_path": [],
+        "string_pool_index": 10317,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: панель искры, её эффект, разогрев и досрочный вызов",
+        "context_confidence": "confirmed",
+        "notes": "Полная склейка проверена для шести типов искр, исходного эффекта, разогрева и прогноза. Числа и ветвление сохранены.",
+        "status": "draft",
+        "translation": "% начального множителя урона\n-"
+      },
+      "source_sha256": "2d40490f1115d1c693f9a547ad5541c472896ac04e683c8fb9e2de0d62881ad1"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.547.4987",
+      "location": {
+        "abc_byte_offset": 1087540,
+        "code_offset": 4987,
+        "method_index": 547,
+        "sprite_path": [],
+        "string_pool_index": 10318,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: панель искры, её эффект, разогрев и досрочный вызов",
+        "context_confidence": "confirmed",
+        "notes": "Полная склейка проверена для шести типов искр, исходного эффекта, разогрева и прогноза. Числа и ветвление сохранены.",
+        "status": "draft",
+        "translation": "% к начальному времени зарядки"
+      },
+      "source_sha256": "0cc4566fa7d3c88df0a4599cadf589912eb5c098d5ed07f719564637856f2461"
+    },
+    {
+      "category": "actionscript",
       "id": "abc.4175.547.5000",
       "location": {
         "abc_byte_offset": 1087553,
@@ -32171,9 +32939,326 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Боевой HUD: панель искры, её эффект, разогрев и досрочный вызов",
+        "context_confidence": "confirmed",
+        "notes": "Полная склейка проверена для шести типов искр, исходного эффекта, разогрева и прогноза. Числа и ветвление сохранены.",
+        "status": "draft",
+        "translation": "Разогрев:"
       },
       "source_sha256": "ac23d138ecfc26f8bf3709605a1de6fa9a0d23ab3d9f7cedc9962dee3a6280b4"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.547.5042",
+      "location": {
+        "abc_byte_offset": 1087595,
+        "code_offset": 5042,
+        "method_index": 547,
+        "sprite_path": [],
+        "string_pool_index": 10278,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: панель искры, её эффект, разогрев и досрочный вызов",
+        "context_confidence": "confirmed",
+        "notes": "Нейтральное количество: «21 — число брошенных самоцветов-бомб для разогрева искры». Обе исходные ветки числа дают одинаковую русскую форму.",
+        "status": "draft",
+        "translation": " — число брошенных "
+      },
+      "source_sha256": "ceb927abd6c70048011fd3fb6f4079ab01d06a32be6e7e992c3ff383d926d024"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.547.5058",
+      "location": {
+        "abc_byte_offset": 1087611,
+        "code_offset": 5058,
+        "method_index": 547,
+        "sprite_path": [],
+        "string_pool_index": 10279,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: панель искры, её эффект, разогрев и досрочный вызов",
+        "context_confidence": "confirmed",
+        "notes": "Нейтральное количество: «21 — число брошенных самоцветов-бомб для разогрева искры». Обе исходные ветки числа дают одинаковую русскую форму.",
+        "status": "draft",
+        "translation": "самоцветов-бомб"
+      },
+      "source_sha256": "eb75f071361953941b23492a66b9857d5d0d512f29c36713d043029a0233522f"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.547.5066",
+      "location": {
+        "abc_byte_offset": 1087619,
+        "code_offset": 5066,
+        "method_index": 547,
+        "sprite_path": [],
+        "string_pool_index": 10280,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: панель искры, её эффект, разогрев и досрочный вызов",
+        "context_confidence": "confirmed",
+        "notes": "Нейтральное количество: «21 — число брошенных самоцветов-бомб для разогрева искры». Обе исходные ветки числа дают одинаковую русскую форму.",
+        "status": "draft",
+        "translation": "самоцветов-бомб"
+      },
+      "source_sha256": "eb0afd90509c50678e298bdf1b15f195b2b77c31466211f5f9118be1a9788e1f"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.547.5071",
+      "location": {
+        "abc_byte_offset": 1087624,
+        "code_offset": 5071,
+        "method_index": 547,
+        "sprite_path": [],
+        "string_pool_index": 10325,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: панель искры, её эффект, разогрев и досрочный вызов",
+        "context_confidence": "confirmed",
+        "notes": "Нейтральное количество: «21 — число брошенных самоцветов-бомб для разогрева искры». Обе исходные ветки числа дают одинаковую русскую форму.",
+        "status": "draft",
+        "translation": " для разогрева искры"
+      },
+      "source_sha256": "5af82497047dbcb6ed2da30c4d074a540546b04888e0af4b5807da8778095b8c"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.547.5505",
+      "location": {
+        "abc_byte_offset": 1088058,
+        "code_offset": 5505,
+        "method_index": 547,
+        "sprite_path": [],
+        "string_pool_index": 10320,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: панель искры, её эффект, разогрев и досрочный вызов",
+        "context_confidence": "confirmed",
+        "notes": "Полная склейка проверена для шести типов искр, исходного эффекта, разогрева и прогноза. Числа и ветвление сохранены.",
+        "status": "draft",
+        "translation": " сек. к блокировке маяков\n+"
+      },
+      "source_sha256": "4029d272c784c469246ce3ded37809d678dbf0d539b82436a5c24c1620f10fdd"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.547.5533",
+      "location": {
+        "abc_byte_offset": 1088086,
+        "code_offset": 5533,
+        "method_index": 547,
+        "sprite_path": [],
+        "string_pool_index": 10301,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: панель искры, её эффект, разогрев и досрочный вызов",
+        "context_confidence": "confirmed",
+        "notes": "Полная склейка проверена для шести типов искр, исходного эффекта, разогрева и прогноза. Числа и ветвление сохранены.",
+        "status": "draft",
+        "translation": "% к получаемому урону"
+      },
+      "source_sha256": "b784fe762348ce48c2fbeac31ed15cd4ee9402dbe0eb2896728dc2371ab76767"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.547.5590",
+      "location": {
+        "abc_byte_offset": 1088143,
+        "code_offset": 5590,
+        "method_index": 547,
+        "sprite_path": [],
+        "string_pool_index": 10321,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: панель искры, её эффект, разогрев и досрочный вызов",
+        "context_confidence": "confirmed",
+        "notes": "Полная склейка проверена для шести типов искр, исходного эффекта, разогрева и прогноза. Числа и ветвление сохранены.",
+        "status": "draft",
+        "translation": "% к заряду"
+      },
+      "source_sha256": "5ffa75ad5703da9feb02c052e2beed8431f97e2bc931b29c718bf723309ed06f"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.547.5647",
+      "location": {
+        "abc_byte_offset": 1088200,
+        "code_offset": 5647,
+        "method_index": 547,
+        "sprite_path": [],
+        "string_pool_index": 10322,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: панель искры, её эффект, разогрев и досрочный вызов",
+        "context_confidence": "confirmed",
+        "notes": "Полная склейка проверена для шести типов искр, исходного эффекта, разогрева и прогноза. Числа и ветвление сохранены.",
+        "status": "draft",
+        "translation": "% к затратам маны на постройки"
+      },
+      "source_sha256": "9d9684b7711f1ec683e8b186bf088b7c80761c57b2ec1b0044315fdad744f7bd"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.547.5697",
+      "location": {
+        "abc_byte_offset": 1088250,
+        "code_offset": 5697,
+        "method_index": 547,
+        "sprite_path": [],
+        "string_pool_index": 10323,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: панель искры, её эффект, разогрев и досрочный вызов",
+        "context_confidence": "confirmed",
+        "notes": "Полная склейка проверена для шести типов искр, исходного эффекта, разогрева и прогноза. Числа и ветвление сохранены.",
+        "status": "draft",
+        "translation": " маны в осколке"
+      },
+      "source_sha256": "7d4d5be991d2423c3ec72026fb8a32db9cbc33c112b0967c9cf39fa21d6e9549"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.547.5750",
+      "location": {
+        "abc_byte_offset": 1088303,
+        "code_offset": 5750,
+        "method_index": 547,
+        "sprite_path": [],
+        "string_pool_index": 10313,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: панель искры, её эффект, разогрев и досрочный вызов",
+        "context_confidence": "confirmed",
+        "notes": "Полная склейка проверена для шести типов искр, исходного эффекта, разогрева и прогноза. Числа и ветвление сохранены. Исходный прогноз бонуса опыта не содержит знака +; сохранено.",
+        "status": "draft",
+        "translation": "% к множителю опыта бассейна маны"
+      },
+      "source_sha256": "98b12e0402a940b10666d6de9917b46d86be476a1e1679a5fbf4b62144f24731"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.547.5803",
+      "location": {
+        "abc_byte_offset": 1088356,
+        "code_offset": 5803,
+        "method_index": 547,
+        "sprite_path": [],
+        "string_pool_index": 10316,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: панель искры, её эффект, разогрев и досрочный вызов",
+        "context_confidence": "confirmed",
+        "notes": "Полная склейка проверена для шести типов искр, исходного эффекта, разогрева и прогноза. Числа и ветвление сохранены.",
+        "status": "draft",
+        "translation": "% начального заряда\n+"
+      },
+      "source_sha256": "b9b4d9d303a60e2c40564eff6f674d358af2acb8cafa3c59afc38a0be8d8b04c"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.547.5831",
+      "location": {
+        "abc_byte_offset": 1088384,
+        "code_offset": 5831,
+        "method_index": 547,
+        "sprite_path": [],
+        "string_pool_index": 10317,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: панель искры, её эффект, разогрев и досрочный вызов",
+        "context_confidence": "confirmed",
+        "notes": "Полная склейка проверена для шести типов искр, исходного эффекта, разогрева и прогноза. Числа и ветвление сохранены.",
+        "status": "draft",
+        "translation": "% начального множителя урона\n-"
+      },
+      "source_sha256": "2d40490f1115d1c693f9a547ad5541c472896ac04e683c8fb9e2de0d62881ad1"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.547.5859",
+      "location": {
+        "abc_byte_offset": 1088412,
+        "code_offset": 5859,
+        "method_index": 547,
+        "sprite_path": [],
+        "string_pool_index": 10318,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: панель искры, её эффект, разогрев и досрочный вызов",
+        "context_confidence": "confirmed",
+        "notes": "Полная склейка проверена для шести типов искр, исходного эффекта, разогрева и прогноза. Числа и ветвление сохранены.",
+        "status": "draft",
+        "translation": "% к начальному времени зарядки"
+      },
+      "source_sha256": "0cc4566fa7d3c88df0a4599cadf589912eb5c098d5ed07f719564637856f2461"
     },
     {
       "category": "actionscript",
@@ -32190,7 +33275,12 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Боевой HUD: панель искры, её эффект, разогрев и досрочный вызов",
+        "context_confidence": "confirmed",
+        "notes": "Полная склейка проверена для шести типов искр, исходного эффекта, разогрева и прогноза. Числа и ветвление сохранены.",
+        "status": "draft",
+        "translation": "Самоцвет разогреет искру:"
       },
       "source_sha256": "866a354b82bbbb48fed99686c5ced07ba1b33ef9068208914a0869f94f90fb5a"
     },
@@ -32209,7 +33299,12 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Боевой HUD: панель искры, её эффект, разогрев и досрочный вызов",
+        "context_confidence": "confirmed",
+        "notes": "Полная склейка проверена для шести типов искр, исходного эффекта, разогрева и прогноза. Числа и ветвление сохранены.",
+        "status": "draft",
+        "translation": "Разогрев с выбранным самоцветом:"
       },
       "source_sha256": "1194cef9e52cc65517789f0ad6bbd5a51cbcd5b93b7794dc4445ce3f9060bd51"
     },
@@ -32228,7 +33323,12 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Боевой HUD: панель искры, её эффект, разогрев и досрочный вызов",
+        "context_confidence": "confirmed",
+        "notes": "Полная склейка проверена для шести типов искр, исходного эффекта, разогрева и прогноза. Числа и ветвление сохранены.",
+        "status": "draft",
+        "translation": "Клик — активировать искру сейчас"
       },
       "source_sha256": "83e65a73d0cfb5bf532efb59c64e8e0fb72b6da5c655f4ace88a503a0696f253"
     },
@@ -32247,7 +33347,12 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Боевой HUD: панель искры, её эффект, разогрев и досрочный вызов",
+        "context_confidence": "confirmed",
+        "notes": "Полная склейка проверена для шести типов искр, исходного эффекта, разогрева и прогноза. Числа и ветвление сохранены.",
+        "status": "draft",
+        "translation": "(Клавиша: N)"
       },
       "source_sha256": "6c223ef752212491d912a7c571bb5e852b9b6502f0e9c76ef3808457ecc244b6"
     },
@@ -32266,7 +33371,12 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Боевой HUD: панель искры, её эффект, разогрев и досрочный вызов",
+        "context_confidence": "confirmed",
+        "notes": "Полная склейка проверена для шести типов искр, исходного эффекта, разогрева и прогноза. Числа и ветвление сохранены.",
+        "status": "draft",
+        "translation": "Клик — вызвать эту искру и все волны и искры выше"
       },
       "source_sha256": "2a4b1b7b9a7313eab0738bab27f01fae5541ce32a62c38196eb23e8326f2bafe"
     },
@@ -32285,7 +33395,12 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Боевой HUD: панель искры, её эффект, разогрев и досрочный вызов",
+        "context_confidence": "confirmed",
+        "notes": "Полная склейка проверена для шести типов искр, исходного эффекта, разогрева и прогноза. Числа и ветвление сохранены.",
+        "status": "draft",
+        "translation": "Ctrl-клик — вызвать все оставшиеся волны и искры"
       },
       "source_sha256": "a682e9ef55a15ed039075f37bb8384a4cd281b545caba3e98b6b2421ace64f62"
     },
@@ -32304,7 +33419,12 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Боевой HUD: панель искры, её эффект, разогрев и досрочный вызов",
+        "context_confidence": "confirmed",
+        "notes": "Полная склейка проверена для шести типов искр, исходного эффекта, разогрева и прогноза. Числа и ветвление сохранены.",
+        "status": "draft",
+        "translation": "Бросьте самоцвет-бомбу для разогрева искры"
       },
       "source_sha256": "ba0cf6d427a8d0b9e8194f4d9e20e3a85c560b831d029d16b83c53b0fba3fec4"
     },
@@ -37812,9 +38932,221 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Боевой HUD: целостная подсказка кнопки самоцвета-бомбы; горячая клавиша, число прототипных бомб и два порядка Shift.",
+        "context_confidence": "confirmed",
+        "notes": {
+          "source_parts": [
+            "Только заголовок виден без обучающих советов; остальные поля показываются вместе. Число бомб берётся из ",
+            {
+              "id": "abc.4175.pool.2744",
+              "source_sha256": "d23b6b9afcf3c7a714df7a208381541e56bfae007b3daa4de5b27e04cbbec557"
+            },
+            " без изменения логики. Shift до/после кнопки — разные режимы."
+          ]
+        },
+        "status": "draft",
+        "translation": "Бросить самоцвет-бомбу"
       },
       "source_sha256": "0fcc139614b105e16b5d6c6ce0400d15089336d9633729cd34b1b472587a7aa6"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.22063",
+      "location": {
+        "abc_byte_offset": 1209601,
+        "code_offset": 22063,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10944,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: целостная подсказка кнопки самоцвета-бомбы; горячая клавиша, число прототипных бомб и два порядка Shift.",
+        "context_confidence": "confirmed",
+        "notes": {
+          "source_parts": [
+            "Только заголовок виден без обучающих советов; остальные поля показываются вместе. Число бомб берётся из ",
+            {
+              "id": "abc.4175.pool.2744",
+              "source_sha256": "d23b6b9afcf3c7a714df7a208381541e56bfae007b3daa4de5b27e04cbbec557"
+            },
+            " без изменения логики. Shift до/после кнопки — разные режимы."
+          ]
+        },
+        "status": "draft",
+        "translation": "Клавиша: B"
+      },
+      "source_sha256": "7e3deeb473d303fc88fa3c0fc3157b461842686196fad9780b473fbc18793b75"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.22077",
+      "location": {
+        "abc_byte_offset": 1209615,
+        "code_offset": 22077,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10945,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: целостная подсказка кнопки самоцвета-бомбы; горячая клавиша, число прототипных бомб и два порядка Shift.",
+        "context_confidence": "confirmed",
+        "notes": {
+          "source_parts": [
+            "Только заголовок виден без обучающих советов; остальные поля показываются вместе. Число бомб берётся из ",
+            {
+              "id": "abc.4175.pool.2744",
+              "source_sha256": "d23b6b9afcf3c7a714df7a208381541e56bfae007b3daa4de5b27e04cbbec557"
+            },
+            " без изменения логики. Shift до/после кнопки — разные режимы."
+          ]
+        },
+        "status": "draft",
+        "translation": "Число бомб на волну или искру\nв режиме прототипа ("
+      },
+      "source_sha256": "74712070b0710ef83f865fbd4f6b91610ccf2718bf4d3619b400322a34679ac8"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.22088",
+      "location": {
+        "abc_byte_offset": 1209626,
+        "code_offset": 22088,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10946,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: целостная подсказка кнопки самоцвета-бомбы; горячая клавиша, число прототипных бомб и два порядка Shift.",
+        "context_confidence": "confirmed",
+        "notes": {
+          "source_parts": [
+            "Только заголовок виден без обучающих советов; остальные поля показываются вместе. Число бомб берётся из ",
+            {
+              "id": "abc.4175.pool.2744",
+              "source_sha256": "d23b6b9afcf3c7a714df7a208381541e56bfae007b3daa4de5b27e04cbbec557"
+            },
+            " без изменения логики. Shift до/после кнопки — разные режимы."
+          ]
+        },
+        "status": "draft",
+        "translation": "):\nклавиши Up/Down / колесо мыши"
+      },
+      "source_sha256": "2b55a3264802c6874dba1cbbe48bc3a51d6f115b902326bd1b172f040984ddd1"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.22110",
+      "location": {
+        "abc_byte_offset": 1209648,
+        "code_offset": 22110,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10947,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: целостная подсказка кнопки самоцвета-бомбы; горячая клавиша, число прототипных бомб и два порядка Shift.",
+        "context_confidence": "confirmed",
+        "notes": {
+          "source_parts": [
+            "Только заголовок виден без обучающих советов; остальные поля показываются вместе. Число бомб берётся из ",
+            {
+              "id": "abc.4175.pool.2744",
+              "source_sha256": "d23b6b9afcf3c7a714df7a208381541e56bfae007b3daa4de5b27e04cbbec557"
+            },
+            " без изменения логики. Shift до/после кнопки — разные режимы."
+          ]
+        },
+        "status": "draft",
+        "translation": "Мгновенно наносит урон монстрам по площади и поражает вражеские строения.\n\nБросьте самоцвет-бомбу на камень волны, чтобы призвать и разъярить монстров."
+      },
+      "source_sha256": "1596bfc117f906ab02f4a78e5b4085ab122ead695254b5bd6db5b542ca0f66e2"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.22124",
+      "location": {
+        "abc_byte_offset": 1209662,
+        "code_offset": 22124,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10948,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: целостная подсказка кнопки самоцвета-бомбы; горячая клавиша, число прототипных бомб и два порядка Shift.",
+        "context_confidence": "confirmed",
+        "notes": {
+          "source_parts": [
+            "Только заголовок виден без обучающих советов; остальные поля показываются вместе. Число бомб берётся из ",
+            {
+              "id": "abc.4175.pool.2744",
+              "source_sha256": "d23b6b9afcf3c7a714df7a208381541e56bfae007b3daa4de5b27e04cbbec557"
+            },
+            " без изменения логики. Shift до/после кнопки — разные режимы."
+          ]
+        },
+        "status": "draft",
+        "translation": "Удерживая Shift, нажмите кнопку бомбы: клик бросает самоцвет, затем автоматически выбирается следующий самоцвет в инвентаре. Режим действует, пока нажат Shift и инвентарь не пуст."
+      },
+      "source_sha256": "09c85f632d6ebaecd5ba4025f42d2e456746c3bc9b202ba4da44be523388b248"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.22138",
+      "location": {
+        "abc_byte_offset": 1209676,
+        "code_offset": 22138,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10949,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: целостная подсказка кнопки самоцвета-бомбы; горячая клавиша, число прототипных бомб и два порядка Shift.",
+        "context_confidence": "confirmed",
+        "notes": {
+          "source_parts": [
+            "Только заголовок виден без обучающих советов; остальные поля показываются вместе. Число бомб берётся из ",
+            {
+              "id": "abc.4175.pool.2744",
+              "source_sha256": "d23b6b9afcf3c7a714df7a208381541e56bfae007b3daa4de5b27e04cbbec557"
+            },
+            " без изменения логики. Shift до/после кнопки — разные режимы."
+          ]
+        },
+        "status": "draft",
+        "translation": "Либо нажмите кнопку, затем удерживайте Shift: режим прототипа выделяет первый самоцвет в инвентаре и тратит ману на бомбы, копируя этот самоцвет."
+      },
+      "source_sha256": "942d58e55a8f3434638c6cee8674a5ec1871862303411c1cb69fd8b8459d2e69"
     },
     {
       "category": "actionscript",
