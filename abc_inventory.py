@@ -338,8 +338,26 @@ class ABCInventory:
             "classification": classification, "translation": None, "mandatory_placeholders": [],
         })
 
+    def gem_color_offsets(self, instructions, method):
+        # These display literals share pool indices with technical color symbols.
+        # Promote only the reviewed table, never other uses of those indices.
+        if {"owner": "IngameInfoPanelRenderer2", "method": "renderInfoPanelGem"} not in self.method_labels.get(method, []):
+            return set()
+        colors = ("orange", "yellow", "white", "red", "green", "cyan", "black", "blue", "purple")
+        offsets = set()
+        for position in range(len(instructions) - 10):
+            table = instructions[position:position + 11]
+            if (any(opcode != 0x2C for _, opcode, _ in table[:9])
+                    or tuple(self.string(operands[0]) for _, _, operands in table[:9]) != colors
+                    or table[9][1] != 0xF0
+                    or table[10][1:] != (0x56, [9])):
+                continue
+            offsets.update(offset for offset, _, _ in table[:9])
+        return offsets
+
     def body_entries(self, code, method, code_start):
         instructions = self.instructions(code, method)
+        gem_colors = self.gem_color_offsets(instructions, method)
         for position, (offset, opcode, operands) in enumerate(instructions):
             if opcode != 0x2C:
                 continue
@@ -384,6 +402,9 @@ class ABCInventory:
                         and self.multiname(call[2][0]) == "addTextfield"):
                     classification = "probable"
                     context = "Literal passed to addTextfield; receiver and screen are unresolved"
+            if offset in gem_colors:
+                classification = "probable"
+                context = "Reviewed gem color table in renderInfoPanelGem; runtime display is unverified"
             self.entry(index, f"{method}.{offset}", extra, classification, context)
             if source and (extra.get("text_property") == "htmlText" or re.search(r"<[A-Za-z][^>]*>", source)):
                 self.entries[-1]["content_type"] = "html_fragment"

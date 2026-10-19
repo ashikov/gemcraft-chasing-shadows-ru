@@ -4701,7 +4701,12 @@
         "context_confidence": "confirmed",
         "notes": {
           "source_parts": [
-            "согласовано с abc.4175.1036.303\nРедакторское ревью: redeem",
+            "согласовано с abc.4175.1036.303\nРедакторское ревью: ",
+            {
+              "id": "abc.4175.548.256",
+              "source_sha256": "b1f51a511f1da0cd348b8f8598db32e61cb963e5fc69e2b41485bf99590ed75a"
+            },
+            "eem",
             {
               "id": "abc.4175.1085.139",
               "source_sha256": "dc03a738bd7d3ed23514b4302c363b1ffc64c57c711c5e7eae342cc6a8bb7f76"
@@ -30841,6 +30846,190 @@
     },
     {
       "category": "actionscript",
+      "id": "abc.4175.545.11",
+      "location": {
+        "abc_byte_offset": 1082450,
+        "code_offset": 11,
+        "method_index": 545,
+        "sprite_path": [],
+        "string_pool_index": 10238,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: выбор приоритета цели; таблица TARGET_PRIORITIES, потребители m548/m555",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "Ближе к сфере"
+      },
+      "source_sha256": "95ed1ce00b773a7bf303a57334d9160fa0c9c4d419c3ab2c307fd9978a6e32b7"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.545.14",
+      "location": {
+        "abc_byte_offset": 1082453,
+        "code_offset": 14,
+        "method_index": 545,
+        "sprite_path": [],
+        "string_pool_index": 10239,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: выбор приоритета цели; таблица TARGET_PRIORITIES, потребители m548/m555",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "Ройники"
+      },
+      "source_sha256": "496e170488bdd64d83c9bff6b76899c05aca4e45d3caf11bc10fac4b74004510"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.545.17",
+      "location": {
+        "abc_byte_offset": 1082456,
+        "code_offset": 17,
+        "method_index": 545,
+        "sprite_path": [],
+        "string_pool_index": 10240,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: выбор приоритета цели; таблица TARGET_PRIORITIES, потребители m548/m555",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "Гиганты"
+      },
+      "source_sha256": "d0eb20469e6dc061512849bf6538ae4b71149dcc99b6aa4d4420591b17b8c31d"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.545.20",
+      "location": {
+        "abc_byte_offset": 1082459,
+        "code_offset": 20,
+        "method_index": 545,
+        "sprite_path": [],
+        "string_pool_index": 10241,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: выбор приоритета цели; таблица TARGET_PRIORITIES, потребители m548/m555",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "Случайная"
+      },
+      "source_sha256": "67bc484430fe87babe3c35d2ba4827d029f1c7e415a92de44885a9c88536661f"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.545.23",
+      "location": {
+        "abc_byte_offset": 1082462,
+        "code_offset": 23,
+        "method_index": 545,
+        "sprite_path": [],
+        "string_pool_index": 10242,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: выбор приоритета цели; таблица TARGET_PRIORITIES, потребители m548/m555",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "Строение"
+      },
+      "source_sha256": "7203c2b3dad364dcf45ab87a8cf80f10619575cf04cb05881120058f4933dd1f"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.545.26",
+      "location": {
+        "abc_byte_offset": 1082465,
+        "code_offset": 26,
+        "method_index": 545,
+        "sprite_path": [],
+        "string_pool_index": 10243,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: выбор приоритета цели; таблица TARGET_PRIORITIES, потребители m548/m555",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "Особые сущности /\nНесущие малую сферу"
+      },
+      "source_sha256": "b692381a1844c2d32918e666eeae19f1d732db3b0948f52453008193f2dddb77"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.545.29",
+      "location": {
+        "abc_byte_offset": 1082468,
+        "code_offset": 29,
+        "method_index": 545,
+        "sprite_path": [],
+        "string_pool_index": 10244,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: выбор приоритета цели; таблица TARGET_PRIORITIES, потребители m548/m555",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "Со щитом / С наибольшей бронёй"
+      },
+      "source_sha256": "84ab2f5cf0c61af5bcce41e2fabb2cabbbfc18e9c80367ca1c638b21550bd559"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.545.32",
+      "location": {
+        "abc_byte_offset": 1082471,
+        "code_offset": 32,
+        "method_index": 545,
+        "sprite_path": [],
+        "string_pool_index": 10245,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: выбор приоритета цели; таблица TARGET_PRIORITIES, потребители m548/m555",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "Меньше всего здоровья"
+      },
+      "source_sha256": "54c781f350b26fd7f5f164b0cdb204ee98d7d46154d1ebd8ef69424763fad0ff"
+    },
+    {
+      "category": "actionscript",
       "id": "abc.4175.547.2401",
       "location": {
         "abc_byte_offset": 1084954,
@@ -31164,6 +31353,1504 @@
     },
     {
       "category": "actionscript",
+      "id": "abc.4175.548.1025",
+      "location": {
+        "abc_byte_offset": 1089701,
+        "code_offset": 1025,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 10365,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "Урон: "
+      },
+      "source_sha256": "df45c5d8421e131432520d9d90d044690ee207696cf67973b7d3f2b9c1f0f2d5"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.1113",
+      "location": {
+        "abc_byte_offset": 1089789,
+        "code_offset": 1113,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 10366,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": " выстр./с"
+      },
+      "source_sha256": "b3c30d6c0b256f18ddef1966cb1e14c2865e9d5f5002fb378bce527b38e0b5d6"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.1149",
+      "location": {
+        "abc_byte_offset": 1089825,
+        "code_offset": 1149,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 10365,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "Урон: "
+      },
+      "source_sha256": "df45c5d8421e131432520d9d90d044690ee207696cf67973b7d3f2b9c1f0f2d5"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.1219",
+      "location": {
+        "abc_byte_offset": 1089895,
+        "code_offset": 1219,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 10367,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "Дальность: "
+      },
+      "source_sha256": "ce49a5d687fd115b715c36d74f41caa4f3fcdf714b46853e30910c79fa297006"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.1324",
+      "location": {
+        "abc_byte_offset": 1090000,
+        "code_offset": 1324,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 10366,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": " выстр./с"
+      },
+      "source_sha256": "b3c30d6c0b256f18ddef1966cb1e14c2865e9d5f5002fb378bce527b38e0b5d6"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.1347",
+      "location": {
+        "abc_byte_offset": 1090023,
+        "code_offset": 1347,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 10365,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "Урон: "
+      },
+      "source_sha256": "df45c5d8421e131432520d9d90d044690ee207696cf67973b7d3f2b9c1f0f2d5"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.1421",
+      "location": {
+        "abc_byte_offset": 1090097,
+        "code_offset": 1421,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 10367,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "Дальность: "
+      },
+      "source_sha256": "ce49a5d687fd115b715c36d74f41caa4f3fcdf714b46853e30910c79fa297006"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.1555",
+      "location": {
+        "abc_byte_offset": 1090231,
+        "code_offset": 1555,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 10366,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": " выстр./с"
+      },
+      "source_sha256": "b3c30d6c0b256f18ddef1966cb1e14c2865e9d5f5002fb378bce527b38e0b5d6"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.1646",
+      "location": {
+        "abc_byte_offset": 1090322,
+        "code_offset": 1646,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 10369,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": " урона ядом за 9 с"
+      },
+      "source_sha256": "e44b42b689da17565330ba80e8b1c402e459b4a96509523843c41a4cb2e4de69"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.1692",
+      "location": {
+        "abc_byte_offset": 1090368,
+        "code_offset": 1692,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 10370,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "Подавляет лечение на "
+      },
+      "source_sha256": "aa9e32da7c2aea1d26217492bfb3a38ef0503df68cb34973aa461c4f92f250c9"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.1711",
+      "location": {
+        "abc_byte_offset": 1090387,
+        "code_offset": 1711,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 10371,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": " здоровья/мин"
+      },
+      "source_sha256": "8141e405f3ab50f34906621059a29900400f6bbaff4180aae373af7c3305672a"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.1796",
+      "location": {
+        "abc_byte_offset": 1090472,
+        "code_offset": 1796,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 10372,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "% шанс нанести x"
+      },
+      "source_sha256": "2ae23c63c1fbe4f5f14fce8334e219124f1166dc2ad175065e04a04d1ed0d533"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.1822",
+      "location": {
+        "abc_byte_offset": 1090498,
+        "code_offset": 1822,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 10373,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": " урона"
+      },
+      "source_sha256": "22e41e8b418814cd6e980f36f79d6db824286c5dff1cce956efde2b470510254"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.1868",
+      "location": {
+        "abc_byte_offset": 1090544,
+        "code_offset": 1868,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 10374,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "Замедляет цель на "
+      },
+      "source_sha256": "4bdc1a1841e54d6653ece50605dc40e0f31e07d9ada3738e14e16842d6cc6c62"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.1894",
+      "location": {
+        "abc_byte_offset": 1090570,
+        "code_offset": 1894,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 10375,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "% на "
+      },
+      "source_sha256": "c50304ec99e743f411c703704f638ea5112f945c1c729c092538c8cbc0575b26"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.1920",
+      "location": {
+        "abc_byte_offset": 1090596,
+        "code_offset": 1920,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 10376,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": " с"
+      },
+      "source_sha256": "3489b52478843c24a40382ba9ac4cf2531de5975d22dcd583b0b569e26924d5e"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.1984",
+      "location": {
+        "abc_byte_offset": 1090660,
+        "code_offset": 1984,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 10377,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": " — длина цепного удара"
+      },
+      "source_sha256": "489fdf97474ccad46b3e34e69d90d0c134911cb2a96e916f4ce2518257dd1515"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.2030",
+      "location": {
+        "abc_byte_offset": 1090706,
+        "code_offset": 2030,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 10378,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "Поглощает "
+      },
+      "source_sha256": "9d48baf9ada1d63a0f5a9ab3f0c9f301ad3ef11774941ad5409406965a7d1fdb"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.2052",
+      "location": {
+        "abc_byte_offset": 1090728,
+        "code_offset": 2052,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 10379,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": " маны за попадание"
+      },
+      "source_sha256": "2860390e92baca7a1a8136af3e244137ece53e7ccfab80ee86a2eabebb9dfe6b"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.2098",
+      "location": {
+        "abc_byte_offset": 1090774,
+        "code_offset": 2098,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 10380,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "Снижает броню на "
+      },
+      "source_sha256": "c22949d293bd022d153c3ad464928eb6629e8cc461a91bae88af7f04bf886497"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.2120",
+      "location": {
+        "abc_byte_offset": 1090796,
+        "code_offset": 2120,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 10381,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": " за попадание"
+      },
+      "source_sha256": "970ac5a8321b4b7b250e9ed22f04521d6096dc19af4f0a430d842048a5800274"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.213",
+      "location": {
+        "abc_byte_offset": 1088889,
+        "code_offset": 213,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 10340,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "Самоцвет "
+      },
+      "source_sha256": "12f1c683e888b67742317b3247e17b7cd77c67320abc0f44e745e13b6608e323"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.2167",
+      "location": {
+        "abc_byte_offset": 1090843,
+        "code_offset": 2167,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 10382,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "Кровная связь: x"
+      },
+      "source_sha256": "e3f7a86e2145db408b49566de377d75f9780d2a597d4f08cfcd52256944eaea2"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.2199",
+      "location": {
+        "abc_byte_offset": 1090875,
+        "code_offset": 2199,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 10383,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": " к урону и эффектам"
+      },
+      "source_sha256": "a2cddf638a29062b0dc4b2ff04fd45ab4f982d849763c6784b5d768e19e6d43e"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.2241",
+      "location": {
+        "abc_byte_offset": 1090917,
+        "code_offset": 2241,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 10385,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": " за уровень попаданий)"
+      },
+      "source_sha256": "4925a2f905dd533123600306fe733021fd8d1e41fea0702c67bbaa38eecf8658"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.2260",
+      "location": {
+        "abc_byte_offset": 1090936,
+        "code_offset": 2260,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 10386,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "(следующий уровень при числе попаданий: "
+      },
+      "source_sha256": "14931b8b20648ddc9ee6905952b42d57e363fa36f2666dbb18ff9769dff968be"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.2279",
+      "location": {
+        "abc_byte_offset": 1090955,
+        "code_offset": 2279,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 10387,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": ")"
+      },
+      "source_sha256": "ff94da958ce53a928c3ac08f402e8f3817218e3b4708cb9d3dcf2690224e45e7"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.228",
+      "location": {
+        "abc_byte_offset": 1088904,
+        "code_offset": 228,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 10341,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "-го уровня"
+      },
+      "source_sha256": "8be91414fd531d8573a8020966de769b3bb37b331c2e1c25739f3e450cd7219f"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.2336",
+      "location": {
+        "abc_byte_offset": 1091012,
+        "code_offset": 2336,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 10388,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "Связь с бассейном: x"
+      },
+      "source_sha256": "339ac274a77fbf598e456b28969c3ad75a495ca98ec306efa22e8455671c59d0"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.2373",
+      "location": {
+        "abc_byte_offset": 1091049,
+        "code_offset": 2373,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 10383,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": " к урону и эффектам"
+      },
+      "source_sha256": "a2cddf638a29062b0dc4b2ff04fd45ab4f982d849763c6784b5d768e19e6d43e"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.2415",
+      "location": {
+        "abc_byte_offset": 1091091,
+        "code_offset": 2415,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 10389,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": " за уровень бассейна маны)"
+      },
+      "source_sha256": "4a33af901c232ae91ce0543c4220ae5e6535c8d62d1e0dd7736907beafbf36ac"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.247",
+      "location": {
+        "abc_byte_offset": 1088923,
+        "code_offset": 247,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 10342,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "оранжевый"
+      },
+      "source_sha256": "1b4c9133da73a711322404314402765ab0d23fd362a167d6f0c65bb215113d94"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.2483",
+      "location": {
+        "abc_byte_offset": 1091159,
+        "code_offset": 2483,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 10391,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "Самоцвет-бомба:"
+      },
+      "source_sha256": "39cbb22dc4f7b9948ec366680251662d87e2a87fdd9b709ec64de9c25d9df393"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.250",
+      "location": {
+        "abc_byte_offset": 1088926,
+        "code_offset": 250,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 10343,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "жёлтый"
+      },
+      "source_sha256": "c685a2c9bab235ccdd2ab0ea92281a521c8aaf37895493d080070ea00fc7f5d7"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.253",
+      "location": {
+        "abc_byte_offset": 1088929,
+        "code_offset": 253,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 10344,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "белый"
+      },
+      "source_sha256": "018fa96a44715c90bf93be148069cb28dd45d398f2cc75aa1565311f6e55d174"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.2538",
+      "location": {
+        "abc_byte_offset": 1091214,
+        "code_offset": 2538,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 10392,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "Распределяет "
+      },
+      "source_sha256": "ec4343411ff3d7490972309e2f150a34d00675f3c3e096a666e0df26031b3785"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.256",
+      "location": {
+        "abc_byte_offset": 1088932,
+        "code_offset": 256,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 8424,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "notes": "Подтверждённая подпись цвета в локальном массиве; одноимённые технические pool-символы не меняются.",
+        "status": "draft",
+        "translation": "красный"
+      },
+      "source_sha256": "b1f51a511f1da0cd348b8f8598db32e61cb963e5fc69e2b41485bf99590ed75a"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.259",
+      "location": {
+        "abc_byte_offset": 1088935,
+        "code_offset": 259,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 148,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "notes": "Подтверждённая подпись цвета в локальном массиве; одноимённые технические pool-символы не меняются.",
+        "status": "draft",
+        "translation": "зелёный"
+      },
+      "source_sha256": "ba4788b226aa8dc2e6dc74248bb9f618cfa8c959e0c26c147be48f6839a0b088"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.2610",
+      "location": {
+        "abc_byte_offset": 1091286,
+        "code_offset": 2610,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 10393,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": " урона поровну между целями"
+      },
+      "source_sha256": "e06ca38267bc1d304858266ee8f44d34aa2851ee0c943ad47f15dd57d97f22ed"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.262",
+      "location": {
+        "abc_byte_offset": 1088938,
+        "code_offset": 262,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 10345,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "голубой"
+      },
+      "source_sha256": "3057b5dce305011309f070ea0f96c33525b10e0f4b0ddbfca2ae13bc6c386703"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.2623",
+      "location": {
+        "abc_byte_offset": 1091299,
+        "code_offset": 2623,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 10394,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "\nРадиус взрыва: "
+      },
+      "source_sha256": "bb003000108cbb39922a1eb054ee1a662c3351da03a2f96d137993347943ed16"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.2644",
+      "location": {
+        "abc_byte_offset": 1091320,
+        "code_offset": 2644,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 10395,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": " кл."
+      },
+      "source_sha256": "ae89f1f495d0ad4c9f5101e78fa3f12bcb73d3b6753a83953992ce71972382d4"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.265",
+      "location": {
+        "abc_byte_offset": 1088941,
+        "code_offset": 265,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 10346,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "чёрный"
+      },
+      "source_sha256": "c006c7e3ab14d686f63524136f1ec7c5e553d839bc01c851e4dc9de2bdbfc589"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.268",
+      "location": {
+        "abc_byte_offset": 1088944,
+        "code_offset": 268,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 8425,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "notes": "Подтверждённая подпись цвета в локальном массиве; одноимённые технические pool-символы не меняются.",
+        "status": "draft",
+        "translation": "синий"
+      },
+      "source_sha256": "16477688c0e00699c6cfa4497a3612d7e83c532062b64b250fed8908128ed548"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.2681",
+      "location": {
+        "abc_byte_offset": 1091357,
+        "code_offset": 2681,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 10396,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "Наносит "
+      },
+      "source_sha256": "14cf0d514b949403ba30a779ea95b4541f9ea31277662607fbe91783ffb60087"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.271",
+      "location": {
+        "abc_byte_offset": 1088947,
+        "code_offset": 271,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 10347,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "фиолетовый"
+      },
+      "source_sha256": "8e0a1b0ada42172886fd1297e25abf99f14396a9400acbd5f20da20289cff02f"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.2754",
+      "location": {
+        "abc_byte_offset": 1091430,
+        "code_offset": 2754,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 10397,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": " урона строениям при прямом попадании"
+      },
+      "source_sha256": "05ba39e50a220b1caae62e191565e6dd9f7221e024215533c79d2333b4ac3be9"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.2769",
+      "location": {
+        "abc_byte_offset": 1091445,
+        "code_offset": 2769,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 10398,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "Выпускает 2 самоцветных ос"
+      },
+      "source_sha256": "483dd2d395f00702cf21184bcce09ecfb3ea6074f0079617602c6df8947a0b38"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.2843",
+      "location": {
+        "abc_byte_offset": 1091519,
+        "code_offset": 2843,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 10400,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "% шанс выпустить 3 осы)"
+      },
+      "source_sha256": "881231b334178da3a03234c0dadb5f6af8f99d217602cca9ecac8deb3587963d"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.2868",
+      "location": {
+        "abc_byte_offset": 1091544,
+        "code_offset": 2868,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 10401,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "Осы исчезают при достижении лимита: время — "
+      },
+      "source_sha256": "3a9d3fb4387555c1e66695ae8a37110c2308fea707697aef80c48c24b9ec1879"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.2892",
+      "location": {
+        "abc_byte_offset": 1091568,
+        "code_offset": 2892,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 10402,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": " с или жалящие удары — "
+      },
+      "source_sha256": "1dbcdd0d377f9778bf4a54f57a54186cdfaa582bbc805bfe8697634b9b7c9224"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.2958",
+      "location": {
+        "abc_byte_offset": 1091634,
+        "code_offset": 2958,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 10403,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "\n\nУрон и эффекты жала: "
+      },
+      "source_sha256": "8ee9ecfc4e0792e2b7b5aa742ef11278ebe25a6683a027f53091f1871e1753ab"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.3004",
+      "location": {
+        "abc_byte_offset": 1091680,
+        "code_offset": 3004,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 10404,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "x от самоцвета по любой цели без щита\nКаждый 2-й удар каждой осы оглушает цель"
+      },
+      "source_sha256": "91116c8c6ea6fbd86452140f90477a97612b1a71f89313f8bfbaa4c57a523b7e"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.3075",
+      "location": {
+        "abc_byte_offset": 1091751,
+        "code_offset": 3075,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 10406,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "% к скорости атак ос"
+      },
+      "source_sha256": "75677ea284e132b74f58aad2117d989762d44b9230fd4363546b29f13fb135bc"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.3191",
+      "location": {
+        "abc_byte_offset": 1091867,
+        "code_offset": 3191,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 10408,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "Модификаторы чистого самоцвета:\n"
+      },
+      "source_sha256": "8eb50a52c5041118786ca110822df2eecca84b03d188816cf1663db3a699df1d"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.3241",
+      "location": {
+        "abc_byte_offset": 1091917,
+        "code_offset": 3241,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 10409,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "% урона\n"
+      },
+      "source_sha256": "de0bbab6dd56b8b6c29dda8db52b2ddd3c068f3f3b6cceefc918a0634ea98fef"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.3292",
+      "location": {
+        "abc_byte_offset": 1091968,
+        "code_offset": 3292,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 10410,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "% силы эффектов\n"
+      },
+      "source_sha256": "dc1d2f7563cbb05baf1a9c0028f2464b50ce5211a07cc0f981f1fbfe483373f2"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.340",
+      "location": {
+        "abc_byte_offset": 1089016,
+        "code_offset": 340,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 10348,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "Чистый: "
+      },
+      "source_sha256": "bf0e4e51a713fd19f086a1a1170c41e364376c497df63511045c5507b43d56a3"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.3402",
+      "location": {
+        "abc_byte_offset": 1092078,
+        "code_offset": 3402,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 10412,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "Модификаторы двойного самоцвета:\n"
+      },
+      "source_sha256": "8e2b8b84d620b37ac439d59aa899cc3b56b329111d8160b09132eaf91072d64c"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.3433",
+      "location": {
+        "abc_byte_offset": 1092109,
+        "code_offset": 3433,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 10413,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "Модификаторы тройного самоцвета:\n"
+      },
+      "source_sha256": "1bc5a5d8bc518fb94a8e6f80fadf096ed68dd8bae0e1f0b78f3f1eb77720249d"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.3448",
+      "location": {
+        "abc_byte_offset": 1092124,
+        "code_offset": 3448,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 10414,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "Модификаторы четверного самоцвета:\n"
+      },
+      "source_sha256": "08ad6740f1b80039b69c087cf020c9aac240324271b3daf415504effea2e9817"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.3539",
+      "location": {
+        "abc_byte_offset": 1092215,
+        "code_offset": 3539,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 10409,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "% урона\n"
+      },
+      "source_sha256": "de0bbab6dd56b8b6c29dda8db52b2ddd3c068f3f3b6cceefc918a0634ea98fef"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.3593",
+      "location": {
+        "abc_byte_offset": 1092269,
+        "code_offset": 3593,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 10410,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "% силы эффектов\n"
+      },
+      "source_sha256": "dc1d2f7563cbb05baf1a9c0028f2464b50ce5211a07cc0f981f1fbfe483373f2"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.3693",
+      "location": {
+        "abc_byte_offset": 1092369,
+        "code_offset": 3693,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 10415,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": " компонентов: "
+      },
+      "source_sha256": "3ca91c8fb1a0649eebe06e24a61fed17f197a6b1d08c8255362c3adb36c89e9d"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.3729",
+      "location": {
+        "abc_byte_offset": 1092405,
+        "code_offset": 3729,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 10416,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "% силы эффектов"
+      },
+      "source_sha256": "dff713cd6c02a91e612e6ecc2b62a745cd42eeb6577f4bd9e140a422295d1ee9"
+    },
+    {
+      "category": "actionscript",
       "id": "abc.4175.548.3788",
       "location": {
         "abc_byte_offset": 1092464,
@@ -31177,9 +32864,542 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "Бонусы от усилителей:"
       },
       "source_sha256": "f28f070fcd5e1d90d16c789ad6cf1b708e97f1ce0bab741990639d5b38635bd0"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.3881",
+      "location": {
+        "abc_byte_offset": 1092557,
+        "code_offset": 3881,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 10419,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": " к минимальному урону"
+      },
+      "source_sha256": "6cb256db1eab6e50508f89eb1a4ec05be652f344586fbe07dcf75bc691445dc5"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.390",
+      "location": {
+        "abc_byte_offset": 1089066,
+        "code_offset": 390,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 10349,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "Двойной: "
+      },
+      "source_sha256": "7ab41e4daedf2d68e22aea587b3ec98ee163c0ebf9966ea1b540e6a04f9cc733"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.3946",
+      "location": {
+        "abc_byte_offset": 1092622,
+        "code_offset": 3946,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 10419,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": " к минимальному урону"
+      },
+      "source_sha256": "6cb256db1eab6e50508f89eb1a4ec05be652f344586fbe07dcf75bc691445dc5"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.4006",
+      "location": {
+        "abc_byte_offset": 1092682,
+        "code_offset": 4006,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 10420,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": " к максимальному урону"
+      },
+      "source_sha256": "907f0af0b006d90ed28cc87a92e9425e4c5c72102ab57ca0b46199868f15587e"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.4053",
+      "location": {
+        "abc_byte_offset": 1092729,
+        "code_offset": 4053,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 10420,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": " к максимальному урону"
+      },
+      "source_sha256": "907f0af0b006d90ed28cc87a92e9425e4c5c72102ab57ca0b46199868f15587e"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.408",
+      "location": {
+        "abc_byte_offset": 1089084,
+        "code_offset": 408,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 8389,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": " / "
+      },
+      "source_sha256": "3973e022e93220f9212c18d0d0c543ae7c309e46640da93a4a0314de999f5112"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.4127",
+      "location": {
+        "abc_byte_offset": 1092803,
+        "code_offset": 4127,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 10421,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": " к дальности"
+      },
+      "source_sha256": "e8007e8bcea065244b4887eace1b1743f5a363964f15ca24ca946b3c51112d2b"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.4182",
+      "location": {
+        "abc_byte_offset": 1092858,
+        "code_offset": 4182,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 10366,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": " выстр./с"
+      },
+      "source_sha256": "b3c30d6c0b256f18ddef1966cb1e14c2865e9d5f5002fb378bce527b38e0b5d6"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.4293",
+      "location": {
+        "abc_byte_offset": 1092969,
+        "code_offset": 4293,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 10422,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": " к длине цепного удара"
+      },
+      "source_sha256": "d6e66970ed07eeccd43f34e1457fa2151458938d24da01a95a0626cced922492"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.4392",
+      "location": {
+        "abc_byte_offset": 1093068,
+        "code_offset": 4392,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 10423,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": " к множителю критического урона"
+      },
+      "source_sha256": "e56c1bd4e382bfbe4d9fdc936d8e6e14098f3f1b54711e1892e4d05f69ae622f"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.4456",
+      "location": {
+        "abc_byte_offset": 1093132,
+        "code_offset": 4456,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 10424,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": " к разрушению брони"
+      },
+      "source_sha256": "81d2e5c39274fd3df4576a9f2edc0a301887342dc91e00794ef18223fd0c5690"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.4517",
+      "location": {
+        "abc_byte_offset": 1093193,
+        "code_offset": 4517,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 10369,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": " урона ядом за 9 с"
+      },
+      "source_sha256": "e44b42b689da17565330ba80e8b1c402e459b4a96509523843c41a4cb2e4de69"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.4581",
+      "location": {
+        "abc_byte_offset": 1093257,
+        "code_offset": 4581,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 10425,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": " маны за попадание"
+      },
+      "source_sha256": "86d51ae43fb33e762e41d437fcf237d43a103184709018bb551790846f90372a"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.4651",
+      "location": {
+        "abc_byte_offset": 1093327,
+        "code_offset": 4651,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 10426,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "% к замедлению"
+      },
+      "source_sha256": "81b7a843a750f139c63a94de5e99d7eb4a61947b78556fca55f67b918c3cb289"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.4715",
+      "location": {
+        "abc_byte_offset": 1093391,
+        "code_offset": 4715,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 10427,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": " к множителю кровной связи"
+      },
+      "source_sha256": "158b7f0c639e045c5d4faf0ddb8dd602ed3504350f628d0406ee97f43ae13b28"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.473",
+      "location": {
+        "abc_byte_offset": 1089149,
+        "code_offset": 473,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 8389,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": " / "
+      },
+      "source_sha256": "3973e022e93220f9212c18d0d0c543ae7c309e46640da93a4a0314de999f5112"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.4776",
+      "location": {
+        "abc_byte_offset": 1093452,
+        "code_offset": 4776,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 10428,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": " здоровья/мин к подавлению лечения"
+      },
+      "source_sha256": "1e85cd5484ee036f86e4ea975b55e5c4a7fcda732418bc3f6924f658b5de393c"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.4840",
+      "location": {
+        "abc_byte_offset": 1093516,
+        "code_offset": 4840,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 10429,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": " к множителю связи с бассейном"
+      },
+      "source_sha256": "338db4e51b1ac67c5433178696195c15d9a452c1fb4518ea86d954b203b25266"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.4906",
+      "location": {
+        "abc_byte_offset": 1093582,
+        "code_offset": 4906,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 10430,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "Усиление: "
+      },
+      "source_sha256": "44d72ab8e5bbe68ed8b5e3ad7d411fee9dacb320f0fa36e83950123a13b1ddae"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.4909",
+      "location": {
+        "abc_byte_offset": 1093585,
+        "code_offset": 4909,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 10431,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "Магическая стрела в ловушке"
+      },
+      "source_sha256": "b62bf02ac623a212add60c97df255c2e38f336bd238eba5c866ce09ff13ebb94"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.4912",
+      "location": {
+        "abc_byte_offset": 1093588,
+        "code_offset": 4912,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 10432,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "Луч в ловушке"
+      },
+      "source_sha256": "f0d110567567ebdae0ca23e30d99d2a11148b652027e9cfc72a4aec4495b8a99"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.4915",
+      "location": {
+        "abc_byte_offset": 1093591,
+        "code_offset": 4915,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 10433,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "Шквал в ловушке"
+      },
+      "source_sha256": "2f95d36588a0b1de9af4d41234319b136ba5efb48ce02bd3bd2948ce1e75e306"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.492",
+      "location": {
+        "abc_byte_offset": 1089168,
+        "code_offset": 492,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 8389,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": " / "
+      },
+      "source_sha256": "3973e022e93220f9212c18d0d0c543ae7c309e46640da93a4a0314de999f5112"
     },
     {
       "category": "actionscript",
@@ -31196,7 +33416,11 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "+30% к скорости перезарядки"
       },
       "source_sha256": "fe45fb58596588b1716eb5331f3ec4725a0313f5d4ccdf520450dc6c247a882c"
     },
@@ -31215,7 +33439,11 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "Игнорирует броню"
       },
       "source_sha256": "939694b2050f15fc8e6e99f9917ccc4fc807bf250ee44f584935f09b1bb5e48f"
     },
@@ -31234,9 +33462,128 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "+30% к силе эффектов"
       },
       "source_sha256": "76b2ae294ae239cff704dbe8480f19e9cb232e83c4d3a4b9321ed5884cc96767"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.5060",
+      "location": {
+        "abc_byte_offset": 1093736,
+        "code_offset": 5060,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 10430,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "Усиление: "
+      },
+      "source_sha256": "44d72ab8e5bbe68ed8b5e3ad7d411fee9dacb320f0fa36e83950123a13b1ddae"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.5063",
+      "location": {
+        "abc_byte_offset": 1093739,
+        "code_offset": 5063,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 7399,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "Магическая стрела"
+      },
+      "source_sha256": "ea0151c4cf78b351118dffcafd349230539bfe1a9c99c15aa057985b45885278"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.5066",
+      "location": {
+        "abc_byte_offset": 1093742,
+        "code_offset": 5066,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 7395,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "Луч"
+      },
+      "source_sha256": "2e5b0ef5b121abbc430b86a4e7c509d19daeceb9b9cd3179c0be4cb4bf0b63b6"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.5069",
+      "location": {
+        "abc_byte_offset": 1093745,
+        "code_offset": 5069,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 7392,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "Шквал"
+      },
+      "source_sha256": "6d5b0faba67735ef8abe6c979db7f35b38aafd59d7687f2b87728bed45caf3dd"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.5135",
+      "location": {
+        "abc_byte_offset": 1093811,
+        "code_offset": 5135,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 10437,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": " с осталось"
+      },
+      "source_sha256": "88bf42585d5459eb994f2d075114b95c228821611ed7069cb7e244d5867a885f"
     },
     {
       "category": "actionscript",
@@ -31253,9 +33600,268 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "Остался 1 выстрел"
       },
       "source_sha256": "e777e9a5186ed0090cd62f35e9b9e2422f1a431279bbf74f51f94a54d99fbcc0"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.5215",
+      "location": {
+        "abc_byte_offset": 1093891,
+        "code_offset": 5215,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 10439,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "notes": "Сокращение единицы сохраняет грамматику для всех чисел без изменения числовой логики.",
+        "status": "draft",
+        "translation": " выстр. осталось"
+      },
+      "source_sha256": "e812330d4798403d85fbf4bf13e8554292d04722c1944f6cdc319fb88f8d28ae"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.5256",
+      "location": {
+        "abc_byte_offset": 1093932,
+        "code_offset": 5256,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 10440,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "Попаданий: "
+      },
+      "source_sha256": "852d909cc360c02f4e80da1ac13b687fd190c2cd6340fc7c876f581fd6c2ed69"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.5275",
+      "location": {
+        "abc_byte_offset": 1093951,
+        "code_offset": 5275,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 10441,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": ", убийств: "
+      },
+      "source_sha256": "19ff53c1420e17e1541c62c09fa966283d16dfae32197b43a58ad91426319a71"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.5310",
+      "location": {
+        "abc_byte_offset": 1093986,
+        "code_offset": 5310,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 10442,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "Цель: "
+      },
+      "source_sha256": "30eaddeafeaeb4b614009a9e1c768fb735a7403f6c972e0f5daf96be256725ed"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.534",
+      "location": {
+        "abc_byte_offset": 1089210,
+        "code_offset": 534,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 10350,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "notes": "Сокращение единицы сохраняет грамматику для всех чисел без изменения числовой логики.",
+        "status": "draft",
+        "translation": " цветовых комп."
+      },
+      "source_sha256": "08b4454b29d080a94af755c54c296fcc30decd3963e8898ae45d136f7b0e884c"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.5369",
+      "location": {
+        "abc_byte_offset": 1094045,
+        "code_offset": 5369,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 10443,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "Стоимость в мане: "
+      },
+      "source_sha256": "ae6fe3f5fb41bf8cfdba2bce225ef91ef842b03022ddad42f9167eecc8d5b652"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.5445",
+      "location": {
+        "abc_byte_offset": 1094121,
+        "code_offset": 5445,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 10444,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "Цена улучшения: "
+      },
+      "source_sha256": "e73c6964616cb5fee8dcea09f8ef19d46eaf146e8a138c602f1c9803eadb6c4d"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.671",
+      "location": {
+        "abc_byte_offset": 1089347,
+        "code_offset": 671,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 10351,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "В ловушке: "
+      },
+      "source_sha256": "51a7fd429a1315097cbf237852fb69473cbc3c0843bd95619fe6646ac48a8f4c"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.677",
+      "location": {
+        "abc_byte_offset": 1089353,
+        "code_offset": 677,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 10352,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "% к урону, +"
+      },
+      "source_sha256": "6e5ab9f2958106f95f46abe5460c5533a007e4e19a2d4e6e164227ba3c4f5ebd"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.720",
+      "location": {
+        "abc_byte_offset": 1089396,
+        "code_offset": 720,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 10353,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "% к несвязанным эффектам,\n"
+      },
+      "source_sha256": "39096c88f8cbc2c6a3eb6625e75f130ded735515d24a76321ff5997c21a62aef"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.765",
+      "location": {
+        "abc_byte_offset": 1089441,
+        "code_offset": 765,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 10354,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "% к скорости стрельбы"
+      },
+      "source_sha256": "c59358756d99847e63ecadf9d89a86cbea9ee3208963572e78e9ec3836f7af38"
     },
     {
       "category": "actionscript",
@@ -31272,9 +33878,105 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "В усилителе: не стреляет"
       },
       "source_sha256": "a3bd40bcc8de40213998869f2acd723a160ff224d99b2cf10dee0e10abee2663"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.951",
+      "location": {
+        "abc_byte_offset": 1089627,
+        "code_offset": 951,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 10361,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "Усиливает соседние самоцветы: "
+      },
+      "source_sha256": "0ac4bd76998fb63249bb9b9be04a21ed4e811732939d209a28216c753210dd02"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.966",
+      "location": {
+        "abc_byte_offset": 1089642,
+        "code_offset": 966,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 10362,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "% урона, "
+      },
+      "source_sha256": "c0961b5c063ff4f2f5603d0b2b93f0a86c918750664e51cbb810493441332914"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.982",
+      "location": {
+        "abc_byte_offset": 1089658,
+        "code_offset": 982,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 10363,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "% несвязанных эффектов, "
+      },
+      "source_sha256": "b88c17bb453b07c9857b6b57299d7c4150e4e7e2c16acb66cfc58bf5fab09f3c"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.548.998",
+      "location": {
+        "abc_byte_offset": 1089674,
+        "code_offset": 998,
+        "method_index": 548,
+        "sprite_path": [],
+        "string_pool_index": 10364,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "% дальности и скорости стрельбы"
+      },
+      "source_sha256": "07e630cd32788c56ba52ca11e8f654a23302d26808cc722ce58ec25522b98086"
     },
     {
       "category": "actionscript",
@@ -31885,6 +34587,29 @@
         "context": "pushstring; display destination is not statically established"
       },
       "source_sha256": "4a63fe70e766e5ab904a6c84594833d4f2dbd5d77728a283d9ea39678261013b"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.555.59",
+      "location": {
+        "abc_byte_offset": 1101901,
+        "code_offset": 59,
+        "method_index": 555,
+        "sprite_path": [],
+        "string_pool_index": 10504,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Основной боевой HUD: McInfoPanel; инструкция выбора приоритета цели",
+        "context_confidence": "confirmed",
+        "status": "draft",
+        "translation": "Тяните, чтобы выбрать приоритет цели"
+      },
+      "source_sha256": "da707bcbe7230817c78457a2ca06084dd15d17e3cc58858239f159eedc4ad1e0"
     },
     {
       "category": "actionscript",
@@ -38165,7 +40890,12 @@
               "id": "abc.4175.220.461",
               "source_sha256": "066ffe4ac557b987814e380132b3030adc2cbeeff5a4a5c667959c9422a6e730"
             },
-            "Gathered)"
+            "Gathe",
+            {
+              "id": "abc.4175.548.256",
+              "source_sha256": "b1f51a511f1da0cd348b8f8598db32e61cb963e5fc69e2b41485bf99590ed75a"
+            },
+            ")"
           ]
         },
         "context_confidence": "confirmed",
@@ -38198,7 +40928,12 @@
               "id": "abc.4175.220.461",
               "source_sha256": "066ffe4ac557b987814e380132b3030adc2cbeeff5a4a5c667959c9422a6e730"
             },
-            "Gathered)"
+            "Gathe",
+            {
+              "id": "abc.4175.548.256",
+              "source_sha256": "b1f51a511f1da0cd348b8f8598db32e61cb963e5fc69e2b41485bf99590ed75a"
+            },
+            ")"
           ]
         },
         "context_confidence": "confirmed",
@@ -38231,7 +40966,12 @@
               "id": "abc.4175.220.461",
               "source_sha256": "066ffe4ac557b987814e380132b3030adc2cbeeff5a4a5c667959c9422a6e730"
             },
-            "Gathered)"
+            "Gathe",
+            {
+              "id": "abc.4175.548.256",
+              "source_sha256": "b1f51a511f1da0cd348b8f8598db32e61cb963e5fc69e2b41485bf99590ed75a"
+            },
+            ")"
           ]
         },
         "context_confidence": "confirmed",
@@ -38264,7 +41004,12 @@
               "id": "abc.4175.220.461",
               "source_sha256": "066ffe4ac557b987814e380132b3030adc2cbeeff5a4a5c667959c9422a6e730"
             },
-            "Gathered)"
+            "Gathe",
+            {
+              "id": "abc.4175.548.256",
+              "source_sha256": "b1f51a511f1da0cd348b8f8598db32e61cb963e5fc69e2b41485bf99590ed75a"
+            },
+            ")"
           ]
         },
         "context_confidence": "confirmed",
@@ -38275,7 +41020,12 @@
               "id": "abc.4175.220.461",
               "source_sha256": "066ffe4ac557b987814e380132b3030adc2cbeeff5a4a5c667959c9422a6e730"
             },
-            "Gathered показывает ману за убийства."
+            "Gathe",
+            {
+              "id": "abc.4175.548.256",
+              "source_sha256": "b1f51a511f1da0cd348b8f8598db32e61cb963e5fc69e2b41485bf99590ed75a"
+            },
+            " показывает ману за убийства."
           ]
         },
         "status": "draft",
@@ -38306,7 +41056,12 @@
               "id": "abc.4175.220.461",
               "source_sha256": "066ffe4ac557b987814e380132b3030adc2cbeeff5a4a5c667959c9422a6e730"
             },
-            "Gathered)"
+            "Gathe",
+            {
+              "id": "abc.4175.548.256",
+              "source_sha256": "b1f51a511f1da0cd348b8f8598db32e61cb963e5fc69e2b41485bf99590ed75a"
+            },
+            ")"
           ]
         },
         "context_confidence": "confirmed",
@@ -38339,7 +41094,12 @@
               "id": "abc.4175.220.461",
               "source_sha256": "066ffe4ac557b987814e380132b3030adc2cbeeff5a4a5c667959c9422a6e730"
             },
-            "Gathered)"
+            "Gathe",
+            {
+              "id": "abc.4175.548.256",
+              "source_sha256": "b1f51a511f1da0cd348b8f8598db32e61cb963e5fc69e2b41485bf99590ed75a"
+            },
+            ")"
           ]
         },
         "context_confidence": "confirmed",
@@ -38372,7 +41132,12 @@
               "id": "abc.4175.220.461",
               "source_sha256": "066ffe4ac557b987814e380132b3030adc2cbeeff5a4a5c667959c9422a6e730"
             },
-            "Gathered)"
+            "Gathe",
+            {
+              "id": "abc.4175.548.256",
+              "source_sha256": "b1f51a511f1da0cd348b8f8598db32e61cb963e5fc69e2b41485bf99590ed75a"
+            },
+            ")"
           ]
         },
         "context_confidence": "confirmed",
@@ -38405,7 +41170,12 @@
               "id": "abc.4175.220.461",
               "source_sha256": "066ffe4ac557b987814e380132b3030adc2cbeeff5a4a5c667959c9422a6e730"
             },
-            "Gathered)"
+            "Gathe",
+            {
+              "id": "abc.4175.548.256",
+              "source_sha256": "b1f51a511f1da0cd348b8f8598db32e61cb963e5fc69e2b41485bf99590ed75a"
+            },
+            ")"
           ]
         },
         "context_confidence": "confirmed",
@@ -38438,7 +41208,12 @@
               "id": "abc.4175.220.461",
               "source_sha256": "066ffe4ac557b987814e380132b3030adc2cbeeff5a4a5c667959c9422a6e730"
             },
-            "Gathered)"
+            "Gathe",
+            {
+              "id": "abc.4175.548.256",
+              "source_sha256": "b1f51a511f1da0cd348b8f8598db32e61cb963e5fc69e2b41485bf99590ed75a"
+            },
+            ")"
           ]
         },
         "context_confidence": "confirmed",
@@ -38471,7 +41246,12 @@
               "id": "abc.4175.220.461",
               "source_sha256": "066ffe4ac557b987814e380132b3030adc2cbeeff5a4a5c667959c9422a6e730"
             },
-            "Gathered)"
+            "Gathe",
+            {
+              "id": "abc.4175.548.256",
+              "source_sha256": "b1f51a511f1da0cd348b8f8598db32e61cb963e5fc69e2b41485bf99590ed75a"
+            },
+            ")"
           ]
         },
         "context_confidence": "confirmed",
@@ -38503,7 +41283,12 @@
               "id": "abc.4175.220.461",
               "source_sha256": "066ffe4ac557b987814e380132b3030adc2cbeeff5a4a5c667959c9422a6e730"
             },
-            "Gathered)"
+            "Gathe",
+            {
+              "id": "abc.4175.548.256",
+              "source_sha256": "b1f51a511f1da0cd348b8f8598db32e61cb963e5fc69e2b41485bf99590ed75a"
+            },
+            ")"
           ]
         },
         "context_confidence": "confirmed",
@@ -38536,7 +41321,12 @@
               "id": "abc.4175.220.461",
               "source_sha256": "066ffe4ac557b987814e380132b3030adc2cbeeff5a4a5c667959c9422a6e730"
             },
-            "Gathered)"
+            "Gathe",
+            {
+              "id": "abc.4175.548.256",
+              "source_sha256": "b1f51a511f1da0cd348b8f8598db32e61cb963e5fc69e2b41485bf99590ed75a"
+            },
+            ")"
           ]
         },
         "context_confidence": "confirmed",
@@ -38569,7 +41359,12 @@
               "id": "abc.4175.220.461",
               "source_sha256": "066ffe4ac557b987814e380132b3030adc2cbeeff5a4a5c667959c9422a6e730"
             },
-            "Gathered)"
+            "Gathe",
+            {
+              "id": "abc.4175.548.256",
+              "source_sha256": "b1f51a511f1da0cd348b8f8598db32e61cb963e5fc69e2b41485bf99590ed75a"
+            },
+            ")"
           ]
         },
         "context_confidence": "confirmed",
@@ -38602,7 +41397,12 @@
               "id": "abc.4175.220.461",
               "source_sha256": "066ffe4ac557b987814e380132b3030adc2cbeeff5a4a5c667959c9422a6e730"
             },
-            "Gathered)"
+            "Gathe",
+            {
+              "id": "abc.4175.548.256",
+              "source_sha256": "b1f51a511f1da0cd348b8f8598db32e61cb963e5fc69e2b41485bf99590ed75a"
+            },
+            ")"
           ]
         },
         "context_confidence": "confirmed",
@@ -38635,7 +41435,12 @@
               "id": "abc.4175.220.461",
               "source_sha256": "066ffe4ac557b987814e380132b3030adc2cbeeff5a4a5c667959c9422a6e730"
             },
-            "Gathered)"
+            "Gathe",
+            {
+              "id": "abc.4175.548.256",
+              "source_sha256": "b1f51a511f1da0cd348b8f8598db32e61cb963e5fc69e2b41485bf99590ed75a"
+            },
+            ")"
           ]
         },
         "context_confidence": "confirmed",
@@ -38668,7 +41473,12 @@
               "id": "abc.4175.220.461",
               "source_sha256": "066ffe4ac557b987814e380132b3030adc2cbeeff5a4a5c667959c9422a6e730"
             },
-            "Gathered)"
+            "Gathe",
+            {
+              "id": "abc.4175.548.256",
+              "source_sha256": "b1f51a511f1da0cd348b8f8598db32e61cb963e5fc69e2b41485bf99590ed75a"
+            },
+            ")"
           ]
         },
         "context_confidence": "confirmed",
@@ -38701,7 +41511,12 @@
               "id": "abc.4175.220.461",
               "source_sha256": "066ffe4ac557b987814e380132b3030adc2cbeeff5a4a5c667959c9422a6e730"
             },
-            "Gathered)"
+            "Gathe",
+            {
+              "id": "abc.4175.548.256",
+              "source_sha256": "b1f51a511f1da0cd348b8f8598db32e61cb963e5fc69e2b41485bf99590ed75a"
+            },
+            ")"
           ]
         },
         "context_confidence": "confirmed",
