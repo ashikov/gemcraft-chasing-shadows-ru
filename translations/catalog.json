@@ -8131,6 +8131,366 @@
     },
     {
       "category": "actionscript",
+      "id": "abc.4175.1553.104",
+      "location": {
+        "abc_byte_offset": 1614346,
+        "code_offset": 104,
+        "method_index": 1553,
+        "sprite_path": [],
+        "string_pool_index": 12785,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: описание свойства монстра в панели волны и монстра",
+        "context_confidence": "confirmed",
+        "notes": "Общий MonsterBuffId.giveDesc: потребители только m547 и четыре поля m549; в обоих назначается Alegreya до измерения. Остальной текст m549 не переведён.",
+        "status": "draft",
+        "translation": " к броне"
+      },
+      "source_sha256": "0ba962f7cdde6a456bd2ae4fffea29701e3efba849795d455163e04a43362bbd"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.1553.132",
+      "location": {
+        "abc_byte_offset": 1614374,
+        "code_offset": 132,
+        "method_index": 1553,
+        "sprite_path": [],
+        "string_pool_index": 12786,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: описание свойства монстра в панели волны и монстра",
+        "context_confidence": "confirmed",
+        "notes": "Общий MonsterBuffId.giveDesc: потребители только m547 и четыре поля m549; в обоих назначается Alegreya до измерения. Остальной текст m549 не переведён.",
+        "status": "draft",
+        "translation": " здоровья/мин к регенерации"
+      },
+      "source_sha256": "953009913b3cb46f72de21608bc98835ce690c35420a7b66924cead8b362d426"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.1553.154",
+      "location": {
+        "abc_byte_offset": 1614396,
+        "code_offset": 154,
+        "method_index": 1553,
+        "sprite_path": [],
+        "string_pool_index": 12787,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: описание свойства монстра в панели волны и монстра",
+        "context_confidence": "confirmed",
+        "notes": "Общий MonsterBuffId.giveDesc: потребители только m547 и четыре поля m549; в обоих назначается Alegreya до измерения. Остальной текст m549 не переведён.",
+        "status": "draft",
+        "translation": " сл. начального щита"
+      },
+      "source_sha256": "0d3a2736a78a6a685154d4dd0c709666202f6ef717ae71db555208791589a0f9"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.1553.166",
+      "location": {
+        "abc_byte_offset": 1614408,
+        "code_offset": 166,
+        "method_index": 1553,
+        "sprite_path": [],
+        "string_pool_index": 12788,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: описание свойства монстра в панели волны и монстра",
+        "context_confidence": "confirmed",
+        "notes": "Общий MonsterBuffId.giveDesc: потребители только m547 и четыре поля m549; в обоих назначается Alegreya до измерения. Остальной текст m549 не переведён.",
+        "status": "draft",
+        "translation": "Сжигает "
+      },
+      "source_sha256": "2e7040924100d9d66d391cb36720e362292b5a40428078492db575becde484ca"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.1553.194",
+      "location": {
+        "abc_byte_offset": 1614436,
+        "code_offset": 194,
+        "method_index": 1553,
+        "sprite_path": [],
+        "string_pool_index": 12789,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: описание свойства монстра в панели волны и монстра",
+        "context_confidence": "confirmed",
+        "notes": "Общий MonsterBuffId.giveDesc: потребители только m547 и четыре поля m549; в обоих назначается Alegreya до измерения. Остальной текст m549 не переведён.",
+        "status": "draft",
+        "translation": "% всей маны при изгнании"
+      },
+      "source_sha256": "cf19b205ab757253101abdc2a7b7cc094e69a9cb08f8d1e2eda21e7417e2093d"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.1553.206",
+      "location": {
+        "abc_byte_offset": 1614448,
+        "code_offset": 206,
+        "method_index": 1553,
+        "sprite_path": [],
+        "string_pool_index": 12790,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: описание свойства монстра в панели волны и монстра",
+        "context_confidence": "confirmed",
+        "notes": "Общий MonsterBuffId.giveDesc: потребители только m547 и четыре поля m549; в обоих назначается Alegreya до измерения. Остальной текст m549 не переведён.",
+        "status": "draft",
+        "translation": "При смерти вызывает переустановку самоцветов в радиусе "
+      },
+      "source_sha256": "e3b2206cf5d214420fb6f994384ecdc2a241e6f6466662991ddf8abc1bdcdf9a"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.1553.225",
+      "location": {
+        "abc_byte_offset": 1614467,
+        "code_offset": 225,
+        "method_index": 1553,
+        "sprite_path": [],
+        "string_pool_index": 12791,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: описание свойства монстра в панели волны и монстра",
+        "context_confidence": "confirmed",
+        "notes": "Общий MonsterBuffId.giveDesc: потребители только m547 и четыре поля m549; в обоих назначается Alegreya до измерения. Остальной текст m549 не переведён.",
+        "status": "draft",
+        "translation": " кл."
+      },
+      "source_sha256": "38166c730c9c0d2ae8fe9183c0b46e15fd81c34ad5ee7f9b7eb567786a648305"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.1553.237",
+      "location": {
+        "abc_byte_offset": 1614479,
+        "code_offset": 237,
+        "method_index": 1553,
+        "sprite_path": [],
+        "string_pool_index": 12792,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: описание свойства монстра в панели волны и монстра",
+        "context_confidence": "confirmed",
+        "notes": "Общий MonsterBuffId.giveDesc: потребители только m547 и четыре поля m549; в обоих назначается Alegreya до измерения. Остальной текст m549 не переведён.",
+        "status": "draft",
+        "translation": "При смерти лечит соседних монстров на "
+      },
+      "source_sha256": "3b21e6a1b8efdfba65c781a1921bcc43247541f8e4670d0790cafb45a7345029"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.1553.251",
+      "location": {
+        "abc_byte_offset": 1614493,
+        "code_offset": 251,
+        "method_index": 1553,
+        "sprite_path": [],
+        "string_pool_index": 12793,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: описание свойства монстра в панели волны и монстра",
+        "context_confidence": "confirmed",
+        "notes": "Общий MonsterBuffId.giveDesc: потребители только m547 и четыре поля m549; в обоих назначается Alegreya до измерения. Остальной текст m549 не переведён.",
+        "status": "draft",
+        "translation": " здоровья"
+      },
+      "source_sha256": "27ee5868a054a8619193988172d146f4cbeecc8f8e933a67687171bef8713f76"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.1553.263",
+      "location": {
+        "abc_byte_offset": 1614505,
+        "code_offset": 263,
+        "method_index": 1553,
+        "sprite_path": [],
+        "string_pool_index": 12794,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: описание свойства монстра в панели волны и монстра",
+        "context_confidence": "confirmed",
+        "notes": "Общий MonsterBuffId.giveDesc: потребители только m547 и четыре поля m549; в обоих назначается Alegreya до измерения. Остальной текст m549 не переведён.",
+        "status": "draft",
+        "translation": "При смерти оставляет 3 отродья со здоровьем "
+      },
+      "source_sha256": "9e4bf226093bf45e59755fabdef6cb8b1e606d78809cd000555b0373fdbf7ee4"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.1553.277",
+      "location": {
+        "abc_byte_offset": 1614519,
+        "code_offset": 277,
+        "method_index": 1553,
+        "sprite_path": [],
+        "string_pool_index": 12795,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: описание свойства монстра в панели волны и монстра",
+        "context_confidence": "confirmed",
+        "notes": "Общий MonsterBuffId.giveDesc: потребители только m547 и четыре поля m549; в обоих назначается Alegreya до измерения. Остальной текст m549 не переведён.",
+        "status": "draft",
+        "translation": " у каждого"
+      },
+      "source_sha256": "b99d6d08bc06476d8f89295acb6707aa6c0ef0b0ed3b99e2a7fcd8a0b3069238"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.1553.289",
+      "location": {
+        "abc_byte_offset": 1614531,
+        "code_offset": 289,
+        "method_index": 1553,
+        "sprite_path": [],
+        "string_pool_index": 12796,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: описание свойства монстра в панели волны и монстра",
+        "context_confidence": "confirmed",
+        "notes": "Общий MonsterBuffId.giveDesc: потребители только m547 и четыре поля m549; в обоих назначается Alegreya до измерения. Остальной текст m549 не переведён.",
+        "status": "draft",
+        "translation": "При смерти призывает маяк: "
+      },
+      "source_sha256": "aa8755778f8c61a68a5c24d42a534bea4df5dbcf8f94ca1391f4119f6ac30a4f"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.1553.303",
+      "location": {
+        "abc_byte_offset": 1614545,
+        "code_offset": 303,
+        "method_index": 1553,
+        "sprite_path": [],
+        "string_pool_index": 12797,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: описание свойства монстра в панели волны и монстра",
+        "context_confidence": "confirmed",
+        "notes": "Общий MonsterBuffId.giveDesc: потребители только m547 и четыре поля m549; в обоих назначается Alegreya до измерения. Остальной текст m549 не переведён.",
+        "status": "draft",
+        "translation": " здоровья"
+      },
+      "source_sha256": "261dac8a9fa9ba9de0704028b4f3971c87a964020abb1611e366530ea8829736"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.1553.50",
+      "location": {
+        "abc_byte_offset": 1614292,
+        "code_offset": 50,
+        "method_index": 1553,
+        "sprite_path": [],
+        "string_pool_index": 12783,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: описание свойства монстра в панели волны и монстра",
+        "context_confidence": "confirmed",
+        "notes": "Общий MonsterBuffId.giveDesc: потребители только m547 и четыре поля m549; в обоих назначается Alegreya до измерения. Остальной текст m549 не переведён.",
+        "status": "draft",
+        "translation": " к здоровью"
+      },
+      "source_sha256": "1c2a9ba9237129316433c7747e3d3cd98e17065728ac0af89d1385b4756c5ea5"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.1553.78",
+      "location": {
+        "abc_byte_offset": 1614320,
+        "code_offset": 78,
+        "method_index": 1553,
+        "sprite_path": [],
+        "string_pool_index": 12784,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: описание свойства монстра в панели волны и монстра",
+        "context_confidence": "confirmed",
+        "notes": "Общий MonsterBuffId.giveDesc: потребители только m547 и четыре поля m549; в обоих назначается Alegreya до измерения. Остальной текст m549 не переведён.",
+        "status": "draft",
+        "translation": " к скорости"
+      },
+      "source_sha256": "cc6964a93f395520e98823e5b971de142a38d217c878dc99d713d70f2ae98b14"
+    },
+    {
+      "category": "actionscript",
       "id": "abc.4175.222.1000",
       "location": {
         "abc_byte_offset": 899946,
@@ -31030,6 +31390,198 @@
     },
     {
       "category": "actionscript",
+      "id": "abc.4175.547.1014",
+      "location": {
+        "abc_byte_offset": 1083567,
+        "code_offset": 1014,
+        "method_index": 547,
+        "sprite_path": [],
+        "string_pool_index": 10261,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: панель волны, обычная и разъярённая, досрочный вызов",
+        "context_confidence": "confirmed",
+        "notes": "Полная склейка проверяется офлайн; числовые выражения и ветвление исходные.",
+        "status": "draft",
+        "translation": "Здоровье: "
+      },
+      "source_sha256": "0cd0fb5069e3fbc27f751fcf75e708e65714eb34dc57a2580a2d539098779192"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.547.1079",
+      "location": {
+        "abc_byte_offset": 1083632,
+        "code_offset": 1079,
+        "method_index": 547,
+        "sprite_path": [],
+        "string_pool_index": 10262,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: панель волны, обычная и разъярённая, досрочный вызов",
+        "context_confidence": "confirmed",
+        "notes": "Полная склейка проверяется офлайн; числовые выражения и ветвление исходные.",
+        "status": "draft",
+        "translation": "Броня: "
+      },
+      "source_sha256": "077cf6a5fd7dae7a4b66b6c575933b51978d399c89b46bb8bb9b1582aae48ee2"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.547.1144",
+      "location": {
+        "abc_byte_offset": 1083697,
+        "code_offset": 1144,
+        "method_index": 547,
+        "sprite_path": [],
+        "string_pool_index": 10263,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: панель волны, обычная и разъярённая, досрочный вызов",
+        "context_confidence": "confirmed",
+        "notes": "Полная склейка проверяется офлайн; числовые выражения и ветвление исходные.",
+        "status": "draft",
+        "translation": "Скорость: "
+      },
+      "source_sha256": "f7c9fa5bca8009d7dd73d78f126302fc87231a04531b8a1e5d3c3b0f23b71203"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.547.1218",
+      "location": {
+        "abc_byte_offset": 1083771,
+        "code_offset": 1218,
+        "method_index": 547,
+        "sprite_path": [],
+        "string_pool_index": 10264,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: панель волны, обычная и разъярённая, досрочный вызов",
+        "context_confidence": "confirmed",
+        "notes": "Полная склейка проверяется офлайн; числовые выражения и ветвление исходные.",
+        "status": "draft",
+        "translation": "Мана за убийство: "
+      },
+      "source_sha256": "b896a7aa08ab5a7a95bce784d856b2ea4f6622e8af74e95e0e18fc1799bfc6ef"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.547.1351",
+      "location": {
+        "abc_byte_offset": 1083904,
+        "code_offset": 1351,
+        "method_index": 547,
+        "sprite_path": [],
+        "string_pool_index": 10264,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: панель волны, обычная и разъярённая, досрочный вызов",
+        "context_confidence": "confirmed",
+        "notes": "Полная склейка проверяется офлайн; числовые выражения и ветвление исходные.",
+        "status": "draft",
+        "translation": "Мана за убийство: "
+      },
+      "source_sha256": "b896a7aa08ab5a7a95bce784d856b2ea4f6622e8af74e95e0e18fc1799bfc6ef"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.547.1476",
+      "location": {
+        "abc_byte_offset": 1084029,
+        "code_offset": 1476,
+        "method_index": 547,
+        "sprite_path": [],
+        "string_pool_index": 10265,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: панель волны, обычная и разъярённая, досрочный вызов",
+        "context_confidence": "confirmed",
+        "notes": "Полная склейка проверяется офлайн; числовые выражения и ветвление исходные.",
+        "status": "draft",
+        "translation": "Стоимость изгнания в мане: "
+      },
+      "source_sha256": "0ccda13bf5302e885621ffd8199c137f5b1c72b9ba184607267a7e140940c53a"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.547.1519",
+      "location": {
+        "abc_byte_offset": 1084072,
+        "code_offset": 1519,
+        "method_index": 547,
+        "sprite_path": [],
+        "string_pool_index": 10266,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: панель волны, обычная и разъярённая, досрочный вызов",
+        "context_confidence": "confirmed",
+        "notes": "Полная склейка проверяется офлайн; числовые выражения и ветвление исходные.",
+        "status": "draft",
+        "translation": "Опыт за убийство: "
+      },
+      "source_sha256": "6c94876c1186d0886cafb64f757a43827d286f1ea925dea7040c0c9210297956"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.547.1634",
+      "location": {
+        "abc_byte_offset": 1084187,
+        "code_offset": 1634,
+        "method_index": 547,
+        "sprite_path": [],
+        "string_pool_index": 10265,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: панель волны, обычная и разъярённая, досрочный вызов",
+        "context_confidence": "confirmed",
+        "notes": "Полная склейка проверяется офлайн; числовые выражения и ветвление исходные.",
+        "status": "draft",
+        "translation": "Стоимость изгнания в мане: "
+      },
+      "source_sha256": "0ccda13bf5302e885621ffd8199c137f5b1c72b9ba184607267a7e140940c53a"
+    },
+    {
+      "category": "actionscript",
       "id": "abc.4175.547.2401",
       "location": {
         "abc_byte_offset": 1084954,
@@ -31043,9 +31595,230 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Боевой HUD: панель волны, обычная и разъярённая, досрочный вызов",
+        "context_confidence": "confirmed",
+        "notes": "Полная склейка проверяется офлайн; числовые выражения и ветвление исходные.",
+        "status": "draft",
+        "translation": "Разъярение:"
       },
       "source_sha256": "0f9b91ab1e215967a452431b93449910339cfbdbaea6438ce038b7167a295444"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.547.2429",
+      "location": {
+        "abc_byte_offset": 1084982,
+        "code_offset": 2429,
+        "method_index": 547,
+        "sprite_path": [],
+        "string_pool_index": 10273,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: панель волны, обычная и разъярённая, досрочный вызов",
+        "context_confidence": "confirmed",
+        "notes": "Полная склейка проверяется офлайн; числовые выражения и ветвление исходные.",
+        "status": "draft",
+        "translation": " к числу монстров\n"
+      },
+      "source_sha256": "9c537d73311f4712e8e043993fb90e09b759953b840663c77cb5f6a67760ffd4"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.547.2462",
+      "location": {
+        "abc_byte_offset": 1085015,
+        "code_offset": 2462,
+        "method_index": 547,
+        "sprite_path": [],
+        "string_pool_index": 10274,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: панель волны, обычная и разъярённая, досрочный вызов",
+        "context_confidence": "confirmed",
+        "notes": "Полная склейка проверяется офлайн; числовые выражения и ветвление исходные.",
+        "status": "draft",
+        "translation": " к здоровью всех монстров\n"
+      },
+      "source_sha256": "e88cfff373d29d47f22ed307d1b540c58eef5b74c002d68647a1c287bf752671"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.547.2495",
+      "location": {
+        "abc_byte_offset": 1085048,
+        "code_offset": 2495,
+        "method_index": 547,
+        "sprite_path": [],
+        "string_pool_index": 10275,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: панель волны, обычная и разъярённая, досрочный вызов",
+        "context_confidence": "confirmed",
+        "notes": "Полная склейка проверяется офлайн; числовые выражения и ветвление исходные.",
+        "status": "draft",
+        "translation": " к броне всех монстров\n"
+      },
+      "source_sha256": "56c1eff500c680f5854a86a8a9aede6adbfb9d5be5bccdff1482c75eff23e62e"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.547.2552",
+      "location": {
+        "abc_byte_offset": 1085105,
+        "code_offset": 2552,
+        "method_index": 547,
+        "sprite_path": [],
+        "string_pool_index": 10276,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: панель волны, обычная и разъярённая, досрочный вызов",
+        "context_confidence": "confirmed",
+        "notes": "Полная склейка проверяется офлайн; числовые выражения и ветвление исходные.",
+        "status": "draft",
+        "translation": " к числу маяков в начале волны"
+      },
+      "source_sha256": "ad8b47a0345a7a9d6a4047e11d443e8e47a624e0812e30bd4f5157e42d4b7c57"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.547.2587",
+      "location": {
+        "abc_byte_offset": 1085140,
+        "code_offset": 2587,
+        "method_index": 547,
+        "sprite_path": [],
+        "string_pool_index": 10277,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: панель волны, обычная и разъярённая, досрочный вызов",
+        "context_confidence": "confirmed",
+        "notes": "Полная склейка проверяется офлайн; числовые выражения и ветвление исходные.",
+        "status": "draft",
+        "translation": "+1 маяк в начале волны"
+      },
+      "source_sha256": "a274498fbaacb76617d47affbb0fb7932a7bb3886ee50fb841d9719505c66fe3"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.547.2629",
+      "location": {
+        "abc_byte_offset": 1085182,
+        "code_offset": 2629,
+        "method_index": 547,
+        "sprite_path": [],
+        "string_pool_index": 10278,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: панель волны, обычная и разъярённая, досрочный вызов",
+        "context_confidence": "confirmed",
+        "notes": "Нейтральная склейка «21 — брошено самоцветов-бомб для разъярения волны» одинакова для N=1,2,5,21.",
+        "status": "draft",
+        "translation": " — брошено "
+      },
+      "source_sha256": "ceb927abd6c70048011fd3fb6f4079ab01d06a32be6e7e992c3ff383d926d024"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.547.2649",
+      "location": {
+        "abc_byte_offset": 1085202,
+        "code_offset": 2649,
+        "method_index": 547,
+        "sprite_path": [],
+        "string_pool_index": 10279,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: панель волны, обычная и разъярённая, досрочный вызов",
+        "context_confidence": "confirmed",
+        "notes": "Нейтральная склейка «21 — брошено самоцветов-бомб для разъярения волны» одинакова для N=1,2,5,21.",
+        "status": "draft",
+        "translation": "самоцветов-бомб"
+      },
+      "source_sha256": "eb75f071361953941b23492a66b9857d5d0d512f29c36713d043029a0233522f"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.547.2657",
+      "location": {
+        "abc_byte_offset": 1085210,
+        "code_offset": 2657,
+        "method_index": 547,
+        "sprite_path": [],
+        "string_pool_index": 10280,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: панель волны, обычная и разъярённая, досрочный вызов",
+        "context_confidence": "confirmed",
+        "notes": "Нейтральная склейка «21 — брошено самоцветов-бомб для разъярения волны» одинакова для N=1,2,5,21.",
+        "status": "draft",
+        "translation": "самоцветов-бомб"
+      },
+      "source_sha256": "eb0afd90509c50678e298bdf1b15f195b2b77c31466211f5f9118be1a9788e1f"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.547.2662",
+      "location": {
+        "abc_byte_offset": 1085215,
+        "code_offset": 2662,
+        "method_index": 547,
+        "sprite_path": [],
+        "string_pool_index": 10281,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: панель волны, обычная и разъярённая, досрочный вызов",
+        "context_confidence": "confirmed",
+        "notes": "Нейтральная склейка «21 — брошено самоцветов-бомб для разъярения волны» одинакова для N=1,2,5,21.",
+        "status": "draft",
+        "translation": " для разъярения волны"
+      },
+      "source_sha256": "9d7b68b2639264284815356bb614c77b5571d60916173ea427d3a974f29a7a13"
     },
     {
       "category": "actionscript",
@@ -31062,7 +31835,12 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Боевой HUD: панель волны, обычная и разъярённая, досрочный вызов",
+        "context_confidence": "confirmed",
+        "notes": "Полная склейка проверяется офлайн; числовые выражения и ветвление исходные.",
+        "status": "draft",
+        "translation": "Самоцвет разъярит волну:"
       },
       "source_sha256": "7c66d63dae4d96ac5c425783cb72b932fb723fab9407f767d16e330012a8541e"
     },
@@ -31081,9 +31859,158 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Боевой HUD: панель волны, обычная и разъярённая, досрочный вызов",
+        "context_confidence": "confirmed",
+        "notes": "Полная склейка проверяется офлайн; числовые выражения и ветвление исходные.",
+        "status": "draft",
+        "translation": "Самоцвет ещё усилит разъярение:"
       },
       "source_sha256": "fb046f42feb43eb02f4ef70bfc0e1e149ccd51c5e60918520f3203e2b6341dd4"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.547.3313",
+      "location": {
+        "abc_byte_offset": 1085866,
+        "code_offset": 3313,
+        "method_index": 547,
+        "sprite_path": [],
+        "string_pool_index": 10286,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: панель волны, обычная и разъярённая, досрочный вызов",
+        "context_confidence": "confirmed",
+        "notes": "Полная склейка проверяется офлайн; числовые выражения и ветвление исходные.",
+        "status": "draft",
+        "translation": "+1 к числу монстров\n"
+      },
+      "source_sha256": "dbaccda66756756678a7df08b7a518dd21aa5d4e7739a01689fe3fd33cfc1f18"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.547.3327",
+      "location": {
+        "abc_byte_offset": 1085880,
+        "code_offset": 3327,
+        "method_index": 547,
+        "sprite_path": [],
+        "string_pool_index": 10273,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: панель волны, обычная и разъярённая, досрочный вызов",
+        "context_confidence": "confirmed",
+        "notes": "Полная склейка проверяется офлайн; числовые выражения и ветвление исходные.",
+        "status": "draft",
+        "translation": " к числу монстров\n"
+      },
+      "source_sha256": "9c537d73311f4712e8e043993fb90e09b759953b840663c77cb5f6a67760ffd4"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.547.3431",
+      "location": {
+        "abc_byte_offset": 1085984,
+        "code_offset": 3431,
+        "method_index": 547,
+        "sprite_path": [],
+        "string_pool_index": 10274,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: панель волны, обычная и разъярённая, досрочный вызов",
+        "context_confidence": "confirmed",
+        "notes": "Полная склейка проверяется офлайн; числовые выражения и ветвление исходные.",
+        "status": "draft",
+        "translation": " к здоровью всех монстров\n"
+      },
+      "source_sha256": "e88cfff373d29d47f22ed307d1b540c58eef5b74c002d68647a1c287bf752671"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.547.3531",
+      "location": {
+        "abc_byte_offset": 1086084,
+        "code_offset": 3531,
+        "method_index": 547,
+        "sprite_path": [],
+        "string_pool_index": 10275,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: панель волны, обычная и разъярённая, досрочный вызов",
+        "context_confidence": "confirmed",
+        "notes": "Полная склейка проверяется офлайн; числовые выражения и ветвление исходные.",
+        "status": "draft",
+        "translation": " к броне всех монстров\n"
+      },
+      "source_sha256": "56c1eff500c680f5854a86a8a9aede6adbfb9d5be5bccdff1482c75eff23e62e"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.547.3643",
+      "location": {
+        "abc_byte_offset": 1086196,
+        "code_offset": 3643,
+        "method_index": 547,
+        "sprite_path": [],
+        "string_pool_index": 10276,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: панель волны, обычная и разъярённая, досрочный вызов",
+        "context_confidence": "confirmed",
+        "notes": "Полная склейка проверяется офлайн; числовые выражения и ветвление исходные.",
+        "status": "draft",
+        "translation": " к числу маяков в начале волны"
+      },
+      "source_sha256": "ad8b47a0345a7a9d6a4047e11d443e8e47a624e0812e30bd4f5157e42d4b7c57"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.547.3652",
+      "location": {
+        "abc_byte_offset": 1086205,
+        "code_offset": 3652,
+        "method_index": 547,
+        "sprite_path": [],
+        "string_pool_index": 10277,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: панель волны, обычная и разъярённая, досрочный вызов",
+        "context_confidence": "confirmed",
+        "notes": "Полная склейка проверяется офлайн; числовые выражения и ветвление исходные.",
+        "status": "draft",
+        "translation": "+1 маяк в начале волны"
+      },
+      "source_sha256": "a274498fbaacb76617d47affbb0fb7932a7bb3886ee50fb841d9719505c66fe3"
     },
     {
       "category": "actionscript",
@@ -31100,7 +32027,12 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Боевой HUD: панель волны, обычная и разъярённая, досрочный вызов",
+        "context_confidence": "confirmed",
+        "notes": "Полная склейка проверяется офлайн; числовые выражения и ветвление исходные.",
+        "status": "draft",
+        "translation": "+1 снос в начале этой волны"
       },
       "source_sha256": "72e25999fe59183b291ea42de36cd69eeae051fb7f40dbe95284f18a0dc1bc39"
     },
@@ -31119,7 +32051,12 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Боевой HUD: панель волны, обычная и разъярённая, досрочный вызов",
+        "context_confidence": "confirmed",
+        "notes": "Полная склейка проверяется офлайн; числовые выражения и ветвление исходные.",
+        "status": "draft",
+        "translation": "Клик — вызвать эту волну сейчас"
       },
       "source_sha256": "f9aa3403b54a1eae8a64d8695907aa9f1e855020776d98b322df5f7b320369a2"
     },
@@ -31138,7 +32075,12 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Боевой HUD: панель волны, обычная и разъярённая, досрочный вызов",
+        "context_confidence": "confirmed",
+        "notes": "Полная склейка проверяется офлайн; числовые выражения и ветвление исходные.",
+        "status": "draft",
+        "translation": "(Клавиша: N)"
       },
       "source_sha256": "6c223ef752212491d912a7c571bb5e852b9b6502f0e9c76ef3808457ecc244b6"
     },
@@ -31157,7 +32099,12 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Боевой HUD: панель волны, обычная и разъярённая, досрочный вызов",
+        "context_confidence": "confirmed",
+        "notes": "Полная склейка проверяется офлайн; числовые выражения и ветвление исходные.",
+        "status": "draft",
+        "translation": "Клик — вызвать эту волну и все волны и искры выше"
       },
       "source_sha256": "f2ef83dad52454d9dbc36dd39c12b54867524167f45846850f7a386a84803f81"
     },
@@ -31176,7 +32123,12 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Боевой HUD: панель волны, обычная и разъярённая, досрочный вызов",
+        "context_confidence": "confirmed",
+        "notes": "Полная склейка проверяется офлайн; числовые выражения и ветвление исходные.",
+        "status": "draft",
+        "translation": "Ctrl-клик — вызвать все оставшиеся волны и искры"
       },
       "source_sha256": "a682e9ef55a15ed039075f37bb8384a4cd281b545caba3e98b6b2421ace64f62"
     },
@@ -31195,7 +32147,12 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Боевой HUD: панель волны, обычная и разъярённая, досрочный вызов",
+        "context_confidence": "confirmed",
+        "notes": "Полная склейка проверяется офлайн; числовые выражения и ветвление исходные.",
+        "status": "draft",
+        "translation": "Бросьте самоцвет-бомбу для разъярения волны"
       },
       "source_sha256": "12f9fb10dc1e1a1ba0197d83d7a9f1bcd964048bccb3b78978f1c0a6049c1603"
     },
@@ -31350,6 +32307,318 @@
         "context": "pushstring; display destination is not statically established"
       },
       "source_sha256": "ba0cf6d427a8d0b9e8194f4d9e20e3a85c560b831d029d16b83c53b0fba3fec4"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.547.683",
+      "location": {
+        "abc_byte_offset": 1083236,
+        "code_offset": 683,
+        "method_index": 547,
+        "sprite_path": [],
+        "string_pool_index": 10254,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: панель волны, обычная и разъярённая, досрочный вызов",
+        "context_confidence": "confirmed",
+        "notes": "Полная склейка проверяется офлайн; числовые выражения и ветвление исходные.",
+        "status": "draft",
+        "translation": "Волна "
+      },
+      "source_sha256": "91f99f6586793df13f71bd934724e41e54d2aca05bc00273c2fc8a4cb162dfe3"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.547.713",
+      "location": {
+        "abc_byte_offset": 1083266,
+        "code_offset": 713,
+        "method_index": 547,
+        "sprite_path": [],
+        "string_pool_index": 10255,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: панель волны, обычная и разъярённая, досрочный вызов",
+        "context_confidence": "confirmed",
+        "notes": "Полная склейка проверяется офлайн; числовые выражения и ветвление исходные.",
+        "status": "draft",
+        "translation": " из "
+      },
+      "source_sha256": "a4282e4b2298b90b56f7eea346da65668a968621448c899a2a3ea5cf15655ddc"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.547.801",
+      "location": {
+        "abc_byte_offset": 1083354,
+        "code_offset": 801,
+        "method_index": 547,
+        "sprite_path": [],
+        "string_pool_index": 10256,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: панель волны, обычная и разъярённая, досрочный вызов",
+        "context_confidence": "confirmed",
+        "notes": "Число отделено от названия типа знаком —: «21 — меченый гигант». Название типа дано в единственном числе в обеих ветках; согласования с числом нет.",
+        "status": "draft",
+        "translation": "меченый "
+      },
+      "source_sha256": "97ba6a76887832046bb1437cdca3a18159ce1829d3c3cf7ab7d54ac9b7d2e375"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.547.817",
+      "location": {
+        "abc_byte_offset": 1083370,
+        "code_offset": 817,
+        "method_index": 547,
+        "sprite_path": [],
+        "string_pool_index": 10257,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: панель волны, обычная и разъярённая, досрочный вызов",
+        "context_confidence": "confirmed",
+        "notes": "Число отделено от названия типа знаком —: «21 — меченый гигант». Название типа дано в единственном числе в обеих ветках; согласования с числом нет.",
+        "status": "draft",
+        "translation": "искажённый "
+      },
+      "source_sha256": "8100ecfc5960c34f1c7f8da71930c9055c6dc55a09a3269f8d2a62e5f03d1496"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.547.824",
+      "location": {
+        "abc_byte_offset": 1083377,
+        "code_offset": 824,
+        "method_index": 547,
+        "sprite_path": [],
+        "string_pool_index": 10258,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: панель волны, обычная и разъярённая, досрочный вызов",
+        "context_confidence": "confirmed",
+        "notes": "Число отделено от названия типа знаком —: «21 — меченый гигант». Название типа дано в единственном числе в обеих ветках; согласования с числом нет.",
+        "status": "draft",
+        "translation": "одержимый "
+      },
+      "source_sha256": "60823120184937b3ce9d3985d527d94607fdb89a005dd804885006bcf06253a2"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.547.860",
+      "location": {
+        "abc_byte_offset": 1083413,
+        "code_offset": 860,
+        "method_index": 547,
+        "sprite_path": [],
+        "string_pool_index": 9939,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: панель волны, обычная и разъярённая, досрочный вызов",
+        "context_confidence": "confirmed",
+        "notes": "Число отделено от названия типа знаком —: «21 — меченый гигант». Название типа дано в единственном числе в обеих ветках; согласования с числом нет.",
+        "status": "draft",
+        "translation": " — "
+      },
+      "source_sha256": "36a9e7f1c95b82ffb99743e0c5c4ce95d83c9a430aac59f84ef3cbfab6145068"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.547.875",
+      "location": {
+        "abc_byte_offset": 1083428,
+        "code_offset": 875,
+        "method_index": 547,
+        "sprite_path": [],
+        "string_pool_index": 10240,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: панель волны, обычная и разъярённая, досрочный вызов",
+        "context_confidence": "confirmed",
+        "notes": "Число отделено от названия типа знаком —: «21 — меченый гигант». Название типа дано в единственном числе в обеих ветках; согласования с числом нет.",
+        "status": "draft",
+        "translation": "гигант"
+      },
+      "source_sha256": "d0eb20469e6dc061512849bf6538ae4b71149dcc99b6aa4d4420591b17b8c31d"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.547.895",
+      "location": {
+        "abc_byte_offset": 1083448,
+        "code_offset": 895,
+        "method_index": 547,
+        "sprite_path": [],
+        "string_pool_index": 10239,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: панель волны, обычная и разъярённая, досрочный вызов",
+        "context_confidence": "confirmed",
+        "notes": "Число отделено от названия типа знаком —: «21 — меченый гигант». Название типа дано в единственном числе в обеих ветках; согласования с числом нет.",
+        "status": "draft",
+        "translation": "ройник"
+      },
+      "source_sha256": "496e170488bdd64d83c9bff6b76899c05aca4e45d3caf11bc10fac4b74004510"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.547.906",
+      "location": {
+        "abc_byte_offset": 1083459,
+        "code_offset": 906,
+        "method_index": 547,
+        "sprite_path": [],
+        "string_pool_index": 10259,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: панель волны, обычная и разъярённая, досрочный вызов",
+        "context_confidence": "confirmed",
+        "notes": "Число отделено от названия типа знаком —: «21 — меченый гигант». Название типа дано в единственном числе в обеих ветках; согласования с числом нет.",
+        "status": "draft",
+        "translation": "разоритель"
+      },
+      "source_sha256": "245ca436aabf67165ee3abd1e35f8511b33f89aa9092cc429ef0091b69f6e4c8"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.547.926",
+      "location": {
+        "abc_byte_offset": 1083479,
+        "code_offset": 926,
+        "method_index": 547,
+        "sprite_path": [],
+        "string_pool_index": 9939,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: панель волны, обычная и разъярённая, досрочный вызов",
+        "context_confidence": "confirmed",
+        "notes": "Число отделено от названия типа знаком —: «21 — меченый гигант». Название типа дано в единственном числе в обеих ветках; согласования с числом нет.",
+        "status": "draft",
+        "translation": " — "
+      },
+      "source_sha256": "36a9e7f1c95b82ffb99743e0c5c4ce95d83c9a430aac59f84ef3cbfab6145068"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.547.941",
+      "location": {
+        "abc_byte_offset": 1083494,
+        "code_offset": 941,
+        "method_index": 547,
+        "sprite_path": [],
+        "string_pool_index": 7427,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: панель волны, обычная и разъярённая, досрочный вызов",
+        "context_confidence": "confirmed",
+        "notes": "Число отделено от названия типа знаком —: «21 — меченый гигант». Название типа дано в единственном числе в обеих ветках; согласования с числом нет.",
+        "status": "draft",
+        "translation": "гигант"
+      },
+      "source_sha256": "db5bea376a0dc01a0dc3d3389ed02651eb2ad23d4789c44560d60985974d296a"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.547.961",
+      "location": {
+        "abc_byte_offset": 1083514,
+        "code_offset": 961,
+        "method_index": 547,
+        "sprite_path": [],
+        "string_pool_index": 7477,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: панель волны, обычная и разъярённая, досрочный вызов",
+        "context_confidence": "confirmed",
+        "notes": "Число отделено от названия типа знаком —: «21 — меченый гигант». Название типа дано в единственном числе в обеих ветках; согласования с числом нет.",
+        "status": "draft",
+        "translation": "ройник"
+      },
+      "source_sha256": "ed3844dbdab9347f1f28a4a0037bd1df76ccc97cf23e66e62e487a42a2680823"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.547.972",
+      "location": {
+        "abc_byte_offset": 1083525,
+        "code_offset": 972,
+        "method_index": 547,
+        "sprite_path": [],
+        "string_pool_index": 10260,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: панель волны, обычная и разъярённая, досрочный вызов",
+        "context_confidence": "confirmed",
+        "notes": "Число отделено от названия типа знаком —: «21 — меченый гигант». Название типа дано в единственном числе в обеих ветках; согласования с числом нет.",
+        "status": "draft",
+        "translation": "разоритель"
+      },
+      "source_sha256": "5a9ade9533769fdd035fdf990a4841dd6f752b3267c3d3602fb1496081fadd9e"
     },
     {
       "category": "actionscript",
@@ -37092,6 +38361,414 @@
     },
     {
       "category": "actionscript",
+      "id": "abc.4175.630.28197",
+      "location": {
+        "abc_byte_offset": 1215735,
+        "code_offset": 28197,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 11022,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: счётчик атакующих/приближающихся монстров; m630 → GV.mcInfoPanel",
+        "context_confidence": "confirmed",
+        "notes": "Числовая логика и порядок склейки оригинала сохранены. Нейтральное сокращение подходит любому числу.",
+        "status": "draft",
+        "translation": " монстр. в атаке"
+      },
+      "source_sha256": "08f8fc9ce2cd159323786a0f4dca5ec1a93fb5550cf236f1cad00a49abe25961"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.28264",
+      "location": {
+        "abc_byte_offset": 1215802,
+        "code_offset": 28264,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 11023,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: счётчик атакующих/приближающихся монстров; m630 → GV.mcInfoPanel",
+        "context_confidence": "confirmed",
+        "notes": "Числовая логика и порядок склейки оригинала сохранены. Нейтральное сокращение подходит любому числу.",
+        "status": "draft",
+        "translation": " монстр. на подходе"
+      },
+      "source_sha256": "2e8293b8a8f10d66055e1e42f0ce5e7f5a1c1422af472dda8727773dd3d71298"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.28538",
+      "location": {
+        "abc_byte_offset": 1216076,
+        "code_offset": 28538,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 11024,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: бассейн маны; уровень, восполнение, множители и возврат самоцвета; m630 → GV.mcInfoPanel",
+        "context_confidence": "confirmed",
+        "notes": "Числовая логика и порядок склейки оригинала сохранены.",
+        "status": "draft",
+        "translation": "Бассейн маны"
+      },
+      "source_sha256": "25daff70612be117d2d0271bc91650eb591aa406026a0a9686ee2cdf05520b57"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.28588",
+      "location": {
+        "abc_byte_offset": 1216126,
+        "code_offset": 28588,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 11025,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: бассейн маны; уровень, восполнение, множители и возврат самоцвета; m630 → GV.mcInfoPanel",
+        "context_confidence": "confirmed",
+        "notes": "Числовая логика и порядок склейки оригинала сохранены.",
+        "status": "draft",
+        "translation": "уровень "
+      },
+      "source_sha256": "60a585d73497801db084b353a705eb3c81e4a0b8d3c6193bfd1cd5e48859a749"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.28617",
+      "location": {
+        "abc_byte_offset": 1216155,
+        "code_offset": 28617,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 11026,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: бассейн маны; уровень, восполнение, множители и возврат самоцвета; m630 → GV.mcInfoPanel",
+        "context_confidence": "confirmed",
+        "notes": "Числовая логика и порядок склейки оригинала сохранены.",
+        "status": "draft",
+        "translation": "Следующий уровень при "
+      },
+      "source_sha256": "0c1f1c5c1a5d38f0bad7105973b958306cc82c30e0730dcead534fcf35dade33"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.28639",
+      "location": {
+        "abc_byte_offset": 1216177,
+        "code_offset": 28639,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 9580,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: бассейн маны; уровень, восполнение, множители и возврат самоцвета; m630 → GV.mcInfoPanel",
+        "context_confidence": "confirmed",
+        "notes": "Числовая логика и порядок склейки оригинала сохранены.",
+        "status": "draft",
+        "translation": " маны"
+      },
+      "source_sha256": "3543c385bb32e096e539ce17249d0720745f46025a02b582f5c478047f272afa"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.28677",
+      "location": {
+        "abc_byte_offset": 1216215,
+        "code_offset": 28677,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 11027,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: бассейн маны; уровень, восполнение, множители и возврат самоцвета; m630 → GV.mcInfoPanel",
+        "context_confidence": "confirmed",
+        "notes": "Числовая логика и порядок склейки оригинала сохранены.",
+        "status": "draft",
+        "translation": "Восполнение маны: "
+      },
+      "source_sha256": "e4664dabdc59344b9aa81c0d22c79b43020ccdb0284e51f31ea4f939569ccf7d"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.28713",
+      "location": {
+        "abc_byte_offset": 1216251,
+        "code_offset": 28713,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10480,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: бассейн маны; уровень, восполнение, множители и возврат самоцвета; m630 → GV.mcInfoPanel",
+        "context_confidence": "confirmed",
+        "notes": "Числовая логика и порядок склейки оригинала сохранены.",
+        "status": "draft",
+        "translation": " в минуту"
+      },
+      "source_sha256": "7b9bfece183b77d92aceda56b7e516225685349749c84e8141b1d1e6ca06a821"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.28772",
+      "location": {
+        "abc_byte_offset": 1216310,
+        "code_offset": 28772,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 11028,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: бассейн маны; уровень, восполнение, множители и возврат самоцвета; m630 → GV.mcInfoPanel",
+        "context_confidence": "confirmed",
+        "notes": "Числовая логика и порядок склейки оригинала сохранены.",
+        "status": "draft",
+        "translation": "Множитель опыта бассейна маны: x"
+      },
+      "source_sha256": "71ce94e2e69982bacfbd9506fe9ac941b8e2355ad88bbd154cdf1ab44781cacc"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.28849",
+      "location": {
+        "abc_byte_offset": 1216387,
+        "code_offset": 28849,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 11029,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: бассейн маны; уровень, восполнение, множители и возврат самоцвета; m630 → GV.mcInfoPanel",
+        "context_confidence": "confirmed",
+        "notes": "Числовая логика и порядок склейки оригинала сохранены.",
+        "status": "draft",
+        "translation": "Множитель маны «Потока маны»: x"
+      },
+      "source_sha256": "8e0cc0c44c67a766154b51b29ec524ce0a828b9821199d9ca5a06de4a5d95476"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.28938",
+      "location": {
+        "abc_byte_offset": 1216476,
+        "code_offset": 28938,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 11030,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: бассейн маны; уровень, восполнение, множители и возврат самоцвета; m630 → GV.mcInfoPanel",
+        "context_confidence": "confirmed",
+        "notes": "Числовая логика и порядок склейки оригинала сохранены.",
+        "status": "draft",
+        "translation": "Множитель опыта талисмана: x"
+      },
+      "source_sha256": "2fae739899cebe4b0a46307c28fba9c5eaf406d4917adb5dcf8c82f0852d2d4e"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.29015",
+      "location": {
+        "abc_byte_offset": 1216553,
+        "code_offset": 29015,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10844,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: бассейн маны; уровень, восполнение, множители и возврат самоцвета; m630 → GV.mcInfoPanel",
+        "context_confidence": "confirmed",
+        "notes": "Числовая логика и порядок склейки оригинала сохранены.",
+        "status": "draft",
+        "translation": "Множитель маны малых сфер: x"
+      },
+      "source_sha256": "ad30d018d3bf1bf1591ad9132420598753602119606f079a5cb16b8a47105cff"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.29085",
+      "location": {
+        "abc_byte_offset": 1216623,
+        "code_offset": 29085,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 11031,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: бассейн маны; уровень, восполнение, множители и возврат самоцвета; m630 → GV.mcInfoPanel",
+        "context_confidence": "confirmed",
+        "notes": "Числовая логика и порядок склейки оригинала сохранены.",
+        "status": "draft",
+        "translation": "Множитель маны бассейна: x"
+      },
+      "source_sha256": "233ecc6b6b968b9f5c6b0c9ecfcb389c5432dd5757f6e27c04a11c74eb78df26"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.29162",
+      "location": {
+        "abc_byte_offset": 1216700,
+        "code_offset": 29162,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 11032,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: бассейн маны; уровень, восполнение, множители и возврат самоцвета; m630 → GV.mcInfoPanel",
+        "context_confidence": "confirmed",
+        "notes": "Числовая логика и порядок склейки оригинала сохранены.",
+        "status": "draft",
+        "translation": "Бросьте самоцвет, чтобы вернуть "
+      },
+      "source_sha256": "7379760d8de50749d80d3fcfd8e20461d13822401c7789076f43996eff5640e5"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.29193",
+      "location": {
+        "abc_byte_offset": 1216731,
+        "code_offset": 29193,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 9580,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: бассейн маны; уровень, восполнение, множители и возврат самоцвета; m630 → GV.mcInfoPanel",
+        "context_confidence": "confirmed",
+        "notes": "Числовая логика и порядок склейки оригинала сохранены.",
+        "status": "draft",
+        "translation": " маны"
+      },
+      "source_sha256": "3543c385bb32e096e539ce17249d0720745f46025a02b582f5c478047f272afa"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.29240",
+      "location": {
+        "abc_byte_offset": 1216778,
+        "code_offset": 29240,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 11033,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: бассейн маны; уровень, восполнение, множители и возврат самоцвета; m630 → GV.mcInfoPanel",
+        "context_confidence": "confirmed",
+        "notes": "Числовая логика и порядок склейки оригинала сохранены.",
+        "status": "draft",
+        "translation": "Бросьте самоцвет сюда, чтобы вернуть "
+      },
+      "source_sha256": "1bfaeb8f595c6cc07a6b393f3a9c6af4a6e625b3495eda051f6546b1db2121bb"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.29253",
+      "location": {
+        "abc_byte_offset": 1216791,
+        "code_offset": 29253,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 11034,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой HUD: бассейн маны; уровень, восполнение, множители и возврат самоцвета; m630 → GV.mcInfoPanel",
+        "context_confidence": "confirmed",
+        "notes": "Числовая логика и порядок склейки оригинала сохранены.",
+        "status": "draft",
+        "translation": "% его стоимости в мане"
+      },
+      "source_sha256": "a07d28c1efbd655ff4e1aaecdce98c80a56db5f71669bdf21c8a001afcf3e628"
+    },
+    {
+      "category": "actionscript",
       "id": "abc.4175.630.29275",
       "location": {
         "abc_byte_offset": 1216813,
@@ -37105,7 +38782,12 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Боевой HUD: бассейн маны; уровень, восполнение, множители и возврат самоцвета; m630 → GV.mcInfoPanel",
+        "context_confidence": "confirmed",
+        "notes": "Числовая логика и порядок склейки оригинала сохранены.",
+        "status": "draft",
+        "translation": "(Клавиша: X)"
       },
       "source_sha256": "17f21f820bb9748d5cd11c9839efb24581a1ea1946cb1d6be3abb8ece5199177"
     },
@@ -38934,6 +40616,120 @@
         "translation": "Обучающие подсказки сброшены"
       },
       "source_sha256": "c3245cf3aab68340e7c57e18c69923f05f5f1bb13df5cf2562936ad595df2d7b"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.760.280",
+      "location": {
+        "abc_byte_offset": 1317007,
+        "code_offset": 280,
+        "method_index": 760,
+        "sprite_path": [],
+        "string_pool_index": 11300,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": {
+          "source_parts": [
+            "Досрочный вызов всех волн; уведомление ",
+            {
+              "id": "abc.4175.1369.408",
+              "source_sha256": "7e9e5ac30f2216fd0fd6f5faed316f2d5983361a4203c3330cfa46ef65bb4767"
+            },
+            "FloaterPanel; Ctrl+клик при обеих настройках ",
+            {
+              "id": "abc.4175.1732.420",
+              "source_sha256": "27042f4e6eca7d0b2a7ee4026df2ecfa51d3339e6d122aa099118ecd8563bad9"
+            },
+            "",
+            {
+              "id": "abc.4175.220.191",
+              "source_sha256": "95ba4ed9329f4a2591e3bd89366e38cca9b26aeab3e72106ae60ad6757e05495"
+            },
+            "",
+            {
+              "id": "abc.4175.220.266",
+              "source_sha256": "c7abfa48429972b70b811c6dce89e742e7788bcccf7730499b0fbaee11f56889"
+            },
+            "Wark"
+          ]
+        },
+        "context_confidence": "confirmed",
+        "notes": {
+          "source_parts": [
+            "Форматирующий аргумент ",
+            {
+              "id": "abc.4175.1036.139",
+              "source_sha256": "360f84035942243c6a36537ae2f8673485e6c04455a0a85a0db19690f2541480"
+            },
+            " сохранён; шрифт и размеры панели обновляются до отложенной bitmap-отрисовки."
+          ]
+        },
+        "status": "draft",
+        "translation": "Вызваны все оставшиеся волны"
+      },
+      "source_sha256": "66e11d22387149a12a57c38f97ea73058f50f677c835da70ec0d3ac6460e7259"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.761.144",
+      "location": {
+        "abc_byte_offset": 1317216,
+        "code_offset": 144,
+        "method_index": 761,
+        "sprite_path": [],
+        "string_pool_index": 11300,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": {
+          "source_parts": [
+            "Досрочный вызов всех волн; уведомление ",
+            {
+              "id": "abc.4175.1369.408",
+              "source_sha256": "7e9e5ac30f2216fd0fd6f5faed316f2d5983361a4203c3330cfa46ef65bb4767"
+            },
+            "FloaterPanel; Ctrl+клик при обеих настройках ",
+            {
+              "id": "abc.4175.1732.420",
+              "source_sha256": "27042f4e6eca7d0b2a7ee4026df2ecfa51d3339e6d122aa099118ecd8563bad9"
+            },
+            "",
+            {
+              "id": "abc.4175.220.191",
+              "source_sha256": "95ba4ed9329f4a2591e3bd89366e38cca9b26aeab3e72106ae60ad6757e05495"
+            },
+            "",
+            {
+              "id": "abc.4175.220.266",
+              "source_sha256": "c7abfa48429972b70b811c6dce89e742e7788bcccf7730499b0fbaee11f56889"
+            },
+            "Wark"
+          ]
+        },
+        "context_confidence": "confirmed",
+        "notes": {
+          "source_parts": [
+            "Форматирующий аргумент ",
+            {
+              "id": "abc.4175.1036.139",
+              "source_sha256": "360f84035942243c6a36537ae2f8673485e6c04455a0a85a0db19690f2541480"
+            },
+            " сохранён; шрифт и размеры панели обновляются до отложенной bitmap-отрисовки."
+          ]
+        },
+        "status": "draft",
+        "translation": "Вызваны все оставшиеся волны"
+      },
+      "source_sha256": "66e11d22387149a12a57c38f97ea73058f50f677c835da70ec0d3ac6460e7259"
     },
     {
       "category": "actionscript",
