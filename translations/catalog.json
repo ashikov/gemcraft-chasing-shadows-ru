@@ -38097,9 +38097,62 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Боевой интерфейс: создание и выбор девяти типов самоцветов, совмещение и дублирование.",
+        "context_confidence": "confirmed",
+        "notes": "Полная адресная ветка m630: сохраняет условия доступности, цены, уровень и клавиши. Alegreya назначается до измерения и восстанавливается после каждого выбранного поля.",
+        "status": "draft",
+        "translation": "Недостаточно маны для создания самоцвета"
       },
       "source_sha256": "0d631b8c2d5d8863ae63dca362505a670cbc40655694c3ca93d4f84675fceab8"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.1522",
+      "location": {
+        "abc_byte_offset": 1189060,
+        "code_offset": 1522,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10721,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой интерфейс: создание и выбор девяти типов самоцветов, совмещение и дублирование.",
+        "context_confidence": "confirmed",
+        "notes": "Полная адресная ветка m630: сохраняет условия доступности, цены, уровень и клавиши. Alegreya назначается до измерения и восстанавливается после каждого выбранного поля.",
+        "status": "draft",
+        "translation": "Уровень самоцвета: "
+      },
+      "source_sha256": "01083f00f7c0f48d84f497b88db331fa6bdd5dd1e863ee17ace13a48da205f36"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.1538",
+      "location": {
+        "abc_byte_offset": 1189076,
+        "code_offset": 1538,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10722,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой интерфейс: создание и выбор девяти типов самоцветов, совмещение и дублирование.",
+        "context_confidence": "confirmed",
+        "notes": "Полная адресная ветка m630: сохраняет условия доступности, цены, уровень и клавиши. Alegreya назначается до измерения и восстанавливается после каждого выбранного поля.",
+        "status": "draft",
+        "translation": "\nЗатраты маны: "
+      },
+      "source_sha256": "a47ea1b58beee6d8a11a70124c6a90196040b704d83c3f2b3439d0b5c79d5f9a"
     },
     {
       "category": "actionscript",
@@ -38116,9 +38169,62 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Боевой интерфейс: создание и выбор девяти типов самоцветов, совмещение и дублирование.",
+        "context_confidence": "confirmed",
+        "notes": "Полная адресная ветка m630: сохраняет условия доступности, цены, уровень и клавиши. Alegreya назначается до измерения и восстанавливается после каждого выбранного поля.",
+        "status": "draft",
+        "translation": "Клик — создать самоцвет"
       },
       "source_sha256": "36f39f2f6428b2f3577f8ac6198638e296ba1f18dc5a27cd4f56a98a00a5518f"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.1617",
+      "location": {
+        "abc_byte_offset": 1189155,
+        "code_offset": 1617,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10721,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой интерфейс: создание и выбор девяти типов самоцветов, совмещение и дублирование.",
+        "context_confidence": "confirmed",
+        "notes": "Полная адресная ветка m630: сохраняет условия доступности, цены, уровень и клавиши. Alegreya назначается до измерения и восстанавливается после каждого выбранного поля.",
+        "status": "draft",
+        "translation": "Уровень самоцвета: "
+      },
+      "source_sha256": "01083f00f7c0f48d84f497b88db331fa6bdd5dd1e863ee17ace13a48da205f36"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.1633",
+      "location": {
+        "abc_byte_offset": 1189171,
+        "code_offset": 1633,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10722,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой интерфейс: создание и выбор девяти типов самоцветов, совмещение и дублирование.",
+        "context_confidence": "confirmed",
+        "notes": "Полная адресная ветка m630: сохраняет условия доступности, цены, уровень и клавиши. Alegreya назначается до измерения и восстанавливается после каждого выбранного поля.",
+        "status": "draft",
+        "translation": "\nЗатраты маны: "
+      },
+      "source_sha256": "a47ea1b58beee6d8a11a70124c6a90196040b704d83c3f2b3439d0b5c79d5f9a"
     },
     {
       "category": "actionscript",
@@ -38428,7 +38534,12 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Боевой интерфейс: создание и выбор девяти типов самоцветов, совмещение и дублирование.",
+        "context_confidence": "confirmed",
+        "notes": "Полная адресная ветка m630: сохраняет условия доступности, цены, уровень и клавиши. Alegreya назначается до измерения и восстанавливается после каждого выбранного поля.",
+        "status": "draft",
+        "translation": "Отпустите самоцвет для дублирования"
       },
       "source_sha256": "8f31f718efbf0153e4898d861c07e36eeceddd8a43979a32901795bc32287534"
     },
@@ -38571,6 +38682,30 @@
         "translation": "Текущая стоимость в мане: "
       },
       "source_sha256": "29b0789532364822f919ed545f625d80ef26912dfd9b8575c643bcbc9341f451"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.2142",
+      "location": {
+        "abc_byte_offset": 1189680,
+        "code_offset": 2142,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10727,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой интерфейс: создание и выбор девяти типов самоцветов, совмещение и дублирование.",
+        "context_confidence": "confirmed",
+        "notes": "Полная адресная ветка m630: сохраняет условия доступности, цены, уровень и клавиши. Alegreya назначается до измерения и восстанавливается после каждого выбранного поля.",
+        "status": "draft",
+        "translation": "Затраты маны: "
+      },
+      "source_sha256": "a229487e43c8bf20376510627691ec47bb7ea9c7776030d53e38f52843690547"
     },
     {
       "category": "actionscript",
@@ -38750,7 +38885,12 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Боевой интерфейс: создание и выбор девяти типов самоцветов, совмещение и дублирование.",
+        "context_confidence": "confirmed",
+        "notes": "Полная адресная ветка m630: сохраняет условия доступности, цены, уровень и клавиши. Alegreya назначается до измерения и восстанавливается после каждого выбранного поля.",
+        "status": "draft",
+        "translation": "Недостаточно маны для дублирования самоцвета"
       },
       "source_sha256": "a3cb3d5ee872f5086381396a32ccbe031b36b5ebc9bc6d6cfd380f6465e1b286"
     },
@@ -38845,6 +38985,30 @@
         "translation": "Удерживайте Shift, чтобы построить несколько усилителей."
       },
       "source_sha256": "e3d9722303b2a225c45f367b4b5a6f12f798d422031e56075a3472992a75c655"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.2187",
+      "location": {
+        "abc_byte_offset": 1189725,
+        "code_offset": 2187,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10727,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой интерфейс: создание и выбор девяти типов самоцветов, совмещение и дублирование.",
+        "context_confidence": "confirmed",
+        "notes": "Полная адресная ветка m630: сохраняет условия доступности, цены, уровень и клавиши. Alegreya назначается до измерения и восстанавливается после каждого выбранного поля.",
+        "status": "draft",
+        "translation": "Затраты маны: "
+      },
+      "source_sha256": "a229487e43c8bf20376510627691ec47bb7ea9c7776030d53e38f52843690547"
     },
     {
       "category": "actionscript",
@@ -39326,9 +39490,206 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Боевой интерфейс: создание и выбор девяти типов самоцветов, совмещение и дублирование.",
+        "context_confidence": "confirmed",
+        "notes": "Полная адресная ветка m630: сохраняет условия доступности, цены, уровень и клавиши. Alegreya назначается до измерения и восстанавливается после каждого выбранного поля.",
+        "status": "draft",
+        "translation": "Совместить самоцветы"
       },
       "source_sha256": "04e5c3a10c3a48315d9afe3dad96f24bf6cead2fc4881eb86e4ea992dff7b83a"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.22505",
+      "location": {
+        "abc_byte_offset": 1210043,
+        "code_offset": 22505,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10955,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой интерфейс: создание и выбор девяти типов самоцветов, совмещение и дублирование.",
+        "context_confidence": "confirmed",
+        "notes": "Полная адресная ветка m630: сохраняет условия доступности, цены, уровень и клавиши. Alegreya назначается до измерения и восстанавливается после каждого выбранного поля.",
+        "status": "draft",
+        "translation": "Клавиша: G"
+      },
+      "source_sha256": "675770f63a3b3ba7326a496473697afeea8a22a88cac14929c2c94ac73f7a69a"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.22519",
+      "location": {
+        "abc_byte_offset": 1210057,
+        "code_offset": 22519,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10956,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой интерфейс: создание и выбор девяти типов самоцветов, совмещение и дублирование.",
+        "context_confidence": "confirmed",
+        "notes": "Полная адресная ветка m630: сохраняет условия доступности, цены, уровень и клавиши. Alegreya назначается до измерения и восстанавливается после каждого выбранного поля.",
+        "status": "draft",
+        "translation": "Совмещайте самоцветы, чтобы получить более мощные. Лучший результат дают самоцветы одного уровня."
+      },
+      "source_sha256": "f98e4be4add71732516ff8a629a3a4a06fbab4e3eed493bdc338ff97fee0ae6d"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.22533",
+      "location": {
+        "abc_byte_offset": 1210071,
+        "code_offset": 22533,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10957,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой интерфейс: создание и выбор девяти типов самоцветов, совмещение и дублирование.",
+        "context_confidence": "confirmed",
+        "notes": "Полная адресная ветка m630: сохраняет условия доступности, цены, уровень и клавиши. Alegreya назначается до измерения и восстанавливается после каждого выбранного поля.",
+        "status": "draft",
+        "translation": "Удерживая Shift, кликните по самоцвету, чтобы совместить все самоцветы того же уровня в инвентаре."
+      },
+      "source_sha256": "cbf95fcd505d8325b13ecbfe2fcee078d172e580450ac3a81f7af27aa988392e"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.22573",
+      "location": {
+        "abc_byte_offset": 1210111,
+        "code_offset": 22573,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10727,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой интерфейс: создание и выбор девяти типов самоцветов, совмещение и дублирование.",
+        "context_confidence": "confirmed",
+        "notes": "Полная адресная ветка m630: сохраняет условия доступности, цены, уровень и клавиши. Alegreya назначается до измерения и восстанавливается после каждого выбранного поля.",
+        "status": "draft",
+        "translation": "Затраты маны: "
+      },
+      "source_sha256": "a229487e43c8bf20376510627691ec47bb7ea9c7776030d53e38f52843690547"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.22588",
+      "location": {
+        "abc_byte_offset": 1210126,
+        "code_offset": 22588,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10934,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой интерфейс: создание и выбор девяти типов самоцветов, совмещение и дублирование.",
+        "context_confidence": "confirmed",
+        "notes": "Полная адресная ветка m630: сохраняет условия доступности, цены, уровень и клавиши. Alegreya назначается до измерения и восстанавливается после каждого выбранного поля.",
+        "status": "draft",
+        "translation": "\n\nНедостаточно маны"
+      },
+      "source_sha256": "9076d698f4697b2e29e8dc62c5a13b13820f1109eb27a92b70b8025e73cb2f6f"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.22607",
+      "location": {
+        "abc_byte_offset": 1210145,
+        "code_offset": 22607,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10727,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой интерфейс: создание и выбор девяти типов самоцветов, совмещение и дублирование.",
+        "context_confidence": "confirmed",
+        "notes": "Полная адресная ветка m630: сохраняет условия доступности, цены, уровень и клавиши. Alegreya назначается до измерения и восстанавливается после каждого выбранного поля.",
+        "status": "draft",
+        "translation": "Затраты маны: "
+      },
+      "source_sha256": "a229487e43c8bf20376510627691ec47bb7ea9c7776030d53e38f52843690547"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.23211",
+      "location": {
+        "abc_byte_offset": 1210749,
+        "code_offset": 23211,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10959,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой интерфейс: создание и выбор девяти типов самоцветов, совмещение и дублирование.",
+        "context_confidence": "confirmed",
+        "notes": "Полная адресная ветка m630: сохраняет условия доступности, цены, уровень и клавиши. Alegreya назначается до измерения и восстанавливается после каждого выбранного поля.",
+        "status": "draft",
+        "translation": "Создать самоцвет подавления"
+      },
+      "source_sha256": "79906ba92dd636603987bdf201e84c80f9e326ea40c7beef429e5cd935654c7f"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.23281",
+      "location": {
+        "abc_byte_offset": 1210819,
+        "code_offset": 23281,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10960,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой интерфейс: создание и выбор девяти типов самоцветов, совмещение и дублирование.",
+        "context_confidence": "confirmed",
+        "notes": "Полная адресная ветка m630: сохраняет условия доступности, цены, уровень и клавиши. Alegreya назначается до измерения и восстанавливается после каждого выбранного поля.",
+        "status": "draft",
+        "translation": "Навсегда снижает регенерацию здоровья цели, минуя щит"
+      },
+      "source_sha256": "18f3bce2e7795e208a0a85b8fe22e6bbbbf38da686e5a8439840b36e561240b6"
     },
     {
       "category": "actionscript",
@@ -39345,9 +39706,62 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Боевой интерфейс: создание и выбор девяти типов самоцветов, совмещение и дублирование.",
+        "context_confidence": "confirmed",
+        "notes": "Полная адресная ветка m630: сохраняет условия доступности, цены, уровень и клавиши. Alegreya назначается до измерения и восстанавливается после каждого выбранного поля.",
+        "status": "draft",
+        "translation": "Клавиша: Num 6"
       },
       "source_sha256": "9696cc034367acd1b36aa19272b3174329d639e26bd7d26e89c19aab073063b3"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.23374",
+      "location": {
+        "abc_byte_offset": 1210912,
+        "code_offset": 23374,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10962,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой интерфейс: создание и выбор девяти типов самоцветов, совмещение и дублирование.",
+        "context_confidence": "confirmed",
+        "notes": "Полная адресная ветка m630: сохраняет условия доступности, цены, уровень и клавиши. Alegreya назначается до измерения и восстанавливается после каждого выбранного поля.",
+        "status": "draft",
+        "translation": "Создать самоцвет критического удара"
+      },
+      "source_sha256": "5f6195beed4502c41d0580437b8ff4d09324e81bd11ad466dadd8e4750d8ffc7"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.23444",
+      "location": {
+        "abc_byte_offset": 1210982,
+        "code_offset": 23444,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10963,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой интерфейс: создание и выбор девяти типов самоцветов, совмещение и дублирование.",
+        "context_confidence": "confirmed",
+        "notes": "Полная адресная ветка m630: сохраняет условия доступности, цены, уровень и клавиши. Alegreya назначается до измерения и восстанавливается после каждого выбранного поля.",
+        "status": "draft",
+        "translation": "Каждый выстрел может нанести урон с множителем"
+      },
+      "source_sha256": "35d63f5ed70bffac01fcb98ee742b2452f1459289439ca4bab3bbc04886cb0c1"
     },
     {
       "category": "actionscript",
@@ -39364,9 +39778,62 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Боевой интерфейс: создание и выбор девяти типов самоцветов, совмещение и дублирование.",
+        "context_confidence": "confirmed",
+        "notes": "Полная адресная ветка m630: сохраняет условия доступности, цены, уровень и клавиши. Alegreya назначается до измерения и восстанавливается после каждого выбранного поля.",
+        "status": "draft",
+        "translation": "Клавиша: Num 8"
       },
       "source_sha256": "7663e469e4300202d12518593a6cf2e1933eaacc6856fead8aea74789c17a0ec"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.23537",
+      "location": {
+        "abc_byte_offset": 1211075,
+        "code_offset": 23537,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10965,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой интерфейс: создание и выбор девяти типов самоцветов, совмещение и дублирование.",
+        "context_confidence": "confirmed",
+        "notes": "Полная адресная ветка m630: сохраняет условия доступности, цены, уровень и клавиши. Alegreya назначается до измерения и восстанавливается после каждого выбранного поля.",
+        "status": "draft",
+        "translation": "Создать самоцвет связи с бассейном"
+      },
+      "source_sha256": "a7e706d7b0cefb9e72e4efcff508682750326fd5c0d209c6ca3ab448e47ea10c"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.23607",
+      "location": {
+        "abc_byte_offset": 1211145,
+        "code_offset": 23607,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10966,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой интерфейс: создание и выбор девяти типов самоцветов, совмещение и дублирование.",
+        "context_confidence": "confirmed",
+        "notes": "Полная адресная ветка m630: сохраняет условия доступности, цены, уровень и клавиши. Alegreya назначается до измерения и восстанавливается после каждого выбранного поля.",
+        "status": "draft",
+        "translation": "Урон и эффекты самоцвета растут с уровнем бассейна маны"
+      },
+      "source_sha256": "8b69e2cf97b31e4f761195111873abb26306464ef48123cd29c0fac2c7609297"
     },
     {
       "category": "actionscript",
@@ -39383,9 +39850,62 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Боевой интерфейс: создание и выбор девяти типов самоцветов, совмещение и дублирование.",
+        "context_confidence": "confirmed",
+        "notes": "Полная адресная ветка m630: сохраняет условия доступности, цены, уровень и клавиши. Alegreya назначается до измерения и восстанавливается после каждого выбранного поля.",
+        "status": "draft",
+        "translation": "Клавиша: Num 9"
       },
       "source_sha256": "4e5142d7e8329ae730a14668fc147ad781ed7ff59ccb523d865da17597828de9"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.23700",
+      "location": {
+        "abc_byte_offset": 1211238,
+        "code_offset": 23700,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10968,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой интерфейс: создание и выбор девяти типов самоцветов, совмещение и дублирование.",
+        "context_confidence": "confirmed",
+        "notes": "Полная адресная ветка m630: сохраняет условия доступности, цены, уровень и клавиши. Alegreya назначается до измерения и восстанавливается после каждого выбранного поля.",
+        "status": "draft",
+        "translation": "Создать самоцвет цепного удара"
+      },
+      "source_sha256": "f8a0cd289784ec756d7ae3eeaf4d81ac8e02cd4a64ab9a4807c711e82415ff80"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.23770",
+      "location": {
+        "abc_byte_offset": 1211308,
+        "code_offset": 23770,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10969,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой интерфейс: создание и выбор девяти типов самоцветов, совмещение и дублирование.",
+        "context_confidence": "confirmed",
+        "notes": "Полная адресная ветка m630: сохраняет условия доступности, цены, уровень и клавиши. Alegreya назначается до измерения и восстанавливается после каждого выбранного поля.",
+        "status": "draft",
+        "translation": "Каждый выстрел может поразить несколько близких целей"
+      },
+      "source_sha256": "db5619a536e603e4fd5057a7814403bab86d4cbdb3b3a92afe43deb26e17311c"
     },
     {
       "category": "actionscript",
@@ -39402,9 +39922,62 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Боевой интерфейс: создание и выбор девяти типов самоцветов, совмещение и дублирование.",
+        "context_confidence": "confirmed",
+        "notes": "Полная адресная ветка m630: сохраняет условия доступности, цены, уровень и клавиши. Alegreya назначается до измерения и восстанавливается после каждого выбранного поля.",
+        "status": "draft",
+        "translation": "Клавиша: Num 4"
       },
       "source_sha256": "864dca0ec4903375087441412ef3fcdb76c4163cd24baf0bbd406fec56a389ec"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.23863",
+      "location": {
+        "abc_byte_offset": 1211401,
+        "code_offset": 23863,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10971,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой интерфейс: создание и выбор девяти типов самоцветов, совмещение и дублирование.",
+        "context_confidence": "confirmed",
+        "notes": "Полная адресная ветка m630: сохраняет условия доступности, цены, уровень и клавиши. Alegreya назначается до измерения и восстанавливается после каждого выбранного поля.",
+        "status": "draft",
+        "translation": "Создать ядовитый самоцвет"
+      },
+      "source_sha256": "fa4ec9a8c69a767a720045769832a0d3e552927ba27b8f82276a382641ce414e"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.23933",
+      "location": {
+        "abc_byte_offset": 1211471,
+        "code_offset": 23933,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10972,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой интерфейс: создание и выбор девяти типов самоцветов, совмещение и дублирование.",
+        "context_confidence": "confirmed",
+        "notes": "Полная адресная ветка m630: сохраняет условия доступности, цены, уровень и клавиши. Alegreya назначается до измерения и восстанавливается после каждого выбранного поля.",
+        "status": "draft",
+        "translation": "Яд наносит дополнительный урон со временем, игнорируя броню и щит"
+      },
+      "source_sha256": "79de53b0115872b8b2451d819b5cb22dc774586e1f9282367f3d9482b4cdbf65"
     },
     {
       "category": "actionscript",
@@ -39421,9 +39994,62 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Боевой интерфейс: создание и выбор девяти типов самоцветов, совмещение и дублирование.",
+        "context_confidence": "confirmed",
+        "notes": "Полная адресная ветка m630: сохраняет условия доступности, цены, уровень и клавиши. Alegreya назначается до измерения и восстанавливается после каждого выбранного поля.",
+        "status": "draft",
+        "translation": "Клавиша: Num 5"
       },
       "source_sha256": "bd756721d49cef0c1d3305517358f0b6c751983c67cf8450adfd0876465bf5b6"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.24026",
+      "location": {
+        "abc_byte_offset": 1211564,
+        "code_offset": 24026,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10974,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой интерфейс: создание и выбор девяти типов самоцветов, совмещение и дублирование.",
+        "context_confidence": "confirmed",
+        "notes": "Полная адресная ветка m630: сохраняет условия доступности, цены, уровень и клавиши. Alegreya назначается до измерения и восстанавливается после каждого выбранного поля.",
+        "status": "draft",
+        "translation": "Создать замедляющий самоцвет"
+      },
+      "source_sha256": "4ef6dd3d33111d4670f3655d109e539d7a0ddf4d5313077f39cf1ea32150bf08"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.24096",
+      "location": {
+        "abc_byte_offset": 1211634,
+        "code_offset": 24096,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10975,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой интерфейс: создание и выбор девяти типов самоцветов, совмещение и дублирование.",
+        "context_confidence": "confirmed",
+        "notes": "Полная адресная ветка m630: сохраняет условия доступности, цены, уровень и клавиши. Alegreya назначается до измерения и восстанавливается после каждого выбранного поля.",
+        "status": "draft",
+        "translation": "Каждое попадание ненадолго замедляет цель"
+      },
+      "source_sha256": "2ca6de0cb018441994c0497bb3a2d41cb6d3204df27f7a3f11d38c76db263111"
     },
     {
       "category": "actionscript",
@@ -39440,9 +40066,62 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Боевой интерфейс: создание и выбор девяти типов самоцветов, совмещение и дублирование.",
+        "context_confidence": "confirmed",
+        "notes": "Полная адресная ветка m630: сохраняет условия доступности, цены, уровень и клавиши. Alegreya назначается до измерения и восстанавливается после каждого выбранного поля.",
+        "status": "draft",
+        "translation": "Клавиша: Num 2"
       },
       "source_sha256": "252f328359179a0d3a977c6304e22f5fe463fe643626f0055fe6be0cfcff6148"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.24189",
+      "location": {
+        "abc_byte_offset": 1211727,
+        "code_offset": 24189,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10977,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой интерфейс: создание и выбор девяти типов самоцветов, совмещение и дублирование.",
+        "context_confidence": "confirmed",
+        "notes": "Полная адресная ветка m630: сохраняет условия доступности, цены, уровень и клавиши. Alegreya назначается до измерения и восстанавливается после каждого выбранного поля.",
+        "status": "draft",
+        "translation": "Создать самоцвет кровной связи"
+      },
+      "source_sha256": "4d1e267c22c9a3d5d2bae94e7072fe7e5306bbb7d2068fa0d39b84a5f95f98cd"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.24259",
+      "location": {
+        "abc_byte_offset": 1211797,
+        "code_offset": 24259,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10978,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой интерфейс: создание и выбор девяти типов самоцветов, совмещение и дублирование.",
+        "context_confidence": "confirmed",
+        "notes": "Полная адресная ветка m630: сохраняет условия доступности, цены, уровень и клавиши. Alegreya назначается до измерения и восстанавливается после каждого выбранного поля.",
+        "status": "draft",
+        "translation": "Урон и эффекты самоцвета растут с числом его попаданий"
+      },
+      "source_sha256": "9db97c9d03e6a0c56b26ba97c0c4e961c4e6bc1fb12ceb6edbd02465cc2df485"
     },
     {
       "category": "actionscript",
@@ -39459,9 +40138,62 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Боевой интерфейс: создание и выбор девяти типов самоцветов, совмещение и дублирование.",
+        "context_confidence": "confirmed",
+        "notes": "Полная адресная ветка m630: сохраняет условия доступности, цены, уровень и клавиши. Alegreya назначается до измерения и восстанавливается после каждого выбранного поля.",
+        "status": "draft",
+        "translation": "Клавиша: Num 1"
       },
       "source_sha256": "dcfe9176c1c12d9873a5b0ddd6f96de2cf3a23c366f636fd760f14d6cbcd533c"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.24352",
+      "location": {
+        "abc_byte_offset": 1211890,
+        "code_offset": 24352,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10980,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой интерфейс: создание и выбор девяти типов самоцветов, совмещение и дублирование.",
+        "context_confidence": "confirmed",
+        "notes": "Полная адресная ветка m630: сохраняет условия доступности, цены, уровень и клавиши. Alegreya назначается до измерения и восстанавливается после каждого выбранного поля.",
+        "status": "draft",
+        "translation": "Создать самоцвет поглощения маны"
+      },
+      "source_sha256": "63cba9e40be61910a4b7491d1b93a854cf98a798d4bf5a659b0eae389b0476d6"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.24422",
+      "location": {
+        "abc_byte_offset": 1211960,
+        "code_offset": 24422,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10981,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой интерфейс: создание и выбор девяти типов самоцветов, совмещение и дублирование.",
+        "context_confidence": "confirmed",
+        "notes": "Полная адресная ветка m630: сохраняет условия доступности, цены, уровень и клавиши. Alegreya назначается до измерения и восстанавливается после каждого выбранного поля.",
+        "status": "draft",
+        "translation": "Извлекает ману из цели при попадании"
+      },
+      "source_sha256": "6832778bf0de1068965a9860e0da0adbb903e8c9d7dd0b3823de862a32468b6a"
     },
     {
       "category": "actionscript",
@@ -39478,9 +40210,62 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Боевой интерфейс: создание и выбор девяти типов самоцветов, совмещение и дублирование.",
+        "context_confidence": "confirmed",
+        "notes": "Полная адресная ветка m630: сохраняет условия доступности, цены, уровень и клавиши. Alegreya назначается до измерения и восстанавливается после каждого выбранного поля.",
+        "status": "draft",
+        "translation": "Клавиша: Num 7"
       },
       "source_sha256": "a7c3f58f6105f9556653ed48212a95fa4737eb10fca38fba530195cde0cc527d"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.24515",
+      "location": {
+        "abc_byte_offset": 1212053,
+        "code_offset": 24515,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10983,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой интерфейс: создание и выбор девяти типов самоцветов, совмещение и дублирование.",
+        "context_confidence": "confirmed",
+        "notes": "Полная адресная ветка m630: сохраняет условия доступности, цены, уровень и клавиши. Alegreya назначается до измерения и восстанавливается после каждого выбранного поля.",
+        "status": "draft",
+        "translation": "Создать самоцвет разрушения брони"
+      },
+      "source_sha256": "d79f78b48fa2a68f2cb4c658c24eb93fdc2d4ee0ef7f1296e19e71b31d9ad3e5"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.24585",
+      "location": {
+        "abc_byte_offset": 1212123,
+        "code_offset": 24585,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10984,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой интерфейс: создание и выбор девяти типов самоцветов, совмещение и дублирование.",
+        "context_confidence": "confirmed",
+        "notes": "Полная адресная ветка m630: сохраняет условия доступности, цены, уровень и клавиши. Alegreya назначается до измерения и восстанавливается после каждого выбранного поля.",
+        "status": "draft",
+        "translation": "Каждое попадание снижает уровень брони цели"
+      },
+      "source_sha256": "f670570a470aa414e3a63e645602c25a64fd97fac8269ebdae635d2e6fa936cb"
     },
     {
       "category": "actionscript",
@@ -39497,9 +40282,62 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Боевой интерфейс: создание и выбор девяти типов самоцветов, совмещение и дублирование.",
+        "context_confidence": "confirmed",
+        "notes": "Полная адресная ветка m630: сохраняет условия доступности, цены, уровень и клавиши. Alegreya назначается до измерения и восстанавливается после каждого выбранного поля.",
+        "status": "draft",
+        "translation": "Клавиша: Num 3"
       },
       "source_sha256": "c21ce8b9141334aa9e88d5028dadc277f751bdee8aec3ac14cd6a9a8f8d7a018"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.24907",
+      "location": {
+        "abc_byte_offset": 1212445,
+        "code_offset": 24907,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10986,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой интерфейс: создание и выбор девяти типов самоцветов, совмещение и дублирование.",
+        "context_confidence": "confirmed",
+        "notes": "Полная адресная ветка m630: сохраняет условия доступности, цены, уровень и клавиши. Alegreya назначается до измерения и восстанавливается после каждого выбранного поля.",
+        "status": "draft",
+        "translation": "Уровень и стоимость самоцвета зависят от ряда инвентаря, в котором вы его создаёте.\nЧем выше уровень, тем мощнее самоцвет.\n\nКликните здесь и наведите курсор на инвентарь для подробностей."
+      },
+      "source_sha256": "ed686ef8767c1611e94b962df43f5b4de04bda2d1a8a1547b16c8124562a5f31"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.24921",
+      "location": {
+        "abc_byte_offset": 1212459,
+        "code_offset": 24921,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10987,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Боевой интерфейс: создание и выбор девяти типов самоцветов, совмещение и дублирование.",
+        "context_confidence": "confirmed",
+        "notes": "Полная адресная ветка m630: сохраняет условия доступности, цены, уровень и клавиши. Alegreya назначается до измерения и восстанавливается после каждого выбранного поля.",
+        "status": "draft",
+        "translation": "Выберите заклинание и кликайте по инвентарю, удерживая Shift, чтобы создать несколько самоцветов.\n\nВыберите заклинание и кликните по инвентарю, удерживая Ctrl/Cmd, чтобы создать самоцветы во всех пустых ячейках."
+      },
+      "source_sha256": "a8b568fe71067dde9bef5f6541a4ba1dd4d4c077a488177df5d143651715c8ce"
     },
     {
       "category": "actionscript",
