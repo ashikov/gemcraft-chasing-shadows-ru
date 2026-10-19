@@ -239,3 +239,42 @@ def test_gem_color_symbols_need_the_complete_reviewed_table(change):
     entries = extract(gem_color_abc(**change))['entries']
     uses = [entry for entry in entries if 'method_index' in entry['location']]
     assert all(entry['classification'] == 'technical' for entry in uses)
+
+
+def building_caption_entries(offset=4239, source='Wall', *, owner='IngameInfoPanelRenderer',
+                             method='renderInfoPanel', receiver=b'\xd1',
+                             color=203, call=b'\x4f\2\2'):
+    from abc_inventory import ABCInventory
+
+    inventory = ABCInventory(b'', {'tag_path': [3], 'tag_code': 82})
+    inventory.strings = ['', source, 'addTextfield']
+    inventory.multinames = [None, {'name': 1}, {'name': 2}]
+    inventory.symbols = {1: {'multiname'}}
+    inventory.method_labels[0] = [{'owner': owner, 'method': method}]
+    prefix = receiver + b'\x2d' + u30(color)
+    code = b'\x02' * (offset - len(prefix)) + prefix + b'\x2c\1' + call + b'\x47'
+    inventory.body_entries(code, 0, 0)
+    return inventory.entries
+
+
+@pytest.mark.parametrize(('offset', 'source'), [
+    (4239, 'Wall'), (5044, 'Tower'), (5173, 'Tower'),
+    (5261, 'Tower'), (6477, 'Amplifier'), (7033, 'Trap'),
+])
+def test_reviewed_building_headings_promote_only_addressed_display_uses(offset, source):
+    entry, = building_caption_entries(offset, source)
+    assert entry['classification'] == 'probable'
+    assert entry['context_confidence'] != 'confirmed'
+    assert entry['location']['code_offset'] == offset
+    assert 'building caption' in entry['context']
+
+
+@pytest.mark.parametrize('change', [
+    {'offset': 4240}, {'source': 'Tower'}, {'owner': 'OtherRenderer'},
+    {'method': 'otherMethod'}, {'receiver': b'\xd0'}, {'color': 204},
+    {'call': b'\x4f\2\3'}, {'call': b'\x4f\1\2'},
+    {'call': b'\x10\0\0\0\x4f\2\2'},
+])
+def test_building_symbols_stay_technical_without_exact_reviewed_caption_guards(change):
+    entry, = building_caption_entries(**change)
+    assert entry['classification'] == 'technical'

@@ -1,6 +1,7 @@
 """Opt-in HUD checks against existing private build artifacts; never starts the game."""
 import json
 import os
+import struct
 import subprocess
 from collections import Counter
 from pathlib import Path
@@ -8,6 +9,7 @@ from pathlib import Path
 import pytest
 
 from abc_font_binding import _bodies
+from abc_inventory import ABCReader
 from abc_patch import patch_pushstrings
 from addressed_localization import check_layout
 from install_patch import ORIGINAL_SHA256, sha
@@ -405,6 +407,53 @@ def test_hud_reachable_whole_panel_height_comparison(hud_artifacts):
     original_inventory = abc_inventory(original_abc)
     operations = original_inventory.instructions(_bodies(original_abc)[548][3], 548)
     by_offset = {offset: index for index, (offset, _, _) in enumerate(operations)}
+    # m3540 derives projectorZoom from the stage, rather than a discrete Prefs
+    # option. These smaller stages justify representative zooms below one.
+    viewport_ops = {at: (op, args) for at, op, args in original_inventory.instructions(
+        _bodies(original_abc)[3540][3], 3540)}
+    assert {at: viewport_ops[at] for at in (46, 54, 354, 357, 360, 361, 362,
+                                          365, 368, 369, 370, 374)} == {
+        46: (0x25, [1088]), 54: (0x25, [612]), 354: (0x60, [5262]),
+        357: (0x66, [5263]), 360: (0xd2, []), 361: (0xa3, []),
+        362: (0x60, [5262]), 365: (0x66, [5264]), 368: (0xd3, []),
+        369: (0xa3, []), 370: (0x46, [5268, 2]), 374: (0x61, [4140])}
+    assert [original_inventory.multiname(index) for index in
+            (5262, 5263, 5264, 5268, 4140)] == [
+                'stage', 'stageWidth', 'stageHeight', 'min', 'projectorZoom']
+    render_ops = {at: (op, args) for at, op, args in original_inventory.instructions(
+        _bodies(original_abc)[3508][3], 3508)}
+    assert {at: render_ops[at] for at in (76, 79, 81, 82, 89, 93, 97, 102,
+                                        105, 106, 108, 109, 251, 254, 255, 256,
+                                        993, 998, 1001, 1005, 1012)} == {
+        76: (0x66, [4140]), 79: (0x24, [1]), 81: (0xae, []),
+        82: (0x12, [11]), 89: (0x66, [4140]), 93: (0x10, [14]),
+        97: (0x24, [1]), 102: (0x66, [4140]), 105: (0x93, []),
+        106: (0x2f, [9]), 108: (0xa2, []), 109: (0xa0, []),
+        251: (0x66, [3710]), 254: (0xd1, []), 255: (0xa2, []),
+        256: (0x61, [3710]), 993: (0x24, [1]), 998: (0x66, [4140]),
+        1001: (0xa3, []), 1005: (0x61, [5399]), 1012: (0x61, [5400])}
+    reader = ABCReader(original_abc)
+    reader.take(4)
+    for _ in range(2):
+        for _ in range(1, reader.count()):
+            reader.encoded(32)
+    doubles = [None] + [struct.unpack('<d', reader.take(8))[0]
+                        for _ in range(1, reader.count())]
+    assert doubles[9] == 0.5
+    position_ops = {at: (op, args) for at, op, args in original_inventory.instructions(
+        _bodies(original_abc)[3507][3], 3507)}
+    assert {at: position_ops[at] for at in (295, 302, 327, 430, 434, 437,
+                                          438, 440, 441, 445)} == {
+        295: (0x24, [58]), 302: (0x24, [58]), 327: (0x61, [1303]),
+        430: (0x25, [612]), 434: (0x66, [5360]), 437: (0xa1, []),
+        438: (0x24, [10]), 440: (0xa1, []), 441: (0x46, [5268, 2]),
+        445: (0x61, [1303])}
+    # m3507 first clamps to y>=58 during battle, then y<=612-height-10.
+    # m3508 renders at z>=1 ? z : 1+(z-1)*0.5, then applies scaleY=1/z.
+    thresholds = (544, 602)
+    stages = ((1088, 612), (816, 459), (544, 306))
+    zooms = tuple(min(width / 1088, height / 612) for width, height in stages)
+    assert zooms == (1, 0.75, 0.5)
     constants = original_inventory.instructions(_bodies(original_abc)[1533][3], 1533)
     constants = {offset: (opcode, args) for offset, opcode, args in constants}
     assert constants[81] == (0x24, [5]) and constants[83] == (0x61, [5015])
@@ -496,13 +545,24 @@ def test_hud_reachable_whole_panel_height_comparison(hud_artifacts):
                                         text, size, compact = row
                                         next_y += height(face, text, size) + (-3 if compact else 9)
                                 heights[face] = next_y + 8
+                            comparisons = []
+                            for zoom in zooms:
+                                factor = 1 if zoom >= 1 else (1 + zoom) / (2 * zoom)
+                                scaled = {face: value * factor for face, value in heights.items()}
+                                for threshold in thresholds:
+                                    comparison = {
+                                        'zoom': zoom, 'threshold_px': threshold,
+                                        'height_px': scaled,
+                                        'new_overflow': scaled['original'] <= threshold < scaled['candidate']}
+                                    comparisons.append(comparison)
+                                    if comparison['new_overflow']:
+                                        regressions.append({**descriptor, **comparison})
                             record = {**descriptor, 'height_px_at_zoom_1': heights,
-                                      'new_viewport_overflow': heights['original'] <= 544 < heights['candidate']}
+                                      'threshold_comparisons': comparisons}
                             evidence.append(record)
-                            if record['new_viewport_overflow']:
-                                regressions.append(record)
     (root / 'panel-height-evidence.json').write_text(json.dumps({
         'candidate_sha256': sha(candidate), 'samples': evidence, 'new_overflows': regressions,
+        'thresholds_px': thresholds, 'stage_sizes_px': stages, 'zooms': zooms,
         'model': 'Font ascent/descent/leading line boxes plus 4px gutters; m3504 compact -3 '
                  'or normal +9 and exact m548 extra-height branches. Representative moderate '
                  'numeric values; not upper limits. viewport 1088x612, usable y58..602. '
