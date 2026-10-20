@@ -41750,6 +41750,30 @@
     },
     {
       "category": "actionscript",
+      "id": "abc.4175.630.29559",
+      "location": {
+        "abc_byte_offset": 1217097,
+        "code_offset": 29559,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 7424,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель заклинания «Заморозка», адресный текстовый потребитель.",
+        "context_confidence": "confirmed",
+        "notes": "Параметры и заряд вычисляются оригинальным кодом. Клавиши и числовые склейки сохранены. Alegreya назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Заморозка"
+      },
+      "source_sha256": "509b1035c55fa2eb5475dd19d4066db6be98966c2cba7073a2cd5ca38768c017"
+    },
+    {
+      "category": "actionscript",
       "id": "abc.4175.630.29609",
       "location": {
         "abc_byte_offset": 1217147,
@@ -41763,7 +41787,12 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: панель заклинания «Заморозка», адресный текстовый потребитель.",
+        "context_confidence": "confirmed",
+        "notes": "Параметры и заряд вычисляются оригинальным кодом. Клавиши и числовые склейки сохранены. Alegreya назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Ударное заклинание"
       },
       "source_sha256": "318edb94f7980980a1681f728793d25dba07689cfc523dd4fda66c268fd0aa3a"
     },
@@ -41782,9 +41811,230 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: панель заклинания «Заморозка», адресный текстовый потребитель.",
+        "context_confidence": "confirmed",
+        "notes": "Параметры и заряд вычисляются оригинальным кодом. Клавиши и числовые склейки сохранены. Alegreya назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Временно обездвиживает всех задетых врагов\nУбитые замороженные монстры разлетаются осколками льда,\nнанося урон случайному врагу поблизости"
       },
       "source_sha256": "e587b50f6b791e293d2fad925561ba8f6819a4457e68056a2026c10b1f40d760"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.29708",
+      "location": {
+        "abc_byte_offset": 1217246,
+        "code_offset": 29708,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 11038,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель заклинания «Заморозка», адресный текстовый потребитель.",
+        "context_confidence": "confirmed",
+        "notes": "Параметры и заряд вычисляются оригинальным кодом. Клавиши и числовые склейки сохранены. Alegreya назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": " с — длительность заморозки"
+      },
+      "source_sha256": "29a64a5f8cf3270ab8533c8a16e6bc10181dd8c00ec02cdbca263f2774fc8279"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.29750",
+      "location": {
+        "abc_byte_offset": 1217288,
+        "code_offset": 29750,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 11039,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель заклинания «Заморозка», адресный текстовый потребитель.",
+        "context_confidence": "confirmed",
+        "notes": "Параметры и заряд вычисляются оригинальным кодом. Клавиши и числовые склейки сохранены. Alegreya назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": " кл. — радиус действия"
+      },
+      "source_sha256": "a913937de968ab14c5576cd45a74060fb24e2b9d8c388da00d615a7b93ee2cf9"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.29794",
+      "location": {
+        "abc_byte_offset": 1217332,
+        "code_offset": 29794,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 11040,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель заклинания «Заморозка», адресный текстовый потребитель.",
+        "context_confidence": "confirmed",
+        "notes": "Параметры и заряд вычисляются оригинальным кодом. Клавиши и числовые склейки сохранены. Alegreya назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "% к разрушению брони самоцветами при заморозке"
+      },
+      "source_sha256": "a1f9cf2141068534da7e0e7c9038fda58567c38a9d7b44a47eb261759dd92739"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.29816",
+      "location": {
+        "abc_byte_offset": 1217354,
+        "code_offset": 29816,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 11041,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель заклинания «Заморозка», адресный текстовый потребитель.",
+        "context_confidence": "confirmed",
+        "notes": "Параметры и заряд вычисляются оригинальным кодом. Клавиши и числовые склейки сохранены. Alegreya назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Урон взрыва трупа: "
+      },
+      "source_sha256": "8c6d8da381b1921773fdc9b72cfec8036fa0b8a15f9ed0f462be3cea91a67802"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.29838",
+      "location": {
+        "abc_byte_offset": 1217376,
+        "code_offset": 29838,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 11042,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель заклинания «Заморозка», адресный текстовый потребитель.",
+        "context_confidence": "confirmed",
+        "notes": "Параметры и заряд вычисляются оригинальным кодом. Клавиши и числовые склейки сохранены. Alegreya назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "% от максимального здоровья"
+      },
+      "source_sha256": "164e031f4357237fe9145e18cc40b52cf66e7471b1e5c2b1f8c40639842cea47"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.29880",
+      "location": {
+        "abc_byte_offset": 1217418,
+        "code_offset": 29880,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10814,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель заклинания «Заморозка», адресный текстовый потребитель.",
+        "context_confidence": "confirmed",
+        "notes": "Параметры и заряд вычисляются оригинальным кодом. Клавиши и числовые склейки сохранены. Alegreya назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Время зарядки: "
+      },
+      "source_sha256": "a67a84ae9352375cc340c0a45b32cfd8658d54466bec8c5222bd10da1f0faf1d"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.29904",
+      "location": {
+        "abc_byte_offset": 1217442,
+        "code_offset": 29904,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10376,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель заклинания «Заморозка», адресный текстовый потребитель.",
+        "context_confidence": "confirmed",
+        "notes": "Параметры и заряд вычисляются оригинальным кодом. Клавиши и числовые склейки сохранены. Alegreya назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": " с"
+      },
+      "source_sha256": "3489b52478843c24a40382ba9ac4cf2531de5975d22dcd583b0b569e26924d5e"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.29926",
+      "location": {
+        "abc_byte_offset": 1217464,
+        "code_offset": 29926,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10817,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель заклинания «Заморозка», адресный текстовый потребитель.",
+        "context_confidence": "confirmed",
+        "notes": "Параметры и заряд вычисляются оригинальным кодом. Клавиши и числовые склейки сохранены. Alegreya назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Текущий заряд: "
+      },
+      "source_sha256": "c43777f2115d4c9ad822df0bb0e917445662495e3e2a40585c16ffce72f388db"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.29973",
+      "location": {
+        "abc_byte_offset": 1217511,
+        "code_offset": 29973,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10816,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель заклинания «Заморозка», адресный текстовый потребитель.",
+        "context_confidence": "confirmed",
+        "notes": "Параметры и заряд вычисляются оригинальным кодом. Клавиши и числовые склейки сохранены. Alegreya назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Максимальный заряд: "
+      },
+      "source_sha256": "c2d925b1f932d27835a34e2c468ef210b2b289aa6b90b216522595e7dcf9972e"
     },
     {
       "category": "actionscript",
@@ -41801,9 +42051,38 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: панель заклинания «Заморозка», адресный текстовый потребитель.",
+        "context_confidence": "confirmed",
+        "notes": "Параметры и заряд вычисляются оригинальным кодом. Клавиши и числовые склейки сохранены. Alegreya назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Клавиша: 1"
       },
       "source_sha256": "61dadd394c02f69f9c140feffe4409cf0f34a7e34ec5d275ae645b81073eb643"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.30182",
+      "location": {
+        "abc_byte_offset": 1217720,
+        "code_offset": 30182,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 7411,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель заклинания «Проклятие», адресный текстовый потребитель.",
+        "context_confidence": "confirmed",
+        "notes": "Параметры и заряд вычисляются оригинальным кодом. Клавиши и числовые склейки сохранены. Alegreya назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Проклятие"
+      },
+      "source_sha256": "88b3d8eed54f6ff0f810aacca7226460fdb72ab34c99e5c4d002192a463a2e72"
     },
     {
       "category": "actionscript",
@@ -41820,7 +42099,12 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: панель заклинания «Проклятие», адресный текстовый потребитель.",
+        "context_confidence": "confirmed",
+        "notes": "Параметры и заряд вычисляются оригинальным кодом. Клавиши и числовые склейки сохранены. Alegreya назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Ударное заклинание"
       },
       "source_sha256": "318edb94f7980980a1681f728793d25dba07689cfc523dd4fda66c268fd0aa3a"
     },
@@ -41839,9 +42123,206 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: панель заклинания «Проклятие», адресный текстовый потребитель.",
+        "context_confidence": "confirmed",
+        "notes": "Параметры и заряд вычисляются оригинальным кодом. Клавиши и числовые склейки сохранены. Alegreya назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Ненадолго ослабляет всех задетых врагов"
       },
       "source_sha256": "32d943d67c7df5529ca76ba13924d5e7d24355e9fce451e330654abe9307e773"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.30331",
+      "location": {
+        "abc_byte_offset": 1217869,
+        "code_offset": 30331,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 11045,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель заклинания «Проклятие», адресный текстовый потребитель.",
+        "context_confidence": "confirmed",
+        "notes": "Параметры и заряд вычисляются оригинальным кодом. Клавиши и числовые склейки сохранены. Alegreya назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": " с — длительность проклятия"
+      },
+      "source_sha256": "dc97e34c64f5d3c34d507ffa8b74615c1edb2ad9bccc260b2961f88850d7c3e6"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.30373",
+      "location": {
+        "abc_byte_offset": 1217911,
+        "code_offset": 30373,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 11039,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель заклинания «Проклятие», адресный текстовый потребитель.",
+        "context_confidence": "confirmed",
+        "notes": "Параметры и заряд вычисляются оригинальным кодом. Клавиши и числовые склейки сохранены. Alegreya назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": " кл. — радиус действия"
+      },
+      "source_sha256": "a913937de968ab14c5576cd45a74060fb24e2b9d8c388da00d615a7b93ee2cf9"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.30395",
+      "location": {
+        "abc_byte_offset": 1217933,
+        "code_offset": 30395,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 11046,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель заклинания «Проклятие», адресный текстовый потребитель.",
+        "context_confidence": "confirmed",
+        "notes": "Параметры и заряд вычисляются оригинальным кодом. Клавиши и числовые склейки сохранены. Alegreya назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Выстрелы игнорируют "
+      },
+      "source_sha256": "eaf5f9a24f783984328394f11a01ae178b914ac00823c959befc6a4abbb66855"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.30417",
+      "location": {
+        "abc_byte_offset": 1217955,
+        "code_offset": 30417,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 11047,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель заклинания «Проклятие», адресный текстовый потребитель.",
+        "context_confidence": "confirmed",
+        "notes": "Параметры и заряд вычисляются оригинальным кодом. Клавиши и числовые склейки сохранены. Alegreya назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "% уровня брони"
+      },
+      "source_sha256": "e140bc05d28b11a23feb4150ca4a7b32ebdf5680d50c8cf4bccca40cb379f1a4"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.30461",
+      "location": {
+        "abc_byte_offset": 1217999,
+        "code_offset": 30461,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 11048,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель заклинания «Проклятие», адресный текстовый потребитель.",
+        "context_confidence": "confirmed",
+        "notes": "Параметры и заряд вычисляются оригинальным кодом. Клавиши и числовые склейки сохранены. Alegreya назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "% к получаемому урону"
+      },
+      "source_sha256": "8c5c6bc350268bce5915672e4d425f669a9d94c86427c0c9f820acab4de170bd"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.30505",
+      "location": {
+        "abc_byte_offset": 1218043,
+        "code_offset": 30505,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 11049,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель заклинания «Проклятие», адресный текстовый потребитель.",
+        "context_confidence": "confirmed",
+        "notes": "Параметры и заряд вычисляются оригинальным кодом. Клавиши и числовые склейки сохранены. Alegreya назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "% к получаемому урону от яда"
+      },
+      "source_sha256": "350423a90cad65fad3c29c6e9ada2a6a51f0b1b2080dde445fb259c688d73216"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.30527",
+      "location": {
+        "abc_byte_offset": 1218065,
+        "code_offset": 30527,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 11050,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель заклинания «Проклятие», адресный текстовый потребитель.",
+        "context_confidence": "confirmed",
+        "notes": "Параметры и заряд вычисляются оригинальным кодом. Клавиши и числовые склейки сохранены. Alegreya назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Замедление от самоцветов длится на "
+      },
+      "source_sha256": "4233f813ad5d2adf77550a4bee340abd6d0ac4eae536e2fc142fd57e40ec8899"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.30549",
+      "location": {
+        "abc_byte_offset": 1218087,
+        "code_offset": 30549,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 11051,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель заклинания «Проклятие», адресный текстовый потребитель.",
+        "context_confidence": "confirmed",
+        "notes": "Параметры и заряд вычисляются оригинальным кодом. Клавиши и числовые склейки сохранены. Alegreya назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "% дольше"
+      },
+      "source_sha256": "024db38dc2609afe59020950b0b9d6b211daa921451100853f3df3811fc082e4"
     },
     {
       "category": "actionscript",
@@ -41858,9 +42339,110 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: панель заклинания «Проклятие», адресный текстовый потребитель.",
+        "context_confidence": "confirmed",
+        "notes": "Параметры и заряд вычисляются оригинальным кодом. Клавиши и числовые склейки сохранены. Alegreya назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Эффекты маяков с вероятностью 75% не срабатывают на цели"
       },
       "source_sha256": "1bcc70ddd9b2d43238b4a7bf2b62f59a5b8ab6ad16542a2269ce0ec433f6b4a7"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.30612",
+      "location": {
+        "abc_byte_offset": 1218150,
+        "code_offset": 30612,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10814,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель заклинания «Проклятие», адресный текстовый потребитель.",
+        "context_confidence": "confirmed",
+        "notes": "Параметры и заряд вычисляются оригинальным кодом. Клавиши и числовые склейки сохранены. Alegreya назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Время зарядки: "
+      },
+      "source_sha256": "a67a84ae9352375cc340c0a45b32cfd8658d54466bec8c5222bd10da1f0faf1d"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.30636",
+      "location": {
+        "abc_byte_offset": 1218174,
+        "code_offset": 30636,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10376,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель заклинания «Проклятие», адресный текстовый потребитель.",
+        "context_confidence": "confirmed",
+        "notes": "Параметры и заряд вычисляются оригинальным кодом. Клавиши и числовые склейки сохранены. Alegreya назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": " с"
+      },
+      "source_sha256": "3489b52478843c24a40382ba9ac4cf2531de5975d22dcd583b0b569e26924d5e"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.30658",
+      "location": {
+        "abc_byte_offset": 1218196,
+        "code_offset": 30658,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10817,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель заклинания «Проклятие», адресный текстовый потребитель.",
+        "context_confidence": "confirmed",
+        "notes": "Параметры и заряд вычисляются оригинальным кодом. Клавиши и числовые склейки сохранены. Alegreya назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Текущий заряд: "
+      },
+      "source_sha256": "c43777f2115d4c9ad822df0bb0e917445662495e3e2a40585c16ffce72f388db"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.30705",
+      "location": {
+        "abc_byte_offset": 1218243,
+        "code_offset": 30705,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10816,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель заклинания «Проклятие», адресный текстовый потребитель.",
+        "context_confidence": "confirmed",
+        "notes": "Параметры и заряд вычисляются оригинальным кодом. Клавиши и числовые склейки сохранены. Alegreya назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Максимальный заряд: "
+      },
+      "source_sha256": "c2d925b1f932d27835a34e2c468ef210b2b289aa6b90b216522595e7dcf9972e"
     },
     {
       "category": "actionscript",
@@ -41877,9 +42459,38 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: панель заклинания «Проклятие», адресный текстовый потребитель.",
+        "context_confidence": "confirmed",
+        "notes": "Параметры и заряд вычисляются оригинальным кодом. Клавиши и числовые склейки сохранены. Alegreya назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Клавиша: 2"
       },
       "source_sha256": "c48d510648bf3f0654fa6fcf0f41e478a045477f73c3e55df397f392db41b5de"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.30888",
+      "location": {
+        "abc_byte_offset": 1218426,
+        "code_offset": 30888,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 11054,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель заклинания «Пробуждение вечности», адресный текстовый потребитель.",
+        "context_confidence": "confirmed",
+        "notes": "Параметры и заряд вычисляются оригинальным кодом. Клавиши и числовые склейки сохранены. Alegreya назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Пробуждение вечности"
+      },
+      "source_sha256": "8c284d428e88e660a58eb79f48cfa46f7b2f845c82485f2dace31dfcec5abc2e"
     },
     {
       "category": "actionscript",
@@ -41896,7 +42507,12 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: панель заклинания «Пробуждение вечности», адресный текстовый потребитель.",
+        "context_confidence": "confirmed",
+        "notes": "Параметры и заряд вычисляются оригинальным кодом. Клавиши и числовые склейки сохранены. Alegreya назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Ударное заклинание"
       },
       "source_sha256": "318edb94f7980980a1681f728793d25dba07689cfc523dd4fda66c268fd0aa3a"
     },
@@ -41915,9 +42531,110 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: панель заклинания «Пробуждение вечности», адресный текстовый потребитель.",
+        "context_confidence": "confirmed",
+        "notes": "Параметры и заряд вычисляются оригинальным кодом. Клавиши и числовые склейки сохранены. Alegreya назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Высвобождает скрытые силы Самоцвета Вечности"
       },
       "source_sha256": "3120acab43e09df61ce591ee9434d44b422d07a6292880776318afa5efc7626c"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.31012",
+      "location": {
+        "abc_byte_offset": 1218550,
+        "code_offset": 31012,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 11039,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель заклинания «Пробуждение вечности», адресный текстовый потребитель.",
+        "context_confidence": "confirmed",
+        "notes": "Параметры и заряд вычисляются оригинальным кодом. Клавиши и числовые склейки сохранены. Alegreya назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": " кл. — радиус действия"
+      },
+      "source_sha256": "a913937de968ab14c5576cd45a74060fb24e2b9d8c388da00d615a7b93ee2cf9"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.31052",
+      "location": {
+        "abc_byte_offset": 1218590,
+        "code_offset": 31052,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 11056,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель заклинания «Пробуждение вечности», адресный текстовый потребитель.",
+        "context_confidence": "confirmed",
+        "notes": "Параметры и заряд вычисляются оригинальным кодом. Клавиши и числовые склейки сохранены. Alegreya назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "% текущего здоровья цели отнимается"
+      },
+      "source_sha256": "01d367ece465aaff52c46d5dbb60c4d69db72c330760a60d028181676b24781b"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.31092",
+      "location": {
+        "abc_byte_offset": 1218630,
+        "code_offset": 31092,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 11057,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель заклинания «Пробуждение вечности», адресный текстовый потребитель.",
+        "context_confidence": "confirmed",
+        "notes": "Параметры и заряд вычисляются оригинальным кодом. Клавиши и числовые склейки сохранены. Alegreya назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "% регенерации здоровья теряется навсегда"
+      },
+      "source_sha256": "eee342a03f777407429d55ddd44310cd5156dda53c1bf2ded786fedafc704661"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.31132",
+      "location": {
+        "abc_byte_offset": 1218670,
+        "code_offset": 31132,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 11058,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель заклинания «Пробуждение вечности», адресный текстовый потребитель.",
+        "context_confidence": "confirmed",
+        "notes": "Параметры и заряд вычисляются оригинальным кодом. Клавиши и числовые склейки сохранены. Alegreya назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "% брони разрушается"
+      },
+      "source_sha256": "a3d188afea87989028493abc35b1bc964f02cbfc441983d90dae39742d3ee83d"
     },
     {
       "category": "actionscript",
@@ -41934,7 +42651,12 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: панель заклинания «Пробуждение вечности», адресный текстовый потребитель.",
+        "context_confidence": "confirmed",
+        "notes": "Параметры и заряд вычисляются оригинальным кодом. Клавиши и числовые склейки сохранены. Alegreya назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Полностью снимает щит со всех задетых целей"
       },
       "source_sha256": "7dfeb5c04c5df61147b14d0836867737bc49e58b182ac1da6166ea1c229bf167"
     },
@@ -41953,9 +42675,110 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: панель заклинания «Пробуждение вечности», адресный текстовый потребитель.",
+        "context_confidence": "confirmed",
+        "notes": "Параметры и заряд вычисляются оригинальным кодом. Клавиши и числовые склейки сохранены. Alegreya назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Изгоняет каждую 5-ю цель"
       },
       "source_sha256": "171585b178797cc07ea14f44fddf24b390c033a2e23511f9b445d9d6ad79e579"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.31216",
+      "location": {
+        "abc_byte_offset": 1218754,
+        "code_offset": 31216,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10814,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель заклинания «Пробуждение вечности», адресный текстовый потребитель.",
+        "context_confidence": "confirmed",
+        "notes": "Параметры и заряд вычисляются оригинальным кодом. Клавиши и числовые склейки сохранены. Alegreya назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Время зарядки: "
+      },
+      "source_sha256": "a67a84ae9352375cc340c0a45b32cfd8658d54466bec8c5222bd10da1f0faf1d"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.31240",
+      "location": {
+        "abc_byte_offset": 1218778,
+        "code_offset": 31240,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10376,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель заклинания «Пробуждение вечности», адресный текстовый потребитель.",
+        "context_confidence": "confirmed",
+        "notes": "Параметры и заряд вычисляются оригинальным кодом. Клавиши и числовые склейки сохранены. Alegreya назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": " с"
+      },
+      "source_sha256": "3489b52478843c24a40382ba9ac4cf2531de5975d22dcd583b0b569e26924d5e"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.31262",
+      "location": {
+        "abc_byte_offset": 1218800,
+        "code_offset": 31262,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10817,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель заклинания «Пробуждение вечности», адресный текстовый потребитель.",
+        "context_confidence": "confirmed",
+        "notes": "Параметры и заряд вычисляются оригинальным кодом. Клавиши и числовые склейки сохранены. Alegreya назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Текущий заряд: "
+      },
+      "source_sha256": "c43777f2115d4c9ad822df0bb0e917445662495e3e2a40585c16ffce72f388db"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.31309",
+      "location": {
+        "abc_byte_offset": 1218847,
+        "code_offset": 31309,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10816,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель заклинания «Пробуждение вечности», адресный текстовый потребитель.",
+        "context_confidence": "confirmed",
+        "notes": "Параметры и заряд вычисляются оригинальным кодом. Клавиши и числовые склейки сохранены. Alegreya назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Максимальный заряд: "
+      },
+      "source_sha256": "c2d925b1f932d27835a34e2c468ef210b2b289aa6b90b216522595e7dcf9972e"
     },
     {
       "category": "actionscript",
@@ -41972,9 +42795,38 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: панель заклинания «Пробуждение вечности», адресный текстовый потребитель.",
+        "context_confidence": "confirmed",
+        "notes": "Параметры и заряд вычисляются оригинальным кодом. Клавиши и числовые склейки сохранены. Alegreya назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Клавиша: 3"
       },
       "source_sha256": "c3b76a70f7d478473ec0d2edcf8ba27b1d970c08792f58207de6b113c429cdb4"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.31621",
+      "location": {
+        "abc_byte_offset": 1219159,
+        "code_offset": 31621,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 7399,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель заклинания «Магическая стрела», адресный текстовый потребитель.",
+        "context_confidence": "confirmed",
+        "notes": "Параметры и заряд вычисляются оригинальным кодом. Клавиши и числовые склейки сохранены. Alegreya назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Магическая стрела"
+      },
+      "source_sha256": "ea0151c4cf78b351118dffcafd349230539bfe1a9c99c15aa057985b45885278"
     },
     {
       "category": "actionscript",
@@ -41991,7 +42843,12 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: панель заклинания «Магическая стрела», адресный текстовый потребитель.",
+        "context_confidence": "confirmed",
+        "notes": "Параметры и заряд вычисляются оригинальным кодом. Клавиши и числовые склейки сохранены. Alegreya назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Заклинание усиления самоцветов"
       },
       "source_sha256": "f212d81bcb80ef8ea563351797519c2b2649621c9273c240d0da93fe3234f8b3"
     },
@@ -42010,7 +42867,12 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: панель заклинания «Магическая стрела», адресный текстовый потребитель.",
+        "context_confidence": "confirmed",
+        "notes": "Параметры и заряд вычисляются оригинальным кодом. Клавиши и числовые склейки сохранены. Alegreya назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "В башне:"
       },
       "source_sha256": "f22386c736e679d7ff83a21db49ef4795cf261afd7813b06924a405efae218d4"
     },
@@ -42029,9 +42891,38 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: панель заклинания «Магическая стрела», адресный текстовый потребитель.",
+        "context_confidence": "confirmed",
+        "notes": "Параметры и заряд вычисляются оригинальным кодом. Клавиши и числовые склейки сохранены. Alegreya назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Мощные выстрелы, игнорирующие броню и оглушающие цель"
       },
       "source_sha256": "d778066eb1b0b5cb9790cd02dd721d8a3d1dfc044fddaa7b98b61e6098b946ff"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.31775",
+      "location": {
+        "abc_byte_offset": 1219313,
+        "code_offset": 31775,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 11065,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель заклинания «Магическая стрела», адресный текстовый потребитель.",
+        "context_confidence": "confirmed",
+        "notes": "Параметры и заряд вычисляются оригинальным кодом. Клавиши и числовые склейки сохранены. Alegreya назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "% к урону"
+      },
+      "source_sha256": "02a0f7718efedfa4c3d784006f27eebcadf0a00bdb5642fefd74e5bc5cd1a43d"
     },
     {
       "category": "actionscript",
@@ -42048,9 +42939,38 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: панель заклинания «Магическая стрела», адресный текстовый потребитель.",
+        "context_confidence": "confirmed",
+        "notes": "Параметры и заряд вычисляются оригинальным кодом. Клавиши и числовые склейки сохранены. Alegreya назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "+50% к дальности"
       },
       "source_sha256": "2e2f90238ad6ec53c9bf0f2b19d51cbc65628142c4e5fb6818bdbffa1054569e"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.31818",
+      "location": {
+        "abc_byte_offset": 1219356,
+        "code_offset": 31818,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 11067,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель заклинания «Магическая стрела», адресный текстовый потребитель.",
+        "context_confidence": "confirmed",
+        "notes": "Параметры и заряд вычисляются оригинальным кодом. Клавиши и числовые склейки сохранены. Alegreya назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Всего выстрелов: "
+      },
+      "source_sha256": "0dbce8b01b5741250c25672f476443b4ce40350d55d71720d06536439955d9e8"
     },
     {
       "category": "actionscript",
@@ -42067,7 +42987,12 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: панель заклинания «Магическая стрела», адресный текстовый потребитель.",
+        "context_confidence": "confirmed",
+        "notes": "Параметры и заряд вычисляются оригинальным кодом. Клавиши и числовые склейки сохранены. Alegreya назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "В ловушке:"
       },
       "source_sha256": "e47bcab5f2180b2f8814a8a2ac877cc642c925e28682a2a10edbdc84d8015fd8"
     },
@@ -42086,7 +43011,12 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: панель заклинания «Магическая стрела», адресный текстовый потребитель.",
+        "context_confidence": "confirmed",
+        "notes": "Параметры и заряд вычисляются оригинальным кодом. Клавиши и числовые склейки сохранены. Alegreya назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Игнорирует броню"
       },
       "source_sha256": "939694b2050f15fc8e6e99f9917ccc4fc807bf250ee44f584935f09b1bb5e48f"
     },
@@ -42105,7 +43035,12 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: панель заклинания «Магическая стрела», адресный текстовый потребитель.",
+        "context_confidence": "confirmed",
+        "notes": "Параметры и заряд вычисляются оригинальным кодом. Клавиши и числовые склейки сохранены. Alegreya назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "В ловушках усиления не расходуются"
       },
       "source_sha256": "defda835534666adf092bf10c0908b78a4d511c7cdd526ec9ed6431f4f7efee3"
     },
@@ -42124,9 +43059,110 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: панель заклинания «Магическая стрела», адресный текстовый потребитель.",
+        "context_confidence": "confirmed",
+        "notes": "Параметры и заряд вычисляются оригинальным кодом. Клавиши и числовые склейки сохранены. Alegreya назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Усиленные самоцветы вставляются мгновенно"
       },
       "source_sha256": "3c25b0603e98ef82529510a72cbf624da59593c3956cfcba99427bc67df58cd0"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.31994",
+      "location": {
+        "abc_byte_offset": 1219532,
+        "code_offset": 31994,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10814,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель заклинания «Магическая стрела», адресный текстовый потребитель.",
+        "context_confidence": "confirmed",
+        "notes": "Параметры и заряд вычисляются оригинальным кодом. Клавиши и числовые склейки сохранены. Alegreya назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Время зарядки: "
+      },
+      "source_sha256": "a67a84ae9352375cc340c0a45b32cfd8658d54466bec8c5222bd10da1f0faf1d"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.32018",
+      "location": {
+        "abc_byte_offset": 1219556,
+        "code_offset": 32018,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10376,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель заклинания «Магическая стрела», адресный текстовый потребитель.",
+        "context_confidence": "confirmed",
+        "notes": "Параметры и заряд вычисляются оригинальным кодом. Клавиши и числовые склейки сохранены. Alegreya назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": " с"
+      },
+      "source_sha256": "3489b52478843c24a40382ba9ac4cf2531de5975d22dcd583b0b569e26924d5e"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.32040",
+      "location": {
+        "abc_byte_offset": 1219578,
+        "code_offset": 32040,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10817,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель заклинания «Магическая стрела», адресный текстовый потребитель.",
+        "context_confidence": "confirmed",
+        "notes": "Параметры и заряд вычисляются оригинальным кодом. Клавиши и числовые склейки сохранены. Alegreya назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Текущий заряд: "
+      },
+      "source_sha256": "c43777f2115d4c9ad822df0bb0e917445662495e3e2a40585c16ffce72f388db"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.32087",
+      "location": {
+        "abc_byte_offset": 1219625,
+        "code_offset": 32087,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10816,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель заклинания «Магическая стрела», адресный текстовый потребитель.",
+        "context_confidence": "confirmed",
+        "notes": "Параметры и заряд вычисляются оригинальным кодом. Клавиши и числовые склейки сохранены. Alegreya назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Максимальный заряд: "
+      },
+      "source_sha256": "c2d925b1f932d27835a34e2c468ef210b2b289aa6b90b216522595e7dcf9972e"
     },
     {
       "category": "actionscript",
@@ -42143,9 +43179,38 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: панель заклинания «Магическая стрела», адресный текстовый потребитель.",
+        "context_confidence": "confirmed",
+        "notes": "Параметры и заряд вычисляются оригинальным кодом. Клавиши и числовые склейки сохранены. Alegreya назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Клавиша: 4"
       },
       "source_sha256": "e419af8ca52b169cb587813d401788007691c204ad4e919e4d8213b0da27b7b1"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.32287",
+      "location": {
+        "abc_byte_offset": 1219825,
+        "code_offset": 32287,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 7395,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель заклинания «Луч», адресный текстовый потребитель.",
+        "context_confidence": "confirmed",
+        "notes": "Параметры и заряд вычисляются оригинальным кодом. Клавиши и числовые склейки сохранены. Alegreya назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Луч"
+      },
+      "source_sha256": "2e5b0ef5b121abbc430b86a4e7c509d19daeceb9b9cd3179c0be4cb4bf0b63b6"
     },
     {
       "category": "actionscript",
@@ -42162,7 +43227,12 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: панель заклинания «Луч», адресный текстовый потребитель.",
+        "context_confidence": "confirmed",
+        "notes": "Параметры и заряд вычисляются оригинальным кодом. Клавиши и числовые склейки сохранены. Alegreya назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Заклинание усиления самоцветов"
       },
       "source_sha256": "f212d81bcb80ef8ea563351797519c2b2649621c9273c240d0da93fe3234f8b3"
     },
@@ -42181,7 +43251,12 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: панель заклинания «Луч», адресный текстовый потребитель.",
+        "context_confidence": "confirmed",
+        "notes": "Параметры и заряд вычисляются оригинальным кодом. Клавиши и числовые склейки сохранены. Alegreya назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "В башне:"
       },
       "source_sha256": "f22386c736e679d7ff83a21db49ef4795cf261afd7813b06924a405efae218d4"
     },
@@ -42200,9 +43275,38 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: панель заклинания «Луч», адресный текстовый потребитель.",
+        "context_confidence": "confirmed",
+        "notes": "Параметры и заряд вычисляются оригинальным кодом. Клавиши и числовые склейки сохранены. Alegreya назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Непрерывный поток энергии, игнорирующий броню"
       },
       "source_sha256": "0d95fce154820109c97a452791e23e5443b228d8fea199bf2d39bc3a122b3f33"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.32441",
+      "location": {
+        "abc_byte_offset": 1219979,
+        "code_offset": 32441,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 11073,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель заклинания «Луч», адресный текстовый потребитель.",
+        "context_confidence": "confirmed",
+        "notes": "Параметры и заряд вычисляются оригинальным кодом. Клавиши и числовые склейки сохранены. Alegreya назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "% урона выстрела за 1 секунду"
+      },
+      "source_sha256": "e290df574fef67287c149c4e6e1db1d87ba902851147537dcc021fda868254c6"
     },
     {
       "category": "actionscript",
@@ -42219,9 +43323,62 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: панель заклинания «Луч», адресный текстовый потребитель.",
+        "context_confidence": "confirmed",
+        "notes": "Параметры и заряд вычисляются оригинальным кодом. Клавиши и числовые склейки сохранены. Alegreya назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Предельная дальность — 10 клеток"
       },
       "source_sha256": "ab1316522b22d4443f4476342335e4627aac85d8445886b62ef488e8b8164432"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.32484",
+      "location": {
+        "abc_byte_offset": 1220022,
+        "code_offset": 32484,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 11075,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель заклинания «Луч», адресный текстовый потребитель.",
+        "context_confidence": "confirmed",
+        "notes": "Параметры и заряд вычисляются оригинальным кодом. Клавиши и числовые склейки сохранены. Alegreya назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Общая длительность: "
+      },
+      "source_sha256": "35019a6a0c435a81525c166c1699fd4b1a1219e15e7fdc5727f2e8b303e99a0f"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.32511",
+      "location": {
+        "abc_byte_offset": 1220049,
+        "code_offset": 32511,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10376,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель заклинания «Луч», адресный текстовый потребитель.",
+        "context_confidence": "confirmed",
+        "notes": "Параметры и заряд вычисляются оригинальным кодом. Клавиши и числовые склейки сохранены. Alegreya назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": " с"
+      },
+      "source_sha256": "3489b52478843c24a40382ba9ac4cf2531de5975d22dcd583b0b569e26924d5e"
     },
     {
       "category": "actionscript",
@@ -42238,7 +43395,12 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: панель заклинания «Луч», адресный текстовый потребитель.",
+        "context_confidence": "confirmed",
+        "notes": "Параметры и заряд вычисляются оригинальным кодом. Клавиши и числовые склейки сохранены. Alegreya назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "В ловушке:"
       },
       "source_sha256": "e47bcab5f2180b2f8814a8a2ac877cc642c925e28682a2a10edbdc84d8015fd8"
     },
@@ -42257,7 +43419,12 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: панель заклинания «Луч», адресный текстовый потребитель.",
+        "context_confidence": "confirmed",
+        "notes": "Параметры и заряд вычисляются оригинальным кодом. Клавиши и числовые склейки сохранены. Alegreya назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "+30% к скорости перезарядки"
       },
       "source_sha256": "fe45fb58596588b1716eb5331f3ec4725a0313f5d4ccdf520450dc6c247a882c"
     },
@@ -42276,7 +43443,12 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: панель заклинания «Луч», адресный текстовый потребитель.",
+        "context_confidence": "confirmed",
+        "notes": "Параметры и заряд вычисляются оригинальным кодом. Клавиши и числовые склейки сохранены. Alegreya назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "В ловушках усиления не расходуются"
       },
       "source_sha256": "defda835534666adf092bf10c0908b78a4d511c7cdd526ec9ed6431f4f7efee3"
     },
@@ -42295,9 +43467,110 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: панель заклинания «Луч», адресный текстовый потребитель.",
+        "context_confidence": "confirmed",
+        "notes": "Параметры и заряд вычисляются оригинальным кодом. Клавиши и числовые склейки сохранены. Alegreya назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Усиленные самоцветы вставляются мгновенно"
       },
       "source_sha256": "3c25b0603e98ef82529510a72cbf624da59593c3956cfcba99427bc67df58cd0"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.32669",
+      "location": {
+        "abc_byte_offset": 1220207,
+        "code_offset": 32669,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10814,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель заклинания «Луч», адресный текстовый потребитель.",
+        "context_confidence": "confirmed",
+        "notes": "Параметры и заряд вычисляются оригинальным кодом. Клавиши и числовые склейки сохранены. Alegreya назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Время зарядки: "
+      },
+      "source_sha256": "a67a84ae9352375cc340c0a45b32cfd8658d54466bec8c5222bd10da1f0faf1d"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.32693",
+      "location": {
+        "abc_byte_offset": 1220231,
+        "code_offset": 32693,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10376,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель заклинания «Луч», адресный текстовый потребитель.",
+        "context_confidence": "confirmed",
+        "notes": "Параметры и заряд вычисляются оригинальным кодом. Клавиши и числовые склейки сохранены. Alegreya назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": " с"
+      },
+      "source_sha256": "3489b52478843c24a40382ba9ac4cf2531de5975d22dcd583b0b569e26924d5e"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.32715",
+      "location": {
+        "abc_byte_offset": 1220253,
+        "code_offset": 32715,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10817,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель заклинания «Луч», адресный текстовый потребитель.",
+        "context_confidence": "confirmed",
+        "notes": "Параметры и заряд вычисляются оригинальным кодом. Клавиши и числовые склейки сохранены. Alegreya назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Текущий заряд: "
+      },
+      "source_sha256": "c43777f2115d4c9ad822df0bb0e917445662495e3e2a40585c16ffce72f388db"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.32762",
+      "location": {
+        "abc_byte_offset": 1220300,
+        "code_offset": 32762,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10816,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель заклинания «Луч», адресный текстовый потребитель.",
+        "context_confidence": "confirmed",
+        "notes": "Параметры и заряд вычисляются оригинальным кодом. Клавиши и числовые склейки сохранены. Alegreya назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Максимальный заряд: "
+      },
+      "source_sha256": "c2d925b1f932d27835a34e2c468ef210b2b289aa6b90b216522595e7dcf9972e"
     },
     {
       "category": "actionscript",
@@ -42314,9 +43587,38 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: панель заклинания «Луч», адресный текстовый потребитель.",
+        "context_confidence": "confirmed",
+        "notes": "Параметры и заряд вычисляются оригинальным кодом. Клавиши и числовые склейки сохранены. Alegreya назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Клавиша: 5"
       },
       "source_sha256": "7d867b945f534fad8a2dedb8a36881e34df89ec9d62d0047a300ed536ba0fda4"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.32939",
+      "location": {
+        "abc_byte_offset": 1220477,
+        "code_offset": 32939,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 7392,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель заклинания «Шквал», адресный текстовый потребитель.",
+        "context_confidence": "confirmed",
+        "notes": "Параметры и заряд вычисляются оригинальным кодом. Клавиши и числовые склейки сохранены. Alegreya назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Шквал"
+      },
+      "source_sha256": "6d5b0faba67735ef8abe6c979db7f35b38aafd59d7687f2b87728bed45caf3dd"
     },
     {
       "category": "actionscript",
@@ -42333,7 +43635,12 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: панель заклинания «Шквал», адресный текстовый потребитель.",
+        "context_confidence": "confirmed",
+        "notes": "Параметры и заряд вычисляются оригинальным кодом. Клавиши и числовые склейки сохранены. Alegreya назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Заклинание усиления самоцветов"
       },
       "source_sha256": "f212d81bcb80ef8ea563351797519c2b2649621c9273c240d0da93fe3234f8b3"
     },
@@ -42352,7 +43659,12 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: панель заклинания «Шквал», адресный текстовый потребитель.",
+        "context_confidence": "confirmed",
+        "notes": "Параметры и заряд вычисляются оригинальным кодом. Клавиши и числовые склейки сохранены. Alegreya назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "В башне:"
       },
       "source_sha256": "f22386c736e679d7ff83a21db49ef4795cf261afd7813b06924a405efae218d4"
     },
@@ -42371,9 +43683,38 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: панель заклинания «Шквал», адресный текстовый потребитель.",
+        "context_confidence": "confirmed",
+        "notes": "Параметры и заряд вычисляются оригинальным кодом. Клавиши и числовые склейки сохранены. Alegreya назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Залпы дальнобойных снарядов с уроном по области при попадании"
       },
       "source_sha256": "8778d0e20142e0316d3d4b174207a2ad48fd356f6e9d4d13802377b9d665ec3b"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.33097",
+      "location": {
+        "abc_byte_offset": 1220635,
+        "code_offset": 33097,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 11065,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель заклинания «Шквал», адресный текстовый потребитель.",
+        "context_confidence": "confirmed",
+        "notes": "Параметры и заряд вычисляются оригинальным кодом. Клавиши и числовые склейки сохранены. Alegreya назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "% к урону"
+      },
+      "source_sha256": "02a0f7718efedfa4c3d784006f27eebcadf0a00bdb5642fefd74e5bc5cd1a43d"
     },
     {
       "category": "actionscript",
@@ -42390,7 +43731,12 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: панель заклинания «Шквал», адресный текстовый потребитель.",
+        "context_confidence": "confirmed",
+        "notes": "Параметры и заряд вычисляются оригинальным кодом. Клавиши и числовые склейки сохранены. Alegreya назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "+35% к дальности"
       },
       "source_sha256": "1986007c20eae49e6aa16fc5174c4186b0c71995463011bd5517a86876c50fbb"
     },
@@ -42409,9 +43755,38 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: панель заклинания «Шквал», адресный текстовый потребитель.",
+        "context_confidence": "confirmed",
+        "notes": "Параметры и заряд вычисляются оригинальным кодом. Клавиши и числовые склейки сохранены. Alegreya назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "3 снаряда за выстрел"
       },
       "source_sha256": "dd82661dcbc66816d6229fa52b64d2eee23584a74ee6924c1992cc9111496d06"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.33161",
+      "location": {
+        "abc_byte_offset": 1220699,
+        "code_offset": 33161,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 11067,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель заклинания «Шквал», адресный текстовый потребитель.",
+        "context_confidence": "confirmed",
+        "notes": "Параметры и заряд вычисляются оригинальным кодом. Клавиши и числовые склейки сохранены. Alegreya назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Всего выстрелов: "
+      },
+      "source_sha256": "0dbce8b01b5741250c25672f476443b4ce40350d55d71720d06536439955d9e8"
     },
     {
       "category": "actionscript",
@@ -42428,7 +43803,12 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: панель заклинания «Шквал», адресный текстовый потребитель.",
+        "context_confidence": "confirmed",
+        "notes": "Параметры и заряд вычисляются оригинальным кодом. Клавиши и числовые склейки сохранены. Alegreya назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "В ловушке:"
       },
       "source_sha256": "e47bcab5f2180b2f8814a8a2ac877cc642c925e28682a2a10edbdc84d8015fd8"
     },
@@ -42447,7 +43827,12 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: панель заклинания «Шквал», адресный текстовый потребитель.",
+        "context_confidence": "confirmed",
+        "notes": "Параметры и заряд вычисляются оригинальным кодом. Клавиши и числовые склейки сохранены. Alegreya назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "+30% к эффектам"
       },
       "source_sha256": "76b2ae294ae239cff704dbe8480f19e9cb232e83c4d3a4b9321ed5884cc96767"
     },
@@ -42466,7 +43851,12 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: панель заклинания «Шквал», адресный текстовый потребитель.",
+        "context_confidence": "confirmed",
+        "notes": "Параметры и заряд вычисляются оригинальным кодом. Клавиши и числовые склейки сохранены. Alegreya назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "В ловушках усиления не расходуются"
       },
       "source_sha256": "defda835534666adf092bf10c0908b78a4d511c7cdd526ec9ed6431f4f7efee3"
     },
@@ -42485,9 +43875,110 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: панель заклинания «Шквал», адресный текстовый потребитель.",
+        "context_confidence": "confirmed",
+        "notes": "Параметры и заряд вычисляются оригинальным кодом. Клавиши и числовые склейки сохранены. Alegreya назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Усиленные самоцветы вставляются мгновенно"
       },
       "source_sha256": "3c25b0603e98ef82529510a72cbf624da59593c3956cfcba99427bc67df58cd0"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.33337",
+      "location": {
+        "abc_byte_offset": 1220875,
+        "code_offset": 33337,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10814,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель заклинания «Шквал», адресный текстовый потребитель.",
+        "context_confidence": "confirmed",
+        "notes": "Параметры и заряд вычисляются оригинальным кодом. Клавиши и числовые склейки сохранены. Alegreya назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Время зарядки: "
+      },
+      "source_sha256": "a67a84ae9352375cc340c0a45b32cfd8658d54466bec8c5222bd10da1f0faf1d"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.33361",
+      "location": {
+        "abc_byte_offset": 1220899,
+        "code_offset": 33361,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10376,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель заклинания «Шквал», адресный текстовый потребитель.",
+        "context_confidence": "confirmed",
+        "notes": "Параметры и заряд вычисляются оригинальным кодом. Клавиши и числовые склейки сохранены. Alegreya назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": " с"
+      },
+      "source_sha256": "3489b52478843c24a40382ba9ac4cf2531de5975d22dcd583b0b569e26924d5e"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.33383",
+      "location": {
+        "abc_byte_offset": 1220921,
+        "code_offset": 33383,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10817,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель заклинания «Шквал», адресный текстовый потребитель.",
+        "context_confidence": "confirmed",
+        "notes": "Параметры и заряд вычисляются оригинальным кодом. Клавиши и числовые склейки сохранены. Alegreya назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Текущий заряд: "
+      },
+      "source_sha256": "c43777f2115d4c9ad822df0bb0e917445662495e3e2a40585c16ffce72f388db"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.33430",
+      "location": {
+        "abc_byte_offset": 1220968,
+        "code_offset": 33430,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10816,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель заклинания «Шквал», адресный текстовый потребитель.",
+        "context_confidence": "confirmed",
+        "notes": "Параметры и заряд вычисляются оригинальным кодом. Клавиши и числовые склейки сохранены. Alegreya назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Максимальный заряд: "
+      },
+      "source_sha256": "c2d925b1f932d27835a34e2c468ef210b2b289aa6b90b216522595e7dcf9972e"
     },
     {
       "category": "actionscript",
@@ -42504,7 +43995,12 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: панель заклинания «Шквал», адресный текстовый потребитель.",
+        "context_confidence": "confirmed",
+        "notes": "Параметры и заряд вычисляются оригинальным кодом. Клавиши и числовые склейки сохранены. Alegreya назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Клавиша: 6"
       },
       "source_sha256": "4019db9667135144b95635e66d87fce58478f165236d27a9f8e4699016b8f11a"
     },
