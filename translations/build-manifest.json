@@ -1,6 +1,6 @@
 {
-  "applied_translations": 2228,
-  "expected_candidate_sha256": "6de5d9ecda0c9fb747d10c184b6cf05c8a59c7ac125c5fc55feef6a6bb3bbdcd",
+  "applied_translations": 2262,
+  "expected_candidate_sha256": "a4b77c6e63f525bd24351841d7aabb6b906c20abb1980ec00c76c3dec2626ff2",
   "font_sha256": "ba5564634b93a8f8ba57b48cd4f1ae7417d2b4656fbac779028679b00de3cf12",
   "game_sha256": "c8eadc03a7e607086998695f7696ec22dd90d7b7859e3d10cdfabf40fc7bbad5",
   "plans": [
@@ -75,6 +75,14 @@
     {
       "path": "plans/pr23-battle-gem-controls.json",
       "sha256": "9e27712064e6d860fcde4375bd6dc18fdb51dee166537fa3c7acb1d0e70e9d8c"
+    },
+    {
+      "path": "plans/pr24-battle-tutorial.json",
+      "sha256": "03e852676fa85786c6944b280a4807fc1f7a7b3ece38cdfa5320181d3c3ce960"
+    },
+    {
+      "path": "plans/pr24-battle-time-controls.json",
+      "sha256": "4084c164c7a7961abbafaf6c7a974d066eefa89483fa38b0101b804867391d60"
     }
   ],
   "schema_version": 1
