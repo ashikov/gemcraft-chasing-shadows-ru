@@ -36369,6 +36369,894 @@
     },
     {
       "category": "actionscript",
+      "id": "abc.4175.549.1026",
+      "location": {
+        "abc_byte_offset": 1095226,
+        "code_offset": 1026,
+        "method_index": 549,
+        "sprite_path": [],
+        "string_pool_index": 10443,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 549; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Мана за убийство: "
+      },
+      "source_sha256": "ae6fe3f5fb41bf8cfdba2bce225ef91ef842b03022ddad42f9167eecc8d5b652"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.549.1184",
+      "location": {
+        "abc_byte_offset": 1095384,
+        "code_offset": 1184,
+        "method_index": 549,
+        "sprite_path": [],
+        "string_pool_index": 10459,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 549; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Опыт за убийство: "
+      },
+      "source_sha256": "cf1825392a1e62a9144bfa73332fd3dabaf73f53e81d60e9a77864cf3fc330de"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.549.1338",
+      "location": {
+        "abc_byte_offset": 1095538,
+        "code_offset": 1338,
+        "method_index": 549,
+        "sprite_path": [],
+        "string_pool_index": 10460,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 549; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Талисман: +"
+      },
+      "source_sha256": "49a728e6890a4304974908e1ea6a5420bbfb16ef80f12d9762245eabd311bb83"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.549.1371",
+      "location": {
+        "abc_byte_offset": 1095571,
+        "code_offset": 1371,
+        "method_index": 549,
+        "sprite_path": [],
+        "string_pool_index": 10461,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 549; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "% к получаемому урону"
+      },
+      "source_sha256": "5c4ed7e81720a03221ea73f968d30645f9912c164703c6b0b9fc285e63a86f5d"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.549.1440",
+      "location": {
+        "abc_byte_offset": 1095640,
+        "code_offset": 1440,
+        "method_index": 549,
+        "sprite_path": [],
+        "string_pool_index": 10460,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 549; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Талисман: +"
+      },
+      "source_sha256": "49a728e6890a4304974908e1ea6a5420bbfb16ef80f12d9762245eabd311bb83"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.549.1473",
+      "location": {
+        "abc_byte_offset": 1095673,
+        "code_offset": 1473,
+        "method_index": 549,
+        "sprite_path": [],
+        "string_pool_index": 10461,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 549; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "% к получаемому урону"
+      },
+      "source_sha256": "5c4ed7e81720a03221ea73f968d30645f9912c164703c6b0b9fc285e63a86f5d"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.549.150",
+      "location": {
+        "abc_byte_offset": 1094350,
+        "code_offset": 150,
+        "method_index": 549,
+        "sprite_path": [],
+        "string_pool_index": 10256,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 549; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Меченый: "
+      },
+      "source_sha256": "97ba6a76887832046bb1437cdca3a18159ce1829d3c3cf7ab7d54ac9b7d2e375"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.549.1530",
+      "location": {
+        "abc_byte_offset": 1095730,
+        "code_offset": 1530,
+        "method_index": 549,
+        "sprite_path": [],
+        "string_pool_index": 10460,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 549; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Талисман: +"
+      },
+      "source_sha256": "49a728e6890a4304974908e1ea6a5420bbfb16ef80f12d9762245eabd311bb83"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.549.1563",
+      "location": {
+        "abc_byte_offset": 1095763,
+        "code_offset": 1563,
+        "method_index": 549,
+        "sprite_path": [],
+        "string_pool_index": 10461,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 549; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "% к получаемому урону"
+      },
+      "source_sha256": "5c4ed7e81720a03221ea73f968d30645f9912c164703c6b0b9fc285e63a86f5d"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.549.174",
+      "location": {
+        "abc_byte_offset": 1094374,
+        "code_offset": 174,
+        "method_index": 549,
+        "sprite_path": [],
+        "string_pool_index": 10257,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 549; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Искажённый: "
+      },
+      "source_sha256": "8100ecfc5960c34f1c7f8da71930c9055c6dc55a09a3269f8d2a62e5f03d1496"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.549.181",
+      "location": {
+        "abc_byte_offset": 1094381,
+        "code_offset": 181,
+        "method_index": 549,
+        "sprite_path": [],
+        "string_pool_index": 10258,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 549; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Одержимый: "
+      },
+      "source_sha256": "60823120184937b3ce9d3985d527d94607fdb89a005dd804885006bcf06253a2"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.549.2013",
+      "location": {
+        "abc_byte_offset": 1096213,
+        "code_offset": 2013,
+        "method_index": 549,
+        "sprite_path": [],
+        "string_pool_index": 10462,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 549; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Снег: скорость x"
+      },
+      "source_sha256": "ca66177e34eb99a7257086b38169e34715913c5d0a18c6bb2b56b12d1e771789"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.549.2031",
+      "location": {
+        "abc_byte_offset": 1096231,
+        "code_offset": 2031,
+        "method_index": 549,
+        "sprite_path": [],
+        "string_pool_index": 10463,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 549; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": " от обычной"
+      },
+      "source_sha256": "d08891e2703fbf5c9aeda99eb74b0a941d1fa508d34950c21da561a687ad8fea"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.549.205",
+      "location": {
+        "abc_byte_offset": 1094405,
+        "code_offset": 205,
+        "method_index": 549,
+        "sprite_path": [],
+        "string_pool_index": 10448,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 549; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Отродье"
+      },
+      "source_sha256": "3c7480be32e4e9bdd8942abfee2cb0b3a0b936e6816c810952786294290dc2eb"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.549.2062",
+      "location": {
+        "abc_byte_offset": 1096262,
+        "code_offset": 2062,
+        "method_index": 549,
+        "sprite_path": [],
+        "string_pool_index": 10464,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 549; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Дождь: урон x"
+      },
+      "source_sha256": "2d785f42326b8bb3da510960c5da3dba374e7376d0fc5d09845ce82bbfe7f36f"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.549.2080",
+      "location": {
+        "abc_byte_offset": 1096280,
+        "code_offset": 2080,
+        "method_index": 549,
+        "sprite_path": [],
+        "string_pool_index": 10465,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 549; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": " от обычного"
+      },
+      "source_sha256": "402a409057b41664336428537282a359a20f089e277cdaa3f2e5ee73f0d2a324"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.549.2109",
+      "location": {
+        "abc_byte_offset": 1096309,
+        "code_offset": 2109,
+        "method_index": 549,
+        "sprite_path": [],
+        "string_pool_index": 10466,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 549; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Отравлен ("
+      },
+      "source_sha256": "2bc33233a0b3944be43dee709fad50c177ba6bfbe70cd1732304cc495b070999"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.549.2129",
+      "location": {
+        "abc_byte_offset": 1096329,
+        "code_offset": 2129,
+        "method_index": 549,
+        "sprite_path": [],
+        "string_pool_index": 10467,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 549; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": " здоровья)"
+      },
+      "source_sha256": "440b1af1e7b3f72ecc7b30f9fe288aa2e68bab0f78dcc4f068938eb86185dde6"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.549.2158",
+      "location": {
+        "abc_byte_offset": 1096358,
+        "code_offset": 2158,
+        "method_index": 549,
+        "sprite_path": [],
+        "string_pool_index": 10468,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 549; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Отравлен святилищем ("
+      },
+      "source_sha256": "24aa4132b5aa58abab2c38cb633f0f6826eb8f238de4e112caba6d3f54b06e9e"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.549.2178",
+      "location": {
+        "abc_byte_offset": 1096378,
+        "code_offset": 2178,
+        "method_index": 549,
+        "sprite_path": [],
+        "string_pool_index": 10467,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 549; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": " здоровья)"
+      },
+      "source_sha256": "440b1af1e7b3f72ecc7b30f9fe288aa2e68bab0f78dcc4f068938eb86185dde6"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.549.2207",
+      "location": {
+        "abc_byte_offset": 1096407,
+        "code_offset": 2207,
+        "method_index": 549,
+        "sprite_path": [],
+        "string_pool_index": 10469,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 549; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Заморожен ("
+      },
+      "source_sha256": "98d2cffecde56e8ea3493f51c4954472a06ca7524603584c8f97e0c35cd46634"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.549.2227",
+      "location": {
+        "abc_byte_offset": 1096427,
+        "code_offset": 2227,
+        "method_index": 549,
+        "sprite_path": [],
+        "string_pool_index": 10470,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 549; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": " с)"
+      },
+      "source_sha256": "ac5e208c1bd4ba9661e9a4e32f962c51b0c78092a241fb49bbe1cacb7170f57d"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.549.2256",
+      "location": {
+        "abc_byte_offset": 1096456,
+        "code_offset": 2256,
+        "method_index": 549,
+        "sprite_path": [],
+        "string_pool_index": 10471,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 549; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Регенерация подавлена ("
+      },
+      "source_sha256": "887a436eda9808029384fe2aaded580a401a51ff48e2c9173bc8568b4d8dc08c"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.549.2276",
+      "location": {
+        "abc_byte_offset": 1096476,
+        "code_offset": 2276,
+        "method_index": 549,
+        "sprite_path": [],
+        "string_pool_index": 10470,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 549; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": " с)"
+      },
+      "source_sha256": "ac5e208c1bd4ba9661e9a4e32f962c51b0c78092a241fb49bbe1cacb7170f57d"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.549.2305",
+      "location": {
+        "abc_byte_offset": 1096505,
+        "code_offset": 2305,
+        "method_index": 549,
+        "sprite_path": [],
+        "string_pool_index": 10472,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 549; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Проклят ("
+      },
+      "source_sha256": "03643e45302870ad301d42b2d9e30da91df7d889ee7a08d7797577e1a1b7d749"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.549.2325",
+      "location": {
+        "abc_byte_offset": 1096525,
+        "code_offset": 2325,
+        "method_index": 549,
+        "sprite_path": [],
+        "string_pool_index": 10470,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 549; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": " с)"
+      },
+      "source_sha256": "ac5e208c1bd4ba9661e9a4e32f962c51b0c78092a241fb49bbe1cacb7170f57d"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.549.2354",
+      "location": {
+        "abc_byte_offset": 1096554,
+        "code_offset": 2354,
+        "method_index": 549,
+        "sprite_path": [],
+        "string_pool_index": 10473,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 549; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Замедлен ("
+      },
+      "source_sha256": "b1e738d1a56228768f00e334ce31553c61a6182b94b4517a3b063c6e65df3c7b"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.549.2374",
+      "location": {
+        "abc_byte_offset": 1096574,
+        "code_offset": 2374,
+        "method_index": 549,
+        "sprite_path": [],
+        "string_pool_index": 10470,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 549; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": " с)"
+      },
+      "source_sha256": "ac5e208c1bd4ba9661e9a4e32f962c51b0c78092a241fb49bbe1cacb7170f57d"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.549.2403",
+      "location": {
+        "abc_byte_offset": 1096603,
+        "code_offset": 2403,
+        "method_index": 549,
+        "sprite_path": [],
+        "string_pool_index": 10474,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 549; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Замедлен святилищем ("
+      },
+      "source_sha256": "7fa016194bb781b947c2a6f0c247453f1b9074e9e5837d40c9f0967cbf7a88c3"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.549.2423",
+      "location": {
+        "abc_byte_offset": 1096623,
+        "code_offset": 2423,
+        "method_index": 549,
+        "sprite_path": [],
+        "string_pool_index": 10470,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 549; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": " с)"
+      },
+      "source_sha256": "ac5e208c1bd4ba9661e9a4e32f962c51b0c78092a241fb49bbe1cacb7170f57d"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.549.2517",
+      "location": {
+        "abc_byte_offset": 1096717,
+        "code_offset": 2517,
+        "method_index": 549,
+        "sprite_path": [],
+        "string_pool_index": 10475,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 549; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Получено попаданий: "
+      },
+      "source_sha256": "3541d2cbb603192ea12805550d51ac2091cc937f6ac1019565119730694c2027"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.549.2550",
+      "location": {
+        "abc_byte_offset": 1096750,
+        "code_offset": 2550,
+        "method_index": 549,
+        "sprite_path": [],
+        "string_pool_index": 10476,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 549; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Получаемый урон снижен на "
+      },
+      "source_sha256": "bf4237ab280b42de387f6b1210d78d118e87f091f24845eb03a0cbc1b99f5c2c"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.549.2618",
+      "location": {
+        "abc_byte_offset": 1096818,
+        "code_offset": 2618,
+        "method_index": 549,
+        "sprite_path": [],
+        "string_pool_index": 10475,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 549; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Получено попаданий: "
+      },
+      "source_sha256": "3541d2cbb603192ea12805550d51ac2091cc937f6ac1019565119730694c2027"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.549.271",
+      "location": {
+        "abc_byte_offset": 1094471,
+        "code_offset": 271,
+        "method_index": 549,
+        "sprite_path": [],
+        "string_pool_index": 7427,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 549; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Гигант"
+      },
+      "source_sha256": "db5bea376a0dc01a0dc3d3389ed02651eb2ad23d4789c44560d60985974d296a"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.549.341",
+      "location": {
+        "abc_byte_offset": 1094541,
+        "code_offset": 341,
+        "method_index": 549,
+        "sprite_path": [],
+        "string_pool_index": 7477,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 549; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Ройник"
+      },
+      "source_sha256": "ed3844dbdab9347f1f28a4a0037bd1df76ccc97cf23e66e62e487a42a2680823"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.549.350",
+      "location": {
+        "abc_byte_offset": 1094550,
+        "code_offset": 350,
+        "method_index": 549,
+        "sprite_path": [],
+        "string_pool_index": 10260,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 549; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Разоритель"
+      },
+      "source_sha256": "5a9ade9533769fdd035fdf990a4841dd6f752b3267c3d3602fb1496081fadd9e"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.549.418",
+      "location": {
+        "abc_byte_offset": 1094618,
+        "code_offset": 418,
+        "method_index": 549,
+        "sprite_path": [],
+        "string_pool_index": 10449,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 549; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Монстр — волна "
+      },
+      "source_sha256": "5943b8e983f48289fa6abc84f86af3e35bdcc65c05526966b67726483e4cd367"
+    },
+    {
+      "category": "actionscript",
       "id": "abc.4175.549.447",
       "location": {
         "abc_byte_offset": 1094647,
@@ -36382,10 +37270,326 @@
         ]
       },
       "manual": {
-        "classification": "unknown",
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 549; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Монстр"
       },
       "source_sha256": "beaafa510bcc774b1be0c7f3fbb033017cd97f2c73455ec2d7747c2e993759b5"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.549.484",
+      "location": {
+        "abc_byte_offset": 1094684,
+        "code_offset": 484,
+        "method_index": 549,
+        "sprite_path": [],
+        "string_pool_index": 10261,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 549; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Здоровье: "
+      },
+      "source_sha256": "0cd0fb5069e3fbc27f751fcf75e708e65714eb34dc57a2580a2d539098779192"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.549.568",
+      "location": {
+        "abc_byte_offset": 1094768,
+        "code_offset": 568,
+        "method_index": 549,
+        "sprite_path": [],
+        "string_pool_index": 10262,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 549; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Уровень брони: "
+      },
+      "source_sha256": "077cf6a5fd7dae7a4b66b6c575933b51978d399c89b46bb8bb9b1582aae48ee2"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.549.652",
+      "location": {
+        "abc_byte_offset": 1094852,
+        "code_offset": 652,
+        "method_index": 549,
+        "sprite_path": [],
+        "string_pool_index": 10263,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 549; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Скорость: "
+      },
+      "source_sha256": "f7c9fa5bca8009d7dd73d78f126302fc87231a04531b8a1e5d3c3b0f23b71203"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.549.700",
+      "location": {
+        "abc_byte_offset": 1094900,
+        "code_offset": 700,
+        "method_index": 549,
+        "sprite_path": [],
+        "string_pool_index": 10452,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 549; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Слои щита: "
+      },
+      "source_sha256": "f1241dcd94e56bac1f1059ddd1aaa1985c72a81bd7e2285e6aeeea82fef86129"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.549.719",
+      "location": {
+        "abc_byte_offset": 1094919,
+        "code_offset": 719,
+        "method_index": 549,
+        "sprite_path": [],
+        "string_pool_index": 10453,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 549; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "\n"
+      },
+      "source_sha256": "d6710f6874ebb2a285f41a317b661ca1251d7d9d7e5724ec2ceef8e6eff946bf"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.549.727",
+      "location": {
+        "abc_byte_offset": 1094927,
+        "code_offset": 727,
+        "method_index": 549,
+        "sprite_path": [],
+        "string_pool_index": 10454,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 549; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "\n"
+      },
+      "source_sha256": "fe9f4f775be6d0434223fb7721993ef5a968840e3a88eebc5a05fd0f8e93b659"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.549.763",
+      "location": {
+        "abc_byte_offset": 1094963,
+        "code_offset": 763,
+        "method_index": 549,
+        "sprite_path": [],
+        "string_pool_index": 10455,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 549; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Восполняет "
+      },
+      "source_sha256": "959fbc62d3599f1b6846a5f83cbaaa8a81fa20a7704c02268158e062197c7a33"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.549.781",
+      "location": {
+        "abc_byte_offset": 1094981,
+        "code_offset": 781,
+        "method_index": 549,
+        "sprite_path": [],
+        "string_pool_index": 10456,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 549; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": " здоровья в минуту\n"
+      },
+      "source_sha256": "d280ecddc18594fe528164c8d6bcad73bb1ae49ffa9367d8b2a95e11dcfb2d81"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.549.843",
+      "location": {
+        "abc_byte_offset": 1095043,
+        "code_offset": 843,
+        "method_index": 549,
+        "sprite_path": [],
+        "string_pool_index": 10265,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 549; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Мана на изгнание: "
+      },
+      "source_sha256": "0ccda13bf5302e885621ffd8199c137f5b1c72b9ba184607267a7e140940c53a"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.549.943",
+      "location": {
+        "abc_byte_offset": 1095143,
+        "code_offset": 943,
+        "method_index": 549,
+        "sprite_path": [],
+        "string_pool_index": 10457,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 549; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "% всей маны"
+      },
+      "source_sha256": "91f14be446158ab95ee412258a1ceef6cd5f3586d05fc8a00efd9d93a5d31a42"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.549.998",
+      "location": {
+        "abc_byte_offset": 1095198,
+        "code_offset": 998,
+        "method_index": 549,
+        "sprite_path": [],
+        "string_pool_index": 10458,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 549; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": " сэкономлено сферой)"
+      },
+      "source_sha256": "864d9328e66394b50400f8977b90042391fffca8e2db3abeba9ff8bf4ee3bc90"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.550.1010",
+      "location": {
+        "abc_byte_offset": 1097897,
+        "code_offset": 1010,
+        "method_index": 550,
+        "sprite_path": [],
+        "string_pool_index": 10470,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 550; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": " с)"
+      },
+      "source_sha256": "ac5e208c1bd4ba9661e9a4e32f962c51b0c78092a241fb49bbe1cacb7170f57d"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.550.1078",
+      "location": {
+        "abc_byte_offset": 1097965,
+        "code_offset": 1078,
+        "method_index": 550,
+        "sprite_path": [],
+        "string_pool_index": 10459,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 550; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Опыт за убийство: "
+      },
+      "source_sha256": "cf1825392a1e62a9144bfa73332fd3dabaf73f53e81d60e9a77864cf3fc330de"
     },
     {
       "category": "actionscript",
@@ -36402,9 +37606,110 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 550; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Воплощение Забытой"
       },
       "source_sha256": "4545a5f02a02b8ddb4468cccb4f502a2dfc5ccb505c335f258367e37ad8bcd2e"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.550.146",
+      "location": {
+        "abc_byte_offset": 1097033,
+        "code_offset": 146,
+        "method_index": 550,
+        "sprite_path": [],
+        "string_pool_index": 10261,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 550; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Здоровье: "
+      },
+      "source_sha256": "0cd0fb5069e3fbc27f751fcf75e708e65714eb34dc57a2580a2d539098779192"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.550.213",
+      "location": {
+        "abc_byte_offset": 1097100,
+        "code_offset": 213,
+        "method_index": 550,
+        "sprite_path": [],
+        "string_pool_index": 10262,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 550; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Уровень брони: "
+      },
+      "source_sha256": "077cf6a5fd7dae7a4b66b6c575933b51978d399c89b46bb8bb9b1582aae48ee2"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.550.246",
+      "location": {
+        "abc_byte_offset": 1097133,
+        "code_offset": 246,
+        "method_index": 550,
+        "sprite_path": [],
+        "string_pool_index": 10479,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 550; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Броня растёт на "
+      },
+      "source_sha256": "482459c910ae7f50800078dadd18a9328732036714fe52431ac8541d8a0eb894"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.550.265",
+      "location": {
+        "abc_byte_offset": 1097152,
+        "code_offset": 265,
+        "method_index": 550,
+        "sprite_path": [],
+        "string_pool_index": 10480,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 550; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": " в минуту"
+      },
+      "source_sha256": "7b9bfece183b77d92aceda56b7e516225685349749c84e8141b1d1e6ca06a821"
     },
     {
       "category": "actionscript",
@@ -36421,7 +37726,12 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 550; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Невосприимчива к снарядам \"Шквала\""
       },
       "source_sha256": "02ecf5cc4366c7d5cf5d10d13bec069eacba68add2c107da119f5edc1a387c6d"
     },
@@ -36440,7 +37750,12 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 550; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Движется при остановке времени"
       },
       "source_sha256": "a14846d2fb8b448c98d69cfd1d7596952a37ea74c4ace06a9e80d128152a1f5f"
     },
@@ -36459,7 +37774,12 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 550; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Летает над препятствиями"
       },
       "source_sha256": "b8b89fdee6b25f4d46766289af97b8d5928558e6143699c626857630dfa6644c"
     },
@@ -36478,7 +37798,12 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 550; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Неуязвима в облике облака"
       },
       "source_sha256": "e9743a4757fb8a02792d3735bfcd1c95eff6988eea714bba412faee2e795dc2f"
     },
@@ -36497,7 +37822,12 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 550; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Обстреливает сферу"
       },
       "source_sha256": "4cf20f4d08e6badb935205871404ce8e6bafb06bbaa4e8013f736172b3631d43"
     },
@@ -36516,7 +37846,12 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 550; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Порождает монстров"
       },
       "source_sha256": "b1ea18ffae26757f8f4e7dc606de1e4c0600f57a605b348e89749e672cd5fc97"
     },
@@ -36535,7 +37870,12 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 550; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Может исцелять себя"
       },
       "source_sha256": "7018b66b4352228a96c725db98fe2b3c9be3d14fd23583515bde21bf60d431cf"
     },
@@ -36554,7 +37894,12 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 550; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Обстреливает самоцветы в башнях"
       },
       "source_sha256": "49153d90768505d897637d24dfcfa8ba7d6f924e533ff80b553d41003ba3db90"
     },
@@ -36573,7 +37918,12 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 550; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Может действовать как маяк"
       },
       "source_sha256": "ad4f998fc3df3140be090212e31f5a37a2687ca173ab06d685c6e61839e0c01e"
     },
@@ -36592,7 +37942,12 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 550; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Атакуя сферу, сжигает ману"
       },
       "source_sha256": "0f3fc6301b03710ad53518ec08d71bbdb30751fc99f42727558152ee3bd1ee86"
     },
@@ -36611,7 +37966,12 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 550; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Атакуя сферу, разряжает заклинания"
       },
       "source_sha256": "990e74ffc2d441b437eb6cdbdce0827d8e2acff93d10bb7e979e7250924d26e0"
     },
@@ -36630,9 +37990,278 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 550; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Вселяется в монстров"
       },
       "source_sha256": "71496b702c36a2b293c227fd3eb92ee1be7934e0834b0707f5fc3c937ca73367"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.550.600",
+      "location": {
+        "abc_byte_offset": 1097487,
+        "code_offset": 600,
+        "method_index": 550,
+        "sprite_path": [],
+        "string_pool_index": 10460,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 550; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Талисман: +"
+      },
+      "source_sha256": "49a728e6890a4304974908e1ea6a5420bbfb16ef80f12d9762245eabd311bb83"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.550.633",
+      "location": {
+        "abc_byte_offset": 1097520,
+        "code_offset": 633,
+        "method_index": 550,
+        "sprite_path": [],
+        "string_pool_index": 10461,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 550; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "% к получаемому урону"
+      },
+      "source_sha256": "5c4ed7e81720a03221ea73f968d30645f9912c164703c6b0b9fc285e63a86f5d"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.550.75",
+      "location": {
+        "abc_byte_offset": 1096962,
+        "code_offset": 75,
+        "method_index": 550,
+        "sprite_path": [],
+        "string_pool_index": 415,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 550; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Тень"
+      },
+      "source_sha256": "4c764cb6248ef9337fc1c8769d4b74fc1d4c1fff6a9e8d00ca6753a560b3e74b"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.550.753",
+      "location": {
+        "abc_byte_offset": 1097640,
+        "code_offset": 753,
+        "method_index": 550,
+        "sprite_path": [],
+        "string_pool_index": 10466,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 550; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Отравлена ("
+      },
+      "source_sha256": "2bc33233a0b3944be43dee709fad50c177ba6bfbe70cd1732304cc495b070999"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.550.773",
+      "location": {
+        "abc_byte_offset": 1097660,
+        "code_offset": 773,
+        "method_index": 550,
+        "sprite_path": [],
+        "string_pool_index": 10467,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 550; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": " здоровья)"
+      },
+      "source_sha256": "440b1af1e7b3f72ecc7b30f9fe288aa2e68bab0f78dcc4f068938eb86185dde6"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.550.800",
+      "location": {
+        "abc_byte_offset": 1097687,
+        "code_offset": 800,
+        "method_index": 550,
+        "sprite_path": [],
+        "string_pool_index": 10468,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 550; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Отравлена святилищем ("
+      },
+      "source_sha256": "24aa4132b5aa58abab2c38cb633f0f6826eb8f238de4e112caba6d3f54b06e9e"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.550.820",
+      "location": {
+        "abc_byte_offset": 1097707,
+        "code_offset": 820,
+        "method_index": 550,
+        "sprite_path": [],
+        "string_pool_index": 10467,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 550; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": " здоровья)"
+      },
+      "source_sha256": "440b1af1e7b3f72ecc7b30f9fe288aa2e68bab0f78dcc4f068938eb86185dde6"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.550.847",
+      "location": {
+        "abc_byte_offset": 1097734,
+        "code_offset": 847,
+        "method_index": 550,
+        "sprite_path": [],
+        "string_pool_index": 10472,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 550; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Проклята ("
+      },
+      "source_sha256": "03643e45302870ad301d42b2d9e30da91df7d889ee7a08d7797577e1a1b7d749"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.550.867",
+      "location": {
+        "abc_byte_offset": 1097754,
+        "code_offset": 867,
+        "method_index": 550,
+        "sprite_path": [],
+        "string_pool_index": 10470,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 550; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": " с)"
+      },
+      "source_sha256": "ac5e208c1bd4ba9661e9a4e32f962c51b0c78092a241fb49bbe1cacb7170f57d"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.550.894",
+      "location": {
+        "abc_byte_offset": 1097781,
+        "code_offset": 894,
+        "method_index": 550,
+        "sprite_path": [],
+        "string_pool_index": 10469,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 550; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Заморожена ("
+      },
+      "source_sha256": "98d2cffecde56e8ea3493f51c4954472a06ca7524603584c8f97e0c35cd46634"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.550.914",
+      "location": {
+        "abc_byte_offset": 1097801,
+        "code_offset": 914,
+        "method_index": 550,
+        "sprite_path": [],
+        "string_pool_index": 10470,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 550; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": " с)"
+      },
+      "source_sha256": "ac5e208c1bd4ba9661e9a4e32f962c51b0c78092a241fb49bbe1cacb7170f57d"
     },
     {
       "category": "actionscript",
@@ -36649,10 +38278,110 @@
         ]
       },
       "manual": {
-        "classification": "unknown",
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 550; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Демон"
       },
       "source_sha256": "83bd77844403b5f4cc44e0a304b4b5b0e7442cf0f07e1f22f6260f6a24778431"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.550.943",
+      "location": {
+        "abc_byte_offset": 1097830,
+        "code_offset": 943,
+        "method_index": 550,
+        "sprite_path": [],
+        "string_pool_index": 10473,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 550; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Замедлена ("
+      },
+      "source_sha256": "b1e738d1a56228768f00e334ce31553c61a6182b94b4517a3b063c6e65df3c7b"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.550.963",
+      "location": {
+        "abc_byte_offset": 1097850,
+        "code_offset": 963,
+        "method_index": 550,
+        "sprite_path": [],
+        "string_pool_index": 10470,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 550; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": " с)"
+      },
+      "source_sha256": "ac5e208c1bd4ba9661e9a4e32f962c51b0c78092a241fb49bbe1cacb7170f57d"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.550.990",
+      "location": {
+        "abc_byte_offset": 1097877,
+        "code_offset": 990,
+        "method_index": 550,
+        "sprite_path": [],
+        "string_pool_index": 10474,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 550; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Замедлена святилищем ("
+      },
+      "source_sha256": "7fa016194bb781b947c2a6f0c247453f1b9074e9e5837d40c9f0967cbf7a88c3"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.551.126",
+      "location": {
+        "abc_byte_offset": 1098223,
+        "code_offset": 126,
+        "method_index": 551,
+        "sprite_path": [],
+        "string_pool_index": 10261,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 551; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Здоровье: "
+      },
+      "source_sha256": "0cd0fb5069e3fbc27f751fcf75e708e65714eb34dc57a2580a2d539098779192"
     },
     {
       "category": "actionscript",
@@ -36669,7 +38398,12 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 551; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Невосприимчив к снарядам \"Шквала\""
       },
       "source_sha256": "02ecf5cc4366c7d5cf5d10d13bec069eacba68add2c107da119f5edc1a387c6d"
     },
@@ -36688,7 +38422,12 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 551; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Не восстанавливает здоровье"
       },
       "source_sha256": "eeec374a72992cab2eb31de9ea0416d5d5237842011ca77905cbbb92959b7d8a"
     },
@@ -36707,7 +38446,12 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 551; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Не атакует"
       },
       "source_sha256": "805e68858d32ed041d81790ddb3749bb1eff7d2ffda200a03c69a4539b7c61bc"
     },
@@ -36726,9 +38470,422 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 551; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Пролетает сквозь препятствия"
       },
       "source_sha256": "111f097f645a4133080db003488d568da2ae943e9b73788c98a43ba1aa0235fb"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.551.312",
+      "location": {
+        "abc_byte_offset": 1098409,
+        "code_offset": 312,
+        "method_index": 551,
+        "sprite_path": [],
+        "string_pool_index": 10460,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 551; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Талисман: +"
+      },
+      "source_sha256": "49a728e6890a4304974908e1ea6a5420bbfb16ef80f12d9762245eabd311bb83"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.551.345",
+      "location": {
+        "abc_byte_offset": 1098442,
+        "code_offset": 345,
+        "method_index": 551,
+        "sprite_path": [],
+        "string_pool_index": 10461,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 551; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "% к получаемому урону"
+      },
+      "source_sha256": "5c4ed7e81720a03221ea73f968d30645f9912c164703c6b0b9fc285e63a86f5d"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.551.465",
+      "location": {
+        "abc_byte_offset": 1098562,
+        "code_offset": 465,
+        "method_index": 551,
+        "sprite_path": [],
+        "string_pool_index": 10466,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 551; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Отравлен ("
+      },
+      "source_sha256": "2bc33233a0b3944be43dee709fad50c177ba6bfbe70cd1732304cc495b070999"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.551.485",
+      "location": {
+        "abc_byte_offset": 1098582,
+        "code_offset": 485,
+        "method_index": 551,
+        "sprite_path": [],
+        "string_pool_index": 10467,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 551; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": " здоровья)"
+      },
+      "source_sha256": "440b1af1e7b3f72ecc7b30f9fe288aa2e68bab0f78dcc4f068938eb86185dde6"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.551.514",
+      "location": {
+        "abc_byte_offset": 1098611,
+        "code_offset": 514,
+        "method_index": 551,
+        "sprite_path": [],
+        "string_pool_index": 10468,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 551; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Отравлен святилищем ("
+      },
+      "source_sha256": "24aa4132b5aa58abab2c38cb633f0f6826eb8f238de4e112caba6d3f54b06e9e"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.551.534",
+      "location": {
+        "abc_byte_offset": 1098631,
+        "code_offset": 534,
+        "method_index": 551,
+        "sprite_path": [],
+        "string_pool_index": 10467,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 551; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": " здоровья)"
+      },
+      "source_sha256": "440b1af1e7b3f72ecc7b30f9fe288aa2e68bab0f78dcc4f068938eb86185dde6"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.551.563",
+      "location": {
+        "abc_byte_offset": 1098660,
+        "code_offset": 563,
+        "method_index": 551,
+        "sprite_path": [],
+        "string_pool_index": 10469,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 551; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Заморожен ("
+      },
+      "source_sha256": "98d2cffecde56e8ea3493f51c4954472a06ca7524603584c8f97e0c35cd46634"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.551.583",
+      "location": {
+        "abc_byte_offset": 1098680,
+        "code_offset": 583,
+        "method_index": 551,
+        "sprite_path": [],
+        "string_pool_index": 10470,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 551; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": " с)"
+      },
+      "source_sha256": "ac5e208c1bd4ba9661e9a4e32f962c51b0c78092a241fb49bbe1cacb7170f57d"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.551.612",
+      "location": {
+        "abc_byte_offset": 1098709,
+        "code_offset": 612,
+        "method_index": 551,
+        "sprite_path": [],
+        "string_pool_index": 10472,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 551; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Проклят ("
+      },
+      "source_sha256": "03643e45302870ad301d42b2d9e30da91df7d889ee7a08d7797577e1a1b7d749"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.551.632",
+      "location": {
+        "abc_byte_offset": 1098729,
+        "code_offset": 632,
+        "method_index": 551,
+        "sprite_path": [],
+        "string_pool_index": 10470,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 551; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": " с)"
+      },
+      "source_sha256": "ac5e208c1bd4ba9661e9a4e32f962c51b0c78092a241fb49bbe1cacb7170f57d"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.551.661",
+      "location": {
+        "abc_byte_offset": 1098758,
+        "code_offset": 661,
+        "method_index": 551,
+        "sprite_path": [],
+        "string_pool_index": 10473,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 551; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Замедлен ("
+      },
+      "source_sha256": "b1e738d1a56228768f00e334ce31553c61a6182b94b4517a3b063c6e65df3c7b"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.551.681",
+      "location": {
+        "abc_byte_offset": 1098778,
+        "code_offset": 681,
+        "method_index": 551,
+        "sprite_path": [],
+        "string_pool_index": 10470,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 551; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": " с)"
+      },
+      "source_sha256": "ac5e208c1bd4ba9661e9a4e32f962c51b0c78092a241fb49bbe1cacb7170f57d"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.551.710",
+      "location": {
+        "abc_byte_offset": 1098807,
+        "code_offset": 710,
+        "method_index": 551,
+        "sprite_path": [],
+        "string_pool_index": 10474,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 551; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Замедлен святилищем ("
+      },
+      "source_sha256": "7fa016194bb781b947c2a6f0c247453f1b9074e9e5837d40c9f0967cbf7a88c3"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.551.72",
+      "location": {
+        "abc_byte_offset": 1098169,
+        "code_offset": 72,
+        "method_index": 551,
+        "sprite_path": [],
+        "string_pool_index": 525,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 551; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Дух"
+      },
+      "source_sha256": "b4c60e66de1c92ec61fa6d9bbc695a6897f52360fd5119a6932ce579cea25b8b"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.551.730",
+      "location": {
+        "abc_byte_offset": 1098827,
+        "code_offset": 730,
+        "method_index": 551,
+        "sprite_path": [],
+        "string_pool_index": 10470,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 551; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": " с)"
+      },
+      "source_sha256": "ac5e208c1bd4ba9661e9a4e32f962c51b0c78092a241fb49bbe1cacb7170f57d"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.551.778",
+      "location": {
+        "abc_byte_offset": 1098875,
+        "code_offset": 778,
+        "method_index": 551,
+        "sprite_path": [],
+        "string_pool_index": 10443,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 551; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Мана за убийство: "
+      },
+      "source_sha256": "ae6fe3f5fb41bf8cfdba2bce225ef91ef842b03022ddad42f9167eecc8d5b652"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.551.889",
+      "location": {
+        "abc_byte_offset": 1098986,
+        "code_offset": 889,
+        "method_index": 551,
+        "sprite_path": [],
+        "string_pool_index": 10459,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 551; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Опыт за убийство: "
+      },
+      "source_sha256": "cf1825392a1e62a9144bfa73332fd3dabaf73f53e81d60e9a77864cf3fc330de"
     },
     {
       "category": "actionscript",
@@ -36745,9 +38902,38 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 551; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Истерзанный дух убитого мага"
       },
       "source_sha256": "6fce2ced975889b3a99c31664b494143ae44a8807b6a90ab4da2940e769bc649"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.552.126",
+      "location": {
+        "abc_byte_offset": 1099258,
+        "code_offset": 126,
+        "method_index": 552,
+        "sprite_path": [],
+        "string_pool_index": 10261,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 552; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Здоровье: "
+      },
+      "source_sha256": "0cd0fb5069e3fbc27f751fcf75e708e65714eb34dc57a2580a2d539098779192"
     },
     {
       "category": "actionscript",
@@ -36764,7 +38950,12 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 552; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Невосприимчив к снарядам \"Шквала\""
       },
       "source_sha256": "02ecf5cc4366c7d5cf5d10d13bec069eacba68add2c107da119f5edc1a387c6d"
     },
@@ -36783,7 +38974,12 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 552; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Не восстанавливает здоровье"
       },
       "source_sha256": "eeec374a72992cab2eb31de9ea0416d5d5237842011ca77905cbbb92959b7d8a"
     },
@@ -36802,7 +38998,12 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 552; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Крадёт самоцветы"
       },
       "source_sha256": "b46a7f1a04d649194d2f822030795b378bb5599afc616e2824e3a06be1751e2c"
     },
@@ -36821,9 +39022,422 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 552; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Пролетает сквозь препятствия"
       },
       "source_sha256": "111f097f645a4133080db003488d568da2ae943e9b73788c98a43ba1aa0235fb"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.552.312",
+      "location": {
+        "abc_byte_offset": 1099444,
+        "code_offset": 312,
+        "method_index": 552,
+        "sprite_path": [],
+        "string_pool_index": 10460,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 552; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Талисман: +"
+      },
+      "source_sha256": "49a728e6890a4304974908e1ea6a5420bbfb16ef80f12d9762245eabd311bb83"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.552.345",
+      "location": {
+        "abc_byte_offset": 1099477,
+        "code_offset": 345,
+        "method_index": 552,
+        "sprite_path": [],
+        "string_pool_index": 10461,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 552; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "% к получаемому урону"
+      },
+      "source_sha256": "5c4ed7e81720a03221ea73f968d30645f9912c164703c6b0b9fc285e63a86f5d"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.552.465",
+      "location": {
+        "abc_byte_offset": 1099597,
+        "code_offset": 465,
+        "method_index": 552,
+        "sprite_path": [],
+        "string_pool_index": 10466,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 552; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Отравлен ("
+      },
+      "source_sha256": "2bc33233a0b3944be43dee709fad50c177ba6bfbe70cd1732304cc495b070999"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.552.485",
+      "location": {
+        "abc_byte_offset": 1099617,
+        "code_offset": 485,
+        "method_index": 552,
+        "sprite_path": [],
+        "string_pool_index": 10467,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 552; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": " здоровья)"
+      },
+      "source_sha256": "440b1af1e7b3f72ecc7b30f9fe288aa2e68bab0f78dcc4f068938eb86185dde6"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.552.514",
+      "location": {
+        "abc_byte_offset": 1099646,
+        "code_offset": 514,
+        "method_index": 552,
+        "sprite_path": [],
+        "string_pool_index": 10468,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 552; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Отравлен святилищем ("
+      },
+      "source_sha256": "24aa4132b5aa58abab2c38cb633f0f6826eb8f238de4e112caba6d3f54b06e9e"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.552.534",
+      "location": {
+        "abc_byte_offset": 1099666,
+        "code_offset": 534,
+        "method_index": 552,
+        "sprite_path": [],
+        "string_pool_index": 10467,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 552; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": " здоровья)"
+      },
+      "source_sha256": "440b1af1e7b3f72ecc7b30f9fe288aa2e68bab0f78dcc4f068938eb86185dde6"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.552.563",
+      "location": {
+        "abc_byte_offset": 1099695,
+        "code_offset": 563,
+        "method_index": 552,
+        "sprite_path": [],
+        "string_pool_index": 10469,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 552; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Заморожен ("
+      },
+      "source_sha256": "98d2cffecde56e8ea3493f51c4954472a06ca7524603584c8f97e0c35cd46634"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.552.583",
+      "location": {
+        "abc_byte_offset": 1099715,
+        "code_offset": 583,
+        "method_index": 552,
+        "sprite_path": [],
+        "string_pool_index": 10470,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 552; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": " с)"
+      },
+      "source_sha256": "ac5e208c1bd4ba9661e9a4e32f962c51b0c78092a241fb49bbe1cacb7170f57d"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.552.612",
+      "location": {
+        "abc_byte_offset": 1099744,
+        "code_offset": 612,
+        "method_index": 552,
+        "sprite_path": [],
+        "string_pool_index": 10472,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 552; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Проклят ("
+      },
+      "source_sha256": "03643e45302870ad301d42b2d9e30da91df7d889ee7a08d7797577e1a1b7d749"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.552.632",
+      "location": {
+        "abc_byte_offset": 1099764,
+        "code_offset": 632,
+        "method_index": 552,
+        "sprite_path": [],
+        "string_pool_index": 10470,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 552; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": " с)"
+      },
+      "source_sha256": "ac5e208c1bd4ba9661e9a4e32f962c51b0c78092a241fb49bbe1cacb7170f57d"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.552.661",
+      "location": {
+        "abc_byte_offset": 1099793,
+        "code_offset": 661,
+        "method_index": 552,
+        "sprite_path": [],
+        "string_pool_index": 10473,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 552; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Замедлен ("
+      },
+      "source_sha256": "b1e738d1a56228768f00e334ce31553c61a6182b94b4517a3b063c6e65df3c7b"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.552.681",
+      "location": {
+        "abc_byte_offset": 1099813,
+        "code_offset": 681,
+        "method_index": 552,
+        "sprite_path": [],
+        "string_pool_index": 10470,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 552; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": " с)"
+      },
+      "source_sha256": "ac5e208c1bd4ba9661e9a4e32f962c51b0c78092a241fb49bbe1cacb7170f57d"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.552.710",
+      "location": {
+        "abc_byte_offset": 1099842,
+        "code_offset": 710,
+        "method_index": 552,
+        "sprite_path": [],
+        "string_pool_index": 10474,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 552; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Замедлен святилищем ("
+      },
+      "source_sha256": "7fa016194bb781b947c2a6f0c247453f1b9074e9e5837d40c9f0967cbf7a88c3"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.552.72",
+      "location": {
+        "abc_byte_offset": 1099204,
+        "code_offset": 72,
+        "method_index": 552,
+        "sprite_path": [],
+        "string_pool_index": 529,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 552; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Призрак"
+      },
+      "source_sha256": "7070bb4c686e1cb1eb47b988070178aa88808ccbd4f268d3103db34b50f58dea"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.552.730",
+      "location": {
+        "abc_byte_offset": 1099862,
+        "code_offset": 730,
+        "method_index": 552,
+        "sprite_path": [],
+        "string_pool_index": 10470,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 552; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": " с)"
+      },
+      "source_sha256": "ac5e208c1bd4ba9661e9a4e32f962c51b0c78092a241fb49bbe1cacb7170f57d"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.552.778",
+      "location": {
+        "abc_byte_offset": 1099910,
+        "code_offset": 778,
+        "method_index": 552,
+        "sprite_path": [],
+        "string_pool_index": 10443,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 552; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Мана за убийство: "
+      },
+      "source_sha256": "ae6fe3f5fb41bf8cfdba2bce225ef91ef842b03022ddad42f9167eecc8d5b652"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.552.889",
+      "location": {
+        "abc_byte_offset": 1100021,
+        "code_offset": 889,
+        "method_index": 552,
+        "sprite_path": [],
+        "string_pool_index": 10459,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 552; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Опыт за убийство: "
+      },
+      "source_sha256": "cf1825392a1e62a9144bfa73332fd3dabaf73f53e81d60e9a77864cf3fc330de"
     },
     {
       "category": "actionscript",
@@ -36840,9 +39454,62 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 552; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Осквернённый дух"
       },
       "source_sha256": "1b958ba23398c56f868792bf5d0034fab1b710e2e2c4149bcabc5036c8c0ef94"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.553.126",
+      "location": {
+        "abc_byte_offset": 1100293,
+        "code_offset": 126,
+        "method_index": 553,
+        "sprite_path": [],
+        "string_pool_index": 10261,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 553; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Здоровье: "
+      },
+      "source_sha256": "0cd0fb5069e3fbc27f751fcf75e708e65714eb34dc57a2580a2d539098779192"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.553.193",
+      "location": {
+        "abc_byte_offset": 1100360,
+        "code_offset": 193,
+        "method_index": 553,
+        "sprite_path": [],
+        "string_pool_index": 10262,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 553; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Уровень брони: "
+      },
+      "source_sha256": "077cf6a5fd7dae7a4b66b6c575933b51978d399c89b46bb8bb9b1582aae48ee2"
     },
     {
       "category": "actionscript",
@@ -36859,7 +39526,12 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 553; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Не восстанавливает здоровье"
       },
       "source_sha256": "eeec374a72992cab2eb31de9ea0416d5d5237842011ca77905cbbb92959b7d8a"
     },
@@ -36878,9 +39550,326 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 553; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Не изгоняется — мгновенно уничтожает вашу сферу"
       },
       "source_sha256": "af1ca1e3d4897f02a61b478de93c46990124436495fc99000f8a9c9270a0b3bd"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.553.378",
+      "location": {
+        "abc_byte_offset": 1100545,
+        "code_offset": 378,
+        "method_index": 553,
+        "sprite_path": [],
+        "string_pool_index": 10466,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 553; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Отравлен ("
+      },
+      "source_sha256": "2bc33233a0b3944be43dee709fad50c177ba6bfbe70cd1732304cc495b070999"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.553.398",
+      "location": {
+        "abc_byte_offset": 1100565,
+        "code_offset": 398,
+        "method_index": 553,
+        "sprite_path": [],
+        "string_pool_index": 10467,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 553; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": " здоровья)"
+      },
+      "source_sha256": "440b1af1e7b3f72ecc7b30f9fe288aa2e68bab0f78dcc4f068938eb86185dde6"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.553.427",
+      "location": {
+        "abc_byte_offset": 1100594,
+        "code_offset": 427,
+        "method_index": 553,
+        "sprite_path": [],
+        "string_pool_index": 10468,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 553; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Отравлен святилищем ("
+      },
+      "source_sha256": "24aa4132b5aa58abab2c38cb633f0f6826eb8f238de4e112caba6d3f54b06e9e"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.553.447",
+      "location": {
+        "abc_byte_offset": 1100614,
+        "code_offset": 447,
+        "method_index": 553,
+        "sprite_path": [],
+        "string_pool_index": 10467,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 553; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": " здоровья)"
+      },
+      "source_sha256": "440b1af1e7b3f72ecc7b30f9fe288aa2e68bab0f78dcc4f068938eb86185dde6"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.553.476",
+      "location": {
+        "abc_byte_offset": 1100643,
+        "code_offset": 476,
+        "method_index": 553,
+        "sprite_path": [],
+        "string_pool_index": 10469,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 553; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Заморожен ("
+      },
+      "source_sha256": "98d2cffecde56e8ea3493f51c4954472a06ca7524603584c8f97e0c35cd46634"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.553.496",
+      "location": {
+        "abc_byte_offset": 1100663,
+        "code_offset": 496,
+        "method_index": 553,
+        "sprite_path": [],
+        "string_pool_index": 10470,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 553; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": " с)"
+      },
+      "source_sha256": "ac5e208c1bd4ba9661e9a4e32f962c51b0c78092a241fb49bbe1cacb7170f57d"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.553.525",
+      "location": {
+        "abc_byte_offset": 1100692,
+        "code_offset": 525,
+        "method_index": 553,
+        "sprite_path": [],
+        "string_pool_index": 10472,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 553; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Проклят ("
+      },
+      "source_sha256": "03643e45302870ad301d42b2d9e30da91df7d889ee7a08d7797577e1a1b7d749"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.553.545",
+      "location": {
+        "abc_byte_offset": 1100712,
+        "code_offset": 545,
+        "method_index": 553,
+        "sprite_path": [],
+        "string_pool_index": 10470,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 553; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": " с)"
+      },
+      "source_sha256": "ac5e208c1bd4ba9661e9a4e32f962c51b0c78092a241fb49bbe1cacb7170f57d"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.553.574",
+      "location": {
+        "abc_byte_offset": 1100741,
+        "code_offset": 574,
+        "method_index": 553,
+        "sprite_path": [],
+        "string_pool_index": 10473,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 553; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Замедлен ("
+      },
+      "source_sha256": "b1e738d1a56228768f00e334ce31553c61a6182b94b4517a3b063c6e65df3c7b"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.553.594",
+      "location": {
+        "abc_byte_offset": 1100761,
+        "code_offset": 594,
+        "method_index": 553,
+        "sprite_path": [],
+        "string_pool_index": 10470,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 553; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": " с)"
+      },
+      "source_sha256": "ac5e208c1bd4ba9661e9a4e32f962c51b0c78092a241fb49bbe1cacb7170f57d"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.553.623",
+      "location": {
+        "abc_byte_offset": 1100790,
+        "code_offset": 623,
+        "method_index": 553,
+        "sprite_path": [],
+        "string_pool_index": 10474,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 553; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Замедлен святилищем ("
+      },
+      "source_sha256": "7fa016194bb781b947c2a6f0c247453f1b9074e9e5837d40c9f0967cbf7a88c3"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.553.643",
+      "location": {
+        "abc_byte_offset": 1100810,
+        "code_offset": 643,
+        "method_index": 553,
+        "sprite_path": [],
+        "string_pool_index": 10470,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 553; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": " с)"
+      },
+      "source_sha256": "ac5e208c1bd4ba9661e9a4e32f962c51b0c78092a241fb49bbe1cacb7170f57d"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.553.72",
+      "location": {
+        "abc_byte_offset": 1100239,
+        "code_offset": 72,
+        "method_index": 553,
+        "sprite_path": [],
+        "string_pool_index": 527,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 553; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Страж"
+      },
+      "source_sha256": "1d228f258f494c8a88b8b785a63b8ea22ef34a530f6e9bd5899bbcecd3fce678"
     },
     {
       "category": "actionscript",
@@ -36897,9 +39886,62 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 553; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Вернувшийся дух мага тайных искусств"
       },
       "source_sha256": "797eb1ea3ecb47b31a9634623371ed7b4db087aeacf9e28d5c175e04016f0067"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.554.126",
+      "location": {
+        "abc_byte_offset": 1101004,
+        "code_offset": 126,
+        "method_index": 554,
+        "sprite_path": [],
+        "string_pool_index": 10261,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 554; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Здоровье: "
+      },
+      "source_sha256": "0cd0fb5069e3fbc27f751fcf75e708e65714eb34dc57a2580a2d539098779192"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.554.213",
+      "location": {
+        "abc_byte_offset": 1101091,
+        "code_offset": 213,
+        "method_index": 554,
+        "sprite_path": [],
+        "string_pool_index": 10502,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 554; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Предел получаемого урона: "
+      },
+      "source_sha256": "7590950a2ef701fa84ea032e3995b1c06654dffbc28785d7913f647c34818c93"
     },
     {
       "category": "actionscript",
@@ -36916,7 +39958,12 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 554; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Не восстанавливает здоровье"
       },
       "source_sha256": "eeec374a72992cab2eb31de9ea0416d5d5237842011ca77905cbbb92959b7d8a"
     },
@@ -36935,7 +39982,12 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 554; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Не изгоняется — мгновенно уничтожает вашу сферу"
       },
       "source_sha256": "af1ca1e3d4897f02a61b478de93c46990124436495fc99000f8a9c9270a0b3bd"
     },
@@ -36954,9 +40006,374 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 554; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Проходит сквозь препятствия"
       },
       "source_sha256": "996c27ddabfb1ff2bff0a67f785278668bc04218930cb2a156cec15b578a4484"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.554.395",
+      "location": {
+        "abc_byte_offset": 1101273,
+        "code_offset": 395,
+        "method_index": 554,
+        "sprite_path": [],
+        "string_pool_index": 10466,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 554; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Отравлен ("
+      },
+      "source_sha256": "2bc33233a0b3944be43dee709fad50c177ba6bfbe70cd1732304cc495b070999"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.554.415",
+      "location": {
+        "abc_byte_offset": 1101293,
+        "code_offset": 415,
+        "method_index": 554,
+        "sprite_path": [],
+        "string_pool_index": 10467,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 554; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": " здоровья)"
+      },
+      "source_sha256": "440b1af1e7b3f72ecc7b30f9fe288aa2e68bab0f78dcc4f068938eb86185dde6"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.554.444",
+      "location": {
+        "abc_byte_offset": 1101322,
+        "code_offset": 444,
+        "method_index": 554,
+        "sprite_path": [],
+        "string_pool_index": 10468,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 554; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Отравлен святилищем ("
+      },
+      "source_sha256": "24aa4132b5aa58abab2c38cb633f0f6826eb8f238de4e112caba6d3f54b06e9e"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.554.464",
+      "location": {
+        "abc_byte_offset": 1101342,
+        "code_offset": 464,
+        "method_index": 554,
+        "sprite_path": [],
+        "string_pool_index": 10467,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 554; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": " здоровья)"
+      },
+      "source_sha256": "440b1af1e7b3f72ecc7b30f9fe288aa2e68bab0f78dcc4f068938eb86185dde6"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.554.493",
+      "location": {
+        "abc_byte_offset": 1101371,
+        "code_offset": 493,
+        "method_index": 554,
+        "sprite_path": [],
+        "string_pool_index": 10469,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 554; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Заморожен ("
+      },
+      "source_sha256": "98d2cffecde56e8ea3493f51c4954472a06ca7524603584c8f97e0c35cd46634"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.554.513",
+      "location": {
+        "abc_byte_offset": 1101391,
+        "code_offset": 513,
+        "method_index": 554,
+        "sprite_path": [],
+        "string_pool_index": 10470,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 554; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": " с)"
+      },
+      "source_sha256": "ac5e208c1bd4ba9661e9a4e32f962c51b0c78092a241fb49bbe1cacb7170f57d"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.554.542",
+      "location": {
+        "abc_byte_offset": 1101420,
+        "code_offset": 542,
+        "method_index": 554,
+        "sprite_path": [],
+        "string_pool_index": 10472,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 554; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Проклят ("
+      },
+      "source_sha256": "03643e45302870ad301d42b2d9e30da91df7d889ee7a08d7797577e1a1b7d749"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.554.562",
+      "location": {
+        "abc_byte_offset": 1101440,
+        "code_offset": 562,
+        "method_index": 554,
+        "sprite_path": [],
+        "string_pool_index": 10470,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 554; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": " с)"
+      },
+      "source_sha256": "ac5e208c1bd4ba9661e9a4e32f962c51b0c78092a241fb49bbe1cacb7170f57d"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.554.591",
+      "location": {
+        "abc_byte_offset": 1101469,
+        "code_offset": 591,
+        "method_index": 554,
+        "sprite_path": [],
+        "string_pool_index": 10473,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 554; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Замедлен ("
+      },
+      "source_sha256": "b1e738d1a56228768f00e334ce31553c61a6182b94b4517a3b063c6e65df3c7b"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.554.611",
+      "location": {
+        "abc_byte_offset": 1101489,
+        "code_offset": 611,
+        "method_index": 554,
+        "sprite_path": [],
+        "string_pool_index": 10470,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 554; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": " с)"
+      },
+      "source_sha256": "ac5e208c1bd4ba9661e9a4e32f962c51b0c78092a241fb49bbe1cacb7170f57d"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.554.640",
+      "location": {
+        "abc_byte_offset": 1101518,
+        "code_offset": 640,
+        "method_index": 554,
+        "sprite_path": [],
+        "string_pool_index": 10474,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 554; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Замедлен святилищем ("
+      },
+      "source_sha256": "7fa016194bb781b947c2a6f0c247453f1b9074e9e5837d40c9f0967cbf7a88c3"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.554.660",
+      "location": {
+        "abc_byte_offset": 1101538,
+        "code_offset": 660,
+        "method_index": 554,
+        "sprite_path": [],
+        "string_pool_index": 10470,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 554; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": " с)"
+      },
+      "source_sha256": "ac5e208c1bd4ba9661e9a4e32f962c51b0c78092a241fb49bbe1cacb7170f57d"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.554.708",
+      "location": {
+        "abc_byte_offset": 1101586,
+        "code_offset": 708,
+        "method_index": 554,
+        "sprite_path": [],
+        "string_pool_index": 10443,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 554; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Мана за убийство: "
+      },
+      "source_sha256": "ae6fe3f5fb41bf8cfdba2bce225ef91ef842b03022ddad42f9167eecc8d5b652"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.554.72",
+      "location": {
+        "abc_byte_offset": 1100950,
+        "code_offset": 72,
+        "method_index": 554,
+        "sprite_path": [],
+        "string_pool_index": 532,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 554; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Шпиль"
+      },
+      "source_sha256": "602c00e885d24529099f8e60bb081aaf17d706c2e38de66c2b09d93510f7333d"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.554.819",
+      "location": {
+        "abc_byte_offset": 1101697,
+        "code_offset": 819,
+        "method_index": 554,
+        "sprite_path": [],
+        "string_pool_index": 10459,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 554; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Опыт за убийство: "
+      },
+      "source_sha256": "cf1825392a1e62a9144bfa73332fd3dabaf73f53e81d60e9a77864cf3fc330de"
     },
     {
       "category": "actionscript",
@@ -36973,7 +40390,12 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: панель активного монстра, метод 554; адресная надпись.",
+        "context_confidence": "confirmed",
+        "notes": "Числа, условия показа и игровые расчёты сохранены. Гарнитура назначается до измерения поля и сразу восстанавливается.",
+        "status": "draft",
+        "translation": "Создание самой Забытой"
       },
       "source_sha256": "4a63fe70e766e5ab904a6c84594833d4f2dbd5d77728a283d9ea39678261013b"
     },

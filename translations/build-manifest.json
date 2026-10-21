@@ -1,6 +1,6 @@
 {
-  "applied_translations": 2356,
-  "expected_candidate_sha256": "a10aa184dea912875b0b5c87da2a10f67e0072f7f24cb4963caabba1a543e771",
+  "applied_translations": 2524,
+  "expected_candidate_sha256": "ce17870436b5842a9754fc18addeb538b2b45cc4d3ea47afa766b3130a51cf7c",
   "font_sha256": "ba5564634b93a8f8ba57b48cd4f1ae7417d2b4656fbac779028679b00de3cf12",
   "game_sha256": "c8eadc03a7e607086998695f7696ec22dd90d7b7859e3d10cdfabf40fc7bbad5",
   "plans": [
@@ -87,6 +87,10 @@
     {
       "path": "plans/pr25-battle-spells.json",
       "sha256": "cd793b18c1fd4c9d4e8217e6a061d2b6b5866044e84b00daefdf650cec679f94"
+    },
+    {
+      "path": "plans/pr26-active-monsters.json",
+      "sha256": "12e5bbc39f2a74a80e067f54a0cd2384e96d30736c2ad70e1f6befb9df13b8bf"
     }
   ],
   "schema_version": 1
