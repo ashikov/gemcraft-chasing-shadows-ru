@@ -278,3 +278,42 @@ def test_reviewed_building_headings_promote_only_addressed_display_uses(offset, 
 def test_building_symbols_stay_technical_without_exact_reviewed_caption_guards(change):
     entry, = building_caption_entries(**change)
     assert entry['classification'] == 'technical'
+
+
+def test_reviewed_tomb_caption_can_share_its_class_symbol():
+    entry, = building_caption_entries(15785, 'Tomb', color=177)
+    assert entry['classification'] == 'probable'
+    for change in ({'offset': 15786}, {'color': 203}, {'source': 'Other'}):
+        values = {'offset': 15785, 'source': 'Tomb', 'color': 177, **change}
+        entry, = building_caption_entries(**values)
+        assert entry['classification'] == 'technical'
+
+
+def orblet_count_entries(offset=14255, suffix=' docked: ', *, owner='IngameInfoPanelRenderer',
+                         method='renderInfoPanel', tail=b'\x82\xa0\x2c\2\xa0'):
+    from abc_inventory import ABCInventory
+
+    inventory = ABCInventory(b'', {'tag_path': [3], 'tag_code': 82})
+    inventory.strings = ['', 'orblets', suffix]
+    inventory.symbols = {1: {'multiname'}}
+    inventory.method_labels[0] = [{'owner': owner, 'method': method}]
+    code = b'\x02' * offset + b'\x2c\1' + tail + b'\x47'
+    inventory.body_entries(code, 0, 0)
+    return next(e for e in inventory.entries if e['location']['code_offset'] == offset)
+
+
+@pytest.mark.parametrize(('offset', 'suffix'), [
+    (14255, ' docked: '), (14380, ' docked'),
+    (14441, ' can still be retrieved'), (14538, ' lost: -'),
+])
+def test_reviewed_orblet_count_literals_can_share_technical_symbols(offset, suffix):
+    assert orblet_count_entries(offset, suffix)['classification'] == 'probable'
+
+
+@pytest.mark.parametrize('change', [
+    {'offset': 14256}, {'suffix': 'wrong'}, {'owner': 'OtherRenderer'},
+    {'method': 'otherMethod'}, {'tail': b'\x82\xa0\x2c\2\x29'},
+    {'tail': b'\x82\x10\0\0\0\xa0\x2c\2\xa0'},
+])
+def test_orblet_symbols_remain_technical_without_reviewed_consumer(change):
+    assert orblet_count_entries(**change)['classification'] == 'technical'

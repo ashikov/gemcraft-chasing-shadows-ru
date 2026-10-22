@@ -193,3 +193,31 @@ def test_string_pool_count_growth_does_not_move_code_relative_addresses():
     assert len(checked.strings) == 128
     assert checked.bodies[0][2] == b"\x2c\xff\0\x29\x47"
     assert checked.entries[0]["location"]["code_offset"] == 0
+
+
+@pytest.mark.parametrize(('padding', 'code', 'offset', 'expected'), [
+    (125, b'\x2c\1\x29\x2c\1\x29\x47', 3,
+     b'\x2c\x7f\x29\x2c\x7f\x29\x47'),
+    (16381, b'\x2c\x81\0\x29\x2c\x81\0\x29\x47', 4,
+     b'\x2c\xff\x7f\x29\x2c\xff\x7f\x29\x47'),
+])
+def test_reuses_identical_translations_only_when_operand_capacity_is_exceeded(
+        padding, code, offset, expected):
+    raw = abc(['Synthetic text', *[f'padding{i}' for i in range(padding)]], [code])
+    records = [replacement(raw, offset=0), replacement(raw, offset=offset)]
+    result = patch_pushstrings(raw, records)
+    before, after = inventory(raw), inventory(result)
+    assert after.strings == [*before.strings, 'Синтетика']
+    assert after.bodies[0][2] == expected
+    assert result == patch_pushstrings(raw, records[::-1])
+    records[1]['translation'] = 'Другой перевод'
+    with pytest.raises(ValueError, match='width'):
+        patch_pushstrings(raw, records)
+
+
+def test_retains_separate_identical_literals_while_all_indices_fit():
+    raw = abc(['Synthetic text'], [b'\x2c\1\x29\x2c\1\x29\x47'])
+    records = [replacement(raw, offset=0), replacement(raw, offset=3)]
+    result = patch_pushstrings(raw, records)
+    assert inventory(result).strings == ['', 'Synthetic text', 'Синтетика', 'Синтетика']
+    assert inventory(result).bodies[0][2] == b'\x2c\2\x29\x2c\3\x29\x47'
