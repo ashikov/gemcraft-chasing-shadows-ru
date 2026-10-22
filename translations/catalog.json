@@ -41381,6 +41381,270 @@
     },
     {
       "category": "actionscript",
+      "id": "abc.4175.630.11097",
+      "location": {
+        "abc_byte_offset": 1198635,
+        "code_offset": 11097,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10793,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: святилища; адресный текст метода 630.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Игровые условия и числовые вычисления сохранены; отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Святилище клинков"
+      },
+      "source_sha256": "fb39c6ab72ba8ead79a84ef719a0e215ce70461aa6767448d5565d6d9ba6a85d"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.11168",
+      "location": {
+        "abc_byte_offset": 1198706,
+        "code_offset": 11168,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10794,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: святилища; адресный текст метода 630.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Игровые условия и числовые вычисления сохранены; отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Святилище коррозии"
+      },
+      "source_sha256": "d8a6ea56314a258e56861ac54667449fe15cc217cc1dbca4caeca922acc32006"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.11239",
+      "location": {
+        "abc_byte_offset": 1198777,
+        "code_offset": 11239,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10795,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: святилища; адресный текст метода 630.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Игровые условия и числовые вычисления сохранены; отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Святилище зачарования"
+      },
+      "source_sha256": "9c7101add5f92cd1a155c64b05bd5bde18b5f3d990e28a02a4911f3b5a220777"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.11310",
+      "location": {
+        "abc_byte_offset": 1198848,
+        "code_offset": 11310,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10796,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: святилища; адресный текст метода 630.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Игровые условия и числовые вычисления сохранены; отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Святилище энергии"
+      },
+      "source_sha256": "99cb289028af59dd87c73b7edc29785f75d59209f50a59f55f56765d4cc87890"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.11381",
+      "location": {
+        "abc_byte_offset": 1198919,
+        "code_offset": 11381,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10797,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: святилища; адресный текст метода 630.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Игровые условия и числовые вычисления сохранены; отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Святилище сосредоточения"
+      },
+      "source_sha256": "2196dc6481f585f76e9766c66b9e658f0a73708342c690fafbda8354312cf7df"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.11452",
+      "location": {
+        "abc_byte_offset": 1198990,
+        "code_offset": 11452,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10798,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: святилища; адресный текст метода 630.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Игровые условия и числовые вычисления сохранены; отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Святилище заражения"
+      },
+      "source_sha256": "045fa3564e76deef85a2c4489b51ce3b7b305c5e4a394384cf8996f7d071390b"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.11523",
+      "location": {
+        "abc_byte_offset": 1199061,
+        "code_offset": 11523,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10799,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: святилища; адресный текст метода 630.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Игровые условия и числовые вычисления сохранены; отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Святилище времени"
+      },
+      "source_sha256": "e471568d232ac9f8d3123658d6ece9ec0a1c11ebde1f16d9c6653ae70970e7e0"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.11594",
+      "location": {
+        "abc_byte_offset": 1199132,
+        "code_offset": 11594,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10800,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: святилища; адресный текст метода 630.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Игровые условия и числовые вычисления сохранены; отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Святилище яда"
+      },
+      "source_sha256": "91e591a2c0ee968930f6ffe33a25e2d594d00b1c9ce286106a2cbdedcf0a6713"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.11665",
+      "location": {
+        "abc_byte_offset": 1199203,
+        "code_offset": 11665,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10801,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: святилища; адресный текст метода 630.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Игровые условия и числовые вычисления сохранены; отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Святилище мудрости"
+      },
+      "source_sha256": "6c72eef2aeb152a0a286be9fdddcafdb8115d43aa53d8171da66cddfd67ce91b"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.11878",
+      "location": {
+        "abc_byte_offset": 1199416,
+        "code_offset": 11878,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10802,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: святилища; адресный текст метода 630.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Игровые условия и числовые вычисления сохранены; отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Применяет эффекты самоцвета и наносит "
+      },
+      "source_sha256": "4bed104fbb096989809cecac89d936ba5f99499c2c0a435215d8ba416d9e0f95"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.11901",
+      "location": {
+        "abc_byte_offset": 1199439,
+        "code_offset": 11901,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10803,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: святилища; адресный текст метода 630.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Игровые условия и числовые вычисления сохранены; отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "x урона самоцвета всем врагам в радиусе, игнорируя броню"
+      },
+      "source_sha256": "8d2bda448aebfa7de47c8e91a09fc4b79b36f4d755f95fa38ee57ba72d67b8fb"
+    },
+    {
+      "category": "actionscript",
       "id": "abc.4175.630.11923",
       "location": {
         "abc_byte_offset": 1199461,
@@ -41394,7 +41658,12 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: святилища; адресный текст метода 630.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Игровые условия и числовые вычисления сохранены; отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Равномерно распределяет дополнительный урон между целями. Урон зависит от уровня самоцвета и игнорирует броню и щит"
       },
       "source_sha256": "c5f04c605cb4840b0f721a9c99d90cbbf7677bd1d8dcf14ec25c9d5d6c94b399"
     },
@@ -41413,7 +41682,12 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: святилища; адресный текст метода 630.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Игровые условия и числовые вычисления сохранены; отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Снимает долю текущего здоровья всех поражённых врагов"
       },
       "source_sha256": "f9ce0c0bee3d29a5cd5e08f1826538c3ed681dc04184f4f6f129e1761f42fa13"
     },
@@ -41432,7 +41706,12 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: святилища; адресный текст метода 630.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Игровые условия и числовые вычисления сохранены; отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Сильно снижает броню всех поражённых врагов"
       },
       "source_sha256": "ee022caeadf12dd456ce940492a47e4aa89eeaa8d63af64e5c9e761c48d90d81"
     },
@@ -41451,7 +41730,12 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: святилища; адресный текст метода 630.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Игровые условия и числовые вычисления сохранены; отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Возвращает самоцвет, повышая его максимальный урон за каждого поражённого врага"
       },
       "source_sha256": "0c64d84889ca6779497d181419a22e77710ecb7d3de9c45616a2a4b32e612da0"
     },
@@ -41470,7 +41754,12 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: святилища; адресный текст метода 630.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Игровые условия и числовые вычисления сохранены; отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Извлекает ману из всех поражённых врагов"
       },
       "source_sha256": "922548496650a5887fd75b32c75d6278284a8bdd587165ecef0e2f9bcb214868"
     },
@@ -41489,7 +41778,12 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: святилища; адресный текст метода 630.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Игровые условия и числовые вычисления сохранены; отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Даёт заряд атакующим заклинаниям и усилениям самоцветов за каждого поражённого врага"
       },
       "source_sha256": "0a72c987f4f749ad35a15405dc55fdae6e4423b7073d9484df0ba984928601c3"
     },
@@ -41508,7 +41802,12 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: святилища; адресный текст метода 630.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Игровые условия и числовые вычисления сохранены; отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Временно подавляет регенерацию всех поражённых врагов"
       },
       "source_sha256": "8d873973268f0def8c93424fb6a750c6557af03fbc341325b4e09b7e198071c7"
     },
@@ -41527,7 +41826,12 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: святилища; адресный текст метода 630.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Игровые условия и числовые вычисления сохранены; отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Временно замедляет всех поражённых врагов вдвое; сочетается с замедлением от самоцветов"
       },
       "source_sha256": "43014f04944a74c778e37d9fbc88d1bfb5b3ed270077afaba6a95f517936436d"
     },
@@ -41546,7 +41850,12 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: святилища; адресный текст метода 630.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Игровые условия и числовые вычисления сохранены; отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Наносит всем поражённым врагам дополнительный урон ядом за 30 с"
       },
       "source_sha256": "0d0d5e043cca24f22af7ae7aa19cabf60ecc54614be991083f20832b7962e9a4"
     },
@@ -41565,9 +41874,158 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: святилища; адресный текст метода 630.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Игровые условия и числовые вычисления сохранены; отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Даёт опыт за каждого поражённого врага"
       },
       "source_sha256": "e27d4b0548ce208c564f86a52d1224403ef5c3384b627a8c7633856f7eddb80d"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.13036",
+      "location": {
+        "abc_byte_offset": 1200574,
+        "code_offset": 13036,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10814,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: святилища; адресный текст метода 630.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Игровые условия и числовые вычисления сохранены; отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Время зарядки: "
+      },
+      "source_sha256": "a67a84ae9352375cc340c0a45b32cfd8658d54466bec8c5222bd10da1f0faf1d"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.13058",
+      "location": {
+        "abc_byte_offset": 1200596,
+        "code_offset": 13058,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 8176,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: святилища; адресный текст метода 630.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Игровые условия и числовые вычисления сохранены; отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": " с"
+      },
+      "source_sha256": "47171b6394f42d5828eb44ca305e9e8e4f31378f5f2da4f3429bb31d0c614f72"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.13098",
+      "location": {
+        "abc_byte_offset": 1200636,
+        "code_offset": 13098,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10815,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: святилища; адресный текст метода 630.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Игровые условия и числовые вычисления сохранены; отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Не готово — заряд: "
+      },
+      "source_sha256": "6c00c7fa64fb346948f98934c1c9fbccadbdfc87f8c8526e512973e58d90df96"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.13143",
+      "location": {
+        "abc_byte_offset": 1200681,
+        "code_offset": 13143,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10816,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: святилища; адресный текст метода 630.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Игровые условия и числовые вычисления сохранены; отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Максимум заряда: "
+      },
+      "source_sha256": "c2d925b1f932d27835a34e2c468ef210b2b289aa6b90b216522595e7dcf9972e"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.13188",
+      "location": {
+        "abc_byte_offset": 1200726,
+        "code_offset": 13188,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10817,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: святилища; адресный текст метода 630.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Игровые условия и числовые вычисления сохранены; отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Текущий заряд: "
+      },
+      "source_sha256": "c43777f2115d4c9ad822df0bb0e917445662495e3e2a40585c16ffce72f388db"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.13233",
+      "location": {
+        "abc_byte_offset": 1200771,
+        "code_offset": 13233,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10816,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: святилища; адресный текст метода 630.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Игровые условия и числовые вычисления сохранены; отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Максимум заряда: "
+      },
+      "source_sha256": "c2d925b1f932d27835a34e2c468ef210b2b289aa6b90b216522595e7dcf9972e"
     },
     {
       "category": "actionscript",
@@ -41584,7 +42042,12 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: святилища; адресный текст метода 630.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Игровые условия и числовые вычисления сохранены; отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Отпустите самоцвет для активации святилища"
       },
       "source_sha256": "4f54aabdccf2974a85007bd685b9b25fc08381ffb8b8fb91e57b1296df86dc6e"
     },
@@ -41603,7 +42066,12 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: святилища; адресный текст метода 630.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Игровые условия и числовые вычисления сохранены; отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Бросьте самоцвет для активации"
       },
       "source_sha256": "5b51a77241f701d831342885462f8561eaf864aaafe0e8187acd9162d78df79d"
     },
@@ -41622,7 +42090,12 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: святилища; адресный текст метода 630.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Игровые условия и числовые вычисления сохранены; отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Самоцвет будет принесён в жертву"
       },
       "source_sha256": "7da88e99e4cbf27554003dca3cfb051fc7bb73c3bf5cd4da7d45a34df98d7a89"
     },
@@ -41641,7 +42114,12 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: святилища; адресный текст метода 630.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Игровые условия и числовые вычисления сохранены; отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Наведите перетаскиваемый самоцвет на святилище для подробностей"
       },
       "source_sha256": "b1c39eb04b39e4bd41250543fcb0dc20ce7c1ee6319fa6882862855395fc020c"
     },
@@ -48494,6 +48972,30 @@
     },
     {
       "category": "actionscript",
+      "id": "abc.4175.695.1400",
+      "location": {
+        "abc_byte_offset": 1274810,
+        "code_offset": 1400,
+        "method_index": 695,
+        "sprite_path": [],
+        "string_pool_index": 11246,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: святилища; адресный текст метода 695.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Игровые условия и числовые вычисления сохранены; отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "В святилище зачарования нужно перетащить самоцвет-бомбу"
+      },
+      "source_sha256": "1c5b512d9a6e0a8cd9a6f92a531a023b40428f7a16786a85eb2c9a452b157361"
+    },
+    {
+      "category": "actionscript",
       "id": "abc.4175.760.280",
       "location": {
         "abc_byte_offset": 1317007,
@@ -48605,6 +49107,294 @@
         "translation": "Вызваны все оставшиеся волны"
       },
       "source_sha256": "66e11d22387149a12a57c38f97ea73058f50f677c835da70ec0d3ac6460e7259"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.784.505",
+      "location": {
+        "abc_byte_offset": 1331607,
+        "code_offset": 505,
+        "method_index": 784,
+        "sprite_path": [],
+        "string_pool_index": 11333,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: святилища; адресный текст метода 784.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Игровые условия и числовые вычисления сохранены; отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": " попад."
+      },
+      "source_sha256": "6c4124af12501af519c2cb7a8d6dadf871a6270115f633687d93f5ec8203cc4a"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.784.513",
+      "location": {
+        "abc_byte_offset": 1331615,
+        "code_offset": 513,
+        "method_index": 784,
+        "sprite_path": [],
+        "string_pool_index": 11334,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: святилища; адресный текст метода 784.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Игровые условия и числовые вычисления сохранены; отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": " попад."
+      },
+      "source_sha256": "5706e4814843e974fb9453179a2fa892702adeb27afe0b0864021326045e5e92"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.784.550",
+      "location": {
+        "abc_byte_offset": 1331652,
+        "code_offset": 550,
+        "method_index": 784,
+        "sprite_path": [],
+        "string_pool_index": 11335,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: святилища; адресный текст метода 784.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Игровые условия и числовые вычисления сохранены; отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": " убито"
+      },
+      "source_sha256": "f283bba8d11407b6f44a1f22a240f2ba0ba54c6971e0450104c0d321fe71930b"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.784.558",
+      "location": {
+        "abc_byte_offset": 1331660,
+        "code_offset": 558,
+        "method_index": 784,
+        "sprite_path": [],
+        "string_pool_index": 11336,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: святилища; адресный текст метода 784.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Игровые условия и числовые вычисления сохранены; отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": " убито"
+      },
+      "source_sha256": "7035d7b97ea4e9ca0e910ce0ae8f39afbf359fd40f0696dd6eed086df0dae0c1"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.784.622",
+      "location": {
+        "abc_byte_offset": 1331724,
+        "code_offset": 622,
+        "method_index": 784,
+        "sprite_path": [],
+        "string_pool_index": 11337,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: святилища; адресный текст метода 784.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Игровые условия и числовые вычисления сохранены; отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": " урона нанесено"
+      },
+      "source_sha256": "90813f20457127c3574f1e53f39194676d8635393399806703c93ea94317ac60"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.786.1003",
+      "location": {
+        "abc_byte_offset": 1333218,
+        "code_offset": 1003,
+        "method_index": 786,
+        "sprite_path": [],
+        "string_pool_index": 11344,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: святилища; адресный текст метода 786.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Игровые условия и числовые вычисления сохранены; отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": " урона ядом нанесено"
+      },
+      "source_sha256": "38eef22d610d7a01858332b62b26079f7814455273b8bc842b0bff122a21cd67"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.786.1113",
+      "location": {
+        "abc_byte_offset": 1333328,
+        "code_offset": 1113,
+        "method_index": 786,
+        "sprite_path": [],
+        "string_pool_index": 11346,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: святилища; адресный текст метода 786.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Игровые условия и числовые вычисления сохранены; отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": " опыта получено"
+      },
+      "source_sha256": "001c201136df8fa2597da8f2e58c31695aef2b610d93b7b30507cfaa1d3e92a3"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.786.115",
+      "location": {
+        "abc_byte_offset": 1332330,
+        "code_offset": 115,
+        "method_index": 786,
+        "sprite_path": [],
+        "string_pool_index": 11338,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: святилища; адресный текст метода 786.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Игровые условия и числовые вычисления сохранены; отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": " дополнительно снято здоровья"
+      },
+      "source_sha256": "d46bd5b20939387baf47290501831dc9a92cc5166f99e7539bc9e971b404dc71"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.786.235",
+      "location": {
+        "abc_byte_offset": 1332450,
+        "code_offset": 235,
+        "method_index": 786,
+        "sprite_path": [],
+        "string_pool_index": 11339,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: святилища; адресный текст метода 786.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Игровые условия и числовые вычисления сохранены; отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": " брони снято"
+      },
+      "source_sha256": "1202df36160bea4a2e4a469cf0f9ad6fb05409f828c2e6c25b56b04557c1d0fb"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.786.336",
+      "location": {
+        "abc_byte_offset": 1332551,
+        "code_offset": 336,
+        "method_index": 786,
+        "sprite_path": [],
+        "string_pool_index": 11340,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: святилища; адресный текст метода 786.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Игровые условия и числовые вычисления сохранены; отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": " к максимуму урона самоцвета"
+      },
+      "source_sha256": "0d7b8fb1a7249e76d8adcda5aa1e527ae03428ab0893f2a42ea78e27c3ddf3a4"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.786.422",
+      "location": {
+        "abc_byte_offset": 1332637,
+        "code_offset": 422,
+        "method_index": 786,
+        "sprite_path": [],
+        "string_pool_index": 11342,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: святилища; адресный текст метода 786.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Игровые условия и числовые вычисления сохранены; отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": " маны получено"
+      },
+      "source_sha256": "f8dbc498e0bb46eda798eece9e7edfefd688a508c4521cd69468bf9d11c170da"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.786.749",
+      "location": {
+        "abc_byte_offset": 1332964,
+        "code_offset": 749,
+        "method_index": 786,
+        "sprite_path": [],
+        "string_pool_index": 11343,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: святилища; адресный текст метода 786.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Игровые условия и числовые вычисления сохранены; отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "% заряда заклинаний"
+      },
+      "source_sha256": "e00be5db0c7da18dac530a56d12f2a29b3d4302e68802244c1460454e5fe40e9"
     },
     {
       "category": "actionscript",
@@ -51233,6 +52023,534 @@
     },
     {
       "category": "actionscript",
+      "id": "abc.4175.791.163",
+      "location": {
+        "abc_byte_offset": 1335309,
+        "code_offset": 163,
+        "method_index": 791,
+        "sprite_path": [],
+        "string_pool_index": 10396,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: святилища; адресный текст метода 791.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Игровые условия и числовые вычисления сохранены; отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Наносит "
+      },
+      "source_sha256": "14cf0d514b949403ba30a779ea95b4541f9ea31277662607fbe91783ffb60087"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.791.208",
+      "location": {
+        "abc_byte_offset": 1335354,
+        "code_offset": 208,
+        "method_index": 791,
+        "sprite_path": [],
+        "string_pool_index": 11349,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: святилища; адресный текст метода 791.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Игровые условия и числовые вычисления сохранены; отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": " урона всем врагам в радиусе, игнорируя броню"
+      },
+      "source_sha256": "b01399bcd7f03df0aa5fbe0d4ef88c79ba230d8d42cdfce14175287ed69a079c"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.791.230",
+      "location": {
+        "abc_byte_offset": 1335376,
+        "code_offset": 230,
+        "method_index": 791,
+        "sprite_path": [],
+        "string_pool_index": 10392,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: святилища; адресный текст метода 791.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Игровые условия и числовые вычисления сохранены; отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Распределяет "
+      },
+      "source_sha256": "ec4343411ff3d7490972309e2f150a34d00675f3c3e096a666e0df26031b3785"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.791.247",
+      "location": {
+        "abc_byte_offset": 1335393,
+        "code_offset": 247,
+        "method_index": 791,
+        "sprite_path": [],
+        "string_pool_index": 11350,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: святилища; адресный текст метода 791.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Игровые условия и числовые вычисления сохранены; отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": " дополнительного урона поровну между целями, игнорируя броню и щит"
+      },
+      "source_sha256": "38969b63397603b353ea76d8ffc8f55b489ddc8eb0c4fd64570ff6eaea6a2dc8"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.791.285",
+      "location": {
+        "abc_byte_offset": 1335431,
+        "code_offset": 285,
+        "method_index": 791,
+        "sprite_path": [],
+        "string_pool_index": 11351,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: святилища; адресный текст метода 791.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Игровые условия и числовые вычисления сохранены; отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Снимает "
+      },
+      "source_sha256": "b4fb267dc60e59d2147a2c9ced9299fd8a85bab8ab02c85bf3f8086a30f7b0ed"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.791.304",
+      "location": {
+        "abc_byte_offset": 1335450,
+        "code_offset": 304,
+        "method_index": 791,
+        "sprite_path": [],
+        "string_pool_index": 11352,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: святилища; адресный текст метода 791.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Игровые условия и числовые вычисления сохранены; отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "% текущего здоровья всех поражённых врагов"
+      },
+      "source_sha256": "582909b3b13286c51975bf073d57c2bd718470eb74107d741a6f2781a671ba73"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.791.346",
+      "location": {
+        "abc_byte_offset": 1335492,
+        "code_offset": 346,
+        "method_index": 791,
+        "sprite_path": [],
+        "string_pool_index": 11353,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: святилища; адресный текст метода 791.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Игровые условия и числовые вычисления сохранены; отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Снимает "
+      },
+      "source_sha256": "3266cae473c3767cc2d300c0e716095eb66f3f4815ed1b42c7481f3678fd2010"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.791.365",
+      "location": {
+        "abc_byte_offset": 1335511,
+        "code_offset": 365,
+        "method_index": 791,
+        "sprite_path": [],
+        "string_pool_index": 11354,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: святилища; адресный текст метода 791.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Игровые условия и числовые вычисления сохранены; отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": " брони с каждого поражённого врага"
+      },
+      "source_sha256": "825bbdd504caa628c094cca38a6e94bed9edf1a690a9554795a544b629408efd"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.791.407",
+      "location": {
+        "abc_byte_offset": 1335553,
+        "code_offset": 407,
+        "method_index": 791,
+        "sprite_path": [],
+        "string_pool_index": 11355,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: святилища; адресный текст метода 791.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Игровые условия и числовые вычисления сохранены; отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Возвращает самоцвет, добавляя "
+      },
+      "source_sha256": "167c18c559814e4005ea37548b6c1e04e9253d1d9093801857e8be5fa5170055"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.791.426",
+      "location": {
+        "abc_byte_offset": 1335572,
+        "code_offset": 426,
+        "method_index": 791,
+        "sprite_path": [],
+        "string_pool_index": 11356,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: святилища; адресный текст метода 791.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Игровые условия и числовые вычисления сохранены; отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": " к максимальному урону за каждого поражённого врага"
+      },
+      "source_sha256": "8354684aed9ac255f7164898d3c990e4fc4d1152575f2cd1e1fa8f176f6c2372"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.791.468",
+      "location": {
+        "abc_byte_offset": 1335614,
+        "code_offset": 468,
+        "method_index": 791,
+        "sprite_path": [],
+        "string_pool_index": 11357,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: святилища; адресный текст метода 791.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Игровые условия и числовые вычисления сохранены; отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Извлекает "
+      },
+      "source_sha256": "6e97071b171e5eb7e291498ce6fa200ad5e5409b7483c319bb79c00bd445ae9f"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.791.487",
+      "location": {
+        "abc_byte_offset": 1335633,
+        "code_offset": 487,
+        "method_index": 791,
+        "sprite_path": [],
+        "string_pool_index": 11358,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: святилища; адресный текст метода 791.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Игровые условия и числовые вычисления сохранены; отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": " маны из каждого поражённого врага"
+      },
+      "source_sha256": "03fdcc911f800d96daa9326bf10eb2fbcdc0ca9876b3b7f6c61574516ba6d2cd"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.791.529",
+      "location": {
+        "abc_byte_offset": 1335675,
+        "code_offset": 529,
+        "method_index": 791,
+        "sprite_path": [],
+        "string_pool_index": 11359,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: святилища; адресный текст метода 791.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Игровые условия и числовые вычисления сохранены; отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Даёт атакующим заклинаниям и усилениям самоцветов "
+      },
+      "source_sha256": "8b85c8204a96592f106b2470ae731c190a305aa4ac291f150d32fa4f4629d603"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.791.548",
+      "location": {
+        "abc_byte_offset": 1335694,
+        "code_offset": 548,
+        "method_index": 791,
+        "sprite_path": [],
+        "string_pool_index": 11360,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: святилища; адресный текст метода 791.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Игровые условия и числовые вычисления сохранены; отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "% заряда за каждого поражённого врага"
+      },
+      "source_sha256": "07e21e9f0f325481f46ab077088ab88365b9b825ceec3497d1d971e30113fc44"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.791.590",
+      "location": {
+        "abc_byte_offset": 1335736,
+        "code_offset": 590,
+        "method_index": 791,
+        "sprite_path": [],
+        "string_pool_index": 11361,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: святилища; адресный текст метода 791.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Игровые условия и числовые вычисления сохранены; отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Подавляет регенерацию всех поражённых врагов на "
+      },
+      "source_sha256": "e5ea19e68a54dda55d9ac535358c8f672fc8069d621dc60f7fc62fcdc6f1e0b5"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.791.609",
+      "location": {
+        "abc_byte_offset": 1335755,
+        "code_offset": 609,
+        "method_index": 791,
+        "sprite_path": [],
+        "string_pool_index": 8176,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: святилища; адресный текст метода 791.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Игровые условия и числовые вычисления сохранены; отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": " с"
+      },
+      "source_sha256": "47171b6394f42d5828eb44ca305e9e8e4f31378f5f2da4f3429bb31d0c614f72"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.791.651",
+      "location": {
+        "abc_byte_offset": 1335797,
+        "code_offset": 651,
+        "method_index": 791,
+        "sprite_path": [],
+        "string_pool_index": 11362,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: святилища; адресный текст метода 791.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Игровые условия и числовые вычисления сохранены; отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Замедляет всех поражённых врагов вдвое на "
+      },
+      "source_sha256": "8b727a0bdf092f8a93d46fc267781f90afe9985cd1648ee6d6bd5b0d6bbd3451"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.791.670",
+      "location": {
+        "abc_byte_offset": 1335816,
+        "code_offset": 670,
+        "method_index": 791,
+        "sprite_path": [],
+        "string_pool_index": 11363,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: святилища; адресный текст метода 791.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Игровые условия и числовые вычисления сохранены; отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": " с; сочетается с замедлением от самоцветов"
+      },
+      "source_sha256": "6980cf3eed15e5714e7a23a21f29983d60fa238e58f171808086e5ee2b3d223a"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.791.712",
+      "location": {
+        "abc_byte_offset": 1335858,
+        "code_offset": 712,
+        "method_index": 791,
+        "sprite_path": [],
+        "string_pool_index": 10396,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: святилища; адресный текст метода 791.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Игровые условия и числовые вычисления сохранены; отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Наносит "
+      },
+      "source_sha256": "14cf0d514b949403ba30a779ea95b4541f9ea31277662607fbe91783ffb60087"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.791.729",
+      "location": {
+        "abc_byte_offset": 1335875,
+        "code_offset": 729,
+        "method_index": 791,
+        "sprite_path": [],
+        "string_pool_index": 11364,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: святилища; адресный текст метода 791.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Игровые условия и числовые вычисления сохранены; отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": " урона ядом за 30 с каждому поражённому врагу"
+      },
+      "source_sha256": "cd4f3ca290319fa20a6e6ae46cf9ee6b45e8a8741d9dd969289915f19be4cf7b"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.791.771",
+      "location": {
+        "abc_byte_offset": 1335917,
+        "code_offset": 771,
+        "method_index": 791,
+        "sprite_path": [],
+        "string_pool_index": 11365,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: святилища; адресный текст метода 791.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Игровые условия и числовые вычисления сохранены; отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Даёт "
+      },
+      "source_sha256": "f8fa7c16ad615c6ba5e3d5fcb171a4a33ca385feccef584529fafcdacf6918ab"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.791.790",
+      "location": {
+        "abc_byte_offset": 1335936,
+        "code_offset": 790,
+        "method_index": 791,
+        "sprite_path": [],
+        "string_pool_index": 11366,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: святилища; адресный текст метода 791.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Игровые условия и числовые вычисления сохранены; отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": " опыта за каждого поражённого врага"
+      },
+      "source_sha256": "d55e070d4251f1fd9068d6ec2364e0e0cba4b447b4d5ba000847641567398316"
+    },
+    {
+      "category": "actionscript",
       "id": "abc.4175.791.853",
       "location": {
         "abc_byte_offset": 1335999,
@@ -51246,7 +52564,12 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: святилища; адресный текст метода 791.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Игровые условия и числовые вычисления сохранены; отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Самоцвет нельзя применить\nНет целей в радиусе"
       },
       "source_sha256": "4a64d13540caec6b1e46f8c79f32355d51562a362e4a02a95701fe5904fa232f"
     },
