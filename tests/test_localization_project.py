@@ -41,12 +41,12 @@ def test_symlink_output_is_rejected_even_when_dangling(tmp_path):
 def test_real_git_catalog_and_plan_structure_without_game_inputs():
     result = validate_project()
     assert result['game_sha256'] == ORIGINAL_SHA256
-    assert result['applied_translations'] == 2591
-    assert result['translated_entries'] == 2665
-    assert result['plans'] == 23
+    assert result['applied_translations'] == 2683
+    assert result['translated_entries'] == 2757
+    assert result['plans'] == 24
     assert result['validation'] == 'Git structure only; original SWF not checked'
     assert result['expected_candidate_sha256'] == (
-        'ddf10d3afc7e1ea139f056f8e86c6db585bdbf81af2315fc87f68b9dbeeace13')
+        '4fe24607db3aa9039dd7aa6d54708764c428d3035c8dd5c5c24fa73a30ef9034')
     # The private catalog schema deliberately excludes full source strings.
     assert sha(Path('translations/catalog.json').read_bytes()) == result['catalog_sha256']
 
