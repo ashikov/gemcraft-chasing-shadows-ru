@@ -58,13 +58,15 @@ def _pool_sections(data):
     return sections, namespaces
 
 
-def extend_font_pool(data, family='GCCS Alegreya'):
+def extend_font_pool(data, family='GCCS Alegreya', *, bitmap_selector=False):
     """Append family/name strings and public QName; return bytes and two indices.
 
     Reuse an existing empty public PackageNamespace, or append one. Existing pool
     entries retain their indices and exact bytes; existing font QNames fail closed.
     """
     data = bytes(data)
+    if bitmap_selector and family != 'GCCS Alegreya':
+        raise ValueError('Bitmap selector requires the embedded GCCS Alegreya family')
     before = _inventory(data)
     if not isinstance(family, str) or not family or family in before.strings:
         raise ValueError('Font family is empty or already present')
@@ -104,7 +106,49 @@ def extend_font_pool(data, family='GCCS Alegreya'):
             or after.multinames[:len(before.multinames)] != before.multinames
             or [b[2] for b in before.bodies] != [b[2] for b in after.bodies]):
         raise ValueError('ABC font pool preservation check failed')
+    if bitmap_selector:
+        result = _extend_bitmap_selector_pool(result, public)
     return result, family_index, font_index
+
+
+def _extend_bitmap_selector_pool(data, public):
+    """Append only the two QName dependencies of the opt-in bitmap selector."""
+    from bitmap_font_binding import CYRILLIC_PATTERN, AS3_NAMESPACE
+
+    before = _inventory(data)
+    sections, namespaces = _pool_sections(data)
+    strings = list(before.strings)
+    string_bytes = bytearray()
+
+    def string_index(value):
+        existing = next((i for i, item in enumerate(strings) if i > 0 and item == value), None)
+        if existing is not None:
+            return existing
+        index = len(strings)
+        strings.append(value)
+        encoded = value.encode('utf-8')
+        string_bytes.extend(_u30(len(encoded)) + encoded)
+        return index
+
+    string_index(CYRILLIC_PATTERN)
+    regexp = string_index('RegExp')
+    test = string_index('test')
+    uri = string_index(AS3_NAMESPACE)
+    builtin = next((i for i, ns in enumerate(namespaces) if ns == (0x08, uri)), None)
+    changes = []
+    if builtin is None:
+        builtin = len(namespaces)
+        start, entries, end, count = sections['namespace']
+        changes.append((start, end, _u30(count + 1) + data[entries:end] + b'\x08' + _u30(uri)))
+    start, entries, end, count = sections['string']
+    changes.append((start, end, _u30(len(strings)) + data[entries:end] + string_bytes))
+    start, entries, end, count = sections['multiname']
+    qnames = b'\x07' + _u30(public) + _u30(regexp) + b'\x07' + _u30(builtin) + _u30(test)
+    changes.append((start, end, _u30(count + 2) + data[entries:end] + qnames))
+    result = data
+    for start, end, replacement in sorted(changes, reverse=True):
+        result = result[:start] + replacement + result[end:]
+    return result
 
 
 def _bodies(data):
@@ -221,9 +265,10 @@ def insert_method_code(data, insertions, *, extra_stack=None, extra_locals=None)
     return result
 
 
-def patch_abc_font_bindings(data, insertions, *, family='GCCS Alegreya', extra_stack=None, extra_locals=None):
+def patch_abc_font_bindings(data, insertions, *, family='GCCS Alegreya', extra_stack=None, extra_locals=None,
+                            bitmap_selector=False):
     """Extend font pools then insert snippets, optionally built from new indices."""
-    data, family_index, font_index = extend_font_pool(data, family)
+    data, family_index, font_index = extend_font_pool(data, family, bitmap_selector=bitmap_selector)
     if callable(insertions):
         insertions = insertions(family_index, font_index)
     return insert_method_code(data, insertions, extra_stack=extra_stack, extra_locals=extra_locals)

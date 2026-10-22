@@ -178,6 +178,7 @@ def _bindings(original, translated, sites=None):
     return patch_abc_font_bindings(
         translated, snippets, family=FAMILY,
         extra_stack=increments,
+        bitmap_selector=any(site['kind'] == 'bitmap_cyrillic' for site in sites or []),
     ), counts
 
 

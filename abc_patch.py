@@ -42,15 +42,46 @@ def _string_pool_bounds(data):
     return start, entries_start, reader.pos
 
 
+def _validate_reachable_control_flow(instructions, code_length, handlers):
+    """Keep dead compiler tails, rejecting invalid edges from any executable root.
+
+    No conditions are evaluated. Both conditional arms and every exception
+    handler are reachable conservatively; literal patches never alter edges.
+    """
+    operations = {offset: (opcode, operands) for offset, opcode, operands in instructions}
+    next_offsets = {offset: instructions[index + 1][0]
+                    if index + 1 < len(instructions) else code_length
+                    for index, (offset, _, _) in enumerate(instructions)}
+    pending, visited = [0, *handlers], set()
+    while pending:
+        offset = pending.pop()
+        if offset in visited:
+            continue
+        if offset not in operations:
+            raise ValueError("Unverified reachable control flow in selected ABC method")
+        visited.add(offset)
+        opcode, operands = operations[offset]
+        next_offset = next_offsets[offset]
+        if opcode in (0x03, 0x47, 0x48):
+            continue
+        if opcode == 0x1B:
+            pending.extend(offset + delta for delta in (operands[0], *operands[2:]))
+        elif 0x0C <= opcode <= 0x1A:
+            pending.append(next_offset + operands[0])
+            if opcode != 0x10:
+                pending.append(next_offset)
+        else:
+            pending.append(next_offset)
+
+
 def _validate_method(data, inventory, method, start, code):
     if any(item["method_index"] == method for item in inventory.unsupported):
         raise ValueError("Unsupported instruction in selected ABC method")
-    if any(item["method_index"] == method for item in inventory.control_flow_anomalies):
-        raise ValueError("Unverified control flow in selected ABC method")
     instructions = inventory.instructions(code, method)
     boundaries = {offset for offset, _, _ in instructions}
     reader = ABCReader(data)
     reader.pos = start + len(code)
+    handlers = []
     for _ in range(reader.count()):
         begin, end, target = reader.u30(), reader.u30(), reader.u30()
         if (
@@ -61,6 +92,9 @@ def _validate_method(data, inventory, method, start, code):
             raise ValueError("ABC exception address is not an instruction boundary")
         reader.u30()
         reader.u30()
+        handlers.append(target)
+    if any(item["method_index"] == method for item in inventory.control_flow_anomalies):
+        _validate_reachable_control_flow(instructions, len(code), handlers)
     return {offset: (opcode, operands) for offset, opcode, operands in instructions}
 
 

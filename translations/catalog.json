@@ -42005,6 +42005,198 @@
     },
     {
       "category": "actionscript",
+      "id": "abc.4175.597.431",
+      "location": {
+        "abc_byte_offset": 1161584,
+        "code_offset": 431,
+        "method_index": 597,
+        "sprite_path": [],
+        "string_pool_index": 10653,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: bitmap-уведомление; предупреждение и обратный отсчёт сценария.",
+        "context_confidence": "confirmed",
+        "notes": "PR30: подтверждён прямой путь в VfxFloatingText. Гарнитура выбирается до измерения и растеризации; числа и параметры вызова сохранены. Отсчёт использует нейтральную подпись с числом. AIR не проверен.",
+        "status": "draft",
+        "translation": "Уничтожьте замки башни мага!"
+      },
+      "source_sha256": "38b0897de2c321a198cff9733f12ad1475a2cf3a2b963f28730b9ce069a68a87"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.597.498",
+      "location": {
+        "abc_byte_offset": 1161651,
+        "code_offset": 498,
+        "method_index": 597,
+        "sprite_path": [],
+        "string_pool_index": 10654,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: bitmap-уведомление; предупреждение и обратный отсчёт сценария.",
+        "context_confidence": "confirmed",
+        "notes": "PR30: подтверждён прямой путь в VfxFloatingText. Гарнитура выбирается до измерения и растеризации; числа и параметры вызова сохранены. Отсчёт использует нейтральную подпись с числом. AIR не проверен.",
+        "status": "draft",
+        "translation": "...Осталось волн: "
+      },
+      "source_sha256": "ab5df625bc76dbd4e163bed2dd888df828f90159bb93556525c31821b6541d46"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.597.503",
+      "location": {
+        "abc_byte_offset": 1161656,
+        "code_offset": 503,
+        "method_index": 597,
+        "sprite_path": [],
+        "string_pool_index": 10655,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: bitmap-уведомление; предупреждение и обратный отсчёт сценария.",
+        "context_confidence": "confirmed",
+        "notes": "PR30: подтверждён прямой путь в VfxFloatingText. Гарнитура выбирается до измерения и растеризации; числа и параметры вызова сохранены. Отсчёт использует нейтральную подпись с числом. AIR не проверен.",
+        "status": "draft",
+        "translation": ""
+      },
+      "source_sha256": "1984bdfaa386073e2f0b4385c6188810638bb529967f53c0de02a4bd0c5e540e"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.597.527",
+      "location": {
+        "abc_byte_offset": 1161680,
+        "code_offset": 527,
+        "method_index": 597,
+        "sprite_path": [],
+        "string_pool_index": 10656,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: bitmap-уведомление; предупреждение и обратный отсчёт сценария.",
+        "context_confidence": "confirmed",
+        "notes": "PR30: подтверждён прямой путь в VfxFloatingText. Гарнитура выбирается до измерения и растеризации; числа и параметры вызова сохранены. Отсчёт использует нейтральную подпись с числом. AIR не проверен.",
+        "status": "draft",
+        "translation": "..."
+      },
+      "source_sha256": "0b6576b09fcbb0bb558744475e0837c2a609e83aa72cc3f78459a1f778a35a47"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.597.725",
+      "location": {
+        "abc_byte_offset": 1161878,
+        "code_offset": 725,
+        "method_index": 597,
+        "sprite_path": [],
+        "string_pool_index": 10659,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: bitmap-уведомление; предупреждение и обратный отсчёт сценария.",
+        "context_confidence": "confirmed",
+        "notes": "PR30: подтверждён прямой путь в VfxFloatingText. Гарнитура выбирается до измерения и растеризации; числа и параметры вызова сохранены. Отсчёт использует нейтральную подпись с числом. AIR не проверен.",
+        "status": "draft",
+        "translation": "Зарядите все узлы!"
+      },
+      "source_sha256": "b14ebec7a51b240de5582e0d4930376bfb86e837ba3dd9d12ce906ed386a744d"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.597.792",
+      "location": {
+        "abc_byte_offset": 1161945,
+        "code_offset": 792,
+        "method_index": 597,
+        "sprite_path": [],
+        "string_pool_index": 10654,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: bitmap-уведомление; предупреждение и обратный отсчёт сценария.",
+        "context_confidence": "confirmed",
+        "notes": "PR30: подтверждён прямой путь в VfxFloatingText. Гарнитура выбирается до измерения и растеризации; числа и параметры вызова сохранены. Отсчёт использует нейтральную подпись с числом. AIR не проверен.",
+        "status": "draft",
+        "translation": "...Осталось волн: "
+      },
+      "source_sha256": "ab5df625bc76dbd4e163bed2dd888df828f90159bb93556525c31821b6541d46"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.597.797",
+      "location": {
+        "abc_byte_offset": 1161950,
+        "code_offset": 797,
+        "method_index": 597,
+        "sprite_path": [],
+        "string_pool_index": 10655,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: bitmap-уведомление; предупреждение и обратный отсчёт сценария.",
+        "context_confidence": "confirmed",
+        "notes": "PR30: подтверждён прямой путь в VfxFloatingText. Гарнитура выбирается до измерения и растеризации; числа и параметры вызова сохранены. Отсчёт использует нейтральную подпись с числом. AIR не проверен.",
+        "status": "draft",
+        "translation": ""
+      },
+      "source_sha256": "1984bdfaa386073e2f0b4385c6188810638bb529967f53c0de02a4bd0c5e540e"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.597.821",
+      "location": {
+        "abc_byte_offset": 1161974,
+        "code_offset": 821,
+        "method_index": 597,
+        "sprite_path": [],
+        "string_pool_index": 10656,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: bitmap-уведомление; предупреждение и обратный отсчёт сценария.",
+        "context_confidence": "confirmed",
+        "notes": "PR30: подтверждён прямой путь в VfxFloatingText. Гарнитура выбирается до измерения и растеризации; числа и параметры вызова сохранены. Отсчёт использует нейтральную подпись с числом. AIR не проверен.",
+        "status": "draft",
+        "translation": "..."
+      },
+      "source_sha256": "0b6576b09fcbb0bb558744475e0837c2a609e83aa72cc3f78459a1f778a35a47"
+    },
+    {
+      "category": "actionscript",
       "id": "abc.4175.630.10093",
       "location": {
         "abc_byte_offset": 1197631,
@@ -54636,6 +54828,30 @@
         "translation": "В святилище зачарования нужно перетащить самоцвет-бомбу"
       },
       "source_sha256": "1c5b512d9a6e0a8cd9a6f92a531a023b40428f7a16786a85eb2c9a452b157361"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.713.237",
+      "location": {
+        "abc_byte_offset": 1297904,
+        "code_offset": 237,
+        "method_index": 713,
+        "sprite_path": [],
+        "string_pool_index": 10684,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: bitmap-уведомление; нехватка маны для быстрой бомбы у сферы или святилища.",
+        "context_confidence": "confirmed",
+        "notes": "PR30: подтверждён прямой путь в VfxFloatingText. Гарнитура выбирается до измерения и растеризации; числа и параметры вызова сохранены. Отсчёт использует нейтральную подпись с числом. AIR не проверен.",
+        "status": "draft",
+        "translation": "Не хватает маны"
+      },
+      "source_sha256": "f57414bda0de7d995cca56759fda055e7a56d9587715e4c62991fe7c7dc4e5f5"
     },
     {
       "category": "actionscript",
