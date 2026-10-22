@@ -46,7 +46,7 @@ def test_real_git_catalog_and_plan_structure_without_game_inputs():
     assert result['plans'] == 25
     assert result['validation'] == 'Git structure only; original SWF not checked'
     assert result['expected_candidate_sha256'] == (
-        '0f1667bc49cde8d27caf98f24056dc6b15d0a798acb51c83234c353d9b037021')
+        '544d2836f5d7206c8d7ece958064cdee0919f1c3f301ddbcebc4eaab93ca0c7b')
     # The private catalog schema deliberately excludes full source strings.
     assert sha(Path('translations/catalog.json').read_bytes()) == result['catalog_sha256']
 

@@ -74,22 +74,26 @@ def test_remaining_object_count_labels_handle_russian_number_forms():
     def translated(at):
         return rows[f'abc.4175.630.{at}']
 
-    for singular, plural, suffix, label in (
-            (14247, 14255, 14260, '— пристыковано малых сфер'),
-            (14372, 14380, 14385, '— пристыковано малых сфер'),
-            (14433, 14441, 14446, '— можно вернуть малых сфер'),
-            (14530, 14538, 14543, '— потеряно малых сфер')):
-        assert translated(singular) == translated(plural) == label
-        assert translated(suffix) in ('', ': +', ': -')
-
-    for count in (1, 2, 5, 11, 21, 22, 25):
-        noun = 14247 if count == 1 else 14255
-        docked = f'{count} {translated(noun)}{translated(14260)}{count}{translated(14309)}'
-        assert docked == f'{count} — пристыковано малых сфер: +{count}% к получению маны'
-        noun = 14530 if count == 1 else 14538
-        for penalty in (count * 10, count * 2):
+    # m630 chooses singular only for 1. Counters partition up to 9 (NORMAL)
+    # or 15 (IRON) existing orblets; their rows appear only for positive counts.
+    for normal, maximum in ((True, 9), (False, 15)):
+        for count in range(1, maximum + 1):
+            noun = 14247 if count == 1 else 14255
+            if normal:
+                docked = (f'{count} {translated(noun)}{translated(14260)}'
+                          f'{count}{translated(14309)}')
+                assert docked == f'{count} — пристыковано: +{count}% к получению маны'
+            else:
+                noun = 14372 if count == 1 else 14380
+                docked = f'{count} {translated(noun)}{translated(14385)}'
+                assert docked == f'{count} — пристыковано'
+            noun = 14433 if count == 1 else 14441
+            retrievable = f'{count} {translated(noun)}{translated(14446)}'
+            assert retrievable == f'{count} — доступно для возврата'
+            noun = 14530 if count == 1 else 14538
+            penalty = count * (10 if normal else 2)
             lost = f'{count} {translated(noun)}{translated(14543)}{penalty}{translated(14593)}'
-            assert lost == f'{count} — потеряно малых сфер: -{penalty}% к получению маны'
+            assert lost == f'{count} — потеряно: -{penalty}% к получению маны'
     assert 'H4' in translated(17928)
     assert 'G2' in translated(18007)
     assert translated(17671) == 'Осталось убить: '
