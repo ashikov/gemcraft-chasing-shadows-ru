@@ -71,6 +71,8 @@ def patch_pushstrings(data, replacements):
     and location containing method_index, code_offset, abc_byte_offset and
     string_pool_index. Content/placeholder/font validation belongs to the caller.
     No existing constant is replaced, even when it has no known technical use.
+    If separate new literals exceed operand capacity, identical translations
+    share appended constants. Instruction widths and original pools stay intact.
     """
     data = bytes(data)
     inventory = ABCInventory(data, {"tag_path": [0], "tag_code": 82})
@@ -112,7 +114,8 @@ def patch_pushstrings(data, replacements):
     modified = bytearray(data)
     appended = bytearray()
     expected = {}
-    for ordinal, (site, record) in enumerate(sorted(sites.items())):
+    validated = []
+    for site, record in sorted(sites.items()):
         method, offset = site
         if method not in bodies:
             raise ValueError("ABC replacement method has no body")
@@ -129,17 +132,29 @@ def patch_pushstrings(data, replacements):
         operand_reader.pos = offset + 1
         operand_reader.u30()
         width = operand_reader.pos - offset - 1
-        new_index = len(inventory.strings) + ordinal
+        validated.append((site, record, start, width))
+    # Keep historical builds byte-identical while they fit. Compact only new
+    # translations, never original constants that may also be technical keys.
+    compact = any(len(_u30(len(inventory.strings) + ordinal)) > width
+                  for ordinal, (_, _, _, width) in enumerate(validated))
+    new_literals = {}
+    for ordinal, (site, record, start, width) in enumerate(validated):
+        method, offset = site
+        translation = record['translation']
+        append = not compact or translation not in new_literals
+        new_index = (new_literals.setdefault(translation, len(inventory.strings) + len(new_literals))
+                     if compact else len(inventory.strings) + ordinal)
         encoded_index = _u30(new_index, width)
         modified[start + offset + 1 : start + offset + 1 + width] = encoded_index
-        raw = record["translation"].encode("utf-8")
-        appended.extend(_u30(len(raw)) + raw)
-        expected[site] = (new_index, record["translation"])
+        if append:
+            raw = translation.encode("utf-8")
+            appended.extend(_u30(len(raw)) + raw)
+        expected[site] = (new_index, translation)
 
     pool_start, entries_start, pool_end = _string_pool_bounds(data)
     result = (
         bytes(modified[:pool_start])
-        + _u30(len(inventory.strings) + len(sites))
+        + _u30(len(inventory.strings) + (len(new_literals) if compact else len(sites)))
         + bytes(modified[entries_start:pool_end])
         + bytes(appended)
         + bytes(modified[pool_end:])

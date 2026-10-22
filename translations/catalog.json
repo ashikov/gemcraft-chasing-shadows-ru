@@ -42989,6 +42989,318 @@
     },
     {
       "category": "actionscript",
+      "id": "abc.4175.630.13548",
+      "location": {
+        "abc_byte_offset": 1201086,
+        "code_offset": 13548,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10824,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; SecretSwitch, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "север"
+      },
+      "source_sha256": "43f853bbb592860098a76140c1770ee2add66f4720453d64dcf225178e238e57"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.13551",
+      "location": {
+        "abc_byte_offset": 1201089,
+        "code_offset": 13551,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10825,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; SecretSwitch, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "северо-восток"
+      },
+      "source_sha256": "c8b2d1cc4549a91f3bf1b898559042e54a2a4f507e9d3b6857fd8ba96a5f24e7"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.13554",
+      "location": {
+        "abc_byte_offset": 1201092,
+        "code_offset": 13554,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10826,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; SecretSwitch, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "восток"
+      },
+      "source_sha256": "4e2cd851cfdab8b554b71408d984989127f1db0430f647c711863c42d20f39e7"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.13557",
+      "location": {
+        "abc_byte_offset": 1201095,
+        "code_offset": 13557,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10827,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; SecretSwitch, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "юго-восток"
+      },
+      "source_sha256": "1d7b8d4ed3a785461ca1c3fae44e45b118c7821aa33d241e3b7d7adfb710542d"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.13560",
+      "location": {
+        "abc_byte_offset": 1201098,
+        "code_offset": 13560,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10828,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; SecretSwitch, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "юг"
+      },
+      "source_sha256": "0dd2dae4dd83ae3085cd80ac1bfc28e8d76ba51ddfd972c269fe9f98a85c099a"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.13563",
+      "location": {
+        "abc_byte_offset": 1201101,
+        "code_offset": 13563,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10829,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; SecretSwitch, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "юго-запад"
+      },
+      "source_sha256": "89135357e29f80b82c8312821e61f1ba8cfc5e1d10d270b2eb2e48f63090f010"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.13566",
+      "location": {
+        "abc_byte_offset": 1201104,
+        "code_offset": 13566,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10830,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; SecretSwitch, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "запад"
+      },
+      "source_sha256": "41a6741e9a0faee34fec1fce082d6c634d48b44aee0d15bee819d12917073df8"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.13569",
+      "location": {
+        "abc_byte_offset": 1201107,
+        "code_offset": 13569,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10831,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; SecretSwitch, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "северо-запад"
+      },
+      "source_sha256": "83d96322f4ad30787e41bd2bc51314abddc7e7b52f83ad470d4bdcc54f061c11"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.13595",
+      "location": {
+        "abc_byte_offset": 1201133,
+        "code_offset": 13595,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10832,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; SecretSwitch, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "Таинственный компас"
+      },
+      "source_sha256": "37a689ec4558cc8100bfd660150a6ff50b0981b4617462f9457153b3819240e6"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.13609",
+      "location": {
+        "abc_byte_offset": 1201147,
+        "code_offset": 13609,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10833,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; SecretSwitch, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "Указывает на "
+      },
+      "source_sha256": "4f212942a8927b619c27041d19512671ea0ae88b08273c66f7f643c1af9e2e68"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.13753",
+      "location": {
+        "abc_byte_offset": 1201291,
+        "code_offset": 13753,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10834,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; Orb, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "Ваша сфера"
+      },
+      "source_sha256": "1a1df3bd786b5ca25dd71f0a90c4602c147ecefb1610559758905cf897186f65"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.13807",
+      "location": {
+        "abc_byte_offset": 1201345,
+        "code_offset": 13807,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10834,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; Orb, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "Ваша сфера"
+      },
+      "source_sha256": "1a1df3bd786b5ca25dd71f0a90c4602c147ecefb1610559758905cf897186f65"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.13927",
+      "location": {
+        "abc_byte_offset": 1201465,
+        "code_offset": 13927,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10835,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; Orb, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "% к затратам маны на изгнание"
+      },
+      "source_sha256": "645424a057066c298d13d775cf314a64c5ebdfe2a21ee9dc20848aa8894718da"
+    },
+    {
+      "category": "actionscript",
       "id": "abc.4175.630.13949",
       "location": {
         "abc_byte_offset": 1201487,
@@ -43002,7 +43314,12 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; Orb, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "(не влияет на сжигание маны)"
       },
       "source_sha256": "5f4a00517ae0127a9fa28d2e2d818c67680206b6808f679e2acbe54c9043bcd1"
     },
@@ -43021,9 +43338,542 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; Orb, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "Бонус усилителей:"
       },
       "source_sha256": "f28f070fcd5e1d90d16c789ad6cf1b708e97f1ce0bab741990639d5b38635bd0"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.14053",
+      "location": {
+        "abc_byte_offset": 1201591,
+        "code_offset": 14053,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10835,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; Orb, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "% к затратам маны на изгнание"
+      },
+      "source_sha256": "645424a057066c298d13d775cf314a64c5ebdfe2a21ee9dc20848aa8894718da"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.14247",
+      "location": {
+        "abc_byte_offset": 1201785,
+        "code_offset": 14247,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10709,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; Orb, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "— пристыковано"
+      },
+      "source_sha256": "18ddde51209042c50105c95bee1ab4d61a28f1f458ccafcca17eb8976af3c7a9"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.14255",
+      "location": {
+        "abc_byte_offset": 1201793,
+        "code_offset": 14255,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 2701,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; Orb, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "— пристыковано"
+      },
+      "source_sha256": "30cde7b7618bec86b6a907040ca5af14015a1487f9d1b87e302986748a826623"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.14260",
+      "location": {
+        "abc_byte_offset": 1201798,
+        "code_offset": 14260,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10838,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; Orb, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": ": +"
+      },
+      "source_sha256": "0dfe14adaeb3fb22f7a2c02dfcf684f07f7fe4b630c7fa928c6107a6c6f63f1b"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.14309",
+      "location": {
+        "abc_byte_offset": 1201847,
+        "code_offset": 14309,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10839,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; Orb, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "% к получению маны"
+      },
+      "source_sha256": "997ecdbf8091f567c2c93911df9260bcdf5e65ebec616f50de7bca2774e8dd98"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.14372",
+      "location": {
+        "abc_byte_offset": 1201910,
+        "code_offset": 14372,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10709,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; Orb, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "— пристыковано"
+      },
+      "source_sha256": "18ddde51209042c50105c95bee1ab4d61a28f1f458ccafcca17eb8976af3c7a9"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.14380",
+      "location": {
+        "abc_byte_offset": 1201918,
+        "code_offset": 14380,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 2701,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; Orb, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "— пристыковано"
+      },
+      "source_sha256": "30cde7b7618bec86b6a907040ca5af14015a1487f9d1b87e302986748a826623"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.14385",
+      "location": {
+        "abc_byte_offset": 1201923,
+        "code_offset": 14385,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10840,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; Orb, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": ""
+      },
+      "source_sha256": "ba57d34f889553bc437b063b21ef5a6d54b2cc43bf0f1c43a383876aac79fd43"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.14433",
+      "location": {
+        "abc_byte_offset": 1201971,
+        "code_offset": 14433,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10709,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; Orb, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "— доступно для возврата"
+      },
+      "source_sha256": "18ddde51209042c50105c95bee1ab4d61a28f1f458ccafcca17eb8976af3c7a9"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.14441",
+      "location": {
+        "abc_byte_offset": 1201979,
+        "code_offset": 14441,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 2701,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; Orb, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "— доступно для возврата"
+      },
+      "source_sha256": "30cde7b7618bec86b6a907040ca5af14015a1487f9d1b87e302986748a826623"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.14446",
+      "location": {
+        "abc_byte_offset": 1201984,
+        "code_offset": 14446,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10841,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; Orb, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": ""
+      },
+      "source_sha256": "223b1d2c3afd46afff3131d16d0fe827152c14fa9be52435fcc4f645d565bc72"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.14530",
+      "location": {
+        "abc_byte_offset": 1202068,
+        "code_offset": 14530,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10709,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; Orb, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "— потеряно"
+      },
+      "source_sha256": "18ddde51209042c50105c95bee1ab4d61a28f1f458ccafcca17eb8976af3c7a9"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.14538",
+      "location": {
+        "abc_byte_offset": 1202076,
+        "code_offset": 14538,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 2701,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; Orb, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "— потеряно"
+      },
+      "source_sha256": "30cde7b7618bec86b6a907040ca5af14015a1487f9d1b87e302986748a826623"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.14543",
+      "location": {
+        "abc_byte_offset": 1202081,
+        "code_offset": 14543,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10842,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; Orb, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": ": -"
+      },
+      "source_sha256": "c6c5e39a010b0f12623fca3684f0d281208e5ac4a656bffd6e43a4c42c5551c3"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.14593",
+      "location": {
+        "abc_byte_offset": 1202131,
+        "code_offset": 14593,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10843,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; Orb, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "% к получению маны"
+      },
+      "source_sha256": "74106a3d497dfae61ff26ed91b8f0fbf09baa4422bd27f71c9be12df2527c363"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.14625",
+      "location": {
+        "abc_byte_offset": 1202163,
+        "code_offset": 14625,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10844,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; Orb, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "Множитель получения маны от малых сфер: x"
+      },
+      "source_sha256": "ad30d018d3bf1bf1591ad9132420598753602119606f079a5cb16b8a47105cff"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.14726",
+      "location": {
+        "abc_byte_offset": 1202264,
+        "code_offset": 14726,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10460,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; Orb, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "Талисман: +"
+      },
+      "source_sha256": "49a728e6890a4304974908e1ea6a5420bbfb16ef80f12d9762245eabd311bb83"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.14759",
+      "location": {
+        "abc_byte_offset": 1202297,
+        "code_offset": 14759,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10845,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; Orb, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "% к весу малых сфер"
+      },
+      "source_sha256": "2e29f52fb821c470cfde3641d288750462429a8baba99bd0060a257869504652"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.14836",
+      "location": {
+        "abc_byte_offset": 1202374,
+        "code_offset": 14836,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10460,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; Orb, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "Талисман: +"
+      },
+      "source_sha256": "49a728e6890a4304974908e1ea6a5420bbfb16ef80f12d9762245eabd311bb83"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.14869",
+      "location": {
+        "abc_byte_offset": 1202407,
+        "code_offset": 14869,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10846,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; Orb, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "% к скорости возврата малых сфер"
+      },
+      "source_sha256": "0ddcbb3c59f50ae93e2d145e6480ad27196dbba114268c172fcca4201b65d888"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.14933",
+      "location": {
+        "abc_byte_offset": 1202471,
+        "code_offset": 14933,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10847,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; Orb, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "Пока сфера цела, бонус опыта за уничтожение волн растёт"
+      },
+      "source_sha256": "340307cb3fd6547606166e782083ea59015235690b15d013f68c700f6f9cc9c7"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.14967",
+      "location": {
+        "abc_byte_offset": 1202505,
+        "code_offset": 14967,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10848,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; Orb, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "Бросайте самоцветы-бомбы или подключайте усилители для снижения затрат на изгнание"
+      },
+      "source_sha256": "2ce796b3ce5e0fe331b83e0ed7ea2272003057bb16e2aa0e082150b6ede73cbd"
     },
     {
       "category": "actionscript",
@@ -43051,6 +43901,138 @@
     },
     {
       "category": "actionscript",
+      "id": "abc.4175.630.15096",
+      "location": {
+        "abc_byte_offset": 1202634,
+        "code_offset": 15096,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10849,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": {
+          "source_parts": [
+            "Бой: особые объекты; Monster",
+            {
+              "id": "abc.4175.220.506",
+              "source_sha256": "e5716be7dc8f1b2c1d03714bee1aa4a61e7da9c92f09481344840b8664343b85"
+            },
+            ", метод 630."
+          ]
+        },
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "Гнездо монстров"
+      },
+      "source_sha256": "9e7d0f6fb8e96bc3b3b4e210815f03cad21ec86a6c12f165751187c32b361037"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.15130",
+      "location": {
+        "abc_byte_offset": 1202668,
+        "code_offset": 15130,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10850,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": {
+          "source_parts": [
+            "Бой: особые объекты; Monster",
+            {
+              "id": "abc.4175.220.506",
+              "source_sha256": "e5716be7dc8f1b2c1d03714bee1aa4a61e7da9c92f09481344840b8664343b85"
+            },
+            ", метод 630."
+          ]
+        },
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "Уничтожено"
+      },
+      "source_sha256": "ff49630c242bd91582d0835b98e907964a6b159491cb4cb441dbbb3af6e9c820"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.15173",
+      "location": {
+        "abc_byte_offset": 1202711,
+        "code_offset": 15173,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10849,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": {
+          "source_parts": [
+            "Бой: особые объекты; Monster",
+            {
+              "id": "abc.4175.220.506",
+              "source_sha256": "e5716be7dc8f1b2c1d03714bee1aa4a61e7da9c92f09481344840b8664343b85"
+            },
+            ", метод 630."
+          ]
+        },
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "Гнездо монстров"
+      },
+      "source_sha256": "9e7d0f6fb8e96bc3b3b4e210815f03cad21ec86a6c12f165751187c32b361037"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.15219",
+      "location": {
+        "abc_byte_offset": 1202757,
+        "code_offset": 15219,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10851,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": {
+          "source_parts": [
+            "Бой: особые объекты; Monster",
+            {
+              "id": "abc.4175.220.506",
+              "source_sha256": "e5716be7dc8f1b2c1d03714bee1aa4a61e7da9c92f09481344840b8664343b85"
+            },
+            ", метод 630."
+          ]
+        },
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "Неразрушимо"
+      },
+      "source_sha256": "f4e52cab09f7e110477b3b3b9137d44f0cb898e955232c8b317e9d127b9d63b6"
+    },
+    {
+      "category": "actionscript",
       "id": "abc.4175.630.1522",
       "location": {
         "abc_byte_offset": 1189060,
@@ -43072,6 +44054,105 @@
         "translation": "Уровень самоцвета: "
       },
       "source_sha256": "01083f00f7c0f48d84f497b88db331fa6bdd5dd1e863ee17ace13a48da205f36"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.15255",
+      "location": {
+        "abc_byte_offset": 1202793,
+        "code_offset": 15255,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10261,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": {
+          "source_parts": [
+            "Бой: особые объекты; Monster",
+            {
+              "id": "abc.4175.220.506",
+              "source_sha256": "e5716be7dc8f1b2c1d03714bee1aa4a61e7da9c92f09481344840b8664343b85"
+            },
+            ", метод 630."
+          ]
+        },
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "Здоровье: "
+      },
+      "source_sha256": "0cd0fb5069e3fbc27f751fcf75e708e65714eb34dc57a2580a2d539098779192"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.15314",
+      "location": {
+        "abc_byte_offset": 1202852,
+        "code_offset": 15314,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10742,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": {
+          "source_parts": [
+            "Бой: особые объекты; Monster",
+            {
+              "id": "abc.4175.220.506",
+              "source_sha256": "e5716be7dc8f1b2c1d03714bee1aa4a61e7da9c92f09481344840b8664343b85"
+            },
+            ", метод 630."
+          ]
+        },
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "Броня: "
+      },
+      "source_sha256": "c0c9154f37fa76450f78cea5c239ea4afec072d6f09e061add8d99c910797d00"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.15358",
+      "location": {
+        "abc_byte_offset": 1202896,
+        "code_offset": 15358,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10261,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": {
+          "source_parts": [
+            "Бой: особые объекты; Monster",
+            {
+              "id": "abc.4175.220.506",
+              "source_sha256": "e5716be7dc8f1b2c1d03714bee1aa4a61e7da9c92f09481344840b8664343b85"
+            },
+            ", метод 630."
+          ]
+        },
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "Здоровье: "
+      },
+      "source_sha256": "0cd0fb5069e3fbc27f751fcf75e708e65714eb34dc57a2580a2d539098779192"
     },
     {
       "category": "actionscript",
@@ -43099,6 +44180,303 @@
     },
     {
       "category": "actionscript",
+      "id": "abc.4175.630.15459",
+      "location": {
+        "abc_byte_offset": 1202997,
+        "code_offset": 15459,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10459,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": {
+          "source_parts": [
+            "Бой: особые объекты; Monster",
+            {
+              "id": "abc.4175.220.506",
+              "source_sha256": "e5716be7dc8f1b2c1d03714bee1aa4a61e7da9c92f09481344840b8664343b85"
+            },
+            ", метод 630."
+          ]
+        },
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "Опыт: "
+      },
+      "source_sha256": "cf1825392a1e62a9144bfa73332fd3dabaf73f53e81d60e9a77864cf3fc330de"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.15583",
+      "location": {
+        "abc_byte_offset": 1203121,
+        "code_offset": 15583,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10460,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": {
+          "source_parts": [
+            "Бой: особые объекты; Monster",
+            {
+              "id": "abc.4175.220.506",
+              "source_sha256": "e5716be7dc8f1b2c1d03714bee1aa4a61e7da9c92f09481344840b8664343b85"
+            },
+            ", метод 630."
+          ]
+        },
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "Талисман: +"
+      },
+      "source_sha256": "49a728e6890a4304974908e1ea6a5420bbfb16ef80f12d9762245eabd311bb83"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.15616",
+      "location": {
+        "abc_byte_offset": 1203154,
+        "code_offset": 15616,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10461,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": {
+          "source_parts": [
+            "Бой: особые объекты; Monster",
+            {
+              "id": "abc.4175.220.506",
+              "source_sha256": "e5716be7dc8f1b2c1d03714bee1aa4a61e7da9c92f09481344840b8664343b85"
+            },
+            ", метод 630."
+          ]
+        },
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "% получаемого урона"
+      },
+      "source_sha256": "5c4ed7e81720a03221ea73f968d30645f9912c164703c6b0b9fc285e63a86f5d"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.15669",
+      "location": {
+        "abc_byte_offset": 1203207,
+        "code_offset": 15669,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10743,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": {
+          "source_parts": [
+            "Бой: особые объекты; Monster",
+            {
+              "id": "abc.4175.220.506",
+              "source_sha256": "e5716be7dc8f1b2c1d03714bee1aa4a61e7da9c92f09481344840b8664343b85"
+            },
+            ", метод 630."
+          ]
+        },
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "Бросайте самоцветы-бомбы или стреляйте самоцветами из башен, чтобы уничтожить"
+      },
+      "source_sha256": "3a908f371035a5cc3d3d7209ffbfdece6aac5fe51eeb350d77987be3f4f4e726"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.15785",
+      "location": {
+        "abc_byte_offset": 1203323,
+        "code_offset": 15785,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 545,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": {
+          "source_parts": [
+            "Бой: особые объекты; ",
+            {
+              "id": "abc.4175.630.15785",
+              "source_sha256": "419ae0efc26625fa7ded2b74b7446e077db944a7d89d41a7a4b07ae0ffc4702f"
+            },
+            ", метод 630."
+          ]
+        },
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "Гробница"
+      },
+      "source_sha256": "419ae0efc26625fa7ded2b74b7446e077db944a7d89d41a7a4b07ae0ffc4702f"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.15831",
+      "location": {
+        "abc_byte_offset": 1203369,
+        "code_offset": 15831,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10852,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": {
+          "source_parts": [
+            "Бой: особые объекты; ",
+            {
+              "id": "abc.4175.630.15785",
+              "source_sha256": "419ae0efc26625fa7ded2b74b7446e077db944a7d89d41a7a4b07ae0ffc4702f"
+            },
+            ", метод 630."
+          ]
+        },
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "Вскрыта"
+      },
+      "source_sha256": "04e1de72c291fe0114a45eb554461f5f5fc2aa537e598af582f29b11ef2f3c8e"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.15867",
+      "location": {
+        "abc_byte_offset": 1203405,
+        "code_offset": 15867,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10261,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": {
+          "source_parts": [
+            "Бой: особые объекты; ",
+            {
+              "id": "abc.4175.630.15785",
+              "source_sha256": "419ae0efc26625fa7ded2b74b7446e077db944a7d89d41a7a4b07ae0ffc4702f"
+            },
+            ", метод 630."
+          ]
+        },
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "Здоровье: "
+      },
+      "source_sha256": "0cd0fb5069e3fbc27f751fcf75e708e65714eb34dc57a2580a2d539098779192"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.15926",
+      "location": {
+        "abc_byte_offset": 1203464,
+        "code_offset": 15926,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10742,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": {
+          "source_parts": [
+            "Бой: особые объекты; ",
+            {
+              "id": "abc.4175.630.15785",
+              "source_sha256": "419ae0efc26625fa7ded2b74b7446e077db944a7d89d41a7a4b07ae0ffc4702f"
+            },
+            ", метод 630."
+          ]
+        },
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "Броня: "
+      },
+      "source_sha256": "c0c9154f37fa76450f78cea5c239ea4afec072d6f09e061add8d99c910797d00"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.15966",
+      "location": {
+        "abc_byte_offset": 1203504,
+        "code_offset": 15966,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10853,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": {
+          "source_parts": [
+            "Бой: особые объекты; ",
+            {
+              "id": "abc.4175.630.15785",
+              "source_sha256": "419ae0efc26625fa7ded2b74b7446e077db944a7d89d41a7a4b07ae0ffc4702f"
+            },
+            ", метод 630."
+          ]
+        },
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "Монстров внутри: "
+      },
+      "source_sha256": "9b04fba45915f0cca909eeb5968efae3b10de3a8a0ff63ada20aeec95a0100c8"
+    },
+    {
+      "category": "actionscript",
       "id": "abc.4175.630.1600",
       "location": {
         "abc_byte_offset": 1189138,
@@ -43120,6 +44498,105 @@
         "translation": "Клик — создать самоцвет"
       },
       "source_sha256": "36f39f2f6428b2f3577f8ac6198638e296ba1f18dc5a27cd4f56a98a00a5518f"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.16007",
+      "location": {
+        "abc_byte_offset": 1203545,
+        "code_offset": 16007,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10261,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": {
+          "source_parts": [
+            "Бой: особые объекты; ",
+            {
+              "id": "abc.4175.630.15785",
+              "source_sha256": "419ae0efc26625fa7ded2b74b7446e077db944a7d89d41a7a4b07ae0ffc4702f"
+            },
+            ", метод 630."
+          ]
+        },
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "Здоровье: "
+      },
+      "source_sha256": "0cd0fb5069e3fbc27f751fcf75e708e65714eb34dc57a2580a2d539098779192"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.16066",
+      "location": {
+        "abc_byte_offset": 1203604,
+        "code_offset": 16066,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10853,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": {
+          "source_parts": [
+            "Бой: особые объекты; ",
+            {
+              "id": "abc.4175.630.15785",
+              "source_sha256": "419ae0efc26625fa7ded2b74b7446e077db944a7d89d41a7a4b07ae0ffc4702f"
+            },
+            ", метод 630."
+          ]
+        },
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "Монстров внутри: "
+      },
+      "source_sha256": "9b04fba45915f0cca909eeb5968efae3b10de3a8a0ff63ada20aeec95a0100c8"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.16145",
+      "location": {
+        "abc_byte_offset": 1203683,
+        "code_offset": 16145,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10459,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": {
+          "source_parts": [
+            "Бой: особые объекты; ",
+            {
+              "id": "abc.4175.630.15785",
+              "source_sha256": "419ae0efc26625fa7ded2b74b7446e077db944a7d89d41a7a4b07ae0ffc4702f"
+            },
+            ", метод 630."
+          ]
+        },
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "Опыт: "
+      },
+      "source_sha256": "cf1825392a1e62a9144bfa73332fd3dabaf73f53e81d60e9a77864cf3fc330de"
     },
     {
       "category": "actionscript",
@@ -43147,6 +44624,72 @@
     },
     {
       "category": "actionscript",
+      "id": "abc.4175.630.16269",
+      "location": {
+        "abc_byte_offset": 1203807,
+        "code_offset": 16269,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10460,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": {
+          "source_parts": [
+            "Бой: особые объекты; ",
+            {
+              "id": "abc.4175.630.15785",
+              "source_sha256": "419ae0efc26625fa7ded2b74b7446e077db944a7d89d41a7a4b07ae0ffc4702f"
+            },
+            ", метод 630."
+          ]
+        },
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "Талисман: +"
+      },
+      "source_sha256": "49a728e6890a4304974908e1ea6a5420bbfb16ef80f12d9762245eabd311bb83"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.16302",
+      "location": {
+        "abc_byte_offset": 1203840,
+        "code_offset": 16302,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10461,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": {
+          "source_parts": [
+            "Бой: особые объекты; ",
+            {
+              "id": "abc.4175.630.15785",
+              "source_sha256": "419ae0efc26625fa7ded2b74b7446e077db944a7d89d41a7a4b07ae0ffc4702f"
+            },
+            ", метод 630."
+          ]
+        },
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "% получаемого урона"
+      },
+      "source_sha256": "5c4ed7e81720a03221ea73f968d30645f9912c164703c6b0b9fc285e63a86f5d"
+    },
+    {
+      "category": "actionscript",
       "id": "abc.4175.630.1633",
       "location": {
         "abc_byte_offset": 1189171,
@@ -43171,6 +44714,72 @@
     },
     {
       "category": "actionscript",
+      "id": "abc.4175.630.16344",
+      "location": {
+        "abc_byte_offset": 1203882,
+        "code_offset": 16344,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10854,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": {
+          "source_parts": [
+            "Бой: особые объекты; ",
+            {
+              "id": "abc.4175.630.15785",
+              "source_sha256": "419ae0efc26625fa7ded2b74b7446e077db944a7d89d41a7a4b07ae0ffc4702f"
+            },
+            ", метод 630."
+          ]
+        },
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "Бросайте самоцветы-бомбы или стреляйте самоцветами из башен, чтобы вскрыть\n(приоритет цели — «Строение»)"
+      },
+      "source_sha256": "cfd5a807504f961775b5afeff773cdbfa32f9d614c98973e11a54f92f2d5af2c"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.16485",
+      "location": {
+        "abc_byte_offset": 1204023,
+        "code_offset": 16485,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10856,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": {
+          "source_parts": [
+            "Бой: особые объекты; Wiz",
+            {
+              "id": "abc.4175.630.5044",
+              "source_sha256": "aeb11001d7769761dc0c4483693596a6e0f3390d723d95b3ea7e3ccfee341947"
+            },
+            ", метод 630."
+          ]
+        },
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "Ваша старая башня мага"
+      },
+      "source_sha256": "8dc951a45a2116c5621cc07e8a5764f98a6367a6f3eaf88668ff2a2daca91ecc"
+    },
+    {
+      "category": "actionscript",
       "id": "abc.4175.630.16510",
       "location": {
         "abc_byte_offset": 1204048,
@@ -43184,8 +44793,21 @@
         ]
       },
       "manual": {
-        "classification": "unknown",
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": {
+          "source_parts": [
+            "Бой: особые объекты; Wiz",
+            {
+              "id": "abc.4175.630.5044",
+              "source_sha256": "aeb11001d7769761dc0c4483693596a6e0f3390d723d95b3ea7e3ccfee341947"
+            },
+            ", метод 630."
+          ]
+        },
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "Убежище"
       },
       "source_sha256": "f1f0b6b8637f76b4b68a6e303e7084cfa0ca3ae73812edb6ca629df7d3e38609"
     },
@@ -43204,7 +44826,21 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": {
+          "source_parts": [
+            "Бой: особые объекты; Wiz",
+            {
+              "id": "abc.4175.630.5044",
+              "source_sha256": "aeb11001d7769761dc0c4483693596a6e0f3390d723d95b3ea7e3ccfee341947"
+            },
+            ", метод 630."
+          ]
+        },
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "Пока вы здесь прячетесь, вы в безопасности..."
       },
       "source_sha256": "e612aa86175f05efd81deba373b804f3efa45e47d01e777fe3d37a921671e70e"
     },
@@ -43223,9 +44859,155 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": {
+          "source_parts": [
+            "Бой: особые объекты; Wiz",
+            {
+              "id": "abc.4175.630.5044",
+              "source_sha256": "aeb11001d7769761dc0c4483693596a6e0f3390d723d95b3ea7e3ccfee341947"
+            },
+            ", метод 630."
+          ]
+        },
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "Чтобы действовать на поле боя, вы создаёте сферу."
       },
       "source_sha256": "20becd0beea6f6db0e1f0e70807bd7ce31b95f35118a5fc7b0072963160675f6"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.16599",
+      "location": {
+        "abc_byte_offset": 1204137,
+        "code_offset": 16599,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10860,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": {
+          "source_parts": [
+            "Бой: особые объекты; Wiz",
+            {
+              "id": "abc.4175.630.5044",
+              "source_sha256": "aeb11001d7769761dc0c4483693596a6e0f3390d723d95b3ea7e3ccfee341947"
+            },
+            ", метод 630."
+          ]
+        },
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "Разрушенная башня мага"
+      },
+      "source_sha256": "a7f1fc37808b2380b4808f9df6830c54e0c17251ebb25f187b0a481d11f4298c"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.16617",
+      "location": {
+        "abc_byte_offset": 1204155,
+        "code_offset": 16617,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10861,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": {
+          "source_parts": [
+            "Бой: особые объекты; Wiz",
+            {
+              "id": "abc.4175.630.5044",
+              "source_sha256": "aeb11001d7769761dc0c4483693596a6e0f3390d723d95b3ea7e3ccfee341947"
+            },
+            ", метод 630."
+          ]
+        },
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "Башня мага"
+      },
+      "source_sha256": "b51bed37d62dd16418967abfe1d3dca376324450abcd0756599ba63f41d70742"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.16693",
+      "location": {
+        "abc_byte_offset": 1204231,
+        "code_offset": 16693,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10862,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": {
+          "source_parts": [
+            "Бой: особые объекты; Wiz",
+            {
+              "id": "abc.4175.630.5044",
+              "source_sha256": "aeb11001d7769761dc0c4483693596a6e0f3390d723d95b3ea7e3ccfee341947"
+            },
+            ", метод 630."
+          ]
+        },
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "Для открытия уничтожьте замки на поле; осталось: "
+      },
+      "source_sha256": "d98f2e7c201ba6c4854bd4bb6647deedcdb380cad5f1b2840119d45cf5259792"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.16709",
+      "location": {
+        "abc_byte_offset": 1204247,
+        "code_offset": 16709,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10863,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": {
+          "source_parts": [
+            "Бой: особые объекты; Wiz",
+            {
+              "id": "abc.4175.630.5044",
+              "source_sha256": "aeb11001d7769761dc0c4483693596a6e0f3390d723d95b3ea7e3ccfee341947"
+            },
+            ", метод 630."
+          ]
+        },
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": ""
+      },
+      "source_sha256": "ef9a6e4b9a5d0474ac98389dd5e73172ffc71cfd6c36ff0fc97c99b228c2bcac"
     },
     {
       "category": "actionscript",
@@ -43242,7 +45024,21 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": {
+          "source_parts": [
+            "Бой: особые объекты; Wiz",
+            {
+              "id": "abc.4175.630.5044",
+              "source_sha256": "aeb11001d7769761dc0c4483693596a6e0f3390d723d95b3ea7e3ccfee341947"
+            },
+            ", метод 630."
+          ]
+        },
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "Для открытия уничтожьте последний замок на поле"
       },
       "source_sha256": "5e1945181eca0c205eb09592b9003b10959f976f56c78e1da565af70e58dfccf"
     },
@@ -43261,8 +45057,21 @@
         ]
       },
       "manual": {
-        "classification": "unknown",
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": {
+          "source_parts": [
+            "Бой: особые объекты; Wiz",
+            {
+              "id": "abc.4175.630.5044",
+              "source_sha256": "aeb11001d7769761dc0c4483693596a6e0f3390d723d95b3ea7e3ccfee341947"
+            },
+            ", метод 630."
+          ]
+        },
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "или"
       },
       "source_sha256": "7175517a370b5cd2e664e3fd29c4ea9db5ce17058eb9772fe090a5485e49dad6"
     },
@@ -43281,7 +45090,21 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": {
+          "source_parts": [
+            "Бой: особые объекты; Wiz",
+            {
+              "id": "abc.4175.630.5044",
+              "source_sha256": "aeb11001d7769761dc0c4483693596a6e0f3390d723d95b3ea7e3ccfee341947"
+            },
+            ", метод 630."
+          ]
+        },
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "С началом последней волны она разобьёт вашу сферу!"
       },
       "source_sha256": "79a654fee5644086b355effc225badb6845a0fdad8adb87b25c60a2e89bae2f3"
     },
@@ -43300,10 +45123,560 @@
         ]
       },
       "manual": {
-        "classification": "unknown",
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": {
+          "source_parts": [
+            "Бой: особые объекты; Wiz",
+            {
+              "id": "abc.4175.630.5044",
+              "source_sha256": "aeb11001d7769761dc0c4483693596a6e0f3390d723d95b3ea7e3ccfee341947"
+            },
+            ", метод 630."
+          ]
+        },
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "Открыта"
       },
       "source_sha256": "531c7b28abf276004c358d7ecc6f3a25dba8c2df6ca0beefa89fb2cd72bf6478"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.16928",
+      "location": {
+        "abc_byte_offset": 1204466,
+        "code_offset": 16928,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10868,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; WizLock, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "Замок выстрелов"
+      },
+      "source_sha256": "2c8edf2f5a5d0ce84562af4d9a90cff226da0d30e875126e56f6ecfad43b403a"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.16931",
+      "location": {
+        "abc_byte_offset": 1204469,
+        "code_offset": 16931,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10869,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; WizLock, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "Замок «Шквала»"
+      },
+      "source_sha256": "6764ebfe4e5db8b1d0b114c3563d4f5877cfd05aa2708d2587699b71905f55ec"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.16934",
+      "location": {
+        "abc_byte_offset": 1204472,
+        "code_offset": 16934,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10870,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; WizLock, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "Замок «Луча»"
+      },
+      "source_sha256": "c6e785f49fc33fa8f116a1d79e7846b089d6d5ba54401d5b5e2639561822a9af"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.16937",
+      "location": {
+        "abc_byte_offset": 1204475,
+        "code_offset": 16937,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10871,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; WizLock, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "Замок «Магической стрелы»"
+      },
+      "source_sha256": "a0c0fc4a6c1ad0d42fca0d8ed4c783b08b9536e02c8ef4ac38733dd73327e44d"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.16940",
+      "location": {
+        "abc_byte_offset": 1204478,
+        "code_offset": 16940,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10872,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; WizLock, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "Замок «Заморозки»"
+      },
+      "source_sha256": "45c10a3d3491af973d4d5fdb066672a1b167b01e3c446ac012c863f215d268a5"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.16943",
+      "location": {
+        "abc_byte_offset": 1204481,
+        "code_offset": 16943,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10873,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; WizLock, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "Замок «Проклятия»"
+      },
+      "source_sha256": "d1cff0cc792be9ba45cdebb9a45933e2fadd481fae543330377fa478948ac9aa"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.17003",
+      "location": {
+        "abc_byte_offset": 1204541,
+        "code_offset": 17003,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10874,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; WizLock, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "Для открытия воздействуйте «Лучом» ещё "
+      },
+      "source_sha256": "241126c1711864cfca7a7fccfdcc53616b71cef512aeb21bfa48ea32290b3068"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.17038",
+      "location": {
+        "abc_byte_offset": 1204576,
+        "code_offset": 17038,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10875,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; WizLock, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": " с"
+      },
+      "source_sha256": "5dec2c0b05ba7785ce902be05193c3311141ffcc42dec9c5176e4ac6bf73e00f"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.17064",
+      "location": {
+        "abc_byte_offset": 1204602,
+        "code_offset": 17064,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10876,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; WizLock, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "Для открытия осталось: "
+      },
+      "source_sha256": "3569879320a08279a5a463870b39a3b7e062605b265507d5a3563592881502af"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.17123",
+      "location": {
+        "abc_byte_offset": 1204661,
+        "code_offset": 17123,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10877,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; WizLock, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "попад. из башни"
+      },
+      "source_sha256": "b9723175bc6ede9958cf5caccb20c0d84f8a955c273d43ee1e12b2c16200df3b"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.17126",
+      "location": {
+        "abc_byte_offset": 1204664,
+        "code_offset": 17126,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10878,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; WizLock, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "попад. снарядом «Шквала»"
+      },
+      "source_sha256": "60fb8a24c655f1c29c991c8240b5e94ab2d852930ff115d98d153a0d85c85afc"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.17131",
+      "location": {
+        "abc_byte_offset": 1204669,
+        "code_offset": 17131,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10879,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; WizLock, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "попад. «Магической стрелой»"
+      },
+      "source_sha256": "36aa2ba0ad3a9237b53863a2e5f440697a7fc103396bd5b7cfee248303c98476"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.17134",
+      "location": {
+        "abc_byte_offset": 1204672,
+        "code_offset": 17134,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10880,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; WizLock, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "попад. «Заморозкой»"
+      },
+      "source_sha256": "b7ed301e461b7490e767b89b1c4b0ff20bfe0b89ed4eb19a58ee9d4a37fe4e41"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.17137",
+      "location": {
+        "abc_byte_offset": 1204675,
+        "code_offset": 17137,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10881,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; WizLock, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "попад. «Проклятием»"
+      },
+      "source_sha256": "273874ad00521a675d9bdb4bdfdd2fd1e2215db4baeb72e667e54ad00bec840a"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.17154",
+      "location": {
+        "abc_byte_offset": 1204692,
+        "code_offset": 17154,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10882,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; WizLock, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "попад. из башни"
+      },
+      "source_sha256": "e705b3ab6a390ccf2c35765e3022df18c6f084bef4dd42bf8b150ead62201368"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.17157",
+      "location": {
+        "abc_byte_offset": 1204695,
+        "code_offset": 17157,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10883,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; WizLock, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "попад. снарядом «Шквала»"
+      },
+      "source_sha256": "b251dd3c21a1bb49f32e82ff6b94853c5650af2b4b234faa154b5cfda563580f"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.17162",
+      "location": {
+        "abc_byte_offset": 1204700,
+        "code_offset": 17162,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10884,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; WizLock, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "попад. «Магической стрелой»"
+      },
+      "source_sha256": "d0b3cba71f725563d316ea3516099328042095d10f4571be25c07f9ce31985a5"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.17165",
+      "location": {
+        "abc_byte_offset": 1204703,
+        "code_offset": 17165,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10885,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; WizLock, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "попад. «Заморозкой»"
+      },
+      "source_sha256": "48a81fe8a73591dddfc58faf08d5bf64843a89776268cead8e2ba37ceb566fe8"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.17168",
+      "location": {
+        "abc_byte_offset": 1204706,
+        "code_offset": 17168,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10886,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; WizLock, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "попад. «Проклятием»"
+      },
+      "source_sha256": "6ed3840816f5c579f02a1b10e55f3e3980565aecdd71da60383ff86531935667"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.17182",
+      "location": {
+        "abc_byte_offset": 1204720,
+        "code_offset": 17182,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10887,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; WizLock, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": ""
+      },
+      "source_sha256": "fa7b16cc0666a74ae3063cd32c04852a5d60ba9f91729e978e930391ec94b79f"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.17246",
+      "location": {
+        "abc_byte_offset": 1204784,
+        "code_offset": 17246,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10459,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; WizLock, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "Опыт: "
+      },
+      "source_sha256": "cf1825392a1e62a9144bfa73332fd3dabaf73f53e81d60e9a77864cf3fc330de"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.17448",
+      "location": {
+        "abc_byte_offset": 1204986,
+        "code_offset": 17448,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10889,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": {
+          "source_parts": [
+            "Бой: особые объекты; Tome",
+            {
+              "id": "abc.4175.220.176",
+              "source_sha256": "95ab32a58fd9587ebdbe86c704dfa47bf34f3c35fe1fc328a6edffc57011804e"
+            },
+            ", метод 630."
+          ]
+        },
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "Хранилище фолианта"
+      },
+      "source_sha256": "50133af303bd7fae5a1e926ca8df11ffae8968e9de7c51d3cce5f278cab2031e"
     },
     {
       "category": "actionscript",
@@ -43320,8 +45693,21 @@
         ]
       },
       "manual": {
-        "classification": "unknown",
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": {
+          "source_parts": [
+            "Бой: особые объекты; Tome",
+            {
+              "id": "abc.4175.220.176",
+              "source_sha256": "95ab32a58fd9587ebdbe86c704dfa47bf34f3c35fe1fc328a6edffc57011804e"
+            },
+            ", метод 630."
+          ]
+        },
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "Открыто"
       },
       "source_sha256": "b19fb8d1b395b333251f40be2909ca37a0b0a007b3c4c4b34b726be71f715daa"
     },
@@ -43340,9 +45726,485 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": {
+          "source_parts": [
+            "Бой: особые объекты; Tome",
+            {
+              "id": "abc.4175.220.176",
+              "source_sha256": "95ab32a58fd9587ebdbe86c704dfa47bf34f3c35fe1fc328a6edffc57011804e"
+            },
+            ", метод 630."
+          ]
+        },
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "Закрыто в режиме «Выносливость»"
       },
       "source_sha256": "fbab48ab8e85e8ec505b7e8f333e4dc80283952a85d6f5d6cc445bb29513a2b9"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.17590",
+      "location": {
+        "abc_byte_offset": 1205128,
+        "code_offset": 17590,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10893,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": {
+          "source_parts": [
+            "Бой: особые объекты; Tome",
+            {
+              "id": "abc.4175.220.176",
+              "source_sha256": "95ab32a58fd9587ebdbe86c704dfa47bf34f3c35fe1fc328a6edffc57011804e"
+            },
+            ", метод 630."
+          ]
+        },
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "Состояние: проклятие и заморозка"
+      },
+      "source_sha256": "cb241faee87495ab8654b699dee826fbd959184aaa219e13b4734b570c4bd428"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.17603",
+      "location": {
+        "abc_byte_offset": 1205141,
+        "code_offset": 17603,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10894,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": {
+          "source_parts": [
+            "Бой: особые объекты; Tome",
+            {
+              "id": "abc.4175.220.176",
+              "source_sha256": "95ab32a58fd9587ebdbe86c704dfa47bf34f3c35fe1fc328a6edffc57011804e"
+            },
+            ", метод 630."
+          ]
+        },
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "Состояние: проклятие"
+      },
+      "source_sha256": "794cd8c5e731ad6652d9345f8a89385a067a247208e21cc7061929045e41cf2d"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.17628",
+      "location": {
+        "abc_byte_offset": 1205166,
+        "code_offset": 17628,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10895,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": {
+          "source_parts": [
+            "Бой: особые объекты; Tome",
+            {
+              "id": "abc.4175.220.176",
+              "source_sha256": "95ab32a58fd9587ebdbe86c704dfa47bf34f3c35fe1fc328a6edffc57011804e"
+            },
+            ", метод 630."
+          ]
+        },
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "Состояние: заморозка"
+      },
+      "source_sha256": "d5ef7765dce936a1f11278e1ec9645278f8e0807840b4dd9dc5757b073462fc4"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.17656",
+      "location": {
+        "abc_byte_offset": 1205194,
+        "code_offset": 17656,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10896,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": {
+          "source_parts": [
+            "Бой: особые объекты; Tome",
+            {
+              "id": "abc.4175.220.176",
+              "source_sha256": "95ab32a58fd9587ebdbe86c704dfa47bf34f3c35fe1fc328a6edffc57011804e"
+            },
+            ", метод 630."
+          ]
+        },
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "Для открытия:"
+      },
+      "source_sha256": "3333ddd04e74132d475f0c6ac22f14223b0f1afce950997c82df42f4028e303c"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.17671",
+      "location": {
+        "abc_byte_offset": 1205209,
+        "code_offset": 17671,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10897,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": {
+          "source_parts": [
+            "Бой: особые объекты; Tome",
+            {
+              "id": "abc.4175.220.176",
+              "source_sha256": "95ab32a58fd9587ebdbe86c704dfa47bf34f3c35fe1fc328a6edffc57011804e"
+            },
+            ", метод 630."
+          ]
+        },
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "Осталось убить: "
+      },
+      "source_sha256": "b8e260cc5e62055b748805c3616cc01a7b0f45011aca37a2c663e34535dc8a40"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.17763",
+      "location": {
+        "abc_byte_offset": 1205301,
+        "code_offset": 17763,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10450,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": {
+          "source_parts": [
+            "Бой: особые объекты; Tome",
+            {
+              "id": "abc.4175.220.176",
+              "source_sha256": "95ab32a58fd9587ebdbe86c704dfa47bf34f3c35fe1fc328a6edffc57011804e"
+            },
+            ", метод 630."
+          ]
+        },
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "Цель: монстры"
+      },
+      "source_sha256": "beaafa510bcc774b1be0c7f3fbb033017cd97f2c73455ec2d7747c2e993759b5"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.17766",
+      "location": {
+        "abc_byte_offset": 1205304,
+        "code_offset": 17766,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10898,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": {
+          "source_parts": [
+            "Бой: особые объекты; Tome",
+            {
+              "id": "abc.4175.220.176",
+              "source_sha256": "95ab32a58fd9587ebdbe86c704dfa47bf34f3c35fe1fc328a6edffc57011804e"
+            },
+            ", метод 630."
+          ]
+        },
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "Цель: разорители"
+      },
+      "source_sha256": "37500c68920ae80f34d29d6b82b2366c84f5fed355798b38dd96ea42b269310e"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.17769",
+      "location": {
+        "abc_byte_offset": 1205307,
+        "code_offset": 17769,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10899,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": {
+          "source_parts": [
+            "Бой: особые объекты; Tome",
+            {
+              "id": "abc.4175.220.176",
+              "source_sha256": "95ab32a58fd9587ebdbe86c704dfa47bf34f3c35fe1fc328a6edffc57011804e"
+            },
+            ", метод 630."
+          ]
+        },
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "Цель: ройники"
+      },
+      "source_sha256": "7962934ed0dc2a06c709edcccddbcf37f654df4630ba3f1849e94bcce68f1f1b"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.17772",
+      "location": {
+        "abc_byte_offset": 1205310,
+        "code_offset": 17772,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10900,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": {
+          "source_parts": [
+            "Бой: особые объекты; Tome",
+            {
+              "id": "abc.4175.220.176",
+              "source_sha256": "95ab32a58fd9587ebdbe86c704dfa47bf34f3c35fe1fc328a6edffc57011804e"
+            },
+            ", метод 630."
+          ]
+        },
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "Цель: гиганты"
+      },
+      "source_sha256": "0b132ea2f6cd37dd630da9e84733f169a4473feaebbfa70359b449b759885ffe"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.17793",
+      "location": {
+        "abc_byte_offset": 1205331,
+        "code_offset": 17793,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10901,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": {
+          "source_parts": [
+            "Бой: особые объекты; Tome",
+            {
+              "id": "abc.4175.220.176",
+              "source_sha256": "95ab32a58fd9587ebdbe86c704dfa47bf34f3c35fe1fc328a6edffc57011804e"
+            },
+            ", метод 630."
+          ]
+        },
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "Цель: монстры"
+      },
+      "source_sha256": "7dcfa8078e2c5e3d5d33573c115531f28dbc45afa4df8acd78751d5f9d730fe9"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.17796",
+      "location": {
+        "abc_byte_offset": 1205334,
+        "code_offset": 17796,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10902,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": {
+          "source_parts": [
+            "Бой: особые объекты; Tome",
+            {
+              "id": "abc.4175.220.176",
+              "source_sha256": "95ab32a58fd9587ebdbe86c704dfa47bf34f3c35fe1fc328a6edffc57011804e"
+            },
+            ", метод 630."
+          ]
+        },
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "Цель: разорители"
+      },
+      "source_sha256": "5fb2fa80178bd738cf98309a299fb22618e255019deb34db87fdafe7411d8ee4"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.17799",
+      "location": {
+        "abc_byte_offset": 1205337,
+        "code_offset": 17799,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10903,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": {
+          "source_parts": [
+            "Бой: особые объекты; Tome",
+            {
+              "id": "abc.4175.220.176",
+              "source_sha256": "95ab32a58fd9587ebdbe86c704dfa47bf34f3c35fe1fc328a6edffc57011804e"
+            },
+            ", метод 630."
+          ]
+        },
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "Цель: ройники"
+      },
+      "source_sha256": "137d4ea8050a30319a39abf93346a7111a412fe28e6f971fe5ad8557087f13be"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.17802",
+      "location": {
+        "abc_byte_offset": 1205340,
+        "code_offset": 17802,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10904,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": {
+          "source_parts": [
+            "Бой: особые объекты; Tome",
+            {
+              "id": "abc.4175.220.176",
+              "source_sha256": "95ab32a58fd9587ebdbe86c704dfa47bf34f3c35fe1fc328a6edffc57011804e"
+            },
+            ", метод 630."
+          ]
+        },
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "Цель: гиганты"
+      },
+      "source_sha256": "c7904c9551072c0cc8cad7ead0ece9521d2642b2f62281db77c1156fb224c537"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.17831",
+      "location": {
+        "abc_byte_offset": 1205369,
+        "code_offset": 17831,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10905,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": {
+          "source_parts": [
+            "Бой: особые объекты; Tome",
+            {
+              "id": "abc.4175.220.176",
+              "source_sha256": "95ab32a58fd9587ebdbe86c704dfa47bf34f3c35fe1fc328a6edffc57011804e"
+            },
+            ", метод 630."
+          ]
+        },
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "В радиусе: "
+      },
+      "source_sha256": "004eb1cf13f61d145008dac6132bf9b7274bd36ec42b43105f5d82103ec483e0"
     },
     {
       "category": "actionscript",
@@ -43359,7 +46221,21 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": {
+          "source_parts": [
+            "Бой: особые объекты; Tome",
+            {
+              "id": "abc.4175.220.176",
+              "source_sha256": "95ab32a58fd9587ebdbe86c704dfa47bf34f3c35fe1fc328a6edffc57011804e"
+            },
+            ", метод 630."
+          ]
+        },
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "Для открытия получите навык «Заморозка» на поле H4"
       },
       "source_sha256": "9eee7a784820eb06502a29123a03c8e377ca10e0fcf54c512d98fcc85b263458"
     },
@@ -43378,9 +46254,503 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": {
+          "source_parts": [
+            "Бой: особые объекты; Tome",
+            {
+              "id": "abc.4175.220.176",
+              "source_sha256": "95ab32a58fd9587ebdbe86c704dfa47bf34f3c35fe1fc328a6edffc57011804e"
+            },
+            ", метод 630."
+          ]
+        },
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "Для открытия получите навык «Проклятие» на поле G2"
       },
       "source_sha256": "e47f69095a1f83328ccd440f1b5c8eb25ff7577e0a9f01438444f9af01a32cca"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.18384",
+      "location": {
+        "abc_byte_offset": 1205922,
+        "code_offset": 18384,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10908,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; DeadWizard, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "Останки другого мага"
+      },
+      "source_sha256": "4fa671f7f0deb3c66da2f36a1dc0348411cd0f22aaa3e31f099a8177521f0874"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.18466",
+      "location": {
+        "abc_byte_offset": 1206004,
+        "code_offset": 18466,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10909,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; BrokenOrbBase, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "Разбитое основание сферы"
+      },
+      "source_sha256": "c3912206c8e880f32a82ec0bb1953ca774df8d6b0f0cdce7b05bef04c9b34a67"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.18547",
+      "location": {
+        "abc_byte_offset": 1206085,
+        "code_offset": 18547,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10910,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; SealedGoE, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "Запечатанная копия Самоцвета Вечности"
+      },
+      "source_sha256": "d926daf8c57ece22ef317357a8e08f7f40f7f6150d4e68c379f9d3733194f648"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.18581",
+      "location": {
+        "abc_byte_offset": 1206119,
+        "code_offset": 18581,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10911,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; SealedGoE, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "Случайным образом изгоняет монстров поблизости"
+      },
+      "source_sha256": "96def8bdd80d909df16222e4c63e1bab142c6ca2a1a7fba8eac225b8d1b38539"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.19004",
+      "location": {
+        "abc_byte_offset": 1206542,
+        "code_offset": 19004,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10912,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; SummoningNode, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "Разрушенный узел призыва"
+      },
+      "source_sha256": "882b238a7d87dccb149050f79f77367ca6274730a00bc7da30ad71621e5d9c74"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.19022",
+      "location": {
+        "abc_byte_offset": 1206560,
+        "code_offset": 19022,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10913,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; SummoningNode, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "Узел призыва"
+      },
+      "source_sha256": "37a6d3918d4ba951d1996e8d6cd5defb9be20f33ffb10ce3280f50d53a9e8723"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.19090",
+      "location": {
+        "abc_byte_offset": 1206628,
+        "code_offset": 19090,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10914,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; SummoningNode, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "Набрав заряд, разряжается и наносит урон монстру поблизости"
+      },
+      "source_sha256": "1cc3907920aa1d14e48becd199f946997fdcac9726d386194e2e7478a3278a1d"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.19138",
+      "location": {
+        "abc_byte_offset": 1206676,
+        "code_offset": 19138,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10915,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; SummoningNode, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "Полностью заряжен!"
+      },
+      "source_sha256": "881741df7373227b7b679132296c2db2b071ba68eac428eef91575c1a0f2f0ba"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.19488",
+      "location": {
+        "abc_byte_offset": 1207026,
+        "code_offset": 19488,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10916,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; SummoningNode, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "Для зарядки нужны проклятые монстры поблизости"
+      },
+      "source_sha256": "37838976b55b2d784e118744f3be3b4d9599284f967b64951d4535a6ce5a3c5d"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.19536",
+      "location": {
+        "abc_byte_offset": 1207074,
+        "code_offset": 19536,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10817,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; SummoningNode, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "Текущий заряд: "
+      },
+      "source_sha256": "c43777f2115d4c9ad822df0bb0e917445662495e3e2a40585c16ffce72f388db"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.19607",
+      "location": {
+        "abc_byte_offset": 1207145,
+        "code_offset": 19607,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10817,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; SummoningNode, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "Текущий заряд: "
+      },
+      "source_sha256": "c43777f2115d4c9ad822df0bb0e917445662495e3e2a40585c16ffce72f388db"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.19816",
+      "location": {
+        "abc_byte_offset": 1207354,
+        "code_offset": 19816,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10917,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; EnsnaringNode, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "Разрушенный узел заточения"
+      },
+      "source_sha256": "cd31294bd96c63667e2ff8064d4f55e2d727155d4f5507ace3a4272bb7f2abb8"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.19834",
+      "location": {
+        "abc_byte_offset": 1207372,
+        "code_offset": 19834,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10918,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; EnsnaringNode, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "Узел заточения"
+      },
+      "source_sha256": "2ec61469734f0fc43e31454a39cfa245f4fc808a4bfe5bc262634879307c4f90"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.19902",
+      "location": {
+        "abc_byte_offset": 1207440,
+        "code_offset": 19902,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10914,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; EnsnaringNode, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "Набрав заряд, разряжается и наносит урон монстру поблизости"
+      },
+      "source_sha256": "1cc3907920aa1d14e48becd199f946997fdcac9726d386194e2e7478a3278a1d"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.19950",
+      "location": {
+        "abc_byte_offset": 1207488,
+        "code_offset": 19950,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10915,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; EnsnaringNode, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "Полностью заряжен!"
+      },
+      "source_sha256": "881741df7373227b7b679132296c2db2b071ba68eac428eef91575c1a0f2f0ba"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.20300",
+      "location": {
+        "abc_byte_offset": 1207838,
+        "code_offset": 20300,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10919,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; EnsnaringNode, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "Для зарядки нужны замороженные монстры поблизости"
+      },
+      "source_sha256": "c27ac3fd05f0ec7d2ff6b625fae82c3cb23ea3bb434fde2675c15388c8e529e8"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.20348",
+      "location": {
+        "abc_byte_offset": 1207886,
+        "code_offset": 20348,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10817,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; EnsnaringNode, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "Текущий заряд: "
+      },
+      "source_sha256": "c43777f2115d4c9ad822df0bb0e917445662495e3e2a40585c16ffce72f388db"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.20419",
+      "location": {
+        "abc_byte_offset": 1207957,
+        "code_offset": 20419,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10817,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; EnsnaringNode, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "Текущий заряд: "
+      },
+      "source_sha256": "c43777f2115d4c9ad822df0bb0e917445662495e3e2a40585c16ffce72f388db"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.20625",
+      "location": {
+        "abc_byte_offset": 1208163,
+        "code_offset": 20625,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10920,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; SummoningSocket, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "Разрушенное гнездо призыва"
+      },
+      "source_sha256": "5f3598f79d9c044b1ab5b63f5c89e80ad14842a44032fa42184e42af7cb50b87"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.20643",
+      "location": {
+        "abc_byte_offset": 1208181,
+        "code_offset": 20643,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10921,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; SummoningSocket, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "Гнездо призыва"
+      },
+      "source_sha256": "3e7e9529ade128119b50e39ac02d8973e79574f6943e153a5378b48f54908fe6"
     },
     {
       "category": "actionscript",
@@ -43397,7 +46767,12 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; SummoningSocket, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "Вставлен самоцвет:"
       },
       "source_sha256": "4ce4a721d5968511dc61c59f08801fc6b013f8cf0660fb4d706c6724fd06ec6f"
     },
@@ -43416,9 +46791,86 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; SummoningSocket, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "Экспериментальный самоцвет призыва"
       },
       "source_sha256": "2b872d176f9aa6a5cedcf2c5155b495c325387daee2810a851a525799162129c"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.20712",
+      "location": {
+        "abc_byte_offset": 1208250,
+        "code_offset": 20712,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10924,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; SummoningSocket, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "Зарядите все узлы призыва для активации!"
+      },
+      "source_sha256": "696d50a1c53cd1c1ff07686070358884a7e8cae2fce01054a2631083e88a3393"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.20825",
+      "location": {
+        "abc_byte_offset": 1208363,
+        "code_offset": 20825,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10925,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; EnsnaringSocket, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "Разрушенное гнездо заточения"
+      },
+      "source_sha256": "3c5d555e63f50db3d6f1dfc2302151b81cbf8a220dc106f3ffd3bfb08657c374"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.20843",
+      "location": {
+        "abc_byte_offset": 1208381,
+        "code_offset": 20843,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10926,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; EnsnaringSocket, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "Гнездо заточения"
+      },
+      "source_sha256": "85cd5efd238bb54fc8740e970adb88a17d197d653c6aeab39ab44abd66113042"
     },
     {
       "category": "actionscript",
@@ -43435,9 +46887,62 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; EnsnaringSocket, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "Вставлен самоцвет:"
       },
       "source_sha256": "4ce4a721d5968511dc61c59f08801fc6b013f8cf0660fb4d706c6724fd06ec6f"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.20875",
+      "location": {
+        "abc_byte_offset": 1208413,
+        "code_offset": 20875,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10707,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; EnsnaringSocket, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "Самоцвет Вечности"
+      },
+      "source_sha256": "218a73049340b4cb100003b933e4be1606817e3f9e6e206da49788f855289917"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.20909",
+      "location": {
+        "abc_byte_offset": 1208447,
+        "code_offset": 20909,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10927,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; EnsnaringSocket, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Адрес и ветвления проверены по оригинальному ABC. Динамические значения и логика сохранены. Поля с количеством используют нейтральные подписи. AIR не проверен.",
+        "status": "draft",
+        "translation": "Зарядите все узлы заточения для активации!"
+      },
+      "source_sha256": "f6bb74f92359723633a5455425a81028bc8e2382544c4b62b665759b3d0e100e"
     },
     {
       "category": "actionscript",

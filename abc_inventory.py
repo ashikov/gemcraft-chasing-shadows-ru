@@ -359,9 +359,14 @@ class ABCInventory:
         instructions = self.instructions(code, method)
         gem_colors = self.gem_color_offsets(instructions, method)
         building_captions = {}
+        orblet_suffixes = {}
         if {"owner": "IngameInfoPanelRenderer", "method": "renderInfoPanel"} in self.method_labels.get(method, []):
-            building_captions = {4239: "Wall", 5044: "Tower", 5173: "Tower",
-                                 5261: "Tower", 6477: "Amplifier", 7033: "Trap"}
+            building_captions = {4239: ("Wall", 203), 5044: ("Tower", 203),
+                                 5173: ("Tower", 203), 5261: ("Tower", 203),
+                                 6477: ("Amplifier", 203), 7033: ("Trap", 203),
+                                 15785: ("Tomb", 177)}
+            orblet_suffixes = {14255: " docked: ", 14380: " docked",
+                              14441: " can still be retrieved", 14538: " lost: -"}
         for position, (offset, opcode, operands) in enumerate(instructions):
             if opcode != 0x2C:
                 continue
@@ -409,15 +414,24 @@ class ABCInventory:
             if offset in gem_colors:
                 classification = "probable"
                 context = "Reviewed gem color table in renderInfoPanelGem; runtime display is unverified"
-            # These six headings share symbols; other two-argument calls and
+            # These headings share symbols; other two-argument calls and
             # technical uses of the same pool entries remain outside this rule.
-            if (source == building_captions.get(offset) and position >= 2
+            caption, color = building_captions.get(offset, (None, None))
+            if (source == caption and position >= 2
                     and [item[1:] for item in instructions[position - 2:position]] == [
-                        (0xD1, []), (0x2D, [203])]
+                        (0xD1, []), (0x2D, [color])]
                     and tail and tail[0][1] == 0x4F and tail[0][2][1] == 2
                     and self.multiname(tail[0][2][0]) == "addTextfield"):
                 classification = "probable"
                 context = "Reviewed building caption in renderInfoPanel; runtime display is unverified"
+            # Only the reviewed plural arms concatenate this symbol with a
+            # visible state label; Orb's technical orblets property stays intact.
+            if (source == "orblets" and offset in orblet_suffixes and len(tail) >= 4
+                    and [item[1:] for item in tail[:2]] == [(0x82, []), (0xA0, [])]
+                    and tail[2][1] == 0x2C and tail[3][1:] == (0xA0, [])
+                    and self.string(tail[2][2][0]) == orblet_suffixes[offset]):
+                classification = "probable"
+                context = "Reviewed orblet count label in renderInfoPanel; runtime display is unverified"
             self.entry(index, f"{method}.{offset}", extra, classification, context)
             if source and (extra.get("text_property") == "htmlText" or re.search(r"<[A-Za-z][^>]*>", source)):
                 self.entries[-1]["content_type"] = "html_fragment"
