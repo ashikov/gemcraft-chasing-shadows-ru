@@ -1,6 +1,6 @@
 {
-  "applied_translations": 2591,
-  "expected_candidate_sha256": "ddf10d3afc7e1ea139f056f8e86c6db585bdbf81af2315fc87f68b9dbeeace13",
+  "applied_translations": 2683,
+  "expected_candidate_sha256": "4fe24607db3aa9039dd7aa6d54708764c428d3035c8dd5c5c24fa73a30ef9034",
   "font_sha256": "ba5564634b93a8f8ba57b48cd4f1ae7417d2b4656fbac779028679b00de3cf12",
   "game_sha256": "c8eadc03a7e607086998695f7696ec22dd90d7b7859e3d10cdfabf40fc7bbad5",
   "plans": [
@@ -95,6 +95,10 @@
     {
       "path": "plans/pr27-battle-shrines.json",
       "sha256": "645d08ed6a23e86d1d6b878cf3b094ca46f78d83aff0481d59b45d697ce24d3a"
+    },
+    {
+      "path": "plans/pr28-battle-special-objects.json",
+      "sha256": "48968dbbad5908a30715ed70d54ba7228f96a8a73f53b5218c439445d48dd262"
     }
   ],
   "schema_version": 1

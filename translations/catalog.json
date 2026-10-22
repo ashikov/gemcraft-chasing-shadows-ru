@@ -8131,6 +8131,630 @@
     },
     {
       "category": "actionscript",
+      "id": "abc.4175.1427.149",
+      "location": {
+        "abc_byte_offset": 1565903,
+        "code_offset": 149,
+        "method_index": 1427,
+        "sprite_path": [],
+        "string_pool_index": 12652,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; DropHolder, метод 1427.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Условия, вычисления и числа сохранены. Отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Малый сундук"
+      },
+      "source_sha256": "8e68ea847264e1e91d8fc58752d022bd22759fa05ed033054e4d604579e64e80"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.1427.152",
+      "location": {
+        "abc_byte_offset": 1565906,
+        "code_offset": 152,
+        "method_index": 1427,
+        "sprite_path": [],
+        "string_pool_index": 12653,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; DropHolder, метод 1427.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Условия, вычисления и числа сохранены. Отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Большой сундук"
+      },
+      "source_sha256": "07d3b7bb2bbae412c96dd736cd331d6582e1b720f2c640a875f2a6121835e0dd"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.1427.155",
+      "location": {
+        "abc_byte_offset": 1565909,
+        "code_offset": 155,
+        "method_index": 1427,
+        "sprite_path": [],
+        "string_pool_index": 12653,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; DropHolder, метод 1427.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Условия, вычисления и числа сохранены. Отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Большой сундук"
+      },
+      "source_sha256": "07d3b7bb2bbae412c96dd736cd331d6582e1b720f2c640a875f2a6121835e0dd"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.1427.158",
+      "location": {
+        "abc_byte_offset": 1565912,
+        "code_offset": 158,
+        "method_index": 1427,
+        "sprite_path": [],
+        "string_pool_index": 12654,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; DropHolder, метод 1427.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Условия, вычисления и числа сохранены. Отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Большой каменный сундук"
+      },
+      "source_sha256": "fed9eda1922836160c0360a1f37a2bdedb75aa5e2b2bafb6bb6dc149d13af9d3"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.1427.161",
+      "location": {
+        "abc_byte_offset": 1565915,
+        "code_offset": 161,
+        "method_index": 1427,
+        "sprite_path": [],
+        "string_pool_index": 12654,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; DropHolder, метод 1427.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Условия, вычисления и числа сохранены. Отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Большой каменный сундук"
+      },
+      "source_sha256": "fed9eda1922836160c0360a1f37a2bdedb75aa5e2b2bafb6bb6dc149d13af9d3"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.1427.164",
+      "location": {
+        "abc_byte_offset": 1565918,
+        "code_offset": 164,
+        "method_index": 1427,
+        "sprite_path": [],
+        "string_pool_index": 12655,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; DropHolder, метод 1427.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Условия, вычисления и числа сохранены. Отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Шестиугольный сундук"
+      },
+      "source_sha256": "fac46d190314d0920cf3efef14d363865cf4dd4b898eedd3a6cbbe8458a0168f"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.1427.167",
+      "location": {
+        "abc_byte_offset": 1565921,
+        "code_offset": 167,
+        "method_index": 1427,
+        "sprite_path": [],
+        "string_pool_index": 12656,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; DropHolder, метод 1427.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Условия, вычисления и числа сохранены. Отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Корзина"
+      },
+      "source_sha256": "b331a771c2e30ea57e636f62e8c91facc0178cf1d6c80694e8dc7a90b0b6d08e"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.1427.170",
+      "location": {
+        "abc_byte_offset": 1565924,
+        "code_offset": 170,
+        "method_index": 1427,
+        "sprite_path": [],
+        "string_pool_index": 12657,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; DropHolder, метод 1427.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Условия, вычисления и числа сохранены. Отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Бочка"
+      },
+      "source_sha256": "ae8695893112e3113c47f25dfe30c82f59c0a36f7ace8962865ab3718a44297f"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.1427.173",
+      "location": {
+        "abc_byte_offset": 1565927,
+        "code_offset": 173,
+        "method_index": 1427,
+        "sprite_path": [],
+        "string_pool_index": 12658,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; DropHolder, метод 1427.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Условия, вычисления и числа сохранены. Отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Малая груда камней"
+      },
+      "source_sha256": "eb48f6de676b5612395de9f98219c464d833b152eaa4abab7ad0bd512fafa2aa"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.1427.176",
+      "location": {
+        "abc_byte_offset": 1565930,
+        "code_offset": 176,
+        "method_index": 1427,
+        "sprite_path": [],
+        "string_pool_index": 12659,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; DropHolder, метод 1427.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Условия, вычисления и числа сохранены. Отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Большая груда камней"
+      },
+      "source_sha256": "917b4daab31ba2bd25875133a7c671f3f740affa0d2ddc5b6734560705584120"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.1427.179",
+      "location": {
+        "abc_byte_offset": 1565933,
+        "code_offset": 179,
+        "method_index": 1427,
+        "sprite_path": [],
+        "string_pool_index": 12659,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; DropHolder, метод 1427.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Условия, вычисления и числа сохранены. Отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Большая груда камней"
+      },
+      "source_sha256": "917b4daab31ba2bd25875133a7c671f3f740affa0d2ddc5b6734560705584120"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.1427.182",
+      "location": {
+        "abc_byte_offset": 1565936,
+        "code_offset": 182,
+        "method_index": 1427,
+        "sprite_path": [],
+        "string_pool_index": 12660,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; DropHolder, метод 1427.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Условия, вычисления и числа сохранены. Отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Фарфоровая шкатулка"
+      },
+      "source_sha256": "fbd5806f5d93e752a91e5a3b20c3dcacd1e2a2d1f4843633e84a1b5f9b98fae5"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.1427.185",
+      "location": {
+        "abc_byte_offset": 1565939,
+        "code_offset": 185,
+        "method_index": 1427,
+        "sprite_path": [],
+        "string_pool_index": 12660,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; DropHolder, метод 1427.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Условия, вычисления и числа сохранены. Отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Фарфоровая шкатулка"
+      },
+      "source_sha256": "fbd5806f5d93e752a91e5a3b20c3dcacd1e2a2d1f4843633e84a1b5f9b98fae5"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.1427.188",
+      "location": {
+        "abc_byte_offset": 1565942,
+        "code_offset": 188,
+        "method_index": 1427,
+        "sprite_path": [],
+        "string_pool_index": 12661,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; DropHolder, метод 1427.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Условия, вычисления и числа сохранены. Отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Золотой сундук"
+      },
+      "source_sha256": "429ca9dd66e76f69388173197b01a1f57daee7e0158cdbc0dbf113c42ca694df"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.1427.191",
+      "location": {
+        "abc_byte_offset": 1565945,
+        "code_offset": 191,
+        "method_index": 1427,
+        "sprite_path": [],
+        "string_pool_index": 12661,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; DropHolder, метод 1427.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Условия, вычисления и числа сохранены. Отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Золотой сундук"
+      },
+      "source_sha256": "429ca9dd66e76f69388173197b01a1f57daee7e0158cdbc0dbf113c42ca694df"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.1427.194",
+      "location": {
+        "abc_byte_offset": 1565948,
+        "code_offset": 194,
+        "method_index": 1427,
+        "sprite_path": [],
+        "string_pool_index": 12662,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; DropHolder, метод 1427.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Условия, вычисления и числа сохранены. Отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Восьмиугольный сундук"
+      },
+      "source_sha256": "67cfad26c2e1176e0e1a19e6a825fe0ca8a9421a49d08ab61609e07486ebd359"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.1427.197",
+      "location": {
+        "abc_byte_offset": 1565951,
+        "code_offset": 197,
+        "method_index": 1427,
+        "sprite_path": [],
+        "string_pool_index": 12663,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; DropHolder, метод 1427.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Условия, вычисления и числа сохранены. Отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Клетчатый сундук"
+      },
+      "source_sha256": "d54c3266ec09ce4078a76a36e0c8208233bdf9e6246ad1130b64af41f795b94b"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.1427.200",
+      "location": {
+        "abc_byte_offset": 1565954,
+        "code_offset": 200,
+        "method_index": 1427,
+        "sprite_path": [],
+        "string_pool_index": 12663,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; DropHolder, метод 1427.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Условия, вычисления и числа сохранены. Отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Клетчатый сундук"
+      },
+      "source_sha256": "d54c3266ec09ce4078a76a36e0c8208233bdf9e6246ad1130b64af41f795b94b"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.1427.203",
+      "location": {
+        "abc_byte_offset": 1565957,
+        "code_offset": 203,
+        "method_index": 1427,
+        "sprite_path": [],
+        "string_pool_index": 12664,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; DropHolder, метод 1427.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Условия, вычисления и числа сохранены. Отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Глазурованный сундук"
+      },
+      "source_sha256": "28d8552ed066d8b41d9ab1f91e23c1b4c90c339bd6ab76301e592a4e5f2877c6"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.1427.206",
+      "location": {
+        "abc_byte_offset": 1565960,
+        "code_offset": 206,
+        "method_index": 1427,
+        "sprite_path": [],
+        "string_pool_index": 12664,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; DropHolder, метод 1427.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Условия, вычисления и числа сохранены. Отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Глазурованный сундук"
+      },
+      "source_sha256": "28d8552ed066d8b41d9ab1f91e23c1b4c90c339bd6ab76301e592a4e5f2877c6"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.1427.209",
+      "location": {
+        "abc_byte_offset": 1565963,
+        "code_offset": 209,
+        "method_index": 1427,
+        "sprite_path": [],
+        "string_pool_index": 12665,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; DropHolder, метод 1427.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Условия, вычисления и числа сохранены. Отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Малый рунический сундук"
+      },
+      "source_sha256": "34ae0a08c44388e2ec2683c63572bbc8b44f90d4a0f0b88241fe024d573cc4b9"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.1427.212",
+      "location": {
+        "abc_byte_offset": 1565966,
+        "code_offset": 212,
+        "method_index": 1427,
+        "sprite_path": [],
+        "string_pool_index": 1367,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; DropHolder, метод 1427.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Условия, вычисления и числа сохранены. Отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Большой рунический сундук"
+      },
+      "source_sha256": "19788504b570e784cd1266d25f7a4348e60aa520f17093341148d4cd575f8f2a"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.1427.215",
+      "location": {
+        "abc_byte_offset": 1565969,
+        "code_offset": 215,
+        "method_index": 1427,
+        "sprite_path": [],
+        "string_pool_index": 1367,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; DropHolder, метод 1427.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Условия, вычисления и числа сохранены. Отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Большой рунический сундук"
+      },
+      "source_sha256": "19788504b570e784cd1266d25f7a4348e60aa520f17093341148d4cd575f8f2a"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.1427.218",
+      "location": {
+        "abc_byte_offset": 1565972,
+        "code_offset": 218,
+        "method_index": 1427,
+        "sprite_path": [],
+        "string_pool_index": 12666,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; DropHolder, метод 1427.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Условия, вычисления и числа сохранены. Отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Малая груда досок"
+      },
+      "source_sha256": "28cb4866f980b841befa0ac60eb8d6a1080c4f58729b5b44c0c424f7827fcda4"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.1427.221",
+      "location": {
+        "abc_byte_offset": 1565975,
+        "code_offset": 221,
+        "method_index": 1427,
+        "sprite_path": [],
+        "string_pool_index": 12667,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; DropHolder, метод 1427.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Условия, вычисления и числа сохранены. Отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Большая груда досок"
+      },
+      "source_sha256": "c90a2f32db9397a128216855eeb25f1cbed3f5d132105dea09c14f94bb03aedd"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.1427.224",
+      "location": {
+        "abc_byte_offset": 1565978,
+        "code_offset": 224,
+        "method_index": 1427,
+        "sprite_path": [],
+        "string_pool_index": 12667,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; DropHolder, метод 1427.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Условия, вычисления и числа сохранены. Отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Большая груда досок"
+      },
+      "source_sha256": "c90a2f32db9397a128216855eeb25f1cbed3f5d132105dea09c14f94bb03aedd"
+    },
+    {
+      "category": "actionscript",
       "id": "abc.4175.1553.104",
       "location": {
         "abc_byte_offset": 1614346,
@@ -41381,6 +42005,246 @@
     },
     {
       "category": "actionscript",
+      "id": "abc.4175.630.10093",
+      "location": {
+        "abc_byte_offset": 1197631,
+        "code_offset": 10093,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10261,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; Beacon, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Условия, вычисления и числа сохранены. Отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Здоровье: "
+      },
+      "source_sha256": "0cd0fb5069e3fbc27f751fcf75e708e65714eb34dc57a2580a2d539098779192"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.10152",
+      "location": {
+        "abc_byte_offset": 1197690,
+        "code_offset": 10152,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10742,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; Beacon, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Условия, вычисления и числа сохранены. Отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Броня: "
+      },
+      "source_sha256": "c0c9154f37fa76450f78cea5c239ea4afec072d6f09e061add8d99c910797d00"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.10196",
+      "location": {
+        "abc_byte_offset": 1197734,
+        "code_offset": 10196,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10261,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; Beacon, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Условия, вычисления и числа сохранены. Отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Здоровье: "
+      },
+      "source_sha256": "0cd0fb5069e3fbc27f751fcf75e708e65714eb34dc57a2580a2d539098779192"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.10311",
+      "location": {
+        "abc_byte_offset": 1197849,
+        "code_offset": 10311,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10367,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; Beacon, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Условия, вычисления и числа сохранены. Отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Радиус: "
+      },
+      "source_sha256": "ce49a5d687fd115b715c36d74f41caa4f3fcdf714b46853e30910c79fa297006"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.10382",
+      "location": {
+        "abc_byte_offset": 1197920,
+        "code_offset": 10382,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10789,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; Beacon, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Условия, вычисления и числа сохранены. Отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Отключён ("
+      },
+      "source_sha256": "dae17c5db3a8bbf83c56a0cd93b7bbe73007faad16a0b3e799c67ec7e96b3c39"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.10403",
+      "location": {
+        "abc_byte_offset": 1197941,
+        "code_offset": 10403,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10470,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; Beacon, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Условия, вычисления и числа сохранены. Отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": " с)"
+      },
+      "source_sha256": "ac5e208c1bd4ba9661e9a4e32f962c51b0c78092a241fb49bbe1cacb7170f57d"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.10460",
+      "location": {
+        "abc_byte_offset": 1197998,
+        "code_offset": 10460,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10459,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; Beacon, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Условия, вычисления и числа сохранены. Отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Опыт: "
+      },
+      "source_sha256": "cf1825392a1e62a9144bfa73332fd3dabaf73f53e81d60e9a77864cf3fc330de"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.10584",
+      "location": {
+        "abc_byte_offset": 1198122,
+        "code_offset": 10584,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10460,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; Beacon, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Условия, вычисления и числа сохранены. Отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Талисман: +"
+      },
+      "source_sha256": "49a728e6890a4304974908e1ea6a5420bbfb16ef80f12d9762245eabd311bb83"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.10617",
+      "location": {
+        "abc_byte_offset": 1198155,
+        "code_offset": 10617,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10461,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; Beacon, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Условия, вычисления и числа сохранены. Отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "% получаемого урона"
+      },
+      "source_sha256": "5c4ed7e81720a03221ea73f968d30645f9912c164703c6b0b9fc285e63a86f5d"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.10659",
+      "location": {
+        "abc_byte_offset": 1198197,
+        "code_offset": 10659,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10743,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; Beacon, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Условия, вычисления и числа сохранены. Отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Бросайте самоцветы-бомбы или стреляйте самоцветами из башен, чтобы уничтожить"
+      },
+      "source_sha256": "3a908f371035a5cc3d3d7209ffbfdece6aac5fe51eeb350d77987be3f4f4e726"
+    },
+    {
+      "category": "actionscript",
       "id": "abc.4175.630.11097",
       "location": {
         "abc_byte_offset": 1198635,
@@ -48327,6 +49191,270 @@
     },
     {
       "category": "actionscript",
+      "id": "abc.4175.630.5905",
+      "location": {
+        "abc_byte_offset": 1193443,
+        "code_offset": 5905,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10741,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": {
+          "source_parts": [
+            "Бой: особые объекты;",
+            {
+              "id": "abc.4175.548.228",
+              "source_sha256": "8be91414fd531d8573a8020966de769b3bb37b331c2e1c25739f3e450cd7219f"
+            },
+            "Seal, метод 630."
+          ]
+        },
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Условия, вычисления и числа сохранены. Отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Запечатанный самоцвет"
+      },
+      "source_sha256": "8405ad016bca666b5c74a8d2adb7bc60ea34b30017916329b3a0b181ba514823"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.5957",
+      "location": {
+        "abc_byte_offset": 1193495,
+        "code_offset": 5957,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10261,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": {
+          "source_parts": [
+            "Бой: особые объекты;",
+            {
+              "id": "abc.4175.548.228",
+              "source_sha256": "8be91414fd531d8573a8020966de769b3bb37b331c2e1c25739f3e450cd7219f"
+            },
+            "Seal, метод 630."
+          ]
+        },
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Условия, вычисления и числа сохранены. Отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Здоровье: "
+      },
+      "source_sha256": "0cd0fb5069e3fbc27f751fcf75e708e65714eb34dc57a2580a2d539098779192"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.5995",
+      "location": {
+        "abc_byte_offset": 1193533,
+        "code_offset": 5995,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10742,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": {
+          "source_parts": [
+            "Бой: особые объекты;",
+            {
+              "id": "abc.4175.548.228",
+              "source_sha256": "8be91414fd531d8573a8020966de769b3bb37b331c2e1c25739f3e450cd7219f"
+            },
+            "Seal, метод 630."
+          ]
+        },
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Условия, вычисления и числа сохранены. Отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Броня: "
+      },
+      "source_sha256": "c0c9154f37fa76450f78cea5c239ea4afec072d6f09e061add8d99c910797d00"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.6039",
+      "location": {
+        "abc_byte_offset": 1193577,
+        "code_offset": 6039,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10261,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": {
+          "source_parts": [
+            "Бой: особые объекты;",
+            {
+              "id": "abc.4175.548.228",
+              "source_sha256": "8be91414fd531d8573a8020966de769b3bb37b331c2e1c25739f3e450cd7219f"
+            },
+            "Seal, метод 630."
+          ]
+        },
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Условия, вычисления и числа сохранены. Отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Здоровье: "
+      },
+      "source_sha256": "0cd0fb5069e3fbc27f751fcf75e708e65714eb34dc57a2580a2d539098779192"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.6119",
+      "location": {
+        "abc_byte_offset": 1193657,
+        "code_offset": 6119,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10459,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": {
+          "source_parts": [
+            "Бой: особые объекты;",
+            {
+              "id": "abc.4175.548.228",
+              "source_sha256": "8be91414fd531d8573a8020966de769b3bb37b331c2e1c25739f3e450cd7219f"
+            },
+            "Seal, метод 630."
+          ]
+        },
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Условия, вычисления и числа сохранены. Отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Опыт: "
+      },
+      "source_sha256": "cf1825392a1e62a9144bfa73332fd3dabaf73f53e81d60e9a77864cf3fc330de"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.6243",
+      "location": {
+        "abc_byte_offset": 1193781,
+        "code_offset": 6243,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10460,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": {
+          "source_parts": [
+            "Бой: особые объекты;",
+            {
+              "id": "abc.4175.548.228",
+              "source_sha256": "8be91414fd531d8573a8020966de769b3bb37b331c2e1c25739f3e450cd7219f"
+            },
+            "Seal, метод 630."
+          ]
+        },
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Условия, вычисления и числа сохранены. Отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Талисман: +"
+      },
+      "source_sha256": "49a728e6890a4304974908e1ea6a5420bbfb16ef80f12d9762245eabd311bb83"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.6276",
+      "location": {
+        "abc_byte_offset": 1193814,
+        "code_offset": 6276,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10461,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": {
+          "source_parts": [
+            "Бой: особые объекты;",
+            {
+              "id": "abc.4175.548.228",
+              "source_sha256": "8be91414fd531d8573a8020966de769b3bb37b331c2e1c25739f3e450cd7219f"
+            },
+            "Seal, метод 630."
+          ]
+        },
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Условия, вычисления и числа сохранены. Отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "% получаемого урона"
+      },
+      "source_sha256": "5c4ed7e81720a03221ea73f968d30645f9912c164703c6b0b9fc285e63a86f5d"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.6318",
+      "location": {
+        "abc_byte_offset": 1193856,
+        "code_offset": 6318,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10743,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": {
+          "source_parts": [
+            "Бой: особые объекты;",
+            {
+              "id": "abc.4175.548.228",
+              "source_sha256": "8be91414fd531d8573a8020966de769b3bb37b331c2e1c25739f3e450cd7219f"
+            },
+            "Seal, метод 630."
+          ]
+        },
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Условия, вычисления и числа сохранены. Отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Бросайте самоцветы-бомбы или стреляйте самоцветами из башен, чтобы уничтожить"
+      },
+      "source_sha256": "3a908f371035a5cc3d3d7209ffbfdece6aac5fe51eeb350d77987be3f4f4e726"
+    },
+    {
+      "category": "actionscript",
       "id": "abc.4175.630.6477",
       "location": {
         "abc_byte_offset": 1194015,
@@ -48630,6 +49758,402 @@
     },
     {
       "category": "actionscript",
+      "id": "abc.4175.630.7515",
+      "location": {
+        "abc_byte_offset": 1195053,
+        "code_offset": 7515,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10746,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": {
+          "source_parts": [
+            "Бой: особые объекты; ",
+            {
+              "id": "abc.4175.220.461",
+              "source_sha256": "066ffe4ac557b987814e380132b3030adc2cbeeff5a4a5c667959c9422a6e730"
+            },
+            "Shard, метод 630."
+          ]
+        },
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Условия, вычисления и числа сохранены. Отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Осколок маны"
+      },
+      "source_sha256": "e9a72e12542f409200102d801938ada84e1cda0e84207c74e7dc084aefb472bf"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.7567",
+      "location": {
+        "abc_byte_offset": 1195105,
+        "code_offset": 7567,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10747,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": {
+          "source_parts": [
+            "Бой: особые объекты; ",
+            {
+              "id": "abc.4175.220.461",
+              "source_sha256": "066ffe4ac557b987814e380132b3030adc2cbeeff5a4a5c667959c9422a6e730"
+            },
+            "Shard, метод 630."
+          ]
+        },
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Условия, вычисления и числа сохранены. Отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Толщина оболочки: "
+      },
+      "source_sha256": "d9d275b7d8c7bd6cd7174449c796b34a0177aaddf93bf995cea98ae90ae2fee2"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.7605",
+      "location": {
+        "abc_byte_offset": 1195143,
+        "code_offset": 7605,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10748,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": {
+          "source_parts": [
+            "Бой: особые объекты; ",
+            {
+              "id": "abc.4175.220.461",
+              "source_sha256": "066ffe4ac557b987814e380132b3030adc2cbeeff5a4a5c667959c9422a6e730"
+            },
+            "Shard, метод 630."
+          ]
+        },
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Условия, вычисления и числа сохранены. Отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Осталось маны: "
+      },
+      "source_sha256": "3b31e997990b6a0f41e6e5c433f9a4762573371c5048a8d3ef0930181cf59f2e"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.7665",
+      "location": {
+        "abc_byte_offset": 1195203,
+        "code_offset": 7665,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10459,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": {
+          "source_parts": [
+            "Бой: особые объекты; ",
+            {
+              "id": "abc.4175.220.461",
+              "source_sha256": "066ffe4ac557b987814e380132b3030adc2cbeeff5a4a5c667959c9422a6e730"
+            },
+            "Shard, метод 630."
+          ]
+        },
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Условия, вычисления и числа сохранены. Отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Опыт: "
+      },
+      "source_sha256": "cf1825392a1e62a9144bfa73332fd3dabaf73f53e81d60e9a77864cf3fc330de"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.7789",
+      "location": {
+        "abc_byte_offset": 1195327,
+        "code_offset": 7789,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10460,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": {
+          "source_parts": [
+            "Бой: особые объекты; ",
+            {
+              "id": "abc.4175.220.461",
+              "source_sha256": "066ffe4ac557b987814e380132b3030adc2cbeeff5a4a5c667959c9422a6e730"
+            },
+            "Shard, метод 630."
+          ]
+        },
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Условия, вычисления и числа сохранены. Отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Талисман: +"
+      },
+      "source_sha256": "49a728e6890a4304974908e1ea6a5420bbfb16ef80f12d9762245eabd311bb83"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.7822",
+      "location": {
+        "abc_byte_offset": 1195360,
+        "code_offset": 7822,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10749,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": {
+          "source_parts": [
+            "Бой: особые объекты; ",
+            {
+              "id": "abc.4175.220.461",
+              "source_sha256": "066ffe4ac557b987814e380132b3030adc2cbeeff5a4a5c667959c9422a6e730"
+            },
+            "Shard, метод 630."
+          ]
+        },
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Условия, вычисления и числа сохранены. Отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "% скорости добычи"
+      },
+      "source_sha256": "1f929eacace8c515298434154c78d64232f04acca380afb8aaa93a1f5ef7f524"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.7864",
+      "location": {
+        "abc_byte_offset": 1195402,
+        "code_offset": 7864,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10750,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": {
+          "source_parts": [
+            "Бой: особые объекты; ",
+            {
+              "id": "abc.4175.220.461",
+              "source_sha256": "066ffe4ac557b987814e380132b3030adc2cbeeff5a4a5c667959c9422a6e730"
+            },
+            "Shard, метод 630."
+          ]
+        },
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Условия, вычисления и числа сохранены. Отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Стреляйте самоцветами из башен, чтобы пробить оболочку и начать добычу маны"
+      },
+      "source_sha256": "69aaa626d73ff92a49d1c13f9f120c849d2c4ed3b031ea8892dc760e05a4e89f"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.7882",
+      "location": {
+        "abc_byte_offset": 1195420,
+        "code_offset": 7882,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10748,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": {
+          "source_parts": [
+            "Бой: особые объекты; ",
+            {
+              "id": "abc.4175.220.461",
+              "source_sha256": "066ffe4ac557b987814e380132b3030adc2cbeeff5a4a5c667959c9422a6e730"
+            },
+            "Shard, метод 630."
+          ]
+        },
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Условия, вычисления и числа сохранены. Отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Осталось маны: "
+      },
+      "source_sha256": "3b31e997990b6a0f41e6e5c433f9a4762573371c5048a8d3ef0930181cf59f2e"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.7942",
+      "location": {
+        "abc_byte_offset": 1195480,
+        "code_offset": 7942,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10459,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": {
+          "source_parts": [
+            "Бой: особые объекты; ",
+            {
+              "id": "abc.4175.220.461",
+              "source_sha256": "066ffe4ac557b987814e380132b3030adc2cbeeff5a4a5c667959c9422a6e730"
+            },
+            "Shard, метод 630."
+          ]
+        },
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Условия, вычисления и числа сохранены. Отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Опыт: "
+      },
+      "source_sha256": "cf1825392a1e62a9144bfa73332fd3dabaf73f53e81d60e9a77864cf3fc330de"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.8066",
+      "location": {
+        "abc_byte_offset": 1195604,
+        "code_offset": 8066,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10460,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": {
+          "source_parts": [
+            "Бой: особые объекты; ",
+            {
+              "id": "abc.4175.220.461",
+              "source_sha256": "066ffe4ac557b987814e380132b3030adc2cbeeff5a4a5c667959c9422a6e730"
+            },
+            "Shard, метод 630."
+          ]
+        },
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Условия, вычисления и числа сохранены. Отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Талисман: +"
+      },
+      "source_sha256": "49a728e6890a4304974908e1ea6a5420bbfb16ef80f12d9762245eabd311bb83"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.8099",
+      "location": {
+        "abc_byte_offset": 1195637,
+        "code_offset": 8099,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10749,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": {
+          "source_parts": [
+            "Бой: особые объекты; ",
+            {
+              "id": "abc.4175.220.461",
+              "source_sha256": "066ffe4ac557b987814e380132b3030adc2cbeeff5a4a5c667959c9422a6e730"
+            },
+            "Shard, метод 630."
+          ]
+        },
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Условия, вычисления и числа сохранены. Отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "% скорости добычи"
+      },
+      "source_sha256": "1f929eacace8c515298434154c78d64232f04acca380afb8aaa93a1f5ef7f524"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.8141",
+      "location": {
+        "abc_byte_offset": 1195679,
+        "code_offset": 8141,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10751,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": {
+          "source_parts": [
+            "Бой: особые объекты; ",
+            {
+              "id": "abc.4175.220.461",
+              "source_sha256": "066ffe4ac557b987814e380132b3030adc2cbeeff5a4a5c667959c9422a6e730"
+            },
+            "Shard, метод 630."
+          ]
+        },
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Условия, вычисления и числа сохранены. Отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Стреляйте самоцветами из башен для добычи маны"
+      },
+      "source_sha256": "83e119720eb82c259a036fbdf51d661ee7bcd9c7061a581e4aa351d3ed3f9c23"
+    },
+    {
+      "category": "actionscript",
       "id": "abc.4175.630.8292",
       "location": {
         "abc_byte_offset": 1195830,
@@ -48643,9 +50167,134 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; DropHolder, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Условия, вычисления и числа сохранены. Отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Хранилище добычи"
       },
       "source_sha256": "cd0f695f1737b9fd4d16916ff341495f7be65b6db7dba943a43f9d563f1ec0f2"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.8329",
+      "location": {
+        "abc_byte_offset": 1195867,
+        "code_offset": 8329,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10754,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; DropHolder, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Условия, вычисления и числа сохранены. Отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Для открытия стреляйте "
+      },
+      "source_sha256": "6dd805140ee2c97aed06a06671fba753ab618d1d3a66dbf3de93370b443360f1"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.8348",
+      "location": {
+        "abc_byte_offset": 1195886,
+        "code_offset": 8348,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10755,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; DropHolder, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Условия, вычисления и числа сохранены. Отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "«Магической стрелой»; осталось попаданий: "
+      },
+      "source_sha256": "4444f581c97ac643d1e3d9355726b0cc11613fc9efbf5a77044cbe00927f323b"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.8361",
+      "location": {
+        "abc_byte_offset": 1195899,
+        "code_offset": 8361,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10756,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; DropHolder, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Условия, вычисления и числа сохранены. Отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": ""
+      },
+      "source_sha256": "d86e53928a942f998497e465bf28795ac10ee68d76cd817ed185a99c8fba6ed8"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.8370",
+      "location": {
+        "abc_byte_offset": 1195908,
+        "code_offset": 8370,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10757,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; DropHolder, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Условия, вычисления и числа сохранены. Отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "«Магической стрелой»; осталось попаданий: 1"
+      },
+      "source_sha256": "f3ecdaf4bc1fac1cff322cd6bd37650f0adc3e5bcc58753a3bcb6def47bc29e8"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.8375",
+      "location": {
+        "abc_byte_offset": 1195913,
+        "code_offset": 8375,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10758,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; DropHolder, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Условия, вычисления и числа сохранены. Отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": ""
+      },
+      "source_sha256": "3360f9d27ffa78df5d34d17e14f4d356f245188288e8046891f59f52bf457e2f"
     },
     {
       "category": "actionscript",
@@ -48662,9 +50311,188 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": {
+          "source_parts": [
+            "Бой: особые объекты; Corrupted",
+            {
+              "id": "abc.4175.220.461",
+              "source_sha256": "066ffe4ac557b987814e380132b3030adc2cbeeff5a4a5c667959c9422a6e730"
+            },
+            "Shard, метод 630."
+          ]
+        },
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Условия, вычисления и числа сохранены. Отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Осквернённый осколок маны"
       },
       "source_sha256": "39b581a8acce5e73d16efbac42de07a6b3d68966bb29500ed6a021a6b7ae4a8a"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.8517",
+      "location": {
+        "abc_byte_offset": 1196055,
+        "code_offset": 8517,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10760,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": {
+          "source_parts": [
+            "Бой: особые объекты; Corrupted",
+            {
+              "id": "abc.4175.220.461",
+              "source_sha256": "066ffe4ac557b987814e380132b3030adc2cbeeff5a4a5c667959c9422a6e730"
+            },
+            "Shard, метод 630."
+          ]
+        },
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Условия, вычисления и числа сохранены. Отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Никогда не истощается"
+      },
+      "source_sha256": "9549736ee17cff3b9c5ea73025d08659985af778212f1d0581579928a7752053"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.8531",
+      "location": {
+        "abc_byte_offset": 1196069,
+        "code_offset": 8531,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10761,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": {
+          "source_parts": [
+            "Бой: особые объекты; Corrupted",
+            {
+              "id": "abc.4175.220.461",
+              "source_sha256": "066ffe4ac557b987814e380132b3030adc2cbeeff5a4a5c667959c9422a6e730"
+            },
+            "Shard, метод 630."
+          ]
+        },
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Условия, вычисления и числа сохранены. Отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Ослабляет стреляющие самоцветы"
+      },
+      "source_sha256": "ce11c3de72f5c8be2261b69e88456f9a07047531a33c986676255e15b4b44c02"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.8576",
+      "location": {
+        "abc_byte_offset": 1196114,
+        "code_offset": 8576,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10460,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": {
+          "source_parts": [
+            "Бой: особые объекты; Corrupted",
+            {
+              "id": "abc.4175.220.461",
+              "source_sha256": "066ffe4ac557b987814e380132b3030adc2cbeeff5a4a5c667959c9422a6e730"
+            },
+            "Shard, метод 630."
+          ]
+        },
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Условия, вычисления и числа сохранены. Отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Талисман: +"
+      },
+      "source_sha256": "49a728e6890a4304974908e1ea6a5420bbfb16ef80f12d9762245eabd311bb83"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.8609",
+      "location": {
+        "abc_byte_offset": 1196147,
+        "code_offset": 8609,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10749,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": {
+          "source_parts": [
+            "Бой: особые объекты; Corrupted",
+            {
+              "id": "abc.4175.220.461",
+              "source_sha256": "066ffe4ac557b987814e380132b3030adc2cbeeff5a4a5c667959c9422a6e730"
+            },
+            "Shard, метод 630."
+          ]
+        },
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Условия, вычисления и числа сохранены. Отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "% скорости добычи"
+      },
+      "source_sha256": "1f929eacace8c515298434154c78d64232f04acca380afb8aaa93a1f5ef7f524"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.8651",
+      "location": {
+        "abc_byte_offset": 1196189,
+        "code_offset": 8651,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10762,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": {
+          "source_parts": [
+            "Бой: особые объекты; Corrupted",
+            {
+              "id": "abc.4175.220.461",
+              "source_sha256": "066ffe4ac557b987814e380132b3030adc2cbeeff5a4a5c667959c9422a6e730"
+            },
+            "Shard, метод 630."
+          ]
+        },
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Условия, вычисления и числа сохранены. Отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Стреляйте самоцветами из башен для добычи маны\n(приоритет цели — «Строение»)"
+      },
+      "source_sha256": "415c5cb5d6139fcd3c971979dee07e48a8cb47f986c21855a4bb7830cf90b5fa"
     },
     {
       "category": "actionscript",
@@ -48681,7 +50509,12 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; PossessionObelisk, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Условия, вычисления и числа сохранены. Отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Обелиск одержимости"
       },
       "source_sha256": "7950fc45856149fcd1d344da2b93fe6484dd5bce678202296395affd25da57f2"
     },
@@ -48700,7 +50533,12 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; PossessionObelisk, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Условия, вычисления и числа сохранены. Отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Случайным образом усиливает монстров и наделяет их эффектами"
       },
       "source_sha256": "4c1f04fa053962ded566def9402a16fa66e2027bda66af5fc098cf5a00abb399"
     },
@@ -48719,7 +50557,12 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; SleepingHive, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Условия, вычисления и числа сохранены. Отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Спящий улей"
       },
       "source_sha256": "d522937707ae4c32c60ce8b3d01b9efe55b0cc1042a574c5d9aed66750acb057"
     },
@@ -48738,9 +50581,38 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; SleepingHive, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Условия, вычисления и числа сохранены. Отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Выпускает отродий, если его потревожить"
       },
       "source_sha256": "84ec9387aea0354d2700a0d76ea102cf32919dadaa5d28b47c38d5ee02876d3b"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.8920",
+      "location": {
+        "abc_byte_offset": 1196458,
+        "code_offset": 8920,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10767,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; SleepingHive, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Условия, вычисления и числа сохранены. Отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Бросайте самоцветы-бомбы или стреляйте самоцветами из башен, чтобы потревожить\n(приоритет цели — «Строение»)"
+      },
+      "source_sha256": "44bd34a73fce28e100da14e472df8790583d92b62444dc29214bf34a53d0e1f0"
     },
     {
       "category": "actionscript",
@@ -48757,7 +50629,12 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; ScytheGate, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Условия, вычисления и числа сохранены. Отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Врата Косы"
       },
       "source_sha256": "9da5662d884dfc3d1b99db15abfce1f9e151b7e443ab2d835b0d634f029f25e5"
     },
@@ -48776,7 +50653,12 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; ScytheGate, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Условия, вычисления и числа сохранены. Отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Случайным образом изгоняют проходящих монстров"
       },
       "source_sha256": "3f62c8f0f76b9eae1df8a254a23fc7b356b2508a1a53300107bba241ec2343d5"
     },
@@ -48795,9 +50677,86 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; Dwelling, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Условия, вычисления и числа сохранены. Отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Заброшенное жилище"
       },
       "source_sha256": "6c0546017812b536fcd5dee1b998ddf34edf3b0e57276415aab4b1c66c3ccb4f"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.9199",
+      "location": {
+        "abc_byte_offset": 1196737,
+        "code_offset": 9199,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10772,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; Dwelling, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Условия, вычисления и числа сохранены. Отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Для уничтожения бросьте самоцвет-бомбу уровня "
+      },
+      "source_sha256": "da8dea74b7a24af384f503bb89f762aa1f37037b8c0e8564ffa1d61c4c6eed4d"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.9211",
+      "location": {
+        "abc_byte_offset": 1196749,
+        "code_offset": 9211,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10773,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; Dwelling, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Условия, вычисления и числа сохранены. Отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": ""
+      },
+      "source_sha256": "653933e3a63a24ae45cc62eb38cf6256d5a2f43af133ec0c5d68b9fe0dfa03d5"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.9358",
+      "location": {
+        "abc_byte_offset": 1196896,
+        "code_offset": 9358,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10774,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; Beacon, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Условия, вычисления и числа сохранены. Отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Лечащий маяк"
+      },
+      "source_sha256": "140e3f37131860e3fd6c79b7149695ea40e64134d580e8e852f4cda9f123840a"
     },
     {
       "category": "actionscript",
@@ -48814,9 +50773,38 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; Beacon, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Условия, вычисления и числа сохранены. Отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Каждый импульс восстанавливает всем монстрам поблизости 5% максимального здоровья"
       },
       "source_sha256": "edeed2f8a5faf8a8d745ec054f15b104cf5633474ffbe3aa72be78641e0e6807"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.9421",
+      "location": {
+        "abc_byte_offset": 1196959,
+        "code_offset": 9421,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10776,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; Beacon, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Условия, вычисления и числа сохранены. Отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Щитовой маяк"
+      },
+      "source_sha256": "bbcdb400b57d2e939932628393777937e682ca7260425ff7303e72b414c37e20"
     },
     {
       "category": "actionscript",
@@ -48833,9 +50821,38 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; Beacon, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Условия, вычисления и числа сохранены. Отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Каждый импульс даёт всем монстрам поблизости\n1 дополнительный слой щита"
       },
       "source_sha256": "52448b315fb27ec99b31651c6b154c77f8f7fb8e3b9df24ef6872235016e4bd0"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.9484",
+      "location": {
+        "abc_byte_offset": 1197022,
+        "code_offset": 9484,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10778,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; Beacon, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Условия, вычисления и числа сохранены. Отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Статический маяк"
+      },
+      "source_sha256": "597e992d6a01ebe28f0b980c6faaf23837b599a9849b32982fb32bc6fb481e58"
     },
     {
       "category": "actionscript",
@@ -48852,9 +50869,38 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; Beacon, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Условия, вычисления и числа сохранены. Отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Запрещает строительство в области 8x8 клеток вокруг себя"
       },
       "source_sha256": "e4ca7afc35b26c297c965b5bd9c50cd6dd85ad105d98aa8bda40daea7227b272"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.9564",
+      "location": {
+        "abc_byte_offset": 1197102,
+        "code_offset": 9564,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10780,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; Beacon, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Условия, вычисления и числа сохранены. Отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Разряжающий маяк"
+      },
+      "source_sha256": "531a73cdfdc3ba6ae7f20e0a4e216e4eacc0a980799fdcfca5e0f900bd4c8aef"
     },
     {
       "category": "actionscript",
@@ -48871,9 +50917,38 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; Beacon, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Условия, вычисления и числа сохранены. Отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Импульсы вынуждают заново вставлять самоцветы поблизости"
       },
       "source_sha256": "41af10c40adf6152950800d3704a9a536c757277a3f2d27bfe48e9f51b5de404"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.9627",
+      "location": {
+        "abc_byte_offset": 1197165,
+        "code_offset": 9627,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10782,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; Beacon, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Условия, вычисления и числа сохранены. Отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Очищающий маяк"
+      },
+      "source_sha256": "71d996ca73fc2d21edcea6b972fb5cf96a54efc1a5d0bd7ae721e648b2493998"
     },
     {
       "category": "actionscript",
@@ -48890,9 +50965,38 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; Beacon, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Условия, вычисления и числа сохранены. Отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Снимает все отрицательные эффекты с монстров поблизости"
       },
       "source_sha256": "38b22809f8578f91c77c1d69897e282b1812d2893dac6323f4bf88a884afb3d3"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.9690",
+      "location": {
+        "abc_byte_offset": 1197228,
+        "code_offset": 9690,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10784,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; Beacon, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Условия, вычисления и числа сохранены. Отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Ускоряющий маяк"
+      },
+      "source_sha256": "2603c773ac892dca53913808bef5438ad71c96509dae4545da18d4f4d48c9ce2"
     },
     {
       "category": "actionscript",
@@ -48909,9 +51013,38 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; Beacon, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Условия, вычисления и числа сохранены. Отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Каждый импульс даёт всем монстрам поблизости прибавку к скорости до 10%"
       },
       "source_sha256": "d53b41459ef7d90f6cbaaa37ce5209215eb32c4a3963a76b3108df9908e733e7"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.630.9753",
+      "location": {
+        "abc_byte_offset": 1197291,
+        "code_offset": 9753,
+        "method_index": 630,
+        "sprite_path": [],
+        "string_pool_index": 10786,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; Beacon, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Условия, вычисления и числа сохранены. Отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Защитник маяков"
+      },
+      "source_sha256": "504ced243ecd5f03bf75a11f24835e3ab8ed09713b401c93ac40c5f3c8d51636"
     },
     {
       "category": "actionscript",
@@ -48928,7 +51061,12 @@
         ]
       },
       "manual": {
-        "context": "pushstring; display destination is not statically established"
+        "classification": "confirmed",
+        "context": "Бой: особые объекты; Beacon, метод 630.",
+        "context_confidence": "confirmed",
+        "notes": "Потребитель и динамические склейки проверены по оригинальному ABC. Условия, вычисления и числа сохранены. Отображение в AIR не проверено.",
+        "status": "draft",
+        "translation": "Снижает любой урон соседним маякам на 75%"
       },
       "source_sha256": "52fdde9b17f0055a01ab36c0247d171ec047633029e905bca9f469030ec9bfbe"
     },
