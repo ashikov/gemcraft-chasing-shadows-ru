@@ -221,3 +221,49 @@ def test_retains_separate_identical_literals_while_all_indices_fit():
     result = patch_pushstrings(raw, records)
     assert inventory(result).strings == ['', 'Synthetic text', 'Синтетика', 'Синтетика']
     assert inventory(result).bodies[0][2] == b'\x2c\2\x29\x2c\3\x29\x47'
+
+
+def test_preserves_unreachable_off_body_jump_after_return():
+    code = b'\x2c\1\x29\x47\x10\0\0\0'
+    raw = abc(['Synthetic text'], [code])
+    result = patch_pushstrings(raw, [replacement(raw)])
+    before, after = inventory(raw), inventory(result)
+    assert after.bodies[0][2] == b'\x2c\2\x29\x47\x10\0\0\0'
+    assert after.control_flow_anomalies == before.control_flow_anomalies == [
+        {'method_index': 0, 'target_offset': len(code)}]
+
+
+@pytest.mark.parametrize('code,exceptions', [
+    # A conditional edge makes the otherwise trailing invalid jump reachable.
+    (b'\x2c\1\x29\x26\x11\1\0\0\x47\x10\0\0\0', b'\0'),
+    # All handlers are conservatively treated as roots, even after return.
+    (b'\x2c\1\x29\x47\x10\0\0\0', b'\1\0\3\4\0\0'),
+    # A reachable switch arm cannot leave the body.
+    (b'\x2c\1\x29\x24\0\x1b\x08\0\0\0\x08\0\0', b'\0'),
+])
+def test_rejects_invalid_branches_reachable_from_any_control_flow_root(code, exceptions):
+    raw = abc(['Synthetic text'], [code], exceptions=exceptions)
+    with pytest.raises(ValueError, match='control flow'):
+        patch_pushstrings(raw, [replacement(raw)])
+
+
+@pytest.mark.parametrize('terminal', [b'\x47', b'\x48', b'\x03'])
+def test_terminal_operations_make_only_the_following_tail_unreachable(terminal):
+    code = b'\x2c\1' + (b'\x29' if terminal == b'\x47' else b'') + terminal + b'\x10\0\0\0'
+    raw = abc(['Synthetic text'], [code])
+    result = patch_pushstrings(raw, [replacement(raw)])
+    assert inventory(result).bodies[0][2][-4:] == b'\x10\0\0\0'
+
+
+def test_reachability_terminates_on_a_backward_cycle_without_entering_dead_tail():
+    code = b'\x2c\1\x29\x10\xfc\xff\xff\x10\0\0\0'
+    raw = abc(['Synthetic text'], [code])
+    result = patch_pushstrings(raw, [replacement(raw)])
+    assert inventory(result).bodies[0][2] == b'\x2c\2' + code[2:]
+
+
+def test_switch_case_reaches_a_malformed_tail_even_when_default_returns():
+    code = b'\x2c\1\x29\x24\0\x1b\x08\0\0\0\x09\0\0\x47\x10\0\0\0'
+    raw = abc(['Synthetic text'], [code])
+    with pytest.raises(ValueError, match='control flow'):
+        patch_pushstrings(raw, [replacement(raw)])

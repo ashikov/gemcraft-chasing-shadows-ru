@@ -1,0 +1,204 @@
+{
+  "abc_font_bindings": [
+    {
+      "expected_opcode": 98,
+      "expected_operands": [
+        6
+      ],
+      "extra_stack": 4,
+      "instruction_index": 64,
+      "kind": "bitmap_cyrillic",
+      "method_index": 1732,
+      "receiver_guards": [
+        {
+          "instruction_index": 36,
+          "opcode": 96,
+          "operands": [
+            5228
+          ]
+        },
+        {
+          "instruction_index": 37,
+          "opcode": 38,
+          "operands": []
+        },
+        {
+          "instruction_index": 38,
+          "opcode": 97,
+          "operands": [
+            5569
+          ]
+        },
+        {
+          "instruction_index": 62,
+          "opcode": 93,
+          "operands": [
+            839
+          ]
+        },
+        {
+          "instruction_index": 63,
+          "opcode": 44,
+          "operands": [
+            10038
+          ]
+        },
+        {
+          "instruction_index": 64,
+          "opcode": 98,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "instruction_index": 67,
+          "opcode": 74,
+          "operands": [
+            839,
+            2
+          ]
+        },
+        {
+          "instruction_index": 69,
+          "opcode": 99,
+          "operands": [
+            15
+          ]
+        },
+        {
+          "instruction_index": 73,
+          "opcode": 97,
+          "operands": [
+            5568
+          ]
+        },
+        {
+          "instruction_index": 77,
+          "opcode": 97,
+          "operands": [
+            5573
+          ]
+        },
+        {
+          "instruction_index": 81,
+          "opcode": 97,
+          "operands": [
+            5329
+          ]
+        },
+        {
+          "instruction_index": 89,
+          "opcode": 102,
+          "operands": [
+            5359
+          ]
+        },
+        {
+          "instruction_index": 93,
+          "opcode": 102,
+          "operands": [
+            5360
+          ]
+        },
+        {
+          "instruction_index": 98,
+          "opcode": 74,
+          "operands": [
+            16,
+            4
+          ]
+        },
+        {
+          "instruction_index": 111,
+          "opcode": 79,
+          "operands": [
+            3032,
+            2
+          ]
+        }
+      ],
+      "receiver_hex": "6204",
+      "tag_path": [
+        4175
+      ]
+    }
+  ],
+  "coverage_blockers": [],
+  "empty_abc_strings": [
+    "abc.4175.597.522",
+    "abc.4175.597.816"
+  ],
+  "entry_ids": [
+    "abc.4175.597.431",
+    "abc.4175.597.498",
+    "abc.4175.597.503",
+    "abc.4175.597.527",
+    "abc.4175.597.725",
+    "abc.4175.597.792",
+    "abc.4175.597.797",
+    "abc.4175.597.821",
+    "abc.4175.713.237"
+  ],
+  "fonts": [
+    255
+  ],
+  "game_sha256": "c8eadc03a7e607086998695f7696ec22dd90d7b7859e3d10cdfabf40fc7bbad5",
+  "layouts": {
+    "abc.4175.597.431": {
+      "font_id": 255,
+      "height": 1280,
+      "max_width": 41600,
+      "wrap": false
+    },
+    "abc.4175.597.498": {
+      "font_id": 255,
+      "height": 1280,
+      "max_width": 41600,
+      "wrap": false
+    },
+    "abc.4175.597.503": {
+      "font_id": 255,
+      "height": 1280,
+      "max_width": 41600,
+      "wrap": false
+    },
+    "abc.4175.597.527": {
+      "font_id": 255,
+      "height": 1280,
+      "max_width": 41600,
+      "wrap": false
+    },
+    "abc.4175.597.725": {
+      "font_id": 255,
+      "height": 1280,
+      "max_width": 41600,
+      "wrap": false
+    },
+    "abc.4175.597.792": {
+      "font_id": 255,
+      "height": 1280,
+      "max_width": 41600,
+      "wrap": false
+    },
+    "abc.4175.597.797": {
+      "font_id": 255,
+      "height": 1280,
+      "max_width": 41600,
+      "wrap": false
+    },
+    "abc.4175.597.821": {
+      "font_id": 255,
+      "height": 1280,
+      "max_width": 41600,
+      "wrap": false
+    },
+    "abc.4175.713.237": {
+      "font_id": 255,
+      "height": 480,
+      "max_width": 41600,
+      "wrap": false
+    }
+  },
+  "schema_version": 1,
+  "unconfirmed": []
+}

@@ -4,6 +4,9 @@ import copy
 from abc_font_binding import patch_abc_font_bindings
 from abc_inventory import ABCInventory
 from abc_patch import _u30
+from bitmap_font_binding import (
+    bitmap_font_selector, bitmap_selector_pool_indices, validate_bitmap_font_site,
+)
 
 
 def _path(value):
@@ -192,8 +195,10 @@ def resolve_plan_font_bindings(original, translated, sites):
                 raise ValueError('Unexpected original ABC receiver instruction')
         kind = site.get('kind')
         if kind not in ('field', 'tooltip', 'panel_format_before', 'panel_format_after',
-                        'floater', 'floater_fields'):
+                        'floater', 'floater_fields', 'bitmap_cyrillic'):
             raise ValueError('Unsupported font binding kind')
+        if kind == 'bitmap_cyrillic':
+            validate_bitmap_font_site(before, after, old_ops, new_ops, site)
         original_family_index = None
         if kind.startswith('panel_format_'):
             original_family_index = _index(site.get('original_font_string_index'))
@@ -278,7 +283,11 @@ def resolve_plan_font_bindings(original, translated, sites):
     def snippets(family_index, font_index):
         # Imported only when snippets are materialized, avoiding a builder cycle.
         from alegreya_localization import field_binding
+        bitmap_indices = (bitmap_selector_pool_indices(translated)
+                          if any(site['kind'] == 'bitmap_cyrillic' for site in sites) else None)
         def binding(receivers, kind, original_family_index, panel_receiver):
+            if kind == 'bitmap_cyrillic':
+                return bitmap_font_selector(family_index, **bitmap_indices)
             if kind.startswith('panel_format_'):
                 family = family_index if kind == 'panel_format_before' else original_family_index
                 return b''.join(receiver + b'\x2c' + _u30(family) + b'\x61' + _u30(font_index)
@@ -325,4 +334,7 @@ def apply_plan_font_bindings(original, translated, sites, family='GCCS Alegreya'
     snippets, increments, counts = resolve_plan_font_bindings(original, translated, sites)
     if not sites:
         return bytes(translated), counts
-    return patch_abc_font_bindings(translated, snippets, family=family, extra_stack=increments), counts
+    return patch_abc_font_bindings(
+        translated, snippets, family=family, extra_stack=increments,
+        bitmap_selector=any(site['kind'] == 'bitmap_cyrillic' for site in sites),
+    ), counts
