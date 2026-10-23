@@ -34380,7 +34380,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": "Урон: "
@@ -34403,7 +34412,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": " выстр./с"
@@ -34426,7 +34444,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": "Урон: "
@@ -34449,7 +34476,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": "Дальность: "
@@ -34472,7 +34508,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": " выстр./с"
@@ -34495,7 +34540,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": "Урон: "
@@ -34518,7 +34572,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": "Дальность: "
@@ -34541,7 +34604,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": " выстр./с"
@@ -34564,7 +34636,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": " урона ядом за 9 с"
@@ -34587,7 +34668,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": "Подавляет лечение на "
@@ -34610,7 +34700,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": " здоровья/мин"
@@ -34633,7 +34732,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": "% шанс нанести x"
@@ -34656,7 +34764,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": " урона"
@@ -34679,7 +34796,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": "Замедляет цель на "
@@ -34702,7 +34828,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": "% на "
@@ -34725,7 +34860,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": " с"
@@ -34748,7 +34892,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": " — длина цепного удара"
@@ -34771,7 +34924,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": "Поглощает "
@@ -34794,7 +34956,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": " маны за попадание"
@@ -34817,7 +34988,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": "Снижает броню на "
@@ -34840,7 +35020,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": " за попадание"
@@ -34863,7 +35052,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": "Самоцвет "
@@ -34886,7 +35084,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": "Кровная связь: x"
@@ -34909,7 +35116,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": " к урону и эффектам"
@@ -34932,7 +35148,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": " за уровень попаданий)"
@@ -34955,7 +35180,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": "(следующий уровень при числе попаданий: "
@@ -34978,7 +35212,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": ")"
@@ -35001,7 +35244,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": "-го уровня"
@@ -35024,7 +35276,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": "Связь с бассейном: x"
@@ -35047,7 +35308,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": " к урону и эффектам"
@@ -35070,7 +35340,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": " за уровень бассейна маны)"
@@ -35093,7 +35372,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": "оранжевый"
@@ -35116,7 +35404,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": "Самоцвет-бомба:"
@@ -35139,7 +35436,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": "жёлтый"
@@ -35162,7 +35468,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": "белый"
@@ -35185,7 +35500,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": "Распределяет "
@@ -35208,7 +35532,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "notes": "Подтверждённая подпись цвета в локальном массиве; одноимённые технические pool-символы не меняются.",
         "status": "draft",
@@ -35232,7 +35565,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "notes": "Подтверждённая подпись цвета в локальном массиве; одноимённые технические pool-символы не меняются.",
         "status": "draft",
@@ -35256,7 +35598,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": " урона поровну между целями"
@@ -35279,7 +35630,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": "голубой"
@@ -35302,7 +35662,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": "\nРадиус взрыва: "
@@ -35325,7 +35694,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": " кл."
@@ -35348,7 +35726,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": "чёрный"
@@ -35371,7 +35758,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "notes": "Подтверждённая подпись цвета в локальном массиве; одноимённые технические pool-символы не меняются.",
         "status": "draft",
@@ -35395,7 +35791,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": "Наносит "
@@ -35418,7 +35823,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": "фиолетовый"
@@ -35441,7 +35855,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": " урона строениям при прямом попадании"
@@ -35464,7 +35887,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": "Выпускает 2 самоцветных ос"
@@ -35487,7 +35919,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": "% шанс выпустить 3 осы)"
@@ -35510,7 +35951,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": "Осы исчезают при достижении лимита: время — "
@@ -35533,7 +35983,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": " с или жалящие удары — "
@@ -35556,7 +36015,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": "\n\nУрон и эффекты жала: "
@@ -35579,7 +36047,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": "x от самоцвета по любой цели без щита\nКаждый 2-й удар каждой осы оглушает цель"
@@ -35602,7 +36079,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": "% к скорости атак ос"
@@ -35625,7 +36111,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": "Модификаторы чистого самоцвета:\n"
@@ -35648,7 +36143,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": "% урона\n"
@@ -35671,7 +36175,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": "% силы эффектов\n"
@@ -35694,7 +36207,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": "Чистый: "
@@ -35717,7 +36239,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": "Модификаторы двойного самоцвета:\n"
@@ -35740,7 +36271,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": "Модификаторы тройного самоцвета:\n"
@@ -35763,7 +36303,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": "Модификаторы четверного самоцвета:\n"
@@ -35786,7 +36335,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": "% урона\n"
@@ -35809,7 +36367,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": "% силы эффектов\n"
@@ -35832,7 +36399,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": " компонентов: "
@@ -35855,7 +36431,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": "% силы эффектов"
@@ -35878,7 +36463,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": "Бонусы от усилителей:"
@@ -35901,7 +36495,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": " к минимальному урону"
@@ -35924,7 +36527,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": "Двойной: "
@@ -35947,7 +36559,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": " к минимальному урону"
@@ -35970,7 +36591,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": " к максимальному урону"
@@ -35993,7 +36623,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": " к максимальному урону"
@@ -36016,7 +36655,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": " / "
@@ -36039,7 +36687,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": " к дальности"
@@ -36062,7 +36719,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": " выстр./с"
@@ -36085,7 +36751,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": " к длине цепного удара"
@@ -36108,7 +36783,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": " к множителю критического урона"
@@ -36131,7 +36815,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": " к разрушению брони"
@@ -36154,7 +36847,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": " урона ядом за 9 с"
@@ -36177,7 +36879,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": " маны за попадание"
@@ -36200,7 +36911,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": "% к замедлению"
@@ -36223,7 +36943,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": " к множителю кровной связи"
@@ -36246,7 +36975,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": " / "
@@ -36269,7 +37007,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": " здоровья/мин к подавлению лечения"
@@ -36292,7 +37039,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": " к множителю связи с бассейном"
@@ -36315,7 +37071,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": "Усиление: "
@@ -36338,7 +37103,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": "Магическая стрела в ловушке"
@@ -36361,7 +37135,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": "Луч в ловушке"
@@ -36384,7 +37167,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": "Шквал в ловушке"
@@ -36407,7 +37199,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": " / "
@@ -36430,7 +37231,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": "+30% к скорости перезарядки"
@@ -36453,7 +37263,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": "Игнорирует броню"
@@ -36476,7 +37295,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": "+30% к силе эффектов"
@@ -36499,7 +37327,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": "Усиление: "
@@ -36522,7 +37359,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": "Магическая стрела"
@@ -36545,7 +37391,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": "Луч"
@@ -36568,7 +37423,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": "Шквал"
@@ -36591,7 +37455,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": " с осталось"
@@ -36614,7 +37487,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": "Остался 1 выстрел"
@@ -36637,7 +37519,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "notes": "Сокращение единицы сохраняет грамматику для всех чисел без изменения числовой логики.",
         "status": "draft",
@@ -36661,7 +37552,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": "Попаданий: "
@@ -36684,7 +37584,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": ", убийств: "
@@ -36707,7 +37616,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": "Цель: "
@@ -36730,7 +37648,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "notes": "Сокращение единицы сохраняет грамматику для всех чисел без изменения числовой логики.",
         "status": "draft",
@@ -36754,7 +37681,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": "Стоимость в мане: "
@@ -36777,7 +37713,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": "Цена улучшения: "
@@ -36800,7 +37745,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": "В ловушке: "
@@ -36823,7 +37777,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": "% к урону, +"
@@ -36846,7 +37809,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": "% к несвязанным эффектам,\n"
@@ -36869,7 +37841,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": "% к скорости стрельбы"
@@ -36892,7 +37873,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": "В усилителе: не стреляет"
@@ -36915,7 +37905,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": "Усиливает соседние самоцветы: "
@@ -36938,7 +37937,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": "% урона, "
@@ -36961,7 +37969,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": "% несвязанных эффектов, "
@@ -36984,7 +38001,16 @@
       },
       "manual": {
         "classification": "confirmed",
-        "context": "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanelGem m548",
+        "context": {
+          "source_parts": [
+            "Основной боевой HUD: McInfoPanel; подробная панель самоцвета, renderInfoPanel",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            " m548"
+          ]
+        },
         "context_confidence": "confirmed",
         "status": "draft",
         "translation": "% дальности и скорости стрельбы"
@@ -42194,6 +43220,438 @@
         "translation": "..."
       },
       "source_sha256": "0b6576b09fcbb0bb558744475e0837c2a609e83aa72cc3f78459a1f778a35a47"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.623.1074",
+      "location": {
+        "abc_byte_offset": 1185193,
+        "code_offset": 1074,
+        "method_index": 623,
+        "sprite_path": [],
+        "string_pool_index": 10707,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: подбор добычи, адресный bitmap-путь m623 → m352 → m1732. Полная фраза подтверждена по исходным ветвям.",
+        "context_confidence": "confirmed",
+        "notes": "PR31: 14 вызовов добычи и обоих типов свитков. Счётчики: нейтральная подпись, + и число; исходные числовые значения и форматирование сохранены, английские суффиксы пусты. Две ветви самоцвета различаются наличием места в инвентаре. Служебные ключи и параметры не меняются. AIR не проверен.",
+        "status": "draft",
+        "translation": "Самоцвет Вечности"
+      },
+      "source_sha256": "218a73049340b4cb100003b933e4be1606817e3f9e6e206da49788f855289917"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.623.1125",
+      "location": {
+        "abc_byte_offset": 1185244,
+        "code_offset": 1125,
+        "method_index": 623,
+        "sprite_path": [],
+        "string_pool_index": 10708,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: подбор добычи, адресный bitmap-путь m623 → m352 → m1732. Полная фраза подтверждена по исходным ветвям.",
+        "context_confidence": "confirmed",
+        "notes": "PR31: 14 вызовов добычи и обоих типов свитков. Счётчики: нейтральная подпись, + и число; исходные числовые значения и форматирование сохранены, английские суффиксы пусты. Две ветви самоцвета различаются наличием места в инвентаре. Служебные ключи и параметры не меняются. AIR не проверен.",
+        "status": "draft",
+        "translation": "Фолиант навыка"
+      },
+      "source_sha256": "8e67bf85b04dd81ab9b023e227233a929e6ebc9d72fba0e3858817bee7d00eef"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.623.1208",
+      "location": {
+        "abc_byte_offset": 1185327,
+        "code_offset": 1208,
+        "method_index": 623,
+        "sprite_path": [],
+        "string_pool_index": 10709,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: подбор добычи, адресный bitmap-путь m623 → m352 → m1732. Полная фраза подтверждена по исходным ветвям.",
+        "context_confidence": "confirmed",
+        "notes": "PR31: 14 вызовов добычи и обоих типов свитков. Счётчики: нейтральная подпись, + и число; исходные числовые значения и форматирование сохранены, английские суффиксы пусты. Две ветви самоцвета различаются наличием места в инвентаре. Служебные ключи и параметры не меняются. AIR не проверен.",
+        "status": "draft",
+        "translation": "Железная малая сфера"
+      },
+      "source_sha256": "18ddde51209042c50105c95bee1ab4d61a28f1f458ccafcca17eb8976af3c7a9"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.623.1291",
+      "location": {
+        "abc_byte_offset": 1185410,
+        "code_offset": 1291,
+        "method_index": 623,
+        "sprite_path": [],
+        "string_pool_index": 10710,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: подбор добычи, адресный bitmap-путь m623 → m352 → m1732. Полная фраза подтверждена по исходным ветвям.",
+        "context_confidence": "confirmed",
+        "notes": "PR31: 14 вызовов добычи и обоих типов свитков. Счётчики: нейтральная подпись, + и число; исходные числовые значения и форматирование сохранены, английские суффиксы пусты. Две ветви самоцвета различаются наличием места в инвентаре. Служебные ключи и параметры не меняются. AIR не проверен.",
+        "status": "draft",
+        "translation": "Свиток боевой черты"
+      },
+      "source_sha256": "beb0df5b28cad682731d9f58ebc6c9441cc0989a5d55a00c35cae9580037d5c8"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.623.1374",
+      "location": {
+        "abc_byte_offset": 1185493,
+        "code_offset": 1374,
+        "method_index": 623,
+        "sprite_path": [],
+        "string_pool_index": 10711,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: подбор добычи, адресный bitmap-путь m623 → m352 → m1732. Полная фраза подтверждена по исходным ветвям.",
+        "context_confidence": "confirmed",
+        "notes": "PR31: 14 вызовов добычи и обоих типов свитков. Счётчики: нейтральная подпись, + и число; исходные числовые значения и форматирование сохранены, английские суффиксы пусты. Две ветви самоцвета различаются наличием места в инвентаре. Служебные ключи и параметры не меняются. AIR не проверен.",
+        "status": "draft",
+        "translation": "Свиток сложности боя"
+      },
+      "source_sha256": "e2181ea8252aef05c2e73c356f614399a914eae81eed6746b4e76b7067c0cceb"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.623.1457",
+      "location": {
+        "abc_byte_offset": 1185576,
+        "code_offset": 1457,
+        "method_index": 623,
+        "sprite_path": [],
+        "string_pool_index": 10712,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: подбор добычи, адресный bitmap-путь m623 → m352 → m1732. Полная фраза подтверждена по исходным ветвям.",
+        "context_confidence": "confirmed",
+        "notes": "PR31: 14 вызовов добычи и обоих типов свитков. Счётчики: нейтральная подпись, + и число; исходные числовые значения и форматирование сохранены, английские суффиксы пусты. Две ветви самоцвета различаются наличием места в инвентаре. Служебные ключи и параметры не меняются. AIR не проверен.",
+        "status": "draft",
+        "translation": "Страница журнала"
+      },
+      "source_sha256": "2ec828c2b88b64cb5777119ab826e542a4e37ae80d412b96d0ef962c02bc6169"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.623.204",
+      "location": {
+        "abc_byte_offset": 1184323,
+        "code_offset": 204,
+        "method_index": 623,
+        "sprite_path": [],
+        "string_pool_index": 8559,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: подбор добычи, адресный bitmap-путь m623 → m352 → m1732. Полная фраза подтверждена по исходным ветвям.",
+        "context_confidence": "confirmed",
+        "notes": "PR31: 14 вызовов добычи и обоих типов свитков. Счётчики: нейтральная подпись, + и число; исходные числовые значения и форматирование сохранены, английские суффиксы пусты. Две ветви самоцвета различаются наличием места в инвентаре. Служебные ключи и параметры не меняются. AIR не проверен.",
+        "status": "draft",
+        "translation": "Опыт: +"
+      },
+      "source_sha256": "a318c24216defe206feeb73ef5be00033fa9c4a74d0b967f6532a26ca5906d3b"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.623.216",
+      "location": {
+        "abc_byte_offset": 1184335,
+        "code_offset": 216,
+        "method_index": 623,
+        "sprite_path": [],
+        "string_pool_index": 9581,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: подбор добычи, адресный bitmap-путь m623 → m352 → m1732. Полная фраза подтверждена по исходным ветвям.",
+        "context_confidence": "confirmed",
+        "notes": "PR31: 14 вызовов добычи и обоих типов свитков. Счётчики: нейтральная подпись, + и число; исходные числовые значения и форматирование сохранены, английские суффиксы пусты. Две ветви самоцвета различаются наличием места в инвентаре. Служебные ключи и параметры не меняются. AIR не проверен.",
+        "status": "draft",
+        "translation": ""
+      },
+      "source_sha256": "42e2aa5470e71f56e5a5ffb544e72ff8366b96651dbdfab9559883f0dfbeb7eb"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.623.336",
+      "location": {
+        "abc_byte_offset": 1184455,
+        "code_offset": 336,
+        "method_index": 623,
+        "sprite_path": [],
+        "string_pool_index": 8559,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: подбор добычи, адресный bitmap-путь m623 → m352 → m1732. Полная фраза подтверждена по исходным ветвям.",
+        "context_confidence": "confirmed",
+        "notes": "PR31: 14 вызовов добычи и обоих типов свитков. Счётчики: нейтральная подпись, + и число; исходные числовые значения и форматирование сохранены, английские суффиксы пусты. Две ветви самоцвета различаются наличием места в инвентаре. Служебные ключи и параметры не меняются. AIR не проверен.",
+        "status": "draft",
+        "translation": "Мана: +"
+      },
+      "source_sha256": "a318c24216defe206feeb73ef5be00033fa9c4a74d0b967f6532a26ca5906d3b"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.623.349",
+      "location": {
+        "abc_byte_offset": 1184468,
+        "code_offset": 349,
+        "method_index": 623,
+        "sprite_path": [],
+        "string_pool_index": 9580,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: подбор добычи, адресный bitmap-путь m623 → m352 → m1732. Полная фраза подтверждена по исходным ветвям.",
+        "context_confidence": "confirmed",
+        "notes": "PR31: 14 вызовов добычи и обоих типов свитков. Счётчики: нейтральная подпись, + и число; исходные числовые значения и форматирование сохранены, английские суффиксы пусты. Две ветви самоцвета различаются наличием места в инвентаре. Служебные ключи и параметры не меняются. AIR не проверен.",
+        "status": "draft",
+        "translation": ""
+      },
+      "source_sha256": "3543c385bb32e096e539ce17249d0720745f46025a02b582f5c478047f272afa"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.623.438",
+      "location": {
+        "abc_byte_offset": 1184557,
+        "code_offset": 438,
+        "method_index": 623,
+        "sprite_path": [],
+        "string_pool_index": 407,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: подбор добычи, адресный bitmap-путь m623 → m352 → m1732. Полная фраза подтверждена по исходным ветвям.",
+        "context_confidence": "confirmed",
+        "notes": "PR31: 14 вызовов добычи и обоих типов свитков. Счётчики: нейтральная подпись, + и число; исходные числовые значения и форматирование сохранены, английские суффиксы пусты. Две ветви самоцвета различаются наличием места в инвентаре. Служебные ключи и параметры не меняются. AIR не проверен.",
+        "status": "draft",
+        "translation": "Самоцвет"
+      },
+      "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.623.519",
+      "location": {
+        "abc_byte_offset": 1184638,
+        "code_offset": 519,
+        "method_index": 623,
+        "sprite_path": [],
+        "string_pool_index": 407,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: подбор добычи, адресный bitmap-путь m623 → m352 → m1732. Полная фраза подтверждена по исходным ветвям.",
+        "context_confidence": "confirmed",
+        "notes": "PR31: 14 вызовов добычи и обоих типов свитков. Счётчики: нейтральная подпись, + и число; исходные числовые значения и форматирование сохранены, английские суффиксы пусты. Две ветви самоцвета различаются наличием места в инвентаре. Служебные ключи и параметры не меняются. AIR не проверен.",
+        "status": "draft",
+        "translation": "Самоцвет"
+      },
+      "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.623.622",
+      "location": {
+        "abc_byte_offset": 1184741,
+        "code_offset": 622,
+        "method_index": 623,
+        "sprite_path": [],
+        "string_pool_index": 8559,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: подбор добычи, адресный bitmap-путь m623 → m352 → m1732. Полная фраза подтверждена по исходным ветвям.",
+        "context_confidence": "confirmed",
+        "notes": "PR31: 14 вызовов добычи и обоих типов свитков. Счётчики: нейтральная подпись, + и число; исходные числовые значения и форматирование сохранены, английские суффиксы пусты. Две ветви самоцвета различаются наличием места в инвентаре. Служебные ключи и параметры не меняются. AIR не проверен.",
+        "status": "draft",
+        "translation": "Теневые ядра: +"
+      },
+      "source_sha256": "a318c24216defe206feeb73ef5be00033fa9c4a74d0b967f6532a26ca5906d3b"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.623.635",
+      "location": {
+        "abc_byte_offset": 1184754,
+        "code_offset": 635,
+        "method_index": 623,
+        "sprite_path": [],
+        "string_pool_index": 10702,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: подбор добычи, адресный bitmap-путь m623 → m352 → m1732. Полная фраза подтверждена по исходным ветвям.",
+        "context_confidence": "confirmed",
+        "notes": "PR31: 14 вызовов добычи и обоих типов свитков. Счётчики: нейтральная подпись, + и число; исходные числовые значения и форматирование сохранены, английские суффиксы пусты. Две ветви самоцвета различаются наличием места в инвентаре. Служебные ключи и параметры не меняются. AIR не проверен.",
+        "status": "draft",
+        "translation": ""
+      },
+      "source_sha256": "d00997dd49c3fc20a79a9f3a7fc4cbde55e1217bc51374cebfa0c12f5b807893"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.623.648",
+      "location": {
+        "abc_byte_offset": 1184767,
+        "code_offset": 648,
+        "method_index": 623,
+        "sprite_path": [],
+        "string_pool_index": 10703,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: подбор добычи, адресный bitmap-путь m623 → m352 → m1732. Полная фраза подтверждена по исходным ветвям.",
+        "context_confidence": "confirmed",
+        "notes": "PR31: 14 вызовов добычи и обоих типов свитков. Счётчики: нейтральная подпись, + и число; исходные числовые значения и форматирование сохранены, английские суффиксы пусты. Две ветви самоцвета различаются наличием места в инвентаре. Служебные ключи и параметры не меняются. AIR не проверен.",
+        "status": "draft",
+        "translation": ""
+      },
+      "source_sha256": "f664a2d346d8cfef90e3f4819a5c2454f03a68993f28f2bb4773039f6f08762e"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.623.718",
+      "location": {
+        "abc_byte_offset": 1184837,
+        "code_offset": 718,
+        "method_index": 623,
+        "sprite_path": [],
+        "string_pool_index": 10704,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: подбор добычи, адресный bitmap-путь m623 → m352 → m1732. Полная фраза подтверждена по исходным ветвям.",
+        "context_confidence": "confirmed",
+        "notes": "PR31: 14 вызовов добычи и обоих типов свитков. Счётчики: нейтральная подпись, + и число; исходные числовые значения и форматирование сохранены, английские суффиксы пусты. Две ветви самоцвета различаются наличием места в инвентаре. Служебные ключи и параметры не меняются. AIR не проверен.",
+        "status": "draft",
+        "translation": "Фрагмент талисмана"
+      },
+      "source_sha256": "714320b8255325571b5fa9a080d014e4b935ab601053ff48d6c623fbb597d05b"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.623.876",
+      "location": {
+        "abc_byte_offset": 1184995,
+        "code_offset": 876,
+        "method_index": 623,
+        "sprite_path": [],
+        "string_pool_index": 10705,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: подбор добычи, адресный bitmap-путь m623 → m352 → m1732. Полная фраза подтверждена по исходным ветвям.",
+        "context_confidence": "confirmed",
+        "notes": "PR31: 14 вызовов добычи и обоих типов свитков. Счётчики: нейтральная подпись, + и число; исходные числовые значения и форматирование сохранены, английские суффиксы пусты. Две ветви самоцвета различаются наличием места в инвентаре. Служебные ключи и параметры не меняются. AIR не проверен.",
+        "status": "draft",
+        "translation": "Жетон поля"
+      },
+      "source_sha256": "94198fbeccc3bb924131538d9c722b4ef34f7527cc3395230a122d5469260d03"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.623.959",
+      "location": {
+        "abc_byte_offset": 1185078,
+        "code_offset": 959,
+        "method_index": 623,
+        "sprite_path": [],
+        "string_pool_index": 10706,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: подбор добычи, адресный bitmap-путь m623 → m352 → m1732. Полная фраза подтверждена по исходным ветвям.",
+        "context_confidence": "confirmed",
+        "notes": "PR31: 14 вызовов добычи и обоих типов свитков. Счётчики: нейтральная подпись, + и число; исходные числовые значения и форматирование сохранены, английские суффиксы пусты. Две ветви самоцвета различаются наличием места в инвентаре. Служебные ключи и параметры не меняются. AIR не проверен.",
+        "status": "draft",
+        "translation": "Гексагон карты"
+      },
+      "source_sha256": "07f9dd6f508bdb7575d1c3a5d3121c6fd51ceb09411dd4a68daf833cb66ad2ed"
     },
     {
       "category": "actionscript",
@@ -59905,7 +61363,12 @@
         "classification": "confirmed",
         "context": {
           "source_parts": [
-            "Экран итогов боя: всплывающая расшифровка статистики (IngameEnding/renderInfoGem",
+            "Экран итогов боя: всплывающая расшифровка статистики (IngameEnding/renderInfo",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            "",
             {
               "id": "abc.4175.220.926",
               "source_sha256": "74b9841a211ec6eb22689cda7788051b919039d0d39bc4d64016d8f9cab5a130"
@@ -59938,7 +61401,12 @@
         "classification": "confirmed",
         "context": {
           "source_parts": [
-            "Экран итогов боя: всплывающая расшифровка статистики (IngameEnding/renderInfoGem",
+            "Экран итогов боя: всплывающая расшифровка статистики (IngameEnding/renderInfo",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            "",
             {
               "id": "abc.4175.220.926",
               "source_sha256": "74b9841a211ec6eb22689cda7788051b919039d0d39bc4d64016d8f9cab5a130"
@@ -59971,7 +61439,12 @@
         "classification": "confirmed",
         "context": {
           "source_parts": [
-            "Экран итогов боя: всплывающая расшифровка статистики (IngameEnding/renderInfoGem",
+            "Экран итогов боя: всплывающая расшифровка статистики (IngameEnding/renderInfo",
+            {
+              "id": "abc.4175.623.438",
+              "source_sha256": "5108a0f0dc3622b288239ea17bc08694a7fd0c90649c3256ebf60528f7d53b85"
+            },
+            "",
             {
               "id": "abc.4175.220.926",
               "source_sha256": "74b9841a211ec6eb22689cda7788051b919039d0d39bc4d64016d8f9cab5a130"

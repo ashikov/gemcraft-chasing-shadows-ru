@@ -432,6 +432,26 @@ class ABCInventory:
                     and self.string(tail[2][2][0]) == orblet_suffixes[offset]):
                 classification = "probable"
                 context = "Reviewed orblet count label in renderInfoPanel; runtime display is unverified"
+            # Gem also names a class. Only these two reviewed pickup captions
+            # feed the bitmap wrapper; keep every technical use excluded.
+            if (source == "Gem" and offset in (438, 519)
+                    and {"owner": "IngameController", "method": "pickUpDrop"}
+                    in self.method_labels.get(method, [])):
+                bitmap_tail = instructions[position + 1:position + 12]
+                expected = [(0x2D, [342 if offset == 438 else 270]),
+                            (0x24, [12]), (0x2C, None), (0x24, [0]),
+                            (0x2F, [190]), (0x24, [0]), (0x2F, [11]),
+                            (0x24, [18]), (0x24, [0]), (0x24, [10])]
+                if (len(bitmap_tail) == 11
+                        and all(op == wanted_op and (wanted_args is None or args == wanted_args)
+                                for (_, op, args), (wanted_op, wanted_args)
+                                in zip(bitmap_tail, expected))
+                        and self.string(bitmap_tail[2][2][0]) == "center"
+                        and bitmap_tail[10][1] == 0x4F
+                        and bitmap_tail[10][2][1] == 13
+                        and self.multiname(bitmap_tail[10][2][0]) == "createFloatingText"):
+                    classification = "probable"
+                    context = "Reviewed loot gem bitmap caption in pickUpDrop; runtime display is unverified"
             self.entry(index, f"{method}.{offset}", extra, classification, context)
             if source and (extra.get("text_property") == "htmlText" or re.search(r"<[A-Za-z][^>]*>", source)):
                 self.entries[-1]["content_type"] = "html_fragment"

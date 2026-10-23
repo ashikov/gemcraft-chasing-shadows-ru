@@ -1,0 +1,143 @@
+{
+  "abc_font_bindings": [],
+  "coverage_blockers": [],
+  "empty_abc_strings": [
+    "abc.4175.623.656"
+  ],
+  "entry_ids": [
+    "abc.4175.623.1074",
+    "abc.4175.623.1125",
+    "abc.4175.623.1208",
+    "abc.4175.623.1291",
+    "abc.4175.623.1374",
+    "abc.4175.623.1457",
+    "abc.4175.623.204",
+    "abc.4175.623.216",
+    "abc.4175.623.336",
+    "abc.4175.623.349",
+    "abc.4175.623.438",
+    "abc.4175.623.519",
+    "abc.4175.623.622",
+    "abc.4175.623.635",
+    "abc.4175.623.648",
+    "abc.4175.623.718",
+    "abc.4175.623.876",
+    "abc.4175.623.959"
+  ],
+  "fonts": [
+    255
+  ],
+  "game_sha256": "c8eadc03a7e607086998695f7696ec22dd90d7b7859e3d10cdfabf40fc7bbad5",
+  "layouts": {
+    "abc.4175.623.1074": {
+      "font_id": 255,
+      "height": 480,
+      "max_width": 41600,
+      "wrap": false
+    },
+    "abc.4175.623.1125": {
+      "font_id": 255,
+      "height": 480,
+      "max_width": 41600,
+      "wrap": false
+    },
+    "abc.4175.623.1208": {
+      "font_id": 255,
+      "height": 480,
+      "max_width": 41600,
+      "wrap": false
+    },
+    "abc.4175.623.1291": {
+      "font_id": 255,
+      "height": 480,
+      "max_width": 41600,
+      "wrap": false
+    },
+    "abc.4175.623.1374": {
+      "font_id": 255,
+      "height": 480,
+      "max_width": 41600,
+      "wrap": false
+    },
+    "abc.4175.623.1457": {
+      "font_id": 255,
+      "height": 480,
+      "max_width": 41600,
+      "wrap": false
+    },
+    "abc.4175.623.204": {
+      "font_id": 255,
+      "height": 480,
+      "max_width": 41600,
+      "wrap": false
+    },
+    "abc.4175.623.216": {
+      "font_id": 255,
+      "height": 480,
+      "max_width": 41600,
+      "wrap": false
+    },
+    "abc.4175.623.336": {
+      "font_id": 255,
+      "height": 480,
+      "max_width": 41600,
+      "wrap": false
+    },
+    "abc.4175.623.349": {
+      "font_id": 255,
+      "height": 480,
+      "max_width": 41600,
+      "wrap": false
+    },
+    "abc.4175.623.438": {
+      "font_id": 255,
+      "height": 480,
+      "max_width": 41600,
+      "wrap": false
+    },
+    "abc.4175.623.519": {
+      "font_id": 255,
+      "height": 480,
+      "max_width": 41600,
+      "wrap": false
+    },
+    "abc.4175.623.622": {
+      "font_id": 255,
+      "height": 480,
+      "max_width": 41600,
+      "wrap": false
+    },
+    "abc.4175.623.635": {
+      "font_id": 255,
+      "height": 480,
+      "max_width": 41600,
+      "wrap": false
+    },
+    "abc.4175.623.648": {
+      "font_id": 255,
+      "height": 480,
+      "max_width": 41600,
+      "wrap": false
+    },
+    "abc.4175.623.718": {
+      "font_id": 255,
+      "height": 480,
+      "max_width": 41600,
+      "wrap": false
+    },
+    "abc.4175.623.876": {
+      "font_id": 255,
+      "height": 480,
+      "max_width": 41600,
+      "wrap": false
+    },
+    "abc.4175.623.959": {
+      "font_id": 255,
+      "height": 480,
+      "max_width": 41600,
+      "wrap": false
+    }
+  },
+  "schema_version": 1,
+  "unconfirmed": []
+}
