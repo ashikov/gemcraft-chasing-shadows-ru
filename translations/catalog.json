@@ -7869,7 +7869,7 @@
         "context_confidence": "confirmed",
         "notes": "склейка с соседними строками, пробелы по краям сохранены",
         "status": "draft",
-        "translation": "+"
+        "translation": "Возврат теневых ядер: +"
       },
       "source_sha256": "a318c24216defe206feeb73ef5be00033fa9c4a74d0b967f6532a26ca5906d3b"
     },
@@ -7902,7 +7902,7 @@
         "context_confidence": "confirmed",
         "notes": "склейка с соседними строками, пробелы по краям сохранены; плюрализация движка несовместима с русским; при N=1 форма неточна — ограничение движка",
         "status": "draft",
-        "translation": " теневых ядер"
+        "translation": ""
       },
       "source_sha256": "a42bc99ed2009a310de9029e5074b5e574c8b12b7d1b93d50b2a7aa89ff92b86"
     },
@@ -9112,6 +9112,78 @@
         "translation": " к скорости"
       },
       "source_sha256": "cc6964a93f395520e98823e5b971de142a38d217c878dc99d713d70f2ae98b14"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.1596.4661",
+      "location": {
+        "abc_byte_offset": 1633798,
+        "code_offset": 4661,
+        "method_index": 1596,
+        "sprite_path": [],
+        "string_pool_index": 11333,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: результат ударного заклинания по >9 целям; попадания и фактический опыт, настройка показа результатов; опыт только в обычном режиме.",
+        "context_confidence": "confirmed",
+        "notes": "PR32: адресный bitmap-вызов → m352 → m1732. Числа, NumberFormatter, ветви, цвета, размеры, координаты и движение сохранены; шрифт выбирает прежний bitmap_cyrillic. Полная склейка проверяется офлайн; AIR не проверен.",
+        "status": "draft",
+        "translation": " попад."
+      },
+      "source_sha256": "6c4124af12501af519c2cb7a8d6dadf871a6270115f633687d93f5ec8203cc4a"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.1596.4744",
+      "location": {
+        "abc_byte_offset": 1633881,
+        "code_offset": 4744,
+        "method_index": 1596,
+        "sprite_path": [],
+        "string_pool_index": 8559,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: результат ударного заклинания по >9 целям; попадания и фактический опыт, настройка показа результатов; опыт только в обычном режиме.",
+        "context_confidence": "confirmed",
+        "notes": "PR32: адресный bitmap-вызов → m352 → m1732. Числа, NumberFormatter, ветви, цвета, размеры, координаты и движение сохранены; шрифт выбирает прежний bitmap_cyrillic. Полная склейка проверяется офлайн; AIR не проверен.",
+        "status": "draft",
+        "translation": "Опыт: +"
+      },
+      "source_sha256": "a318c24216defe206feeb73ef5be00033fa9c4a74d0b967f6532a26ca5906d3b"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.1596.4757",
+      "location": {
+        "abc_byte_offset": 1633894,
+        "code_offset": 4757,
+        "method_index": 1596,
+        "sprite_path": [],
+        "string_pool_index": 9581,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: результат ударного заклинания по >9 целям; попадания и фактический опыт, настройка показа результатов; опыт только в обычном режиме.",
+        "context_confidence": "confirmed",
+        "notes": "PR32: адресный bitmap-вызов → m352 → m1732. Числа, NumberFormatter, ветви, цвета, размеры, координаты и движение сохранены; шрифт выбирает прежний bitmap_cyrillic. Полная склейка проверяется офлайн; AIR не проверен.",
+        "status": "draft",
+        "translation": ""
+      },
+      "source_sha256": "42e2aa5470e71f56e5a5ffb544e72ff8366b96651dbdfab9559883f0dfbeb7eb"
     },
     {
       "category": "actionscript",
@@ -28320,6 +28392,225 @@
     },
     {
       "category": "actionscript",
+      "id": "abc.4175.242.3760",
+      "location": {
+        "abc_byte_offset": 930755,
+        "code_offset": 3760,
+        "method_index": 242,
+        "sprite_path": [],
+        "string_pool_index": 8559,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: досрочный вызов обычной волны, фактические бонусы маны/опыта и дополнительный снос.",
+        "context_confidence": "confirmed",
+        "notes": "PR32: адресный bitmap-вызов → m352 → m1732. Числа, NumberFormatter, ветви, цвета, размеры, координаты и движение сохранены; шрифт выбирает прежний bitmap_cyrillic. Полная склейка проверяется офлайн; AIR не проверен.",
+        "status": "draft",
+        "translation": "Мана: +"
+      },
+      "source_sha256": "a318c24216defe206feeb73ef5be00033fa9c4a74d0b967f6532a26ca5906d3b"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.242.3773",
+      "location": {
+        "abc_byte_offset": 930768,
+        "code_offset": 3773,
+        "method_index": 242,
+        "sprite_path": [],
+        "string_pool_index": 9580,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: досрочный вызов обычной волны, фактические бонусы маны/опыта и дополнительный снос.",
+        "context_confidence": "confirmed",
+        "notes": "PR32: адресный bitmap-вызов → m352 → m1732. Числа, NumberFormatter, ветви, цвета, размеры, координаты и движение сохранены; шрифт выбирает прежний bitmap_cyrillic. Полная склейка проверяется офлайн; AIR не проверен.",
+        "status": "draft",
+        "translation": ""
+      },
+      "source_sha256": "3543c385bb32e096e539ce17249d0720745f46025a02b582f5c478047f272afa"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.242.3856",
+      "location": {
+        "abc_byte_offset": 930851,
+        "code_offset": 3856,
+        "method_index": 242,
+        "sprite_path": [],
+        "string_pool_index": 8559,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: досрочный вызов обычной волны, фактические бонусы маны/опыта и дополнительный снос.",
+        "context_confidence": "confirmed",
+        "notes": "PR32: адресный bitmap-вызов → m352 → m1732. Числа, NumberFormatter, ветви, цвета, размеры, координаты и движение сохранены; шрифт выбирает прежний bitmap_cyrillic. Полная склейка проверяется офлайн; AIR не проверен.",
+        "status": "draft",
+        "translation": "Опыт: +"
+      },
+      "source_sha256": "a318c24216defe206feeb73ef5be00033fa9c4a74d0b967f6532a26ca5906d3b"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.242.3869",
+      "location": {
+        "abc_byte_offset": 930864,
+        "code_offset": 3869,
+        "method_index": 242,
+        "sprite_path": [],
+        "string_pool_index": 9581,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: досрочный вызов обычной волны, фактические бонусы маны/опыта и дополнительный снос.",
+        "context_confidence": "confirmed",
+        "notes": "PR32: адресный bitmap-вызов → m352 → m1732. Числа, NumberFormatter, ветви, цвета, размеры, координаты и движение сохранены; шрифт выбирает прежний bitmap_cyrillic. Полная склейка проверяется офлайн; AIR не проверен.",
+        "status": "draft",
+        "translation": ""
+      },
+      "source_sha256": "42e2aa5470e71f56e5a5ffb544e72ff8366b96651dbdfab9559883f0dfbeb7eb"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.242.4226",
+      "location": {
+        "abc_byte_offset": 931221,
+        "code_offset": 4226,
+        "method_index": 242,
+        "sprite_path": [],
+        "string_pool_index": 9582,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: досрочный вызов обычной волны, фактические бонусы маны/опыта и дополнительный снос.",
+        "context_confidence": "confirmed",
+        "notes": "PR32: адресный bitmap-вызов → m352 → m1732. Числа, NumberFormatter, ветви, цвета, размеры, координаты и движение сохранены; шрифт выбирает прежний bitmap_cyrillic. Полная склейка проверяется офлайн; AIR не проверен.",
+        "status": "draft",
+        "translation": "+1 снос"
+      },
+      "source_sha256": "27f1f47839c1ee526bb5db73a56518e4d9b661e2102388eba338fc104b8e1041"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.243.279",
+      "location": {
+        "abc_byte_offset": 932452,
+        "code_offset": 279,
+        "method_index": 243,
+        "sprite_path": [],
+        "string_pool_index": 9585,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": {
+          "source_parts": [
+            "Бой: завершение серии убийств; счётчик >29, опыт после ",
+            {
+              "id": "abc.4175.1369.408",
+              "source_sha256": "7e9e5ac30f2216fd0fd6f5faed316f2d5983361a4203c3330cfa46ef65bb4767"
+            },
+            "Xp. Нейтральный префикс счётчика через единственный guarded swap."
+          ]
+        },
+        "context_confidence": "confirmed",
+        "notes": "PR32: адресный bitmap-вызов → m352 → m1732. Числа, NumberFormatter, ветви, цвета, размеры, координаты и движение сохранены; шрифт выбирает прежний bitmap_cyrillic. Полная склейка проверяется офлайн; AIR не проверен.",
+        "status": "draft",
+        "translation": "Убийств подряд: "
+      },
+      "source_sha256": "95a62033aab4c4a79b001491eaf8fe9ad080ec879c192508c52393d63d8990ee"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.243.359",
+      "location": {
+        "abc_byte_offset": 932532,
+        "code_offset": 359,
+        "method_index": 243,
+        "sprite_path": [],
+        "string_pool_index": 8559,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": {
+          "source_parts": [
+            "Бой: завершение серии убийств; счётчик >29, опыт после ",
+            {
+              "id": "abc.4175.1369.408",
+              "source_sha256": "7e9e5ac30f2216fd0fd6f5faed316f2d5983361a4203c3330cfa46ef65bb4767"
+            },
+            "Xp. Нейтральный префикс счётчика через единственный guarded swap."
+          ]
+        },
+        "context_confidence": "confirmed",
+        "notes": "PR32: адресный bitmap-вызов → m352 → m1732. Числа, NumberFormatter, ветви, цвета, размеры, координаты и движение сохранены; шрифт выбирает прежний bitmap_cyrillic. Полная склейка проверяется офлайн; AIR не проверен.",
+        "status": "draft",
+        "translation": "Опыт: +"
+      },
+      "source_sha256": "a318c24216defe206feeb73ef5be00033fa9c4a74d0b967f6532a26ca5906d3b"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.243.371",
+      "location": {
+        "abc_byte_offset": 932544,
+        "code_offset": 371,
+        "method_index": 243,
+        "sprite_path": [],
+        "string_pool_index": 9581,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": {
+          "source_parts": [
+            "Бой: завершение серии убийств; счётчик >29, опыт после ",
+            {
+              "id": "abc.4175.1369.408",
+              "source_sha256": "7e9e5ac30f2216fd0fd6f5faed316f2d5983361a4203c3330cfa46ef65bb4767"
+            },
+            "Xp. Нейтральный префикс счётчика через единственный guarded swap."
+          ]
+        },
+        "context_confidence": "confirmed",
+        "notes": "PR32: адресный bitmap-вызов → m352 → m1732. Числа, NumberFormatter, ветви, цвета, размеры, координаты и движение сохранены; шрифт выбирает прежний bitmap_cyrillic. Полная склейка проверяется офлайн; AIR не проверен.",
+        "status": "draft",
+        "translation": ""
+      },
+      "source_sha256": "42e2aa5470e71f56e5a5ffb544e72ff8366b96651dbdfab9559883f0dfbeb7eb"
+    },
+    {
+      "category": "actionscript",
       "id": "abc.4175.302.116",
       "location": {
         "abc_byte_offset": 953543,
@@ -31827,6 +32118,54 @@
         "translation": "Достижение открыто!"
       },
       "source_sha256": "8796dfcf760e566a3854a63ee111923fcdc4019262be166564502bd00675457e"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.539.1991",
+      "location": {
+        "abc_byte_offset": 1080019,
+        "code_offset": 1991,
+        "method_index": 539,
+        "sprite_path": [],
+        "string_pool_index": 8559,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: награда опыта за сохранность сферы после волны, все монстры учтены и numIntactWaves >0.5.",
+        "context_confidence": "confirmed",
+        "notes": "PR32: адресный bitmap-вызов → m352 → m1732. Числа, NumberFormatter, ветви, цвета, размеры, координаты и движение сохранены; шрифт выбирает прежний bitmap_cyrillic. Полная склейка проверяется офлайн; AIR не проверен.",
+        "status": "draft",
+        "translation": "Опыт: +"
+      },
+      "source_sha256": "a318c24216defe206feeb73ef5be00033fa9c4a74d0b967f6532a26ca5906d3b"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.539.2004",
+      "location": {
+        "abc_byte_offset": 1080032,
+        "code_offset": 2004,
+        "method_index": 539,
+        "sprite_path": [],
+        "string_pool_index": 9581,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: награда опыта за сохранность сферы после волны, все монстры учтены и numIntactWaves >0.5.",
+        "context_confidence": "confirmed",
+        "notes": "PR32: адресный bitmap-вызов → m352 → m1732. Числа, NumberFormatter, ветви, цвета, размеры, координаты и движение сохранены; шрифт выбирает прежний bitmap_cyrillic. Полная склейка проверяется офлайн; AIR не проверен.",
+        "status": "draft",
+        "translation": ""
+      },
+      "source_sha256": "42e2aa5470e71f56e5a5ffb544e72ff8366b96651dbdfab9559883f0dfbeb7eb"
     },
     {
       "category": "actionscript",
@@ -43031,6 +43370,198 @@
     },
     {
       "category": "actionscript",
+      "id": "abc.4175.566.1793",
+      "location": {
+        "abc_byte_offset": 1109839,
+        "code_offset": 1793,
+        "method_index": 566,
+        "sprite_path": [],
+        "string_pool_index": 10556,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Строительство 2×2: проверка связности пути от входа/гнезда/гробницы/улья, монстра, стража или выпавшей малой сферы.",
+        "context_confidence": "confirmed",
+        "notes": "PR32: адресный bitmap-вызов → m352 → m1732. Числа, NumberFormatter, ветви, цвета, размеры, координаты и движение сохранены; шрифт выбирает прежний bitmap_cyrillic. Полная склейка проверяется офлайн; AIR не проверен.",
+        "status": "draft",
+        "translation": "Перекрывает путь!"
+      },
+      "source_sha256": "230346be77ae1df7d411fb206725766cf24bf7a0a9525dbdd0e712c7032ce56e"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.566.2114",
+      "location": {
+        "abc_byte_offset": 1110160,
+        "code_offset": 2114,
+        "method_index": 566,
+        "sprite_path": [],
+        "string_pool_index": 10556,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Строительство 2×2: проверка связности пути от входа/гнезда/гробницы/улья, монстра, стража или выпавшей малой сферы.",
+        "context_confidence": "confirmed",
+        "notes": "PR32: адресный bitmap-вызов → m352 → m1732. Числа, NumberFormatter, ветви, цвета, размеры, координаты и движение сохранены; шрифт выбирает прежний bitmap_cyrillic. Полная склейка проверяется офлайн; AIR не проверен.",
+        "status": "draft",
+        "translation": "Перекрывает путь!"
+      },
+      "source_sha256": "230346be77ae1df7d411fb206725766cf24bf7a0a9525dbdd0e712c7032ce56e"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.566.2447",
+      "location": {
+        "abc_byte_offset": 1110493,
+        "code_offset": 2447,
+        "method_index": 566,
+        "sprite_path": [],
+        "string_pool_index": 10556,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Строительство 2×2: проверка связности пути от входа/гнезда/гробницы/улья, монстра, стража или выпавшей малой сферы.",
+        "context_confidence": "confirmed",
+        "notes": "PR32: адресный bitmap-вызов → m352 → m1732. Числа, NumberFormatter, ветви, цвета, размеры, координаты и движение сохранены; шрифт выбирает прежний bitmap_cyrillic. Полная склейка проверяется офлайн; AIR не проверен.",
+        "status": "draft",
+        "translation": "Перекрывает путь!"
+      },
+      "source_sha256": "230346be77ae1df7d411fb206725766cf24bf7a0a9525dbdd0e712c7032ce56e"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.566.2839",
+      "location": {
+        "abc_byte_offset": 1110885,
+        "code_offset": 2839,
+        "method_index": 566,
+        "sprite_path": [],
+        "string_pool_index": 10556,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Строительство 2×2: проверка связности пути от входа/гнезда/гробницы/улья, монстра, стража или выпавшей малой сферы.",
+        "context_confidence": "confirmed",
+        "notes": "PR32: адресный bitmap-вызов → m352 → m1732. Числа, NumberFormatter, ветви, цвета, размеры, координаты и движение сохранены; шрифт выбирает прежний bitmap_cyrillic. Полная склейка проверяется офлайн; AIR не проверен.",
+        "status": "draft",
+        "translation": "Перекрывает путь!"
+      },
+      "source_sha256": "230346be77ae1df7d411fb206725766cf24bf7a0a9525dbdd0e712c7032ce56e"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.567.1912",
+      "location": {
+        "abc_byte_offset": 1112881,
+        "code_offset": 1912,
+        "method_index": 567,
+        "sprite_path": [],
+        "string_pool_index": 10556,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Строительство стены: проверка связности пути от входа/гнезда/гробницы/улья, монстра, стража или выпавшей малой сферы.",
+        "context_confidence": "confirmed",
+        "notes": "PR32: адресный bitmap-вызов → m352 → m1732. Числа, NumberFormatter, ветви, цвета, размеры, координаты и движение сохранены; шрифт выбирает прежний bitmap_cyrillic. Полная склейка проверяется офлайн; AIR не проверен.",
+        "status": "draft",
+        "translation": "Перекрывает путь!"
+      },
+      "source_sha256": "230346be77ae1df7d411fb206725766cf24bf7a0a9525dbdd0e712c7032ce56e"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.567.2222",
+      "location": {
+        "abc_byte_offset": 1113191,
+        "code_offset": 2222,
+        "method_index": 567,
+        "sprite_path": [],
+        "string_pool_index": 10556,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Строительство стены: проверка связности пути от входа/гнезда/гробницы/улья, монстра, стража или выпавшей малой сферы.",
+        "context_confidence": "confirmed",
+        "notes": "PR32: адресный bitmap-вызов → m352 → m1732. Числа, NumberFormatter, ветви, цвета, размеры, координаты и движение сохранены; шрифт выбирает прежний bitmap_cyrillic. Полная склейка проверяется офлайн; AIR не проверен.",
+        "status": "draft",
+        "translation": "Перекрывает путь!"
+      },
+      "source_sha256": "230346be77ae1df7d411fb206725766cf24bf7a0a9525dbdd0e712c7032ce56e"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.567.2558",
+      "location": {
+        "abc_byte_offset": 1113527,
+        "code_offset": 2558,
+        "method_index": 567,
+        "sprite_path": [],
+        "string_pool_index": 10556,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Строительство стены: проверка связности пути от входа/гнезда/гробницы/улья, монстра, стража или выпавшей малой сферы.",
+        "context_confidence": "confirmed",
+        "notes": "PR32: адресный bitmap-вызов → m352 → m1732. Числа, NumberFormatter, ветви, цвета, размеры, координаты и движение сохранены; шрифт выбирает прежний bitmap_cyrillic. Полная склейка проверяется офлайн; AIR не проверен.",
+        "status": "draft",
+        "translation": "Перекрывает путь!"
+      },
+      "source_sha256": "230346be77ae1df7d411fb206725766cf24bf7a0a9525dbdd0e712c7032ce56e"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.567.2940",
+      "location": {
+        "abc_byte_offset": 1113909,
+        "code_offset": 2940,
+        "method_index": 567,
+        "sprite_path": [],
+        "string_pool_index": 10556,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Строительство стены: проверка связности пути от входа/гнезда/гробницы/улья, монстра, стража или выпавшей малой сферы.",
+        "context_confidence": "confirmed",
+        "notes": "PR32: адресный bitmap-вызов → m352 → m1732. Числа, NumberFormatter, ветви, цвета, размеры, координаты и движение сохранены; шрифт выбирает прежний bitmap_cyrillic. Полная склейка проверяется офлайн; AIR не проверен.",
+        "status": "draft",
+        "translation": "Перекрывает путь!"
+      },
+      "source_sha256": "230346be77ae1df7d411fb206725766cf24bf7a0a9525dbdd0e712c7032ce56e"
+    },
+    {
+      "category": "actionscript",
       "id": "abc.4175.597.431",
       "location": {
         "abc_byte_offset": 1161584,
@@ -43220,6 +43751,30 @@
         "translation": "..."
       },
       "source_sha256": "0b6576b09fcbb0bb558744475e0837c2a609e83aa72cc3f78459a1f778a35a47"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.615.488",
+      "location": {
+        "abc_byte_offset": 1179473,
+        "code_offset": 488,
+        "method_index": 615,
+        "sprite_path": [],
+        "string_pool_index": 10684,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: улучшение самоцвета под указателем; не хватает маны на стоимость самоцвета и совмещения.",
+        "context_confidence": "confirmed",
+        "notes": "PR32: адресный bitmap-вызов → m352 → m1732. Числа, NumberFormatter, ветви, цвета, размеры, координаты и движение сохранены; шрифт выбирает прежний bitmap_cyrillic. Полная склейка проверяется офлайн; AIR не проверен.",
+        "status": "draft",
+        "translation": "Не хватает маны"
+      },
+      "source_sha256": "f57414bda0de7d995cca56759fda055e7a56d9587715e4c62991fe7c7dc4e5f5"
     },
     {
       "category": "actionscript",
@@ -56227,6 +56782,318 @@
     },
     {
       "category": "actionscript",
+      "id": "abc.4175.663.243",
+      "location": {
+        "abc_byte_offset": 1245127,
+        "code_offset": 243,
+        "method_index": 663,
+        "sprite_path": [],
+        "string_pool_index": 10684,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: создание самоцвета, недостаточная мана.",
+        "context_confidence": "confirmed",
+        "notes": "PR32: адресный bitmap-вызов → m352 → m1732. Числа, NumberFormatter, ветви, цвета, размеры, координаты и движение сохранены; шрифт выбирает прежний bitmap_cyrillic. Полная склейка проверяется офлайн; AIR не проверен.",
+        "status": "draft",
+        "translation": "Не хватает маны"
+      },
+      "source_sha256": "f57414bda0de7d995cca56759fda055e7a56d9587715e4c62991fe7c7dc4e5f5"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.664.388",
+      "location": {
+        "abc_byte_offset": 1246003,
+        "code_offset": 388,
+        "method_index": 664,
+        "sprite_path": [],
+        "string_pool_index": 10684,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: самоцвет-бомба в режиме прототипа, недостаточная мана.",
+        "context_confidence": "confirmed",
+        "notes": "PR32: адресный bitmap-вызов → m352 → m1732. Числа, NumberFormatter, ветви, цвета, размеры, координаты и движение сохранены; шрифт выбирает прежний bitmap_cyrillic. Полная склейка проверяется офлайн; AIR не проверен.",
+        "status": "draft",
+        "translation": "Не хватает маны"
+      },
+      "source_sha256": "f57414bda0de7d995cca56759fda055e7a56d9587715e4c62991fe7c7dc4e5f5"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.665.1066",
+      "location": {
+        "abc_byte_offset": 1250151,
+        "code_offset": 1066,
+        "method_index": 665,
+        "sprite_path": [],
+        "string_pool_index": 11140,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: разъярение одной волны самоцветом-бомбой; недостаточная мана на прототип или выбранное число бомб (1–999).",
+        "context_confidence": "confirmed",
+        "notes": "PR32: адресный bitmap-вызов → m352 → m1732. Числа, NumberFormatter, ветви, цвета, размеры, координаты и движение сохранены; шрифт выбирает прежний bitmap_cyrillic. Полная склейка проверяется офлайн; AIR не проверен.",
+        "status": "draft",
+        "translation": "Не хватает маны для выбранного числа бомб"
+      },
+      "source_sha256": "3f8ea04cdaa087ec68b07226e827cab0295e26afafa895b2961c20a593786e54"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.665.423",
+      "location": {
+        "abc_byte_offset": 1249508,
+        "code_offset": 423,
+        "method_index": 665,
+        "sprite_path": [],
+        "string_pool_index": 10684,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: разъярение одной волны самоцветом-бомбой; недостаточная мана на прототип или выбранное число бомб (1–999).",
+        "context_confidence": "confirmed",
+        "notes": "PR32: адресный bitmap-вызов → m352 → m1732. Числа, NumberFormatter, ветви, цвета, размеры, координаты и движение сохранены; шрифт выбирает прежний bitmap_cyrillic. Полная склейка проверяется офлайн; AIR не проверен.",
+        "status": "draft",
+        "translation": "Не хватает маны"
+      },
+      "source_sha256": "f57414bda0de7d995cca56759fda055e7a56d9587715e4c62991fe7c7dc4e5f5"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.666.1043",
+      "location": {
+        "abc_byte_offset": 1253021,
+        "code_offset": 1043,
+        "method_index": 666,
+        "sprite_path": [],
+        "string_pool_index": 11140,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: разогрев одной искры самоцветом-бомбой; недостаточная мана на прототип или выбранное число бомб (1–999).",
+        "context_confidence": "confirmed",
+        "notes": "PR32: адресный bitmap-вызов → m352 → m1732. Числа, NumberFormatter, ветви, цвета, размеры, координаты и движение сохранены; шрифт выбирает прежний bitmap_cyrillic. Полная склейка проверяется офлайн; AIR не проверен.",
+        "status": "draft",
+        "translation": "Не хватает маны для выбранного числа бомб"
+      },
+      "source_sha256": "3f8ea04cdaa087ec68b07226e827cab0295e26afafa895b2961c20a593786e54"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.666.373",
+      "location": {
+        "abc_byte_offset": 1252351,
+        "code_offset": 373,
+        "method_index": 666,
+        "sprite_path": [],
+        "string_pool_index": 10684,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: разогрев одной искры самоцветом-бомбой; недостаточная мана на прототип или выбранное число бомб (1–999).",
+        "context_confidence": "confirmed",
+        "notes": "PR32: адресный bitmap-вызов → m352 → m1732. Числа, NumberFormatter, ветви, цвета, размеры, координаты и движение сохранены; шрифт выбирает прежний bitmap_cyrillic. Полная склейка проверяется офлайн; AIR не проверен.",
+        "status": "draft",
+        "translation": "Не хватает маны"
+      },
+      "source_sha256": "f57414bda0de7d995cca56759fda055e7a56d9587715e4c62991fe7c7dc4e5f5"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.669.767",
+      "location": {
+        "abc_byte_offset": 1261453,
+        "code_offset": 767,
+        "method_index": 669,
+        "sprite_path": [],
+        "string_pool_index": 10684,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: совмещение самоцветов инвентаря, недостаточная мана.",
+        "context_confidence": "confirmed",
+        "notes": "PR32: адресный bitmap-вызов → m352 → m1732. Числа, NumberFormatter, ветви, цвета, размеры, координаты и движение сохранены; шрифт выбирает прежний bitmap_cyrillic. Полная склейка проверяется офлайн; AIR не проверен.",
+        "status": "draft",
+        "translation": "Не хватает маны"
+      },
+      "source_sha256": "f57414bda0de7d995cca56759fda055e7a56d9587715e4c62991fe7c7dc4e5f5"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.670.993",
+      "location": {
+        "abc_byte_offset": 1262528,
+        "code_offset": 993,
+        "method_index": 670,
+        "sprite_path": [],
+        "string_pool_index": 10684,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: совмещение самоцветов между постройками, недостаточная мана.",
+        "context_confidence": "confirmed",
+        "notes": "PR32: адресный bitmap-вызов → m352 → m1732. Числа, NumberFormatter, ветви, цвета, размеры, координаты и движение сохранены; шрифт выбирает прежний bitmap_cyrillic. Полная склейка проверяется офлайн; AIR не проверен.",
+        "status": "draft",
+        "translation": "Не хватает маны"
+      },
+      "source_sha256": "f57414bda0de7d995cca56759fda055e7a56d9587715e4c62991fe7c7dc4e5f5"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.675.1035",
+      "location": {
+        "abc_byte_offset": 1266841,
+        "code_offset": 1035,
+        "method_index": 675,
+        "sprite_path": [],
+        "string_pool_index": 8559,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: возврат за уничтожение самоцвета; floor(70% стоимости). pRefundByKeyboard=false: ниже указателя; true: выше указателя. Положение выбирает параметр способа возврата, а не координата курсора.",
+        "context_confidence": "confirmed",
+        "notes": "PR32: адресный bitmap-вызов → m352 → m1732. Числа, NumberFormatter, ветви, цвета, размеры, координаты и движение сохранены; шрифт выбирает прежний bitmap_cyrillic. Полная склейка проверяется офлайн; AIR не проверен.",
+        "status": "draft",
+        "translation": "Возврат маны: +"
+      },
+      "source_sha256": "a318c24216defe206feeb73ef5be00033fa9c4a74d0b967f6532a26ca5906d3b"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.675.1048",
+      "location": {
+        "abc_byte_offset": 1266854,
+        "code_offset": 1048,
+        "method_index": 675,
+        "sprite_path": [],
+        "string_pool_index": 9580,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: возврат за уничтожение самоцвета; floor(70% стоимости). pRefundByKeyboard=false: ниже указателя; true: выше указателя. Положение выбирает параметр способа возврата, а не координата курсора.",
+        "context_confidence": "confirmed",
+        "notes": "PR32: адресный bitmap-вызов → m352 → m1732. Числа, NumberFormatter, ветви, цвета, размеры, координаты и движение сохранены; шрифт выбирает прежний bitmap_cyrillic. Полная склейка проверяется офлайн; AIR не проверен.",
+        "status": "draft",
+        "translation": ""
+      },
+      "source_sha256": "3543c385bb32e096e539ce17249d0720745f46025a02b582f5c478047f272afa"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.675.1146",
+      "location": {
+        "abc_byte_offset": 1266952,
+        "code_offset": 1146,
+        "method_index": 675,
+        "sprite_path": [],
+        "string_pool_index": 8559,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: возврат за уничтожение самоцвета; floor(70% стоимости). pRefundByKeyboard=false: ниже указателя; true: выше указателя. Положение выбирает параметр способа возврата, а не координата курсора.",
+        "context_confidence": "confirmed",
+        "notes": "PR32: адресный bitmap-вызов → m352 → m1732. Числа, NumberFormatter, ветви, цвета, размеры, координаты и движение сохранены; шрифт выбирает прежний bitmap_cyrillic. Полная склейка проверяется офлайн; AIR не проверен.",
+        "status": "draft",
+        "translation": "Возврат маны: +"
+      },
+      "source_sha256": "a318c24216defe206feeb73ef5be00033fa9c4a74d0b967f6532a26ca5906d3b"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.675.1159",
+      "location": {
+        "abc_byte_offset": 1266965,
+        "code_offset": 1159,
+        "method_index": 675,
+        "sprite_path": [],
+        "string_pool_index": 9580,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: возврат за уничтожение самоцвета; floor(70% стоимости). pRefundByKeyboard=false: ниже указателя; true: выше указателя. Положение выбирает параметр способа возврата, а не координата курсора.",
+        "context_confidence": "confirmed",
+        "notes": "PR32: адресный bitmap-вызов → m352 → m1732. Числа, NumberFormatter, ветви, цвета, размеры, координаты и движение сохранены; шрифт выбирает прежний bitmap_cyrillic. Полная склейка проверяется офлайн; AIR не проверен.",
+        "status": "draft",
+        "translation": ""
+      },
+      "source_sha256": "3543c385bb32e096e539ce17249d0720745f46025a02b582f5c478047f272afa"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.676.160",
+      "location": {
+        "abc_byte_offset": 1267404,
+        "code_offset": 160,
+        "method_index": 676,
+        "sprite_path": [],
+        "string_pool_index": 10684,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: дублирование самоцвета; недостаточная мана.",
+        "context_confidence": "confirmed",
+        "notes": "PR32: адресный bitmap-вызов → m352 → m1732. Числа, NumberFormatter, ветви, цвета, размеры, координаты и движение сохранены; шрифт выбирает прежний bitmap_cyrillic. Полная склейка проверяется офлайн; AIR не проверен.",
+        "status": "draft",
+        "translation": "Не хватает маны"
+      },
+      "source_sha256": "f57414bda0de7d995cca56759fda055e7a56d9587715e4c62991fe7c7dc4e5f5"
+    },
+    {
+      "category": "actionscript",
       "id": "abc.4175.69.100",
       "location": {
         "abc_byte_offset": 834134,
@@ -56265,6 +57132,30 @@
     },
     {
       "category": "actionscript",
+      "id": "abc.4175.695.10117",
+      "location": {
+        "abc_byte_offset": 1283527,
+        "code_offset": 10117,
+        "method_index": 695,
+        "sprite_path": [],
+        "string_pool_index": 11250,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: размещение ловушки/башни/линии стен/усилителя; невозможность размещения или недостаточная мана. Не результат святилища.",
+        "context_confidence": "confirmed",
+        "notes": "PR32: адресный bitmap-вызов → m352 → m1732. Числа, NumberFormatter, ветви, цвета, размеры, координаты и движение сохранены; шрифт выбирает прежний bitmap_cyrillic. Полная склейка проверяется офлайн; AIR не проверен.",
+        "status": "draft",
+        "translation": "Нельзя построить"
+      },
+      "source_sha256": "353979882fc74dbd039f76c5fe9821c405b916d40bb2759562c97e4091bda4ea"
+    },
+    {
+      "category": "actionscript",
       "id": "abc.4175.695.1400",
       "location": {
         "abc_byte_offset": 1274810,
@@ -56286,6 +57177,246 @@
         "translation": "В святилище зачарования нужно перетащить самоцвет-бомбу"
       },
       "source_sha256": "1c5b512d9a6e0a8cd9a6f92a531a023b40428f7a16786a85eb2c9a452b157361"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.695.5948",
+      "location": {
+        "abc_byte_offset": 1279358,
+        "code_offset": 5948,
+        "method_index": 695,
+        "sprite_path": [],
+        "string_pool_index": 10684,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: размещение ловушки/башни/линии стен/усилителя; невозможность размещения или недостаточная мана. Не результат святилища.",
+        "context_confidence": "confirmed",
+        "notes": "PR32: адресный bitmap-вызов → m352 → m1732. Числа, NumberFormatter, ветви, цвета, размеры, координаты и движение сохранены; шрифт выбирает прежний bitmap_cyrillic. Полная склейка проверяется офлайн; AIR не проверен.",
+        "status": "draft",
+        "translation": "Не хватает маны"
+      },
+      "source_sha256": "f57414bda0de7d995cca56759fda055e7a56d9587715e4c62991fe7c7dc4e5f5"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.695.6227",
+      "location": {
+        "abc_byte_offset": 1279637,
+        "code_offset": 6227,
+        "method_index": 695,
+        "sprite_path": [],
+        "string_pool_index": 11250,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: размещение ловушки/башни/линии стен/усилителя; невозможность размещения или недостаточная мана. Не результат святилища.",
+        "context_confidence": "confirmed",
+        "notes": "PR32: адресный bitmap-вызов → m352 → m1732. Числа, NumberFormatter, ветви, цвета, размеры, координаты и движение сохранены; шрифт выбирает прежний bitmap_cyrillic. Полная склейка проверяется офлайн; AIR не проверен.",
+        "status": "draft",
+        "translation": "Нельзя построить"
+      },
+      "source_sha256": "353979882fc74dbd039f76c5fe9821c405b916d40bb2759562c97e4091bda4ea"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.695.6360",
+      "location": {
+        "abc_byte_offset": 1279770,
+        "code_offset": 6360,
+        "method_index": 695,
+        "sprite_path": [],
+        "string_pool_index": 11250,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: размещение ловушки/башни/линии стен/усилителя; невозможность размещения или недостаточная мана. Не результат святилища.",
+        "context_confidence": "confirmed",
+        "notes": "PR32: адресный bitmap-вызов → m352 → m1732. Числа, NumberFormatter, ветви, цвета, размеры, координаты и движение сохранены; шрифт выбирает прежний bitmap_cyrillic. Полная склейка проверяется офлайн; AIR не проверен.",
+        "status": "draft",
+        "translation": "Нельзя построить"
+      },
+      "source_sha256": "353979882fc74dbd039f76c5fe9821c405b916d40bb2759562c97e4091bda4ea"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.695.6608",
+      "location": {
+        "abc_byte_offset": 1280018,
+        "code_offset": 6608,
+        "method_index": 695,
+        "sprite_path": [],
+        "string_pool_index": 10684,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: размещение ловушки/башни/линии стен/усилителя; невозможность размещения или недостаточная мана. Не результат святилища.",
+        "context_confidence": "confirmed",
+        "notes": "PR32: адресный bitmap-вызов → m352 → m1732. Числа, NumberFormatter, ветви, цвета, размеры, координаты и движение сохранены; шрифт выбирает прежний bitmap_cyrillic. Полная склейка проверяется офлайн; AIR не проверен.",
+        "status": "draft",
+        "translation": "Не хватает маны"
+      },
+      "source_sha256": "f57414bda0de7d995cca56759fda055e7a56d9587715e4c62991fe7c7dc4e5f5"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.695.7076",
+      "location": {
+        "abc_byte_offset": 1280486,
+        "code_offset": 7076,
+        "method_index": 695,
+        "sprite_path": [],
+        "string_pool_index": 11250,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: размещение ловушки/башни/линии стен/усилителя; невозможность размещения или недостаточная мана. Не результат святилища.",
+        "context_confidence": "confirmed",
+        "notes": "PR32: адресный bitmap-вызов → m352 → m1732. Числа, NumberFormatter, ветви, цвета, размеры, координаты и движение сохранены; шрифт выбирает прежний bitmap_cyrillic. Полная склейка проверяется офлайн; AIR не проверен.",
+        "status": "draft",
+        "translation": "Нельзя построить"
+      },
+      "source_sha256": "353979882fc74dbd039f76c5fe9821c405b916d40bb2759562c97e4091bda4ea"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.695.7709",
+      "location": {
+        "abc_byte_offset": 1281119,
+        "code_offset": 7709,
+        "method_index": 695,
+        "sprite_path": [],
+        "string_pool_index": 10684,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: размещение ловушки/башни/линии стен/усилителя; невозможность размещения или недостаточная мана. Не результат святилища.",
+        "context_confidence": "confirmed",
+        "notes": "PR32: адресный bitmap-вызов → m352 → m1732. Числа, NumberFormatter, ветви, цвета, размеры, координаты и движение сохранены; шрифт выбирает прежний bitmap_cyrillic. Полная склейка проверяется офлайн; AIR не проверен.",
+        "status": "draft",
+        "translation": "Не хватает маны"
+      },
+      "source_sha256": "f57414bda0de7d995cca56759fda055e7a56d9587715e4c62991fe7c7dc4e5f5"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.695.7969",
+      "location": {
+        "abc_byte_offset": 1281379,
+        "code_offset": 7969,
+        "method_index": 695,
+        "sprite_path": [],
+        "string_pool_index": 11250,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: размещение ловушки/башни/линии стен/усилителя; невозможность размещения или недостаточная мана. Не результат святилища.",
+        "context_confidence": "confirmed",
+        "notes": "PR32: адресный bitmap-вызов → m352 → m1732. Числа, NumberFormatter, ветви, цвета, размеры, координаты и движение сохранены; шрифт выбирает прежний bitmap_cyrillic. Полная склейка проверяется офлайн; AIR не проверен.",
+        "status": "draft",
+        "translation": "Нельзя построить"
+      },
+      "source_sha256": "353979882fc74dbd039f76c5fe9821c405b916d40bb2759562c97e4091bda4ea"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.695.8678",
+      "location": {
+        "abc_byte_offset": 1282088,
+        "code_offset": 8678,
+        "method_index": 695,
+        "sprite_path": [],
+        "string_pool_index": 10684,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: размещение ловушки/башни/линии стен/усилителя; невозможность размещения или недостаточная мана. Не результат святилища.",
+        "context_confidence": "confirmed",
+        "notes": "PR32: адресный bitmap-вызов → m352 → m1732. Числа, NumberFormatter, ветви, цвета, размеры, координаты и движение сохранены; шрифт выбирает прежний bitmap_cyrillic. Полная склейка проверяется офлайн; AIR не проверен.",
+        "status": "draft",
+        "translation": "Не хватает маны"
+      },
+      "source_sha256": "f57414bda0de7d995cca56759fda055e7a56d9587715e4c62991fe7c7dc4e5f5"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.695.8938",
+      "location": {
+        "abc_byte_offset": 1282348,
+        "code_offset": 8938,
+        "method_index": 695,
+        "sprite_path": [],
+        "string_pool_index": 11250,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: размещение ловушки/башни/линии стен/усилителя; невозможность размещения или недостаточная мана. Не результат святилища.",
+        "context_confidence": "confirmed",
+        "notes": "PR32: адресный bitmap-вызов → m352 → m1732. Числа, NumberFormatter, ветви, цвета, размеры, координаты и движение сохранены; шрифт выбирает прежний bitmap_cyrillic. Полная склейка проверяется офлайн; AIR не проверен.",
+        "status": "draft",
+        "translation": "Нельзя построить"
+      },
+      "source_sha256": "353979882fc74dbd039f76c5fe9821c405b916d40bb2759562c97e4091bda4ea"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.695.9649",
+      "location": {
+        "abc_byte_offset": 1283059,
+        "code_offset": 9649,
+        "method_index": 695,
+        "sprite_path": [],
+        "string_pool_index": 10684,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Бой: размещение ловушки/башни/линии стен/усилителя; невозможность размещения или недостаточная мана. Не результат святилища.",
+        "context_confidence": "confirmed",
+        "notes": "PR32: адресный bitmap-вызов → m352 → m1732. Числа, NumberFormatter, ветви, цвета, размеры, координаты и движение сохранены; шрифт выбирает прежний bitmap_cyrillic. Полная склейка проверяется офлайн; AIR не проверен.",
+        "status": "draft",
+        "translation": "Не хватает маны"
+      },
+      "source_sha256": "f57414bda0de7d995cca56759fda055e7a56d9587715e4c62991fe7c7dc4e5f5"
     },
     {
       "category": "actionscript",

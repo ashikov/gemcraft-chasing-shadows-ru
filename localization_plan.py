@@ -7,6 +7,7 @@ from abc_patch import _u30
 from bitmap_font_binding import (
     bitmap_font_selector, bitmap_selector_pool_indices, validate_bitmap_font_site,
 )
+from bitmap_notification_binding import validate_kill_chain_prefix
 
 
 def _path(value):
@@ -194,6 +195,11 @@ def resolve_plan_font_bindings(original, translated, sites):
             if index >= len(old_ops) or old_ops[index][1:] != (guard['opcode'], guard['operands']):
                 raise ValueError('Unexpected original ABC receiver instruction')
         kind = site.get('kind')
+        if kind == 'kill_chain_prefix':
+            validate_kill_chain_prefix(before, after, old_ops, new_ops, site)
+            planned.setdefault(method, []).append((new_ops[position][0], [], kind, None, None))
+            increments[method] = max(increments.get(method, 0), 0)
+            continue
         if kind not in ('field', 'tooltip', 'panel_format_before', 'panel_format_after',
                         'floater', 'floater_fields', 'bitmap_cyrillic'):
             raise ValueError('Unsupported font binding kind')
@@ -286,6 +292,8 @@ def resolve_plan_font_bindings(original, translated, sites):
         bitmap_indices = (bitmap_selector_pool_indices(translated)
                           if any(site['kind'] == 'bitmap_cyrillic' for site in sites) else None)
         def binding(receivers, kind, original_family_index, panel_receiver):
+            if kind == 'kill_chain_prefix':
+                return b'\x2b'
             if kind == 'bitmap_cyrillic':
                 return bitmap_font_selector(family_index, **bitmap_indices)
             if kind.startswith('panel_format_'):
