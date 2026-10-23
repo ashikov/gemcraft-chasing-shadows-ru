@@ -13,6 +13,7 @@ from abc_inventory import ABCReader
 from install_patch import ORIGINAL_SHA256, sha
 from swf_geometry import read_swf
 from test_bitmap_completion import COUNTERS
+from test_bitmap_placement import without_placement_ops
 from test_pr13_stats_local import method_metadata
 from test_talisman_local import abc_bytes, abc_inventory
 from translation_catalog import load_catalog
@@ -244,16 +245,26 @@ def semantic_programs():
     return Expressions(original), Expressions(candidate)
 
 
+def original_instruction_pairs(before, after, method):
+    """Keep actual offsets while excluding only the exact reviewed snippets."""
+    old_ops = before.operations[method]
+    new_ops = without_placement_ops(after.inv, method, after.operations[method])
+    if method == 243 and len(new_ops) == len(old_ops) + 1:
+        assert new_ops[117][1:] == (0x2b, [])
+        new_ops = new_ops[:117] + new_ops[118:]
+    assert len(old_ops) == len(new_ops)
+    return list(zip(old_ops, new_ops))
+
+
 def translated_span(before, after, method, start, end):
-    """Map original instruction positions across the sole inserted swap."""
-    old_ops, new_ops = before.operations[method], after.operations[method]
-    indices = {at: index for index, (at, _, _) in enumerate(old_ops)}
-    inserted = len(new_ops) - len(old_ops)
-    assert inserted == 0 or method == 243 and inserted == 1
-    def translated(at):
-        index = indices[at]
-        return new_ops[index + (inserted if index >= 117 else 0)][0]
-    return translated(start), translated(end)
+    """Map source expressions across the word-order and post-call insertions."""
+    offsets = {old[0]: new[0] for old, new in original_instruction_pairs(before, after, method)}
+    return offsets[start], offsets[end]
+
+
+def source_addressed_ops(before, after, method):
+    """Index candidate instructions by original addresses without hiding operands."""
+    return {old[0]: new[1:] for old, new in original_instruction_pairs(before, after, method)}
 
 
 def test_actual_formatter_rounding_grouping_sign_and_precision_branches(semantic_programs):
@@ -261,7 +272,10 @@ def test_actual_formatter_rounding_grouping_sign_and_precision_branches(semantic
     cases = [(0, '0'), (.49, '0'), (.5, '1'), (1.49, '1'), (1.5, '2'),
              (21.5, '22'), (999.5, '1,000'), (1000, '1,000'),
              (-1.5, '-2'), (-.49, '-0'), (-1000, '-1,000'),
-             (4294967295, '4,294,967,295'), (999999999999, '999,999,999,999')]
+             (4294967295, '4,294,967,295'), (999999999999, '999,999,999,999'),
+             (999999999999.49, '999,999,999,999'),
+             (999999999999.5, '1,000,000,000,000'),
+             (999999999999.9, '1,000,000,000,000')]
     for program in (before, after):
         for number, expected in cases:
             assert program.format(number) == expected
@@ -279,7 +293,7 @@ def test_full_actual_dynamic_concatenations_all_number_forms(semantic_programs):
     # Negative and fractional core/hit inputs are robustness probes, not gameplay claims.
     numbers = [*range(26), 29, 30, 31, 32, 35, 99, 100, 101, 199, 200, 201,
                .49, .5, 1.5, 21.5, 999.5, 1000, 4294967295,
-               999999999999, 1e12, 1.23456789e12, 1e308, -1, -1.5]
+               999999999999, 999999999999.5, 1e12, 1.23456789e12, 1e308, -1, -1.5]
     specs = {(242, 3807): (3760, 3777, 15), (242, 3907): (3856, 3873, 16),
              (243, 397): (359, 375, 1), (539, 2053): (1991, 2008, 12),
              (675, 1098): (1035, 1052, 6), (675, 1208): (1146, 1163, 6),
@@ -373,7 +387,7 @@ def test_refund_amount_same_property_and_conservative_rarity_upgrade_envelope(se
         assert [args for _, op, args in random if op == 0x46] == [[1269, 0]] * 3
         coefficients = [program.doubles[args[0]] for _, op, args in random if op == 0x2f]
         assert all(value > 0 for value in coefficients) and sum(coefficients) * 9 < 1
-        ops = {at: (op, args) for at, op, args in program.operations[1144]}
+        ops = source_addressed_ops(before, program, 1144)
         assert ops[77] == (0x66, [2086])  # displayed sellValue
         assert ops[84] == (0x46, [4755, 1])
         assert ops[366] == ops[375] == (0x66, [806])  # shadowCoreAmount destination/source
@@ -416,16 +430,18 @@ def test_refund_callers_and_reachable_mouse_domains(semantic_programs):
                 if selected:
                     callers[method] = selected
             assert callers == expected
-        ops = {method: {at: (op, args) for at, op, args in program.operations[method]}
+        ops = {method: source_addressed_ops(before, program, method)
                for method in (521, 612, 616, 675, 708, 1136, 1137, 1152, 1153)}
         assert inv.strings[11170:11172] == ['pDeselectEverything', 'pRefundByKeyboard']
         assert method_metadata(inv.reader.data)[675][4] == [(11, 11), (10, 10)]
         # Keyboard mode is the third parameter. It does not test mouseY=60.
         assert ops[675][880] == (0xd3, [])
-        assert ops[675][881] == (0x11, [221])
+        assert ops[675][881][0] == 0x11
         for keyboard in (False, True):
-            _, _, destination, _ = program.run(675, 880, 885, {3: keyboard})
-            assert destination == (1106 if keyboard else 885)
+            start, end = translated_span(before, program, 675, 880, 885)
+            _, _, destination, _ = program.run(675, start, end, {3: keyboard})
+            expected, _ = translated_span(before, program, 675, 1106 if keyboard else 885, 1212)
+            assert destination == expected
         assert [ops[612][at] for at in (117, 118, 144, 145, 146, 147)] == [
             (0x26, []), (0x46, [1156, 1]), (0xd1, []),
             (0x26, []), (0x26, []), (0x4f, [1253, 3])]

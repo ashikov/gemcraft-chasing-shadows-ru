@@ -1,7 +1,8 @@
 """Bounded AVM2 pool extension and straight-line method injection.
 
 Offsets address the already translated ABC. Branches and exception handlers land
-before inserted code. Exception ends exclude code inserted at their end boundary.
+before ordinary insertions, but skip explicitly marked after-call code.
+Exception ends exclude code inserted at their end boundary.
 This is structural relocation, not an AVM2 stack/type verifier; callers own the
 snippet's receiver types, stack balance, scope and declared resource increments.
 """
@@ -183,6 +184,8 @@ def insert_method_code(data, insertions, *, extra_stack=None, extra_locals=None)
 
     Explicit nonnegative increments update max_stack/local_count. No new scope is
     permitted by the snippets. Unselected method bodies remain byte-identical.
+    A third site item, 'after_call', requires a preceding callpropvoid and makes
+    the snippet run only on its fallthrough, not on branches or handler entries.
     """
     data = bytes(data)
     before = _inventory(data)
@@ -201,10 +204,20 @@ def insert_method_code(data, insertions, *, extra_stack=None, extra_locals=None)
         start, end, limits, code, exceptions, traits = bodies[method]
         instructions = before.instructions(code, method)
         boundaries = {offset for offset, _, _ in instructions} | {len(code)}
-        snippets = {}
-        for offset, snippet in sites:
+        positions = {offset: index for index, (offset, _, _) in enumerate(instructions)}
+        snippets, after_calls = {}, set()
+        for site in sites:
+            if not isinstance(site, (list, tuple)) or len(site) not in (2, 3):
+                raise ValueError('Insertion needs offset, code and optional after_call mode')
+            offset, snippet = site[:2]
             if type(offset) is not int or offset not in boundaries or offset in snippets:
                 raise ValueError('Insertion is not a unique instruction boundary')
+            if len(site) == 3:
+                position = positions.get(offset, 0)
+                if (site[2] != 'after_call' or offset not in positions or position == 0
+                        or instructions[position - 1][1] != 0x4f):
+                    raise ValueError('after_call insertion must follow callpropvoid')
+                after_calls.add(offset)
             snippet = bytes(snippet)
             if not snippet:
                 raise ValueError('Empty ABC insertion')
@@ -217,6 +230,8 @@ def insert_method_code(data, insertions, *, extra_stack=None, extra_locals=None)
             snippets[offset] = snippet
         def relocated(offset):
             return offset + sum(len(s) for at, s in snippets.items() if at < offset)
+        def entry_target(offset):
+            return relocated(offset) + (len(snippets[offset]) if offset in after_calls else 0)
         output = bytearray()
         for index, (offset, opcode, operands) in enumerate(instructions):
             output.extend(snippets.get(offset, b''))
@@ -224,21 +239,22 @@ def insert_method_code(data, insertions, *, extra_stack=None, extra_locals=None)
             raw = bytearray(code[offset:next_offset])
             instruction_start = relocated(offset) + len(snippets.get(offset, b''))
             if 0x0C <= opcode <= 0x1A:
-                raw[1:4] = _s24(relocated(next_offset + operands[0]) - (instruction_start + len(raw)))
+                raw[1:4] = _s24(entry_target(next_offset + operands[0]) - (instruction_start + len(raw)))
             elif opcode == 0x1B:
-                raw[1:4] = _s24(relocated(offset + operands[0]) - instruction_start)
+                raw[1:4] = _s24(entry_target(offset + operands[0]) - instruction_start)
                 reader = ABCReader(raw)
                 reader.pos = 4
                 reader.u30()
                 for delta in operands[2:]:
-                    raw[reader.pos:reader.pos + 3] = _s24(relocated(offset + delta) - instruction_start)
+                    raw[reader.pos:reader.pos + 3] = _s24(entry_target(offset + delta) - instruction_start)
                     reader.pos += 3
             output.extend(raw)
         output.extend(snippets.get(len(code), b''))
         for exception in exceptions:
             if any(at not in boundaries for at in exception[:3]):
                 raise ValueError('Exception is not an instruction boundary')
-            exception[:3] = [relocated(at) for at in exception[:3]]
+            begin, exception_end, target = exception[:3]
+            exception[:3] = [entry_target(begin), relocated(exception_end), entry_target(target)]
         for position, increments in ((0, extra_stack), (1, extra_locals)):
             increment = increments.get(method, 0)
             if type(increment) is not int or increment < 0:

@@ -1,4 +1,9 @@
-"""Real-outline bitmap envelopes and inherited placement risks; not an AIR renderer."""
+"""Unadjusted PR32 outline reference; corrected placement has a separate local suite.
+
+This counterfactual retains the source call coordinates and motion to reproduce
+the finding at 329c125. test_bitmap_placement_local checks actual post-call edits.
+Neither model is an AIR renderer.
+"""
 import json
 from itertools import product
 from math import ceil, floor
@@ -342,7 +347,7 @@ def test_all_forty_complete_phrases_actual_outlines_and_motion_envelopes(layout_
         for item in risks.values():
             item['integer_coordinates'] = sorted(item['integer_coordinates'])
     (root / 'bitmap-completion-geometry.json').write_text(json.dumps({
-        'model': 'Actual SWF contours; both kerning states; 2x raster/.5 bitmap; not AIR',
+        'model': 'Unadjusted PR32 reference before post-call placement; actual contours; not AIR',
         'scales': SCALES, 'calls': summaries, 'screen_exit_probes': risk_counts,
         'examples': risk_examples, 'new_exit_examples': new_risk_examples,
         'affected_trajectories': trajectories,

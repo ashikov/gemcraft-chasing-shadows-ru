@@ -11,6 +11,7 @@ from localization_project import check_workspace
 from localization_workspace import validate_workspace
 from swf_geometry import read_swf
 from test_bitmap_completion import CALLS, IDS, NUMERIC_CALLS, PROMOTED
+from test_bitmap_placement import without_placement_ops
 from test_pr13_stats_local import method_metadata
 from test_talisman_local import abc_bytes, abc_inventory
 from translation_catalog import load_catalog
@@ -104,7 +105,8 @@ def test_exact_calls_only_addressed_literals_one_swap_and_unchanged_arguments(co
     for method, calls in CALLS.items():
         source_ops = origin.instructions(source_bodies[method][3], method)
         old = before.instructions(old_bodies[method][3], method)
-        new = after.instructions(new_bodies[method][3], method)
+        new = without_placement_ops(after, method, after.instructions(new_bodies[method][3], method),
+                                    require=True)
         assert {at for at, op, args in source_ops if op == 0x4f and origin.multiname(args[0]) in (
             'createFloatingText', 'createFloatingTextOutgame')} == set(calls)
         # PR27 already translated m695@1400 and inserted one floater binding
@@ -129,7 +131,12 @@ def test_exact_calls_only_addressed_literals_one_swap_and_unchanged_arguments(co
                 addressed[baseline_offset(at)] = key
         assert {at for at, op, args in old if op == 0x4f and before.multiname(args[0]) in (
             'createFloatingText', 'createFloatingTextOutgame')} == {baseline_offset(at) for at in calls}
-        assert old_bodies[method][2] == new_bodies[method][2]
+        expected_limits = list(old_bodies[method][2])
+        if method in (566, 567, 675, 1144):
+            expected_limits[0] += 7
+        # PR27's existing m695 binding already reserves eight stack slots;
+        # its budget dominates the seven needed by the new placement snippet.
+        assert new_bodies[method][2] == expected_limits
         assert old_bodies[method][4:] == new_bodies[method][4:]
         swap = method == 243
         if swap:
@@ -158,7 +165,7 @@ def test_exact_calls_only_addressed_literals_one_swap_and_unchanged_arguments(co
                 assert [old_index[at + d] for d in (args[0], *args[2:])] == [
                     new_index[new_at + d] for d in (new_args[0], *new_args[2:])]
             else:
-                assert args == new_args  # all game calculations and every call argument
+                assert args == new_args  # all game calculations and every original call argument
         assert not [row for row in after.unsupported + after.control_flow_anomalies
                     if row['method_index'] == method]
     assert seen == IDS

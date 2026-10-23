@@ -10,6 +10,244 @@
       "tag_path": [
         4175
       ]
+    },
+    {
+      "call_offset": 1841,
+      "expected_opcode": 240,
+      "expected_operands": [
+        401
+      ],
+      "extra_stack": 7,
+      "instruction_index": 803,
+      "kind": "bitmap_placement",
+      "method_index": 566,
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "call_offset": 2162,
+      "expected_opcode": 240,
+      "expected_operands": [
+        414
+      ],
+      "extra_stack": 7,
+      "instruction_index": 939,
+      "kind": "bitmap_placement",
+      "method_index": 566,
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "call_offset": 2495,
+      "expected_opcode": 240,
+      "expected_operands": [
+        427
+      ],
+      "extra_stack": 7,
+      "instruction_index": 1080,
+      "kind": "bitmap_placement",
+      "method_index": 566,
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "call_offset": 2887,
+      "expected_opcode": 240,
+      "expected_operands": [
+        442
+      ],
+      "extra_stack": 7,
+      "instruction_index": 1245,
+      "kind": "bitmap_placement",
+      "method_index": 566,
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "call_offset": 1960,
+      "expected_opcode": 240,
+      "expected_operands": [
+        581
+      ],
+      "extra_stack": 7,
+      "instruction_index": 821,
+      "kind": "bitmap_placement",
+      "method_index": 567,
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "call_offset": 2270,
+      "expected_opcode": 240,
+      "expected_operands": [
+        593
+      ],
+      "extra_stack": 7,
+      "instruction_index": 953,
+      "kind": "bitmap_placement",
+      "method_index": 567,
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "call_offset": 2606,
+      "expected_opcode": 240,
+      "expected_operands": [
+        606
+      ],
+      "extra_stack": 7,
+      "instruction_index": 1094,
+      "kind": "bitmap_placement",
+      "method_index": 567,
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "call_offset": 2988,
+      "expected_opcode": 240,
+      "expected_operands": [
+        620
+      ],
+      "extra_stack": 7,
+      "instruction_index": 1255,
+      "kind": "bitmap_placement",
+      "method_index": 567,
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "call_offset": 1098,
+      "expected_opcode": 16,
+      "expected_operands": [
+        106
+      ],
+      "extra_stack": 7,
+      "instruction_index": 432,
+      "kind": "bitmap_placement",
+      "method_index": 675,
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "call_offset": 1208,
+      "expected_opcode": 240,
+      "expected_operands": [
+        1437
+      ],
+      "extra_stack": 7,
+      "instruction_index": 475,
+      "kind": "bitmap_placement",
+      "method_index": 675,
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "call_offset": 6275,
+      "expected_opcode": 16,
+      "expected_operands": [
+        129
+      ],
+      "extra_stack": 7,
+      "instruction_index": 2601,
+      "kind": "bitmap_placement",
+      "method_index": 695,
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "call_offset": 6408,
+      "expected_opcode": 240,
+      "expected_operands": [
+        432
+      ],
+      "extra_stack": 7,
+      "instruction_index": 2653,
+      "kind": "bitmap_placement",
+      "method_index": 695,
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "call_offset": 7124,
+      "expected_opcode": 240,
+      "expected_operands": [
+        466
+      ],
+      "extra_stack": 7,
+      "instruction_index": 2932,
+      "kind": "bitmap_placement",
+      "method_index": 695,
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "call_offset": 8017,
+      "expected_opcode": 240,
+      "expected_operands": [
+        513
+      ],
+      "extra_stack": 7,
+      "instruction_index": 3293,
+      "kind": "bitmap_placement",
+      "method_index": 695,
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "call_offset": 8986,
+      "expected_opcode": 240,
+      "expected_operands": [
+        563
+      ],
+      "extra_stack": 7,
+      "instruction_index": 3688,
+      "kind": "bitmap_placement",
+      "method_index": 695,
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "call_offset": 10165,
+      "expected_opcode": 240,
+      "expected_operands": [
+        630
+      ],
+      "extra_stack": 7,
+      "instruction_index": 4153,
+      "kind": "bitmap_placement",
+      "method_index": 695,
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "call_offset": 138,
+      "expected_opcode": 240,
+      "expected_operands": [
+        926
+      ],
+      "extra_stack": 7,
+      "instruction_index": 51,
+      "kind": "bitmap_placement",
+      "method_index": 1144,
+      "tag_path": [
+        4175
+      ]
     }
   ],
   "coverage_blockers": [],

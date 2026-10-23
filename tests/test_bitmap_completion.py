@@ -1,4 +1,5 @@
 """PR32's exact bitmap call/fragment contract; no proprietary resources."""
+from bitmap_notification_placement import placement_sites
 from translation_catalog import load_catalog
 
 PLAN = 'translations/plans/pr32-bitmap-completion.json'
@@ -41,8 +42,10 @@ def test_exact_forty_calls_and_all_fragments_in_one_cumulative_plan():
     assert set(plan['entry_ids']) == set(plan['layouts']) == IDS
     assert plan['fonts'] == [255]
     assert plan['empty_abc_strings'] == plan['unconfirmed'] == plan['coverage_blockers'] == []
-    assert [site['kind'] for site in plan['abc_font_bindings']] == ['kill_chain_prefix']
+    assert [site['kind'] for site in plan['abc_font_bindings']] == [
+        'kill_chain_prefix', *(['bitmap_placement'] * 17)]
     assert plan['abc_font_bindings'][0]['method_index'] == 243
+    assert plan['abc_font_bindings'][1:] == placement_sites()
     assert all(layout == {'font_id': 255, 'height': 560,
                           'max_width': 41600, 'wrap': False}
                for layout in plan['layouts'].values())
