@@ -317,3 +317,38 @@ def test_reviewed_orblet_count_literals_can_share_technical_symbols(offset, suff
 ])
 def test_orblet_symbols_remain_technical_without_reviewed_consumer(change):
     assert orblet_count_entries(**change)['classification'] == 'technical'
+
+
+def loot_gem_entry(offset=438, *, source='Gem', owner='IngameController',
+                   method='pickUpDrop', color=None, call_name='createFloatingText',
+                   count=13, size=12, interrupt=b''):
+    from abc_inventory import ABCInventory
+
+    inventory = ABCInventory(b'', {'tag_path': [3], 'tag_code': 82})
+    inventory.strings = ['', source, 'center', call_name]
+    inventory.multinames = [None, {'name': 3}]
+    inventory.symbols = {1: {'multiname'}}
+    inventory.method_labels[0] = [{'owner': owner, 'method': method}]
+    color = (342 if offset == 438 else 270) if color is None else color
+    tail = (b'\x2d' + u30(color) + b'\x24' + bytes([size]) + b'\x2c\2\x24\0'
+            + b'\x2f' + u30(190) + b'\x24\0\x2f\x0b\x24\x12\x24\0\x24\x0a'
+            + interrupt + b'\x4f\1' + u30(count))
+    code = b'\x02' * offset + b'\x2c\1' + tail + b'\x47'
+    inventory.body_entries(code, 0, 0)
+    return next(e for e in inventory.entries if e['location']['code_offset'] == offset)
+
+
+@pytest.mark.parametrize('offset', [438, 519])
+def test_reviewed_loot_gem_caption_is_a_task_despite_shared_class_symbol(offset):
+    entry = loot_gem_entry(offset)
+    assert entry['classification'] == 'probable'
+    assert entry['context_confidence'] != 'confirmed'
+
+
+@pytest.mark.parametrize('change', [
+    {'offset': 439}, {'source': 'Other'}, {'owner': 'OtherController'},
+    {'method': 'otherMethod'}, {'color': 343}, {'size': 13},
+    {'call_name': 'otherCall'}, {'count': 12}, {'interrupt': b'\x10\0\0\0'},
+])
+def test_loot_gem_symbol_stays_technical_without_exact_display_guards(change):
+    assert loot_gem_entry(**change)['classification'] == 'technical'
