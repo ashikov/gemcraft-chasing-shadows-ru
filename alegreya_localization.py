@@ -235,6 +235,10 @@ def build_alegreya_localization(original, workspace, plan, ttf_bytes):
     for tag, _, _ in walk_tags(original_tags):
         if len(tag.payload) >= 2 and int.from_bytes(tag.payload[:2], 'little') in FONT_IDS:
             raise ValueError('Independent Alegreya resource ID collision')
+    category_labels = plan.get('achievement_category_labels', [])
+    if category_labels:
+        from achievement_category_binding import validate_category_selection
+        validate_category_selection(category_labels, plan['entry_ids'])
     selected = set(plan['entry_ids'])
     characters = set(chr(code) for code in range(32, 127)) | RUSSIAN_ALPHABET
     characters.update(TRANSLATION)
@@ -256,6 +260,11 @@ def build_alegreya_localization(original, workspace, plan, ttf_bytes):
         original_tags[ABC_TAG].payload[old_start:], tags[ABC_TAG].payload[start:],
         plan.get('abc_font_bindings', []),
     )
+    from achievement_category_binding import apply_category_labels
+    abc, category_report = apply_category_labels(
+        original_tags[ABC_TAG].payload[old_start:], abc, workspace, category_labels)
+    if category_report:
+        report['achievement_category_labels'] = category_report
     tags[ABC_TAG] = Tag(82, tags[ABC_TAG].payload[:start] + abc)
     additions = []
     for font in (regular, bold):

@@ -356,6 +356,7 @@ class ABCInventory:
         return offsets
 
     def body_entries(self, code, method, code_start):
+        from achievement_category_binding import is_category_label_literal
         instructions = self.instructions(code, method)
         gem_colors = self.gem_color_offsets(instructions, method)
         building_captions = {}
@@ -452,6 +453,10 @@ class ABCInventory:
                         and self.multiname(bitmap_tail[10][2][0]) == "createFloatingText"):
                     classification = "probable"
                     context = "Reviewed loot gem bitmap caption in pickUpDrop; runtime display is unverified"
+            if is_category_label_literal(self, instructions, method, position):
+                classification = "probable"
+                context = ("Achievement category shared key; translate only the button display "
+                           "through the guarded category-label adapter, never the key initializer")
             self.entry(index, f"{method}.{offset}", extra, classification, context)
             if source and (extra.get("text_property") == "htmlText" or re.search(r"<[A-Za-z][^>]*>", source)):
                 self.entries[-1]["content_type"] = "html_fragment"

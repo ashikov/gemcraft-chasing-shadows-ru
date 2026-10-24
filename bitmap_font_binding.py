@@ -1,7 +1,8 @@
 """One guarded, branchless font choice before VfxFloatingText rasterization."""
 from abc_patch import _u30
 
-CYRILLIC_PATTERN = r'[\u0400-\u04FF]'
+# Raw ABC strings bypass AS3 source unescaping; PCRE1 rejects literal \u escapes.
+CYRILLIC_PATTERN = '[Ѐ-ӿ]'
 AS3_NAMESPACE = 'http://adobe.com/AS3/2006/builtin'
 
 

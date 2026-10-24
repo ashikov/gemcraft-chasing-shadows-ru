@@ -1,0 +1,610 @@
+{
+  "achievement_category_labels": [
+    "abc.4175.220.11",
+    "abc.4175.220.26",
+    "abc.4175.220.41",
+    "abc.4175.220.56",
+    "abc.4175.220.71",
+    "abc.4175.220.86",
+    "abc.4175.220.101",
+    "abc.4175.220.116",
+    "abc.4175.220.131",
+    "abc.4175.220.146",
+    "abc.4175.220.161",
+    "abc.4175.220.176",
+    "abc.4175.220.191",
+    "abc.4175.220.206",
+    "abc.4175.220.221",
+    "abc.4175.220.236",
+    "abc.4175.220.251",
+    "abc.4175.220.266",
+    "abc.4175.220.281",
+    "abc.4175.220.296",
+    "abc.4175.220.311",
+    "abc.4175.220.326",
+    "abc.4175.220.341",
+    "abc.4175.220.356",
+    "abc.4175.220.371",
+    "abc.4175.220.386",
+    "abc.4175.220.401",
+    "abc.4175.220.416",
+    "abc.4175.220.431",
+    "abc.4175.220.446",
+    "abc.4175.220.461",
+    "abc.4175.220.476",
+    "abc.4175.220.491",
+    "abc.4175.220.506",
+    "abc.4175.220.521",
+    "abc.4175.220.536",
+    "abc.4175.220.551",
+    "abc.4175.220.566",
+    "abc.4175.220.581",
+    "abc.4175.220.596",
+    "abc.4175.220.611",
+    "abc.4175.220.626",
+    "abc.4175.220.641",
+    "abc.4175.220.656",
+    "abc.4175.220.671",
+    "abc.4175.220.686",
+    "abc.4175.220.701",
+    "abc.4175.220.716",
+    "abc.4175.220.731",
+    "abc.4175.220.746",
+    "abc.4175.220.761",
+    "abc.4175.220.776",
+    "abc.4175.220.791",
+    "abc.4175.220.806",
+    "abc.4175.220.821",
+    "abc.4175.220.836",
+    "abc.4175.220.851",
+    "abc.4175.220.866",
+    "abc.4175.220.881",
+    "abc.4175.220.896",
+    "abc.4175.220.911",
+    "abc.4175.220.926",
+    "abc.4175.220.941",
+    "abc.4175.220.956",
+    "abc.4175.220.971",
+    "abc.4175.220.986"
+  ],
+  "coverage_blockers": [
+    "Runtime acceptance of achievement categories and cumulative UI remains separate."
+  ],
+  "entry_ids": [
+    "abc.4175.220.11",
+    "abc.4175.220.26",
+    "abc.4175.220.41",
+    "abc.4175.220.56",
+    "abc.4175.220.71",
+    "abc.4175.220.86",
+    "abc.4175.220.101",
+    "abc.4175.220.116",
+    "abc.4175.220.131",
+    "abc.4175.220.146",
+    "abc.4175.220.161",
+    "abc.4175.220.176",
+    "abc.4175.220.191",
+    "abc.4175.220.206",
+    "abc.4175.220.221",
+    "abc.4175.220.236",
+    "abc.4175.220.251",
+    "abc.4175.220.266",
+    "abc.4175.220.281",
+    "abc.4175.220.296",
+    "abc.4175.220.311",
+    "abc.4175.220.326",
+    "abc.4175.220.341",
+    "abc.4175.220.356",
+    "abc.4175.220.371",
+    "abc.4175.220.386",
+    "abc.4175.220.401",
+    "abc.4175.220.416",
+    "abc.4175.220.431",
+    "abc.4175.220.446",
+    "abc.4175.220.461",
+    "abc.4175.220.476",
+    "abc.4175.220.491",
+    "abc.4175.220.506",
+    "abc.4175.220.521",
+    "abc.4175.220.536",
+    "abc.4175.220.551",
+    "abc.4175.220.566",
+    "abc.4175.220.581",
+    "abc.4175.220.596",
+    "abc.4175.220.611",
+    "abc.4175.220.626",
+    "abc.4175.220.641",
+    "abc.4175.220.656",
+    "abc.4175.220.671",
+    "abc.4175.220.686",
+    "abc.4175.220.701",
+    "abc.4175.220.716",
+    "abc.4175.220.731",
+    "abc.4175.220.746",
+    "abc.4175.220.761",
+    "abc.4175.220.776",
+    "abc.4175.220.791",
+    "abc.4175.220.806",
+    "abc.4175.220.821",
+    "abc.4175.220.836",
+    "abc.4175.220.851",
+    "abc.4175.220.866",
+    "abc.4175.220.881",
+    "abc.4175.220.896",
+    "abc.4175.220.911",
+    "abc.4175.220.926",
+    "abc.4175.220.941",
+    "abc.4175.220.956",
+    "abc.4175.220.971",
+    "abc.4175.220.986"
+  ],
+  "fonts": [
+    255
+  ],
+  "game_sha256": "c8eadc03a7e607086998695f7696ec22dd90d7b7859e3d10cdfabf40fc7bbad5",
+  "layouts": {
+    "abc.4175.220.101": {
+      "font_id": 255,
+      "height": 200,
+      "max_lines": 1,
+      "max_width": 3603,
+      "wrap": false
+    },
+    "abc.4175.220.11": {
+      "font_id": 255,
+      "height": 200,
+      "max_lines": 1,
+      "max_width": 3603,
+      "wrap": false
+    },
+    "abc.4175.220.116": {
+      "font_id": 255,
+      "height": 200,
+      "max_lines": 1,
+      "max_width": 3603,
+      "wrap": false
+    },
+    "abc.4175.220.131": {
+      "font_id": 255,
+      "height": 200,
+      "max_lines": 1,
+      "max_width": 3603,
+      "wrap": false
+    },
+    "abc.4175.220.146": {
+      "font_id": 255,
+      "height": 200,
+      "max_lines": 1,
+      "max_width": 3603,
+      "wrap": false
+    },
+    "abc.4175.220.161": {
+      "font_id": 255,
+      "height": 200,
+      "max_lines": 1,
+      "max_width": 3603,
+      "wrap": false
+    },
+    "abc.4175.220.176": {
+      "font_id": 255,
+      "height": 200,
+      "max_lines": 1,
+      "max_width": 3603,
+      "wrap": false
+    },
+    "abc.4175.220.191": {
+      "font_id": 255,
+      "height": 200,
+      "max_lines": 1,
+      "max_width": 3603,
+      "wrap": false
+    },
+    "abc.4175.220.206": {
+      "font_id": 255,
+      "height": 200,
+      "max_lines": 1,
+      "max_width": 3603,
+      "wrap": false
+    },
+    "abc.4175.220.221": {
+      "font_id": 255,
+      "height": 200,
+      "max_lines": 1,
+      "max_width": 3603,
+      "wrap": false
+    },
+    "abc.4175.220.236": {
+      "font_id": 255,
+      "height": 200,
+      "max_lines": 1,
+      "max_width": 3603,
+      "wrap": false
+    },
+    "abc.4175.220.251": {
+      "font_id": 255,
+      "height": 200,
+      "max_lines": 1,
+      "max_width": 3603,
+      "wrap": false
+    },
+    "abc.4175.220.26": {
+      "font_id": 255,
+      "height": 200,
+      "max_lines": 1,
+      "max_width": 3603,
+      "wrap": false
+    },
+    "abc.4175.220.266": {
+      "font_id": 255,
+      "height": 200,
+      "max_lines": 1,
+      "max_width": 3603,
+      "wrap": false
+    },
+    "abc.4175.220.281": {
+      "font_id": 255,
+      "height": 200,
+      "max_lines": 1,
+      "max_width": 3603,
+      "wrap": false
+    },
+    "abc.4175.220.296": {
+      "font_id": 255,
+      "height": 200,
+      "max_lines": 1,
+      "max_width": 3603,
+      "wrap": false
+    },
+    "abc.4175.220.311": {
+      "font_id": 255,
+      "height": 200,
+      "max_lines": 1,
+      "max_width": 3603,
+      "wrap": false
+    },
+    "abc.4175.220.326": {
+      "font_id": 255,
+      "height": 200,
+      "max_lines": 1,
+      "max_width": 3603,
+      "wrap": false
+    },
+    "abc.4175.220.341": {
+      "font_id": 255,
+      "height": 200,
+      "max_lines": 1,
+      "max_width": 3603,
+      "wrap": false
+    },
+    "abc.4175.220.356": {
+      "font_id": 255,
+      "height": 200,
+      "max_lines": 1,
+      "max_width": 3603,
+      "wrap": false
+    },
+    "abc.4175.220.371": {
+      "font_id": 255,
+      "height": 200,
+      "max_lines": 1,
+      "max_width": 3603,
+      "wrap": false
+    },
+    "abc.4175.220.386": {
+      "font_id": 255,
+      "height": 200,
+      "max_lines": 1,
+      "max_width": 3603,
+      "wrap": false
+    },
+    "abc.4175.220.401": {
+      "font_id": 255,
+      "height": 200,
+      "max_lines": 1,
+      "max_width": 3603,
+      "wrap": false
+    },
+    "abc.4175.220.41": {
+      "font_id": 255,
+      "height": 200,
+      "max_lines": 1,
+      "max_width": 3603,
+      "wrap": false
+    },
+    "abc.4175.220.416": {
+      "font_id": 255,
+      "height": 200,
+      "max_lines": 1,
+      "max_width": 3603,
+      "wrap": false
+    },
+    "abc.4175.220.431": {
+      "font_id": 255,
+      "height": 200,
+      "max_lines": 1,
+      "max_width": 3603,
+      "wrap": false
+    },
+    "abc.4175.220.446": {
+      "font_id": 255,
+      "height": 200,
+      "max_lines": 1,
+      "max_width": 3603,
+      "wrap": false
+    },
+    "abc.4175.220.461": {
+      "font_id": 255,
+      "height": 200,
+      "max_lines": 1,
+      "max_width": 3603,
+      "wrap": false
+    },
+    "abc.4175.220.476": {
+      "font_id": 255,
+      "height": 200,
+      "max_lines": 1,
+      "max_width": 3603,
+      "wrap": false
+    },
+    "abc.4175.220.491": {
+      "font_id": 255,
+      "height": 200,
+      "max_lines": 1,
+      "max_width": 3603,
+      "wrap": false
+    },
+    "abc.4175.220.506": {
+      "font_id": 255,
+      "height": 200,
+      "max_lines": 1,
+      "max_width": 3603,
+      "wrap": false
+    },
+    "abc.4175.220.521": {
+      "font_id": 255,
+      "height": 200,
+      "max_lines": 1,
+      "max_width": 3603,
+      "wrap": false
+    },
+    "abc.4175.220.536": {
+      "font_id": 255,
+      "height": 200,
+      "max_lines": 1,
+      "max_width": 3603,
+      "wrap": false
+    },
+    "abc.4175.220.551": {
+      "font_id": 255,
+      "height": 200,
+      "max_lines": 1,
+      "max_width": 3603,
+      "wrap": false
+    },
+    "abc.4175.220.56": {
+      "font_id": 255,
+      "height": 200,
+      "max_lines": 1,
+      "max_width": 3603,
+      "wrap": false
+    },
+    "abc.4175.220.566": {
+      "font_id": 255,
+      "height": 200,
+      "max_lines": 1,
+      "max_width": 3603,
+      "wrap": false
+    },
+    "abc.4175.220.581": {
+      "font_id": 255,
+      "height": 200,
+      "max_lines": 1,
+      "max_width": 3603,
+      "wrap": false
+    },
+    "abc.4175.220.596": {
+      "font_id": 255,
+      "height": 200,
+      "max_lines": 1,
+      "max_width": 3603,
+      "wrap": false
+    },
+    "abc.4175.220.611": {
+      "font_id": 255,
+      "height": 200,
+      "max_lines": 1,
+      "max_width": 3603,
+      "wrap": false
+    },
+    "abc.4175.220.626": {
+      "font_id": 255,
+      "height": 200,
+      "max_lines": 1,
+      "max_width": 3603,
+      "wrap": false
+    },
+    "abc.4175.220.641": {
+      "font_id": 255,
+      "height": 200,
+      "max_lines": 1,
+      "max_width": 3603,
+      "wrap": false
+    },
+    "abc.4175.220.656": {
+      "font_id": 255,
+      "height": 200,
+      "max_lines": 1,
+      "max_width": 3603,
+      "wrap": false
+    },
+    "abc.4175.220.671": {
+      "font_id": 255,
+      "height": 200,
+      "max_lines": 1,
+      "max_width": 3603,
+      "wrap": false
+    },
+    "abc.4175.220.686": {
+      "font_id": 255,
+      "height": 200,
+      "max_lines": 1,
+      "max_width": 3603,
+      "wrap": false
+    },
+    "abc.4175.220.701": {
+      "font_id": 255,
+      "height": 200,
+      "max_lines": 1,
+      "max_width": 3603,
+      "wrap": false
+    },
+    "abc.4175.220.71": {
+      "font_id": 255,
+      "height": 200,
+      "max_lines": 1,
+      "max_width": 3603,
+      "wrap": false
+    },
+    "abc.4175.220.716": {
+      "font_id": 255,
+      "height": 200,
+      "max_lines": 1,
+      "max_width": 3603,
+      "wrap": false
+    },
+    "abc.4175.220.731": {
+      "font_id": 255,
+      "height": 200,
+      "max_lines": 1,
+      "max_width": 3603,
+      "wrap": false
+    },
+    "abc.4175.220.746": {
+      "font_id": 255,
+      "height": 200,
+      "max_lines": 1,
+      "max_width": 3603,
+      "wrap": false
+    },
+    "abc.4175.220.761": {
+      "font_id": 255,
+      "height": 200,
+      "max_lines": 1,
+      "max_width": 3603,
+      "wrap": false
+    },
+    "abc.4175.220.776": {
+      "font_id": 255,
+      "height": 200,
+      "max_lines": 1,
+      "max_width": 3603,
+      "wrap": false
+    },
+    "abc.4175.220.791": {
+      "font_id": 255,
+      "height": 200,
+      "max_lines": 1,
+      "max_width": 3603,
+      "wrap": false
+    },
+    "abc.4175.220.806": {
+      "font_id": 255,
+      "height": 200,
+      "max_lines": 1,
+      "max_width": 3603,
+      "wrap": false
+    },
+    "abc.4175.220.821": {
+      "font_id": 255,
+      "height": 200,
+      "max_lines": 1,
+      "max_width": 3603,
+      "wrap": false
+    },
+    "abc.4175.220.836": {
+      "font_id": 255,
+      "height": 200,
+      "max_lines": 1,
+      "max_width": 3603,
+      "wrap": false
+    },
+    "abc.4175.220.851": {
+      "font_id": 255,
+      "height": 200,
+      "max_lines": 1,
+      "max_width": 3603,
+      "wrap": false
+    },
+    "abc.4175.220.86": {
+      "font_id": 255,
+      "height": 200,
+      "max_lines": 1,
+      "max_width": 3603,
+      "wrap": false
+    },
+    "abc.4175.220.866": {
+      "font_id": 255,
+      "height": 200,
+      "max_lines": 1,
+      "max_width": 3603,
+      "wrap": false
+    },
+    "abc.4175.220.881": {
+      "font_id": 255,
+      "height": 200,
+      "max_lines": 1,
+      "max_width": 3603,
+      "wrap": false
+    },
+    "abc.4175.220.896": {
+      "font_id": 255,
+      "height": 200,
+      "max_lines": 1,
+      "max_width": 3603,
+      "wrap": false
+    },
+    "abc.4175.220.911": {
+      "font_id": 255,
+      "height": 200,
+      "max_lines": 1,
+      "max_width": 3603,
+      "wrap": false
+    },
+    "abc.4175.220.926": {
+      "font_id": 255,
+      "height": 200,
+      "max_lines": 1,
+      "max_width": 3603,
+      "wrap": false
+    },
+    "abc.4175.220.941": {
+      "font_id": 255,
+      "height": 200,
+      "max_lines": 1,
+      "max_width": 3603,
+      "wrap": false
+    },
+    "abc.4175.220.956": {
+      "font_id": 255,
+      "height": 200,
+      "max_lines": 1,
+      "max_width": 3603,
+      "wrap": false
+    },
+    "abc.4175.220.971": {
+      "font_id": 255,
+      "height": 200,
+      "max_lines": 1,
+      "max_width": 3603,
+      "wrap": false
+    },
+    "abc.4175.220.986": {
+      "font_id": 255,
+      "height": 200,
+      "max_lines": 1,
+      "max_width": 3603,
+      "wrap": false
+    }
+  },
+  "schema_version": 1
+}

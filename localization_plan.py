@@ -106,6 +106,16 @@ def merge_localization_plans(plans, workspace):
             result['empty_abc_strings'].append(identifier)
     if empty_strings & seen_ids:
         raise ValueError('Translated entry cannot be an empty ABC string')
+    if any(not isinstance(plan.get('achievement_category_labels', []), list) for plan in plans):
+        raise ValueError('Invalid achievement category display selection')
+    display_ids = [identifier for plan in plans
+                   for identifier in plan.get('achievement_category_labels', [])]
+    if display_ids:
+        from achievement_category_binding import validate_category_selection
+        validate_category_selection(display_ids, result['entry_ids'])
+        result['achievement_category_labels'] = display_ids
+    elif any('achievement_category_labels' in plan for plan in plans):
+        raise ValueError('Invalid achievement category display selection')
     result['fonts'] = sorted(fonts)
     result['abc_font_bindings'].sort(key=_binding_key)
     result['empty_abc_strings'].sort()
@@ -338,8 +348,9 @@ def resolve_plan_font_bindings(original, translated, sites):
                            + previous + b'\x66' + _u30(5360)
                            + b'\xa0\x24\x03\xa0\x61' + _u30(3367))
             return result
+        # A branch that skipped panel creation must also skip its field reads.
         return {method: [(offset, binding(receivers, kind, original_family_index, panel_receiver), 'after_call')
-                         if kind == 'bitmap_placement' else
+                         if kind in ('bitmap_placement', 'floater') else
                          (offset, binding(receivers, kind, original_family_index, panel_receiver))
                          for offset, receivers, kind, original_family_index, panel_receiver in locations]
                 for method, locations in planned.items()}
