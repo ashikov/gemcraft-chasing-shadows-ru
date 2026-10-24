@@ -7,6 +7,8 @@ from abc_patch import _u30
 from bitmap_font_binding import (
     bitmap_font_selector, bitmap_selector_pool_indices, validate_bitmap_font_site,
 )
+from bitmap_notification_binding import validate_kill_chain_prefix
+from bitmap_notification_placement import validate_bitmap_placement_site
 
 
 def _path(value):
@@ -194,6 +196,16 @@ def resolve_plan_font_bindings(original, translated, sites):
             if index >= len(old_ops) or old_ops[index][1:] != (guard['opcode'], guard['operands']):
                 raise ValueError('Unexpected original ABC receiver instruction')
         kind = site.get('kind')
+        if kind == 'bitmap_placement':
+            code = validate_bitmap_placement_site(before, after, old_ops, new_ops, site)
+            planned.setdefault(method, []).append((new_ops[position][0], [code], kind, None, None))
+            increments[method] = max(increments.get(method, 0), 7)
+            continue
+        if kind == 'kill_chain_prefix':
+            validate_kill_chain_prefix(before, after, old_ops, new_ops, site)
+            planned.setdefault(method, []).append((new_ops[position][0], [], kind, None, None))
+            increments[method] = max(increments.get(method, 0), 0)
+            continue
         if kind not in ('field', 'tooltip', 'panel_format_before', 'panel_format_after',
                         'floater', 'floater_fields', 'bitmap_cyrillic'):
             raise ValueError('Unsupported font binding kind')
@@ -286,6 +298,10 @@ def resolve_plan_font_bindings(original, translated, sites):
         bitmap_indices = (bitmap_selector_pool_indices(translated)
                           if any(site['kind'] == 'bitmap_cyrillic' for site in sites) else None)
         def binding(receivers, kind, original_family_index, panel_receiver):
+            if kind == 'bitmap_placement':
+                return receivers[0]
+            if kind == 'kill_chain_prefix':
+                return b'\x2b'
             if kind == 'bitmap_cyrillic':
                 return bitmap_font_selector(family_index, **bitmap_indices)
             if kind.startswith('panel_format_'):
@@ -322,7 +338,9 @@ def resolve_plan_font_bindings(original, translated, sites):
                            + previous + b'\x66' + _u30(5360)
                            + b'\xa0\x24\x03\xa0\x61' + _u30(3367))
             return result
-        return {method: [(offset, binding(receivers, kind, original_family_index, panel_receiver))
+        return {method: [(offset, binding(receivers, kind, original_family_index, panel_receiver), 'after_call')
+                         if kind == 'bitmap_placement' else
+                         (offset, binding(receivers, kind, original_family_index, panel_receiver))
                          for offset, receivers, kind, original_family_index, panel_receiver in locations]
                 for method, locations in planned.items()}
 

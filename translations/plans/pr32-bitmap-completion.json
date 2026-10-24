@@ -1,0 +1,601 @@
+{
+  "abc_font_bindings": [
+    {
+      "expected_opcode": 160,
+      "expected_operands": [],
+      "extra_stack": 0,
+      "instruction_index": 117,
+      "kind": "kill_chain_prefix",
+      "method_index": 243,
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "call_offset": 1841,
+      "expected_opcode": 240,
+      "expected_operands": [
+        401
+      ],
+      "extra_stack": 7,
+      "instruction_index": 803,
+      "kind": "bitmap_placement",
+      "method_index": 566,
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "call_offset": 2162,
+      "expected_opcode": 240,
+      "expected_operands": [
+        414
+      ],
+      "extra_stack": 7,
+      "instruction_index": 939,
+      "kind": "bitmap_placement",
+      "method_index": 566,
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "call_offset": 2495,
+      "expected_opcode": 240,
+      "expected_operands": [
+        427
+      ],
+      "extra_stack": 7,
+      "instruction_index": 1080,
+      "kind": "bitmap_placement",
+      "method_index": 566,
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "call_offset": 2887,
+      "expected_opcode": 240,
+      "expected_operands": [
+        442
+      ],
+      "extra_stack": 7,
+      "instruction_index": 1245,
+      "kind": "bitmap_placement",
+      "method_index": 566,
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "call_offset": 1960,
+      "expected_opcode": 240,
+      "expected_operands": [
+        581
+      ],
+      "extra_stack": 7,
+      "instruction_index": 821,
+      "kind": "bitmap_placement",
+      "method_index": 567,
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "call_offset": 2270,
+      "expected_opcode": 240,
+      "expected_operands": [
+        593
+      ],
+      "extra_stack": 7,
+      "instruction_index": 953,
+      "kind": "bitmap_placement",
+      "method_index": 567,
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "call_offset": 2606,
+      "expected_opcode": 240,
+      "expected_operands": [
+        606
+      ],
+      "extra_stack": 7,
+      "instruction_index": 1094,
+      "kind": "bitmap_placement",
+      "method_index": 567,
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "call_offset": 2988,
+      "expected_opcode": 240,
+      "expected_operands": [
+        620
+      ],
+      "extra_stack": 7,
+      "instruction_index": 1255,
+      "kind": "bitmap_placement",
+      "method_index": 567,
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "call_offset": 1098,
+      "expected_opcode": 16,
+      "expected_operands": [
+        106
+      ],
+      "extra_stack": 7,
+      "instruction_index": 432,
+      "kind": "bitmap_placement",
+      "method_index": 675,
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "call_offset": 1208,
+      "expected_opcode": 240,
+      "expected_operands": [
+        1437
+      ],
+      "extra_stack": 7,
+      "instruction_index": 475,
+      "kind": "bitmap_placement",
+      "method_index": 675,
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "call_offset": 6275,
+      "expected_opcode": 16,
+      "expected_operands": [
+        129
+      ],
+      "extra_stack": 7,
+      "instruction_index": 2601,
+      "kind": "bitmap_placement",
+      "method_index": 695,
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "call_offset": 6408,
+      "expected_opcode": 240,
+      "expected_operands": [
+        432
+      ],
+      "extra_stack": 7,
+      "instruction_index": 2653,
+      "kind": "bitmap_placement",
+      "method_index": 695,
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "call_offset": 7124,
+      "expected_opcode": 240,
+      "expected_operands": [
+        466
+      ],
+      "extra_stack": 7,
+      "instruction_index": 2932,
+      "kind": "bitmap_placement",
+      "method_index": 695,
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "call_offset": 8017,
+      "expected_opcode": 240,
+      "expected_operands": [
+        513
+      ],
+      "extra_stack": 7,
+      "instruction_index": 3293,
+      "kind": "bitmap_placement",
+      "method_index": 695,
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "call_offset": 8986,
+      "expected_opcode": 240,
+      "expected_operands": [
+        563
+      ],
+      "extra_stack": 7,
+      "instruction_index": 3688,
+      "kind": "bitmap_placement",
+      "method_index": 695,
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "call_offset": 10165,
+      "expected_opcode": 240,
+      "expected_operands": [
+        630
+      ],
+      "extra_stack": 7,
+      "instruction_index": 4153,
+      "kind": "bitmap_placement",
+      "method_index": 695,
+      "tag_path": [
+        4175
+      ]
+    },
+    {
+      "call_offset": 138,
+      "expected_opcode": 240,
+      "expected_operands": [
+        926
+      ],
+      "extra_stack": 7,
+      "instruction_index": 51,
+      "kind": "bitmap_placement",
+      "method_index": 1144,
+      "tag_path": [
+        4175
+      ]
+    }
+  ],
+  "coverage_blockers": [],
+  "empty_abc_strings": [],
+  "entry_ids": [
+    "abc.4175.1144.70",
+    "abc.4175.1144.89",
+    "abc.4175.1596.4661",
+    "abc.4175.1596.4744",
+    "abc.4175.1596.4757",
+    "abc.4175.242.3760",
+    "abc.4175.242.3773",
+    "abc.4175.242.3856",
+    "abc.4175.242.3869",
+    "abc.4175.242.4226",
+    "abc.4175.243.279",
+    "abc.4175.243.359",
+    "abc.4175.243.371",
+    "abc.4175.539.1991",
+    "abc.4175.539.2004",
+    "abc.4175.566.1793",
+    "abc.4175.566.2114",
+    "abc.4175.566.2447",
+    "abc.4175.566.2839",
+    "abc.4175.567.1912",
+    "abc.4175.567.2222",
+    "abc.4175.567.2558",
+    "abc.4175.567.2940",
+    "abc.4175.615.488",
+    "abc.4175.663.243",
+    "abc.4175.664.388",
+    "abc.4175.665.1066",
+    "abc.4175.665.423",
+    "abc.4175.666.1043",
+    "abc.4175.666.373",
+    "abc.4175.669.767",
+    "abc.4175.670.993",
+    "abc.4175.675.1035",
+    "abc.4175.675.1048",
+    "abc.4175.675.1146",
+    "abc.4175.675.1159",
+    "abc.4175.676.160",
+    "abc.4175.695.10117",
+    "abc.4175.695.5948",
+    "abc.4175.695.6227",
+    "abc.4175.695.6360",
+    "abc.4175.695.6608",
+    "abc.4175.695.7076",
+    "abc.4175.695.7709",
+    "abc.4175.695.7969",
+    "abc.4175.695.8678",
+    "abc.4175.695.8938",
+    "abc.4175.695.9649"
+  ],
+  "fonts": [
+    255
+  ],
+  "game_sha256": "c8eadc03a7e607086998695f7696ec22dd90d7b7859e3d10cdfabf40fc7bbad5",
+  "layouts": {
+    "abc.4175.1144.70": {
+      "font_id": 255,
+      "height": 560,
+      "max_width": 41600,
+      "wrap": false
+    },
+    "abc.4175.1144.89": {
+      "font_id": 255,
+      "height": 560,
+      "max_width": 41600,
+      "wrap": false
+    },
+    "abc.4175.1596.4661": {
+      "font_id": 255,
+      "height": 560,
+      "max_width": 41600,
+      "wrap": false
+    },
+    "abc.4175.1596.4744": {
+      "font_id": 255,
+      "height": 560,
+      "max_width": 41600,
+      "wrap": false
+    },
+    "abc.4175.1596.4757": {
+      "font_id": 255,
+      "height": 560,
+      "max_width": 41600,
+      "wrap": false
+    },
+    "abc.4175.242.3760": {
+      "font_id": 255,
+      "height": 560,
+      "max_width": 41600,
+      "wrap": false
+    },
+    "abc.4175.242.3773": {
+      "font_id": 255,
+      "height": 560,
+      "max_width": 41600,
+      "wrap": false
+    },
+    "abc.4175.242.3856": {
+      "font_id": 255,
+      "height": 560,
+      "max_width": 41600,
+      "wrap": false
+    },
+    "abc.4175.242.3869": {
+      "font_id": 255,
+      "height": 560,
+      "max_width": 41600,
+      "wrap": false
+    },
+    "abc.4175.242.4226": {
+      "font_id": 255,
+      "height": 560,
+      "max_width": 41600,
+      "wrap": false
+    },
+    "abc.4175.243.279": {
+      "font_id": 255,
+      "height": 560,
+      "max_width": 41600,
+      "wrap": false
+    },
+    "abc.4175.243.359": {
+      "font_id": 255,
+      "height": 560,
+      "max_width": 41600,
+      "wrap": false
+    },
+    "abc.4175.243.371": {
+      "font_id": 255,
+      "height": 560,
+      "max_width": 41600,
+      "wrap": false
+    },
+    "abc.4175.539.1991": {
+      "font_id": 255,
+      "height": 560,
+      "max_width": 41600,
+      "wrap": false
+    },
+    "abc.4175.539.2004": {
+      "font_id": 255,
+      "height": 560,
+      "max_width": 41600,
+      "wrap": false
+    },
+    "abc.4175.566.1793": {
+      "font_id": 255,
+      "height": 560,
+      "max_width": 41600,
+      "wrap": false
+    },
+    "abc.4175.566.2114": {
+      "font_id": 255,
+      "height": 560,
+      "max_width": 41600,
+      "wrap": false
+    },
+    "abc.4175.566.2447": {
+      "font_id": 255,
+      "height": 560,
+      "max_width": 41600,
+      "wrap": false
+    },
+    "abc.4175.566.2839": {
+      "font_id": 255,
+      "height": 560,
+      "max_width": 41600,
+      "wrap": false
+    },
+    "abc.4175.567.1912": {
+      "font_id": 255,
+      "height": 560,
+      "max_width": 41600,
+      "wrap": false
+    },
+    "abc.4175.567.2222": {
+      "font_id": 255,
+      "height": 560,
+      "max_width": 41600,
+      "wrap": false
+    },
+    "abc.4175.567.2558": {
+      "font_id": 255,
+      "height": 560,
+      "max_width": 41600,
+      "wrap": false
+    },
+    "abc.4175.567.2940": {
+      "font_id": 255,
+      "height": 560,
+      "max_width": 41600,
+      "wrap": false
+    },
+    "abc.4175.615.488": {
+      "font_id": 255,
+      "height": 560,
+      "max_width": 41600,
+      "wrap": false
+    },
+    "abc.4175.663.243": {
+      "font_id": 255,
+      "height": 560,
+      "max_width": 41600,
+      "wrap": false
+    },
+    "abc.4175.664.388": {
+      "font_id": 255,
+      "height": 560,
+      "max_width": 41600,
+      "wrap": false
+    },
+    "abc.4175.665.1066": {
+      "font_id": 255,
+      "height": 560,
+      "max_width": 41600,
+      "wrap": false
+    },
+    "abc.4175.665.423": {
+      "font_id": 255,
+      "height": 560,
+      "max_width": 41600,
+      "wrap": false
+    },
+    "abc.4175.666.1043": {
+      "font_id": 255,
+      "height": 560,
+      "max_width": 41600,
+      "wrap": false
+    },
+    "abc.4175.666.373": {
+      "font_id": 255,
+      "height": 560,
+      "max_width": 41600,
+      "wrap": false
+    },
+    "abc.4175.669.767": {
+      "font_id": 255,
+      "height": 560,
+      "max_width": 41600,
+      "wrap": false
+    },
+    "abc.4175.670.993": {
+      "font_id": 255,
+      "height": 560,
+      "max_width": 41600,
+      "wrap": false
+    },
+    "abc.4175.675.1035": {
+      "font_id": 255,
+      "height": 560,
+      "max_width": 41600,
+      "wrap": false
+    },
+    "abc.4175.675.1048": {
+      "font_id": 255,
+      "height": 560,
+      "max_width": 41600,
+      "wrap": false
+    },
+    "abc.4175.675.1146": {
+      "font_id": 255,
+      "height": 560,
+      "max_width": 41600,
+      "wrap": false
+    },
+    "abc.4175.675.1159": {
+      "font_id": 255,
+      "height": 560,
+      "max_width": 41600,
+      "wrap": false
+    },
+    "abc.4175.676.160": {
+      "font_id": 255,
+      "height": 560,
+      "max_width": 41600,
+      "wrap": false
+    },
+    "abc.4175.695.10117": {
+      "font_id": 255,
+      "height": 560,
+      "max_width": 41600,
+      "wrap": false
+    },
+    "abc.4175.695.5948": {
+      "font_id": 255,
+      "height": 560,
+      "max_width": 41600,
+      "wrap": false
+    },
+    "abc.4175.695.6227": {
+      "font_id": 255,
+      "height": 560,
+      "max_width": 41600,
+      "wrap": false
+    },
+    "abc.4175.695.6360": {
+      "font_id": 255,
+      "height": 560,
+      "max_width": 41600,
+      "wrap": false
+    },
+    "abc.4175.695.6608": {
+      "font_id": 255,
+      "height": 560,
+      "max_width": 41600,
+      "wrap": false
+    },
+    "abc.4175.695.7076": {
+      "font_id": 255,
+      "height": 560,
+      "max_width": 41600,
+      "wrap": false
+    },
+    "abc.4175.695.7709": {
+      "font_id": 255,
+      "height": 560,
+      "max_width": 41600,
+      "wrap": false
+    },
+    "abc.4175.695.7969": {
+      "font_id": 255,
+      "height": 560,
+      "max_width": 41600,
+      "wrap": false
+    },
+    "abc.4175.695.8678": {
+      "font_id": 255,
+      "height": 560,
+      "max_width": 41600,
+      "wrap": false
+    },
+    "abc.4175.695.8938": {
+      "font_id": 255,
+      "height": 560,
+      "max_width": 41600,
+      "wrap": false
+    },
+    "abc.4175.695.9649": {
+      "font_id": 255,
+      "height": 560,
+      "max_width": 41600,
+      "wrap": false
+    }
+  },
+  "schema_version": 1,
+  "unconfirmed": []
+}

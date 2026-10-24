@@ -1,6 +1,6 @@
 {
-  "applied_translations": 2849,
-  "expected_candidate_sha256": "e2b0b4dd4e83f18b7c2c608d7789623f604eb310c25561ea6b7703183466b248",
+  "applied_translations": 2897,
+  "expected_candidate_sha256": "563bfe2b620d25ba018480d626342779de66af8a17d27627a90a77729595005e",
   "font_sha256": "ba5564634b93a8f8ba57b48cd4f1ae7417d2b4656fbac779028679b00de3cf12",
   "game_sha256": "c8eadc03a7e607086998695f7696ec22dd90d7b7859e3d10cdfabf40fc7bbad5",
   "plans": [
@@ -111,6 +111,10 @@
     {
       "path": "plans/pr31-bitmap-loot.json",
       "sha256": "23d40f00e11bedd1d5089ad577978f2bf61d81c2244474f75081d8f81c9ed514"
+    },
+    {
+      "path": "plans/pr32-bitmap-completion.json",
+      "sha256": "5858d900670a0c0cbf913beaf86917640b03c2313b1d1dde817b84c4aaf37e27"
     }
   ],
   "schema_version": 1

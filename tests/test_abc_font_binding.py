@@ -172,3 +172,84 @@ def test_malformed_exception_boundary_fails_closed():
     raw = abc(b'\x24\1\x47', b'\1\0\1\2\0\0')
     with pytest.raises(ValueError, match='Exception'):
         insert_method_code(raw, {0: [(0, b'\x02')]})
+
+
+def run_void_call_path(code):
+    """Execute only the authored branch/call fixture and record its marker."""
+    inv = inventory(abc(code))
+    ops = inv.instructions(code, 0)
+    indices = {at: i for i, (at, _, _) in enumerate(ops)}
+    stack, markers = [], []
+    index = 0
+    while True:
+        at, opcode, args = ops[index]
+        index += 1
+        if opcode in (0x26, 0x27):
+            stack.append(opcode == 0x26)
+        elif opcode == 0x12:
+            if not stack.pop():
+                index = indices[ops[index][0] + args[0]]
+        elif opcode == 0x1b:
+            case = stack.pop()
+            delta = args[case + 2] if 0 <= case <= args[1] else args[0]
+            index = indices[at + delta]
+        elif opcode == 0xd0:
+            stack.append('receiver')
+        elif opcode == 0x4f:
+            assert args == [1, 0] and stack.pop() == 'receiver'
+        elif opcode == 0x24:
+            stack.append(args[0])
+        elif opcode == 0x29:
+            markers.append(stack.pop())
+        else:
+            assert opcode == 0x47 and not stack
+            return markers
+
+
+@pytest.mark.parametrize('enabled', [False, True])
+def test_after_call_runs_on_fallthrough_but_not_a_bypassing_branch(enabled):
+    code = bytes([0x26 if enabled else 0x27]) + b'\x12\4\0\0\xd0\x4f\1\0\x47'
+    raw = abc(code)
+    result = insert_method_code(raw, {0: [(9, b'\x24\7\x29', 'after_call')]},
+                                extra_stack={0: 1})
+    inv = inventory(result)
+    changed = inv.bodies[0][2]
+    assert changed[1:5] == b'\x12\7\0\0'
+    assert run_void_call_path(changed) == ([7] if enabled else [])
+    assert inv.bodies[1][2] == inventory(raw).bodies[1][2]
+    assert inv.strings == inventory(raw).strings
+    assert inv.multinames == inventory(raw).multinames
+    # Existing two-item insertion sites still run before a branch target.
+    ordinary = insert_method_code(raw, {0: [(9, b'\x24\7\x29')]})
+    assert run_void_call_path(inventory(ordinary).bodies[0][2]) == [7]
+
+
+@pytest.mark.parametrize('selector', [0, 1])
+def test_switch_bypasses_after_call_code_without_changing_its_call_arm(selector):
+    code = bytes([0x24, selector]) + b'\x1b\x0c\0\0\0\x08\0\0\xd0\x4f\1\0\x47'
+    result = insert_method_code(abc(code), {0: [(14, b'\x24\7\x29', 'after_call')]})
+    changed = inventory(result).bodies[0][2]
+    assert changed[2:10] == b'\x1b\x0f\0\0\0\x08\0\0'
+    assert run_void_call_path(changed) == ([7] if selector == 0 else [])
+
+
+@pytest.mark.parametrize('begin,end,expected', [(0, 4, [0, 4, 7]), (4, 5, [7, 8, 7])])
+def test_after_call_exception_entries_skip_code_and_ends_exclude_it(begin, end, expected):
+    raw = abc(b'\xd0\x4f\1\0\x47', bytes([1, begin, end, 4, 0, 0]))
+    result = insert_method_code(raw, {0: [(4, b'\x24\7\x29', 'after_call')]})
+    _, start, code = inventory(result).bodies[0]
+    reader = ABCReader(result)
+    reader.pos = start + len(code)
+    assert [reader.u30() for _ in range(6)] == [1, *expected, 0, 0]
+
+
+@pytest.mark.parametrize('code,site', [
+    (b'\x47', (0, b'\x02', 'after_call')),
+    (b'\xd0\x47', (1, b'\x02', 'after_call')),
+    (b'\xd0\x46\1\0\x47', (4, b'\x02', 'after_call')),
+    (b'\xd0\x4f\1\0', (4, b'\x02', 'after_call')),
+    (b'\xd0\x4f\1\0\x47', (4, b'\x02', 'unknown')),
+])
+def test_after_call_requires_a_void_call_and_a_following_original_instruction(code, site):
+    with pytest.raises(ValueError, match='after_call'):
+        insert_method_code(abc(code), {0: [site]})
