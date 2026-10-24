@@ -97,6 +97,21 @@ def test_selector_pool_opt_in_is_deterministic_and_default_unchanged():
     assert inv.strings[:len(inventory(raw).strings)] == inventory(raw).strings
 
 
+def test_emitted_pattern_contains_literal_unicode_for_raw_pcre_constructor():
+    raw, _ = selector_abc()
+    expanded, _, _ = extend_font_pool(raw, bitmap_selector=True)
+    indices = bitmap_selector_pool_indices(raw)
+    pattern = inventory(expanded).strings[indices['pattern_index']]
+    # ABC strings reach RegExp directly, without AS3 source escape decoding.
+    # Python re accepts raw \\u escapes that the AIR PCRE1 backend rejects.
+    assert tuple(map(ord, pattern)) == (ord('['), 0x0400, ord('-'), 0x04FF, ord(']'))
+    compiled = re.compile(pattern)
+    for point in range(0x0400, 0x0500):
+        assert compiled.fullmatch(chr(point)), hex(point)
+    for point in (*range(128), 0x03FF, 0x0500, 0x2000, 0x4E00, 0x1F600):
+        assert not compiled.search(chr(point)), hex(point)
+
+
 def test_bitmap_selector_rejects_an_unembedded_target_family():
     with pytest.raises(ValueError, match='Alegreya'):
         extend_font_pool(abc(b'\x47'), family='Unembedded font', bitmap_selector=True)

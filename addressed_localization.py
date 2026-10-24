@@ -475,6 +475,10 @@ def patch_selected_tags(
         or len(set(selected)) != len(selected)
     ):
         raise ValueError("Selection must contain unique entry IDs")
+    category_labels = plan.get('achievement_category_labels', [])
+    if category_labels:
+        from achievement_category_binding import validate_category_selection
+        validate_category_selection(category_labels, selected)
     empty_abc_strings = plan.get("empty_abc_strings", [])
     if (
         not isinstance(empty_abc_strings, list)
@@ -605,7 +609,11 @@ def patch_selected_tags(
                 }
         except ValueError as error:
             raise ValueError(f"{identifier}: {error}") from error
-        groups[path[0]].append(entry)
+        if location.get('method_index') == 220 and path == [4175]:
+            if identifier not in category_labels:
+                raise ValueError('Achievement category keys require the display adapter')
+        else:
+            groups[path[0]].append(entry)
     for identifier in empty_abc_strings:
         entry = original_entries.get(identifier)
         if entry is None or entry["classification"] != "technical":
@@ -669,6 +677,8 @@ def patch_selected_tags(
 
 
 def build_localization(original, workspace, plan, recipes):
+    if plan.get('achievement_category_labels'):
+        raise ValueError('Achievement category display plans require the Alegreya builder')
     if f"static.{TITLE_ID}" not in plan.get("entry_ids", []):
         raise ValueError("Local menu candidate must include the verified title")
     prefix, tags, report = patch_selected_tags(original, workspace, plan, recipes)
