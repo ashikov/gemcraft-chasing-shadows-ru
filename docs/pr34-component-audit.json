@@ -1347,5 +1347,6 @@
       "evidence": "Числовое поле/форматный шаблон: live-writer выводит числа, знаки или ID; исходный шаблон не является пользовательской прозой.",
       "runtime": "NOT TESTED in PR34"
     }
-  ]
+  ],
+  "runtime_snapshot": "Before the approved PR34 r01 launch; later targeted observations and limits are recorded in docs/pr34-acceptance.md"
 }
