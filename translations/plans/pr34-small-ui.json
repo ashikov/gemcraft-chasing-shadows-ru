@@ -1,0 +1,689 @@
+{
+  "schema_version": 1,
+  "game_sha256": "c8eadc03a7e607086998695f7696ec22dd90d7b7859e3d10cdfabf40fc7bbad5",
+  "entry_ids": [
+    "static.3431",
+    "abc.4175.334.244",
+    "abc.4175.334.247",
+    "abc.4175.334.252",
+    "abc.4175.334.265",
+    "abc.4175.334.339",
+    "abc.4175.334.677",
+    "abc.4175.334.702",
+    "abc.4175.242.647",
+    "abc.4175.3490.21",
+    "abc.4175.139.181",
+    "abc.4175.1537.51",
+    "abc.4175.1537.215",
+    "abc.4175.1537.289",
+    "abc.4175.1537.363",
+    "abc.4175.1537.437",
+    "abc.4175.1537.511",
+    "abc.4175.1537.585",
+    "abc.4175.1537.659",
+    "abc.4175.1537.733",
+    "abc.4175.1537.807"
+  ],
+  "fonts": [
+    1,
+    255
+  ],
+  "layouts": {
+    "static.3431": {
+      "font_id": 255,
+      "height": 120,
+      "max_width": 300,
+      "wrap": false
+    },
+    "abc.4175.334.244": {
+      "font_id": 255,
+      "height": 220,
+      "max_width": 17200,
+      "wrap": false
+    },
+    "abc.4175.334.247": {
+      "font_id": 255,
+      "height": 220,
+      "max_width": 17200,
+      "wrap": false,
+      "dynamic_suffix_budget": 2400
+    },
+    "abc.4175.334.252": {
+      "font_id": 255,
+      "height": 220,
+      "max_width": 17200,
+      "wrap": false,
+      "dynamic_suffix_budget": 2400
+    },
+    "abc.4175.334.265": {
+      "font_id": 255,
+      "height": 220,
+      "max_width": 17200,
+      "wrap": false,
+      "dynamic_suffix_budget": 2400
+    },
+    "abc.4175.334.339": {
+      "font_id": 255,
+      "height": 220,
+      "max_width": 17200,
+      "wrap": false
+    },
+    "abc.4175.334.677": {
+      "font_id": 255,
+      "height": 220,
+      "max_width": 17200,
+      "wrap": false,
+      "dynamic_suffix_budget": 2400
+    },
+    "abc.4175.334.702": {
+      "font_id": 255,
+      "height": 220,
+      "max_width": 17200,
+      "wrap": false
+    },
+    "abc.4175.242.647": {
+      "font_id": 255,
+      "height": 200,
+      "max_width": 17200,
+      "wrap": false
+    },
+    "abc.4175.3490.21": {
+      "font_id": 255,
+      "height": 240,
+      "max_width": 3044,
+      "wrap": false
+    },
+    "abc.4175.139.181": {
+      "font_id": 255,
+      "alternate_font_ids": [
+        1
+      ],
+      "height": 200,
+      "max_width": 522,
+      "dynamic_suffix_budget": 250,
+      "wrap": false
+    },
+    "abc.4175.1537.51": {
+      "font_id": 255,
+      "height": 240,
+      "max_width": 17200,
+      "wrap": false
+    },
+    "abc.4175.1537.215": {
+      "font_id": 255,
+      "height": 240,
+      "max_width": 17200,
+      "wrap": false
+    },
+    "abc.4175.1537.289": {
+      "font_id": 255,
+      "height": 240,
+      "max_width": 17200,
+      "wrap": false
+    },
+    "abc.4175.1537.363": {
+      "font_id": 255,
+      "height": 240,
+      "max_width": 17200,
+      "wrap": false
+    },
+    "abc.4175.1537.437": {
+      "font_id": 255,
+      "height": 240,
+      "max_width": 17200,
+      "wrap": false
+    },
+    "abc.4175.1537.511": {
+      "font_id": 255,
+      "height": 240,
+      "max_width": 17200,
+      "wrap": false
+    },
+    "abc.4175.1537.585": {
+      "font_id": 255,
+      "height": 240,
+      "max_width": 17200,
+      "wrap": false
+    },
+    "abc.4175.1537.659": {
+      "font_id": 255,
+      "height": 240,
+      "max_width": 17200,
+      "wrap": false
+    },
+    "abc.4175.1537.733": {
+      "font_id": 255,
+      "height": 240,
+      "max_width": 17200,
+      "wrap": false
+    },
+    "abc.4175.1537.807": {
+      "font_id": 255,
+      "height": 240,
+      "max_width": 17200,
+      "wrap": false
+    }
+  },
+  "unconfirmed": [],
+  "coverage_blockers": [],
+  "empty_abc_strings": [
+    "abc.4175.334.690"
+  ],
+  "abc_font_bindings": [
+    {
+      "tag_path": [
+        4175
+      ],
+      "method_index": 3442,
+      "instruction_index": 17,
+      "expected_opcode": 240,
+      "expected_operands": [
+        87
+      ],
+      "kind": "small_ui_floater_font",
+      "extra_stack": 5,
+      "matches": [
+        {
+          "entry_id": "abc.4175.1537.215",
+          "mode": "exact",
+          "source_sha256": "ae00dd5877564880d61dd81993d51b66b723872f0d3d5707d15fafc1bdfdc26f"
+        },
+        {
+          "entry_id": "abc.4175.1537.289",
+          "mode": "exact",
+          "source_sha256": "5c62dd513180cd3a4744936e9800516a6acae3f07573445bc83704b8f7fa0a2a"
+        },
+        {
+          "entry_id": "abc.4175.1537.363",
+          "mode": "exact",
+          "source_sha256": "f9f9375c857f93b1b605bdc0cb394f697cb36597e3ce74e9fb3e94fb19cde7f7"
+        },
+        {
+          "entry_id": "abc.4175.1537.437",
+          "mode": "exact",
+          "source_sha256": "c723ea3e000cc74867352536af378f5a218c14ceed4b5044461d59d720015f32"
+        },
+        {
+          "entry_id": "abc.4175.1537.51",
+          "mode": "exact",
+          "source_sha256": "dc4b9acf76feed9889b79367f863c1b4bf3e81404e7435d5740c03200eb0e3e7"
+        },
+        {
+          "entry_id": "abc.4175.1537.511",
+          "mode": "exact",
+          "source_sha256": "58cd7f387ccbbf6bce98234094c4fd45312f9a42facf094c954eab28bd3c9bea"
+        },
+        {
+          "entry_id": "abc.4175.1537.585",
+          "mode": "exact",
+          "source_sha256": "22b68ec6faa284fec436ab6c8a0c0a4e9ba33cd13e8158edd40efa0d99962901"
+        },
+        {
+          "entry_id": "abc.4175.1537.659",
+          "mode": "exact",
+          "source_sha256": "4409c6764a20421ab89220d8a58dadda59cbaf76c788a102d104138fa25bb20f"
+        },
+        {
+          "entry_id": "abc.4175.1537.733",
+          "mode": "exact",
+          "source_sha256": "d8756568f586cb6dad94de3c4120cd4705ac8b0f94307a945a12f010b6136fdb"
+        },
+        {
+          "entry_id": "abc.4175.1537.807",
+          "mode": "exact",
+          "source_sha256": "2ec3eb6103e803e54687957064f3e272936fa01ffbb487fefec0153b0e3e45ef"
+        },
+        {
+          "entry_id": "abc.4175.242.647",
+          "mode": "exact",
+          "source_sha256": "8a36e210cbe4b94a9c063faf5d3372a62505401a106f5e1e63960b0ccc62e9f4"
+        },
+        {
+          "entry_id": "abc.4175.334.244",
+          "mode": "exact",
+          "source_sha256": "7689dbfa102251d722997bae91eef7123132b080c07a6eab662d9871919e90a7"
+        },
+        {
+          "entry_id": "abc.4175.334.247",
+          "mode": "prefix",
+          "source_sha256": "d895c63eb9e7be5d76f46e906f3b263878d22ceea5355d0756afc7e84fa6e05f"
+        },
+        {
+          "entry_id": "abc.4175.334.252",
+          "mode": "prefix",
+          "source_sha256": "87475da3c62649ab31a9547c1f7ad6b18d9d23960a934cd8571f24a1138ed44e"
+        },
+        {
+          "entry_id": "abc.4175.334.265",
+          "mode": "prefix",
+          "source_sha256": "254b886e64d5baadab825f38c53a3674cac72846b46ebc0a028cc0cb001f7987"
+        },
+        {
+          "entry_id": "abc.4175.334.339",
+          "mode": "exact",
+          "source_sha256": "0e2ce726b279335de7b2d27dca2edd695b15ecef0bc9ec00d01c39c676df8db8"
+        },
+        {
+          "entry_id": "abc.4175.334.677",
+          "mode": "prefix",
+          "source_sha256": "d62b55b28f9997f4b1e483e80f01f516824f71f4583d5f2417eb7b58a8724864"
+        }
+      ],
+      "receiver_guards": [
+        {
+          "instruction_index": 11,
+          "opcode": 93,
+          "operands": [
+            839
+          ]
+        },
+        {
+          "instruction_index": 12,
+          "opcode": 44,
+          "operands": [
+            10038
+          ]
+        },
+        {
+          "instruction_index": 13,
+          "opcode": 211,
+          "operands": []
+        },
+        {
+          "instruction_index": 14,
+          "opcode": 74,
+          "operands": [
+            839,
+            2
+          ]
+        },
+        {
+          "instruction_index": 15,
+          "opcode": 128,
+          "operands": [
+            839
+          ]
+        },
+        {
+          "instruction_index": 16,
+          "opcode": 99,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "instruction_index": 50,
+          "opcode": 97,
+          "operands": [
+            5569
+          ]
+        },
+        {
+          "instruction_index": 59,
+          "opcode": 97,
+          "operands": [
+            5573
+          ]
+        },
+        {
+          "instruction_index": 63,
+          "opcode": 97,
+          "operands": [
+            5882
+          ]
+        },
+        {
+          "instruction_index": 67,
+          "opcode": 97,
+          "operands": [
+            5883
+          ]
+        },
+        {
+          "instruction_index": 72,
+          "opcode": 97,
+          "operands": [
+            5575
+          ]
+        },
+        {
+          "instruction_index": 85,
+          "opcode": 97,
+          "operands": [
+            5329
+          ]
+        },
+        {
+          "instruction_index": 93,
+          "opcode": 102,
+          "operands": [
+            5359
+          ]
+        },
+        {
+          "instruction_index": 108,
+          "opcode": 102,
+          "operands": [
+            5360
+          ]
+        }
+      ]
+    },
+    {
+      "tag_path": [
+        4175
+      ],
+      "method_index": 334,
+      "instruction_index": 252,
+      "expected_opcode": 160,
+      "expected_operands": [],
+      "kind": "recovery_prefix",
+      "extra_stack": 0,
+      "receiver_guards": [
+        {
+          "instruction_index": 247,
+          "opcode": 96,
+          "operands": [
+            230
+          ]
+        },
+        {
+          "instruction_index": 248,
+          "opcode": 102,
+          "operands": [
+            684
+          ]
+        },
+        {
+          "instruction_index": 249,
+          "opcode": 47,
+          "operands": [
+            112
+          ]
+        },
+        {
+          "instruction_index": 250,
+          "opcode": 98,
+          "operands": [
+            8
+          ]
+        },
+        {
+          "instruction_index": 251,
+          "opcode": 44,
+          "operands": [
+            9660
+          ]
+        },
+        {
+          "instruction_index": 252,
+          "opcode": 160,
+          "operands": []
+        },
+        {
+          "instruction_index": 253,
+          "opcode": 98,
+          "operands": [
+            8
+          ]
+        },
+        {
+          "instruction_index": 254,
+          "opcode": 36,
+          "operands": [
+            1
+          ]
+        },
+        {
+          "instruction_index": 255,
+          "opcode": 175,
+          "operands": []
+        },
+        {
+          "instruction_index": 256,
+          "opcode": 18,
+          "operands": [
+            8
+          ]
+        },
+        {
+          "instruction_index": 257,
+          "opcode": 44,
+          "operands": [
+            835
+          ]
+        },
+        {
+          "instruction_index": 258,
+          "opcode": 130,
+          "operands": []
+        },
+        {
+          "instruction_index": 259,
+          "opcode": 16,
+          "operands": [
+            3
+          ]
+        },
+        {
+          "instruction_index": 260,
+          "opcode": 44,
+          "operands": [
+            1
+          ]
+        },
+        {
+          "instruction_index": 261,
+          "opcode": 130,
+          "operands": []
+        },
+        {
+          "instruction_index": 262,
+          "opcode": 160,
+          "operands": []
+        },
+        {
+          "instruction_index": 263,
+          "opcode": 44,
+          "operands": [
+            9661
+          ]
+        },
+        {
+          "instruction_index": 264,
+          "opcode": 160,
+          "operands": []
+        },
+        {
+          "instruction_index": 265,
+          "opcode": 86,
+          "operands": [
+            1
+          ]
+        },
+        {
+          "instruction_index": 266,
+          "opcode": 45,
+          "operands": [
+            214
+          ]
+        },
+        {
+          "instruction_index": 267,
+          "opcode": 86,
+          "operands": [
+            1
+          ]
+        },
+        {
+          "instruction_index": 268,
+          "opcode": 36,
+          "operands": [
+            11
+          ]
+        },
+        {
+          "instruction_index": 269,
+          "opcode": 86,
+          "operands": [
+            1
+          ]
+        },
+        {
+          "instruction_index": 270,
+          "opcode": 32,
+          "operands": []
+        },
+        {
+          "instruction_index": 271,
+          "opcode": 36,
+          "operands": [
+            10
+          ]
+        },
+        {
+          "instruction_index": 272,
+          "opcode": 36,
+          "operands": [
+            30
+          ]
+        },
+        {
+          "instruction_index": 273,
+          "opcode": 44,
+          "operands": [
+            8140
+          ]
+        },
+        {
+          "instruction_index": 274,
+          "opcode": 37,
+          "operands": [
+            640
+          ]
+        },
+        {
+          "instruction_index": 275,
+          "opcode": 79,
+          "operands": [
+            3841,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "tag_path": [
+        4175
+      ],
+      "method_index": 3490,
+      "instruction_index": 11,
+      "expected_opcode": 44,
+      "expected_operands": [
+        12094
+      ],
+      "kind": "field",
+      "extra_stack": 5,
+      "receiver_hex": "d066921c66f635",
+      "receiver_guards": [
+        {
+          "instruction_index": 8,
+          "opcode": 208,
+          "operands": []
+        },
+        {
+          "instruction_index": 9,
+          "opcode": 102,
+          "operands": [
+            3602
+          ]
+        },
+        {
+          "instruction_index": 10,
+          "opcode": 102,
+          "operands": [
+            6902
+          ]
+        },
+        {
+          "instruction_index": 12,
+          "opcode": 97,
+          "operands": [
+            6903
+          ]
+        }
+      ]
+    },
+    {
+      "tag_path": [
+        4175
+      ],
+      "method_index": 139,
+      "instruction_index": 67,
+      "expected_opcode": 44,
+      "expected_operands": [
+        6553
+      ],
+      "kind": "field",
+      "extra_stack": 5,
+      "receiver_hex": "d0666966eb16",
+      "receiver_guards": [
+        {
+          "instruction_index": 60,
+          "opcode": 211,
+          "operands": []
+        },
+        {
+          "instruction_index": 61,
+          "opcode": 36,
+          "operands": [
+            255
+          ]
+        },
+        {
+          "instruction_index": 62,
+          "opcode": 19,
+          "operands": [
+            20
+          ]
+        },
+        {
+          "instruction_index": 64,
+          "opcode": 208,
+          "operands": []
+        },
+        {
+          "instruction_index": 65,
+          "opcode": 102,
+          "operands": [
+            105
+          ]
+        },
+        {
+          "instruction_index": 66,
+          "opcode": 102,
+          "operands": [
+            2923
+          ]
+        },
+        {
+          "instruction_index": 68,
+          "opcode": 211,
+          "operands": []
+        },
+        {
+          "instruction_index": 69,
+          "opcode": 160,
+          "operands": []
+        },
+        {
+          "instruction_index": 70,
+          "opcode": 97,
+          "operands": [
+            5329
+          ]
+        }
+      ]
+    }
+  ]
+}

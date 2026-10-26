@@ -17,7 +17,7 @@ from translation_catalog import load_catalog
 from versioned_catalog import catalog_digest, export_catalog
 
 pytestmark = pytest.mark.local
-EXPECTED = 'f8c50e666357ca7973041e030b64b38ebd772ddad093a5999f8110bb2db899c8'
+EXPECTED = '0bf6d4ae5bc0764bfc84d589892c1288de71062673f663d532e9e434b22ebacf'
 
 
 def test_restore_build_and_temporary_apply_restore(tmp_path):
@@ -34,19 +34,19 @@ def test_restore_build_and_temporary_apply_restore(tmp_path):
     output = tmp_path / 'restored-build'
     report = build_project(source, font, output, catalog, manifest)
     assert report['patched_sha256'] == EXPECTED
-    assert report['applied_translations'] == 3007
+    assert report['applied_translations'] == 3029
     assert report['status'] == 'PARTIAL'
     workspace = load_catalog(output / 'workspace.json')
     inventory = load_catalog(output / 'inventory.json')
     assert not validate_workspace(workspace, inventory)
-    assert sum(entry['translation'] is not None for entry in workspace['entries']) == 3079
+    assert sum(entry['translation'] is not None for entry in workspace['entries']) == 3093
     assert export_catalog(workspace, inventory) == load_catalog(catalog)
     assert load_catalog(output / 'catalog-origin.json') == {
         'catalog_sha256': catalog_digest(load_catalog(catalog))}
     assert check_workspace(output / 'workspace.json', output / 'inventory.json',
                            catalog, manifest)['synchronized']
     plan = load_bundle(manifest, workspace)
-    assert len(plan['entry_ids']) == 3007
+    assert len(plan['entry_ids']) == 3029
     assert not set(plan['empty_abc_strings']) & set(plan['entry_ids'])
     assert load_catalog(output / 'on-disk-validation.json') == report
     candidate = output / 'gc-cs-steam.ru.swf'
@@ -63,8 +63,8 @@ def test_restore_build_and_temporary_apply_restore(tmp_path):
     assert source.read_bytes() == original
     evidence = {
         'original_sha256': sha(original), 'font_sha256': sha(font.read_bytes()),
-        'candidate_sha256': EXPECTED, 'applied_translations': 3007,
-        'prepared_translations': 3079, 'on_disk_validation': True,
+        'candidate_sha256': EXPECTED, 'applied_translations': 3029,
+        'prepared_translations': 3093, 'on_disk_validation': True,
         'temporary_apply_restore': True,
         'checkout': str(root), 'output': str(output),
     }

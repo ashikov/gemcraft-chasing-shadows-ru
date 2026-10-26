@@ -266,6 +266,11 @@ def build_alegreya_localization(original, workspace, plan, ttf_bytes):
     if category_report:
         report['achievement_category_labels'] = category_report
     tags[ABC_TAG] = Tag(82, tags[ABC_TAG].payload[:start] + abc)
+    if 'journey_map' in plan:
+        from journey_map_localization import localize_map_tags
+        tags, report['journey_map'] = localize_map_tags(tags, ttf_bytes, plan['journey_map'])
+        report['changed_original_tags'].append({'tag_index': 750, 'tag_code': 6,
+                                                'character_id': 678})
     additions = []
     for font in (regular, bold):
         additions.extend([

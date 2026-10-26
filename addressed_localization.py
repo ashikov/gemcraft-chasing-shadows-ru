@@ -598,10 +598,16 @@ def patch_selected_tags(
             raise ValueError("Alternate runtime faces must be unique selected fonts")
         if entry.get("content_type") == "html_fragment" or entry["category"] == "html":
             raise ValueError("HTML rendering needs an explicit supported layout recipe")
+        packed_advice = entry.get('content_type') == 'packed_advices'
         try:
-            metrics[identifier] = check_layout(
-                fonts[layout["font_id"]], entry["translation"], layout
-            )
+            if packed_advice:
+                from advice_oracle import check_advice_layout
+                metrics[identifier] = check_advice_layout(
+                    fonts[layout["font_id"]], entry["translation"], layout)
+            else:
+                metrics[identifier] = check_layout(
+                    fonts[layout["font_id"]], entry["translation"], layout
+                )
             if alternate_ids:
                 metrics[identifier]["alternate_faces"] = {
                     str(face): check_layout(fonts[face], entry["translation"], layout)
@@ -613,6 +619,9 @@ def patch_selected_tags(
             if identifier not in category_labels:
                 raise ValueError('Achievement category keys require the display adapter')
         else:
+            if packed_advice:
+                from advice_oracle import prepare_advice_replacement
+                entry = prepare_advice_replacement(entry)
             groups[path[0]].append(entry)
     for identifier in empty_abc_strings:
         entry = original_entries.get(identifier)
@@ -677,6 +686,8 @@ def patch_selected_tags(
 
 
 def build_localization(original, workspace, plan, recipes):
+    if 'journey_map' in plan:
+        raise ValueError('Journey map graphics plans require the Alegreya builder')
     if plan.get('achievement_category_labels'):
         raise ValueError('Achievement category display plans require the Alegreya builder')
     if f"static.{TITLE_ID}" not in plan.get("entry_ids", []):

@@ -1,0 +1,1351 @@
+{
+  "schema_version": 1,
+  "original_sha256": "c8eadc03a7e607086998695f7696ec22dd90d7b7859e3d10cdfabf40fc7bbad5",
+  "baseline_candidate_sha256": "f8c50e666357ca7973041e030b64b38ebd772ddad093a5999f8110bb2db899c8",
+  "scope": "55 confirmed-компонентов без translation в восстановленном baseline PR33; статическая классификация, не игровая приёмка. COVERED относится к действующим присваиваниям, а не начальному XML-шаблону.",
+  "counts": {
+    "COVERED": 12,
+    "TECHNICAL": 43
+  },
+  "components": [
+    {
+      "id": "edit.565",
+      "source_sha256": "9aab9b7183e852bb57c759c92d486beb64abbb97b4f0070b0145980949d49635",
+      "tag_path": [
+        627
+      ],
+      "placements": [
+        {
+          "tag_path": [
+            629,
+            2
+          ],
+          "sprite_id": 566,
+          "depth": 3
+        }
+      ],
+      "consumer_methods": [
+        895,
+        1104,
+        3451,
+        3460,
+        3469,
+        3475,
+        3478,
+        3481,
+        3484,
+        3490,
+        3493
+      ],
+      "classification": "COVERED",
+      "evidence": "Общие кнопки: подписи назначаются конструкторами и панелями; отдельная кнопка обучения закрыта PR34.",
+      "runtime": "NOT TESTED in PR34"
+    },
+    {
+      "id": "edit.585",
+      "source_sha256": "8f7ef93f1e3656af624e325ba2fedd5d4d85dad944a521902cff51ace1d77696",
+      "tag_path": [
+        650
+      ],
+      "placements": [
+        {
+          "tag_path": [
+            654,
+            2
+          ],
+          "sprite_id": 587,
+          "depth": 2
+        }
+      ],
+      "consumer_methods": [
+        920,
+        906
+      ],
+      "classification": "COVERED",
+      "evidence": "Названия статистики приходят из переведённого массива statDescs; идентификаторы полей остаются техническими.",
+      "runtime": "NOT TESTED in PR34"
+    },
+    {
+      "id": "edit.586",
+      "source_sha256": "ccbb6ef886368c774b2e7864cc704199dd01511878101863fdf946e48de8e2f5",
+      "tag_path": [
+        652
+      ],
+      "placements": [
+        {
+          "tag_path": [
+            654,
+            3
+          ],
+          "sprite_id": 587,
+          "depth": 3
+        }
+      ],
+      "consumer_methods": [
+        920
+      ],
+      "classification": "TECHNICAL",
+      "evidence": "Числовое поле/форматный шаблон: live-writer выводит числа, знаки или ID; исходный шаблон не является пользовательской прозой.",
+      "runtime": "NOT TESTED in PR34"
+    },
+    {
+      "id": "edit.601",
+      "source_sha256": "d02b658f81612737216b696439a80293a74497c30d146bfde76016aba4f9cc59",
+      "tag_path": [
+        670
+      ],
+      "placements": [
+        {
+          "tag_path": [
+            674,
+            2
+          ],
+          "sprite_id": 603,
+          "depth": 3
+        }
+      ],
+      "consumer_methods": [
+        2769,
+        1074,
+        1078
+      ],
+      "classification": "COVERED",
+      "evidence": "Display-проекция категорий из PR33; начальный шаблон заменяется конструктором.",
+      "runtime": "NOT TESTED in PR34"
+    },
+    {
+      "id": "edit.602",
+      "source_sha256": "6030457fac83b250e968721f7b75efefcea465ee5673f2f79cc24e8d41988c2b",
+      "tag_path": [
+        672
+      ],
+      "placements": [
+        {
+          "tag_path": [
+            674,
+            3
+          ],
+          "sprite_id": 603,
+          "depth": 4
+        }
+      ],
+      "consumer_methods": [
+        1080
+      ],
+      "classification": "TECHNICAL",
+      "evidence": "Числовое поле/форматный шаблон: live-writer выводит числа, знаки или ID; исходный шаблон не является пользовательской прозой.",
+      "runtime": "NOT TESTED in PR34"
+    },
+    {
+      "id": "edit.621",
+      "source_sha256": "a7beef31ca645254c8df88b4909168c6cf2ea01187f37223af07d4846a7995ed",
+      "tag_path": [
+        692
+      ],
+      "placements": [
+        {
+          "tag_path": [
+            694,
+            1
+          ],
+          "sprite_id": 622,
+          "depth": 1
+        }
+      ],
+      "consumer_methods": [
+        2873,
+        19,
+        3469
+      ],
+      "classification": "COVERED",
+      "evidence": "Текст заметки настроек передаётся параметром; выбранные строки настроек переведены прежними планами.",
+      "runtime": "NOT TESTED in PR34"
+    },
+    {
+      "id": "edit.1265",
+      "source_sha256": "3fd5976d0dbaf574381a70d27f8639d0648f5b84f1605a1fd09f5c9a9578cdd4",
+      "tag_path": [
+        1368
+      ],
+      "placements": [
+        {
+          "tag_path": [
+            1378,
+            7
+          ],
+          "sprite_id": 1273,
+          "depth": 21
+        }
+      ],
+      "consumer_methods": [
+        139,
+        1023
+      ],
+      "classification": "TECHNICAL",
+      "evidence": "Технический ID поля из StageMetaData.strId; игровые идентификаторы не переводятся.",
+      "runtime": "NOT TESTED in PR34"
+    },
+    {
+      "id": "edit.1266",
+      "source_sha256": "bb17b29f5e04fdb73f2cf64c7fcb7c7991cf08a404fb2d4d6a1a251b7e9255b7",
+      "tag_path": [
+        1370
+      ],
+      "placements": [
+        {
+          "tag_path": [
+            1378,
+            8
+          ],
+          "sprite_id": 1273,
+          "depth": 22
+        }
+      ],
+      "consumer_methods": [
+        139
+      ],
+      "classification": "COVERED",
+      "evidence": "Префикс номера требуемой волны локализован адресно в PR34; ветвь без требования остаётся пустой.",
+      "runtime": "NOT TESTED in PR34"
+    },
+    {
+      "id": "edit.1394",
+      "source_sha256": "8bcc96074aeab1f59b65927cff0309a08a3f2d2e0558179e31e02909a9a9b58e",
+      "tag_path": [
+        1499
+      ],
+      "placements": [
+        {
+          "tag_path": [
+            1501,
+            2
+          ],
+          "sprite_id": 1395,
+          "depth": 2
+        }
+      ],
+      "consumer_methods": [
+        2879,
+        19,
+        3469
+      ],
+      "classification": "COVERED",
+      "evidence": "Заголовок настроек передаётся параметром из переведённых источников.",
+      "runtime": "NOT TESTED in PR34"
+    },
+    {
+      "id": "edit.1399",
+      "source_sha256": "63c1375af7fcebfe189707c64c141bafb2bc764d06561a557fff4014848d0ce5",
+      "tag_path": [
+        1505
+      ],
+      "placements": [
+        {
+          "tag_path": [
+            1518,
+            2
+          ],
+          "sprite_id": 1411,
+          "depth": 3
+        }
+      ],
+      "consumer_methods": [
+        2876,
+        19,
+        3469
+      ],
+      "classification": "COVERED",
+      "evidence": "Текст настройки передаётся параметром; прежние планы назначают встроенный шрифт.",
+      "runtime": "NOT TESTED in PR34"
+    },
+    {
+      "id": "edit.1541",
+      "source_sha256": "b67bfb3e3cf751c9ee60b979004348feac426c0cb0c157faa56b4bc03f7c8929",
+      "tag_path": [
+        1648
+      ],
+      "placements": [
+        {
+          "tag_path": [
+            1663,
+            2
+          ],
+          "sprite_id": 1554,
+          "depth": 3
+        }
+      ],
+      "consumer_methods": [
+        959
+      ],
+      "classification": "TECHNICAL",
+      "evidence": "Числовое поле/форматный шаблон: live-writer выводит числа, знаки или ID; исходный шаблон не является пользовательской прозой.",
+      "runtime": "NOT TESTED in PR34"
+    },
+    {
+      "id": "edit.1542",
+      "source_sha256": "e6f50d836ff776064f6fdb08252978fce03c9c67e947ae86082b80ee22d111f5",
+      "tag_path": [
+        1650
+      ],
+      "placements": [
+        {
+          "tag_path": [
+            1663,
+            3
+          ],
+          "sprite_id": 1554,
+          "depth": 4
+        }
+      ],
+      "consumer_methods": [
+        959
+      ],
+      "classification": "TECHNICAL",
+      "evidence": "Числовое поле/форматный шаблон: live-writer выводит числа, знаки или ID; исходный шаблон не является пользовательской прозой.",
+      "runtime": "NOT TESTED in PR34"
+    },
+    {
+      "id": "edit.1556",
+      "source_sha256": "fd01f4f623d555d7e7aa504532309617cf87aff231aaff4819292fca62394682",
+      "tag_path": [
+        1666
+      ],
+      "placements": [
+        {
+          "tag_path": [
+            1672,
+            2
+          ],
+          "sprite_id": 1559,
+          "depth": 2
+        }
+      ],
+      "consumer_methods": [
+        959
+      ],
+      "classification": "TECHNICAL",
+      "evidence": "Числовое поле/форматный шаблон: live-writer выводит числа, знаки или ID; исходный шаблон не является пользовательской прозой.",
+      "runtime": "NOT TESTED in PR34"
+    },
+    {
+      "id": "edit.1558",
+      "source_sha256": "31c6431e29f64fca6e31fea48ebab99027d7ae456b77a290c3359aca90c3695b",
+      "tag_path": [
+        1670
+      ],
+      "placements": [
+        {
+          "tag_path": [
+            1672,
+            4
+          ],
+          "sprite_id": 1559,
+          "depth": 4
+        }
+      ],
+      "consumer_methods": [
+        959
+      ],
+      "classification": "TECHNICAL",
+      "evidence": "Числовое поле/форматный шаблон: live-writer выводит числа, знаки или ID; исходный шаблон не является пользовательской прозой.",
+      "runtime": "NOT TESTED in PR34"
+    },
+    {
+      "id": "edit.2012",
+      "source_sha256": "93be1a7b2aea3e86279c1e8d4600b7322bb2b3c39c3a57d04231a44701f49c2c",
+      "tag_path": [
+        2126
+      ],
+      "placements": [
+        {
+          "tag_path": [
+            2130,
+            5
+          ],
+          "sprite_id": 2014,
+          "depth": 8
+        }
+      ],
+      "consumer_methods": [
+        2993
+      ],
+      "classification": "TECHNICAL",
+      "evidence": "Числовое поле/форматный шаблон: live-writer выводит числа, знаки или ID; исходный шаблон не является пользовательской прозой.",
+      "runtime": "NOT TESTED in PR34"
+    },
+    {
+      "id": "edit.2013",
+      "source_sha256": "bb80d7814539d0533ac83229b89551ea8513b1c4bb50cec8345097d1012f8d2d",
+      "tag_path": [
+        2128
+      ],
+      "placements": [
+        {
+          "tag_path": [
+            2130,
+            13
+          ],
+          "sprite_id": 2014,
+          "depth": 23
+        }
+      ],
+      "consumer_methods": [
+        465,
+        1441,
+        1442,
+        3533
+      ],
+      "classification": "COVERED",
+      "evidence": "AdviceOracle: 60 советов PR34, присвоение до показа; отдельный метод меняет только alpha.",
+      "runtime": "NOT TESTED in PR34"
+    },
+    {
+      "id": "edit.2457",
+      "source_sha256": "7162a36bfb08ecc2ba5eb41e978813a3c88b0bc3693b0eadff1c829467a1b7a3",
+      "tag_path": [
+        2573
+      ],
+      "placements": [
+        {
+          "tag_path": [
+            2575,
+            2
+          ],
+          "sprite_id": 2458,
+          "depth": 2
+        }
+      ],
+      "consumer_methods": [],
+      "classification": "TECHNICAL",
+      "evidence": "Пустой HTML без букв, без имени экземпляра: декоративная часть вертикальной рамки; переводить нечего.",
+      "runtime": "NOT TESTED in PR34"
+    },
+    {
+      "id": "edit.2658",
+      "source_sha256": "63050d1d30b0f51846df82581f6a073fee8823f5a8b3f805a9c9164df4448063",
+      "tag_path": [
+        2775
+      ],
+      "placements": [
+        {
+          "tag_path": [
+            2793,
+            4
+          ],
+          "sprite_id": 2668,
+          "depth": 5
+        }
+      ],
+      "consumer_methods": [
+        1080
+      ],
+      "classification": "TECHNICAL",
+      "evidence": "Числовое поле/форматный шаблон: live-writer выводит числа, знаки или ID; исходный шаблон не является пользовательской прозой.",
+      "runtime": "NOT TESTED in PR34"
+    },
+    {
+      "id": "edit.2822",
+      "source_sha256": "2f96764c4413ba9f2118710fabb68cbfff3193dea45edbd33a40742ec96f0865",
+      "tag_path": [
+        2948
+      ],
+      "placements": [
+        {
+          "tag_path": [
+            2959,
+            3
+          ],
+          "sprite_id": 2828,
+          "depth": 3
+        }
+      ],
+      "consumer_methods": [
+        306
+      ],
+      "classification": "TECHNICAL",
+      "evidence": "Числовое поле/форматный шаблон: live-writer выводит числа, знаки или ID; исходный шаблон не является пользовательской прозой.",
+      "runtime": "NOT TESTED in PR34"
+    },
+    {
+      "id": "edit.2823",
+      "source_sha256": "287bfca1ff59ac3049bc73aba71818e30c2c5fc789df3e6c7499db5cba3ca06d",
+      "tag_path": [
+        2950
+      ],
+      "placements": [
+        {
+          "tag_path": [
+            2959,
+            4
+          ],
+          "sprite_id": 2828,
+          "depth": 4
+        }
+      ],
+      "consumer_methods": [
+        306
+      ],
+      "classification": "TECHNICAL",
+      "evidence": "Числовое поле/форматный шаблон: live-writer выводит числа, знаки или ID; исходный шаблон не является пользовательской прозой.",
+      "runtime": "NOT TESTED in PR34"
+    },
+    {
+      "id": "edit.2839",
+      "source_sha256": "d02b658f81612737216b696439a80293a74497c30d146bfde76016aba4f9cc59",
+      "tag_path": [
+        2970
+      ],
+      "placements": [
+        {
+          "tag_path": [
+            2972,
+            2
+          ],
+          "sprite_id": 2840,
+          "depth": 3
+        }
+      ],
+      "consumer_methods": [
+        90,
+        3460
+      ],
+      "classification": "COVERED",
+      "evidence": "Общие кнопки сохранений и выхода: подписи назначаются из переведённых адресных литералов.",
+      "runtime": "NOT TESTED in PR34"
+    },
+    {
+      "id": "edit.3013",
+      "source_sha256": "8c39a11d02da5b810c59897739e8258e3dc25ab3f002a250d235e1e548775575",
+      "tag_path": [
+        3146
+      ],
+      "placements": [
+        {
+          "tag_path": [
+            3155,
+            3
+          ],
+          "sprite_id": 3020,
+          "depth": 4
+        }
+      ],
+      "consumer_methods": [
+        861,
+        862,
+        865
+      ],
+      "classification": "TECHNICAL",
+      "evidence": "Диаграмма предстоящих событий: числа и условный маркер X, не текстовые названия событий; присваивается htmlText.",
+      "runtime": "NOT TESTED in PR34"
+    },
+    {
+      "id": "edit.3062",
+      "source_sha256": "1ac18c4bfd9f49eea93d90bec343e033ad91ef38f7be3ea2d84395defc446bab",
+      "tag_path": [
+        3202
+      ],
+      "placements": [
+        {
+          "tag_path": [
+            3204,
+            2
+          ],
+          "sprite_id": 3063,
+          "depth": 3
+        }
+      ],
+      "consumer_methods": [
+        90
+      ],
+      "classification": "COVERED",
+      "evidence": "Кнопка главного меню получает переведённую подпись при инициализации.",
+      "runtime": "NOT TESTED in PR34"
+    },
+    {
+      "id": "edit.3088",
+      "source_sha256": "ac1903f556eeb737d77d644be1ddbc55f077ccf5045a8f5ee280e74ba5f1ff3d",
+      "tag_path": [
+        3233
+      ],
+      "placements": [
+        {
+          "tag_path": [
+            3235,
+            2
+          ],
+          "sprite_id": 3089,
+          "depth": 2
+        }
+      ],
+      "consumer_methods": [
+        1067
+      ],
+      "classification": "TECHNICAL",
+      "evidence": "Числовое поле/форматный шаблон: live-writer выводит числа, знаки или ID; исходный шаблон не является пользовательской прозой.",
+      "runtime": "NOT TESTED in PR34"
+    },
+    {
+      "id": "edit.3100",
+      "source_sha256": "d5d5e20b203ce13a552bca395e30bea284a1210e09c6c917b4ace7d947903a75",
+      "tag_path": [
+        3249
+      ],
+      "placements": [
+        {
+          "tag_path": [
+            3287,
+            10
+          ],
+          "sprite_id": 3132,
+          "depth": 30
+        }
+      ],
+      "consumer_methods": [
+        1023
+      ],
+      "classification": "TECHNICAL",
+      "evidence": "Технический ID поля из StageMetaData.strId; игровые идентификаторы не переводятся.",
+      "runtime": "NOT TESTED in PR34"
+    },
+    {
+      "id": "edit.3102",
+      "source_sha256": "b049e6af088be7c4bc65b5b6a8753066f1a639844c36d774a7613251cfcc514a",
+      "tag_path": [
+        3253
+      ],
+      "placements": [
+        {
+          "tag_path": [
+            3287,
+            12
+          ],
+          "sprite_id": 3132,
+          "depth": 32
+        }
+      ],
+      "consumer_methods": [
+        1065
+      ],
+      "classification": "TECHNICAL",
+      "evidence": "Числовое поле/форматный шаблон: live-writer выводит числа, знаки или ID; исходный шаблон не является пользовательской прозой.",
+      "runtime": "NOT TESTED in PR34"
+    },
+    {
+      "id": "edit.3104",
+      "source_sha256": "3279d28de1cb01909c2f0087f1e14d801461fcfa9804920caae35308946a8fa3",
+      "tag_path": [
+        3257
+      ],
+      "placements": [
+        {
+          "tag_path": [
+            3287,
+            14
+          ],
+          "sprite_id": 3132,
+          "depth": 34
+        }
+      ],
+      "consumer_methods": [
+        1065
+      ],
+      "classification": "TECHNICAL",
+      "evidence": "Числовое поле/форматный шаблон: live-writer выводит числа, знаки или ID; исходный шаблон не является пользовательской прозой.",
+      "runtime": "NOT TESTED in PR34"
+    },
+    {
+      "id": "edit.3129",
+      "source_sha256": "e6f50d836ff776064f6fdb08252978fce03c9c67e947ae86082b80ee22d111f5",
+      "tag_path": [
+        3283
+      ],
+      "placements": [
+        {
+          "tag_path": [
+            3285,
+            2
+          ],
+          "sprite_id": 3130,
+          "depth": 3
+        }
+      ],
+      "consumer_methods": [
+        1065
+      ],
+      "classification": "TECHNICAL",
+      "evidence": "Числовое поле/форматный шаблон: live-writer выводит числа, знаки или ID; исходный шаблон не является пользовательской прозой.",
+      "runtime": "NOT TESTED in PR34"
+    },
+    {
+      "id": "edit.3142",
+      "source_sha256": "d7d50efc5b910506675f5b26aed8ce0fc57f81b3fd2abb562fb7200e1338b1cc",
+      "tag_path": [
+        3299
+      ],
+      "placements": [
+        {
+          "tag_path": [
+            3307,
+            2
+          ],
+          "sprite_id": 3149,
+          "depth": 3
+        }
+      ],
+      "consumer_methods": [
+        1055
+      ],
+      "classification": "TECHNICAL",
+      "evidence": "Числовое поле/форматный шаблон: live-writer выводит числа, знаки или ID; исходный шаблон не является пользовательской прозой.",
+      "runtime": "NOT TESTED in PR34"
+    },
+    {
+      "id": "edit.3301",
+      "source_sha256": "a405e6a1fad350c90b9d5aa5cda6df2f3cec5b0fef37ecd1e2ef2e91c66d5ad3",
+      "tag_path": [
+        3459
+      ],
+      "placements": [
+        {
+          "tag_path": [
+            3461,
+            1
+          ],
+          "sprite_id": 3302,
+          "depth": 1
+        }
+      ],
+      "consumer_methods": [
+        635
+      ],
+      "classification": "TECHNICAL",
+      "evidence": "Числовое поле/форматный шаблон: live-writer выводит числа, знаки или ID; исходный шаблон не является пользовательской прозой.",
+      "runtime": "NOT TESTED in PR34"
+    },
+    {
+      "id": "edit.3444",
+      "source_sha256": "c60b44b231351cd49ec7de28ad2ab86b77d5c4a1302d21c63b1c1192194df463",
+      "tag_path": [
+        3604
+      ],
+      "placements": [
+        {
+          "tag_path": [
+            3630,
+            46
+          ],
+          "sprite_id": 3463,
+          "depth": 317
+        }
+      ],
+      "consumer_methods": [
+        501,
+        588,
+        640,
+        3457
+      ],
+      "classification": "TECHNICAL",
+      "evidence": "Числовое поле/форматный шаблон: live-writer выводит числа, знаки или ID; исходный шаблон не является пользовательской прозой.",
+      "runtime": "NOT TESTED in PR34"
+    },
+    {
+      "id": "edit.3453",
+      "source_sha256": "e42f72d054a891840656263f308d966cfcbc1d6e1588ac061a343fc584bcba1f",
+      "tag_path": [
+        3614
+      ],
+      "placements": [
+        {
+          "tag_path": [
+            3618,
+            4
+          ],
+          "sprite_id": 3455,
+          "depth": 6
+        }
+      ],
+      "consumer_methods": [
+        501,
+        588,
+        636
+      ],
+      "classification": "TECHNICAL",
+      "evidence": "Числовое поле/форматный шаблон: live-writer выводит числа, знаки или ID; исходный шаблон не является пользовательской прозой.",
+      "runtime": "NOT TESTED in PR34"
+    },
+    {
+      "id": "edit.3454",
+      "source_sha256": "f9f7650ac0c075e46d66ac20f1e7703a8ff0920dbba4bcf25f9a3b38ccc4758a",
+      "tag_path": [
+        3616
+      ],
+      "placements": [
+        {
+          "tag_path": [
+            3618,
+            5
+          ],
+          "sprite_id": 3455,
+          "depth": 7
+        }
+      ],
+      "consumer_methods": [
+        501,
+        588,
+        636
+      ],
+      "classification": "TECHNICAL",
+      "evidence": "Числовое поле/форматный шаблон: live-writer выводит числа, знаки или ID; исходный шаблон не является пользовательской прозой.",
+      "runtime": "NOT TESTED in PR34"
+    },
+    {
+      "id": "edit.3456",
+      "source_sha256": "f778f20685f1acdf9e7bab5c9830a67705acbfa5ceed315160ede87838859baa",
+      "tag_path": [
+        3619
+      ],
+      "placements": [
+        {
+          "tag_path": [
+            3630,
+            48
+          ],
+          "sprite_id": 3463,
+          "depth": 326
+        }
+      ],
+      "consumer_methods": [
+        243,
+        501,
+        519,
+        520,
+        521,
+        522,
+        523,
+        539
+      ],
+      "classification": "COVERED",
+      "evidence": "Начальный шаблон очищается при сбросе; шесть live-writers переведены PR33.",
+      "runtime": "NOT TESTED in PR34"
+    },
+    {
+      "id": "edit.3457",
+      "source_sha256": "25af04ec4435a31c994eb865152a293ec4166194200fafcdaae063a0b3e393e6",
+      "tag_path": [
+        3621
+      ],
+      "placements": [
+        {
+          "tag_path": [
+            3623,
+            1
+          ],
+          "sprite_id": 3458,
+          "depth": 1
+        }
+      ],
+      "consumer_methods": [
+        501,
+        636
+      ],
+      "classification": "TECHNICAL",
+      "evidence": "Числовое поле/форматный шаблон: live-writer выводит числа, знаки или ID; исходный шаблон не является пользовательской прозой.",
+      "runtime": "NOT TESTED in PR34"
+    },
+    {
+      "id": "edit.3459",
+      "source_sha256": "5bf8917d6957c96d3bdf2ce6bcaa86a68b9c9d870ef47c998e3d6dbc81b42e10",
+      "tag_path": [
+        3624
+      ],
+      "placements": [
+        {
+          "tag_path": [
+            3630,
+            50
+          ],
+          "sprite_id": 3463,
+          "depth": 329
+        }
+      ],
+      "consumer_methods": [
+        640
+      ],
+      "classification": "TECHNICAL",
+      "evidence": "Числовое значение заблокированной маны со знаками (+N), без пользовательских слов.",
+      "runtime": "NOT TESTED in PR34"
+    },
+    {
+      "id": "edit.3460",
+      "source_sha256": "4e344d24368039379382d3faf316f47bb610ee71077910b782c4d15ebd450fa9",
+      "tag_path": [
+        3626
+      ],
+      "placements": [
+        {
+          "tag_path": [
+            3630,
+            51
+          ],
+          "sprite_id": 3463,
+          "depth": 330
+        }
+      ],
+      "consumer_methods": [
+        588,
+        703,
+        745,
+        767,
+        3457
+      ],
+      "classification": "TECHNICAL",
+      "evidence": "Числовое поле/форматный шаблон: live-writer выводит числа, знаки или ID; исходный шаблон не является пользовательской прозой.",
+      "runtime": "NOT TESTED in PR34"
+    },
+    {
+      "id": "edit.3733",
+      "source_sha256": "abcef038edb46dd35238bc408f44fff7b4c1601c540eba718046b996899381b2",
+      "tag_path": [
+        3973
+      ],
+      "placements": [
+        {
+          "tag_path": [
+            4067,
+            6
+          ],
+          "sprite_id": 3787,
+          "depth": 17
+        }
+      ],
+      "consumer_methods": [
+        895
+      ],
+      "classification": "COVERED",
+      "evidence": "Полная подпись итогов собирается из переведённых фрагментов и технического ID поля.",
+      "runtime": "NOT TESTED in PR34"
+    },
+    {
+      "id": "edit.3738",
+      "source_sha256": "dc0d6e88f61ef0845c36304ae3a840903dbd30c93fb4e41be33dd3f5f1d6dc2f",
+      "tag_path": [
+        3983
+      ],
+      "placements": [
+        {
+          "tag_path": [
+            4067,
+            11
+          ],
+          "sprite_id": 3787,
+          "depth": 22
+        }
+      ],
+      "consumer_methods": [
+        249,
+        899,
+        900
+      ],
+      "classification": "TECHNICAL",
+      "evidence": "Числовое поле/форматный шаблон: live-writer выводит числа, знаки или ID; исходный шаблон не является пользовательской прозой.",
+      "runtime": "NOT TESTED in PR34"
+    },
+    {
+      "id": "edit.3739",
+      "source_sha256": "28aa16bf1b35db03df364165ace715ece54c53fbf2bda34d3801cccfaafa06b6",
+      "tag_path": [
+        3985
+      ],
+      "placements": [
+        {
+          "tag_path": [
+            4067,
+            12
+          ],
+          "sprite_id": 3787,
+          "depth": 23
+        }
+      ],
+      "consumer_methods": [
+        249,
+        899,
+        900
+      ],
+      "classification": "TECHNICAL",
+      "evidence": "Числовое поле/форматный шаблон: live-writer выводит числа, знаки или ID; исходный шаблон не является пользовательской прозой.",
+      "runtime": "NOT TESTED in PR34"
+    },
+    {
+      "id": "edit.3740",
+      "source_sha256": "8dd2e603267cff3f33a828a21fc0e560ce8428b37908876726261c7ab3df1463",
+      "tag_path": [
+        3987
+      ],
+      "placements": [
+        {
+          "tag_path": [
+            4067,
+            13
+          ],
+          "sprite_id": 3787,
+          "depth": 24
+        }
+      ],
+      "consumer_methods": [
+        899
+      ],
+      "classification": "TECHNICAL",
+      "evidence": "Числовое поле/форматный шаблон: live-writer выводит числа, знаки или ID; исходный шаблон не является пользовательской прозой.",
+      "runtime": "NOT TESTED in PR34"
+    },
+    {
+      "id": "edit.3741",
+      "source_sha256": "1be3e5ba94291bf5d5b9e8e52af830f76722d26701f48d7796dde8433e9c9dfd",
+      "tag_path": [
+        3989
+      ],
+      "placements": [
+        {
+          "tag_path": [
+            4067,
+            14
+          ],
+          "sprite_id": 3787,
+          "depth": 25
+        }
+      ],
+      "consumer_methods": [
+        249,
+        899,
+        900
+      ],
+      "classification": "TECHNICAL",
+      "evidence": "Числовое поле/форматный шаблон: live-writer выводит числа, знаки или ID; исходный шаблон не является пользовательской прозой.",
+      "runtime": "NOT TESTED in PR34"
+    },
+    {
+      "id": "edit.3743",
+      "source_sha256": "b7c35ddffc5e43870bb9ba82d7c3ba3fa7da25d74992f3936365053a4dc1583a",
+      "tag_path": [
+        3993
+      ],
+      "placements": [
+        {
+          "tag_path": [
+            4067,
+            16
+          ],
+          "sprite_id": 3787,
+          "depth": 27
+        }
+      ],
+      "consumer_methods": [
+        899,
+        900
+      ],
+      "classification": "TECHNICAL",
+      "evidence": "Числовое поле/форматный шаблон: live-writer выводит числа, знаки или ID; исходный шаблон не является пользовательской прозой.",
+      "runtime": "NOT TESTED in PR34"
+    },
+    {
+      "id": "edit.3746",
+      "source_sha256": "28aa16bf1b35db03df364165ace715ece54c53fbf2bda34d3801cccfaafa06b6",
+      "tag_path": [
+        3999
+      ],
+      "placements": [
+        {
+          "tag_path": [
+            4067,
+            19
+          ],
+          "sprite_id": 3787,
+          "depth": 30
+        }
+      ],
+      "consumer_methods": [
+        249,
+        899,
+        900
+      ],
+      "classification": "TECHNICAL",
+      "evidence": "Числовое поле/форматный шаблон: live-writer выводит числа, знаки или ID; исходный шаблон не является пользовательской прозой.",
+      "runtime": "NOT TESTED in PR34"
+    },
+    {
+      "id": "edit.3748",
+      "source_sha256": "dc0d6e88f61ef0845c36304ae3a840903dbd30c93fb4e41be33dd3f5f1d6dc2f",
+      "tag_path": [
+        4003
+      ],
+      "placements": [
+        {
+          "tag_path": [
+            4067,
+            21
+          ],
+          "sprite_id": 3787,
+          "depth": 32
+        }
+      ],
+      "consumer_methods": [
+        249,
+        899,
+        900
+      ],
+      "classification": "TECHNICAL",
+      "evidence": "Числовое поле/форматный шаблон: live-writer выводит числа, знаки или ID; исходный шаблон не является пользовательской прозой.",
+      "runtime": "NOT TESTED in PR34"
+    },
+    {
+      "id": "edit.3750",
+      "source_sha256": "dc0d6e88f61ef0845c36304ae3a840903dbd30c93fb4e41be33dd3f5f1d6dc2f",
+      "tag_path": [
+        4007
+      ],
+      "placements": [
+        {
+          "tag_path": [
+            4067,
+            23
+          ],
+          "sprite_id": 3787,
+          "depth": 34
+        }
+      ],
+      "consumer_methods": [
+        249,
+        899,
+        900
+      ],
+      "classification": "TECHNICAL",
+      "evidence": "Числовое поле/форматный шаблон: live-writer выводит числа, знаки или ID; исходный шаблон не является пользовательской прозой.",
+      "runtime": "NOT TESTED in PR34"
+    },
+    {
+      "id": "edit.3752",
+      "source_sha256": "dc0d6e88f61ef0845c36304ae3a840903dbd30c93fb4e41be33dd3f5f1d6dc2f",
+      "tag_path": [
+        4011
+      ],
+      "placements": [
+        {
+          "tag_path": [
+            4067,
+            25
+          ],
+          "sprite_id": 3787,
+          "depth": 36
+        }
+      ],
+      "consumer_methods": [
+        249,
+        899,
+        900
+      ],
+      "classification": "TECHNICAL",
+      "evidence": "Числовое поле/форматный шаблон: live-writer выводит числа, знаки или ID; исходный шаблон не является пользовательской прозой.",
+      "runtime": "NOT TESTED in PR34"
+    },
+    {
+      "id": "edit.3754",
+      "source_sha256": "dc0d6e88f61ef0845c36304ae3a840903dbd30c93fb4e41be33dd3f5f1d6dc2f",
+      "tag_path": [
+        4015
+      ],
+      "placements": [
+        {
+          "tag_path": [
+            4067,
+            27
+          ],
+          "sprite_id": 3787,
+          "depth": 38
+        }
+      ],
+      "consumer_methods": [
+        249,
+        899,
+        900
+      ],
+      "classification": "TECHNICAL",
+      "evidence": "Числовое поле/форматный шаблон: live-writer выводит числа, знаки или ID; исходный шаблон не является пользовательской прозой.",
+      "runtime": "NOT TESTED in PR34"
+    },
+    {
+      "id": "edit.3756",
+      "source_sha256": "dc0d6e88f61ef0845c36304ae3a840903dbd30c93fb4e41be33dd3f5f1d6dc2f",
+      "tag_path": [
+        4019
+      ],
+      "placements": [
+        {
+          "tag_path": [
+            4067,
+            29
+          ],
+          "sprite_id": 3787,
+          "depth": 40
+        }
+      ],
+      "consumer_methods": [
+        249,
+        899,
+        900
+      ],
+      "classification": "TECHNICAL",
+      "evidence": "Числовое поле/форматный шаблон: live-writer выводит числа, знаки или ID; исходный шаблон не является пользовательской прозой.",
+      "runtime": "NOT TESTED in PR34"
+    },
+    {
+      "id": "edit.3758",
+      "source_sha256": "dc0d6e88f61ef0845c36304ae3a840903dbd30c93fb4e41be33dd3f5f1d6dc2f",
+      "tag_path": [
+        4023
+      ],
+      "placements": [
+        {
+          "tag_path": [
+            4067,
+            31
+          ],
+          "sprite_id": 3787,
+          "depth": 42
+        }
+      ],
+      "consumer_methods": [
+        249,
+        899,
+        900
+      ],
+      "classification": "TECHNICAL",
+      "evidence": "Числовое поле/форматный шаблон: live-writer выводит числа, знаки или ID; исходный шаблон не является пользовательской прозой.",
+      "runtime": "NOT TESTED in PR34"
+    },
+    {
+      "id": "edit.3760",
+      "source_sha256": "dc0d6e88f61ef0845c36304ae3a840903dbd30c93fb4e41be33dd3f5f1d6dc2f",
+      "tag_path": [
+        4027
+      ],
+      "placements": [
+        {
+          "tag_path": [
+            4067,
+            33
+          ],
+          "sprite_id": 3787,
+          "depth": 44
+        }
+      ],
+      "consumer_methods": [
+        249,
+        899,
+        900
+      ],
+      "classification": "TECHNICAL",
+      "evidence": "Числовое поле/форматный шаблон: live-writer выводит числа, знаки или ID; исходный шаблон не является пользовательской прозой.",
+      "runtime": "NOT TESTED in PR34"
+    },
+    {
+      "id": "edit.3762",
+      "source_sha256": "dc0d6e88f61ef0845c36304ae3a840903dbd30c93fb4e41be33dd3f5f1d6dc2f",
+      "tag_path": [
+        4031
+      ],
+      "placements": [
+        {
+          "tag_path": [
+            4067,
+            35
+          ],
+          "sprite_id": 3787,
+          "depth": 46
+        }
+      ],
+      "consumer_methods": [
+        249,
+        899,
+        900
+      ],
+      "classification": "TECHNICAL",
+      "evidence": "Числовое поле/форматный шаблон: live-writer выводит числа, знаки или ID; исходный шаблон не является пользовательской прозой.",
+      "runtime": "NOT TESTED in PR34"
+    },
+    {
+      "id": "edit.3764",
+      "source_sha256": "dc0d6e88f61ef0845c36304ae3a840903dbd30c93fb4e41be33dd3f5f1d6dc2f",
+      "tag_path": [
+        4035
+      ],
+      "placements": [
+        {
+          "tag_path": [
+            4067,
+            37
+          ],
+          "sprite_id": 3787,
+          "depth": 48
+        }
+      ],
+      "consumer_methods": [
+        249,
+        899,
+        900
+      ],
+      "classification": "TECHNICAL",
+      "evidence": "Числовое поле/форматный шаблон: live-writer выводит числа, знаки или ID; исходный шаблон не является пользовательской прозой.",
+      "runtime": "NOT TESTED in PR34"
+    },
+    {
+      "id": "edit.3766",
+      "source_sha256": "dc0d6e88f61ef0845c36304ae3a840903dbd30c93fb4e41be33dd3f5f1d6dc2f",
+      "tag_path": [
+        4039
+      ],
+      "placements": [
+        {
+          "tag_path": [
+            4067,
+            39
+          ],
+          "sprite_id": 3787,
+          "depth": 50
+        }
+      ],
+      "consumer_methods": [
+        249,
+        899,
+        900
+      ],
+      "classification": "TECHNICAL",
+      "evidence": "Числовое поле/форматный шаблон: live-writer выводит числа, знаки или ID; исходный шаблон не является пользовательской прозой.",
+      "runtime": "NOT TESTED in PR34"
+    },
+    {
+      "id": "edit.3768",
+      "source_sha256": "dc0d6e88f61ef0845c36304ae3a840903dbd30c93fb4e41be33dd3f5f1d6dc2f",
+      "tag_path": [
+        4043
+      ],
+      "placements": [
+        {
+          "tag_path": [
+            4067,
+            41
+          ],
+          "sprite_id": 3787,
+          "depth": 52
+        }
+      ],
+      "consumer_methods": [
+        249,
+        899,
+        900
+      ],
+      "classification": "TECHNICAL",
+      "evidence": "Числовое поле/форматный шаблон: live-writer выводит числа, знаки или ID; исходный шаблон не является пользовательской прозой.",
+      "runtime": "NOT TESTED in PR34"
+    }
+  ]
+}
