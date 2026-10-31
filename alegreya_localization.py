@@ -271,6 +271,14 @@ def build_alegreya_localization(original, workspace, plan, ttf_bytes):
         tags, report['journey_map'] = localize_map_tags(tags, ttf_bytes, plan['journey_map'])
         report['changed_original_tags'].append({'tag_index': 750, 'tag_code': 6,
                                                 'character_id': 678})
+    if plan.get('outcome_info_icons'):
+        from outcome_info_icons import repair_outcome_icons
+        report['outcome_info_icons'] = repair_outcome_icons(
+            original_tags, tags, {regular["id"]: regular, bold["id"]: bold})
+        report['changed_original_tags'].extend([
+            {'tag_index': 4046, 'tag_code': 22, 'character_id': 3770},
+            {'tag_index': 4067, 'tag_code': 39, 'character_id': 3787},
+        ])
     additions = []
     for font in (regular, bold):
         additions.extend([
