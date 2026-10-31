@@ -188,7 +188,7 @@ PR #26 проверяется только офлайн.
 
 Закройте игру перед изменением файлов. Ни один публикуемый инструмент её не
 запускает. Для любого будущего GUI/runtime запуска требуется отдельное явное
-согласие пользователя, кроме явно согласованной приёмки PR #33 и завершения PR #34 по
+согласие пользователя, кроме явно согласованной приёмки PR #33, завершения PR #34 и приёмки PR #35 по
 [исключению в AGENTS.md](AGENTS.md#полномочия-и-запуск-игры). Сначала используйте копии
 и проверьте результат.
 
@@ -239,6 +239,71 @@ Read-only verifier опционально принимает `--inventory file-i
 тогда проверяет также неизменность остальных файлов по локальной инвентаризации.
 Без inventory проверяет только SWF и backup. Это не runtime-проверка.
 Отчёт создаётся только по новому пути: прежние свидетельства не перезаписываются.
+
+## Проверенный переход PR25 → релизный кандидат
+
+Процедура только для подтверждённого оригинала `c8eadc03a7e607086998695f7696ec22dd90d7b7859e3d10cdfabf40fc7bbad5`, установленного PR25 `a10aa184dea912875b0b5c87da2a10f67e0072f7f24cb4963caabba1a543e771` и RC `0bf6d4ae5bc0764bfc84d589892c1288de71062673f663d532e9e434b22ebacf`. При другом SHA остановиться: не менять guards/manifest. Закрыть игру и проверить отсутствие процессов. Не перенастраивать Steam Cloud; сохранения не заменять. Инструменты меняют только явно выбранный SWF.
+
+Сохранить старый manifest и его original backup без изменений. До restore отдельно сохранить установленный SWF PR25 вне каталога игры, проверить размер/SHA и побайтовое равенство; он нужен для возврата PR25. Сохранить его соответствующие workspace/plan и закреплённый TTF как исторические входы. RC должен быть собран из актуального main в новый каталог с workspace.json, **объединённым** plan.json и проверенным SWF; `translations/build-manifest.json` не является аргументом `--plan`.
+
+Обозначения в командах: `GAME` — точный подтверждённый путь к gc-cs-steam.swf; `OLD_MANIFEST` — manifest ранее установленного PR25, его original_path должен совпадать с GAME; `OLD_BACKUPS` — каталог его original backup; `PR25_COPY` — проверенная сохранённая копия PR25; `RC_DIR` — новая сборка; `FONT` — закреплённый Alegreya TTF. `NEW_BACKUPS` — новый каталог вне игры. Подставить реальные значения; команды выполнять по одной, останавливаясь при любой ошибке.
+
+Исторический PR25 нельзя проверять/повторно применять текущим CLI с его старым workspace: PR34 изменил inventory, а после reconcile текущий builder всё равно не воспроизводит прежний SWF (это фактически проверено, ошибка `Candidate differs from reproducible Alegreya recipe`). Исторические входы сохранить, guards не ослаблять. Для **точного возврата сохранённых байтов PR25** использовать существующий hash-guarded API ниже; он не выполняет пересборку и требует оба точных SHA. RC применяется и проверяется обычным CLI с актуальными входами.
+
+1. До записи проверить read-only: `sha256sum "$GAME" "$PR25_COPY"`, содержимое OLD_MANIFEST, соответствие original_path выбранному GAME, размеры/SHA backup и его побайтовое равенство с проверенным оригиналом. Точный установленный SWF должен совпасть с PR25_COPY и patched_sha256/size старого manifest. Проверить SHA/размер RC. Наличие корректного manifest и hash/byte guard является доказательством восстановимости, а не новой полной runtime-приёмкой PR25.
+
+2. Восстановить оригинал существующим manifest, проверить SHA и `cmp` с original backup:
+
+```sh
+python restore_game.py --game-file "$GAME" --manifest "$OLD_MANIFEST"
+sha256sum "$GAME"
+```
+
+3. Применить RC, сохранить точный выведенный путь нового manifest (не редактировать):
+
+```sh
+python install_patch.py apply --game-file "$GAME" --backup-dir "$NEW_BACKUPS" \
+  --candidate "$RC_DIR/gc-cs-steam.ru.swf" \
+  --workspace "$RC_DIR/workspace.json" --plan "$RC_DIR/plan.json" \
+  --alegreya-font "$FONT"
+sha256sum "$GAME"
+cmp "$GAME" "$RC_DIR/gc-cs-steam.ru.swf"
+python verify_experiment.py --game-file "$GAME" --backup-dir "$NEW_BACKUPS" \
+  --workspace "$RC_DIR/workspace.json" --plan "$RC_DIR/plan.json" \
+  --alegreya-font "$FONT" --report /path/to/new-rc-verification.json
+```
+
+Каждый `--report` требует новый путь. Для полного контроля соседних ресурсов можно передать `--inventory` с ранее проверенным точным набором файлов; произвольный/устаревший inventory использовать нельзя. Без него verifier проверяет SWF и backup, а не все ресурсы установки.
+
+4. Откат RC к оригиналу:
+
+```sh
+python restore_game.py --game-file "$GAME" --manifest "$NEW_MANIFEST"
+sha256sum "$GAME"
+```
+
+5. При необходимости вернуть прежний PR25 только после восстановления оригинала:
+
+```sh
+python - "$GAME" "$PR25_COPY" "$OLD_BACKUPS" <<'PYCODE'
+import sys
+from install_patch import apply_patch_file
+print(apply_patch_file(
+    sys.argv[1], sys.argv[2], sys.argv[3],
+    "c8eadc03a7e607086998695f7696ec22dd90d7b7859e3d10cdfabf40fc7bbad5",
+    "a10aa184dea912875b0b5c87da2a10f67e0072f7f24cb4963caabba1a543e771",
+))
+PYCODE
+sha256sum "$GAME"
+cmp "$GAME" "$PR25_COPY"
+```
+
+Существующий совместимый manifest допускается повторно использовать; первый backup и manifest сохраняются. Альтернатива — новый отдельный каталог backup и новый автоматически созданный manifest. Старый manifest нельзя переносить на другую цель ручной правкой original_path. Для отката PR25 к оригиналу снова использовать соответствующий manifest.
+
+Безопасный отказ: неизвестный текущий SHA, повреждённый backup, несовпадение target manifest, несовместимый renderer/font, изменившийся source/guard или конфликт manifest — остановиться без ручной подмены SWF. Если RC apply завершился ошибкой, повторно прочитать текущий SWF: при исходном SHA можно вернуть PR25 приведённым hash-guarded API; при SHA RC сначала штатно восстановить оригинал новым manifest; при неизвестном SHA остановиться. Restore требует только целевой manifest и intact original backup, пересборка и шрифты не нужны.
+
+Результат проверки на копии и решение о готовности — в
+[отчёте PR35](docs/release-readiness.md). Реальное обновление в рамках приёмки не выполняется.
 
 ## Проверки
 
