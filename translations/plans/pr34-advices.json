@@ -1,0 +1,90 @@
+{
+  "abc_font_bindings": [
+    {
+      "expected_opcode": 96,
+      "expected_operands": [
+        230
+      ],
+      "extra_stack": 5,
+      "instruction_index": 461,
+      "kind": "field",
+      "method_index": 465,
+      "receiver_guards": [
+        {
+          "instruction_index": 461,
+          "opcode": 96,
+          "operands": [
+            230
+          ]
+        },
+        {
+          "instruction_index": 462,
+          "opcode": 102,
+          "operands": [
+            684
+          ]
+        },
+        {
+          "instruction_index": 463,
+          "opcode": 102,
+          "operands": [
+            3825
+          ]
+        },
+        {
+          "instruction_index": 464,
+          "opcode": 102,
+          "operands": [
+            3197
+          ]
+        },
+        {
+          "instruction_index": 465,
+          "opcode": 96,
+          "operands": [
+            2314
+          ]
+        },
+        {
+          "instruction_index": 466,
+          "opcode": 70,
+          "operands": [
+            5060,
+            0
+          ]
+        },
+        {
+          "instruction_index": 467,
+          "opcode": 97,
+          "operands": [
+            5329
+          ]
+        }
+      ],
+      "receiver_hex": "60e60166ac0566f11d66fd18",
+      "tag_path": [
+        4175
+      ]
+    }
+  ],
+  "coverage_blockers": [],
+  "entry_ids": [
+    "abc.4175.1441.39"
+  ],
+  "fonts": [
+    1
+  ],
+  "game_sha256": "c8eadc03a7e607086998695f7696ec22dd90d7b7859e3d10cdfabf40fc7bbad5",
+  "layouts": {
+    "abc.4175.1441.39": {
+      "font_id": 1,
+      "height": 320,
+      "max_height": 1052,
+      "max_lines": 2,
+      "max_width": 15399,
+      "wrap": true
+    }
+  },
+  "schema_version": 1,
+  "unconfirmed": []
+}

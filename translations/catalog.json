@@ -8131,6 +8131,29 @@
     },
     {
       "category": "actionscript",
+      "id": "abc.4175.139.181",
+      "location": {
+        "abc_byte_offset": 866202,
+        "code_offset": 181,
+        "method_index": 139,
+        "sprite_path": [],
+        "string_pool_index": 6553,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context_confidence": "confirmed",
+        "notes": "PR34: адресная интеграция; визуальная приёмка в игре ещё не выполнена.",
+        "status": "draft",
+        "translation": "в."
+      },
+      "source_sha256": "50e721e49c013f00c62cf59f2163542a9d8df02464efeb615d31051b0fddc326"
+    },
+    {
+      "category": "actionscript",
       "id": "abc.4175.1427.149",
       "location": {
         "abc_byte_offset": 1565903,
@@ -8752,6 +8775,260 @@
         "translation": "Большая груда досок"
       },
       "source_sha256": "c90a2f32db9397a128216855eeb25f1cbed3f5d132105dea09c14f94bb03aedd"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.1441.39",
+      "location": {
+        "abc_byte_offset": 1567433,
+        "code_offset": 39,
+        "method_index": 1441,
+        "sprite_path": [],
+        "string_pool_index": 7939,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context": "Загрузочные советы AdviceOracle: 60 записей в исходном порядке; m465 → tfAdvice.text. Исходный алгоритм выбора сохранён.",
+        "context_confidence": "confirmed",
+        "notes": "Разделитель CR сохранён; раннее назначение Alegreya перед присвоением текста. Игровая проверка PR34 не выполнена.",
+        "status": "draft",
+        "translation": "Не забывайте применять заклинания, когда их заряд приближается к 200%.\rСамоцветы с поглощением маны под действием Луча быстро пополняют запас маны.\rСамоцветы с разрушением брони под действием Луча быстро разрушают даже толстую броню.\rЯд игнорирует броню и щит.\rДвойные самоцветы, совмещённые из двух разных цветов, гораздо сильнее чистых.\rДля ловушек лучше всего подходят чистые самоцветы.\rПравый клик по самоцвету позволяет изменить приоритет цели.\rВыберите существо или строение, чтобы направить на него огонь самоцветов.\rСледите за предчувствиями событий.\rДержите Заморозку наготове на случай появления призраков.\rОкружите сферу башнями с самоцветами для защиты от снарядов теней.\rУсиления самоцветов в ловушках не расходуются.\rСамоцвет в усилителе одинаково усиливает как один, так и несколько соседних самоцветов.\rСтоимость изгнания можно снизить, бросая самоцветы на сферу или помещая их в соседние усилители.\rНужны очки навыков? Проходите поля на более высокой сложности и получайте достижения.\rНераспределённые очки навыков дают дополнительную начальную ману.\rБросайте самоцветы-бомбы на камни волн, чтобы призвать больше монстров и получить больше опыта.\rУсилитель редкости помогает добыть более редкие фрагменты талисмана.\rЛуч особенно полезен самоцветам с Кровной связью: он увеличивает число их попаданий.\rЗа победу на полях-видениях дают дополнительные очки навыков.\rПустые строения можно снести, бросив на них самоцвет-бомбу.\rОткрывайте хранилища фолиантов, чтобы получать мощные навыки.\rВ ловушках особые эффекты самоцветов намного сильнее, но урон ниже.\rСамоцветы в усилителях не стреляют, зато усиливают соседние самоцветы.\rРежим \"Выносливость\" — ключ к невероятно высоким уровням мага.\rПеремещайте карту мира клавишами WASD или стрелками; меняйте масштаб колёсиком мыши или PageUp / PageDown.\rОсторожно выбирайте боевые черты: некоторые сильно усложняют бой.\rРедкие фрагменты талисмана дают множество мощных бонусов.\rБашни и усилители можно строить поверх стен.\rКлик по пустому строению мгновенно вставляет в него первый самоцвет из инвентаря.\rКликайте по камням волн, чтобы вызывать волны досрочно.\rНа некоторых полях можно строить длинные лабиринты из стен, затрудняя путь монстрам.\rБросайте самоцветы-бомбы на камни искр, чтобы усилить их эффекты.\rЗагляните в настройки, чтобы подстроить игру под себя.\rУдерживайте Alt или Ctrl при клике, чтобы выбирать монстров, игнорируя самоцветы в ловушках.\rЧтобы не стрелять в ненужную область, уменьшите радиус самоцвета колёсиком мыши или стрелками вверх/вниз.\rНажмите U, чтобы улучшить самоцвет.\rНажмите D, чтобы дублировать самоцвет.\rНажмите X, чтобы уничтожить самоцвет и вернуть часть маны.\rНажмите T, чтобы начать строительство башен.\rНажмите R, чтобы начать строительство ловушек.\rНажмите A, чтобы начать строительство усилителей.\rНажмите W, чтобы начать строительство стен.\rНажмите G, чтобы начать совмещение самоцветов.\rНажмите Q, чтобы переключить скорость времени.\rНажмите пробел, чтобы приостановить время.\rКлавиши 1..6 применяют ударные заклинания и усиления самоцветов.\rНажмите 4..6 над самоцветом, чтобы мгновенно наложить на него усиление.\rНа паузе кликайте по кнопке паузы, чтобы продвигать время по одному кадру.\rУдерживайте Shift, чтобы разместить несколько строений.\rЗажмите кнопку мыши и тяните, чтобы построить горизонтальный или вертикальный ряд стен.\rНажмите B, чтобы начать бросать самоцветы-бомбы.\rУдерживая Shift, нажмите B, чтобы бросать несколько самоцветов из инвентаря как бомбы.\rНажмите B, затем удерживайте Shift, чтобы тратить ману на бомбы-копии первого самоцвета в инвентаре.\rНажмите N, чтобы немедленно вызвать следующую волну.\rНажмите Tab, чтобы быстро убрать самоцвет в инвентарь, пока его не украл призрак.\rВыбрав объект, переключайтесь между объектами клавишами со стрелками.\rДождь увеличивает урон по монстрам, а снег замедляет их.\rЗа каждое пройденное поле-видение один раз дают 13 очков навыков.\rУсиление мгновенно вставляет самоцвет на место. Примените его после улучшения самоцвета, чтобы тот продолжал стрелять."
+      },
+      "source_sha256": "7c07a1e2b1118aeaecc5ab64c400e050881d0a25a3748b8467b387e2b6cefb26"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.1537.215",
+      "location": {
+        "abc_byte_offset": 1612345,
+        "code_offset": 215,
+        "method_index": 1537,
+        "sprite_path": [],
+        "string_pool_index": 12755,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context_confidence": "confirmed",
+        "notes": "PR34: адресная интеграция; визуальная приёмка в игре ещё не выполнена.",
+        "status": "draft",
+        "translation": "Вращающиеся снаряды башен"
+      },
+      "source_sha256": "ae00dd5877564880d61dd81993d51b66b723872f0d3d5707d15fafc1bdfdc26f"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.1537.289",
+      "location": {
+        "abc_byte_offset": 1612419,
+        "code_offset": 289,
+        "method_index": 1537,
+        "sprite_path": [],
+        "string_pool_index": 12756,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context_confidence": "confirmed",
+        "notes": "PR34: адресная интеграция; визуальная приёмка в игре ещё не выполнена.",
+        "status": "draft",
+        "translation": "Башни во мху"
+      },
+      "source_sha256": "5c62dd513180cd3a4744936e9800516a6acae3f07573445bc83704b8f7fa0a2a"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.1537.363",
+      "location": {
+        "abc_byte_offset": 1612493,
+        "code_offset": 363,
+        "method_index": 1537,
+        "sprite_path": [],
+        "string_pool_index": 12757,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context_confidence": "confirmed",
+        "notes": "PR34: адресная интеграция; визуальная приёмка в игре ещё не выполнена.",
+        "status": "draft",
+        "translation": "Усилители во мху"
+      },
+      "source_sha256": "f9f9375c857f93b1b605bdc0cb394f697cb36597e3ce74e9fb3e94fb19cde7f7"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.1537.437",
+      "location": {
+        "abc_byte_offset": 1612567,
+        "code_offset": 437,
+        "method_index": 1537,
+        "sprite_path": [],
+        "string_pool_index": 12758,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context_confidence": "confirmed",
+        "notes": "PR34: адресная интеграция; визуальная приёмка в игре ещё не выполнена.",
+        "status": "draft",
+        "translation": "Сильный дождь"
+      },
+      "source_sha256": "c723ea3e000cc74867352536af378f5a218c14ceed4b5044461d59d720015f32"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.1537.51",
+      "location": {
+        "abc_byte_offset": 1612181,
+        "code_offset": 51,
+        "method_index": 1537,
+        "sprite_path": [],
+        "string_pool_index": 12754,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context_confidence": "confirmed",
+        "notes": "PR34: адресная интеграция; визуальная приёмка в игре ещё не выполнена.",
+        "status": "draft",
+        "translation": "Модификаторы сброшены"
+      },
+      "source_sha256": "dc4b9acf76feed9889b79367f863c1b4bf3e81404e7435d5740c03200eb0e3e7"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.1537.511",
+      "location": {
+        "abc_byte_offset": 1612641,
+        "code_offset": 511,
+        "method_index": 1537,
+        "sprite_path": [],
+        "string_pool_index": 12759,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context_confidence": "confirmed",
+        "notes": "PR34: адресная интеграция; визуальная приёмка в игре ещё не выполнена.",
+        "status": "draft",
+        "translation": "Сильный снегопад"
+      },
+      "source_sha256": "58cd7f387ccbbf6bce98234094c4fd45312f9a42facf094c954eab28bd3c9bea"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.1537.585",
+      "location": {
+        "abc_byte_offset": 1612715,
+        "code_offset": 585,
+        "method_index": 1537,
+        "sprite_path": [],
+        "string_pool_index": 12760,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context_confidence": "confirmed",
+        "notes": "PR34: адресная интеграция; визуальная приёмка в игре ещё не выполнена.",
+        "status": "draft",
+        "translation": "Самоцветы-подарки"
+      },
+      "source_sha256": "22b68ec6faa284fec436ab6c8a0c0a4e9ba33cd13e8158edd40efa0d99962901"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.1537.659",
+      "location": {
+        "abc_byte_offset": 1612789,
+        "code_offset": 659,
+        "method_index": 1537,
+        "sprite_path": [],
+        "string_pool_index": 12761,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context_confidence": "confirmed",
+        "notes": "PR34: адресная интеграция; визуальная приёмка в игре ещё не выполнена.",
+        "status": "draft",
+        "translation": "Тёмные монстры"
+      },
+      "source_sha256": "4409c6764a20421ab89220d8a58dadda59cbaf76c788a102d104138fa25bb20f"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.1537.733",
+      "location": {
+        "abc_byte_offset": 1612863,
+        "code_offset": 733,
+        "method_index": 1537,
+        "sprite_path": [],
+        "string_pool_index": 12762,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context_confidence": "confirmed",
+        "notes": "PR34: адресная интеграция; визуальная приёмка в игре ещё не выполнена.",
+        "status": "draft",
+        "translation": "Чёрная сфера"
+      },
+      "source_sha256": "d8756568f586cb6dad94de3c4120cd4705ac8b0f94307a945a12f010b6136fdb"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.1537.807",
+      "location": {
+        "abc_byte_offset": 1612937,
+        "code_offset": 807,
+        "method_index": 1537,
+        "sprite_path": [],
+        "string_pool_index": 12763,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context_confidence": "confirmed",
+        "notes": "PR34: адресная интеграция; визуальная приёмка в игре ещё не выполнена.",
+        "status": "draft",
+        "translation": "Серые деревья"
+      },
+      "source_sha256": "2ec3eb6103e803e54687957064f3e272936fa01ffbb487fefec0153b0e3e45ef"
     },
     {
       "category": "actionscript",
@@ -30825,6 +31102,29 @@
     },
     {
       "category": "actionscript",
+      "id": "abc.4175.242.647",
+      "location": {
+        "abc_byte_offset": 927642,
+        "code_offset": 647,
+        "method_index": 242,
+        "sprite_path": [],
+        "string_pool_index": 9568,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context_confidence": "confirmed",
+        "notes": "PR34: адресная интеграция; визуальная приёмка в игре ещё не выполнена.",
+        "status": "draft",
+        "translation": "Опыт выносливости сохранён."
+      },
+      "source_sha256": "8a36e210cbe4b94a9c063faf5d3372a62505401a106f5e1e63960b0ccc62e9f4"
+    },
+    {
+      "category": "actionscript",
       "id": "abc.4175.243.279",
       "location": {
         "abc_byte_offset": 932452,
@@ -31101,8 +31401,9 @@
         "classification": "confirmed",
         "context": "Карта мира: панель восстановления после прерванного боя выносливости (SelectorCore.recoverEnduranceXp)",
         "context_confidence": "confirmed",
+        "notes": "PR34: адресная интеграция; визуальная приёмка в игре ещё не выполнена.",
         "status": "draft",
-        "translation": "Похоже, последний бой в режиме \"Выносливость\" завершился некорректно."
+        "translation": "Похоже, последний бой в режиме «Выносливость» завершился некорректно."
       },
       "source_sha256": "7689dbfa102251d722997bae91eef7123132b080c07a6eab662d9871919e90a7"
     },
@@ -31124,6 +31425,7 @@
         "classification": "confirmed",
         "context": "Карта мира: панель восстановления после прерванного боя выносливости (SelectorCore.recoverEnduranceXp)",
         "context_confidence": "confirmed",
+        "notes": "PR34: адресная интеграция; визуальная приёмка в игре ещё не выполнена.",
         "status": "draft",
         "translation": "Поле: "
       },
@@ -31147,6 +31449,7 @@
         "classification": "confirmed",
         "context": "Карта мира: панель восстановления после прерванного боя выносливости (SelectorCore.recoverEnduranceXp)",
         "context_confidence": "confirmed",
+        "notes": "PR34: адресная интеграция; визуальная приёмка в игре ещё не выполнена.",
         "status": "draft",
         "translation": "Прежний рекорд опыта поля: "
       },
@@ -31170,8 +31473,9 @@
         "classification": "confirmed",
         "context": "Карта мира: панель восстановления после прерванного боя выносливости (SelectorCore.recoverEnduranceXp)",
         "context_confidence": "confirmed",
+        "notes": "PR34: адресная интеграция; визуальная приёмка в игре ещё не выполнена.",
         "status": "draft",
-        "translation": "Последний сохранённый опыт в режиме \"Выносливость\": "
+        "translation": "Последний сохранённый опыт выносливости: "
       },
       "source_sha256": "254b886e64d5baadab825f38c53a3674cac72846b46ebc0a028cc0cb001f7987"
     },
@@ -31193,6 +31497,7 @@
         "classification": "confirmed",
         "context": "Карта мира: панель восстановления после прерванного боя выносливости (SelectorCore.recoverEnduranceXp)",
         "context_confidence": "confirmed",
+        "notes": "PR34: адресная интеграция; визуальная приёмка в игре ещё не выполнена.",
         "status": "draft",
         "translation": "Установлен новый рекорд опыта поля."
       },
@@ -31216,9 +31521,9 @@
         "classification": "confirmed",
         "context": "Карта мира: панель восстановления после прерванного боя выносливости (SelectorCore.recoverEnduranceXp)",
         "context_confidence": "confirmed",
-        "notes": "склейка «N фрагментов талисмана»; при N=1 форма неточна. ВНИМАНИЕ для Codex: после этого фрагмента движок условно добавляет литерал 's' (англ. мн. число, abc.4175.334.690, технический) — при сборке патча заменить на пустую строку",
+        "notes": "PR34: грамматически нейтральная полная фраза с числом после двоеточия; guarded swap, английский suffix удаляется адресно. PR34: адресная интеграция; визуальная приёмка в игре ещё не выполнена.",
         "status": "draft",
-        "translation": " фрагментов талисмана"
+        "translation": "Восстановлено и добавлено в инвентарь фрагментов талисмана: "
       },
       "source_sha256": "d62b55b28f9997f4b1e483e80f01f516824f71f4583d5f2417eb7b58a8724864"
     },
@@ -31240,8 +31545,9 @@
         "classification": "confirmed",
         "context": "Карта мира: панель восстановления после прерванного боя выносливости (SelectorCore.recoverEnduranceXp)",
         "context_confidence": "confirmed",
+        "notes": "PR34: адресная интеграция; визуальная приёмка в игре ещё не выполнена.",
         "status": "draft",
-        "translation": " восстановлено и добавлено в инвентарь."
+        "translation": "."
       },
       "source_sha256": "5b76a168c1794560f2a4e4e23ceb6d3df02c17e2f2a1644c7785c7927d5f0259"
     },
@@ -34267,6 +34573,29 @@
         "translation": "Сортировать поля по опыту"
       },
       "source_sha256": "17652882203f1dffbb896f964221d739688758870891ae9e016f19bebe973dff"
+    },
+    {
+      "category": "actionscript",
+      "id": "abc.4175.3490.21",
+      "location": {
+        "abc_byte_offset": 1725457,
+        "code_offset": 21,
+        "method_index": 3490,
+        "sprite_path": [],
+        "string_pool_index": 12094,
+        "tag_code": 82,
+        "tag_path": [
+          4175
+        ]
+      },
+      "manual": {
+        "classification": "confirmed",
+        "context_confidence": "confirmed",
+        "notes": "PR34: адресная интеграция; визуальная приёмка в игре ещё не выполнена.",
+        "status": "draft",
+        "translation": "Закрыть"
+      },
+      "source_sha256": "7d9eb7acb13e24625c404401d8e88b2350e32162455885f18276cf802f7701ed"
     },
     {
       "category": "actionscript",
@@ -80417,6 +80746,7 @@
       "manual": {
         "context": "Короткая подпись «XP» (спрайт 3432, размещение подтверждено PlaceObject)",
         "context_confidence": "confirmed",
+        "notes": "PR34: адресная интеграция; визуальная приёмка в игре ещё не выполнена.",
         "status": "draft",
         "translation": "Опыт"
       },

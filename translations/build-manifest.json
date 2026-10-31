@@ -1,6 +1,6 @@
 {
-  "applied_translations": 3007,
-  "expected_candidate_sha256": "f8c50e666357ca7973041e030b64b38ebd772ddad093a5999f8110bb2db899c8",
+  "applied_translations": 3029,
+  "expected_candidate_sha256": "0bf6d4ae5bc0764bfc84d589892c1288de71062673f663d532e9e434b22ebacf",
   "font_sha256": "ba5564634b93a8f8ba57b48cd4f1ae7417d2b4656fbac779028679b00de3cf12",
   "game_sha256": "c8eadc03a7e607086998695f7696ec22dd90d7b7859e3d10cdfabf40fc7bbad5",
   "plans": [
@@ -123,6 +123,18 @@
     {
       "path": "plans/pr33-residual-ui.json",
       "sha256": "1f886e15b2e4de03acf408390c9bc733aae231afd8f329e953b07e2acc40d09d"
+    },
+    {
+      "path": "plans/pr34-small-ui.json",
+      "sha256": "b6efe62a63697c63ef39c65492d5176b32004d0a58b06c840ca77077f3010d4f"
+    },
+    {
+      "path": "plans/pr34-advices.json",
+      "sha256": "a84833f28a09133af54c2a38eb5a1282a751027982070550c174d1501bbe0c3f"
+    },
+    {
+      "path": "plans/pr34-journey-map.json",
+      "sha256": "75fb1e37d090668425e170d9f8fbabffea36bc986713babf6cf73905330c4218"
     }
   ],
   "schema_version": 1

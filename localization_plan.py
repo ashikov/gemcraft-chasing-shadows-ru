@@ -47,8 +47,19 @@ def merge_localization_plans(plans, workspace):
     for plan in plans:
         if plan.get('schema_version') != 1 or plan.get('game_sha256') != digest:
             raise ValueError('Plan schema or game SHA-256 mismatch')
+        if 'journey_map' in plan:
+            graphic = plan['journey_map']
+            if (not isinstance(graphic, dict) or 'journey_map' in result
+                    or graphic.get('schema_version') != 1
+                    or graphic.get('game_sha256') != digest
+                    or graphic.get('tag_path') != [750] or graphic.get('tag_code') != 6
+                    or graphic.get('character_id') != 678 or graphic.get('size') != [1440, 868]):
+                raise ValueError('Invalid or duplicate Journey map graphics selection')
+            from journey_map_localization import validate_map_recipe
+            validate_map_recipe(graphic)
+            result['journey_map'] = copy.deepcopy(graphic)
         selected = plan.get('entry_ids')
-        if not isinstance(selected, list) or not selected:
+        if not isinstance(selected, list) or (not selected and 'journey_map' not in plan):
             raise ValueError('Plan must select entry IDs')
         expected_layouts = set()
         for identifier in selected:
@@ -216,6 +227,12 @@ def resolve_plan_font_bindings(original, translated, sites):
             planned.setdefault(method, []).append((new_ops[position][0], [], kind, None, None))
             increments[method] = max(increments.get(method, 0), 0)
             continue
+        if kind in ('small_ui_floater_font', 'recovery_prefix'):
+            from pr34_ui_binding import validate_small_ui_site
+            matches = validate_small_ui_site(before, after, old_ops, new_ops, site)
+            planned.setdefault(method, []).append((new_ops[position][0], matches, kind, None, None))
+            increments[method] = max(increments.get(method, 0), site['extra_stack'])
+            continue
         if kind not in ('field', 'tooltip', 'panel_format_before', 'panel_format_after',
                         'floater', 'floater_fields', 'bitmap_cyrillic'):
             raise ValueError('Unsupported font binding kind')
@@ -312,6 +329,11 @@ def resolve_plan_font_bindings(original, translated, sites):
                 return receivers[0]
             if kind == 'kill_chain_prefix':
                 return b'\x2b'
+            if kind == 'recovery_prefix':
+                return b'\x2b'
+            if kind == 'small_ui_floater_font':
+                from pr34_ui_binding import floater_font_selector
+                return floater_font_selector(family_index, font_index, 10038, receivers)
             if kind == 'bitmap_cyrillic':
                 return bitmap_font_selector(family_index, **bitmap_indices)
             if kind.startswith('panel_format_'):

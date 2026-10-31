@@ -16,3 +16,4 @@ jobs:
       - run: python -m compileall -q build_prototype.py install_patch.py restore_game.py swf_geometry.py verify_experiment.py translation_catalog.py extract_strings.py inventory_strings.py abc_inventory.py localization_workspace.py abc_patch.py abc_font_binding.py bitmap_font_binding.py achievement_category_binding.py bitmap_notification_binding.py bitmap_notification_placement.py localization_fonts.py alegreya_fonts.py addressed_localization.py alegreya_localization.py localization_plan.py versioned_catalog.py localization_bundle.py localization_project.py
       - run: python translation_catalog.py translations/ru.json
       - run: python localization_project.py validate
+      - run: python -m compileall -q advice_oracle.py pr34_ui_binding.py journey_map_localization.py

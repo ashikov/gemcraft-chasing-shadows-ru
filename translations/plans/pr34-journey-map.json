@@ -1,0 +1,420 @@
+{
+  "abc_font_bindings": [],
+  "coverage_blockers": [],
+  "entry_ids": [],
+  "fonts": [],
+  "game_sha256": "c8eadc03a7e607086998695f7696ec22dd90d7b7859e3d10cdfabf40fc7bbad5",
+  "journey_map": {
+    "character_id": 678,
+    "colors": {
+      "black": [
+        0,
+        0,
+        0,
+        255
+      ],
+      "brown": [
+        133,
+        105,
+        101,
+        255
+      ]
+    },
+    "font_sha256": "ba5564634b93a8f8ba57b48cd4f1ae7417d2b4656fbac779028679b00de3cf12",
+    "font_weight": 400,
+    "game_sha256": "c8eadc03a7e607086998695f7696ec22dd90d7b7859e3d10cdfabf40fc7bbad5",
+    "jpeg": {
+      "optimize": false,
+      "progressive": false,
+      "quantization": "source",
+      "subsampling": 2
+    },
+    "jpeg_tables": [
+      {
+        "payload_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "tag_path": [
+          286
+        ]
+      }
+    ],
+    "label_canvas": [
+      400,
+      120
+    ],
+    "labels": [
+      {
+        "allowed_output_bounds": [
+          240,
+          120,
+          430,
+          153
+        ],
+        "angle_degrees": 0,
+        "center": [
+          335,
+          134
+        ],
+        "font_size": 22,
+        "id": "tomb",
+        "ink": "black",
+        "lines": [
+          "Гробница Забытой"
+        ],
+        "source_bounds": [
+          218,
+          124,
+          451,
+          148
+        ],
+        "source_lines": 1,
+        "source_sha256": "17f287a95114d29852210dcee081d86c7a54a0b1fd8e69de5683f8fd60ca5430"
+      },
+      {
+        "allowed_output_bounds": [
+          815,
+          116,
+          1052,
+          168
+        ],
+        "angle_degrees": 6,
+        "center": [
+          932,
+          139
+        ],
+        "font_size": 32,
+        "id": "frozen",
+        "ink": "brown",
+        "lines": [
+          "Навеки во льдах"
+        ],
+        "source_bounds": [
+          809,
+          116,
+          1055,
+          165
+        ],
+        "source_lines": 1,
+        "source_sha256": "acb49fa6c123aa84de49ce6f765cf7691b1f7d4474ad353765f4542892ec0318"
+      },
+      {
+        "allowed_output_bounds": [
+          505,
+          300,
+          616,
+          332
+        ],
+        "angle_degrees": 0,
+        "center": [
+          561,
+          314
+        ],
+        "font_size": 23,
+        "id": "labyrinth",
+        "ink": "black",
+        "lines": [
+          "Лабиринт"
+        ],
+        "source_bounds": [
+          508,
+          307,
+          614,
+          329
+        ],
+        "source_lines": 1,
+        "source_sha256": "df308b59c64cddbc466fde6e358e016e2a60678aa3d1e4769aafbf2174e9c751"
+      },
+      {
+        "allowed_output_bounds": [
+          839,
+          332,
+          962,
+          363
+        ],
+        "angle_degrees": 0,
+        "center": [
+          901,
+          344
+        ],
+        "font_size": 23,
+        "id": "scythe",
+        "ink": "black",
+        "lines": [
+          "Врата Косы"
+        ],
+        "source_bounds": [
+          837,
+          335,
+          966,
+          359
+        ],
+        "source_lines": 1,
+        "source_sha256": "f0e8665fb069cd3382079fe9faa95c0e6fb80f80c2233b59fa80b7eb00b6b12b"
+      },
+      {
+        "allowed_output_bounds": [
+          1058,
+          408,
+          1199,
+          440
+        ],
+        "angle_degrees": 0,
+        "center": [
+          1128,
+          421
+        ],
+        "font_size": 22,
+        "id": "spiritforge",
+        "ink": "black",
+        "lines": [
+          "Кузница Духа"
+        ],
+        "source_bounds": [
+          1071,
+          409,
+          1181,
+          433
+        ],
+        "source_lines": 1,
+        "source_sha256": "7d6904a492a6307cdd1f43edc20e982a3b34d1116cad865e21d6629c82560927"
+      },
+      {
+        "allowed_output_bounds": [
+          729,
+          510,
+          909,
+          559
+        ],
+        "angle_degrees": 0,
+        "center": [
+          819,
+          534
+        ],
+        "font_size": 22,
+        "id": "tower",
+        "ink": "black",
+        "lines": [
+          "Моя старая-новая",
+          "башня мага"
+        ],
+        "source_bounds": [
+          750,
+          511,
+          888,
+          555
+        ],
+        "source_lines": 2,
+        "source_sha256": "a745fa70aa6db0026f783e65f530d835e04d2a508c7a33a72eb270ee607aa392"
+      },
+      {
+        "allowed_output_bounds": [
+          172,
+          535,
+          360,
+          584
+        ],
+        "angle_degrees": 0,
+        "center": [
+          266,
+          557
+        ],
+        "font_size": 20,
+        "id": "waiting",
+        "ink": "black",
+        "lines": [
+          "Я ждал, пока она",
+          "вырвется на свободу"
+        ],
+        "source_bounds": [
+          174,
+          537,
+          357,
+          576
+        ],
+        "source_lines": 2,
+        "source_sha256": "3057321427c077bf1119d01fb8dc922ab6e432864d6531546693bdb9ca6adefa"
+      },
+      {
+        "allowed_output_bounds": [
+          427,
+          584,
+          633,
+          609
+        ],
+        "angle_degrees": 0,
+        "center": [
+          530,
+          596
+        ],
+        "font_size": 21,
+        "id": "possessed",
+        "ink": "black",
+        "lines": [
+          "Она вселилась в меня"
+        ],
+        "source_bounds": [
+          450,
+          588,
+          611,
+          607
+        ],
+        "source_lines": 1,
+        "source_sha256": "2f5bef209abf55cde5fc0c72833f18319a2fa7193c898959df26cec145e2678f"
+      },
+      {
+        "allowed_output_bounds": [
+          879,
+          537,
+          1067,
+          606
+        ],
+        "angle_degrees": 12,
+        "center": [
+          972,
+          566
+        ],
+        "font_size": 32,
+        "id": "wilderness",
+        "ink": "brown",
+        "lines": [
+          "Дикие земли"
+        ],
+        "source_bounds": [
+          891,
+          538,
+          1054,
+          596
+        ],
+        "source_lines": 1,
+        "source_sha256": "1ad2126e8b5fc267f170f8343e9aaafbb03e8fb8dd1af2ca41039f3e6bb24675"
+      },
+      {
+        "allowed_output_bounds": [
+          202,
+          618,
+          507,
+          702
+        ],
+        "angle_degrees": -10,
+        "center": [
+          356,
+          659
+        ],
+        "font_size": 31,
+        "id": "inhabited",
+        "ink": "brown",
+        "lines": [
+          "Ещё обитаемые земли"
+        ],
+        "source_bounds": [
+          241,
+          624,
+          469,
+          691
+        ],
+        "source_lines": 1,
+        "source_sha256": "418648364a8b2ab645ac01e2f3293110b6d15f05fc281d54f252847aa675545a"
+      }
+    ],
+    "mask": {
+      "black_below": 150,
+      "brown_chroma_at_least": 5,
+      "dilation_filter_size": 3
+    },
+    "protected_landmarks": [
+      [
+        281,
+        154,
+        373,
+        209
+      ],
+      [
+        524,
+        333,
+        596,
+        400
+      ],
+      [
+        844,
+        364,
+        949,
+        432
+      ],
+      [
+        1060,
+        320,
+        1206,
+        400
+      ],
+      [
+        778,
+        434,
+        840,
+        511
+      ],
+      [
+        221,
+        483,
+        276,
+        529
+      ],
+      [
+        483,
+        528,
+        576,
+        584
+      ]
+    ],
+    "renderer": {
+      "freetype": "2.14.3",
+      "jpeg": "6.2",
+      "libjpeg_turbo": "3.1.4.1",
+      "pillow": "12.3.0"
+    },
+    "resource_guards": [
+      {
+        "character_id": 679,
+        "payload_sha256": "df6ce580ee76700a24dac11e3d1c1858791cba9f5b6e0efeaa116e23cb014cac",
+        "tag_code": 2
+      },
+      {
+        "character_id": 680,
+        "payload_sha256": "f174b7166eab0e2ce625dec9fec1984c9e8840196ff4e57deb8a978a286b6f7a",
+        "tag_code": 39
+      },
+      {
+        "character_id": 813,
+        "child_index": 1,
+        "child_tag_code": 26,
+        "payload_sha256": "7e7dfd5e7e83abc3c6f39d0b4e3ec0978e80bb1b541962a685a0261c04e14ee7",
+        "tag_code": 39
+      },
+      {
+        "character_id": 813,
+        "child_index": 2,
+        "child_tag_code": 70,
+        "payload_sha256": "f0fe572e2859699f39f20bd12d9b664c9a41b946a22b4c557810edfbf87109c3",
+        "tag_code": 39
+      }
+    ],
+    "result": {
+      "jpeg_sha256": "168f562c1afdb55728d2f4482d20affb824243b1ab6d527274119c3163709b67",
+      "rendered_pixels_sha256": "aeb88a4fa5ed2e5a74f1b034b326347cff4e34d3a1cd652cf409766a93f121bf"
+    },
+    "schema_version": 1,
+    "size": [
+      1440,
+      868
+    ],
+    "source_jpeg_sha256": "3fdb11eacb6b7ac71c75f1ca2a66621dd6882e5c46bf4b87174db1e3d2afcd0d",
+    "source_payload_sha256": "20641ff52f43f230cd40668757a84dcdb027f19d909f13c1880a1e92c2044b26",
+    "source_pixels_sha256": "79fe3f4c178a411741ad1bc1678ee3dceae9fd0df44b93188ca1a8a33b0e5fd6",
+    "supersampling": 3,
+    "tag_code": 6,
+    "tag_path": [
+      750
+    ]
+  },
+  "layouts": {},
+  "schema_version": 1,
+  "unconfirmed": []
+}

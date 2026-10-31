@@ -457,6 +457,18 @@ class ABCInventory:
                 classification = "probable"
                 context = ("Achievement category shared key; translate only the button display "
                            "through the guarded category-label adapter, never the key initializer")
+            if (method == 139 and offset == 181 and source == 'w'
+                    and {'owner': 'Achievement', 'method': 'instance initializer'}
+                    in self.method_labels.get(method, []) and position >= 3
+                    and [item[1:] for item in instructions[position - 3:position]] == [
+                        (0xD0, []), (0x66, [105]), (0x66, [2923])]
+                    and [item[1:] for item in tail[:3]] == [
+                        (0xD3, []), (0xA0, []), (0x61, [5329])]
+                    and self.multiname(105) == 'mc'
+                    and self.multiname(2923) == 'tfWaveReq'
+                    and self.multiname(5329) == 'text'):
+                classification = 'probable'
+                context = 'Reviewed achievement wave requirement prefix; number and empty branch preserved'
             self.entry(index, f"{method}.{offset}", extra, classification, context)
             if source and (extra.get("text_property") == "htmlText" or re.search(r"<[A-Za-z][^>]*>", source)):
                 self.entries[-1]["content_type"] = "html_fragment"
@@ -516,4 +528,8 @@ def extract_abc(data, location):
         raise ValueError("Invalid ABC tag_path")
     if location.get("tag_code") not in (72, 82):
         raise ValueError("ABC location requires tag_code 72 or 82")
-    return ABCInventory(data, location).parse()
+    result = ABCInventory(data, location).parse()
+    from advice_oracle import ADVICE_ID, unpack_advice_entry
+    result['entries'] = [unpack_advice_entry(entry) if entry['id'] == ADVICE_ID else entry
+                         for entry in result['entries']]
+    return result
