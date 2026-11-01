@@ -58,6 +58,10 @@ def merge_localization_plans(plans, workspace):
             from journey_map_localization import validate_map_recipe
             validate_map_recipe(graphic)
             result['journey_map'] = copy.deepcopy(graphic)
+        if 'outcome_info_icons' in plan:
+            if plan['outcome_info_icons'] is not True or 'outcome_info_icons' in result:
+                raise ValueError('Invalid or duplicate outcome icon repair')
+            result['outcome_info_icons'] = True
         selected = plan.get('entry_ids')
         if not isinstance(selected, list) or (not selected and 'journey_map' not in plan):
             raise ValueError('Plan must select entry IDs')

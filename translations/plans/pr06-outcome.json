@@ -8706,6 +8706,7 @@
       "wrap": false
     }
   },
+  "outcome_info_icons": true,
   "schema_version": 1,
   "unconfirmed": [
     "Pause overlay and victory/defeat/endurance outcome states are not runtime-verified",

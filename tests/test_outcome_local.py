@@ -26,7 +26,8 @@ VARIABLES = [
     'GEMCRAFT_PR5_TUTOR_PLAN', 'GEMCRAFT_PR6_OUTCOME_PLAN',
     'GEMCRAFT_ALEGREYA_FONT',
 ]
-PR5_SHA256 = '2481f2ed5f11fb5905c243f2cc5bb2ae7dad7f27dc88d73926b647b3ffb87ca6'
+# Current canonical first four plans include later layout/binding repairs.
+PRE_OUTCOME_SHA256 = 'c7bfb5e30dd0ca6bfe5df5b94aca88eabaef3e558e920b1300840a238931f504'
 TOOLTIP_METHODS = (880, 881, 882, 887, 888, 889, 890, 891)
 NEW_METHODS = set(TOOLTIP_METHODS) | {895, 3451}
 NEW_BINDING_COUNTS = {
@@ -116,7 +117,7 @@ def test_outcome_cumulative_candidate(tmp_path):
     assert sha(original) == ORIGINAL_SHA256
     baseline_plans = plans + [tutor]
     baseline, base_report = build_alegreya_localization(original, workspace, baseline_plans, font)
-    assert sha(baseline) == PR5_SHA256
+    assert sha(baseline) == PRE_OUTCOME_SHA256
     candidate, report = build_alegreya_localization(
         original, workspace, baseline_plans + [outcome], font)
     again, repeated = build_alegreya_localization(
@@ -128,7 +129,7 @@ def test_outcome_cumulative_candidate(tmp_path):
     assert set(base_report['applied_entry_ids']) <= set(report['applied_entry_ids'])
     assert all(report['layout_checks'][identifier] == base_report['layout_checks'][identifier]
                for identifier in base_report['layout_checks'])
-    assert Counter(item['tag_code'] for item in report['changed_original_tags']) == {11: 93, 37: 24, 82: 1}
+    assert Counter(item['tag_code'] for item in report['changed_original_tags']) == {11: 93, 22: 1, 37: 24, 39: 1, 82: 1}
     inherited = merge_localization_plans(baseline_plans, workspace)['coverage_blockers']
     merged = merge_localization_plans(baseline_plans + [outcome], workspace)
     assert merged['coverage_blockers'][:len(inherited)] == inherited
