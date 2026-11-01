@@ -792,5 +792,815 @@
     }
   },
   "schema_version": 1,
-  "unconfirmed": []
+  "unconfirmed": [],
+  "tutor_highlights": {
+    "sprite_tag": 3848,
+    "sprite_sha256": "07de7bc4d7d3b740327389ef75ffdf07c3f0446996150d8d61a976f19074ab44",
+    "shapes": [
+      {
+        "character_id": 3525,
+        "tag_index": 3711,
+        "tag_code": 83,
+        "sha256": "f696b9b1d40027745af5181985d1d07740c998230f80b58d0777da9f6129eee0",
+        "style_offset": 190,
+        "frame": 9,
+        "areas": [
+          {
+            "text_id": 3526,
+            "text_tag": 3712,
+            "text_sha256": "99f7ddbde3eec922cd17a525e544dcc56b58043a849b8f23e09fbb4517bc2e61",
+            "source": [
+              1,
+              "PageUp / PageDown"
+            ],
+            "fill": 1,
+            "source_rect": [
+              11680,
+              14780,
+              4389,
+              4789
+            ],
+            "target": [
+              [
+                1,
+                "PageUp /"
+              ],
+              [
+                2,
+                "PageDown."
+              ]
+            ]
+          },
+          {
+            "text_id": 3526,
+            "text_tag": 3712,
+            "text_sha256": "99f7ddbde3eec922cd17a525e544dcc56b58043a849b8f23e09fbb4517bc2e61",
+            "source": [
+              0,
+              "click and drag"
+            ],
+            "fill": 2,
+            "source_rect": [
+              11280,
+              13500,
+              3680,
+              4080
+            ],
+            "target": [
+              [
+                0,
+                "мышью."
+              ]
+            ]
+          },
+          {
+            "text_id": 3526,
+            "text_tag": 3712,
+            "text_sha256": "99f7ddbde3eec922cd17a525e544dcc56b58043a849b8f23e09fbb4517bc2e61",
+            "source": [
+              0,
+              "WASD"
+            ],
+            "fill": 1,
+            "source_rect": [
+              7591,
+              8631,
+              3680,
+              4080
+            ],
+            "target": [
+              [
+                0,
+                "WASD,"
+              ]
+            ]
+          },
+          {
+            "text_id": 3526,
+            "text_tag": 3712,
+            "text_sha256": "99f7ddbde3eec922cd17a525e544dcc56b58043a849b8f23e09fbb4517bc2e61",
+            "source": [
+              1,
+              "mouse wheel"
+            ],
+            "fill": 2,
+            "source_rect": [
+              9340,
+              11280,
+              4379,
+              4779
+            ],
+            "target": [
+              [
+                1,
+                "колесом мыши"
+              ]
+            ]
+          },
+          {
+            "text_id": 3526,
+            "text_tag": 3712,
+            "text_sha256": "99f7ddbde3eec922cd17a525e544dcc56b58043a849b8f23e09fbb4517bc2e61",
+            "source": [
+              0,
+              "arrow"
+            ],
+            "fill": 1,
+            "source_rect": [
+              9051,
+              10011,
+              3680,
+              4080
+            ],
+            "target": [
+              [
+                0,
+                "стрелками"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "character_id": 3553,
+        "tag_index": 3758,
+        "tag_code": 32,
+        "sha256": "ff4c60ee89e8a3ecbbc4679d400e302f29a63201736eed6cf87df7dab3b38121",
+        "style_offset": 147,
+        "frame": 18,
+        "areas": [
+          {
+            "text_id": 3554,
+            "text_tag": 3759,
+            "text_sha256": "1f8abcad990afb34ec84d8fa9ea514bde1d7a7d68a0d7698f18ea5f35f058028",
+            "source": [
+              0,
+              "T"
+            ],
+            "fill": 1,
+            "source_rect": [
+              14680,
+              15080,
+              3859,
+              4259
+            ],
+            "target": [
+              [
+                0,
+                "T."
+              ]
+            ]
+          },
+          {
+            "text_id": 3554,
+            "text_tag": 3759,
+            "text_sha256": "1f8abcad990afb34ec84d8fa9ea514bde1d7a7d68a0d7698f18ea5f35f058028",
+            "source": [
+              0,
+              "Build tower"
+            ],
+            "fill": 2,
+            "source_rect": [
+              10538,
+              12377,
+              3859,
+              4259
+            ],
+            "target": [
+              [
+                0,
+                "\"Построить башню\""
+              ]
+            ]
+          },
+          {
+            "text_id": 3554,
+            "text_tag": 3759,
+            "text_sha256": "1f8abcad990afb34ec84d8fa9ea514bde1d7a7d68a0d7698f18ea5f35f058028",
+            "source": [
+              4,
+              "Shift"
+            ],
+            "fill": 1,
+            "source_rect": [
+              9100,
+              9960,
+              5939,
+              6339
+            ],
+            "target": [
+              [
+                4,
+                "Shift,"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "character_id": 3556,
+        "tag_index": 3763,
+        "tag_code": 32,
+        "sha256": "70adea502b2ea8a26c1953efbf71a633694baaf9fb250a4fa222b4835182e5de",
+        "style_offset": 237,
+        "frame": 19,
+        "areas": [
+          {
+            "text_id": 3559,
+            "text_tag": 3768,
+            "text_sha256": "e91f2feb09fcb17f689370d62f6813fd8ba1f5714c2db66527e9f523cd0990a4",
+            "source": [
+              0,
+              "G"
+            ],
+            "fill": 2,
+            "source_rect": [
+              14650,
+              15050,
+              4859,
+              5259
+            ],
+            "target": [
+              [
+                0,
+                "G"
+              ]
+            ]
+          },
+          {
+            "text_id": 3559,
+            "text_tag": 3768,
+            "text_sha256": "e91f2feb09fcb17f689370d62f6813fd8ba1f5714c2db66527e9f523cd0990a4",
+            "source": [
+              0,
+              "Combine button"
+            ],
+            "fill": 1,
+            "source_rect": [
+              16045,
+              18645,
+              4859,
+              5259
+            ],
+            "target": [
+              [
+                0,
+                "кнопку \"Совместить\""
+              ]
+            ]
+          },
+          {
+            "text_id": 3558,
+            "text_tag": 3766,
+            "text_sha256": "3bd89c9bc34ae1b4ba9e4cb116e45e11409aff653542843d8d202a1ec7cae357",
+            "source": [
+              0,
+              "U"
+            ],
+            "fill": 2,
+            "source_rect": [
+              8810,
+              9210,
+              3459,
+              3859
+            ],
+            "target": [
+              [
+                0,
+                "U,"
+              ]
+            ]
+          },
+          {
+            "text_id": 3557,
+            "text_tag": 3764,
+            "text_sha256": "991dc67d5eb0ad7fbf87b9042cdf462268d0579273ce5596e0e724a13b3fb272",
+            "source": [
+              0,
+              "D"
+            ],
+            "fill": 2,
+            "source_rect": [
+              2430,
+              2830,
+              2059,
+              2459
+            ],
+            "target": [
+              [
+                0,
+                "D,"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "character_id": 3565,
+        "tag_index": 3778,
+        "tag_code": 32,
+        "sha256": "0e1097b3764a599256b8bf126b6eff80e95ec4c2cec4a8e90cb672f7f96897a3",
+        "style_offset": 146,
+        "frame": 21,
+        "areas": [
+          {
+            "text_id": 3566,
+            "text_tag": 3779,
+            "text_sha256": "7ec35e27ba9bb80c55b9162c889105e5f861efd36cf78f9025a5d463e562a835",
+            "source": [
+              5,
+              "Click"
+            ],
+            "fill": 1,
+            "source_rect": [
+              2000,
+              2880,
+              5129,
+              5529
+            ],
+            "target": [
+              [
+                5,
+                "Нажмите"
+              ]
+            ]
+          },
+          {
+            "text_id": 3566,
+            "text_tag": 3779,
+            "text_sha256": "7ec35e27ba9bb80c55b9162c889105e5f861efd36cf78f9025a5d463e562a835",
+            "source": [
+              6,
+              "N"
+            ],
+            "fill": 2,
+            "source_rect": [
+              2840,
+              3240,
+              5469,
+              5869
+            ],
+            "target": [
+              [
+                6,
+                "N,"
+              ]
+            ]
+          },
+          {
+            "text_id": 3566,
+            "text_tag": 3779,
+            "text_sha256": "7ec35e27ba9bb80c55b9162c889105e5f861efd36cf78f9025a5d463e562a835",
+            "source": [
+              8,
+              "Ctrl-click"
+            ],
+            "fill": 1,
+            "source_rect": [
+              2000,
+              3520,
+              6509,
+              6909
+            ],
+            "target": [
+              [
+                8,
+                "Ctrl+клик"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "character_id": 3568,
+        "tag_index": 3783,
+        "tag_code": 32,
+        "sha256": "2709eb7168d9c27cc5fa3b865972572611972b0fd25925ddf302b848ef1d0004",
+        "style_offset": 264,
+        "frame": 22,
+        "areas": [
+          {
+            "text_id": 3570,
+            "text_tag": 3786,
+            "text_sha256": "92071bd21af8acd19f677765d66709b336093568d6732770e9cd16fa480362f1",
+            "source": [
+              0,
+              "Hold Shift"
+            ],
+            "fill": 3,
+            "source_rect": [
+              10200,
+              11920,
+              2679,
+              3079
+            ],
+            "target": [
+              [
+                0,
+                "Удерживайте Shift,"
+              ]
+            ]
+          },
+          {
+            "text_id": 3570,
+            "text_tag": 3786,
+            "text_sha256": "92071bd21af8acd19f677765d66709b336093568d6732770e9cd16fa480362f1",
+            "source": [
+              1,
+              "Gem bomb button"
+            ],
+            "fill": 1,
+            "source_rect": [
+              10181,
+              13041,
+              3079,
+              3479
+            ],
+            "target": [
+              [
+                1,
+                "\"Самоцвет-бомба\"."
+              ]
+            ]
+          },
+          {
+            "text_id": 3570,
+            "text_tag": 3786,
+            "text_sha256": "92071bd21af8acd19f677765d66709b336093568d6732770e9cd16fa480362f1",
+            "source": [
+              0,
+              "B"
+            ],
+            "fill": 2,
+            "source_rect": [
+              13460,
+              13860,
+              2699,
+              3099
+            ],
+            "target": [
+              [
+                0,
+                "B"
+              ]
+            ]
+          },
+          {
+            "text_id": 3571,
+            "text_tag": 3788,
+            "text_sha256": "2fa8ef61664b80dd13b4b8224bda84cfae0fe7e266931ce2c96899f8478541fc",
+            "source": [
+              0,
+              "Gem bomb button"
+            ],
+            "fill": 1,
+            "source_rect": [
+              13128,
+              15988,
+              6458,
+              6858
+            ],
+            "target": [
+              [
+                0,
+                "кнопку \"Самоцвет-бомба\","
+              ]
+            ]
+          },
+          {
+            "text_id": 3571,
+            "text_tag": 3788,
+            "text_sha256": "2fa8ef61664b80dd13b4b8224bda84cfae0fe7e266931ce2c96899f8478541fc",
+            "source": [
+              0,
+              "B"
+            ],
+            "fill": 2,
+            "source_rect": [
+              10940,
+              11340,
+              6438,
+              6838
+            ],
+            "target": [
+              [
+                0,
+                "B"
+              ]
+            ]
+          },
+          {
+            "text_id": 3571,
+            "text_tag": 3788,
+            "text_sha256": "2fa8ef61664b80dd13b4b8224bda84cfae0fe7e266931ce2c96899f8478541fc",
+            "source": [
+              1,
+              "hold Shift"
+            ],
+            "fill": 4,
+            "source_rect": [
+              10980,
+              12680,
+              6838,
+              7238
+            ],
+            "target": [
+              [
+                1,
+                "удерживайте Shift."
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "character_id": 3580,
+        "tag_index": 3803,
+        "tag_code": 32,
+        "sha256": "d1b2d47b03a85eca33c7facb778ec7d2014f32914e85856ca448c7ce2b2bb53a",
+        "style_offset": 146,
+        "frame": 24,
+        "areas": [
+          {
+            "text_id": 3581,
+            "text_tag": 3804,
+            "text_sha256": "5dc6d6f4d57f199aa07f9d7f6dbecb9dd33b1cc65d7613ded538e30ed8eef685",
+            "source": [
+              2,
+              "X"
+            ],
+            "fill": 2,
+            "source_rect": [
+              7680,
+              8080,
+              4280,
+              4680
+            ],
+            "target": [
+              [
+                2,
+                "X,"
+              ]
+            ]
+          },
+          {
+            "text_id": 3581,
+            "text_tag": 3804,
+            "text_sha256": "5dc6d6f4d57f199aa07f9d7f6dbecb9dd33b1cc65d7613ded538e30ed8eef685",
+            "source": [
+              2,
+              "drag"
+            ],
+            "fill": 1,
+            "source_rect": [
+              11278,
+              12078,
+              4280,
+              4680
+            ],
+            "target": [
+              [
+                3,
+                "перетащите"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "character_id": 3583,
+        "tag_index": 3808,
+        "tag_code": 32,
+        "sha256": "03074f8f36fa6aee2b1a3cb70359745096eb1db67f94354a1e3fc63cddb21c99",
+        "style_offset": 173,
+        "frame": 25,
+        "areas": [
+          {
+            "text_id": 3584,
+            "text_tag": 3809,
+            "text_sha256": "2519bf9001158568603c2ae6fda8a4df52352684d56b4b90da623c967292bb4f",
+            "source": [
+              0,
+              "Drag and drop"
+            ],
+            "fill": 1,
+            "source_rect": [
+              5920,
+              8200,
+              3219,
+              3619
+            ],
+            "target": [
+              [
+                0,
+                "Перетащите"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "character_id": 3587,
+        "tag_index": 3814,
+        "tag_code": 32,
+        "sha256": "75fe7bb02e86bf4c73f950c07b839b6150ef0766067eb004beab2eb68d1547a5",
+        "style_offset": 173,
+        "frame": 26,
+        "areas": [
+          {
+            "text_id": 3588,
+            "text_tag": 3815,
+            "text_sha256": "6ae57ae3d8d65ebda665be4038c94fe8570c21343db7c053c77efb74cdc79044",
+            "source": [
+              0,
+              "drop"
+            ],
+            "fill": 1,
+            "source_rect": [
+              9897,
+              10697,
+              3079,
+              3479
+            ],
+            "target": [
+              [
+                0,
+                "сбрасывать"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "character_id": 3592,
+        "tag_index": 3821,
+        "tag_code": 32,
+        "sha256": "b6e111113f1776d6a69e406430f21c9bd4dde8110fbde02a41fbecad45cde36e",
+        "style_offset": 101,
+        "frame": 27,
+        "areas": [
+          {
+            "text_id": 3593,
+            "text_tag": 3822,
+            "text_sha256": "8212d2ee0bb9e9b6ba15748f6c25b00a8c685cdf32fcabd62328049d2ef29e94",
+            "source": [
+              0,
+              "Right click"
+            ],
+            "fill": 1,
+            "source_rect": [
+              6740,
+              8500,
+              3859,
+              4239
+            ],
+            "target": [
+              [
+                0,
+                "Щёлкните"
+              ],
+              [
+                0,
+                "правой кнопкой"
+              ]
+            ]
+          },
+          {
+            "text_id": 3593,
+            "text_tag": 3822,
+            "text_sha256": "8212d2ee0bb9e9b6ba15748f6c25b00a8c685cdf32fcabd62328049d2ef29e94",
+            "source": [
+              1,
+              "drag"
+            ],
+            "fill": 1,
+            "source_rect": [
+              6740,
+              7540,
+              4239,
+              4639
+            ],
+            "target": [
+              [
+                1,
+                "тяните"
+              ]
+            ]
+          },
+          {
+            "text_id": 3593,
+            "text_tag": 3822,
+            "text_sha256": "8212d2ee0bb9e9b6ba15748f6c25b00a8c685cdf32fcabd62328049d2ef29e94",
+            "source": [
+              0,
+              "Shift-click"
+            ],
+            "fill": 1,
+            "source_rect": [
+              8920,
+              10560,
+              3859,
+              4259
+            ],
+            "target": [
+              [
+                0,
+                "с зажатым"
+              ],
+              [
+                1,
+                "Shift,"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "character_id": 3595,
+        "tag_index": 3826,
+        "tag_code": 32,
+        "sha256": "dc076e582944072c2c4c74b39ba133cb057bd2fdc861edb693520d0ae353528d",
+        "style_offset": 177,
+        "frame": 28,
+        "areas": [
+          {
+            "text_id": 3596,
+            "text_tag": 3827,
+            "text_sha256": "c10a17dfdb5cf201b9be4d1c53be5c176924e7aff06d2097265247128823fee2",
+            "source": [
+              0,
+              "Click"
+            ],
+            "fill": 1,
+            "source_rect": [
+              8720,
+              9580,
+              3799,
+              4199
+            ],
+            "target": [
+              [
+                0,
+                "Нажмите"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "character_id": 3598,
+        "tag_index": 3831,
+        "tag_code": 32,
+        "sha256": "c0e7eb29b320d9d5a9242dc77b7146ed1c05a7bdd4a9d1b68ce56143d4a35f58",
+        "style_offset": 177,
+        "frame": 29,
+        "areas": [
+          {
+            "text_id": 3599,
+            "text_tag": 3832,
+            "text_sha256": "9690686f02ed1a0721bc86ea42e862e46234c0882480d43966c823b7c4431e0c",
+            "source": [
+              2,
+              "mouse wheel."
+            ],
+            "fill": 1,
+            "source_rect": [
+              12216,
+              14275,
+              3598,
+              3981
+            ],
+            "target": [
+              [
+                2,
+                "колесом мыши."
+              ]
+            ]
+          },
+          {
+            "text_id": 3599,
+            "text_tag": 3832,
+            "text_sha256": "9690686f02ed1a0721bc86ea42e862e46234c0882480d43966c823b7c4431e0c",
+            "source": [
+              3,
+              "Alt"
+            ],
+            "fill": 1,
+            "source_rect": [
+              9696,
+              10296,
+              3938,
+              4321
+            ],
+            "target": [
+              [
+                2,
+                "Alt"
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

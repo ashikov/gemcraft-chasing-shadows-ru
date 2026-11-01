@@ -62,6 +62,12 @@ def merge_localization_plans(plans, workspace):
             if plan['outcome_info_icons'] is not True or 'outcome_info_icons' in result:
                 raise ValueError('Invalid or duplicate outcome icon repair')
             result['outcome_info_icons'] = True
+        if 'tutor_highlights' in plan:
+            from tutor_highlights import validate_recipe
+            validate_recipe(plan['tutor_highlights'])
+            if 'tutor_highlights' in result:
+                raise ValueError('Duplicate tutor highlight selection')
+            result['tutor_highlights'] = copy.deepcopy(plan['tutor_highlights'])
         selected = plan.get('entry_ids')
         if not isinstance(selected, list) or (not selected and 'journey_map' not in plan):
             raise ValueError('Plan must select entry IDs')

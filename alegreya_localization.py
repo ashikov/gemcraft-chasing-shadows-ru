@@ -279,6 +279,15 @@ def build_alegreya_localization(original, workspace, plan, ttf_bytes):
             {'tag_index': 4046, 'tag_code': 22, 'character_id': 3770},
             {'tag_index': 4067, 'tag_code': 39, 'character_id': 3787},
         ])
+    if 'tutor_highlights' in plan:
+        from tutor_highlights import repair_tutor_highlights
+        report['tutor_highlights'] = repair_tutor_highlights(
+            original_tags, tags, {regular['id']: regular, bold['id']: bold},
+            plan['tutor_highlights'])
+        report['changed_original_tags'].extend(
+            {'tag_index': item['tag_index'], 'tag_code': item['tag_code'],
+             'character_id': item['character_id']}
+            for item in plan['tutor_highlights']['shapes'])
     additions = []
     for font in (regular, bold):
         additions.extend([
