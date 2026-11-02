@@ -3116,3 +3116,26 @@ precision 0/1/2. m1245 сохраняет точку, запятую тысяч 
 backup/hash/process preflight. Он не заменяет будущую приёмку естественного
 игрового hover и всех состояний. Пока игра не запускалась; установка Steam,
 пользовательские данные и Cloud metadata не изменялись.
+
+Свежие проверки PR #38: синтетический набор **1450 PASS**, целевой набор
+с оригинальным ABC, накопительным кандидатом и геометрией **583 PASS без SKIP**.
+Ruff, compileall по списку CI, валидация каталогов/manifest и свежий
+workspace/export roundtrip с исходным receipt прошли. Накопительная сборка
+и независимая пересборка в on-disk validation дали побайтово одинаковый PR #37
+(`ec84b1e9d2ae6e2fe3eb2e835712d95238de40caec36f46add3f05b84e6cd3fc`),
+сохранив все ресурсы, шрифты и методы. Apply/restore PR #37 и диагностического
+кандидата проверены только на временной копии; оригинальные backup сохранены.
+Все 36 защищённых файлов Steam, исходного профиля и Cloud metadata совпадают
+по размеру и SHA-256. Оба GitHub CI — push и pull_request — прошли.
+
+Локальные свидетельства: `local/pr38/candidate/{static,on-disk}-validation.json`,
+`targeted-final.log`, `nonlocal-final.log`, `consumer-byte-proof.json`,
+`offline-integrity.json` и `runtime-preparation.json`. Последний описывает
+подготовленную отдельную AIR-копию/профиль, backup, цели и критерии единственного
+запуска; разрешение ещё не получено, runtime-результатов PR #38 нет.
+Воспроизводимая проверка выражений после штатной сборки в `local/pr38/candidate`:
+
+```sh
+GEMCRAFT_ORIGINAL=/path/to/original.swf GEMCRAFT_PR38_ROOT=local/pr38 \
+  python -m pytest -q tests/test_dynamic_boundaries.py tests/test_dynamic_boundaries_local.py
+```
