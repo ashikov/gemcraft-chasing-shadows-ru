@@ -32,9 +32,6 @@ def stage_resources(destination, font, project=PROJECT):
     for name in ('provenance.json', 'OFL.txt'):
         files['fonts/alegreya/' + name] = project / 'fonts/alegreya' / name
     files['fonts/alegreya/Alegreya[wght].ttf'] = font
-    # Root Python modules are authored tooling, never extracted ActionScript.
-    files.update({path.name: path for path in sorted(project.glob('*.py'))
-                  if path.name != 'inspect_swf.py'})
     payload = {relative: source.read_bytes() for relative, source in sorted(files.items())}
     destination.mkdir(parents=True, exist_ok=False)
     for relative, data in payload.items():
@@ -45,6 +42,28 @@ def stage_resources(destination, font, project=PROJECT):
     (destination / 'installer-resources.json').write_text(
         json.dumps(inventory, ensure_ascii=False, sort_keys=True, indent=2) + '\n', 'utf-8')
     return inventory
+
+
+def packaging_command(entry, resources, output, work, name, *, windowed=True):
+    """Use PyInstaller's import graph for code; only explicit resources are data."""
+    entry, resources, output, work = map(Path, (entry, resources, output, work))
+    inventory = json.loads((resources / 'installer-resources.json').read_text('utf-8'))
+    command = [sys.executable, '-m', 'PyInstaller', '--noconfirm', '--clean',
+               '--onefile', '--windowed' if windowed else '--console', '--noupx',
+               '--name', name, '--distpath', str(output), '--workpath', str(work),
+               '--specpath', str(work.parent), '--paths', str(PROJECT),
+               '--collect-all', 'PIL', '--collect-all', 'fontTools']
+    for relative, digest in inventory['files'].items():
+        path = resources / relative
+        if (Path(relative).is_absolute() or '..' in Path(relative).parts
+                or path.suffix == '.py' or not path.resolve().is_relative_to(resources.resolve())):
+            raise ValueError('Unsafe packaged data path')
+        if sha(path.read_bytes()) != digest:
+            raise ValueError('Packaged resource SHA mismatch')
+        command += ['--add-data', str(path) + os.pathsep + str(Path(relative).parent)]
+    command += ['--add-data', str(resources / 'installer-resources.json') + os.pathsep + '.',
+                str(entry)]
+    return command
 
 
 def main(argv=None):
@@ -69,16 +88,8 @@ def main(argv=None):
                           manifest_path=stage / 'translations/build-manifest.json')
         manifest = json.loads((stage / 'translations/build-manifest.json').read_text('utf-8'))
         name = 'GemCraft-RU-' + manifest['expected_candidate_sha256'][:12]
-        command = [sys.executable, '-m', 'PyInstaller', '--noconfirm', '--clean',
-                   '--onefile', '--windowed', '--noupx', '--name', name,
-                   '--distpath', str(args.output), '--workpath', str(temporary / 'work'),
-                   '--specpath', str(temporary), '--paths', str(stage),
-                   '--collect-all', 'PIL', '--collect-all', 'fontTools']
-        for relative in json.loads((stage / 'installer-resources.json').read_text('utf-8'))['files']:
-            path = stage / relative
-            command += ['--add-data', str(path) + os.pathsep + str(Path(relative).parent)]
-        command += ['--add-data', str(stage / 'installer-resources.json') + os.pathsep + '.',
-                    str(stage / 'installer_gui.py')]
+        command = packaging_command(PROJECT / 'installer_gui.py', stage, args.output,
+                                    temporary / 'work', name)
         environment = dict(os.environ, PYTHONHASHSEED='0', SOURCE_DATE_EPOCH='1704067200')
         subprocess.run(command, check=True, env=environment)
         shutil.copyfile(stage / 'installer-resources.json', args.output / (name + '-inputs.json'))

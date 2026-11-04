@@ -49,3 +49,16 @@ def test_bad_font_and_missing_input_fail_before_staging(tmp_path, monkeypatch):
     with pytest.raises(FileNotFoundError):
         packaging.stage_resources(tmp_path / 'b', font, project)
     assert not (tmp_path / 'b').exists()
+
+
+def test_unrelated_python_is_not_staged_or_packaging_input(tmp_path, monkeypatch):
+    project, font = fixture_project(tmp_path, monkeypatch)
+    (project / 'secret.py').write_text('raise RuntimeError("must not ship")\n')
+    stage = tmp_path / 'resources'
+    inventory = packaging.stage_resources(stage, font, project)
+    assert not any(name.endswith('.py') for name in inventory['files'])
+    assert not (stage / 'secret.py').exists()
+    command = packaging.packaging_command(project / 'installer_gui.py', stage,
+                                           tmp_path / 'dist', tmp_path / 'work', 'preview')
+    assert not any('secret.py' in argument for argument in command)
+    assert str(project / 'installer_gui.py') == command[-1]
