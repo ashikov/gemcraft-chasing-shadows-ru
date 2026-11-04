@@ -514,3 +514,20 @@ def test_permission_denied_staging_preserves_game_and_other_files(tmp_path, monk
         install_patch.atomic_replace(target, b'patched', sha(b'original'))
     assert target.read_bytes() == b'original'
     assert other.read_bytes() == b'keep'
+
+
+def test_reinstall_from_original_rejects_damaged_historical_manifest(tmp_path):
+    target = tmp_path / 'game' / 'game.swf'
+    target.parent.mkdir()
+    target.write_bytes(b'original')
+    candidate = tmp_path / 'candidate.swf'
+    candidate.write_bytes(b'A')
+    store = tmp_path / 'backups'
+    receipt = apply_patch_file(target, candidate, store, sha(b'original'), sha(b'A'))
+    restore_patch_file(receipt, expected_original=sha(b'original'))
+    record = json.loads(receipt.read_text(encoding='utf-8'))
+    record['schema'] = 55
+    receipt.write_text(json.dumps(record), encoding='utf-8')
+    with pytest.raises(ValueError, match='schema'):
+        apply_patch_file(target, candidate, store, sha(b'original'), sha(b'A'))
+    assert target.read_bytes() == b'original'

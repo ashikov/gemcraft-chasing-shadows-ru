@@ -135,7 +135,7 @@ def _apply_patch_file(target, candidate, backup_dir, expected_original,
     manifest = backup_dir / ("manifest-" + patched_hash + ".json")
     if manifest.exists():
         safe_path(manifest, file=True)
-        saved = json.loads(manifest.read_text(encoding="utf-8"))
+        saved = verified_manifest(manifest, expected_original, target)
         for key in (
             "original_path",
             "original_sha256",
