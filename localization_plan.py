@@ -244,8 +244,11 @@ def resolve_plan_font_bindings(original, translated, sites):
             increments[method] = max(increments.get(method, 0), site['extra_stack'])
             continue
         if kind not in ('field', 'tooltip', 'panel_format_before', 'panel_format_after',
-                        'floater', 'floater_fields', 'bitmap_cyrillic'):
+                        'floater', 'floater_fields', 'bitmap_cyrillic',
+                        'panel_format_after_shrine_spacing'):
             raise ValueError('Unsupported font binding kind')
+        if kind == 'panel_format_after_shrine_spacing':
+            validate_shrine_spacing(before, after, old_ops, new_ops, site)
         if kind == 'bitmap_cyrillic':
             validate_bitmap_font_site(before, after, old_ops, new_ops, site)
         original_family_index = None
@@ -348,8 +351,13 @@ def resolve_plan_font_bindings(original, translated, sites):
                 return bitmap_font_selector(family_index, **bitmap_indices)
             if kind.startswith('panel_format_'):
                 family = family_index if kind == 'panel_format_before' else original_family_index
-                return b''.join(receiver + b'\x2c' + _u30(family) + b'\x61' + _u30(font_index)
+                result = b''.join(receiver + b'\x2c' + _u30(family) + b'\x61' + _u30(font_index)
                                 for receiver in receivers)
+                if kind == 'panel_format_after_shrine_spacing':
+                    # Spacing follows the font QName and any bitmap selector QNames.
+                    spacing_name = len(after.multinames) + 1 + (2 if bitmap_indices else 0)
+                    result += shrine_spacing_code(spacing_name)
+                return result
             result = b''.join(field_binding(receiver, family_index, font_index) for receiver in receivers)
             if kind == 'floater':
                 receiver = receivers[0]
@@ -382,7 +390,7 @@ def resolve_plan_font_bindings(original, translated, sites):
             return result
         # A branch that skipped panel creation must also skip its field reads.
         return {method: [(offset, binding(receivers, kind, original_family_index, panel_receiver), 'after_call')
-                         if kind in ('bitmap_placement', 'floater') else
+                         if kind in ('bitmap_placement', 'floater', 'panel_format_after_shrine_spacing') else
                          (offset, binding(receivers, kind, original_family_index, panel_receiver))
                          for offset, receivers, kind, original_family_index, panel_receiver in locations]
                 for method, locations in planned.items()}
@@ -398,4 +406,59 @@ def apply_plan_font_bindings(original, translated, sites, family='GCCS Alegreya'
     return patch_abc_font_bindings(
         translated, snippets, family=family, extra_stack=increments,
         bitmap_selector=any(site['kind'] == 'bitmap_cyrillic' for site in sites),
+        shrine_spacing=any(site['kind'] == 'panel_format_after_shrine_spacing' for site in sites),
     ), counts
+
+
+SHRINE_PREFIX = 'Применяет эффекты самоцвета и наносит '
+SHRINE_SUFFIX = 'x урона самоцвета всем врагам в радиусе, игнорируя броню'
+
+
+def validate_shrine_spacing(before, after, old_ops, new_ops, site):
+    """Limit the adaptation to the existing common shrine damage description."""
+    position = site['instruction_index']
+    if (site['method_index'] != 630 or position < 16
+            or old_ops[position][0] != 11916
+            or old_ops[position - 1][1:] != (0x4f, [3729, 6])
+            or site.get('receiver_hex') != 'd166c606'
+            or site.get('extra_stack', 0) < 10):
+        raise ValueError('Unexpected shrine spacing call')
+    prior = old_ops[position - 18:position]
+    strings = [(index, before.strings[args[0]])
+               for index, (_, opcode, args) in enumerate(old_ops[:position])
+               if opcode == 0x2c and 11874 <= old_ops[index][0] <= 11912]
+    if [value for _, value in strings] != [
+            'Deals gem specials and ',
+            'x gem damage to all enemies in range, ignores armor']:
+        raise ValueError('Unexpected shrine spacing source phrase')
+    if [after.strings[new_ops[index][2][0]] for index, _ in strings] != [
+            SHRINE_PREFIX, SHRINE_SUFFIX]:
+        raise ValueError('Unexpected shrine spacing translated phrase')
+    if [(opcode, args) for _, opcode, args in prior[-5:]] != [
+            (0x27, []), (0x24, [10]), (0x20, []), (0x2d, [168]), (0x4f, [3729, 6])]:
+        raise ValueError('Unexpected shrine spacing style arguments')
+    names = {3355: 'textfields', 5241: 'length', 5329: 'text',
+             839: 'TextFormat', 6921: 'setTextFormat', 1303: 'y',
+             5360: 'height', 3708: 'nextTfPos', 3710: 'h'}
+    if any(before.multiname(index) != name or after.multiname(index) != name
+           for index, name in names.items()):
+        raise ValueError('Unexpected shrine spacing properties')
+
+
+def shrine_spacing_code(spacing_name):
+    """Widen only the existing boundary spaces, then replay native layout."""
+    def op(code, *values):
+        return bytes([code]) + b''.join(_u30(value) for value in values)
+
+    latest = b'\xd1' + op(0x66, 3355) + b'\x2a' + op(0x66, 5241) + b'\x24\x01\xa1' + op(0x66, 6922)
+    left = op(0x24, len(SHRINE_PREFIX) - 1)
+    right = latest + op(0x66, 5329) + op(0x66, 5241) + op(0x24, len(SHRINE_SUFFIX) - 1) + b'\xa1'
+    result = b''
+    for index in (left, right):
+        result += (latest + op(0x5d, 839) + op(0x4a, 839, 0) + b'\x2a'
+                   + b'\x24\x03\x24\x02\xa3' + op(0x61, spacing_name)
+                   + index + index + b'\x24\x01\xa0' + op(0x4f, 6921, 3))
+    result += (b'\xd1' + latest + op(0x66, 1303) + latest + op(0x66, 5360)
+               + b'\xa0\x24\x09\xa0' + op(0x61, 3708)
+               + b'\xd1\xd1' + op(0x66, 3708) + b'\x24\x08\xa0' + op(0x61, 3710))
+    return result

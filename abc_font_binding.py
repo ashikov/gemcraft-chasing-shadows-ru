@@ -59,7 +59,7 @@ def _pool_sections(data):
     return sections, namespaces
 
 
-def extend_font_pool(data, family='GCCS Alegreya', *, bitmap_selector=False):
+def extend_font_pool(data, family='GCCS Alegreya', *, bitmap_selector=False, shrine_spacing=False):
     """Append family/name strings and public QName; return bytes and two indices.
 
     Reuse an existing empty public PackageNamespace, or append one. Existing pool
@@ -109,6 +109,22 @@ def extend_font_pool(data, family='GCCS Alegreya', *, bitmap_selector=False):
         raise ValueError('ABC font pool preservation check failed')
     if bitmap_selector:
         result = _extend_bitmap_selector_pool(result, public)
+    if shrine_spacing:
+        current = _inventory(result)
+        parts, _ = _pool_sections(result)
+        if 'letterSpacing' in current.strings:
+            raise ValueError('Unexpected existing shrine spacing property')
+        name = len(current.strings)
+        changes = []
+        start, entries, end, count = parts['string']
+        value = b'letterSpacing'
+        changes.append((start, end, _u30(count + 1) + result[entries:end]
+                        + _u30(len(value)) + value))
+        start, entries, end, count = parts['multiname']
+        changes.append((start, end, _u30(count + 1) + result[entries:end]
+                        + b'\x07' + _u30(public) + _u30(name)))
+        for start, end, replacement in sorted(changes, reverse=True):
+            result = result[:start] + replacement + result[end:]
     return result, family_index, font_index
 
 
@@ -282,9 +298,10 @@ def insert_method_code(data, insertions, *, extra_stack=None, extra_locals=None)
 
 
 def patch_abc_font_bindings(data, insertions, *, family='GCCS Alegreya', extra_stack=None, extra_locals=None,
-                            bitmap_selector=False):
+                            bitmap_selector=False, shrine_spacing=False):
     """Extend font pools then insert snippets, optionally built from new indices."""
-    data, family_index, font_index = extend_font_pool(data, family, bitmap_selector=bitmap_selector)
+    data, family_index, font_index = extend_font_pool(
+        data, family, bitmap_selector=bitmap_selector, shrine_spacing=shrine_spacing)
     if callable(insertions):
         insertions = insertions(family_index, font_index)
     return insert_method_code(data, insertions, extra_stack=extra_stack, extra_locals=extra_locals)

@@ -923,9 +923,9 @@
       "expected_operands": [
         872
       ],
-      "extra_stack": 8,
+      "extra_stack": 10,
       "instruction_index": 4744,
-      "kind": "panel_format_after",
+      "kind": "panel_format_after_shrine_spacing",
       "method_index": 630,
       "original_font_family": "Celtic Garamond for GemCraft",
       "original_font_string_index": 10038,
