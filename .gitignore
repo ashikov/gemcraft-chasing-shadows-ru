@@ -53,3 +53,9 @@ __pycache__/
 .ruff_cache/
 *.py[cod]
 .omx/
+
+# Native installer build environment and packaging scratch files.
+.venv-installer/
+/build/
+/dist/
+*.spec

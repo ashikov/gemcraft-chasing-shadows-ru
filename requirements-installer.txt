@@ -1,0 +1,3 @@
+-r requirements-build.txt
+Pillow==12.3.0
+PyInstaller==6.16.0

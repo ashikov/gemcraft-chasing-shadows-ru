@@ -17,3 +17,14 @@ jobs:
       - run: python translation_catalog.py translations/ru.json
       - run: python localization_project.py validate
       - run: python -m compileall -q advice_oracle.py pr34_ui_binding.py journey_map_localization.py
+
+  windows-installer:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install -r requirements-dev.txt
+      - run: python -m pytest -q tests/test_windows_installer.py tests/test_installer_packaging.py tests/test_installer_safety.py -k "not unsafe_paths"
+      - run: python -m compileall -q windows_installer.py installer_gui.py installer_safety.py build_windows_installer.py
