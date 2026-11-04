@@ -37,7 +37,8 @@ def test_shrine_plan_complete_addressed_scope_and_font_lifetime():
     for method, call in calls:
         before, after = sites[method, call], sites[method, call + 1]
         assert before['kind'] == 'panel_format_before'
-        assert after['kind'] == 'panel_format_after'
+        assert after['kind'] == ('panel_format_after_shrine_spacing'
+                                 if (method, call) == (630, 4743) else 'panel_format_after')
         assert before['expected_opcode'] == 79
         assert before['expected_operands'][0] == 3729
         assert before['receiver_hex'] == after['receiver_hex'] == (

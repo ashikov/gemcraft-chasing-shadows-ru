@@ -179,6 +179,7 @@ def _bindings(original, translated, sites=None):
         translated, snippets, family=FAMILY,
         extra_stack=increments,
         bitmap_selector=any(site['kind'] == 'bitmap_cyrillic' for site in sites or []),
+        shrine_spacing=any(site['kind'] == 'panel_format_after_shrine_spacing' for site in sites or []),
     ), counts
 
 
