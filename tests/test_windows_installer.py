@@ -12,6 +12,7 @@ from install_patch import sha
 def setup(tmp_path, monkeypatch):
     resources = tmp_path / 'resources'
     resources.mkdir()
+    (resources / 'installer-resources.json').write_text('{}')
     (resources / 'translations').mkdir()
     manifest = resources / 'translations/build-manifest.json'
     manifest.write_text(json.dumps({'game_sha256': sha(b'original'),
@@ -172,4 +173,15 @@ def test_identical_target_replacement_during_build_stops_install(setup, monkeypa
     monkeypatch.setattr(wi, 'build_project', changing)
     with pytest.raises(ValueError, match='Файл игры изменился'):
         app.perform(target, 'install', sha(b'original'))
+    assert target.read_bytes() == b'original'
+
+
+def test_dotdot_path_uses_one_canonical_installation(setup):
+    app, target, _, _, _ = setup
+    subdirectory = target.parent / 'subdirectory'
+    subdirectory.mkdir()
+    alias = subdirectory / '..' / target.name
+    app.perform(alias, 'install', sha(b'original'))
+    assert app.inspect(target)['state'] == 'localized'
+    app.perform(target, 'restore', sha(b'A'))
     assert target.read_bytes() == b'original'

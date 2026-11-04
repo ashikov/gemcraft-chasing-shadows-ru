@@ -16,7 +16,7 @@ from localization_project import build_project, validate_project
 
 def default_data_dir():
     value = os.environ.get('LOCALAPPDATA')
-    if os.name != 'nt' or not value:
+    if os.name != 'nt' or not value or not Path(value).is_absolute():
         raise ValueError('Установщик предназначен для Windows; LOCALAPPDATA недоступен.')
     return Path(value) / 'GemCraftRUInstaller'
 
@@ -59,8 +59,8 @@ def _write_record(path, value):
 
 class Installer:
     def __init__(self, resources, data_dir):
-        self.resources = Path(resources).absolute()
-        self.data_dir = Path(data_dir).absolute()
+        self.resources = safe_path(Path(resources).expanduser())
+        self.data_dir = safe_path(Path(data_dir).expanduser())
         verify_resources(self.resources)
         self.manifest = json.loads((self.resources / 'translations/build-manifest.json').read_text(
             encoding='utf-8'))
@@ -68,10 +68,10 @@ class Installer:
 
     def _target(self, value):
         path = Path(value).expanduser().absolute()
-        safe_path(path)
+        path = safe_path(path)
         if path.is_dir():
             path = path / 'gc-cs-steam.swf'
-        safe_path(path)
+        path = safe_path(path)
         if path.name != 'gc-cs-steam.swf' or not path.is_file():
             raise ValueError('Выберите папку игры или существующий gc-cs-steam.swf.')
         return path
@@ -137,8 +137,7 @@ class Installer:
             operation.mkdir()
             _write_record(operation / 'localization.json', {
                 'build_manifest': self.manifest,
-                'resources_sha256': sha((self.resources / 'installer-resources.json').read_bytes())
-                if (self.resources / 'installer-resources.json').exists() else None,
+                'resources_sha256': sha((self.resources / 'installer-resources.json').read_bytes()),
             })
             recheck = snapshot(roots, operation / 'userdata')
             original_info = dict(info)

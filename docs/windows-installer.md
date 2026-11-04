@@ -91,3 +91,8 @@ Microsoft Store alias, `python --version` завершается ошибкой.
 внутри данных инсталлятора. Он блокирует повторную запись. Перед удалением
 такого lock нужно проверить отсутствие процессов всех версий установщика;
 backup и журналы удалять не нужно. Автоматическое снятие чужого lock запрещено.
+
+Первый CI-прогон preview подтвердил Linux suite (1492 passed, один Windows-only
+smoke skipped) и Windows job (26 passed, один symlink-тест deselected, поскольку
+ему нужны отдельные Windows privileges). Windows job действительно исполнил
+Toolhelp smoke. Это не сборка EXE и не проверка GUI или Windows renderer.
