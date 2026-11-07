@@ -8,6 +8,7 @@ import argparse
 import hashlib
 import io
 import json
+import sys
 from pathlib import Path
 import re
 import struct
@@ -231,14 +232,26 @@ def _renderer(recipe):
     actual = {'pillow': Image.__version__, 'jpeg': features.version('jpg'),
               'libjpeg_turbo': features.version('libjpeg_turbo'),
               'freetype': features.version('freetype2')}
-    if actual != recipe['renderer']:
+    # The official Windows wheel uses libjpeg's v8 ABI and dynamically loads
+    # FriBidi. This exact combination reproduces the pinned pixels/JPEG bytes.
+    baseline = {'pillow': '12.3.0', 'jpeg': '6.2',
+                'libjpeg_turbo': '3.1.4.1', 'freetype': '2.14.3'}
+    verified_windows = (
+        sys.platform == 'win32' and recipe['renderer'] == baseline
+        and actual == {**baseline, 'jpeg': '8.0'}
+        and {name: features.version(name) for name in ('raqm', 'harfbuzz', 'fribidi')}
+        == {'raqm': '0.10.5', 'harfbuzz': '14.2.1', 'fribidi': '1.0.17'}
+    )
+    if actual != recipe['renderer'] and not verified_windows:
         raise ValueError(f'Journey map renderer versions differ: {actual}')
-    return Image, ImageDraw, ImageFilter, ImageFont
+    if features.version('raqm') is None:
+        raise ValueError('Journey map requires Raqm; BASIC text layout is not reproducible')
+    return Image, ImageDraw, ImageFilter, ImageFont, actual
 
 
 def _render_map(source_jpeg, font_bytes, recipe):
     """Return local pixels and mask evidence before any lossy JPEG encoding."""
-    Image, ImageDraw, ImageFilter, ImageFont = _renderer(recipe)
+    Image, ImageDraw, ImageFilter, ImageFont, renderer = _renderer(recipe)
     if digest(source_jpeg) != recipe['source_jpeg_sha256']:
         raise ValueError('Journey map source JPEG SHA differs')
     if digest(font_bytes) != recipe['font_sha256']:
@@ -272,7 +285,8 @@ def _render_map(source_jpeg, font_bytes, recipe):
     layouts = []
     for label in recipe['labels']:
         factor = recipe['supersampling']
-        font = ImageFont.truetype(io.BytesIO(font_bytes), label['font_size'] * factor)
+        font = ImageFont.truetype(io.BytesIO(font_bytes), label['font_size'] * factor,
+                                 layout_engine=ImageFont.Layout.RAQM)
         font.set_variation_by_axes([recipe['font_weight']])
         canvas_width, canvas_height = recipe['label_canvas']
         layer = Image.new('RGBA', (canvas_width * factor, canvas_height * factor))
@@ -324,7 +338,7 @@ def _render_map(source_jpeg, font_bytes, recipe):
             route_pixels += 1
             if original_pixels[at * 3:at * 3 + 3] != output_pixels[at * 3:at * 3 + 3]:
                 raise ValueError('Journey map rendering altered a colored route core pixel')
-    report = {'renderer': recipe['renderer'], 'source_jpeg_sha256': digest(source_jpeg),
+    report = {'renderer': renderer, 'source_jpeg_sha256': digest(source_jpeg),
               'source_pixels_sha256': digest(original_pixels),
               'restoration_mask_sha256': digest(mask_pixels),
               'restoration_mask_pixels': sum(bool(value) for value in mask_pixels),
@@ -376,7 +390,7 @@ def main(argv=None):
     parser.add_argument('--recipe', type=Path, default=DEFAULT_RECIPE)
     parser.add_argument('--output-dir', type=Path, required=True)
     args = parser.parse_args(argv)
-    recipe = json.loads(args.recipe.read_text())['journey_map']
+    recipe = json.loads(args.recipe.read_text(encoding='utf-8'))['journey_map']
     source = args.source.read_bytes()
     if digest(source) != recipe['game_sha256']:
         parser.error('Original SWF SHA differs')

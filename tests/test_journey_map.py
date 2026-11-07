@@ -1,11 +1,60 @@
 """Synthetic contracts for the single optional Journey map graphics recipe."""
 import copy
 import hashlib
+import sys
+from types import SimpleNamespace
 
 import pytest
 
 from journey_map_localization import jpeg_metadata, patch_map_tags, restore_masked_rows
 from swf_geometry import Tag
+
+
+def fake_renderer(monkeypatch, platform, **changes):
+    import journey_map_localization as module
+    versions = {'pillow': '12.3.0', 'jpg': '6.2', 'libjpeg_turbo': '3.1.4.1',
+                'freetype2': '2.14.3', 'raqm': '0.10.5', 'harfbuzz': '14.2.1',
+                'fribidi': '1.0.8'}
+    versions.update(changes)
+    pillow = SimpleNamespace(Image=SimpleNamespace(__version__=versions['pillow']),
+                             ImageDraw=object(), ImageFilter=object(), ImageFont=object(),
+                             features=SimpleNamespace(version=versions.get))
+    monkeypatch.setitem(sys.modules, 'PIL', pillow)
+    monkeypatch.setattr(module, 'sys', SimpleNamespace(platform=platform), raising=False)
+    recipe = {'renderer': {'pillow': '12.3.0', 'jpeg': '6.2',
+                            'libjpeg_turbo': '3.1.4.1', 'freetype': '2.14.3'}}
+    return module, recipe
+
+
+def test_verified_windows_renderer_reports_actual_jpeg_abi(monkeypatch):
+    module, recipe = fake_renderer(monkeypatch, 'win32', jpg='8.0', fribidi='1.0.17')
+    *_, actual = module._renderer(recipe)
+    assert actual == {**recipe['renderer'], 'jpeg': '8.0'}
+    assert recipe['renderer']['jpeg'] == '6.2'
+
+
+@pytest.mark.parametrize('changes', [
+    {'pillow': '12.4.0'}, {'jpg': '9.0'}, {'libjpeg_turbo': '3.1.4'},
+    {'freetype2': '2.14.2'}, {'raqm': None}, {'raqm': '0.10.4'},
+    {'harfbuzz': '14.2.0'}, {'fribidi': '1.0.16'},
+])
+def test_windows_compatibility_does_not_accept_unverified_renderers(monkeypatch, changes):
+    versions = {'jpg': '8.0', 'fribidi': '1.0.17', **changes}
+    module, recipe = fake_renderer(monkeypatch, 'win32', **versions)
+    with pytest.raises(ValueError, match='renderer|Raqm'):
+        module._renderer(recipe)
+
+
+def test_jpeg8_exception_is_specific_to_windows(monkeypatch):
+    module, recipe = fake_renderer(monkeypatch, 'linux', jpg='8.0', fribidi='1.0.17')
+    with pytest.raises(ValueError, match='renderer'):
+        module._renderer(recipe)
+
+
+def test_missing_raqm_cannot_silently_use_basic_text_layout(monkeypatch):
+    module, recipe = fake_renderer(monkeypatch, 'linux', raqm=None)
+    with pytest.raises(ValueError, match='Raqm'):
+        module._renderer(recipe)
 
 
 def segment(marker, payload):
@@ -96,7 +145,7 @@ def test_restoration_changes_only_exact_mask_and_interpolates_neighbors():
 def test_authored_recipe_scope_and_typography_validate_without_pillow():
     import json
     from journey_map_localization import DEFAULT_RECIPE, validate_map_recipe
-    plan = json.loads(DEFAULT_RECIPE.read_text())
+    plan = json.loads(DEFAULT_RECIPE.read_text(encoding='utf-8'))
     recipe = plan['journey_map']
     assert plan['entry_ids'] == [] and plan['fonts'] == []
     assert validate_map_recipe(recipe)

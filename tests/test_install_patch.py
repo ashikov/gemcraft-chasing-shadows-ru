@@ -377,3 +377,157 @@ def test_verifier_cli_rejects_incomplete_or_conflicting_inputs(
         verify_experiment.main()
     assert target.read_bytes() == b"synthetic candidate"
     assert not (tmp_path / "artifacts").exists()
+
+
+def test_update_versions_and_restore_keeps_history(tmp_path):
+    from install_patch import update_patch_file
+    target = tmp_path / 'game' / 'game.swf'
+    target.parent.mkdir()
+    target.write_bytes(b'original')
+    candidate = tmp_path / 'candidate.swf'
+    candidate.write_bytes(b'A')
+    store = tmp_path / 'backups'
+    first = apply_patch_file(target, candidate, store, sha(b'original'))
+    first_bytes = first.read_bytes()
+    candidate.write_bytes(b'B')
+    second = update_patch_file(target, candidate, store, first, sha(b'original'), sha(b'B'))
+    assert target.read_bytes() == b'B'
+    assert first.read_bytes() == first_bytes
+    assert update_patch_file(target, candidate, store, second,
+                             sha(b'original'), sha(b'B')) == second
+    restore_patch_file(second, expected_original=sha(b'original'))
+    assert target.read_bytes() == b'original'
+
+
+def test_callback_stops_update_if_target_changes(tmp_path):
+    from install_patch import update_patch_file
+    target = tmp_path / 'game' / 'game.swf'
+    target.parent.mkdir()
+    target.write_bytes(b'original')
+    candidate = tmp_path / 'candidate.swf'
+    candidate.write_bytes(b'A')
+    first = apply_patch_file(target, candidate, tmp_path / 'backups', sha(b'original'))
+    candidate.write_bytes(b'B')
+    with pytest.raises(ValueError, match='Target changed'):
+        update_patch_file(target, candidate, tmp_path / 'backups', first,
+                          sha(b'original'), sha(b'B'),
+                          before_replace=lambda: target.write_bytes(b'external'))
+    assert target.read_bytes() == b'external'
+
+
+@pytest.mark.parametrize('kind', ['target-link', 'parent-link', 'hardlink'])
+def test_unsafe_install_paths_are_rejected(tmp_path, kind):
+    import os
+    target = tmp_path / 'game' / 'game.swf'
+    target.parent.mkdir()
+    target.write_bytes(b'original')
+    selected = target
+    if kind == 'target-link':
+        selected = tmp_path / 'link.swf'
+        selected.symlink_to(target)
+    elif kind == 'parent-link':
+        (tmp_path / 'alias').symlink_to(target.parent, target_is_directory=True)
+        selected = tmp_path / 'alias' / 'game.swf'
+    else:
+        os.link(target, tmp_path / 'hardlink')
+    candidate = tmp_path / 'candidate.swf'
+    candidate.write_bytes(b'A')
+    with pytest.raises(ValueError, match='link'):
+        apply_patch_file(selected, candidate, tmp_path / 'backups', sha(b'original'))
+    assert target.read_bytes() == b'original'
+
+
+@pytest.mark.parametrize('damage', ['backup', 'manifest', 'version'])
+def test_damaged_update_refused(tmp_path, damage):
+    from install_patch import update_patch_file
+    target = tmp_path / 'game' / 'game.swf'
+    target.parent.mkdir()
+    target.write_bytes(b'original')
+    candidate = tmp_path / 'candidate.swf'
+    candidate.write_bytes(b'A')
+    first = apply_patch_file(target, candidate, tmp_path / 'backups', sha(b'original'))
+    record = json.loads(first.read_text())
+    if damage == 'backup':
+        backup = Path(record['backup_path'])
+        backup.chmod(0o600)
+        backup.write_bytes(b'bad')
+    elif damage == 'manifest':
+        record['schema'] = 55
+        first.write_text(json.dumps(record))
+    else:
+        record['original_sha256'] = sha(b'wrong')
+        first.write_text(json.dumps(record))
+    candidate.write_bytes(b'B')
+    with pytest.raises(ValueError):
+        update_patch_file(target, candidate, tmp_path / 'backups', first,
+                          sha(b'original'), sha(b'B'))
+    assert target.read_bytes() == b'A'
+
+
+@pytest.mark.parametrize('operation', ['apply', 'update', 'restore'])
+def test_backup_changed_by_precommit_callback_refuses_write(tmp_path, operation):
+    from install_patch import update_patch_file
+    target = tmp_path / 'game' / 'game.swf'
+    target.parent.mkdir()
+    target.write_bytes(b'original')
+    candidate = tmp_path / 'candidate.swf'
+    candidate.write_bytes(b'A')
+    store = tmp_path / 'backups'
+    backup = store / (target.name + '.' + sha(b'original') + '.original')
+
+    def corrupt():
+        backup.chmod(0o600)
+        backup.write_bytes(b'damaged')
+
+    if operation == 'apply':
+        def call():
+            return apply_patch_file(target, candidate, store, sha(b'original'),
+                                                before_replace=corrupt)
+        expected = b'original'
+    else:
+        manifest = apply_patch_file(target, candidate, store, sha(b'original'))
+        expected = b'A'
+        if operation == 'update':
+            candidate.write_bytes(b'B')
+            def call():
+                return update_patch_file(target, candidate, store, manifest,
+                                                         sha(b'original'), sha(b'B'),
+                                                         before_replace=corrupt)
+        else:
+            def call():
+                return restore_patch_file(manifest, before_replace=corrupt)
+    with pytest.raises(ValueError):
+        call()
+    assert target.read_bytes() == expected
+
+
+def test_permission_denied_staging_preserves_game_and_other_files(tmp_path, monkeypatch):
+    import install_patch
+    target = tmp_path / 'gc-cs-steam.swf'
+    target.write_bytes(b'original')
+    other = tmp_path / 'other.txt'
+    other.write_bytes(b'keep')
+    def denied(*args, **kwargs):
+        raise PermissionError('denied')
+    monkeypatch.setattr(install_patch.tempfile, 'mkstemp', denied)
+    with pytest.raises(PermissionError):
+        install_patch.atomic_replace(target, b'patched', sha(b'original'))
+    assert target.read_bytes() == b'original'
+    assert other.read_bytes() == b'keep'
+
+
+def test_reinstall_from_original_rejects_damaged_historical_manifest(tmp_path):
+    target = tmp_path / 'game' / 'game.swf'
+    target.parent.mkdir()
+    target.write_bytes(b'original')
+    candidate = tmp_path / 'candidate.swf'
+    candidate.write_bytes(b'A')
+    store = tmp_path / 'backups'
+    receipt = apply_patch_file(target, candidate, store, sha(b'original'), sha(b'A'))
+    restore_patch_file(receipt, expected_original=sha(b'original'))
+    record = json.loads(receipt.read_text(encoding='utf-8'))
+    record['schema'] = 55
+    receipt.write_text(json.dumps(record), encoding='utf-8')
+    with pytest.raises(ValueError, match='schema'):
+        apply_patch_file(target, candidate, store, sha(b'original'), sha(b'A'))
+    assert target.read_bytes() == b'original'

@@ -17,7 +17,9 @@ from translation_catalog import load_catalog
 from versioned_catalog import catalog_digest, export_catalog
 
 pytestmark = pytest.mark.local
-EXPECTED = '0bf6d4ae5bc0764bfc84d589892c1288de71062673f663d532e9e434b22ebacf'
+EXPECTED = json.loads((Path(__file__).resolve().parents[1] /
+                       'translations/build-manifest.json').read_text(encoding='utf-8'))[
+                           'expected_candidate_sha256']
 
 
 def test_restore_build_and_temporary_apply_restore(tmp_path):
