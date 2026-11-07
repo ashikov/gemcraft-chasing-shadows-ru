@@ -19,7 +19,7 @@ def map_artifacts():
         pytest.skip('Set GEMCRAFT_ORIGINAL to the supported private original')
     from PIL import Image
     source = Path(os.environ['GEMCRAFT_ORIGINAL']).read_bytes()
-    recipe = json.loads(DEFAULT_RECIPE.read_text())['journey_map']
+    recipe = json.loads(DEFAULT_RECIPE.read_text(encoding='utf-8'))['journey_map']
     assert digest(source) == recipe['game_sha256']
     font = Path(os.environ.get('GEMCRAFT_ALEGREYA_FONT',
                               'reference-fonts/alegreya/Alegreya[wght].ttf')).read_bytes()

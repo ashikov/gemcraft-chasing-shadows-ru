@@ -1,5 +1,6 @@
 """Native Windows private-preview packaging; no game assets enter the bundle."""
 import argparse
+import ctypes
 import json
 import os
 from pathlib import Path
@@ -12,9 +13,13 @@ from install_patch import sha
 from localization_project import build_project, validate_project
 
 PROJECT = Path(__file__).resolve().parent
+FRIBIDI_FILES = {
+    'fribidi.dll': '78b063ae41832d256c5ad8677c2e10fae18fbe7e623dc2ccf279ee3dcbdba1fc',
+    'fribidi-1.0.17-COPYING': '20e50fe7aae3e56378ebf0417d9de904f55a0e61e4df315333e632a4d3555d95',
+}
 
 
-def stage_resources(destination, font, project=PROJECT):
+def stage_resources(destination, font, project=PROJECT, *, fribidi_dir=None):
     """Create a deterministic, hashed allowlist; never copy local directories."""
     destination, project, font = map(Path, (destination, project, font))
     validate_project(project / 'translations/catalog.json',
@@ -32,7 +37,13 @@ def stage_resources(destination, font, project=PROJECT):
     for name in ('provenance.json', 'OFL.txt'):
         files['fonts/alegreya/' + name] = project / 'fonts/alegreya' / name
     files['fonts/alegreya/Alegreya[wght].ttf'] = font
+    if fribidi_dir is not None:
+        files.update({name: Path(fribidi_dir) / name for name in FRIBIDI_FILES})
     payload = {relative: source.read_bytes() for relative, source in sorted(files.items())}
+    if fribidi_dir is not None:
+        for name, digest in FRIBIDI_FILES.items():
+            if sha(payload[name]) != digest:
+                raise ValueError(f'FriBidi resource SHA mismatch: {name}')
     destination.mkdir(parents=True, exist_ok=False)
     for relative, data in payload.items():
         target = destination / relative
@@ -60,7 +71,14 @@ def packaging_command(entry, resources, output, work, name, *, windowed=True):
             raise ValueError('Unsafe packaged data path')
         if sha(path.read_bytes()) != digest:
             raise ValueError('Packaged resource SHA mismatch')
-        command += ['--add-data', str(path) + os.pathsep + str(Path(relative).parent)]
+        option = '--add-data'
+        if path.suffix.lower() == '.dll':
+            if relative != 'fribidi.dll':
+                raise ValueError('Unapproved packaged DLL')
+            if digest != FRIBIDI_FILES[relative]:
+                raise ValueError('FriBidi DLL SHA mismatch')
+            option = '--add-binary'
+        command += [option, str(path) + os.pathsep + str(Path(relative).parent)]
     command += ['--add-data', str(resources / 'installer-resources.json') + os.pathsep + '.',
                 str(entry)]
     return command
@@ -70,6 +88,8 @@ def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--source', type=Path, required=True, help='Owned verified original SWF')
     parser.add_argument('--font', type=Path, required=True)
+    parser.add_argument('--fribidi-dir', type=Path, required=True,
+                        help='Pinned FriBidi 1.0.17 x64 DLL and COPYING directory')
     parser.add_argument('--output', type=Path, default=PROJECT / 'output/windows-installer')
     args = parser.parse_args(argv)
     if sys.platform != 'win32':
@@ -79,7 +99,13 @@ def main(argv=None):
     with tempfile.TemporaryDirectory(prefix='gemcraft-installer-build-') as temporary:
         temporary = Path(temporary)
         stage = temporary / 'resources'
-        stage_resources(stage, args.font)
+        stage_resources(stage, args.font, fribidi_dir=args.fribidi_dir)
+        # Pillow selects optional shaping support when its extension first loads.
+        # Loading the persistent input avoids locking our temporary staging directory.
+        fribidi = args.fribidi_dir.resolve() / 'fribidi.dll'
+        if sha(fribidi.read_bytes()) != FRIBIDI_FILES['fribidi.dll']:
+            raise ValueError('FriBidi DLL SHA mismatch before loading')
+        ctypes.WinDLL(str(fribidi))
         # Independently build twice before packaging; production validation rereads disk.
         for index in range(2):
             build_project(args.source, stage / 'fonts/alegreya/Alegreya[wght].ttf',

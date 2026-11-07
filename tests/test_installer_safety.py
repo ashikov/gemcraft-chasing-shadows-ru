@@ -3,6 +3,72 @@ import pytest
 from installer_safety import safe_path, snapshot
 
 
+@pytest.mark.parametrize('changed_field', [None, 'st_dev', 'st_ino', 'st_size',
+                                         'st_mtime_ns', 'st_ctime_ns', 'st_mode',
+                                         'st_nlink', 'st_uid', 'st_gid'])
+def test_snapshot_ignores_only_access_time_changes_during_read(
+        tmp_path, monkeypatch, changed_field):
+    from pathlib import Path
+    from types import SimpleNamespace
+
+    root = tmp_path / 'root'
+    root.mkdir()
+    source = root / 'save.dat'
+    source.write_bytes(b'progress')
+    real_stat, real_read = Path.stat, Path.read_bytes
+    reads = 0
+
+    def stat(path, *args, **kwargs):
+        info = real_stat(path, *args, **kwargs)
+        if path != source:
+            return info
+        fields = {name: getattr(info, name) for name in dir(info) if name.startswith('st_')}
+        fields['st_atime'] += reads
+        fields['st_atime_ns'] += reads * 1_000_000_000
+        if changed_field is not None:
+            fields[changed_field] += bool(reads)
+        return SimpleNamespace(**fields)
+
+    def read(path):
+        nonlocal reads
+        data = real_read(path)
+        if path == source:
+            reads += 1
+        return data
+
+    monkeypatch.setattr(Path, 'stat', stat)
+    monkeypatch.setattr(Path, 'read_bytes', read)
+    if changed_field is None:
+        recheck = snapshot([root], tmp_path / 'backup')
+        recheck()
+        assert real_read(source) == b'progress'
+        assert real_read(tmp_path / 'backup/0/save.dat') == b'progress'
+    else:
+        with pytest.raises(ValueError, match='изменились во время чтения|hardlink'):
+            snapshot([root], tmp_path / 'backup')
+
+
+def test_snapshot_rejects_hardlink_created_during_read(tmp_path, monkeypatch):
+    from pathlib import Path
+
+    root = tmp_path / 'root'
+    root.mkdir()
+    source = root / 'save.dat'
+    source.write_bytes(b'progress')
+    outside = tmp_path / 'outside.dat'
+    real_read = Path.read_bytes
+
+    def read(path):
+        data = real_read(path)
+        if path == source and not outside.exists():
+            outside.hardlink_to(source)
+        return data
+
+    monkeypatch.setattr(Path, 'read_bytes', read)
+    with pytest.raises(ValueError, match='hardlink|изменились во время чтения'):
+        snapshot([root], tmp_path / 'backup')
+
+
 def test_snapshot_preserves_sources_and_detects_changes(tmp_path):
     root = tmp_path / 'профиль'
     root.mkdir()

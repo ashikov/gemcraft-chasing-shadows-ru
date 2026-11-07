@@ -131,7 +131,12 @@ def _inventory(root):
             paths.extend(sorted(path.iterdir(), reverse=True))
         elif path.is_file():
             data = path.read_bytes()
-            if path.stat() != info:
+            after = safe_path(path).stat()
+            # NTFS may update access time on read; retain all other stat guards
+            # and compare modification/creation times at nanosecond precision.
+            fields = ('st_mode', 'st_ino', 'st_dev', 'st_nlink', 'st_uid', 'st_gid',
+                      'st_size', 'st_mtime_ns', 'st_ctime_ns')
+            if any(getattr(after, field) != getattr(info, field) for field in fields):
                 raise ValueError(f'Данные изменились во время чтения: {path}')
             result[relative] = {'size': len(data), 'sha256': _digest(data),
                                 'identity': identity}

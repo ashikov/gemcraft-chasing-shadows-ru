@@ -26,8 +26,8 @@ jobs:
         with:
           python-version: '3.11'
       - run: python -m pip install -r requirements-dev.txt
-      - run: python -m pytest -q tests/test_windows_installer.py tests/test_installer_packaging.py tests/test_installer_safety.py -k "not unsafe_paths"
-      - run: python -m compileall -q windows_installer.py installer_gui.py installer_safety.py build_windows_installer.py
+      - run: python -m pytest -q tests/test_windows_installer.py tests/test_installer_packaging.py tests/test_installer_safety.py tests/test_journey_map.py tests/test_journey_map_plan.py -k "not unsafe_paths"
+      - run: python -m compileall -q windows_installer.py installer_gui.py installer_safety.py build_windows_installer.py journey_map_localization.py
 
   windows-packaging-smoke:
     runs-on: windows-latest

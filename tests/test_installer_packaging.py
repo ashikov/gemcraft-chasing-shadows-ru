@@ -62,3 +62,96 @@ def test_unrelated_python_is_not_staged_or_packaging_input(tmp_path, monkeypatch
                                            tmp_path / 'dist', tmp_path / 'work', 'preview')
     assert not any('secret.py' in argument for argument in command)
     assert str(project / 'installer_gui.py') == command[-1]
+
+
+def fixture_fribidi(tmp_path, monkeypatch):
+    directory = tmp_path / 'fribidi'
+    directory.mkdir()
+    payload = {'fribidi.dll': b'synthetic DLL',
+               'fribidi-1.0.17-COPYING': b'synthetic license'}
+    for name, data in payload.items():
+        (directory / name).write_bytes(data)
+    monkeypatch.setattr(packaging, 'FRIBIDI_FILES',
+                        {name: sha(data) for name, data in payload.items()}, raising=False)
+    return directory, payload
+
+
+def test_pinned_fribidi_and_license_are_staged_without_unrelated_dll(tmp_path, monkeypatch):
+    project, font = fixture_project(tmp_path, monkeypatch)
+    directory, payload = fixture_fribidi(tmp_path, monkeypatch)
+    (directory / 'unrelated.dll').write_bytes(b'not approved')
+    stage = tmp_path / 'resources'
+    inventory = packaging.stage_resources(stage, font, project, fribidi_dir=directory)
+    for name, data in payload.items():
+        assert inventory['files'][name] == sha(data)
+        assert (stage / name).read_bytes() == data
+    assert 'unrelated.dll' not in inventory['files']
+    assert not (stage / 'unrelated.dll').exists()
+    command = packaging.packaging_command(project / 'installer_gui.py', stage,
+                                           tmp_path / 'dist', tmp_path / 'work', 'preview')
+    binary = str(stage / 'fribidi.dll') + packaging.os.pathsep + '.'
+    license_data = str(stage / 'fribidi-1.0.17-COPYING') + packaging.os.pathsep + '.'
+    assert command[command.index(binary) - 1] == '--add-binary'
+    assert command[command.index(license_data) - 1] == '--add-data'
+    assert not any('unrelated.dll' in argument for argument in command)
+
+
+@pytest.mark.parametrize('name', ['fribidi.dll', 'fribidi-1.0.17-COPYING'])
+def test_changed_fribidi_input_is_rejected_before_staging(tmp_path, monkeypatch, name):
+    project, font = fixture_project(tmp_path, monkeypatch)
+    directory, _ = fixture_fribidi(tmp_path, monkeypatch)
+    (directory / name).write_bytes(b'changed')
+    with pytest.raises(ValueError, match='FriBidi.*SHA'):
+        packaging.stage_resources(tmp_path / 'resources', font, project, fribidi_dir=directory)
+    assert not (tmp_path / 'resources').exists()
+
+
+def test_missing_fribidi_license_is_rejected_before_staging(tmp_path, monkeypatch):
+    project, font = fixture_project(tmp_path, monkeypatch)
+    directory, _ = fixture_fribidi(tmp_path, monkeypatch)
+    (directory / 'fribidi-1.0.17-COPYING').unlink()
+    with pytest.raises(FileNotFoundError):
+        packaging.stage_resources(tmp_path / 'resources', font, project, fribidi_dir=directory)
+    assert not (tmp_path / 'resources').exists()
+
+
+def test_packaging_rejects_an_unapproved_dll_in_inventory(tmp_path, monkeypatch):
+    project, font = fixture_project(tmp_path, monkeypatch)
+    stage = tmp_path / 'resources'
+    inventory = packaging.stage_resources(stage, font, project)
+    (stage / 'unrelated.dll').write_bytes(b'not approved')
+    inventory['files']['unrelated.dll'] = sha(b'not approved')
+    (stage / 'installer-resources.json').write_text(json.dumps(inventory))
+    with pytest.raises(ValueError, match='Unapproved.*DLL'):
+        packaging.packaging_command(project / 'installer_gui.py', stage,
+                                    tmp_path / 'dist', tmp_path / 'work', 'preview')
+
+
+@pytest.mark.parametrize('change_after_staging', [False, True])
+def test_build_loads_only_verified_persistent_dll(tmp_path, monkeypatch, change_after_staging):
+    directory, payload = fixture_fribidi(tmp_path, monkeypatch)
+    loaded = []
+
+    def stage(destination, font, *, fribidi_dir):
+        destination.mkdir()
+        (destination / 'fribidi.dll').write_bytes(payload['fribidi.dll'])
+        if change_after_staging:
+            (directory / 'fribidi.dll').write_bytes(b'changed')
+
+    def build(*args, **kwargs):
+        raise RuntimeError('stop after preload')
+
+    monkeypatch.setattr(packaging, 'stage_resources', stage)
+    monkeypatch.setattr(packaging.ctypes, 'WinDLL', loaded.append, raising=False)
+    monkeypatch.setattr(packaging, 'build_project', build)
+    monkeypatch.setattr(packaging.sys, 'platform', 'win32')
+    args = ['--source', str(tmp_path / 'owned.swf'), '--font', str(tmp_path / 'font.ttf'),
+            '--fribidi-dir', str(directory), '--output', str(tmp_path / 'output')]
+    if change_after_staging:
+        with pytest.raises(ValueError, match='SHA mismatch before loading'):
+            packaging.main(args)
+        assert loaded == []
+    else:
+        with pytest.raises(RuntimeError, match='stop after preload'):
+            packaging.main(args)
+        assert loaded == [str(directory.resolve() / 'fribidi.dll')]

@@ -23,40 +23,96 @@ GUI `installer_gui.py` использует Tkinter и общий backend `windo
 операция останавливается; пользователь может явно запустить EXE от администратора.
 Автоматического повышения прав, служб и изменений реестра нет.
 
+Snapshot проверяет сохранения до замены SWF. На NTFS само чтение может изменить
+access time, поэтому это поле исключено из сравнения. Остальные прежние поля
+`stat`, включая число hardlink, сохраняются; `mtime/ctime` сравниваются с
+наносекундной точностью, после чтения повторяется проверка безопасного пути.
+SHA данных и backup проверяются отдельно. Это устраняет ложный отказ на чтении
+`prefs.dat`, сохраняя отказ при реальном изменении файла или появлении ссылки.
+
 ## Нативная сборка следующей версии
 
-Нужны Windows x64, Windows Python 3.11+ с Tkinter, свежий согласованный `main`,
-проверенный оригинал своей игры и локальный закреплённый TTF по README.
+Нужны Windows x64, Windows Python 3.11+ с Tkinter, согласованные каталог и manifest
+из выбранной ревизии проекта, проверенный оригинал своей игры и локальный
+закреплённый TTF по README. Для раскладки текста карты нужна также закреплённая
+FriBidi 1.0.17 x64 с лицензией (см. ниже).
 Зависимости заранее установите в отдельное окружение; для полностью офлайн-сборки
 предварительно подготовьте wheelhouse. Во время установки доступ к сети не нужен.
 
 ```powershell
-py -3.11 -m venv .venv-installer
+& "$env:LOCALAPPDATA\Programs\Python\Python311\python.exe" -m venv .venv-installer
 .\.venv-installer\Scripts\python -m pip install -r requirements-installer.txt
 .\.venv-installer\Scripts\python build_windows_installer.py `
   --source 'D:\OwnedOriginal\gc-cs-steam.swf' `
   --font 'D:\Fonts\Alegreya[wght].ttf' `
+  --fribidi-dir 'D:\BuildDependencies\fribidi' `
   --output 'output\windows-installer'
 ```
 
 Сценарий валидирует каталог, планы и provenance, формирует стабильный allowlist
 ресурсов с SHA каждого файла, дважды собирает кандидат штатным путём и только
 затем запускает PyInstaller. Неверный SHA кандидата или несовместимый renderer
-останавливает сборку. Pillow 12.3.0 должен иметь версии JPEG/FreeType, закреплённые
-планом карты; совпадение Python-пакета само по себе этого не гарантирует.
+останавливает сборку. Проверяются закреплённые Pillow/FreeType/libjpeg-turbo и
+проверенный вариант Windows renderer; совпадение версии Python-пакета само по
+себе этого не гарантирует. Raqm обязателен: fallback на BASIC запрещён.
 Сборку нужно выполнять нативно: PyInstaller не является cross compiler.
 
 Результат: `GemCraft-RU-<SHA prefix>.exe`, входной inventory и SHA EXE в выбранном
 каталоге. Внутри EXE — инструменты Python, собственный каталог и планы, TTF и
-OFL/copyright/provenance Alegreya. Ресурсы находятся относительно `__file__`,
+OFL/copyright/provenance Alegreya, проверенная FriBidi DLL и её COPYING.
+Ресурсы находятся относительно `__file__`,
 поэтому текущий рабочий каталог не влияет на поиск. Временные SWF и двуязычный
 workspace уничтожаются после сборки и не включаются в EXE.
 
-Повторяйте эту команду после обновления переводов и manifest; ручная замена SHA
+Повторяйте эту команду после обновления переводов и manifest, выбирая новый
+`--output` для сохранения прежнего проверенного EXE; ручная замена SHA
 в GUI не требуется. Детерминированность списка и содержимого входов проверяется
 синтетическим тестом. Битовое совпадение EXE между разными Python, Windows,
 версиями упаковщика и toolchain не гарантируется; для проверки повторите сборку
 дважды в одном окружении и сравните `.sha256` и `-inputs.json`.
+
+### Зависимость Windows renderer
+
+Официальный wheel Pillow 12.3.0 содержит Raqm 0.10.5 и HarfBuzz 14.2.1, но
+активирует их только после загрузки FriBidi DLL. Без неё Windows использует
+BASIC, и пиксели русских подписей не совпадают с рецептом. Кроме того,
+`features.version('jpg')` сообщает версию ABI: Windows wheel использует JPEG 8.0,
+Linux — 6.2, при одинаковом libjpeg-turbo 3.1.4.1. FreeType — 2.14.3.
+[Исходники Pillow 12.3.0](https://github.com/python-pillow/Pillow/blob/bb1d8e8ab8d29048624d96e3ee53cecf7c13d13d/src/_imagingft.c#L1667-L1682),
+[настройка JPEG ABI Windows](https://github.com/python-pillow/Pillow/blob/bb1d8e8ab8d29048624d96e3ee53cecf7c13d13d/winbuild/build_prepare.py#L140-L144).
+
+Проверенная DLL получена из официального
+[Pillow Wheels run 41756149465](https://github.com/python-pillow/Pillow/actions/runs/41756149465),
+commit `267ec21abe57d2c089d067ef097ebd70bf319faf`, artifact
+`fribidi-windows-AMD64` (ID `13289763449`). Архив содержит ровно два файла:
+
+| Файл | SHA-256 |
+| --- | --- |
+| `fribidi.dll` | `78b063ae41832d256c5ad8677c2e10fae18fbe7e623dc2ccf279ee3dcbdba1fc` |
+| `fribidi-1.0.17-COPYING` | `20e50fe7aae3e56378ebf0417d9de904f55a0e61e4df315333e632a4d3555d95` |
+
+SHA архива: `0503ee0cd0389ba7b1ca22d65fc7825b643aabe5e10fa51d41e4383eaaf69cbb`.
+Срок хранения upstream-артефакта ограничен (до 2027-02-02); сохраните проверенные
+входы локально для следующих сборок. Не заменяйте их произвольной DLL с тем же
+именем. Получить файлы через уже настроенный GitHub CLI можно так:
+
+```powershell
+gh run download 41756149465 --repo python-pillow/Pillow `
+  --name fribidi-windows-AMD64 --dir 'D:\BuildDependencies\fribidi'
+```
+
+Сборщик проверяет оба SHA до staging и повторно проверяет DLL перед загрузкой
+из постоянного каталога зависимостей. Временную DLL не загружают в процесс
+сборщика: Windows блокировала бы её удаление при очистке staging. Только
+`fribidi.dll` включается через `--add-binary`; остальные данные идут по прежнему
+allowlist. Системный PATH, реестр и настройки безопасности для этого не нужны.
+В EXE DLL находится в каталоге распаковки PyInstaller вместе с лицензией LGPL 2.1.
+
+Разрешена только проверенная Windows-комбинация с FriBidi 1.0.17;
+прежняя Linux-среда использует FriBidi 1.0.8. Отчёт показывает фактический JPEG ABI.
+Обе среды воспроизвели одинаковые пиксели и JPEG
+`168f562c1afdb55728d2f4482d20affb824243b1ab6d527274119c3163709b67`.
+SHA плана, пикселей, JPEG и полного SWF не заменяются платформенными значениями.
 
 ## Проверка preview
 
@@ -72,7 +128,7 @@ Windows. Факт успешной сборки/запуска EXE должен 
 Публичная публикация EXE, игровые материалы, Release и merge не разрешены.
 Условия и ограничения прав описаны в [legal.md](legal.md).
 
-## Свидетельства текущего этапа
+## Исторические свидетельства первоначального preview
 
 Linux/WSL: синтетические операции A → B → original, повторная установка,
 повреждения, гонки цели/сохранений, отказ staging при недостатке прав,
@@ -81,10 +137,10 @@ Linux/WSL: синтетические операции A → B → original, п�
 проверены font provenance, каталог и все планы. Независимое ревью выявило
 и устранило self-block EXE/onefile bootloader в проверке процессов.
 
-Нативный Windows Python в доступной системе отсутствует: найден только
+В начале этапа нативный Windows Python в доступной системе отсутствовал: найден только
 Microsoft Store alias, `python --version` завершается ошибкой. Поэтому EXE
-не создан и GUI не запущен; нативная упаковка, renderer и интерфейс на Windows
-остаются непроверенными. В CI добавлен Windows job с синтетическими backend
+не был создан и GUI не запускался; нативная упаковка, renderer и интерфейс на Windows
+тогда оставались непроверенными. В CI добавлен Windows job с синтетическими backend
 транзакциями и smoke проверки Toolhelp, без игры и пользовательских данных.
 
 После аварийного завершения остаётся `operation.lock` в каталоге установки
@@ -115,8 +171,112 @@ GUI-проверка явно помечается пропущенной с п�
 во временной директории runner и не загружаются в artifacts. Steam, сохранения,
 приватные переводы и оригинальный SWF этот job не читает и не упаковывает.
 
-Это синтетическая проверка упаковщика, а не production EXE. На пользовательской
-Windows-машине ещё нужны штатная сборка с собственным проверенным оригиналом,
-проверка закреплённого renderer и production SHA, запуск production GUI и
-операции на изолированной копии. PR остаётся Draft; Steam-установка и игра
-в эти проверки не входят.
+Это синтетическая проверка упаковщика. Отдельная приёмка production EXE
+на пользовательской Windows-машине описана ниже. PR остаётся Draft;
+Steam-установка и запуск игры в эту приёмку не входят.
+
+## Нативная production-сборка PR #39, 6–7 ноября 2026
+
+Сборка выполнена на пользовательской Windows x64 (build 26200), нативным
+Python 3.11.9 x64 с Tcl/Tk 8.6. Python установлен для пользователя без launcher
+и изменения системного PATH; пакеты находятся только в отдельном
+`.venv-installer`. Установка Python, пакетов и FriBidi заранее согласована.
+ExecutionPolicy, антивирус и другие защитные настройки не менялись.
+
+Окружение: PyInstaller 6.16.0, hooks-contrib 2026.9, Pillow 12.3.0,
+fontTools 4.66.1, FreeType 2.14.3, libjpeg-turbo 3.1.4.1 (Windows JPEG ABI 8.0),
+Raqm 0.10.5, HarfBuzz 14.2.1, FriBidi 1.0.17. `pip check` прошёл.
+Точный разрешённый lock и `pip freeze` сохранены в игнорируемом
+`local/pr39-production-20261106/`; глобальные Python-пакеты не устанавливались.
+
+Повторение выполненной сборки из корня репозитория в PowerShell:
+
+```powershell
+& 'C:\Users\ln\AppData\Local\GemCraftRU-Build\pr39-20261106\.venv-installer\Scripts\python.exe' `
+  -u build_windows_installer.py `
+  --source '\\wsl.localhost\Ubuntu\home\ln\ashikov\gemcraft-chasing-shadows-ru\backups\gc-cs-steam.swf.c8eadc03a7e607086998695f7696ec22dd90d7b7859e3d10cdfabf40fc7bbad5.original' `
+  --font '\\wsl.localhost\Ubuntu\home\ln\ashikov\gemcraft-chasing-shadows-ru\reference-fonts\alegreya\Alegreya[wght].ttf' `
+  --fribidi-dir 'C:\Users\ln\AppData\Local\GemCraftRU-Build\pr39-20261106\dependencies\fribidi' `
+  --output '\\wsl.localhost\Ubuntu\home\ln\ashikov\gemcraft-chasing-shadows-ru\output\windows-installer-production-20261106-r2'
+```
+
+Оба штатных preflight builds и обе независимые on-disk validation прошли;
+3029 переводов применены в каждом проходе. SHA кандидата совпал с актуальным
+manifest: `2c814f230a5cf9e89ae212f1cc32ec2ce7d9427209a8d28b0bd9e14af8a6488c`.
+
+Окончательный EXE: `output/windows-installer-production-20261106-r2/GemCraft-RU-2c814f230a5c.exe`,
+24 745 141 байт, SHA-256
+`73fa461009a59a3d81deccfa876ea90919bb1c14193015c5265e35b9c92a08a8`.
+Рядом находятся `.sha256` и `-inputs.json`. Побайтово идентичная Windows-копия:
+`C:\Users\ln\AppData\Local\GemCraftRU-Build\pr39-20261106\output-r2\GemCraft-RU-2c814f230a5c.exe`.
+Все эти материалы остаются локальными и не входят в Git или CI artifacts.
+
+Независимое чтение архива EXE подтвердило AMD64/Windows GUI subsystem,
+все 40 SHA ресурсов и присутствие окончательного NTFS guard. В архиве нет
+оригинального/локализованного SWF, сохранений, private backup, дампов или
+постороннего исходного модуля `secret`. Точные списки 1481 записей архива и
+710 Python-модулей сохранены в локальном `exe-audit-r2.json`.
+
+Первая production-сборка сохранена отдельно как **не принятая**: реальный GUI
+выявил ложный отказ snapshot при обновлении NTFS access time чтением `prefs.dat`.
+Ошибка возникла до записи целевого SWF. После исправления и проверки сохранения
+защит от изменений/hardlink выполнена полная повторная сборка `r2` выше.
+
+### Приёмка окончательного EXE
+
+Проверен именно EXE с SHA выше, без импорта исходников GUI в тестовый процесс.
+Временный внешний Win32 harness выполнял физические клики и Unicode-ввод;
+production GUI не содержит диагностических изменений. Перед каждым `Yes`
+проверялись текст подтверждения, точный изолированный путь и SHA показанного
+состояния; в тесте гонки файл намеренно изменён после показа этого SHA.
+После ошибки выделения текста в harness отрицательные сценарии выполнены
+в новых экземплярах с пустым полем пути; ошибочный ввод отклонялся без записи.
+
+| Сценарий | Фактический результат |
+| --- | --- |
+| Двойной клик в Explorer | Открыто Tkinter-окно, русский заголовок и текст отображаются корректно |
+| Другой cwd, пробелы и кириллица | Запуск и операции прошли в `приёмка с пробелами`; ресурсы найдены |
+| Отсутствие Python в PATH | Запуск с системным PATH, пустым PYTHONPATH и несуществующим PYTHONHOME прошёл; Python/Tk/Pillow/FriBidi загружены из `_MEI…` самого EXE |
+| Original → B | EXE сам собрал кандидат, выполнил on-disk validation и установил точные байты B |
+| Повторная установка B | Ни одного изменения файлов тестовой структуры, включая identity/mtime и журналы |
+| B → original | Возвращены точные байты оригинала `c8eadc03…bbad5`, backup сохранён |
+| A → B | Проверенная A `41bb1a40cf95f8b48a9829df130ee492f07c8dcb2539070b11c07fc181f592e9` обновлена до B; прежние manifest A и original backup неизменны |
+| Откат после A → B | Возвращён оригинал, история A/B и backup сохранены |
+| Неизвестный SHA | Отказ `Неизвестный или изменившийся SWF`, файлы не изменены |
+| Повреждённый backup | Отказ `Backup verification failed`, файлы не изменены |
+| Повреждённый manifest | Отказ `Malformed installation manifest`, файлы не изменены |
+| Изменение цели после показа подтверждения | Один байт изменён только в тестовой копии; подтверждение со старым SHA отклонено, новые байты не перезаписаны |
+
+A подготовлена из ранее проверенного локального прототипа с настоящим receipt
+штатного apply API. Тестовые A и повреждённые specimens не входят в EXE;
+production manifest не подменялся. Результаты каждой файловой операции
+проверены повторным чтением, SHA-256 и побайтовым сравнением с независимо
+проверенным оригиналом/кандидатом. Повторная установка и каждый отказ оставили
+весь соответствующий inventory неизменным. После успешных install/update/restore
+разрешённые изменения ограничились целевым файлом и новыми журналами в его store.
+
+Финальный inventory исходных Steam-файлов, сохранений GCCS/Flash, Cloud metadata,
+оригинального backup и Alegreya совпал с непосредственным началом работ:
+6 roots, 39 файлов, тот же состав, размеры и SHA. Установленный Steam SWF сохранил
+SHA `0bf6d4ae5bc0764bfc84d589892c1288de71062673f663d532e9e434b22ebacf`.
+Ничего из исторических snapshots не восстанавливалось поверх пользовательских
+данных. Игра не запускалась; все тестовые процессы установщика закрыты.
+
+Локальные свидетельства: `local/pr39-production-20261106/acceptance-summary-r2.json`,
+`gui-*-r2.json`, подтверждения dialogs, screenshots, `frozen-modules-r2.json`,
+`gui-protected-final-r2.json` и журнал `windows-build-r2.log`.
+Они не включены в Git. Первая установка и обновление каждое выполняли полный
+build/validation; на этой машине один такой цикл занимал около 20 минут.
+
+Регрессии перед сборкой: Linux `pytest -m 'not local'` — 1524 passed, 1 skipped;
+нативный Windows набор installer/map с реальным оригиналом — 83 passed,
+1 privilege-dependent symlink test deselected. Linux local map — 6 passed.
+Ruff, compileall, валидаторы каталога/проекта и native synthetic onefile smoke
+прошли. В CI Windows набор расширен проверками renderer; реальные игровые
+материалы CI не получает. Результаты CI конкретного коммита прикрепляются к PR.
+
+Ограничения: проверена указанная Windows x64/toolchain-комбинация; EXE не подписан
+и не опубликован. Локализация остаётся PARTIAL; файловая приёмка не является новой
+визуальной проверкой игры. SHA кандидата встроен в manifest, сам SWF в EXE
+отсутствует. Следующее исправление перевода собирается той же командой с новым
+актуальным manifest и новым `--output`, без изменения GUI.
